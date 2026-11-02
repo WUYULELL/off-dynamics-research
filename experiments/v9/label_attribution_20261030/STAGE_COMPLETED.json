@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "status": "AWAITING_STAGE3_CONFIRMATION",
+  "all20_audited": true,
+  "analysis_completed_sha256": "841606f3eb5d49f137cd0f9ff91d37b80f5cb01cc6134afd41f6552520804bd9",
+  "report": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\STAGE2_REPORT_ZH.md",
+  "report_sha256": "0d67f857318f8024fc59647c6a2888913dd0f1a9b9a17d0c9095a7a6f487bbb0",
+  "stage3_started": false,
+  "stage4_started": false,
+  "estimator_development": false,
+  "time": 1793523182.2380097
+}

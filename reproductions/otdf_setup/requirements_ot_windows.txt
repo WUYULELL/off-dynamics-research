@@ -1,0 +1,16 @@
+# Windows CPU compatibility environment. This is NOT the paper's exact JAX stack.
+# Paper README: jax/jaxlib 0.4.9, ott-jax 0.4.5, jaxopt 0.8.3.
+# JAX 0.4.20 provides an official Windows CPython 3.12 wheel.
+numpy==1.26.4
+scipy==1.11.4
+ml-dtypes==0.3.2
+jax==0.4.20
+jaxlib==0.4.20
+ott-jax==0.4.5
+jaxopt==0.8.3
+lineax==0.0.1
+equinox==0.11.2
+jaxtyping==0.2.25
+typeguard==2.13.3
+opt-einsum==3.3.0
+h5py==3.11.0

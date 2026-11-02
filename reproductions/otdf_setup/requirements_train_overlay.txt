@@ -1,0 +1,4 @@
+# Installed ONLY into reproductions/otdf_train, not the running offdynamics env.
+# The overlay inherits the existing CUDA PyTorch and MuJoCo installation read-only.
+gym==0.23.1
+gym-notices==0.0.8

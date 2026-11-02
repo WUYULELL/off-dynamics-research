@@ -1,0 +1,442 @@
+{
+  "items": [
+    {
+      "category": "import_repair_and_scope",
+      "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\trial.py",
+      "new_lines": [
+        "1-1",
+        "9-14",
+        "17-17",
+        "134-135"
+      ],
+      "description": "Original failure fixed by explicit O1 evaluate file import; CLI restricted to3 Stage0 trials; training loop AST unchanged",
+      "ranges": [
+        {
+          "original": [
+            1,
+            1
+          ],
+          "revised": [
+            1,
+            1
+          ]
+        },
+        {
+          "original": [
+            9,
+            9
+          ],
+          "revised": [
+            9,
+            14
+          ]
+        },
+        {
+          "original": [
+            12,
+            12
+          ],
+          "revised": [
+            17,
+            17
+          ]
+        },
+        {
+          "original": [
+            129,
+            130
+          ],
+          "revised": [
+            134,
+            135
+          ]
+        }
+      ],
+      "original_sha256": "804e09bacf1ed9e228df50c52294eb06d7e886585cfdffb6f574daf6998b62c9",
+      "revised_sha256": "a93d922a7251bb977a2f90595c69905abbe03ae475b007de9eae3f354e3a5546"
+    },
+    {
+      "category": "scope_and_protection",
+      "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\common.py",
+      "new_lines": [
+        "1-1",
+        "18-18",
+        "32-33",
+        "45-47",
+        "125-125"
+      ],
+      "description": "New output only, require stages1/2 unauthorized; protect old failed evidence; reject formal_jobs",
+      "ranges": [
+        {
+          "original": [
+            1,
+            1
+          ],
+          "revised": [
+            1,
+            1
+          ]
+        },
+        {
+          "original": [
+            18,
+            18
+          ],
+          "revised": [
+            18,
+            18
+          ]
+        },
+        {
+          "original": [
+            32,
+            33
+          ],
+          "revised": [
+            32,
+            33
+          ]
+        },
+        {
+          "original": [
+            45,
+            44
+          ],
+          "revised": [
+            45,
+            47
+          ]
+        },
+        {
+          "original": [
+            122,
+            125
+          ],
+          "revised": [
+            125,
+            125
+          ]
+        }
+      ],
+      "original_sha256": "a3e54cf463dd2477c615943e7e005e2bd460050fe9c6308c82c13bb3a04ea409",
+      "revised_sha256": "d2718a8b68c14b8d1e20b7e5c8e2ec9fdcf9cc4db3bdbf8129b6a01affbc8671"
+    },
+    {
+      "category": "scope_controller",
+      "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\pipeline.py",
+      "new_lines": [
+        "1-1",
+        "5-5",
+        "7-7",
+        "10-17",
+        "19-21",
+        "23-25",
+        "27-27",
+        "29-29",
+        "31-34",
+        "38-43",
+        "46-46",
+        "49-49"
+      ],
+      "description": "Only3 Stage0 trials; reuse accepted CPU receipt; audit/report/verify then exit; no later-stage launch branch",
+      "ranges": [
+        {
+          "original": [
+            1,
+            1
+          ],
+          "revised": [
+            1,
+            1
+          ]
+        },
+        {
+          "original": [
+            5,
+            5
+          ],
+          "revised": [
+            5,
+            5
+          ]
+        },
+        {
+          "original": [
+            7,
+            7
+          ],
+          "revised": [
+            7,
+            7
+          ]
+        },
+        {
+          "original": [
+            10,
+            22
+          ],
+          "revised": [
+            10,
+            17
+          ]
+        },
+        {
+          "original": [
+            24,
+            24
+          ],
+          "revised": [
+            19,
+            21
+          ]
+        },
+        {
+          "original": [
+            26,
+            29
+          ],
+          "revised": [
+            23,
+            25
+          ]
+        },
+        {
+          "original": [
+            31,
+            31
+          ],
+          "revised": [
+            27,
+            27
+          ]
+        },
+        {
+          "original": [
+            33,
+            33
+          ],
+          "revised": [
+            29,
+            29
+          ]
+        },
+        {
+          "original": [
+            35,
+            36
+          ],
+          "revised": [
+            31,
+            34
+          ]
+        },
+        {
+          "original": [
+            40,
+            60
+          ],
+          "revised": [
+            38,
+            43
+          ]
+        },
+        {
+          "original": [
+            63,
+            63
+          ],
+          "revised": [
+            46,
+            46
+          ]
+        },
+        {
+          "original": [
+            66,
+            66
+          ],
+          "revised": [
+            49,
+            49
+          ]
+        }
+      ],
+      "original_sha256": "f35ee4fb9c48e3e10d6f52810936039bcfaca1f4f4a04a04f8b5101ba57c0025",
+      "revised_sha256": "c99545efefa8353c1151ef7aa92a3f8d1cb475577c4cf9d70257593e41998040"
+    },
+    {
+      "category": "diagnostic_only",
+      "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\audit.py",
+      "new_lines": [
+        "32-32",
+        "63-63",
+        "75-76"
+      ],
+      "description": "Compute zero-selected-batch count/fraction from saved scalar diagnostics; no optimizer or sampling change",
+      "ranges": [
+        {
+          "original": [
+            32,
+            32
+          ],
+          "revised": [
+            32,
+            32
+          ]
+        },
+        {
+          "original": [
+            63,
+            62
+          ],
+          "revised": [
+            63,
+            63
+          ]
+        },
+        {
+          "original": [
+            74,
+            74
+          ],
+          "revised": [
+            75,
+            76
+          ]
+        }
+      ],
+      "original_sha256": "a4e9228a143d2133541d578440ac58098976fd5559e43d4fbf32bc65b3f3c9c0",
+      "revised_sha256": "4c5d0434da968308b415693ea6f8c2264afd94e32b7ba9ec63a1ece53bcb1bc1"
+    },
+    {
+      "category": "report_only",
+      "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\report.py",
+      "new_lines": [
+        "33-34",
+        "39-39",
+        "51-51",
+        "54-54",
+        "56-71"
+      ],
+      "description": "Revised instruction, selected-count denominator and empty-batch ratio; repair lines and evidence; stop afterStage0",
+      "ranges": [
+        {
+          "original": [
+            33,
+            33
+          ],
+          "revised": [
+            33,
+            34
+          ]
+        },
+        {
+          "original": [
+            38,
+            38
+          ],
+          "revised": [
+            39,
+            39
+          ]
+        },
+        {
+          "original": [
+            50,
+            50
+          ],
+          "revised": [
+            51,
+            51
+          ]
+        },
+        {
+          "original": [
+            53,
+            53
+          ],
+          "revised": [
+            54,
+            54
+          ]
+        },
+        {
+          "original": [
+            55,
+            54
+          ],
+          "revised": [
+            56,
+            71
+          ]
+        }
+      ],
+      "original_sha256": "9b821e6e192f34a29e68b871ad5c9482cae9907e91c0fd9a472e5cfef082a072",
+      "revised_sha256": "9395a6e6d5d0f815ccd10ff2cda5ab210ae7580918f96abc52153e2abb714709"
+    },
+    {
+      "category": "verification_only",
+      "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\verify.py",
+      "new_lines": [
+        "1-1",
+        "22-24"
+      ],
+      "description": "Verify revised authorization, absent later-stage outputs and repair-evidence hashes",
+      "ranges": [
+        {
+          "original": [
+            1,
+            1
+          ],
+          "revised": [
+            1,
+            1
+          ]
+        },
+        {
+          "original": [
+            22,
+            22
+          ],
+          "revised": [
+            22,
+            24
+          ]
+        }
+      ],
+      "original_sha256": "e0299ec7b2c728dbcb85f6d8553e0613592d904e628ced813596b0a4ba71d20f",
+      "revised_sha256": "61a459d9ceefb243d5e52810e04ac1a2a4c6b91b4c4f944105a608bbe3337923"
+    }
+  ],
+  "actual_import_fix_lines": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "actual_import_fix_file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\trial.py",
+  "actor_byte_identical": true,
+  "training_loop_AST_identical": true,
+  "sampler_initialize_and_evaluate_unchanged": true,
+  "source_top_denominator_unchanged": "selected_count",
+  "new_scope_and_diagnostics_explicitly_requested_by_user": true,
+  "evidence_sha256": {
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\actor.py": "735157f5fcf6878cec5a95607e0c69a6f0cc8eaab094c703e1b34f7e103dbfd9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\audit.py": "4c5d0434da968308b415693ea6f8c2264afd94e32b7ba9ec63a1ece53bcb1bc1",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\common.py": "d2718a8b68c14b8d1e20b7e5c8e2ec9fdcf9cc4db3bdbf8129b6a01affbc8671",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\cpu_acceptance.py": "843002eee8c6fcb34fac806e091ef540149f2f053b8db5be51ae2bdf624d858e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\pipeline.py": "c99545efefa8353c1151ef7aa92a3f8d1cb475577c4cf9d70257593e41998040",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\prepare_revision.py": "1aa085d395c4d194a21dc9bcfbbd1057f51fd4b24061fd754cfcfcd6141ed769",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\report.py": "9395a6e6d5d0f815ccd10ff2cda5ab210ae7580918f96abc52153e2abb714709",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\trial.py": "a93d922a7251bb977a2f90595c69905abbe03ae475b007de9eae3f354e3a5546",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\verify.py": "61a459d9ceefb243d5e52810e04ac1a2a4c6b91b4c4f944105a608bbe3337923",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v9_hopper_label_headroom\\stage2\\runtime.py": "1d06b983fefa8737c613aa7fb8549c63e3f7ef47753b971fa550717d7987411b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v9_hopper_label_headroom\\stage2\\learner.py": "1203473cf7123a97ce38b991a427a500176eb2f4336e48c116f3cf29200a83c5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v9_hopper_label_headroom\\stage2\\train.py": "2eea9c325ba441a3c3448a77a9f1c55d235ee447849bdda92b9cc8beca401a42",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor\\actor.py": "735157f5fcf6878cec5a95607e0c69a6f0cc8eaab094c703e1b34f7e103dbfd9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261101\\stage0\\CPU_ACCEPTANCE.json": "c7f14a33b64cf2418993aed46a379e3cbb87fb3587fb59a464a4e38a14fb37a6",
+    "C:\\Users\\TXin\\Desktop\\Claude命令\\给Code的指令_v11修订版_源数据动作进入策略的上限检验.md": "d0182644ab6542d7c9e6e46666268527602dec13c3677134ed9a00cb8389ee69"
+  }
+}

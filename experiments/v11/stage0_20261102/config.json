@@ -1,0 +1,178 @@
+{
+  "scope": "V11_revision_Stage0_only_then_stop",
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "actor_loss": "advantage_weighted_action_MSE",
+  "correction": "用户更正：v11的−log π作废；沿用O1实际exp(10A).clamp(max=100)优势加权动作MSE；源动作同类MSE并入。",
+  "learner": {
+    "state_dim": 11,
+    "action_dim": 3,
+    "hidden_sizes": 256,
+    "max_action": 1.0,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "update_interval": 2,
+    "lam": 0.7,
+    "temp": 10,
+    "critic_lr": 0.0003,
+    "actor_lr": 0.0003,
+    "max_step": 500000,
+    "seed": 201,
+    "task": "hopper-morph",
+    "source_budget": 1.0,
+    "source_loss_weight": 1.0
+  },
+  "target_actor_reduction": "mean_over_action_dimensions_then_mean_over_64_target_samples",
+  "source_all_reduction": "mean_over_action_dimensions_then_mean_over_64_source_samples",
+  "source_top_reduction": "sum_selected(exp(10A)*action_dim_mean_MSE)/selected_count; multiply w_a; selected_count0 =>0",
+  "source_top_selection": "top16_of64 by pre-V advantage, then A>0; ties: earlier original batch position",
+  "actor_beta": 10.0,
+  "actor_weight_max": 100.0,
+  "source_actor_w": 1.0,
+  "source_critic_w": 1.0,
+  "divide_VQ_or_actor_loss_by_1plusw": false,
+  "target_batch": 64,
+  "source_batch": 64,
+  "advantage": "min(target_Q1,target_Q2)-V, both before this step V update",
+  "resample_source_for_actor": false,
+  "observations": "raw",
+  "reward_scale": 1.0,
+  "sampling": "original O1 independent uniform-with-replacement target/source RNG streams",
+  "random_seed_namespace": "20261016|hopper-morph|trainingseed|initialization/target_sample/source_sample",
+  "stage0_seed": 201,
+  "stage1_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210
+  ],
+  "cosine_T_max": 500000,
+  "stage0_trials": [
+    {
+      "id": "wa0_parity_s201",
+      "variant": "SA-all",
+      "actor_w": 0.0,
+      "steps": 10000
+    },
+    {
+      "id": "SA_all_s201",
+      "variant": "SA-all",
+      "actor_w": 1.0,
+      "steps": 20000
+    },
+    {
+      "id": "SA_top_s201",
+      "variant": "SA-top",
+      "actor_w": 1.0,
+      "steps": 20000
+    }
+  ],
+  "stage0_original_O1_reference_updates": 10000,
+  "stage0_new_updates": 50000,
+  "evaluation_every": 10000,
+  "episodes_per_evaluation": 10,
+  "max_episode_steps": 1000,
+  "timestep": 0.002,
+  "evaluation_seed": "500000+10*(trainingseed-201)+episode[0..9]",
+  "preserve_training_RNG": true,
+  "Last5_steps": [
+    460000,
+    470000,
+    480000,
+    490000,
+    500000
+  ],
+  "Final_auxiliary": true,
+  "source_labels": "accepted V9 Stage1 Hopper oracle target-dynamics next_state/reward/not_done",
+  "task_spec": {
+    "task": "hopper-morph",
+    "target_rows": 5000,
+    "source_rows": 999998,
+    "xml": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\envs\\assets\\hopper_morph.xml",
+    "xml_sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2",
+    "target_dataset": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\datasets\\hopper_morph_medium.hdf5",
+    "target_dataset_sha256": "135d69d7ae3d20d179219b0ae4f489d77e29b651375a7e66f4a3f1b5d85cd7bb",
+    "source_dataset": "C:\\Users\\TXin\\.d4rl\\datasets\\hopper_medium-v2.hdf5",
+    "source_dataset_sha256": "5bdf1bc4a713c82941de44633df669b36c89850b652a25985166796d25cf71a0",
+    "timestep": 0.002,
+    "score_min": -26.3360015397715,
+    "score_max": 3152.75,
+    "state_dim": 11,
+    "action_dim": 3,
+    "source_labels": "original_dataset",
+    "target_dataset_fixed": true
+  },
+  "cache_receipt": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\STAGE1_COMPLETED.json",
+  "cache_receipt_sha256": "2c9666935ea2e35438d2edec8a058240d656b131e441f14c0101a36187624541",
+  "cache_arrays": {
+    "next_state": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\cache\\next_state.npy",
+      "sha256": "e843f3782677f47a55038ffdfcf6956bcf6ce46528c24a33c2cbc7636b6d9a69",
+      "shape": [
+        999998,
+        11
+      ],
+      "dtype": "float32"
+    },
+    "reward": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\cache\\reward.npy",
+      "sha256": "e38459c358186a1f461ffab8a67820960bc0adad73def90503cd1b573287c581",
+      "shape": [
+        999998,
+        1
+      ],
+      "dtype": "float32"
+    },
+    "not_done": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\cache\\not_done.npy",
+      "sha256": "a8837df2734c7a15fe53a65f0547f15c9d60e260cf112ec4e77c6f73a7e303f6",
+      "shape": [
+        999998,
+        1
+      ],
+      "dtype": "float32"
+    },
+    "terminal": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\cache\\terminal.npy",
+      "sha256": "26e0f7038da42a6d0b903db572eec0a573deed811f95cdb0dd90f4036ce91ba3",
+      "shape": [
+        999998,
+        1
+      ],
+      "dtype": "uint8"
+    }
+  },
+  "diagnostic_recording": "every update: six raw64-vector columns(target_A,source_A,target_MSE,source_MSE,target_weight,selected_source_weight), scalar JSONL; 1000-step CPU curves",
+  "diagnostic_disk_estimate_GB": [
+    20,
+    40
+  ],
+  "no_result_dependent_parameter_or_seed_selection": true,
+  "original_instruction_path": "C:\\Users\\TXin\\Desktop\\Claude命令\\给Code的指令_v11修订版_源数据动作进入策略的上限检验.md",
+  "original_instruction_sha256": "d0182644ab6542d7c9e6e46666268527602dec13c3677134ed9a00cb8389ee69",
+  "instruction_version": "v11 revised supersedes original",
+  "source_top_denominator": "selected_count, NOT64",
+  "source_top_empty_batch_fraction_required": true,
+  "all_later_stage_order_requires_new_user_confirmation": true,
+  "future_Walker_BC_reference": {
+    "group": "BC_all",
+    "display_mean": 38.85,
+    "exact_mean": 38.84893300596304,
+    "seeds": [
+      301,
+      302,
+      303,
+      304,
+      305
+    ],
+    "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\walker_stage3\\WALKER_RESULT.json",
+    "source_sha256": "2cb5f42ba3d6c44c71027ec493ef5a068618c6382e0d3b69df1840368e3f410f",
+    "future_experiment_authorized": false
+  }
+}

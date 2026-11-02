@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "synthetic_learner_updates": 8,
+  "synthetic_Adam_steps": 24,
+  "real_data_optimization_updates": 0,
+  "environment_steps": 0,
+  "CUDA_initialized": false,
+  "bitwise_wa0": [
+    {
+      "step": 1,
+      "losses": [
+        0.010121295228600502,
+        4.1841230392456055,
+        0.23833678662776947
+      ],
+      "full_state_bitwise_equal": true
+    },
+    {
+      "step": 2,
+      "losses": [
+        0.006856303662061691,
+        4.118579864501953,
+        0.3513942360877991
+      ],
+      "full_state_bitwise_equal": true
+    }
+  ],
+  "critics_bitwise_for_all_variants": true,
+  "mask_boundary_tests_passed": true,
+  "initialization_sha256": "e11a80c660a75455ff5a2843adcdddd3fc8eb97018da04d792b1c49e706137d9",
+  "loss_correction": "O1 advantage-weighted action MSE; negative-log-pi superseded",
+  "time": 1793553801.2813706
+}

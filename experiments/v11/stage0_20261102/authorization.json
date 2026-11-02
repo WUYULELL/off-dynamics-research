@@ -1,0 +1,11 @@
+{
+  "scope": "V11_revision_Stage0_only_then_stop",
+  "stage0_recovery_authorized": true,
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "old_automatic_Stage1_authorization_revoked": true,
+  "source": "Latest explicit user confirmation: prepared import fix, revised Stage0 ONLY, stop and report; later task order requires confirmation",
+  "denominator_clarification": "SA-top divide by selected_count, empty0, record empty batch fraction",
+  "no_automatic_recovery_on_any_additional_failure": true,
+  "time": 1793618178.3983727
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "V9_stage2_hopper_label_attribution_20_only",
+  "protocol_sha256": "dc2797ef4c8660ea0c40db7bb0340e2b09c707d74fafc6818df963cc3ebee624",
+  "new_GPU_jobs": 20,
+  "explicit_user_request": "2026-10-30 continue subsequent stage after stage1 delivery",
+  "estimator_development_authorized": false,
+  "stage3_or_4_authorized": false,
+  "time": 1793370416.795794
+}

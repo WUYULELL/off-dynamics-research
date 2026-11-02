@@ -1,0 +1,104 @@
+{
+  "prepared_at_local": "2026-09-19T16:19:56.770124",
+  "state": "PREPARED_WAITING_FOR_USER",
+  "user_instruction": "Only prepare; user is running another experiment. Do not run OT, training, rollouts, or benchmarks until user explicitly asks.",
+  "official_repository": "https://github.com/dmksjfl/OTDF",
+  "official_commit": "41e2e626844bd6b65e2316a418ce4d6df4bbe775",
+  "official_tracked_files_changed": false,
+  "first_task": {
+    "env": "walker2d-morph",
+    "source": "medium",
+    "target": "medium",
+    "seed": 1,
+    "policy_steps": 1000000,
+    "cvae_steps": 10000,
+    "source_keep": 0.8,
+    "reg_weight": 0.5
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 2060 SUPER",
+    "vram_gib": 8,
+    "cpu": "AMD Ryzen 5 5600 6-Core",
+    "ram_bytes": 17063866368,
+    "available_ram_early_snapshot_gib": 2.93
+  },
+  "training_environment": {
+    "python": "3.8.13 (default, Oct 19 2022, 22:38:03) [MSC v.1916 64 bit (AMD64)]",
+    "executable": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_train\\Scripts\\python.exe",
+    "kind": "venv overlay with read-only inherited offdynamics packages; separate Gym 0.23.1",
+    "packages": {
+      "torch": "1.11.0+cu113",
+      "gym": "0.23.1",
+      "mujoco-py": "2.1.2.14",
+      "d4rl": "1.1",
+      "numpy": "1.23.5",
+      "h5py": "3.11.0",
+      "tensorboardX": "2.5.1",
+      "PyYAML": "6.0.3"
+    }
+  },
+  "data_files": {
+    "source": {
+      "path": "C:\\Users\\TXin\\.d4rl\\datasets\\walker2d_medium-v2.hdf5",
+      "bytes": 232254996,
+      "raw_rows": 1000000,
+      "observation_shape": [
+        1000000,
+        17
+      ],
+      "action_shape": [
+        1000000,
+        6
+      ]
+    },
+    "target": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\datasets\\walker2d_morph_medium.hdf5",
+      "bytes": 785756,
+      "raw_rows": 5000,
+      "observation_shape": [
+        5000,
+        17
+      ],
+      "action_shape": [
+        5000,
+        6
+      ],
+      "sha256": "c792b159e403d9deff9316964f0b5ae191a382533693a553abb5b3167463f80a"
+    }
+  },
+  "validation": {
+    "ot_dependency_imports": "passed; JAX 0.4.20, OTT 0.4.5; CPU setting",
+    "ot_pip_check": "passed",
+    "official_training_module_imports": "passed; CUDA hidden; no model/environment instances",
+    "training_pip_check": "passed",
+    "ot_computation": "NOT RUN",
+    "cvae_training": "NOT RUN",
+    "policy_training": "NOT RUN",
+    "environment_rollouts": "NOT RUN",
+    "performance_benchmark": "NOT RUN",
+    "windows_bootstrap_import": "passed; CPU-only imports, no model/env instances",
+    "launcher_default_status": "passed; prints paths, no Python or calculations launched",
+    "script_syntax": "Python AST and PowerShell Parser passed"
+  },
+  "limitations": [
+    "Windows OT uses CPU JAX/JAXlib 0.4.20, not paper JAX 0.4.9",
+    "PyTorch 1.11.0+cu113 inherited, not paper PyTorch 1.8",
+    "Runtime compatibility and OT numerical stability still require later user-authorized smoke run",
+    "Single seed smoke/full run is not five-seed paper reproduction",
+    "See PROTOCOL_AUDIT.md for original code/paper inconsistencies; no algorithm repair has been applied"
+  ],
+  "ot_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Scripts\\python.exe",
+    "platform": "CPU only",
+    "packages": {
+      "jax": "0.4.20",
+      "jaxlib": "0.4.20",
+      "ott-jax": "0.4.5",
+      "jaxopt": "0.8.3",
+      "numpy": "1.26.4",
+      "scipy": "1.11.4",
+      "h5py": "3.11.0"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "config_sha256": "91733266da578099278262e10968a5adad58b2bb940643944aa35ece1613b565",
+  "FROZEN_sha256": "0d1833c88fbd2f2192490b65f91ecbaab45d8641cdc6eba28cb0cbd578a128d8",
+  "revised_instruction_sha256": "d0182644ab6542d7c9e6e46666268527602dec13c3677134ed9a00cb8389ee69",
+  "repair_changelog_sha256": "b946285d6fd7c1ff75d3cfd60f29649c377e2b84cff0fa2dfc22ec08fcf75cb9",
+  "authorization_sha256": "a792da6e10ce03992db90b74b76ad5fc9ed90c2b39e425418cfc4da9f906fee9",
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "stop_after_Stage0": true,
+  "no_new_optimization_or_environment_steps": true,
+  "time": 1793618262.9759834
+}

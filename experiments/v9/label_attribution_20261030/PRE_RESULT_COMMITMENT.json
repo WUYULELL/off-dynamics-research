@@ -1,0 +1,11 @@
+{
+  "time": 1793370417.6309547,
+  "before_new_long_run": true,
+  "protocol_sha256": "dc2797ef4c8660ea0c40db7bb0340e2b09c707d74fafc6818df963cc3ebee624",
+  "training_plan_sha256": "0055bf6c8a684f8065f775b65b0b53c43b8d93bb359e5f6e989106e7b2fb21cd",
+  "code_frozen_sha256": "d34567809ed617f27c71dfdce5e1fb55cb0e0debe3bf85b02ea31870421bf23b",
+  "known_R14_results_seen": true,
+  "no_new_stage2_results": true,
+  "no_threshold_change": true,
+  "source_instruction_sha256": "d02d5e86fb5bb7b3b76e1c6b5b27dc0d4f255b858f7c3b0b8f0eaeb98a2d4e47"
+}

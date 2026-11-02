@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "status": "AWAITING_STAGE2_CONFIRMATION",
+  "CPU_only": true,
+  "canonical_rows": 999998,
+  "independent_sample_n": 10000,
+  "independent_acceptance_passed": true,
+  "report": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\STAGE1_REPORT_ZH.md",
+  "report_sha256": "7f08cf3f5041372567498c49b1b37ebd06505079ec888ec82610cae4d3b12f9b",
+  "config_sha256": "e0acba2a707cd3ba0e153ff9e0723621df9b6dc7beec34c3ee721f3439da0457",
+  "generated_receipt_sha256": "d6ceae53bdf5fac4c0950f867967fe1aea27057098f9dc7830220eb44d6580bc",
+  "acceptance_sha256": "b08280270b5e3b134a8554c479297a40d2d7d6b0feaa03d3744a949a37b171be",
+  "cache_arrays": {
+    "next_state": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\cache\\next_state.npy",
+      "sha256": "e843f3782677f47a55038ffdfcf6956bcf6ce46528c24a33c2cbc7636b6d9a69",
+      "shape": [
+        999998,
+        11
+      ],
+      "dtype": "float32"
+    },
+    "reward": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\cache\\reward.npy",
+      "sha256": "e38459c358186a1f461ffab8a67820960bc0adad73def90503cd1b573287c581",
+      "shape": [
+        999998,
+        1
+      ],
+      "dtype": "float32"
+    },
+    "not_done": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\cache\\not_done.npy",
+      "sha256": "a8837df2734c7a15fe53a65f0547f15c9d60e260cf112ec4e77c6f73a7e303f6",
+      "shape": [
+        999998,
+        1
+      ],
+      "dtype": "float32"
+    },
+    "terminal": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\cache\\terminal.npy",
+      "sha256": "26e0f7038da42a6d0b903db572eec0a573deed811f95cdb0dd90f4036ce91ba3",
+      "shape": [
+        999998,
+        1
+      ],
+      "dtype": "uint8"
+    }
+  },
+  "code_frozen_sha256": "e40d80e88b3ee6bfe069aeec6027fb83c0b44cf4e36f13d6759653dc533d465d",
+  "protected_count": 5749,
+  "training_updates": 0,
+  "stage2_started": false,
+  "stage3_started": false,
+  "stage4_started": false,
+  "time": 1793369840.4475875
+}

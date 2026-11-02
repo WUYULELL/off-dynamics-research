@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "CPU_readonly": true,
+  "time": 1793618503.2160046,
+  "parent": {
+    "ProcessId": 41108,
+    "ParentProcessId": 15824,
+    "CreationDate": "/Date(1793618328243)/",
+    "CommandLine": "D:\\ANACONDA\\envs\\offdynamics\\python.exe -B \"C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\pipeline.py\""
+  },
+  "child": {
+    "ProcessId": 41644,
+    "ParentProcessId": 41108,
+    "CreationDate": "/Date(1793618372845)/",
+    "CommandLine": "D:\\ANACONDA\\envs\\offdynamics\\python.exe -B \"C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\trial.py\" --trial wa0_parity_s201"
+  },
+  "progress": {
+    "step": 3000,
+    "budget": 10000,
+    "cosine_T_max": 500000,
+    "pid": 41644,
+    "elapsed": 108.552703,
+    "finite": true,
+    "target_draws": 192000,
+    "source_draws": 192000,
+    "target_stream_sha256": "5a08c1a16ab5cc4d59d440cecc00a566a8e223ce5c43f7b6f8cceb0f3141e56e",
+    "source_stream_sha256": "9ff664b7fcd05ef486eceab5af9eb6eca5e7bb100893c96daab717f20d49671d"
+  },
+  "every_observed_step_losses_bitwise_equal": true,
+  "initialization_matches_O1": true,
+  "both_complete_prefix_streams_rebuilt": true,
+  "new_optimizer_updates_from_verification": 0,
+  "observed_GPU_learner_updates_lower_bound": 6000,
+  "reused_CPU_synthetic_updates": 8,
+  "source_top_denominator": "selected_count",
+  "empty_batch_fraction_will_be_reported": true,
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "later_stage_output_absent": true
+}

@@ -1,0 +1,131 @@
+{
+  "version": "R14-original-label-source-strength-precheck",
+  "date": "2026-10-26",
+  "tasks": [
+    {
+      "task": "walker2d-morph",
+      "target_rows": 5000,
+      "source_rows": 999322,
+      "xml": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\envs\\assets\\walker_morph.xml",
+      "xml_sha256": "74fd6e3e451d3ab12985965a0a1fe1f76e221950ab9f43d30355080e264462a0",
+      "target_dataset": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\datasets\\walker2d_morph_medium.hdf5",
+      "target_dataset_sha256": "c792b159e403d9deff9316964f0b5ae191a382533693a553abb5b3167463f80a",
+      "source_dataset": "C:\\Users\\TXin\\.d4rl\\datasets\\walker2d_medium-v2.hdf5",
+      "source_dataset_sha256": "cf00f43add04c17fdfc2958dd581dea0851b2e5bedbe6fda073758a8f841aeda",
+      "timestep": 0.002,
+      "score_min": 10.079455055289959,
+      "score_max": 4398.43,
+      "state_dim": 17,
+      "action_dim": 6,
+      "source_labels": "original_dataset",
+      "target_dataset_fixed": true
+    },
+    {
+      "task": "hopper-morph",
+      "target_rows": 5000,
+      "source_rows": 999998,
+      "xml": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\envs\\assets\\hopper_morph.xml",
+      "xml_sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2",
+      "target_dataset": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\datasets\\hopper_morph_medium.hdf5",
+      "target_dataset_sha256": "135d69d7ae3d20d179219b0ae4f489d77e29b651375a7e66f4a3f1b5d85cd7bb",
+      "source_dataset": "C:\\Users\\TXin\\.d4rl\\datasets\\hopper_medium-v2.hdf5",
+      "source_dataset_sha256": "5bdf1bc4a713c82941de44633df669b36c89850b652a25985166796d25cf71a0",
+      "timestep": 0.002,
+      "score_min": -26.3360015397715,
+      "score_max": 3152.75,
+      "state_dim": 11,
+      "action_dim": 3,
+      "source_labels": "original_dataset",
+      "target_dataset_fixed": true
+    }
+  ],
+  "authorization": "User explicitly authorized walker M(.25/1) seeds201-205 and Hopper T/M(.25/1) seeds201-210, 500k/temp10 after wall-clock quote",
+  "new_GPU_jobs": 40,
+  "new_gradient_updates": 20000000,
+  "walker_T5_reused": true,
+  "walker_R13_U5_oracle_descriptive_only": true,
+  "source_w": [
+    0.0,
+    0.25,
+    1.0
+  ],
+  "lambda_relation": "w/(1+w)",
+  "lambda_values": [
+    0.0,
+    0.2,
+    0.5
+  ],
+  "losses": "V_target_mean+w*V_source_mean; Q_target_mean+w*Q_source_mean; actor_target_only",
+  "no_division_by_one_plus_w": true,
+  "lambda_is_relative_weight_not_full_optimizer_equivalence": true,
+  "batch_target": 64,
+  "batch_source": 64,
+  "source_subset_selection": false,
+  "source_labels": "HDF5 original next_observations/rewards/terminals",
+  "source_rows": "R13 canonical valid rows: omit timeout rows and final adjacency-unavailable row",
+  "observation_normalization": "none (raw), as R13",
+  "reward_scale": 1.0,
+  "gamma": 0.99,
+  "expectile": 0.7,
+  "learning_rates": {
+    "actor": 0.0003,
+    "V": 0.0003,
+    "Q": 0.0003
+  },
+  "hidden_sizes": [
+    256,
+    256
+  ],
+  "tau": 0.005,
+  "advantage_clip": 100,
+  "actor_advantage": "pre-V-step target advantage",
+  "actor_schedule": "cosine original H500k",
+  "target_Q_update": "every gradient update",
+  "temperature": 10,
+  "steps": 500000,
+  "evaluation": {
+    "frequency": 10000,
+    "episodes": 10,
+    "deterministic": true,
+    "max_episode_steps": 1000,
+    "seeds": "500000+10*(run_seed-201)+episode0..9 per task; no online selection",
+    "preserve_training_RNG": true,
+    "Last5": [
+      460000,
+      470000,
+      480000,
+      490000,
+      500000
+    ],
+    "Final": "500000 auxiliary only"
+  },
+  "statistics": {
+    "primary": "seed-level Last5",
+    "sample_SD_ddof": 1,
+    "lower_quartile": "np.quantile(.25), linear interpolation",
+    "paired_mean": "within task same training seed; report differences/mean/SD(ddof1)/SE/positive",
+    "SD_ratio": "SD(group)/SD(T)",
+    "bootstrap": "paired seed indices, conditional on >=2 unique indices, 20000 replicates, percentile [.025,.975]",
+    "denominator_undefined": "SD(T)<=1e-12: report undefined, never silently replace/drop after seeing results",
+    "bootstrap_seed": "uint32 little endian SHA256(R14-bootstrap|task|metric|group)",
+    "interval_interpretation": "descriptive 95% percentile bootstrap; not exact coverage, no new formal gate",
+    "best_w": "argmax mean Last5 over {0,.25,1}; within1e-8 choose smaller w; oracle U excluded",
+    "same_best_w": "no task-dependent preference established on tested tasks/grid; not proof adaptation globally unnecessary",
+    "different_best_w": "descriptive task dependence only; not estimator feasibility or development authorization",
+    "selection_bias": "choose and report best w on same seeds; different n per task; no follow-up thresholds changed"
+  },
+  "variance_object": "training random seeds conditional on fixed dataset; not target dataset sampling variance",
+  "study_revision_after_R13_and_literature_results": true,
+  "all_new_results_unknown_at_commitment": true,
+  "estimator_development_authorized": false,
+  "other_experiments_authorized": false,
+  "stop": "after all40 complete and audited, report then stop for user",
+  "hopper_temperature_not_separately_tuned": true,
+  "T_temperature_boundary_limitation_retained": true,
+  "wall_clock_quote_hours": [
+    85,
+    110
+  ],
+  "single_GPU_serial_hidden": true,
+  "no_automatic_retraining": true
+}

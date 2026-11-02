@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "time": 1793620171.7888482,
+  "CPU_readonly": true,
+  "new_optimizer_updates": 0,
+  "environment_steps": 0,
+  "CUDA_initialized": false,
+  "audits": 3,
+  "full_wa0_state_and_all_step_losses_verified": true,
+  "all_raw_diagnostics_verified": true,
+  "protected_count": 7260,
+  "report_sha256": "883ecc64bbd54f094f6fb2f11666f0ca76bffacf913952513abb184df862cd35",
+  "result_sha256": "e18a5b9d23f02faad8298c774b94531bd3f7674ce20c75c39a00bb7d5c7d975a",
+  "pipeline_exited": true,
+  "later_stages_not_started": true,
+  "wall_minutes": 22.422991009553275
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "Walker_jobs_verified": 15,
+  "raw_records": 40,
+  "all_raw_episode_group_V9_and_descriptive_comparisons_rechecked": true,
+  "all_input_model_report_hashes_verified": true,
+  "protected_files": 6895,
+  "report_sha256": "f378404d248254f77db7ee601e18321d17e208b6c215d03bc791fe8bf5e1ca82",
+  "result_sha256": "2cb5f42ba3d6c44c71027ec493ef5a068618c6382e0d3b69df1840368e3f410f",
+  "stage4_started": false,
+  "T_retuned": false,
+  "time": 1793553731.2955077
+}

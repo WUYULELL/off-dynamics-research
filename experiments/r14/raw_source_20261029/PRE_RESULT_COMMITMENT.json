@@ -1,0 +1,10 @@
+{
+  "time": 1793000377.051282,
+  "before_any_new_GPU_result": true,
+  "existing_R13_baselines_seen": true,
+  "protocol_sha256": "3ee1b943113de9f0183addd4573e3b5834f604bb47e4743ec4d2fa48f7730726",
+  "contract_sha256": "7cc4713d1c2553f96c418570e8f37a32566262d9162e3214abeb1116cafff41b",
+  "training_plan_sha256": "5636d8fb1732cd6afee2463d977bf0e65803191c2491782d56dcffde2fefa74d",
+  "bootstrap_rule_fixed": true,
+  "new_training_results_exist": false
+}

@@ -1,0 +1,18 @@
+{
+  "config_sha256": "91733266da578099278262e10968a5adad58b2bb940643944aa35ece1613b565",
+  "frozen_sha256": "0d1833c88fbd2f2192490b65f91ecbaab45d8641cdc6eba28cb0cbd578a128d8",
+  "protected_manifest_sha256": "422093d4a7b1502e432a8340a763ba8ca631ad016f1316bf3e444833108adbd0",
+  "CPU_reuse_sha256": "9d80e4427eac1590671f07bfdfc3bcd320a0d86d6fba155e374fdf661a9f8e68",
+  "trial_order": [
+    "wa0_parity_s201",
+    "SA_all_s201",
+    "SA_top_s201"
+  ],
+  "new_learner_updates": 50000,
+  "original_O1_reference_updates": 10000,
+  "total_learner_updates": 60000,
+  "automatic_Stage1_after_pass": false,
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "time": 1793618370.9915912
+}

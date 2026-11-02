@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "three_audits_and_raw_actor_diagnostics_rechecked": true,
+  "bitwise_wa0_full_state_rechecked": true,
+  "frozen_and_old_protected_passed": true,
+  "protected_count": 7260,
+  "result_sha256": "e18a5b9d23f02faad8298c774b94531bd3f7674ce20c75c39a00bb7d5c7d975a",
+  "report_sha256": "883ecc64bbd54f094f6fb2f11666f0ca76bffacf913952513abb184df862cd35",
+  "time": 1793619656.1607172
+}

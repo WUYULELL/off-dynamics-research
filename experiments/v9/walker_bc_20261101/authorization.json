@@ -1,0 +1,6 @@
+{
+  "explicit_user_instruction": "Confirm v9 stage3 Walker only, seeds301–305, BC-all/BC50(6,4,7,3)/BC25(6,4), same Hopper settings; report budget before launch; compare descriptively U/G5/R5/R14w.25; stop, no stage4 or T tuning",
+  "new_GPU_jobs": 15,
+  "no_additional_training": true,
+  "time": 1793542025.129075
+}

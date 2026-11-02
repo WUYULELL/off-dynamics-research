@@ -1,0 +1,1183 @@
+{
+  "passed": true,
+  "Walker_only": true,
+  "BC_runs": 15,
+  "references_reused": 25,
+  "raw_records": 40,
+  "statistics": {
+    "Last5": {
+      "groups": {
+        "T": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            35.035022969427025,
+            43.79085005650067,
+            43.43330920006651,
+            27.90896099599205,
+            40.87499346812563
+          ],
+          "mean": 38.20862733802238,
+          "sample_SD": 6.740232021665683,
+          "worst": 27.90896099599205,
+          "worst_seeds": [
+            204
+          ],
+          "Q1": 35.035022969427025
+        },
+        "BC_all": {
+          "n": 5,
+          "seeds": [
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "values": [
+            36.80858421663928,
+            42.43568691430389,
+            35.40488058039729,
+            43.62624883572198,
+            35.96926448275276
+          ],
+          "mean": 38.84893300596304,
+          "sample_SD": 3.873130556538601,
+          "worst": 35.40488058039729,
+          "worst_seeds": [
+            303
+          ],
+          "Q1": 35.96926448275276
+        },
+        "BC50": {
+          "n": 5,
+          "seeds": [
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "values": [
+            35.80405274280059,
+            38.6026880319542,
+            36.93351342925304,
+            29.635227893764494,
+            36.511662886944876
+          ],
+          "mean": 35.49742899694344,
+          "sample_SD": 3.434860348343922,
+          "worst": 29.635227893764494,
+          "worst_seeds": [
+            304
+          ],
+          "Q1": 35.80405274280059
+        },
+        "BC25": {
+          "n": 5,
+          "seeds": [
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "values": [
+            30.14617056126851,
+            35.33407948471029,
+            34.44495163355522,
+            36.18163868735211,
+            32.56867966274993
+          ],
+          "mean": 33.73510400592721,
+          "sample_SD": 2.412836878145716,
+          "worst": 30.14617056126851,
+          "worst_seeds": [
+            301
+          ],
+          "Q1": 32.56867966274993
+        },
+        "R13_U": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            42.29796744620876,
+            36.97978360028463,
+            41.379007626065764,
+            43.13907269860516,
+            37.79934438701328
+          ],
+          "mean": 40.31903515163552,
+          "sample_SD": 2.760967625303455,
+          "worst": 36.97978360028463,
+          "worst_seeds": [
+            202
+          ],
+          "Q1": 37.79934438701328
+        },
+        "R13_G5": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            33.1401855712207,
+            44.88504587263348,
+            44.21898793525655,
+            39.93955808858304,
+            42.536239861060565
+          ],
+          "mean": 40.94400346575087,
+          "sample_SD": 4.761854667920956,
+          "worst": 33.1401855712207,
+          "worst_seeds": [
+            201
+          ],
+          "Q1": 39.93955808858304
+        },
+        "R13_R5": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            41.94519815910369,
+            39.86742282887957,
+            38.37437441907533,
+            43.70840687921972,
+            41.418065197480345
+          ],
+          "mean": 41.062693496751734,
+          "sample_SD": 2.034737959774942,
+          "worst": 38.37437441907533,
+          "worst_seeds": [
+            203
+          ],
+          "Q1": 39.86742282887957
+        },
+        "R14_w025": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            40.04418458504888,
+            42.677429229537545,
+            42.66760972191069,
+            41.77538326332707,
+            49.98850114871425
+          ],
+          "mean": 43.430621589707684,
+          "sample_SD": 3.819785323021951,
+          "worst": 40.04418458504888,
+          "worst_seeds": [
+            201
+          ],
+          "Q1": 41.77538326332707
+        }
+      },
+      "BC_vs_T": {
+        "BC_all": {
+          "mean_difference": 0.6403056679406589,
+          "SE": 3.4765462175521407,
+          "comparison": "unpaired Welch standard error"
+        },
+        "BC50": {
+          "mean_difference": -2.7111983410789406,
+          "SE": 3.3831640018926894,
+          "comparison": "unpaired Welch standard error"
+        },
+        "BC25": {
+          "mean_difference": -4.473523332095169,
+          "SE": 3.2016405015687637,
+          "comparison": "unpaired Welch standard error"
+        }
+      },
+      "descriptive_comparisons": {
+        "BC_all": {
+          "R13_U": {
+            "BC_mean": 38.84893300596304,
+            "reference_mean": 40.31903515163552,
+            "BC_minus_reference": -1.4701021456724774,
+            "no_decision": true
+          },
+          "R13_G5": {
+            "BC_mean": 38.84893300596304,
+            "reference_mean": 40.94400346575087,
+            "BC_minus_reference": -2.095070459787827,
+            "no_decision": true
+          },
+          "R13_R5": {
+            "BC_mean": 38.84893300596304,
+            "reference_mean": 41.062693496751734,
+            "BC_minus_reference": -2.213760490788694,
+            "no_decision": true
+          },
+          "R14_w025": {
+            "BC_mean": 38.84893300596304,
+            "reference_mean": 43.430621589707684,
+            "BC_minus_reference": -4.5816885837446435,
+            "no_decision": true
+          }
+        },
+        "BC50": {
+          "R13_U": {
+            "BC_mean": 35.49742899694344,
+            "reference_mean": 40.31903515163552,
+            "BC_minus_reference": -4.821606154692077,
+            "no_decision": true
+          },
+          "R13_G5": {
+            "BC_mean": 35.49742899694344,
+            "reference_mean": 40.94400346575087,
+            "BC_minus_reference": -5.446574468807427,
+            "no_decision": true
+          },
+          "R13_R5": {
+            "BC_mean": 35.49742899694344,
+            "reference_mean": 41.062693496751734,
+            "BC_minus_reference": -5.565264499808293,
+            "no_decision": true
+          },
+          "R14_w025": {
+            "BC_mean": 35.49742899694344,
+            "reference_mean": 43.430621589707684,
+            "BC_minus_reference": -7.933192592764243,
+            "no_decision": true
+          }
+        },
+        "BC25": {
+          "R13_U": {
+            "BC_mean": 33.73510400592721,
+            "reference_mean": 40.31903515163552,
+            "BC_minus_reference": -6.583931145708306,
+            "no_decision": true
+          },
+          "R13_G5": {
+            "BC_mean": 33.73510400592721,
+            "reference_mean": 40.94400346575087,
+            "BC_minus_reference": -7.208899459823655,
+            "no_decision": true
+          },
+          "R13_R5": {
+            "BC_mean": 33.73510400592721,
+            "reference_mean": 41.062693496751734,
+            "BC_minus_reference": -7.327589490824522,
+            "no_decision": true
+          },
+          "R14_w025": {
+            "BC_mean": 33.73510400592721,
+            "reference_mean": 43.430621589707684,
+            "BC_minus_reference": -9.695517583780472,
+            "no_decision": true
+          }
+        }
+      }
+    },
+    "Final": {
+      "groups": {
+        "T": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            47.013576627527904,
+            39.829136354533894,
+            46.88428556241319,
+            21.487729816331154,
+            45.989909843944666
+          ],
+          "mean": 40.24092764095016,
+          "sample_SD": 10.896166480134987,
+          "worst": 21.487729816331154,
+          "worst_seeds": [
+            204
+          ],
+          "Q1": 39.829136354533894
+        },
+        "BC_all": {
+          "n": 5,
+          "seeds": [
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "values": [
+            32.87816653864428,
+            45.93733785982725,
+            38.23804285542666,
+            44.413427933484684,
+            44.165915956299855
+          ],
+          "mean": 41.12657822873655,
+          "sample_SD": 5.467272972973771,
+          "worst": 32.87816653864428,
+          "worst_seeds": [
+            301
+          ],
+          "Q1": 38.23804285542666
+        },
+        "BC50": {
+          "n": 5,
+          "seeds": [
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "values": [
+            35.285023859038304,
+            34.37224938259172,
+            38.2526594663111,
+            22.53783512971726,
+            31.889331199456244
+          ],
+          "mean": 32.46741980742293,
+          "sample_SD": 5.999314638424911,
+          "worst": 22.53783512971726,
+          "worst_seeds": [
+            304
+          ],
+          "Q1": 31.889331199456244
+        },
+        "BC25": {
+          "n": 5,
+          "seeds": [
+            301,
+            302,
+            303,
+            304,
+            305
+          ],
+          "values": [
+            33.26335769463052,
+            36.994281786794765,
+            26.866162580678782,
+            34.806270575172256,
+            37.5437546305632
+          ],
+          "mean": 33.894765453567906,
+          "sample_SD": 4.288149344510735,
+          "worst": 26.866162580678782,
+          "worst_seeds": [
+            303
+          ],
+          "Q1": 33.26335769463052
+        },
+        "R13_U": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            46.18108869808481,
+            37.61583097462264,
+            35.02724245019107,
+            45.92627163903917,
+            37.127464819404814
+          ],
+          "mean": 40.3755797162685,
+          "sample_SD": 5.274592173130964,
+          "worst": 35.02724245019107,
+          "worst_seeds": [
+            203
+          ],
+          "Q1": 37.127464819404814
+        },
+        "R13_G5": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            30.417635955615765,
+            48.60830728791621,
+            45.105055701885995,
+            47.00646044593161,
+            37.92756444821353
+          ],
+          "mean": 41.81300476791262,
+          "sample_SD": 7.565328717511239,
+          "worst": 30.417635955615765,
+          "worst_seeds": [
+            201
+          ],
+          "Q1": 37.92756444821353
+        },
+        "R13_R5": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            33.70296218789082,
+            39.61360665656353,
+            35.75653298297471,
+            55.24036892175403,
+            45.50392133045343
+          ],
+          "mean": 41.963478415927305,
+          "sample_SD": 8.676041072711255,
+          "worst": 33.70296218789082,
+          "worst_seeds": [
+            201
+          ],
+          "Q1": 35.75653298297471
+        },
+        "R14_w025": {
+          "n": 5,
+          "seeds": [
+            201,
+            202,
+            203,
+            204,
+            205
+          ],
+          "values": [
+            40.431267942952495,
+            50.77733464139169,
+            48.536397339356256,
+            35.92324801542854,
+            48.92260155254833
+          ],
+          "mean": 44.918169898335464,
+          "sample_SD": 6.412834065592769,
+          "worst": 35.92324801542854,
+          "worst_seeds": [
+            204
+          ],
+          "Q1": 40.431267942952495
+        }
+      },
+      "BC_vs_T": {
+        "BC_all": {
+          "mean_difference": 0.8856505877863867,
+          "SE": 5.451926590184918,
+          "comparison": "unpaired Welch standard error"
+        },
+        "BC50": {
+          "mean_difference": -7.773507833527233,
+          "SE": 5.562701144114012,
+          "comparison": "unpaired Welch standard error"
+        },
+        "BC25": {
+          "mean_difference": -6.346162187382255,
+          "SE": 5.2366911072478795,
+          "comparison": "unpaired Welch standard error"
+        }
+      },
+      "descriptive_comparisons": {
+        "BC_all": {
+          "R13_U": {
+            "BC_mean": 41.12657822873655,
+            "reference_mean": 40.3755797162685,
+            "BC_minus_reference": 0.7509985124680512,
+            "no_decision": true
+          },
+          "R13_G5": {
+            "BC_mean": 41.12657822873655,
+            "reference_mean": 41.81300476791262,
+            "BC_minus_reference": -0.6864265391760753,
+            "no_decision": true
+          },
+          "R13_R5": {
+            "BC_mean": 41.12657822873655,
+            "reference_mean": 41.963478415927305,
+            "BC_minus_reference": -0.8369001871907571,
+            "no_decision": true
+          },
+          "R14_w025": {
+            "BC_mean": 41.12657822873655,
+            "reference_mean": 44.918169898335464,
+            "BC_minus_reference": -3.7915916695989154,
+            "no_decision": true
+          }
+        },
+        "BC50": {
+          "R13_U": {
+            "BC_mean": 32.46741980742293,
+            "reference_mean": 40.3755797162685,
+            "BC_minus_reference": -7.908159908845569,
+            "no_decision": true
+          },
+          "R13_G5": {
+            "BC_mean": 32.46741980742293,
+            "reference_mean": 41.81300476791262,
+            "BC_minus_reference": -9.345584960489695,
+            "no_decision": true
+          },
+          "R13_R5": {
+            "BC_mean": 32.46741980742293,
+            "reference_mean": 41.963478415927305,
+            "BC_minus_reference": -9.496058608504377,
+            "no_decision": true
+          },
+          "R14_w025": {
+            "BC_mean": 32.46741980742293,
+            "reference_mean": 44.918169898335464,
+            "BC_minus_reference": -12.450750090912535,
+            "no_decision": true
+          }
+        },
+        "BC25": {
+          "R13_U": {
+            "BC_mean": 33.894765453567906,
+            "reference_mean": 40.3755797162685,
+            "BC_minus_reference": -6.480814262700591,
+            "no_decision": true
+          },
+          "R13_G5": {
+            "BC_mean": 33.894765453567906,
+            "reference_mean": 41.81300476791262,
+            "BC_minus_reference": -7.918239314344717,
+            "no_decision": true
+          },
+          "R13_R5": {
+            "BC_mean": 33.894765453567906,
+            "reference_mean": 41.963478415927305,
+            "BC_minus_reference": -8.068712962359399,
+            "no_decision": true
+          },
+          "R14_w025": {
+            "BC_mean": 33.894765453567906,
+            "reference_mean": 44.918169898335464,
+            "BC_minus_reference": -11.023404444767557,
+            "no_decision": true
+          }
+        }
+      }
+    }
+  },
+  "decision": {
+    "C": "BC_all",
+    "tied_C": [
+      "BC_all"
+    ],
+    "H": 0.6403056679406589,
+    "SE_H": 3.4765462175521407,
+    "headroom": "该结构下提升空间不足",
+    "T_not_strong": false,
+    "BC_all_minus_T": {
+      "mean_difference": 0.6403056679406589,
+      "SE": 3.4765462175521407,
+      "comparison": "unpaired Welch standard error"
+    },
+    "C_same_seed_selection_bias_disclosed": true,
+    "stage4_started": false,
+    "T_retuned": false
+  },
+  "records": [
+    {
+      "label": "BC_all",
+      "seed": 301,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s301",
+      "Last5": 36.80858421663928,
+      "Final": 32.87816653864428
+    },
+    {
+      "label": "BC_all",
+      "seed": 302,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s302",
+      "Last5": 42.43568691430389,
+      "Final": 45.93733785982725
+    },
+    {
+      "label": "BC_all",
+      "seed": 303,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s303",
+      "Last5": 35.40488058039729,
+      "Final": 38.23804285542666
+    },
+    {
+      "label": "BC_all",
+      "seed": 304,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s304",
+      "Last5": 43.62624883572198,
+      "Final": 44.413427933484684
+    },
+    {
+      "label": "BC_all",
+      "seed": 305,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s305",
+      "Last5": 35.96926448275276,
+      "Final": 44.165915956299855
+    },
+    {
+      "label": "BC50",
+      "seed": 301,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s301",
+      "Last5": 35.80405274280059,
+      "Final": 35.285023859038304
+    },
+    {
+      "label": "BC50",
+      "seed": 302,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s302",
+      "Last5": 38.6026880319542,
+      "Final": 34.37224938259172
+    },
+    {
+      "label": "BC50",
+      "seed": 303,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s303",
+      "Last5": 36.93351342925304,
+      "Final": 38.2526594663111
+    },
+    {
+      "label": "BC50",
+      "seed": 304,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s304",
+      "Last5": 29.635227893764494,
+      "Final": 22.53783512971726
+    },
+    {
+      "label": "BC50",
+      "seed": 305,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s305",
+      "Last5": 36.511662886944876,
+      "Final": 31.889331199456244
+    },
+    {
+      "label": "BC25",
+      "seed": 301,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s301",
+      "Last5": 30.14617056126851,
+      "Final": 33.26335769463052
+    },
+    {
+      "label": "BC25",
+      "seed": 302,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s302",
+      "Last5": 35.33407948471029,
+      "Final": 36.994281786794765
+    },
+    {
+      "label": "BC25",
+      "seed": 303,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s303",
+      "Last5": 34.44495163355522,
+      "Final": 26.866162580678782
+    },
+    {
+      "label": "BC25",
+      "seed": 304,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s304",
+      "Last5": 36.18163868735211,
+      "Final": 34.806270575172256
+    },
+    {
+      "label": "BC25",
+      "seed": 305,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s305",
+      "Last5": 32.56867966274993,
+      "Final": 37.5437546305632
+    },
+    {
+      "label": "T",
+      "seed": 201,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s201",
+      "Last5": 35.035022969427025,
+      "Final": 47.013576627527904
+    },
+    {
+      "label": "T",
+      "seed": 202,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s202",
+      "Last5": 43.79085005650067,
+      "Final": 39.829136354533894
+    },
+    {
+      "label": "T",
+      "seed": 203,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s203",
+      "Last5": 43.43330920006651,
+      "Final": 46.88428556241319
+    },
+    {
+      "label": "T",
+      "seed": 204,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s204",
+      "Last5": 27.90896099599205,
+      "Final": 21.487729816331154
+    },
+    {
+      "label": "T",
+      "seed": 205,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s205",
+      "Last5": 40.87499346812563,
+      "Final": 45.989909843944666
+    },
+    {
+      "label": "R13_U",
+      "seed": 201,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s201",
+      "Last5": 42.29796744620876,
+      "Final": 46.18108869808481
+    },
+    {
+      "label": "R13_U",
+      "seed": 202,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s202",
+      "Last5": 36.97978360028463,
+      "Final": 37.61583097462264
+    },
+    {
+      "label": "R13_U",
+      "seed": 203,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s203",
+      "Last5": 41.379007626065764,
+      "Final": 35.02724245019107
+    },
+    {
+      "label": "R13_U",
+      "seed": 204,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s204",
+      "Last5": 43.13907269860516,
+      "Final": 45.92627163903917
+    },
+    {
+      "label": "R13_U",
+      "seed": 205,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s205",
+      "Last5": 37.79934438701328,
+      "Final": 37.127464819404814
+    },
+    {
+      "label": "R13_G5",
+      "seed": 201,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s201_p05",
+      "Last5": 33.1401855712207,
+      "Final": 30.417635955615765
+    },
+    {
+      "label": "R13_G5",
+      "seed": 202,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s202_p05",
+      "Last5": 44.88504587263348,
+      "Final": 48.60830728791621
+    },
+    {
+      "label": "R13_G5",
+      "seed": 203,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s203_p05",
+      "Last5": 44.21898793525655,
+      "Final": 45.105055701885995
+    },
+    {
+      "label": "R13_G5",
+      "seed": 204,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s204_p05",
+      "Last5": 39.93955808858304,
+      "Final": 47.00646044593161
+    },
+    {
+      "label": "R13_G5",
+      "seed": 205,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_G_t10_h500000_s205_p05",
+      "Last5": 42.536239861060565,
+      "Final": 37.92756444821353
+    },
+    {
+      "label": "R13_R5",
+      "seed": 201,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s201_p05",
+      "Last5": 41.94519815910369,
+      "Final": 33.70296218789082
+    },
+    {
+      "label": "R13_R5",
+      "seed": 202,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s202_p05",
+      "Last5": 39.86742282887957,
+      "Final": 39.61360665656353
+    },
+    {
+      "label": "R13_R5",
+      "seed": 203,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume3\\runs\\confirm_R_t10_h500000_s203_p05",
+      "Last5": 38.37437441907533,
+      "Final": 35.75653298297471
+    },
+    {
+      "label": "R13_R5",
+      "seed": 204,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s204_p05",
+      "Last5": 43.70840687921972,
+      "Final": 55.24036892175403
+    },
+    {
+      "label": "R13_R5",
+      "seed": 205,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s205_p05",
+      "Last5": 41.418065197480345,
+      "Final": 45.50392133045343
+    },
+    {
+      "label": "R14_w025",
+      "seed": 201,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s201",
+      "Last5": 40.04418458504888,
+      "Final": 40.431267942952495
+    },
+    {
+      "label": "R14_w025",
+      "seed": 202,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s202",
+      "Last5": 42.677429229537545,
+      "Final": 50.77733464139169
+    },
+    {
+      "label": "R14_w025",
+      "seed": 203,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s203",
+      "Last5": 42.66760972191069,
+      "Final": 48.536397339356256
+    },
+    {
+      "label": "R14_w025",
+      "seed": 204,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s204",
+      "Last5": 41.77538326332707,
+      "Final": 35.92324801542854
+    },
+    {
+      "label": "R14_w025",
+      "seed": 205,
+      "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s205",
+      "Last5": 49.98850114871425,
+      "Final": 48.92260155254833
+    }
+  ],
+  "input_sha256": {
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s301\\audit.json": "86f770bbcdf0cb44db0afeac93d1cf33f9110590472d4d358e0d41c3d4fbb5d6",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s301\\completed.json": "b9e2ee4536467fb057ba8587632dbcaf50ee9d01e5f87db1b741137ecd5f4f78",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s301\\evaluations.json": "1bdac6e8f04c96cf08782dba101f2837fd72797dfa9e9d66f6968e47046e08dd",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s301\\initialization.json": "91968b1fc82baf92874f1aa1a7c986f66da38b7ae2dfa10e0fdfb2d486749573",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s301\\sampling.json": "ca72a3744f1ac20edf48df0273ec27a6c0f12ca2fcb02dd7593691fdde8339f7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s301\\model_200000.pt": "3206f2c305cf74fc6e5e58c00b8c34ecc14fe8769404ce7b3919f2b80d3644b3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s301\\tb\\events.out.tfevents.1793542105.DESKTOP-B3JMOOO": "6034f5b5665f5a9fe6dd4b145c3089fbdb4fbf3f142797f43f53b4719c4e02cb",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s302\\audit.json": "d70a9e8b287c49a36dd031b66e7a21bbc71591d8923132dab1361eec9c1a57f5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s302\\completed.json": "3f0f3bd95357dd86372302dab260c4b403609e12361981b22fce52c5129985f2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s302\\evaluations.json": "df25c8bd8302485550075738c58f03b23839e464c091e79839e50bd4935191f9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s302\\initialization.json": "63c1bb338c1eeedced17f422d03a05720392398c580fa8efefd126eb2eccc9fc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s302\\sampling.json": "ce287ec325fc4f3b37d835fa4729d1c6a594bd2f00e5d7081976ff60d497ca66",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s302\\model_200000.pt": "45c5adefcc0c09a5750f4d9d99030aa2980f38ae7b5ad08145ee5bc07b79d102",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s302\\tb\\events.out.tfevents.1793542853.DESKTOP-B3JMOOO": "50cf087ac17d16bd6962cc9db0229be107f30a66246114d27fd35c6085be7664",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s303\\audit.json": "b8a7a6471744f07ed841f544d320ef03465e27e9e18b7f56134e1bfbb69dac54",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s303\\completed.json": "60a5e112822424365b921214742e4a95deba4bb0e9157d8d5085fca1db541b49",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s303\\evaluations.json": "ba4e92a4e5d37f66d2b275662f07f3540f6f1969c0a6ab963b6d31dc5c502a8c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s303\\initialization.json": "137036d2f5bdd2907b397477d62c1a7c1dfb4768192901b182665172df9761a2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s303\\sampling.json": "fc01d8eb659324481b0032163a47331925ec2209a477eebb769a1da75397f0b2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s303\\model_200000.pt": "79581f91306b8a3ac7d1df15df30357fc1708b2996d10876fa513a700f03bd28",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s303\\tb\\events.out.tfevents.1793543607.DESKTOP-B3JMOOO": "095d122ef08a725dbf2270b2ac98db725a63ab8f1e06b1bc5ae22c8ba3254659",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s304\\audit.json": "fa2137a2a7f87faf9d724d59b91f31c6bbe7e6427f1e23ef54d8407078175877",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s304\\completed.json": "1c39d9f79b7b44975ec0e2f9d13f6989cca6e10ec04a8a1b8870becfabf9ca47",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s304\\evaluations.json": "7cff67c7edd078a7f79da7d99470e926623f5a2e9d3b768c436f5822e1ed3b57",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s304\\initialization.json": "b2640bd2088756615e933c944eddf02cc31e5c3a712f36e47f6e6c2ca5c47500",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s304\\sampling.json": "cbcda50fcf4ffdcc372ce5278a694dd06c943d8beb7cf7488266329a4cfdb7dd",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s304\\model_200000.pt": "28683a5f169f88c923d8b8f737a09563f85ada7fe6bc0d382e2c3afd08e480df",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s304\\tb\\events.out.tfevents.1793544370.DESKTOP-B3JMOOO": "8db3684b22c9dc8d26bb3013339d28c859736ba5ca8e44cfcd4890920717fc7e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s305\\audit.json": "28ed70150045de17d23d780c00a0843048bc5d9b8d65ea39cd2d7878eb9bf624",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s305\\completed.json": "830c5d7d15f4dcbe328e139adfbafeea1b24044ac0d31b49435f4bfc2a9c969c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s305\\evaluations.json": "b2ae7e06e0d644179c894f86ba0cf5fbbc62256b1fb7c2b9ce09ca2fc95f1659",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s305\\initialization.json": "6264b84aa86ebdcebef31dca1bc3a3a9c9564d40f77945bfe3aa0e79fb0dd3e0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s305\\sampling.json": "9f943fef275b288fa420b6adad6bd00e8f2f45c3f51e269a36415ab86e397e16",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s305\\model_200000.pt": "751f7771b62423fae038c6a52f690c6ecca4d64099b85628bd5834664b7f72c9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC_all_s305\\tb\\events.out.tfevents.1793545158.DESKTOP-B3JMOOO": "8c7ae04a5693b530f2c511428e79c1aa882710a237d0b8aac31e31e7fb7a368f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s301\\audit.json": "725050c026b0592d1a5609da97cd9b4da2dc184f23ade734c255a7e1b2aa333c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s301\\completed.json": "ae0935b21f9996857c04068c1fe03546a9757f5a25135b8071c6f154932f91ec",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s301\\evaluations.json": "0d7e64a53c6b027d6a9eb79196da0dfaa443faeaa1ab7e75c36eec5f185666b3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s301\\initialization.json": "91968b1fc82baf92874f1aa1a7c986f66da38b7ae2dfa10e0fdfb2d486749573",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s301\\sampling.json": "69328e9157ce43f72da74f5a93cc34f5131f67056e388ef356e67667bcb9ba64",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s301\\model_200000.pt": "51c17eaf02252c4f1425482f7d461088273c6b78cb0d9730854d9eef67b2fc8a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s301\\tb\\events.out.tfevents.1793545949.DESKTOP-B3JMOOO": "4eca676b1b70d4fc689f7a248a990baa22eb2db9e024eb91f310ee8ff9ab483f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s302\\audit.json": "f10aaa7a916ce8e1852220d648b7547a4ccc49f787bf6aba3049dbc26aa75046",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s302\\completed.json": "220b7c5c6026a92e217d3398cc36ca5c6e57980b8d1f1b63d6d7c53ba0b3d307",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s302\\evaluations.json": "c9cdc53140f26b044708983417e1d35005b4155c17a36834a2ac00fa92b74666",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s302\\initialization.json": "63c1bb338c1eeedced17f422d03a05720392398c580fa8efefd126eb2eccc9fc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s302\\sampling.json": "7d6d110dd02bf6684334c60c5045191473cee0b1fd658653e2a21411b64bd880",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s302\\model_200000.pt": "8519ae997138605b4eca6626d8280db60ef9d1bee95944f700b1501476ed8e94",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s302\\tb\\events.out.tfevents.1793546720.DESKTOP-B3JMOOO": "3f32e65fb6b0f083042df890170cc5ac877d5650c94c045039dacaba2d176398",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s303\\audit.json": "c9e1942420a01d0889fd412507f9019deaa217d9fda6d665f56dfce44ba02a7b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s303\\completed.json": "700eb7814554c34eea2d808b92b3117605e8c65e84a30c29cbfb37e5b2965bde",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s303\\evaluations.json": "5f3e3ba64da6d0824cc74d5b11f709369c946b449ba41b0673fb5909955067bb",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s303\\initialization.json": "137036d2f5bdd2907b397477d62c1a7c1dfb4768192901b182665172df9761a2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s303\\sampling.json": "8dfa2025bf7439968edfada1c57c43920d102c3bcc90e3451c0b274201ba09e4",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s303\\model_200000.pt": "4f0f191ed96a535615c6466d87d8fdc4694bf32a0402f592d81069cda57aa6fb",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s303\\tb\\events.out.tfevents.1793547516.DESKTOP-B3JMOOO": "a9ede1f459b69c1b26a2c22b78da427376a5af622d7a1b38866a5b56f2f7a121",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s304\\audit.json": "42896c2bf7bc951a74d14e537a992308b0619eb6793240d07646215506f01c60",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s304\\completed.json": "829cf468366a7d1f290600de47db630d8275f9927505db201c0341701bbbb548",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s304\\evaluations.json": "4b43dea1846c3bee11f0148c568133d1a13fe70a3867b45753a1e1056c94a1d7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s304\\initialization.json": "b2640bd2088756615e933c944eddf02cc31e5c3a712f36e47f6e6c2ca5c47500",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s304\\sampling.json": "99db80d4b68112e5ff67c29949cff9be6544c21c52479e609e4a7bc49fcad877",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s304\\model_200000.pt": "7b758edb56254b65b4d62a0fd9de3db5e0b0948877df5cb22706e37d7dced296",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s304\\tb\\events.out.tfevents.1793548297.DESKTOP-B3JMOOO": "e07f89efd0c2c3b73f3f8b06aa9a8ed5aee99773416943af1d0703688df1ee9a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s305\\audit.json": "e42ea0b595365ae020e3475ea416547e309fcb1c20a2cb95bb7842c0299b3f15",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s305\\completed.json": "90bd9f143c10bef7eb8d2839f9f501ad722d98ecd80fdc73cfb0d8c45215e39b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s305\\evaluations.json": "ca664120a1d749d3d93a9493ae4f7877d24e1f62dc40808705927d447aeca330",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s305\\initialization.json": "6264b84aa86ebdcebef31dca1bc3a3a9c9564d40f77945bfe3aa0e79fb0dd3e0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s305\\sampling.json": "b9823baa3b8fec49776df4b1749b2862653a144369569e0dafcefb06bdde99ef",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s305\\model_200000.pt": "ab6ccc9bfa27491f7a534efdd5d8e5cd4c72c998f8f44eac2de8e1f8bc613b5b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC50_s305\\tb\\events.out.tfevents.1793549053.DESKTOP-B3JMOOO": "9fba36370d9293bd3f9ae924f1485dee1302517f225de6943d2ff481046664e9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s301\\audit.json": "e2259b686fd4adbc6438855050087245faf6fe34fef531fe5c83d4b305e37f64",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s301\\completed.json": "428082ac780036c50c52deee24f9102d2bf1306a529f1d3f9d34371b01512226",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s301\\evaluations.json": "19bd9fc77758beea5b78c5859ea11c4be460f5b196354244af73939cd04a4b48",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s301\\initialization.json": "91968b1fc82baf92874f1aa1a7c986f66da38b7ae2dfa10e0fdfb2d486749573",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s301\\sampling.json": "82528b25bba36e0b0fbe45ae5a49052bf31ce73f59bfaed04eb836b9def35df9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s301\\model_200000.pt": "d9c5fbefd2fcc33f027571d102e6fd224438bb6cb8e80514737b6b265272b040",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s301\\tb\\events.out.tfevents.1793549830.DESKTOP-B3JMOOO": "672c90bb5102718abf2422e019c6640847ce0d5dc6070b99bdd35347969043a2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s302\\audit.json": "7d140f7a53e6398a16d9c6c3e2260c1e743e2abd0ef48e2af04c1bef5fbd144a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s302\\completed.json": "b14aa71f852cb517c211353c63a138b2278ad5700607b57ff5172e1a6d302d35",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s302\\evaluations.json": "60cdba1f96b4dcc0ffdf49d07f2ca99351dbe11064c217f23a394bfdc3ea1cba",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s302\\initialization.json": "63c1bb338c1eeedced17f422d03a05720392398c580fa8efefd126eb2eccc9fc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s302\\sampling.json": "02c8724500b0ca65449e4120108b5ea3d744c8e0d949624066f7e8d91b1901b3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s302\\model_200000.pt": "91765bab17781b516652fa3fd6ad10eb96fe7fb3a00ddedc7e190d9bf66090a3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s302\\tb\\events.out.tfevents.1793550596.DESKTOP-B3JMOOO": "1ba7051ed6c8412226740eca23321b0bf593215de83100dbd7ec5c7c3e0244d7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s303\\audit.json": "0d92f67f16a219f24077965ead99cd0cd3f8036d835291cd52860fc3801347d0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s303\\completed.json": "51b28d9153130c205e453066a92c4b253349806e40fd8a0dd2e5467ee77a6ad0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s303\\evaluations.json": "d55ea6486e2fda3552fc994865ac6e571a0b314508eb4525d980c4451b076975",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s303\\initialization.json": "137036d2f5bdd2907b397477d62c1a7c1dfb4768192901b182665172df9761a2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s303\\sampling.json": "8958bb33bfed1ae68c7a1b88db4c5e61b941d1bb6bd0ab710d6cee0d9e17ff95",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s303\\model_200000.pt": "a29e9bf9c24a78bf584d66da426a10e697a071a6edca93b6cf1ca0405f15e255",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s303\\tb\\events.out.tfevents.1793551371.DESKTOP-B3JMOOO": "ca11b5835fb96729f94b76ab7bcededcb10762f6af29a383cd1925d4cd69de33",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s304\\audit.json": "f8245b2246be669026509e23b26464d405e28dbdbaf1683f7ffbc97cee1bf33d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s304\\completed.json": "7ff0ec490d95f00ce4f4b45f2099b517fc15f912ea0d0e3780a8713cfca2ca4d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s304\\evaluations.json": "d8be0aed7dc397468bd981bab3115a3b2c266019d55d458e89e306f9fe5a0ea5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s304\\initialization.json": "b2640bd2088756615e933c944eddf02cc31e5c3a712f36e47f6e6c2ca5c47500",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s304\\sampling.json": "6d615fd85fd6495adc1dbaa033cf31abae224bbeccb0d726a2a433fe9ec5a7de",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s304\\model_200000.pt": "83292bb4e61c281d4b7a72b7d30f87ceadb90c79d8ddef694e279ef586dc1d64",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s304\\tb\\events.out.tfevents.1793552138.DESKTOP-B3JMOOO": "e2ef16e6ae322c7fae097362c5fc9abf78c821bbbf2b01732fb8466812ca4e54",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s305\\audit.json": "5b8206fdd8e1e0579b1d56f6f5fc6e6486e66c4c4d6a9450b8be85414d3c45c9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s305\\completed.json": "92916723cc58605df0c9741733a7ece16f860b9131c691f8f3da4dfc0f6f37c5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s305\\evaluations.json": "bbbce7d8f56f2e71d82d95edadde8b700cda7367e9fa1a84835848d9ee0e73d5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s305\\initialization.json": "6264b84aa86ebdcebef31dca1bc3a3a9c9564d40f77945bfe3aa0e79fb0dd3e0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s305\\sampling.json": "e76a03ba1bf5023e7cd6e41ecd43a3d5c45e4c16ba738f8b3450382d0b9d5008",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s305\\model_200000.pt": "df4fc042ff2fda8ea85a1862e4be62a7fa6879eac32ede12bbe1b33075d69e18",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\walk_BC25_s305\\tb\\events.out.tfevents.1793552913.DESKTOP-B3JMOOO": "17080999b342e777ae8ffb84e8f9bbcec9515de1ffe2803ad1aea1bd6cce0438",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s201\\audit.json": "695777f70d10ac34e7a295d5584582f29cb442227ca9f47340a2a0b76d24e03f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s201\\completed.json": "11cc4197bd7f5ac65caa9f22ae6ed0e5e07fbcfc4e3c8eb97a7f4be0326549a2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s201\\evaluations.json": "1c0f92c54da4380d7735b0f8bcf953a6abadb8b5b5754c23fb1e3a96d14c3c35",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s201\\initialization.json": "b987b3ae487d8ba4c9be59ee20ee814b368943c999b650f723ba2451493a8052",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s201\\sampling.json": "547d857ba3870f8366b4e6852fadb3e251dd3ebcad8740b9115f99d49daa1b54",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s201\\model_500000.pt": "e08589406589626c502cdb5eb1948bb4f83ecb04ce6709d980740410928a6dfe",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s201\\tb\\events.out.tfevents.1792568072.DESKTOP-B3JMOOO": "d4eedc2c4ff19df943605e1d77f9cf0a380584d78836f77dc7751fb138baa313",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s202\\audit.json": "817e0e054142132fea8861993e27c3c5daaf95978147b4cf864138fd99fbcbe5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s202\\completed.json": "b729c7a84b9bd97ccfba5a3c9d43dbfe408f142b96366382c337e86bbe5885d3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s202\\evaluations.json": "63ae7194d82567e935f60f7cc5e11bab44b02618a99b5b1e23f725ae64b4bf53",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s202\\initialization.json": "4f5af997767dc731ac6e744a0d1c9ff85ea903820f6f9dc4c1eb19e8e97613d0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s202\\sampling.json": "f4d0c96815489466eeb94be7b1bc002bc68fd556baac02297d1d026a19eaeb4d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s202\\model_500000.pt": "ffae47eb640b3a2c3d0569ac8943fe6facfd648adda40f2c6078cf3245cc398d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s202\\tb\\events.out.tfevents.1792575132.DESKTOP-B3JMOOO": "deb53356c955edd6b191e402cab5cd87e2c4579fdd236d752ea8e529ea21353e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s203\\audit.json": "686eaf7d0b54a944c1f5eced42cdf29eda36bdc22a3beb4d6d83432d76410577",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s203\\completed.json": "e331fe5158f865fd1d02a29b045f85866fb302fa23720a6b962355a30fb369e5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s203\\evaluations.json": "427c8760a48e61f617801956dbc6591c6977e92e5a8b90f368932ca27c897e7b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s203\\initialization.json": "742e5b7c2454d093e57a809b981a4269052dbe43b523ea856ba51fa49feb8c42",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s203\\sampling.json": "8cec282282e0034666e2ad5db676582cc3cbdebe5ab12b984fb61553db3ad2f0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s203\\model_500000.pt": "05e6f7d5fd53c55f897febc1845d5151be7beeabbfd2456c1daeb66d1b2dd7b0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s203\\tb\\events.out.tfevents.1792581272.DESKTOP-B3JMOOO": "327b4875af2b05d82f58067b99e1acbcc1a5447187712684efc5f23066db732a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s204\\audit.json": "7222046b920a1158cf92609be720923eef927ee8adc41fd8da72cb4367091d4d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s204\\completed.json": "c3959da8acffc6c610e7b3624a6036ea4408af1cbc54d3a76dedaba4de834582",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s204\\evaluations.json": "ba72d11ab909618fb04cc168baa45417e699f8c70299b90944f364396adbc1e6",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s204\\initialization.json": "f71aa1026a11c6547f0686f2d1719106224c53ed78e05651a5d78110ff924a27",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s204\\sampling.json": "dc19cdf8ecd3869caf79d44612309e0afc35796cc0871d2f997585529c7dbe76",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s204\\model_500000.pt": "1e93b35d5dffcaaede9dbe932bea8ea1fe9d44a8a945082f256720421d42a3b7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s204\\tb\\events.out.tfevents.1792586522.DESKTOP-B3JMOOO": "b6f936bd97f31b8fe5534ca10f8d8d01fb0f8ec8d5bc8c0965c212cc2f4e4d22",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s205\\audit.json": "bdbaa511bb6e774036e8f2846da2e6b225a5dd2e39ec5a14d2552010d36deda3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s205\\completed.json": "a3fc8250a23f05e7e1e764861e1388f6a08be12f61fc07af34a84a9430b84c5f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s205\\evaluations.json": "eff89540ddfae888a1908e26d98d4704539a7315f94ab7d2824efcfb95ce0678",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s205\\initialization.json": "da4b8a47fca66a4f9e370b185703bff8e00e2a7efa78e42e93d3ce851df3dad9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s205\\sampling.json": "0ae545acee8f4143d87b8c5c849b72f60b6eb6349fe2db91fd7adf1f0a15e0dc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s205\\model_500000.pt": "f4de652963a4147a01cbbafa881123beb6f58393e6529a4293519923d806de95",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_T_t10_h500000_s205\\tb\\events.out.tfevents.1792591875.DESKTOP-B3JMOOO": "8918e4505a11c9f449e678628dbe039c3f11f962252119a7d1c35cc729ca281d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s201\\audit.json": "0e8b46a5b9da9265b0cac4a9fc00cd4c08ba9cc654963a0e38ba09f1e7abd5c8",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s201\\completed.json": "6064bd6e7b76cd4cad7f321023b12121c8b0935a0e097dda9ed2182837252170",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s201\\evaluations.json": "52b3f0d1ece3ba0e321f609bb5ddd9c643c934906c46b0f58272507496b7959e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s201\\initialization.json": "b987b3ae487d8ba4c9be59ee20ee814b368943c999b650f723ba2451493a8052",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s201\\sampling.json": "6985043bab983a269df50acc653a6ad9d5233cbce064f388f0fde9e9a6d11177",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s201\\model_500000.pt": "8b63992766ee9581168f0f2a68e192d4f8d385b6d550ed85df857e84594b419c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s201\\tb\\events.out.tfevents.1792597208.DESKTOP-B3JMOOO": "9b30423efe905f3627fa1342d0c8adfbe6266e31ceb99dd8a08a52f4ce382858",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s202\\audit.json": "6cd51f5da0fc157a2e18585db362a32376b03a6d943efe1f43db168ff2874428",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s202\\completed.json": "aca4c72e2a5c441d9e9c3f75a8a62fbbf4bbd7b0e3dba1dd91aa74f4841e7a82",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s202\\evaluations.json": "0208a228c82ef29c66cc039f7fc814c23593510507484b5535ffae140a14c8b3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s202\\initialization.json": "4f5af997767dc731ac6e744a0d1c9ff85ea903820f6f9dc4c1eb19e8e97613d0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s202\\sampling.json": "e1d9ab7113e9fd2d63853366f9e318140f6c55b5c75f550a4c02b7ae179f5898",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s202\\model_500000.pt": "64634518324d1537403899e741e2378315efb7b4d6bd9bc057a1ae88f0f25fcd",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s202\\tb\\events.out.tfevents.1792604503.DESKTOP-B3JMOOO": "36eb5b2db24b657dafbcd07e4917e841160aff04acebf7d658871478efd9e2f7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s203\\audit.json": "4dca84f6326bcc066495d7652105657e00a8c8f589e27d46deb178ae18635401",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s203\\completed.json": "70151f8f1fabf7f4383c07340295fdb632f78c64b8160cebe3f90d60ce405919",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s203\\evaluations.json": "4bc7e0b34baf52a577b1a4ec504e811b6724dfb554ebae00f7a3143780669e9b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s203\\initialization.json": "742e5b7c2454d093e57a809b981a4269052dbe43b523ea856ba51fa49feb8c42",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s203\\sampling.json": "91d2eeff8495d0c6f4a2884abc1932c449aea5a3b9031e3c750aa2d811b68a74",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s203\\model_500000.pt": "1d75fb78ac6111aa97491658f0212b028d23ccb41094733ed89b17ff7afa41c4",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s203\\tb\\events.out.tfevents.1792611756.DESKTOP-B3JMOOO": "19c424c2f35f33cdd6fc9b4997faf6ca228f7f4c7233a9bfb4806c4030793fed",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s204\\audit.json": "a7536c39c67ba53f50bb31a3cf3f411d11e258943f17dc95d2a3fdf0df00de27",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s204\\completed.json": "f1f9ef973f21d63a631a20de8b71179c6d2a85c106586bef6cdcf024e95df75a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s204\\evaluations.json": "1fdab1e7c7dcdd5e966ea7e9892abcd6c3427052e66b39813749a7ac8e86ca08",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s204\\initialization.json": "f71aa1026a11c6547f0686f2d1719106224c53ed78e05651a5d78110ff924a27",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s204\\sampling.json": "20f9df7efd05cc7e8ea538dbbcb5a101c1436c014044995ae08fce462f0fce9f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s204\\model_500000.pt": "26c162585e66e74c752e219efdec6581a0b454c687472c051729860cd0a98824",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s204\\tb\\events.out.tfevents.1792618968.DESKTOP-B3JMOOO": "e90531b869c10ad3fa7384e0593f542ee340dee95e0bfacfc7e0f8b7334d375a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s205\\audit.json": "16f2b2c34d7e8f3e4ff789bf6254b6480242c06a88532856f1fce335eaf38407",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s205\\completed.json": "c68fc2c925b4f5df04d4837bc7cc0e20ee1603e74f9fbb7241e2dc2e87a21d24",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s205\\evaluations.json": "92f7cbe314f4272970f7f009acb48e45a950110730816536f836ca2048c22b26",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s205\\initialization.json": "da4b8a47fca66a4f9e370b185703bff8e00e2a7efa78e42e93d3ce851df3dad9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s205\\sampling.json": "d8fe3d326725c4ac83d7a8d5ccecda0a152e145322e2984252e4dde00c28751a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s205\\model_500000.pt": "917d667bc29527edee6c73c6b3c7ba7471edb6fb7b986ddd26a829a52e8c990d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_U_t10_h500000_s205\\tb\\events.out.tfevents.1792626220.DESKTOP-B3JMOOO": "e75a1acc8724e838da29bf67228db35989d0bbe50a62624b3bd2a1ecfdbb10cd",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s201_p05\\audit.json": "c4dd1ebd795563810faaa5e82a32e27ece33d938de82be9708ed6feab6e32899",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s201_p05\\completed.json": "d052f60c7d7028c1b20a394ef381813e5532bf15f8678b0ab4acdf63052dae7c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s201_p05\\evaluations.json": "39f16626224e625672ab3ad78e48328c094205bd110b583687531db66c1e8b92",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s201_p05\\initialization.json": "b987b3ae487d8ba4c9be59ee20ee814b368943c999b650f723ba2451493a8052",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s201_p05\\sampling.json": "36c3a9105e95c2a8db16b231ff447b4ffc0f27df4b72e7b54405b95933c6ead8",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s201_p05\\model_500000.pt": "27d4ff9917a9d7cd04ec56b9fab418b82c79af0634c2b524d063c173a8cf3e14",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s201_p05\\tb\\events.out.tfevents.1792633643.DESKTOP-B3JMOOO": "50f3fdd904017a64866f943917f9924905053e03afc5a120d343b290a796287e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s202_p05\\audit.json": "5f8fe2b54792b8fa128fe142a681fc94b2fa1e86938d81407f7464b102059b18",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s202_p05\\completed.json": "3148792b0a9a99ec49976353505d4579549292b2eb3489d15df46d99d07a57b2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s202_p05\\evaluations.json": "9b8bd6e94ec7085d044897e6c0a64eae2d1efe314a7cf5bc87aa4739e50f3487",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s202_p05\\initialization.json": "4f5af997767dc731ac6e744a0d1c9ff85ea903820f6f9dc4c1eb19e8e97613d0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s202_p05\\sampling.json": "4bb7fca4ca1ce36fe21ab5ae60993360327b098243d58a05b81f06f77b192ff7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s202_p05\\model_500000.pt": "ec00bf823d80b59a7e6027cae4b921a05253fff47f97d28e309d504affbd6eba",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s202_p05\\tb\\events.out.tfevents.1792641098.DESKTOP-B3JMOOO": "a12959c565b98db07041e4cde4ac1599d6d65fd6baf647c3ac412d9a322fc05c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s203_p05\\audit.json": "a9b558ea4eda165124e3c9c173d388facd12544c700a0a4c779b2c1ea16147a9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s203_p05\\completed.json": "54d8a1d963aeeb53aaa5249f5cd08dd4dc991b4a5bfaec8a6cbf7383bbd497b2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s203_p05\\evaluations.json": "fc76687d0772b66416c6684bbec31341987f373058a4bf5210ddaa5a2a4fa9ef",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s203_p05\\initialization.json": "742e5b7c2454d093e57a809b981a4269052dbe43b523ea856ba51fa49feb8c42",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s203_p05\\sampling.json": "b3fe3c0c2e08ca7c1c677f6313c24111f427037369e961b89873adfffb2d4ea4",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s203_p05\\model_500000.pt": "81a4a113aa9502428286b9f856460a36e292dcc6d572894c1ded6bcba0544588",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s203_p05\\tb\\events.out.tfevents.1792648558.DESKTOP-B3JMOOO": "51edc2bd5541d56ba4b504561b02bc308ff47cb8faba99d93dd0d8291f70916d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s204_p05\\audit.json": "9b2ba0a7dbcffa26fd7a320ffcf86c5eb78d834722eb7c484417c3cf3be29acb",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s204_p05\\completed.json": "f2e5c0474f964d3b9e8f23f2e6db22b48215454a0996dd70ba14bd62c592257b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s204_p05\\evaluations.json": "4a5b7579f22793c76f9eabbb9fe174499125bb80c992065be09e6ef2ef400e9e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s204_p05\\initialization.json": "f71aa1026a11c6547f0686f2d1719106224c53ed78e05651a5d78110ff924a27",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s204_p05\\sampling.json": "1da6ea19375e63494902e8d4828809ed35fd02e93816cda29404e9830dc39802",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s204_p05\\model_500000.pt": "795eb690b31e18f5f4383e1f487ee04f92d44f93fa74346fc4e6cb14c9254321",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261021_r13\\runs\\confirm_G_t10_h500000_s204_p05\\tb\\events.out.tfevents.1792656083.DESKTOP-B3JMOOO": "d1c8facdcb349eb1dad08b1ada1e1ffc34f85285491fb5d5d98ea6b7cd0f17ae",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_G_t10_h500000_s205_p05\\audit.json": "e0f0663f8096c186aab9713fb76ccc4c90a021b83cdef7f0a9722faa514b0de7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_G_t10_h500000_s205_p05\\completed.json": "260750f1133db74ed3fb05de8789c7137d3841a9bb6bc6479986b5136fa20667",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_G_t10_h500000_s205_p05\\evaluations.json": "f57cb600b5f8886c3c5027a6310f308663c4e10df5262be8ac646dbcf360f830",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_G_t10_h500000_s205_p05\\initialization.json": "da4b8a47fca66a4f9e370b185703bff8e00e2a7efa78e42e93d3ce851df3dad9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_G_t10_h500000_s205_p05\\sampling.json": "0b8c9908bb2e2bcaa9a84a7660254b5f2e105a15a52bbf70ee6035327d12271f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_G_t10_h500000_s205_p05\\model_500000.pt": "452dfa8894ca958e78e54071e15c300c3222ea18c2a15a25c25ac4783031412c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_G_t10_h500000_s205_p05\\tb\\events.out.tfevents.1792718368.DESKTOP-B3JMOOO": "27c5f7d29dc6a958dfd2b8c8e7a71eb262ea627cd8e95ccfc1694630f8ebf547",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s201_p05\\audit.json": "6436e2b75e35aec6fa2775eb1cf3a1fd0dc71e88b4431a2f2d5a217f53daf2ce",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s201_p05\\completed.json": "475abc95b65f0495d423a3e93fa2b293fd171726a679ee3a921cb650549ae85a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s201_p05\\evaluations.json": "e520279a2aa7a64db79be9c3d9a2d6795a62eda522ca99e65e0091a536847124",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s201_p05\\initialization.json": "b987b3ae487d8ba4c9be59ee20ee814b368943c999b650f723ba2451493a8052",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s201_p05\\sampling.json": "9956e46edf33b8d790c3f0343d4b25998fc5784384fa5d6acb45e2f2e717f223",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s201_p05\\model_500000.pt": "028a52f139e81f816e439a5f704ed4cd19596ab8f4721a0172bb73aa6867730c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s201_p05\\tb\\events.out.tfevents.1792724275.DESKTOP-B3JMOOO": "197ed40d665ba6b9584a84d8b0c08c4397e1f10b502d991bbe3bd63359b1b3d9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s202_p05\\audit.json": "c73d78afceed89e43c675314bc14be7abc09e476209477d97f22a27e83c3b6ff",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s202_p05\\completed.json": "b363c6745fa0f379eeddc2e7d7ca27f1d47cef64f03106c52a821c28f1ef56dd",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s202_p05\\evaluations.json": "d5c7015b5f362edcdfcfe1f0f5cfc23ed70a56795ea73d2cc4aee27137db7289",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s202_p05\\initialization.json": "4f5af997767dc731ac6e744a0d1c9ff85ea903820f6f9dc4c1eb19e8e97613d0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s202_p05\\sampling.json": "4a93e3f89217a9828dee17ecddb7048b10039b08136cb329ad0ed5ce5a6ab66c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s202_p05\\model_500000.pt": "d094a265bb19e9655186ebf230bfd3d62f4bf73da820270e052a17c8d93afcdc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume2\\runs\\confirm_R_t10_h500000_s202_p05\\tb\\events.out.tfevents.1792732962.DESKTOP-B3JMOOO": "0bdf90f22fe652d3f4ed3545b4e0bef28249e80caf4864542e17af94de184f3c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\research_idea_protocol_20261023_r13_resume3\\audit_incident_20261024_022849\\R203_AUDIT_REPAIRED.json": "3ba76058fe1aafcb6091f8e935790c0e447de0c3ed709e8dabf2dd07bb44f2e4",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume3\\runs\\confirm_R_t10_h500000_s203_p05\\completed.json": "856dd1b61a548265f35ec54ac1a99f008b30aaaec10d797aefaee41b716ba16d",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume3\\runs\\confirm_R_t10_h500000_s203_p05\\evaluations.json": "8ae9dece7701b839a0df0b759809e7638360747234918d2c0461e3960dd6dcc6",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume3\\runs\\confirm_R_t10_h500000_s203_p05\\initialization.json": "742e5b7c2454d093e57a809b981a4269052dbe43b523ea856ba51fa49feb8c42",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume3\\runs\\confirm_R_t10_h500000_s203_p05\\sampling.json": "27b629da33408512ca468caa98250c1887ec6a35a31a719c940fea0b3dc07573",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume3\\runs\\confirm_R_t10_h500000_s203_p05\\model_500000.pt": "6de1f4a707f87badea6a59b1fd2f839bf737bb3ffcad0d52fa6a4158caacfc2f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261023_r13_resume3\\runs\\confirm_R_t10_h500000_s203_p05\\tb\\events.out.tfevents.1792772240.DESKTOP-B3JMOOO": "a69c3276a49c907dee169c9c9c3b058d4734933ca0303b5d3d31e5f033d01b2b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\research_idea_protocol_20261023_r13_resume3\\audit_incident_20261024_022849\\DERIVED_100K_SCALAR_FROM_RAW_EPISODES.json": "5f2af681e44c50d1ab3e70e68403ddb4aa68bd6380e39cb8010fcbd1decfb162",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\research_idea_protocol_20261023_r13_resume3\\audit_incident_20261024_022849\\AUDIT_REPAIR_RECEIPT.json": "00577d5c71f9ba5051ec7259e4800f81df8df40940d8e8e95046c0ed548c5e1f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s204_p05\\audit.json": "c786cdd4584abe56bd2a4ba076315d828401ddf4264c9347bc5f0a4cdc3eb5cf",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s204_p05\\completed.json": "18b133b9169fd5d3e9c9911dc86f243da58c1deb19aebcbcc2fb5eb44ce9193a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s204_p05\\evaluations.json": "ba0df44ae9627177d56458386b303f8f2d11171c27a4926da83b3be8c6ec49a3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s204_p05\\initialization.json": "f71aa1026a11c6547f0686f2d1719106224c53ed78e05651a5d78110ff924a27",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s204_p05\\sampling.json": "97b8472bb252e2e2433cbf4eadd30af74efa5eb02cb1dcfe5347283f40e681d7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s204_p05\\model_500000.pt": "a8c1df34de129b6fd9f941334484d434eef914754e3881a43f1173175243e40c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s204_p05\\tb\\events.out.tfevents.1792780821.DESKTOP-B3JMOOO": "d1e8efa57234926d8fd965f3925b42ddbd1552e14952553428c80ea452b3e3dc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s205_p05\\audit.json": "55a8f506616f426a9be833325da442ae3fac268c96dbc246cbb660772d818248",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s205_p05\\completed.json": "1ab2da67600eb18f99e514300d41fc4bf69437255f1ec2a4742e7e58e04c8c37",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s205_p05\\evaluations.json": "cc813acefcf443182fa3ff95c6c90a1041b9af01760153f4402f4ef7430031dd",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s205_p05\\initialization.json": "da4b8a47fca66a4f9e370b185703bff8e00e2a7efa78e42e93d3ce851df3dad9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s205_p05\\sampling.json": "aa3a1061568d39152b9b21dfe88555d18f7bb0a347033ee4eae5078797042b5b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s205_p05\\model_500000.pt": "b3d9fb8cc3aafc2c2ad7bd9a96b1150a5ddbebfa00f35f46e69306d2e8534071",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261024_r13_finish1\\runs\\confirm_R_t10_h500000_s205_p05\\tb\\events.out.tfevents.1792790588.DESKTOP-B3JMOOO": "49071b52fe96af4b290c22ab69b270de1fafcc58b80d9fc470f4ac968c063fb4",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s201\\audit.json": "eafa09197b6a79487bb718d15b8d8a025c1dbccb13f93f79093872f898561088",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s201\\completed.json": "45f0913071ca80b403183283e862faf581d93c1a2255dc77c81d01fb1a1906e0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s201\\evaluations.json": "4d94d1204081f7251b9b7fdfc79e2767723a27375fa4701f6edf8501583aad73",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s201\\initialization.json": "b987b3ae487d8ba4c9be59ee20ee814b368943c999b650f723ba2451493a8052",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s201\\sampling.json": "6985043bab983a269df50acc653a6ad9d5233cbce064f388f0fde9e9a6d11177",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s201\\model_500000.pt": "48e1a782ce4fc8629f67a73971e2af703f360591f833b7a44dc7731ceddfdfb1",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s201\\tb\\events.out.tfevents.1793014665.DESKTOP-B3JMOOO": "4bd84583f31d3f9cf4b059d6775790a15628a56623f75e9784ad098d11436a1f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s202\\audit.json": "9dc2cb4c862424174d62f2421b18f6634716f099073c9ca8ec7259f06880fb8c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s202\\completed.json": "a051a1668af0e4801320bebd095482c52d163d8f2379f422a6d0beae33e9cd04",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s202\\evaluations.json": "40246127731450913a934509949c5892244a23908331cec58656c7c1d3506d82",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s202\\initialization.json": "4f5af997767dc731ac6e744a0d1c9ff85ea903820f6f9dc4c1eb19e8e97613d0",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s202\\sampling.json": "e1d9ab7113e9fd2d63853366f9e318140f6c55b5c75f550a4c02b7ae179f5898",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s202\\model_500000.pt": "f2a8a99b4763390b217ceb60b2fc56a026d9cc9ac94e7ddd5fb3560be59ced8e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s202\\tb\\events.out.tfevents.1793022851.DESKTOP-B3JMOOO": "545657167ea91136a37f5de6bd4f4cdca60c9e45eadd3f4faa8ea16d135f2367",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s203\\audit.json": "18290384e172570c91aac7ca38cee759b1c699ab2a75627e5dca73eb6048fc94",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s203\\completed.json": "b2370905d904de9941d4869196c4fac76ef7e522db7cfb73026e5e02eb32b0cc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s203\\evaluations.json": "20277da4a741560d6733aa6b3e7f26f7e748572fe056eb5ddfffa07c64bfee24",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s203\\initialization.json": "742e5b7c2454d093e57a809b981a4269052dbe43b523ea856ba51fa49feb8c42",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s203\\sampling.json": "91d2eeff8495d0c6f4a2884abc1932c449aea5a3b9031e3c750aa2d811b68a74",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s203\\model_500000.pt": "1dfdd840c218d10b62e8dfe74ddae46effb57cc22c008888b731f1595edb51bc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s203\\tb\\events.out.tfevents.1793030158.DESKTOP-B3JMOOO": "cee61d52a0c5047414d35058e5b48e01af8bb48b30dedac5c4b6217d3a2b8c3e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s204\\audit.json": "3ac4caddbc462407c6b341a2949cce18dec59dfb33791635ffd2d7ba0cada68e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s204\\completed.json": "748b4cda189f4d75ca6177eb8183cecc95018d105d5f75e4c8b30ccfad2d3b5b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s204\\evaluations.json": "29ded68c273ce7ccb01f6dbd21a97c7d18da91ad5af01695a1f10bdd0b76b3af",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s204\\initialization.json": "f71aa1026a11c6547f0686f2d1719106224c53ed78e05651a5d78110ff924a27",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s204\\sampling.json": "20f9df7efd05cc7e8ea538dbbcb5a101c1436c014044995ae08fce462f0fce9f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s204\\model_500000.pt": "c9264e473dd86879305d67c1cee6a4b078f48c475faf640ea4a6a8d9bad706a3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s204\\tb\\events.out.tfevents.1793037397.DESKTOP-B3JMOOO": "8cca53429b5007da35ab311b7366dbb7e2c996193684a070022196edfac08d4c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s205\\audit.json": "15329bd2accbfb6ec2dea50fc399d98bd678ca146fbf9abc42575177a4821b4c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s205\\completed.json": "05f8038c79a4d620f38b4615691b8c7cfa63194564ecfc4f17f55059e4c0d176",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s205\\evaluations.json": "a8b806431c88559b458a7abf21dbd4f493586934e87bd96f0dfe8a04bbb45faa",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s205\\initialization.json": "da4b8a47fca66a4f9e370b185703bff8e00e2a7efa78e42e93d3ce851df3dad9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s205\\sampling.json": "d8fe3d326725c4ac83d7a8d5ccecda0a152e145322e2984252e4dde00c28751a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s205\\model_500000.pt": "0c9d56b312a024b28dc33a9eccd801608bea35d4d230c037881416ea034273c9",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\walk_w025_s205\\tb\\events.out.tfevents.1793044664.DESKTOP-B3JMOOO": "37e99b6b6509ad4f7445d8b77a6f181c9f5b104d7515bf5e2c73c7715352c0fe"
+  },
+  "raw_TB_and_episode_recomputed": true,
+  "audit_only_crosscheck": true,
+  "descriptive_comparisons_have_no_decisions": true,
+  "time": 1793553689.392917
+}

@@ -1,0 +1,1399 @@
+{
+  "passed": true,
+  "wa0_parity": {
+    "passed": true,
+    "steps": 10000,
+    "every_step_losses_bitwise_equal": true,
+    "final_4network_parameters_bitwise_equal": true,
+    "final_3Adam_and_cosine_bitwise_equal": true,
+    "model_digest": "af506328b0f1c01dad17b762975cce1c450dec702cd7894963e1335ed575d55e",
+    "scientific_state_sha256": "34aab88b6d8cf693766ec10447664f6c9dbc589a8145d04106892fb60aace61d",
+    "original_scientific_state_sha256": "34aab88b6d8cf693766ec10447664f6c9dbc589a8145d04106892fb60aace61d",
+    "original_model": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\original_O1_model_final.pt",
+    "original_model_sha256": "6b1b3e6d944a411ae804b77c5985747990e799f2fc6647c8e7d85ab60861e9ac",
+    "historical_first10_loss_match": true,
+    "reference_learner_updates": 10000
+  },
+  "trials": {
+    "wa0_parity_s201": {
+      "completed": {
+        "passed": true,
+        "trial_id": "wa0_parity_s201",
+        "steps": 10000,
+        "finite": true,
+        "model_digest": "af506328b0f1c01dad17b762975cce1c450dec702cd7894963e1335ed575d55e",
+        "scientific_state_sha256": "34aab88b6d8cf693766ec10447664f6c9dbc589a8145d04106892fb60aace61d",
+        "critic_state_sha256": "0f79ecbfa751f0686ff67c5c23ead7c2eae8a9115ab5fa0c25c4db3d353d0beb",
+        "elapsed_seconds": 352.148212,
+        "training_and_logging_seconds": 351.3339934,
+        "evaluation_seconds": 0.8142186000000038,
+        "evaluation_episodes": 10,
+        "evaluation_steps": 1444,
+        "new_learner_updates": 10000,
+        "reference_learner_updates": 10000,
+        "Adam_steps": 60000,
+        "sha256": {
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\config.json": "be991c9636beb9fd27ca1a4e3b590d43b2199b455e8b6a606a47d5e5f9eaaf92",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\evaluations.json": "ba39c31f984f1ffe841f268306f18ed66c8dac6e90e4977deaba3f443634e27c",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\initialization.json": "9d13fe8bc7633b57c0e7dc1524dde543d24be97976c7b5d3c27817fdc799098f",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\model_final.pt": "6b1b3e6d944a411ae804b77c5985747990e799f2fc6647c8e7d85ab60861e9ac",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\original_O1_model_final.pt": "6b1b3e6d944a411ae804b77c5985747990e799f2fc6647c8e7d85ab60861e9ac",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\PARITY_RESULT.json": "6bd6095e2c331b243cfe7ff6f374f4d368789accebc97b1182e3f667ee9ae4d4",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\sampling.json": "6a486a380acba8307ff505f7212e9855efdfa0d4bf5f4ef52031230f7c93fae7",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\started.json": "8f7e7581c23797938706bcda26c92ad871399c286a5b77990dfd4fe7a2422388",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\steps.jsonl": "2841c2c33e494c28de837be408674ea4947cfc8dba12461219c0d927d174a544"
+        },
+        "time": 1793618735.0933774
+      },
+      "diagnostics": {
+        "steps": 10000,
+        "statistics": {
+          "V": {
+            "mean": 0.2134309669091308,
+            "min": 0.00045900006080046296,
+            "max": 2.1746978759765625
+          },
+          "Q": {
+            "mean": 5.9623396906808015,
+            "min": 0.0402718260884285,
+            "max": 268.50457763671875
+          },
+          "actor": {
+            "mean": 0.0645210567375947,
+            "min": 8.368759154109284e-06,
+            "max": 4.069257736206055
+          }
+        },
+        "curve_every1000": [
+          {
+            "step": 1000,
+            "V": 0.005802283672557678,
+            "Q": 1.1405017773061992,
+            "actor": 0.048099452355876565
+          },
+          {
+            "step": 2000,
+            "V": 0.025836525273509322,
+            "Q": 3.183579565346241,
+            "actor": 0.054529987457208336
+          },
+          {
+            "step": 3000,
+            "V": 0.061527005534619095,
+            "Q": 5.821737033188343,
+            "actor": 0.07374069619132206
+          },
+          {
+            "step": 4000,
+            "V": 0.09582838271930814,
+            "Q": 6.7681305747628215,
+            "actor": 0.05781444769736845
+          },
+          {
+            "step": 5000,
+            "V": 0.12987273272499442,
+            "Q": 7.271674175083637,
+            "actor": 0.07468144515063614
+          },
+          {
+            "step": 6000,
+            "V": 0.1799909620434046,
+            "Q": 6.853544141948223,
+            "actor": 0.06592221551551483
+          },
+          {
+            "step": 7000,
+            "V": 0.24766084959357976,
+            "Q": 6.79519133412838,
+            "actor": 0.07169215851376066
+          },
+          {
+            "step": 8000,
+            "V": 0.3425534849911928,
+            "Q": 6.927919394850731,
+            "actor": 0.07179121683424455
+          },
+          {
+            "step": 9000,
+            "V": 0.456465822160244,
+            "Q": 7.3727564814090725,
+            "actor": 0.059883692814648386
+          },
+          {
+            "step": 10000,
+            "V": 0.5887716203778982,
+            "Q": 7.48836242878437,
+            "actor": 0.06705525484536702
+          }
+        ],
+        "all_steps_source_weight_and_MSE_recomputed": false,
+        "zero_selected_batches": 0,
+        "zero_selected_batch_fraction": null
+      }
+    },
+    "SA_all_s201": {
+      "completed": {
+        "passed": true,
+        "trial_id": "SA_all_s201",
+        "steps": 20000,
+        "finite": true,
+        "model_digest": "c344b42c286253388ab3fc09b214a3a9c424d5c79e0cdc51463c1197ae00665c",
+        "scientific_state_sha256": "4bcac7b869a24daa1bdc77e9b086f39f777b3e091072603929d0203e0f90dbd8",
+        "critic_state_sha256": "6ded14906afa904a25ab895d523da42e4a22d5aeba54c399a9d89d5191be8acb",
+        "elapsed_seconds": 405.7517525,
+        "training_and_logging_seconds": 404.8990453,
+        "evaluation_seconds": 0.8527071999999976,
+        "evaluation_episodes": 20,
+        "evaluation_steps": 1370,
+        "new_learner_updates": 20000,
+        "reference_learner_updates": 0,
+        "Adam_steps": 60000,
+        "sha256": {
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\config.json": "1a8f4f6f267574eaef4d1a8d7ea9400f19be5f6e0def707b2b6eb9badd8fd475",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\diagnostic_vectors.npy": "d803b72317b3400cd955b7ba85dd157906196858349b6fac01045ee79c842c89",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\evaluations.json": "54b4e7b4ccf546ad1fd5b61f66063d491feae1c1344dd0a894925f6e026a475a",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\initialization.json": "9d13fe8bc7633b57c0e7dc1524dde543d24be97976c7b5d3c27817fdc799098f",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\model_final.pt": "17136f4300e7748b4e2d4a8574f906d53eab31410c2a0ddd6af7fe7543253267",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\sampling.json": "208dd8c444fa2f8aaf3a4a4ff234490a8b1eb51c42ef28e7c5058899c7cd6f06",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\started.json": "13476bf325bbc21beff3c2695657a9f968c251e38b590e5b780b2b21273b25e3",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\steps.jsonl": "87db6c306dd28466dbcc952c0208ab692e9f39afc578d855424ade98c4145b91"
+        },
+        "time": 1793619153.677961
+      },
+      "diagnostics": {
+        "steps": 20000,
+        "statistics": {
+          "V": {
+            "mean": 0.702349759085427,
+            "min": 0.00045900006080046296,
+            "max": 6.339864253997803
+          },
+          "Q": {
+            "mean": 8.88781043926254,
+            "min": 0.0402718260884285,
+            "max": 308.10821533203125
+          },
+          "actor": {
+            "mean": 1.6254940048352815,
+            "min": 0.019398560747504234,
+            "max": 10.939805030822754
+          },
+          "source_A_positive_fraction": {
+            "mean": 0.368128125,
+            "min": 0.046875,
+            "max": 0.84375
+          },
+          "target_weight_sum": {
+            "mean": 718.4230385899499,
+            "min": 0.42017677426338196,
+            "max": 5047.826171875
+          },
+          "source_weight_sum": {
+            "mean": 1069.498094068098,
+            "min": 15.776036262512207,
+            "max": 4304.89453125
+          },
+          "target_normalized_weight_sum": {
+            "mean": 11.225359977967967,
+            "min": 0.006565262097865343,
+            "max": 78.87228393554688
+          },
+          "source_normalized_weight_sum": {
+            "mean": 16.71090771981403,
+            "min": 0.24650056660175323,
+            "max": 67.26397705078125
+          },
+          "source_selected": {
+            "mean": 64.0,
+            "min": 64.0,
+            "max": 64.0
+          },
+          "target_actor_term": {
+            "mean": 0.14063465354020901,
+            "min": 2.1198977265157737e-05,
+            "max": 1.9273698329925537
+          },
+          "source_actor_term": {
+            "mean": 1.4848593517357485,
+            "min": 0.017269231379032135,
+            "max": 9.196503639221191
+          }
+        },
+        "curve_every1000": [
+          {
+            "step": 1000,
+            "V": 0.005802283672557678,
+            "Q": 1.1405017773061992,
+            "actor": 0.33448179248720405,
+            "source_A_positive_fraction": 0.396796875,
+            "target_weight_sum": 64.64854283714294,
+            "source_weight_sum": 80.61798179626464,
+            "target_normalized_weight_sum": 1.0101334818303584,
+            "source_normalized_weight_sum": 1.259655965566635,
+            "source_selected": 64.0,
+            "target_actor_term": 0.07846119726635516,
+            "source_actor_term": 0.25602059557288886
+          },
+          {
+            "step": 2000,
+            "V": 0.025836525273509322,
+            "Q": 3.183579565346241,
+            "actor": 0.6676860936172306,
+            "source_A_positive_fraction": 0.372515625,
+            "target_weight_sum": 86.21527090549469,
+            "source_weight_sum": 234.7071793832779,
+            "target_normalized_weight_sum": 1.3471136078983545,
+            "source_normalized_weight_sum": 3.667299677863717,
+            "source_selected": 64.0,
+            "target_actor_term": 0.09491934489458799,
+            "source_actor_term": 0.5727667496800423
+          },
+          {
+            "step": 3000,
+            "V": 0.061527005534619095,
+            "Q": 5.821737033188343,
+            "actor": 1.0978629931360484,
+            "source_A_positive_fraction": 0.367,
+            "target_weight_sum": 143.26979373550415,
+            "source_weight_sum": 473.07008993530275,
+            "target_normalized_weight_sum": 2.2385905271172524,
+            "source_normalized_weight_sum": 7.391720155239105,
+            "source_selected": 64.0,
+            "target_actor_term": 0.13026773685542867,
+            "source_actor_term": 0.9675952566750348
+          },
+          {
+            "step": 4000,
+            "V": 0.09582838271930814,
+            "Q": 6.7681305747628215,
+            "actor": 1.4080795918554068,
+            "source_A_positive_fraction": 0.366296875,
+            "target_weight_sum": 212.593265001297,
+            "source_weight_sum": 610.7691708126068,
+            "target_normalized_weight_sum": 3.3217697656452656,
+            "source_normalized_weight_sum": 9.543268293946982,
+            "source_selected": 64.0,
+            "target_actor_term": 0.14143208954157307,
+            "source_actor_term": 1.2666475033834577
+          },
+          {
+            "step": 5000,
+            "V": 0.12987273272499442,
+            "Q": 7.271674175083637,
+            "actor": 1.6041674513444304,
+            "source_A_positive_fraction": 0.36996875,
+            "target_weight_sum": 295.99159303283693,
+            "source_weight_sum": 722.2250529022217,
+            "target_normalized_weight_sum": 4.624868641138077,
+            "source_normalized_weight_sum": 11.284766451597214,
+            "source_selected": 64.0,
+            "target_actor_term": 0.1579191928971559,
+            "source_actor_term": 1.4462482567727566
+          },
+          {
+            "step": 6000,
+            "V": 0.1799909620434046,
+            "Q": 6.853544141948223,
+            "actor": 1.722154719736427,
+            "source_A_positive_fraction": 0.371125,
+            "target_weight_sum": 397.1648885655403,
+            "source_weight_sum": 842.8851846122742,
+            "target_normalized_weight_sum": 6.205701383836567,
+            "source_normalized_weight_sum": 13.170081009566784,
+            "source_selected": 64.0,
+            "target_actor_term": 0.1577652837296482,
+            "source_actor_term": 1.5643894343040883
+          },
+          {
+            "step": 7000,
+            "V": 0.24766084959357976,
+            "Q": 6.79519133412838,
+            "actor": 1.7841491857469083,
+            "source_A_positive_fraction": 0.37290625,
+            "target_weight_sum": 470.09197901678084,
+            "source_weight_sum": 965.6325275421143,
+            "target_normalized_weight_sum": 7.345187172137201,
+            "source_normalized_weight_sum": 15.088008242845536,
+            "source_selected": 64.0,
+            "target_actor_term": 0.16738155649160036,
+            "source_actor_term": 1.6167676273006946
+          },
+          {
+            "step": 8000,
+            "V": 0.3425534849911928,
+            "Q": 6.927919394850731,
+            "actor": 1.8629224300831557,
+            "source_A_positive_fraction": 0.3699375,
+            "target_weight_sum": 562.1137317948342,
+            "source_weight_sum": 1071.3791426010132,
+            "target_normalized_weight_sum": 8.783027059294284,
+            "source_normalized_weight_sum": 16.74029910314083,
+            "source_selected": 64.0,
+            "target_actor_term": 0.16926366467570186,
+            "source_actor_term": 1.693658766925335
+          },
+          {
+            "step": 9000,
+            "V": 0.456465822160244,
+            "Q": 7.3727564814090725,
+            "actor": 1.8650586231723427,
+            "source_A_positive_fraction": 0.3651875,
+            "target_weight_sum": 644.1272258906364,
+            "source_weight_sum": 1131.2500030937194,
+            "target_normalized_weight_sum": 10.064487904541194,
+            "source_normalized_weight_sum": 17.675781298339366,
+            "source_selected": 64.0,
+            "target_actor_term": 0.1632121768288198,
+            "source_actor_term": 1.701846446633339
+          },
+          {
+            "step": 10000,
+            "V": 0.5887716203778982,
+            "Q": 7.48836242878437,
+            "actor": 1.8453490792959928,
+            "source_A_positive_fraction": 0.365265625,
+            "target_weight_sum": 754.9894484443664,
+            "source_weight_sum": 1197.8733794708253,
+            "target_normalized_weight_sum": 11.796710131943225,
+            "source_normalized_weight_sum": 18.716771554231645,
+            "source_selected": 64.0,
+            "target_actor_term": 0.15773699443493389,
+            "source_actor_term": 1.6876120867580175
+          },
+          {
+            "step": 11000,
+            "V": 0.6850346966683865,
+            "Q": 8.152145416021346,
+            "actor": 1.8609191045090556,
+            "source_A_positive_fraction": 0.363125,
+            "target_weight_sum": 776.006982717514,
+            "source_weight_sum": 1234.5500897598267,
+            "target_normalized_weight_sum": 12.125109104961156,
+            "source_normalized_weight_sum": 19.289845152497293,
+            "source_selected": 64.0,
+            "target_actor_term": 0.1409082379700849,
+            "source_actor_term": 1.720010866008699
+          },
+          {
+            "step": 12000,
+            "V": 0.8343762385696173,
+            "Q": 9.124661918401719,
+            "actor": 1.8611356924325229,
+            "source_A_positive_fraction": 0.361421875,
+            "target_weight_sum": 930.5493441114426,
+            "source_weight_sum": 1288.9868283843994,
+            "target_normalized_weight_sum": 14.53983350174129,
+            "source_normalized_weight_sum": 20.14041919350624,
+            "source_selected": 64.0,
+            "target_actor_term": 0.15246125602707616,
+            "source_actor_term": 1.7086744373217224
+          },
+          {
+            "step": 13000,
+            "V": 0.91860215061903,
+            "Q": 10.092690559387208,
+            "actor": 1.857537971533835,
+            "source_A_positive_fraction": 0.360609375,
+            "target_weight_sum": 983.9077419729233,
+            "source_weight_sum": 1308.0481284942628,
+            "target_normalized_weight_sum": 15.373558468326927,
+            "source_normalized_weight_sum": 20.438252007722856,
+            "source_selected": 64.0,
+            "target_actor_term": 0.15648956854324206,
+            "source_actor_term": 1.7010484028458595
+          },
+          {
+            "step": 14000,
+            "V": 1.0252025878429414,
+            "Q": 10.98600012898445,
+            "actor": 1.8587821505889297,
+            "source_A_positive_fraction": 0.36353125,
+            "target_weight_sum": 1023.190968468666,
+            "source_weight_sum": 1353.7798469848633,
+            "target_normalized_weight_sum": 15.987358882322907,
+            "source_normalized_weight_sum": 21.15281010913849,
+            "source_selected": 64.0,
+            "target_actor_term": 0.14106865828133597,
+            "source_actor_term": 1.7177134927883744
+          },
+          {
+            "step": 15000,
+            "V": 1.1465862964093685,
+            "Q": 10.997118218898773,
+            "actor": 1.7964425954520702,
+            "source_A_positive_fraction": 0.363546875,
+            "target_weight_sum": 1064.5821061239242,
+            "source_weight_sum": 1390.702243484497,
+            "target_normalized_weight_sum": 16.634095408186315,
+            "source_normalized_weight_sum": 21.729722554445267,
+            "source_selected": 64.0,
+            "target_actor_term": 0.1331196946616401,
+            "source_actor_term": 1.6633229017984121
+          },
+          {
+            "step": 16000,
+            "V": 1.2511828282177448,
+            "Q": 12.318937242269516,
+            "actor": 1.8354416041299702,
+            "source_A_positive_fraction": 0.363953125,
+            "target_weight_sum": 1150.1586790456772,
+            "source_weight_sum": 1432.3782893218995,
+            "target_normalized_weight_sum": 17.971229360088707,
+            "source_normalized_weight_sum": 22.38091077065468,
+            "source_selected": 64.0,
+            "target_actor_term": 0.14563790765170415,
+            "source_actor_term": 1.6898036955296993
+          },
+          {
+            "step": 17000,
+            "V": 1.3337082444131374,
+            "Q": 13.367681364774704,
+            "actor": 1.7963068114966154,
+            "source_A_positive_fraction": 0.36371875,
+            "target_weight_sum": 1157.013458826065,
+            "source_weight_sum": 1448.9311186676025,
+            "target_normalized_weight_sum": 18.078335294157267,
+            "source_normalized_weight_sum": 22.63954872918129,
+            "source_selected": 64.0,
+            "target_actor_term": 0.13465415595937522,
+            "source_actor_term": 1.661652655877173
+          },
+          {
+            "step": 18000,
+            "V": 1.4266872407793998,
+            "Q": 13.609202360153198,
+            "actor": 1.8407856864705683,
+            "source_A_positive_fraction": 0.36484375,
+            "target_weight_sum": 1195.3094176297188,
+            "source_weight_sum": 1502.8498666381836,
+            "target_normalized_weight_sum": 18.676709650464357,
+            "source_normalized_weight_sum": 23.48202916622162,
+            "source_selected": 64.0,
+            "target_actor_term": 0.13047935100499308,
+            "source_actor_term": 1.7103063397631049
+          },
+          {
+            "step": 19000,
+            "V": 1.5994392476677894,
+            "Q": 14.795290383338928,
+            "actor": 1.8345299040488898,
+            "source_A_positive_fraction": 0.36975,
+            "target_weight_sum": 1229.448101449877,
+            "source_weight_sum": 1536.6114778289796,
+            "target_normalized_weight_sum": 19.210126585154327,
+            "source_normalized_weight_sum": 24.009554341077806,
+            "source_selected": 64.0,
+            "target_actor_term": 0.13580599339785476,
+            "source_actor_term": 1.6987239120565354
+          },
+          {
+            "step": 20000,
+            "V": 1.6918659814298154,
+            "Q": 14.689084286212921,
+            "actor": 1.7760866155680268,
+            "source_A_positive_fraction": 0.3710625,
+            "target_weight_sum": 1227.088232228756,
+            "source_weight_sum": 1562.7142796478272,
+            "target_normalized_weight_sum": 19.17325362857431,
+            "source_normalized_weight_sum": 24.4174106194973,
+            "source_selected": 64.0,
+            "target_actor_term": 0.12370900969106878,
+            "source_actor_term": 1.6523776067197322
+          }
+        ],
+        "all_steps_source_weight_and_MSE_recomputed": true,
+        "zero_selected_batches": 0,
+        "zero_selected_batch_fraction": 0.0
+      }
+    },
+    "SA_top_s201": {
+      "completed": {
+        "passed": true,
+        "trial_id": "SA_top_s201",
+        "steps": 20000,
+        "finite": true,
+        "model_digest": "ffa73f3cb1b820839531aba1007550290c85e367f1b1d2dcae5f5e65debea537",
+        "scientific_state_sha256": "1850a1e1b5aa100f31cc1e3350486f95f120311ba9c48dc4c2d8cb70ed3e7316",
+        "critic_state_sha256": "6ded14906afa904a25ab895d523da42e4a22d5aeba54c399a9d89d5191be8acb",
+        "elapsed_seconds": 405.5768604,
+        "training_and_logging_seconds": 404.24733219999996,
+        "evaluation_seconds": 1.3295281999999986,
+        "evaluation_episodes": 20,
+        "evaluation_steps": 2177,
+        "new_learner_updates": 20000,
+        "reference_learner_updates": 0,
+        "Adam_steps": 60000,
+        "sha256": {
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\config.json": "5636379b61a53d777caff3ad462b423500829fd93d6ca450a2f907651f31d4e1",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\diagnostic_vectors.npy": "314ba4391c42d919c90891e6e90bf9646f84890567011712001445da3d64232b",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\evaluations.json": "b67906e8b2b4bd6b8a6f6afdf59165c627af495963e4b5e343e739115acbb6bc",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\initialization.json": "9d13fe8bc7633b57c0e7dc1524dde543d24be97976c7b5d3c27817fdc799098f",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\model_final.pt": "ed2706684e5f8c696c1350d99a75a02d77fd07f15bde823c9709a6b77f5ffa13",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\sampling.json": "208dd8c444fa2f8aaf3a4a4ff234490a8b1eb51c42ef28e7c5058899c7cd6f06",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\started.json": "670a4f2f24d5c046ed88d54544ed439b8a7c013e77a5deac33bf801543fd0f86",
+          "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\steps.jsonl": "78ff57a8640c8d445344db1d8107644cadd9991ec3a4fa6e3fbafd893058b822"
+        },
+        "time": 1793619580.372683
+      },
+      "diagnostics": {
+        "steps": 20000,
+        "statistics": {
+          "V": {
+            "mean": 0.702349759085427,
+            "min": 0.00045900006080046296,
+            "max": 6.339864253997803
+          },
+          "Q": {
+            "mean": 8.88781043926254,
+            "min": 0.0402718260884285,
+            "max": 308.10821533203125
+          },
+          "actor": {
+            "mean": 5.710891161365435,
+            "min": 0.10406177490949631,
+            "max": 27.42042350769043
+          },
+          "source_A_positive_fraction": {
+            "mean": 0.368128125,
+            "min": 0.046875,
+            "max": 0.84375
+          },
+          "target_weight_sum": {
+            "mean": 718.4230385899499,
+            "min": 0.42017677426338196,
+            "max": 5047.826171875
+          },
+          "source_weight_sum": {
+            "mean": 945.7994714433194,
+            "min": 3.6130213737487793,
+            "max": 1600.0
+          },
+          "target_normalized_weight_sum": {
+            "mean": 11.225359977967967,
+            "min": 0.006565262097865343,
+            "max": 78.87228393554688
+          },
+          "source_normalized_weight_sum": {
+            "mean": 60.968465116614105,
+            "min": 1.1574888229370117,
+            "max": 100.0
+          },
+          "source_selected": {
+            "mean": 15.331,
+            "min": 3.0,
+            "max": 16.0
+          },
+          "target_actor_term": {
+            "mean": 0.3008884152018643,
+            "min": 7.206617010524496e-05,
+            "max": 3.85141658782959
+          },
+          "source_actor_term": {
+            "mean": 5.410002747483365,
+            "min": 0.0508868508040905,
+            "max": 26.222278594970703
+          }
+        },
+        "curve_every1000": [
+          {
+            "step": 1000,
+            "V": 0.005802283672557678,
+            "Q": 1.1405017773061992,
+            "actor": 0.6674748337194324,
+            "source_A_positive_fraction": 0.396796875,
+            "target_weight_sum": 64.64854283714294,
+            "source_weight_sum": 46.4984708070755,
+            "target_normalized_weight_sum": 1.0101334818303584,
+            "source_normalized_weight_sum": 2.9650237028598787,
+            "source_selected": 15.509,
+            "target_actor_term": 0.12234756006672978,
+            "source_actor_term": 0.5451272733472288
+          },
+          {
+            "step": 2000,
+            "V": 0.025836525273509322,
+            "Q": 3.183579565346241,
+            "actor": 2.224393524259329,
+            "source_A_positive_fraction": 0.372515625,
+            "target_weight_sum": 86.21527090549469,
+            "source_weight_sum": 205.93073574638368,
+            "target_normalized_weight_sum": 1.3471136078983545,
+            "source_normalized_weight_sum": 13.13991477549076,
+            "source_selected": 15.447,
+            "target_actor_term": 0.20630628492683173,
+            "source_actor_term": 2.018087244182825
+          },
+          {
+            "step": 3000,
+            "V": 0.061527005534619095,
+            "Q": 5.821737033188343,
+            "actor": 4.046414586544037,
+            "source_A_positive_fraction": 0.367,
+            "target_weight_sum": 143.26979373550415,
+            "source_weight_sum": 442.8515900611877,
+            "target_normalized_weight_sum": 2.2385905271172524,
+            "source_normalized_weight_sum": 28.44233077430725,
+            "source_selected": 15.305,
+            "target_actor_term": 0.29910419186577203,
+            "source_actor_term": 3.7473103955984115
+          },
+          {
+            "step": 4000,
+            "V": 0.09582838271930814,
+            "Q": 6.7681305747628215,
+            "actor": 5.2179543310105805,
+            "source_A_positive_fraction": 0.366296875,
+            "target_weight_sum": 212.593265001297,
+            "source_weight_sum": 577.9884496612549,
+            "target_normalized_weight_sum": 3.3217697656452656,
+            "source_normalized_weight_sum": 36.99076619625092,
+            "source_selected": 15.414,
+            "target_actor_term": 0.3186105518238619,
+            "source_actor_term": 4.899343778163194
+          },
+          {
+            "step": 5000,
+            "V": 0.12987273272499442,
+            "Q": 7.271674175083637,
+            "actor": 5.910513076275587,
+            "source_A_positive_fraction": 0.36996875,
+            "target_weight_sum": 295.99159303283693,
+            "source_weight_sum": 681.3492722358703,
+            "target_normalized_weight_sum": 4.624868641138077,
+            "source_normalized_weight_sum": 43.69077779150009,
+            "source_selected": 15.394,
+            "target_actor_term": 0.36361992418486627,
+            "source_actor_term": 5.546893148049712
+          },
+          {
+            "step": 6000,
+            "V": 0.1799909620434046,
+            "Q": 6.853544141948223,
+            "actor": 6.361324256122113,
+            "source_A_positive_fraction": 0.371125,
+            "target_weight_sum": 397.1648885655403,
+            "source_weight_sum": 791.6495095062256,
+            "target_normalized_weight_sum": 6.205701383836567,
+            "source_normalized_weight_sum": 50.71961149835587,
+            "source_selected": 15.366,
+            "target_actor_term": 0.38538550230581314,
+            "source_actor_term": 5.975938758015633
+          },
+          {
+            "step": 7000,
+            "V": 0.24766084959357976,
+            "Q": 6.79519133412838,
+            "actor": 6.518996153876185,
+            "source_A_positive_fraction": 0.37290625,
+            "target_weight_sum": 470.09197901678084,
+            "source_weight_sum": 896.4951616744995,
+            "target_normalized_weight_sum": 7.345187172137201,
+            "source_normalized_weight_sum": 57.50565744400024,
+            "source_selected": 15.398,
+            "target_actor_term": 0.41267780713923274,
+            "source_actor_term": 6.106318351849914
+          },
+          {
+            "step": 8000,
+            "V": 0.3425534849911928,
+            "Q": 6.927919394850731,
+            "actor": 6.7283741185963155,
+            "source_A_positive_fraction": 0.3699375,
+            "target_weight_sum": 562.1137317948342,
+            "source_weight_sum": 983.2230900878906,
+            "target_normalized_weight_sum": 8.783027059294284,
+            "source_normalized_weight_sum": 63.30385012435913,
+            "source_selected": 15.323,
+            "target_actor_term": 0.3979387343878625,
+            "source_actor_term": 6.330435384392739
+          },
+          {
+            "step": 9000,
+            "V": 0.456465822160244,
+            "Q": 7.3727564814090725,
+            "actor": 6.719872341036797,
+            "source_A_positive_fraction": 0.3651875,
+            "target_weight_sum": 644.1272258906364,
+            "source_weight_sum": 1036.0639346923829,
+            "target_normalized_weight_sum": 10.064487904541194,
+            "source_normalized_weight_sum": 66.73991885328293,
+            "source_selected": 15.315,
+            "target_actor_term": 0.3700106166342739,
+            "source_actor_term": 6.34986172413826
+          },
+          {
+            "step": 10000,
+            "V": 0.5887716203778982,
+            "Q": 7.48836242878437,
+            "actor": 6.600253313004971,
+            "source_A_positive_fraction": 0.365265625,
+            "target_weight_sum": 754.9894484443664,
+            "source_weight_sum": 1063.5492991638184,
+            "target_normalized_weight_sum": 11.796710131943225,
+            "source_normalized_weight_sum": 69.55565566062927,
+            "source_selected": 15.006,
+            "target_actor_term": 0.3512653121841431,
+            "source_actor_term": 6.248988007366657
+          },
+          {
+            "step": 11000,
+            "V": 0.6850346966683865,
+            "Q": 8.152145416021346,
+            "actor": 6.626615009129047,
+            "source_A_positive_fraction": 0.363125,
+            "target_weight_sum": 776.006982717514,
+            "source_weight_sum": 1128.2842154846192,
+            "target_normalized_weight_sum": 12.125109104961156,
+            "source_normalized_weight_sum": 72.24954575920106,
+            "source_selected": 15.462,
+            "target_actor_term": 0.29789331650570966,
+            "source_actor_term": 6.328721704989672
+          },
+          {
+            "step": 12000,
+            "V": 0.8343762385696173,
+            "Q": 9.124661918401719,
+            "actor": 6.471636520564556,
+            "source_A_positive_fraction": 0.361421875,
+            "target_weight_sum": 930.5493441114426,
+            "source_weight_sum": 1137.0751519927978,
+            "target_normalized_weight_sum": 14.53983350174129,
+            "source_normalized_weight_sum": 73.92434850120544,
+            "source_selected": 15.146,
+            "target_actor_term": 0.3119908428924973,
+            "source_actor_term": 6.159645682930947
+          },
+          {
+            "step": 13000,
+            "V": 0.91860215061903,
+            "Q": 10.092690559387208,
+            "actor": 6.55614377105236,
+            "source_A_positive_fraction": 0.360609375,
+            "target_weight_sum": 983.9077419729233,
+            "source_weight_sum": 1163.989306930542,
+            "target_normalized_weight_sum": 15.373558468326927,
+            "source_normalized_weight_sum": 75.38180418205262,
+            "source_selected": 15.25,
+            "target_actor_term": 0.3235543501942884,
+            "source_actor_term": 6.232589418172837
+          },
+          {
+            "step": 14000,
+            "V": 1.0252025878429414,
+            "Q": 10.98600012898445,
+            "actor": 6.479437541365623,
+            "source_A_positive_fraction": 0.36353125,
+            "target_weight_sum": 1023.190968468666,
+            "source_weight_sum": 1189.726827987671,
+            "target_normalized_weight_sum": 15.987358882322907,
+            "source_normalized_weight_sum": 76.89332423400879,
+            "source_selected": 15.294,
+            "target_actor_term": 0.283314029064466,
+            "source_actor_term": 6.196123512506485
+          },
+          {
+            "step": 15000,
+            "V": 1.1465862964093685,
+            "Q": 10.997118218898773,
+            "actor": 6.265912028074265,
+            "source_A_positive_fraction": 0.363546875,
+            "target_weight_sum": 1064.5821061239242,
+            "source_weight_sum": 1219.6687882232666,
+            "target_normalized_weight_sum": 16.634095408186315,
+            "source_normalized_weight_sum": 78.41280788040162,
+            "source_selected": 15.373,
+            "target_actor_term": 0.2759875772083178,
+            "source_actor_term": 5.98992445242405
+          },
+          {
+            "step": 16000,
+            "V": 1.2511828282177448,
+            "Q": 12.318937242269516,
+            "actor": 6.22290014475584,
+            "source_A_positive_fraction": 0.363953125,
+            "target_weight_sum": 1150.1586790456772,
+            "source_weight_sum": 1221.0883527069093,
+            "target_normalized_weight_sum": 17.971229360088707,
+            "source_normalized_weight_sum": 79.15134505653381,
+            "source_selected": 15.209,
+            "target_actor_term": 0.2800095032018144,
+            "source_actor_term": 5.942890636980533
+          },
+          {
+            "step": 17000,
+            "V": 1.3337082444131374,
+            "Q": 13.367681364774704,
+            "actor": 6.2416827272176745,
+            "source_A_positive_fraction": 0.36371875,
+            "target_weight_sum": 1157.013458826065,
+            "source_weight_sum": 1259.5998346939086,
+            "target_normalized_weight_sum": 18.078335294157267,
+            "source_normalized_weight_sum": 81.01847470474243,
+            "source_selected": 15.361,
+            "target_actor_term": 0.26129379053169394,
+            "source_actor_term": 5.980388941675424
+          },
+          {
+            "step": 18000,
+            "V": 1.4266872407793998,
+            "Q": 13.609202360153198,
+            "actor": 6.234636919617653,
+            "source_A_positive_fraction": 0.36484375,
+            "target_weight_sum": 1195.3094176297188,
+            "source_weight_sum": 1263.6106247711182,
+            "target_normalized_weight_sum": 18.676709650464357,
+            "source_normalized_weight_sum": 81.98026544380188,
+            "source_selected": 15.201,
+            "target_actor_term": 0.2538000138344942,
+            "source_actor_term": 5.980836898326873
+          },
+          {
+            "step": 19000,
+            "V": 1.5994392476677894,
+            "Q": 14.795290383338928,
+            "actor": 6.117866536557674,
+            "source_A_positive_fraction": 0.36975,
+            "target_weight_sum": 1229.448101449877,
+            "source_weight_sum": 1285.8817975616455,
+            "target_normalized_weight_sum": 19.210126585154327,
+            "source_normalized_weight_sum": 82.73947829627991,
+            "source_selected": 15.359,
+            "target_actor_term": 0.2553045610010959,
+            "source_actor_term": 5.862561982393265
+          },
+          {
+            "step": 20000,
+            "V": 1.6918659814298154,
+            "Q": 14.689084286212921,
+            "actor": 6.005421494528651,
+            "source_A_positive_fraction": 0.3710625,
+            "target_weight_sum": 1227.088232228756,
+            "source_weight_sum": 1321.4650148773194,
+            "target_normalized_weight_sum": 19.17325362857431,
+            "source_normalized_weight_sum": 84.56440145301819,
+            "source_selected": 15.488,
+            "target_actor_term": 0.2473538340835221,
+            "source_actor_term": 5.758067654162645
+          }
+        ],
+        "all_steps_source_weight_and_MSE_recomputed": true,
+        "zero_selected_batches": 0,
+        "zero_selected_batch_fraction": 0.0
+      }
+    }
+  },
+  "budget": {
+    "single_by_variant": {
+      "SA_all_s201": {
+        "estimated_single500k_hours": 2.817720503472222,
+        "estimated_10seeds_hours": 28.177205034722224,
+        "training_logging_seconds_projected": 10122.4761325,
+        "evaluation_seconds_projected": 21.31767999999994,
+        "warning": "20k prefix extrapolation; runtime/episode-length variation and audit overhead remain"
+      },
+      "SA_top_s201": {
+        "estimated_single500k_hours": 2.8165059749999997,
+        "estimated_10seeds_hours": 28.165059749999998,
+        "training_logging_seconds_projected": 10106.183304999999,
+        "evaluation_seconds_projected": 33.238204999999965,
+        "warning": "20k prefix extrapolation; runtime/episode-length variation and audit overhead remain"
+      }
+    },
+    "stage1_20jobs_hours": 56.34226478472222,
+    "exact_future_completion_guarantee": false,
+    "based_on_short_trials": true,
+    "measured_before_formal_Stage1": true,
+    "time": 1793619615.6088965
+  },
+  "input_sha256": {
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\audit.json": "5408d7aebaccdb5ba588f60a499f750e007fcc7a36ee47182497404c40b985fd",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\completed.json": "3b0c911bad4e690b9dfcb37db01d2ab37a89fbb919671d6f945469e92e68bd19",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\config.json": "be991c9636beb9fd27ca1a4e3b590d43b2199b455e8b6a606a47d5e5f9eaaf92",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\evaluations.json": "ba39c31f984f1ffe841f268306f18ed66c8dac6e90e4977deaba3f443634e27c",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\initialization.json": "9d13fe8bc7633b57c0e7dc1524dde543d24be97976c7b5d3c27817fdc799098f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\model_final.pt": "6b1b3e6d944a411ae804b77c5985747990e799f2fc6647c8e7d85ab60861e9ac",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\original_O1_model_final.pt": "6b1b3e6d944a411ae804b77c5985747990e799f2fc6647c8e7d85ab60861e9ac",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\PARITY_RESULT.json": "6bd6095e2c331b243cfe7ff6f374f4d368789accebc97b1182e3f667ee9ae4d4",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\progress.json": "f49b2794d38a4dca5da18361da49a27bcb68a2b89976f960ab81b22e9b9451a5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\sampling.json": "6a486a380acba8307ff505f7212e9855efdfa0d4bf5f4ef52031230f7c93fae7",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\started.json": "8f7e7581c23797938706bcda26c92ad871399c286a5b77990dfd4fe7a2422388",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\wa0_parity_s201\\steps.jsonl": "2841c2c33e494c28de837be408674ea4947cfc8dba12461219c0d927d174a544",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\audit.json": "47a8501f9efd38e956b00bb5907a4193d2b71327ccd96cb5943a1b22fe21e616",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\completed.json": "a2084789b87e8247cc1dc6c8eed053466e4a413304eefcf84e579607b1cded50",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\config.json": "1a8f4f6f267574eaef4d1a8d7ea9400f19be5f6e0def707b2b6eb9badd8fd475",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\diagnostic_vectors.npy": "d803b72317b3400cd955b7ba85dd157906196858349b6fac01045ee79c842c89",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\evaluations.json": "54b4e7b4ccf546ad1fd5b61f66063d491feae1c1344dd0a894925f6e026a475a",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\initialization.json": "9d13fe8bc7633b57c0e7dc1524dde543d24be97976c7b5d3c27817fdc799098f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\model_final.pt": "17136f4300e7748b4e2d4a8574f906d53eab31410c2a0ddd6af7fe7543253267",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\progress.json": "c77d5d9c5484d9eb71ecca5e595bb5ac8ca0d686c5d253037ccafabcf0bc4bc2",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\sampling.json": "208dd8c444fa2f8aaf3a4a4ff234490a8b1eb51c42ef28e7c5058899c7cd6f06",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\started.json": "13476bf325bbc21beff3c2695657a9f968c251e38b590e5b780b2b21273b25e3",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_all_s201\\steps.jsonl": "87db6c306dd28466dbcc952c0208ab692e9f39afc578d855424ade98c4145b91",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\audit.json": "d23fbe9ae09acb07a6846b6bc2aca3a6d3316354c682458116daa02a8747c817",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\completed.json": "0e0cb2ebe41196eea0915b8d6056da8b69883eec3ec938a8abbe3f0c1101c8b5",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\config.json": "5636379b61a53d777caff3ad462b423500829fd93d6ca450a2f907651f31d4e1",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\diagnostic_vectors.npy": "314ba4391c42d919c90891e6e90bf9646f84890567011712001445da3d64232b",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\evaluations.json": "b67906e8b2b4bd6b8a6f6afdf59165c627af495963e4b5e343e739115acbb6bc",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\initialization.json": "9d13fe8bc7633b57c0e7dc1524dde543d24be97976c7b5d3c27817fdc799098f",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\model_final.pt": "ed2706684e5f8c696c1350d99a75a02d77fd07f15bde823c9709a6b77f5ffa13",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\progress.json": "805c16892d78f1a8561b8d89b6d667284140ed48240809ad0813fec574535b8e",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\sampling.json": "208dd8c444fa2f8aaf3a4a4ff234490a8b1eb51c42ef28e7c5058899c7cd6f06",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\started.json": "670a4f2f24d5c046ed88d54544ed439b8a7c013e77a5deac33bf801543fd0f86",
+    "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\runs\\SA_top_s201\\steps.jsonl": "78ff57a8640c8d445344db1d8107644cadd9991ec3a4fa6e3fbafd893058b822"
+  },
+  "new_GPU_learner_updates": 50000,
+  "original_O1_GPU_reference_updates": 10000,
+  "total_GPU_learner_updates": 60000,
+  "total_GPU_Adam_steps": 180000,
+  "CPU_synthetic_learner_updates": 8,
+  "CPU_synthetic_Adam_steps": 24,
+  "real_environment_episodes": 50,
+  "Last5_and_H_act_not_applicable_at_20k": true,
+  "correction": "用户更正：v11的−log π作废；沿用O1实际exp(10A).clamp(max=100)优势加权动作MSE；源动作同类MSE并入。",
+  "automatic_authorized_Stage1_next": false,
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "repair_evidence": {
+    "items": [
+      {
+        "category": "import_repair_and_scope",
+        "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\trial.py",
+        "new_lines": [
+          "1-1",
+          "9-14",
+          "17-17",
+          "134-135"
+        ],
+        "description": "Original failure fixed by explicit O1 evaluate file import; CLI restricted to3 Stage0 trials; training loop AST unchanged",
+        "ranges": [
+          {
+            "original": [
+              1,
+              1
+            ],
+            "revised": [
+              1,
+              1
+            ]
+          },
+          {
+            "original": [
+              9,
+              9
+            ],
+            "revised": [
+              9,
+              14
+            ]
+          },
+          {
+            "original": [
+              12,
+              12
+            ],
+            "revised": [
+              17,
+              17
+            ]
+          },
+          {
+            "original": [
+              129,
+              130
+            ],
+            "revised": [
+              134,
+              135
+            ]
+          }
+        ],
+        "original_sha256": "804e09bacf1ed9e228df50c52294eb06d7e886585cfdffb6f574daf6998b62c9",
+        "revised_sha256": "a93d922a7251bb977a2f90595c69905abbe03ae475b007de9eae3f354e3a5546"
+      },
+      {
+        "category": "scope_and_protection",
+        "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\common.py",
+        "new_lines": [
+          "1-1",
+          "18-18",
+          "32-33",
+          "45-47",
+          "125-125"
+        ],
+        "description": "New output only, require stages1/2 unauthorized; protect old failed evidence; reject formal_jobs",
+        "ranges": [
+          {
+            "original": [
+              1,
+              1
+            ],
+            "revised": [
+              1,
+              1
+            ]
+          },
+          {
+            "original": [
+              18,
+              18
+            ],
+            "revised": [
+              18,
+              18
+            ]
+          },
+          {
+            "original": [
+              32,
+              33
+            ],
+            "revised": [
+              32,
+              33
+            ]
+          },
+          {
+            "original": [
+              45,
+              44
+            ],
+            "revised": [
+              45,
+              47
+            ]
+          },
+          {
+            "original": [
+              122,
+              125
+            ],
+            "revised": [
+              125,
+              125
+            ]
+          }
+        ],
+        "original_sha256": "a3e54cf463dd2477c615943e7e005e2bd460050fe9c6308c82c13bb3a04ea409",
+        "revised_sha256": "d2718a8b68c14b8d1e20b7e5c8e2ec9fdcf9cc4db3bdbf8129b6a01affbc8671"
+      },
+      {
+        "category": "scope_controller",
+        "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\pipeline.py",
+        "new_lines": [
+          "1-1",
+          "5-5",
+          "7-7",
+          "10-17",
+          "19-21",
+          "23-25",
+          "27-27",
+          "29-29",
+          "31-34",
+          "38-43",
+          "46-46",
+          "49-49"
+        ],
+        "description": "Only3 Stage0 trials; reuse accepted CPU receipt; audit/report/verify then exit; no later-stage launch branch",
+        "ranges": [
+          {
+            "original": [
+              1,
+              1
+            ],
+            "revised": [
+              1,
+              1
+            ]
+          },
+          {
+            "original": [
+              5,
+              5
+            ],
+            "revised": [
+              5,
+              5
+            ]
+          },
+          {
+            "original": [
+              7,
+              7
+            ],
+            "revised": [
+              7,
+              7
+            ]
+          },
+          {
+            "original": [
+              10,
+              22
+            ],
+            "revised": [
+              10,
+              17
+            ]
+          },
+          {
+            "original": [
+              24,
+              24
+            ],
+            "revised": [
+              19,
+              21
+            ]
+          },
+          {
+            "original": [
+              26,
+              29
+            ],
+            "revised": [
+              23,
+              25
+            ]
+          },
+          {
+            "original": [
+              31,
+              31
+            ],
+            "revised": [
+              27,
+              27
+            ]
+          },
+          {
+            "original": [
+              33,
+              33
+            ],
+            "revised": [
+              29,
+              29
+            ]
+          },
+          {
+            "original": [
+              35,
+              36
+            ],
+            "revised": [
+              31,
+              34
+            ]
+          },
+          {
+            "original": [
+              40,
+              60
+            ],
+            "revised": [
+              38,
+              43
+            ]
+          },
+          {
+            "original": [
+              63,
+              63
+            ],
+            "revised": [
+              46,
+              46
+            ]
+          },
+          {
+            "original": [
+              66,
+              66
+            ],
+            "revised": [
+              49,
+              49
+            ]
+          }
+        ],
+        "original_sha256": "f35ee4fb9c48e3e10d6f52810936039bcfaca1f4f4a04a04f8b5101ba57c0025",
+        "revised_sha256": "c99545efefa8353c1151ef7aa92a3f8d1cb475577c4cf9d70257593e41998040"
+      },
+      {
+        "category": "diagnostic_only",
+        "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\audit.py",
+        "new_lines": [
+          "32-32",
+          "63-63",
+          "75-76"
+        ],
+        "description": "Compute zero-selected-batch count/fraction from saved scalar diagnostics; no optimizer or sampling change",
+        "ranges": [
+          {
+            "original": [
+              32,
+              32
+            ],
+            "revised": [
+              32,
+              32
+            ]
+          },
+          {
+            "original": [
+              63,
+              62
+            ],
+            "revised": [
+              63,
+              63
+            ]
+          },
+          {
+            "original": [
+              74,
+              74
+            ],
+            "revised": [
+              75,
+              76
+            ]
+          }
+        ],
+        "original_sha256": "a4e9228a143d2133541d578440ac58098976fd5559e43d4fbf32bc65b3f3c9c0",
+        "revised_sha256": "4c5d0434da968308b415693ea6f8c2264afd94e32b7ba9ec63a1ece53bcb1bc1"
+      },
+      {
+        "category": "report_only",
+        "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\report.py",
+        "new_lines": [
+          "33-34",
+          "39-39",
+          "51-51",
+          "54-54",
+          "56-71"
+        ],
+        "description": "Revised instruction, selected-count denominator and empty-batch ratio; repair lines and evidence; stop afterStage0",
+        "ranges": [
+          {
+            "original": [
+              33,
+              33
+            ],
+            "revised": [
+              33,
+              34
+            ]
+          },
+          {
+            "original": [
+              38,
+              38
+            ],
+            "revised": [
+              39,
+              39
+            ]
+          },
+          {
+            "original": [
+              50,
+              50
+            ],
+            "revised": [
+              51,
+              51
+            ]
+          },
+          {
+            "original": [
+              53,
+              53
+            ],
+            "revised": [
+              54,
+              54
+            ]
+          },
+          {
+            "original": [
+              55,
+              54
+            ],
+            "revised": [
+              56,
+              71
+            ]
+          }
+        ],
+        "original_sha256": "9b821e6e192f34a29e68b871ad5c9482cae9907e91c0fd9a472e5cfef082a072",
+        "revised_sha256": "9395a6e6d5d0f815ccd10ff2cda5ab210ae7580918f96abc52153e2abb714709"
+      },
+      {
+        "category": "verification_only",
+        "file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\verify.py",
+        "new_lines": [
+          "1-1",
+          "22-24"
+        ],
+        "description": "Verify revised authorization, absent later-stage outputs and repair-evidence hashes",
+        "ranges": [
+          {
+            "original": [
+              1,
+              1
+            ],
+            "revised": [
+              1,
+              1
+            ]
+          },
+          {
+            "original": [
+              22,
+              22
+            ],
+            "revised": [
+              22,
+              24
+            ]
+          }
+        ],
+        "original_sha256": "e0299ec7b2c728dbcb85f6d8553e0613592d904e628ced813596b0a4ba71d20f",
+        "revised_sha256": "61a459d9ceefb243d5e52810e04ac1a2a4c6b91b4c4f944105a608bbe3337923"
+      }
+    ],
+    "actual_import_fix_lines": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "actual_import_fix_file": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\trial.py",
+    "actor_byte_identical": true,
+    "training_loop_AST_identical": true,
+    "sampler_initialize_and_evaluate_unchanged": true,
+    "source_top_denominator_unchanged": "selected_count",
+    "new_scope_and_diagnostics_explicitly_requested_by_user": true,
+    "evidence_sha256": {
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\actor.py": "735157f5fcf6878cec5a95607e0c69a6f0cc8eaab094c703e1b34f7e103dbfd9",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\audit.py": "4c5d0434da968308b415693ea6f8c2264afd94e32b7ba9ec63a1ece53bcb1bc1",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\common.py": "d2718a8b68c14b8d1e20b7e5c8e2ec9fdcf9cc4db3bdbf8129b6a01affbc8671",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\cpu_acceptance.py": "843002eee8c6fcb34fac806e091ef540149f2f053b8db5be51ae2bdf624d858e",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\pipeline.py": "c99545efefa8353c1151ef7aa92a3f8d1cb475577c4cf9d70257593e41998040",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\prepare_revision.py": "1aa085d395c4d194a21dc9bcfbbd1057f51fd4b24061fd754cfcfcd6141ed769",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\report.py": "9395a6e6d5d0f815ccd10ff2cda5ab210ae7580918f96abc52153e2abb714709",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\trial.py": "a93d922a7251bb977a2f90595c69905abbe03ae475b007de9eae3f354e3a5546",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0\\verify.py": "61a459d9ceefb243d5e52810e04ac1a2a4c6b91b4c4f944105a608bbe3337923",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v9_hopper_label_headroom\\stage2\\runtime.py": "1d06b983fefa8737c613aa7fb8549c63e3f7ef47753b971fa550717d7987411b",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v9_hopper_label_headroom\\stage2\\learner.py": "1203473cf7123a97ce38b991a427a500176eb2f4336e48c116f3cf29200a83c5",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v9_hopper_label_headroom\\stage2\\train.py": "2eea9c325ba441a3c3448a77a9f1c55d235ee447849bdda92b9cc8beca401a42",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor\\actor.py": "735157f5fcf6878cec5a95607e0c69a6f0cc8eaab094c703e1b34f7e103dbfd9",
+      "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261101\\stage0\\CPU_ACCEPTANCE.json": "c7f14a33b64cf2418993aed46a379e3cbb87fb3587fb59a464a4e38a14fb37a6",
+      "C:\\Users\\TXin\\Desktop\\Claude命令\\给Code的指令_v11修订版_源数据动作进入策略的上限检验.md": "d0182644ab6542d7c9e6e46666268527602dec13c3677134ed9a00cb8389ee69"
+    }
+  },
+  "time": 1793619615.612881
+}

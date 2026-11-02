@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "raw_records": 50,
+  "new_training_runs": 20,
+  "report": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\STAGE2_REPORT_ZH.md",
+  "report_sha256": "0d67f857318f8024fc59647c6a2888913dd0f1a9b9a17d0c9095a7a6f487bbb0",
+  "result_sha256": "7c77362acef8e7fe99e6e5a3c27e034992acd641ab266b9287e27f28d42fe876",
+  "time": 1793523142.8302512
+}

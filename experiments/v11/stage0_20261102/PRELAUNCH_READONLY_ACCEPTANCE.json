@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "new_optimizer_updates": 0,
+  "environment_steps": 0,
+  "CUDA_initialized": false,
+  "actor_byte_identical": true,
+  "training_loop_AST_identical": true,
+  "explicit_evaluator_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v9_hopper_label_headroom\\stage2\\train.py",
+  "evaluate_AST_identical": true,
+  "all_module_compilation_and_imports_passed": true,
+  "formal_entry_blocked": true,
+  "source_top_denominator": "selected_count",
+  "empty_batch_fraction_reporting_enabled": true,
+  "time": 1793618265.9389927
+}

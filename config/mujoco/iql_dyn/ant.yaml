@@ -1,0 +1,44 @@
+ac_gradient_clip: 100
+alpha: 0.2
+batch_size: 128
+actor_lr: 0.0003
+critic_lr: 0.0003
+gamma: 0.99
+max_epochs_since_update_decay_interval: 150000.0
+
+state_dim: 17
+action_dim: 3
+hidden_sizes: 256
+max_action: 1
+
+temperature_opt: False
+
+tau: 0.005
+update_interval: 2
+expl_noise: 0.2
+
+eval_episode: 10
+eval_freq: 10000
+start_steps: 5000
+max_step: 500000
+tar_env_interact_freq: 10
+
+device: cuda
+
+lam: 0.7
+temp: 3.0
+
+save_freq: 5000
+
+reweight_mode: dyn
+dyn_alpha: 1.0
+unc_alpha: 0.5
+source_budget: 0.33
+min_weight: 0.05
+max_weight: 1.0
+knn_k: 5
+target_bank_size: 20000
+knn_chunk_size: 5000
+source_loss_weight: 1.0
+normalize_distance: true
+normalize_uncertainty: true

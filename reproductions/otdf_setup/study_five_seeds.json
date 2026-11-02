@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-21T09:13:14.7221628Z",
+  "task": "walker2d-morph-srcdatatype-medium-tardatatype-medium",
+  "expected_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "official_commit": "41e2e626844bd6b65e2316a418ce4d6df4bbe775",
+  "train_run_name": "train_5seeds",
+  "pipeline_dir": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921",
+  "inputs_manifest": {
+    "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\artifacts\\walker2d-morph-srcdatatype-medium-tardatatype-medium\\manifest.json",
+    "sha256": "2a7248a0efbc8fce354d3ab73e41663b81df069c8f9ffa0455e56f5d4573eb5d"
+  },
+  "cost_manifest": {
+    "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\costlogs\\walker2d-morph-srcdatatype-medium-tardatatype-medium.manifest.json",
+    "sha256": "aa05bccdb61d4361319c7829cb3241d20a2b64e1f1e16993ce1666bb3d06a3de"
+  },
+  "common_official_arguments": [
+    "--env",
+    "walker2d-morph",
+    "--policy",
+    "OTDF",
+    "--srctype",
+    "medium",
+    "--tartype",
+    "medium",
+    "--weight",
+    "--proportion",
+    "0.8",
+    "--reg_weight",
+    "0.5",
+    "--steps",
+    "1000000",
+    "--save-model"
+  ],
+  "policy_steps": 1000000,
+  "cvae_steps": 10000,
+  "eval_episodes": 10,
+  "eval_frequency": 10000,
+  "metrics": {
+    "primary": "Final",
+    "final_step": 1000000,
+    "last5_steps": [
+      960000,
+      970000,
+      980000,
+      990000,
+      1000000
+    ],
+    "std_ddof": 1,
+    "primary_definition": "Per-seed target normalized return at exactly step 1000000; mean and sample SD across seeds",
+    "secondary_definition": "Average the 5 specified target evaluation scores within each seed, then mean and sample SD across seeds; do not pool evaluation checkpoints as independent seeds"
+  },
+  "normalization": {
+    "ref_min": 10.079455055289959,
+    "ref_max": 4398.43,
+    "formula": "100 * (raw_return - ref_min) / (ref_max - ref_min)"
+  },
+  "paper_reference": {
+    "mean": 50.5,
+    "std": 5.8,
+    "seeds": 5,
+    "aggregation": "unspecified",
+    "location": "Table 1, walk-m / medium",
+    "comparability_note": "Final/Last-K and SD ddof not specified by the paper; report our definitions explicitly"
+  },
+  "selection_note": "Seed 1 is the completed 1M restart only. Smoke and interrupted 175k attempt are excluded. Metrics chosen after seed 1 was observed and before seeds 2-5; no best-checkpoint or best-seed selection.",
+  "execution_note": "Serial seeds 2,3,4,5; from-scratch CVAE and policy each time; same data, OT file, hyperparameters, original implementation and Windows environment as completed seed 1.",
+  "environment_note": "Windows compatibility reproduction: PyTorch 1.11.0+cu113, Gym 0.23.1, CPU JAX/jaxlib 0.4.20 and OTT 0.4.5; differs from author software environment.",
+  "seeds": [
+    {
+      "seed": 1,
+      "run_dir": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_1M_restart_20260921_1052_seed1\\otdf\\walker2d-morph-srcdatatype-medium-tardatatype-medium\\r1",
+      "invocation_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_1M_restart_20260921_1052_seed1_seed_1.invocation.json",
+      "inspection_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_restart_20260921_1052_seed1\\Train.inspection.json",
+      "stdout_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_restart_20260921_1052_seed1\\Train.stdout.log",
+      "stderr_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_restart_20260921_1052_seed1\\Train.stderr.log",
+      "completion": {
+        "status_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_restart_20260921_1052_seed1\\status.json",
+        "train_stage": "Train",
+        "validation_path": [
+          "train_validation"
+        ]
+      }
+    },
+    {
+      "seed": 2,
+      "run_dir": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_5seeds\\otdf\\walker2d-morph-srcdatatype-medium-tardatatype-medium\\r2",
+      "invocation_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_5seeds_seed_2.invocation.json",
+      "inspection_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\Seed2.inspection.json",
+      "stdout_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\TrainSeed2.stdout.log",
+      "stderr_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\TrainSeed2.stderr.log",
+      "completion": {
+        "status_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\status.json",
+        "train_stage": "TrainSeed2",
+        "validation_path": [
+          "seed_validations",
+          "2"
+        ]
+      }
+    },
+    {
+      "seed": 3,
+      "run_dir": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_5seeds\\otdf\\walker2d-morph-srcdatatype-medium-tardatatype-medium\\r3",
+      "invocation_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_5seeds_seed_3.invocation.json",
+      "inspection_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\Seed3.inspection.json",
+      "stdout_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\TrainSeed3.stdout.log",
+      "stderr_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\TrainSeed3.stderr.log",
+      "completion": {
+        "status_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\status.json",
+        "train_stage": "TrainSeed3",
+        "validation_path": [
+          "seed_validations",
+          "3"
+        ]
+      }
+    },
+    {
+      "seed": 4,
+      "run_dir": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_5seeds\\otdf\\walker2d-morph-srcdatatype-medium-tardatatype-medium\\r4",
+      "invocation_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_5seeds_seed_4.invocation.json",
+      "inspection_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\Seed4.inspection.json",
+      "stdout_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\TrainSeed4.stdout.log",
+      "stderr_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\TrainSeed4.stderr.log",
+      "completion": {
+        "status_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\status.json",
+        "train_stage": "TrainSeed4",
+        "validation_path": [
+          "seed_validations",
+          "4"
+        ]
+      }
+    },
+    {
+      "seed": 5,
+      "run_dir": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_5seeds\\otdf\\walker2d-morph-srcdatatype-medium-tardatatype-medium\\r5",
+      "invocation_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\train_5seeds_seed_5.invocation.json",
+      "inspection_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\Seed5.inspection.json",
+      "stdout_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\TrainSeed5.stdout.log",
+      "stderr_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\TrainSeed5.stderr.log",
+      "completion": {
+        "status_path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\runs\\pipeline_5seeds_20260921\\status.json",
+        "train_stage": "TrainSeed5",
+        "validation_path": [
+          "seed_validations",
+          "5"
+        ]
+      }
+    }
+  ]
+}

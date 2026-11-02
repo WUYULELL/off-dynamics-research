@@ -1,0 +1,9 @@
+gym<0.25.0
+numpy
+mujoco_py
+pybullet
+h5py
+termcolor
+click
+dm_control>=1.0.3
+mjrl@ git+https://github.com/aravindr93/mjrl@master#egg=mjrl

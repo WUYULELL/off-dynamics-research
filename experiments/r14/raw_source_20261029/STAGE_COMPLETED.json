@@ -1,0 +1,11 @@
+{
+  "status": "AWAITING_USER_DECISION",
+  "new_GPU_jobs": 40,
+  "recovery_GPU_jobs": 7,
+  "reused_R14_jobs": 33,
+  "all_audited": true,
+  "estimator_development": false,
+  "no_additional_training": true,
+  "report": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\research_idea_protocol_20261029_r14_finish1\\DELIVERY_REPORT_R14.md",
+  "time": 1793335721.8573353
+}

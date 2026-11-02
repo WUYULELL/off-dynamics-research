@@ -1,0 +1,256 @@
+{
+  "copied_at": 1793620281.9650857,
+  "files": [
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\INSTRUCTION_V11_REVISED.md",
+      "snapshot": "experiments/v11/stage0_20261102/INSTRUCTION_V11_REVISED.md",
+      "sha256": "d0182644ab6542d7c9e6e46666268527602dec13c3677134ed9a00cb8389ee69"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\authorization.json",
+      "snapshot": "experiments/v11/stage0_20261102/authorization.json",
+      "sha256": "a792da6e10ce03992db90b74b76ad5fc9ed90c2b39e425418cfc4da9f906fee9"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\config.json",
+      "snapshot": "experiments/v11/stage0_20261102/config.json",
+      "sha256": "91733266da578099278262e10968a5adad58b2bb940643944aa35ece1613b565"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\protocol.json",
+      "snapshot": "experiments/v11/stage0_20261102/protocol.json",
+      "sha256": "213cd11dec2510db2a36f86757e55d3893752d7f9ff5a1f11ed1b1c3954ca139"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\RECOVERY_PLAN.json",
+      "snapshot": "experiments/v11/stage0_20261102/RECOVERY_PLAN.json",
+      "sha256": "7e4cda32bc507e269def1a1b0011496d6d6b60890fcbc40ab098bd75419b00aa"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\REPAIR_CHANGELOG.json",
+      "snapshot": "experiments/v11/stage0_20261102/REPAIR_CHANGELOG.json",
+      "sha256": "b946285d6fd7c1ff75d3cfd60f29649c377e2b84cff0fa2dfc22ec08fcf75cb9"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\CPU_ACCEPTANCE_REUSE.json",
+      "snapshot": "experiments/v11/stage0_20261102/CPU_ACCEPTANCE_REUSE.json",
+      "sha256": "9d80e4427eac1590671f07bfdfc3bcd320a0d86d6fba155e374fdf661a9f8e68"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\CPU_ACCEPTANCE.json",
+      "snapshot": "experiments/v11/stage0_20261102/CPU_ACCEPTANCE.json",
+      "sha256": "c7f14a33b64cf2418993aed46a379e3cbb87fb3587fb59a464a4e38a14fb37a6"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\BUDGET_ESTIMATE.json",
+      "snapshot": "experiments/v11/stage0_20261102/BUDGET_ESTIMATE.json",
+      "sha256": "f965ebf8dc70fc4bfcc79b8d7059f25d55327917619fd12972bf4a35615867b8"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\PRE_RESULT_COMMITMENT.json",
+      "snapshot": "experiments/v11/stage0_20261102/PRE_RESULT_COMMITMENT.json",
+      "sha256": "711cbad978cdb287498aa6a115d78326fdb6d904606c5412c4528af881fab7dd"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\PRE_GPU_COMMITMENT.json",
+      "snapshot": "experiments/v11/stage0_20261102/PRE_GPU_COMMITMENT.json",
+      "sha256": "75e39ac0ff728272bf8d6ecd448c9e44d0b48a708f582b0cd1e80daf02c1ffb4"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\PRELAUNCH_READONLY_ACCEPTANCE.json",
+      "snapshot": "experiments/v11/stage0_20261102/PRELAUNCH_READONLY_ACCEPTANCE.json",
+      "sha256": "d59f561d9da74e12faf13f3981f79a471c80eb91a2c0f50fef6826f34158eddc"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\STARTUP_VERIFIED.json",
+      "snapshot": "experiments/v11/stage0_20261102/STARTUP_VERIFIED.json",
+      "sha256": "6dbd71b6a4c8fd7d6e81d4e7fffe2a6be812bdbbcb623b624ffbbe191889d126"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\STAGE0_RESULT.json",
+      "snapshot": "experiments/v11/stage0_20261102/STAGE0_RESULT.json",
+      "sha256": "e18a5b9d23f02faad8298c774b94531bd3f7674ce20c75c39a00bb7d5c7d975a"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\MEASURED_BUDGET.json",
+      "snapshot": "experiments/v11/stage0_20261102/MEASURED_BUDGET.json",
+      "sha256": "ca33cc45060a773c2f8d15ec77dde94f9c8d364595ef664a88121f157bc3f6c5"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\STAGE0_REPORT_ZH.md",
+      "snapshot": "experiments/v11/stage0_20261102/STAGE0_REPORT_ZH.md",
+      "sha256": "883ecc64bbd54f094f6fb2f11666f0ca76bffacf913952513abb184df862cd35"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\ANALYSIS_COMPLETED.json",
+      "snapshot": "experiments/v11/stage0_20261102/ANALYSIS_COMPLETED.json",
+      "sha256": "c5721211076de815c496c90391a623477d2951b73f403e70813b372bef48de55"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\DELIVERY_VERIFIED.json",
+      "snapshot": "experiments/v11/stage0_20261102/DELIVERY_VERIFIED.json",
+      "sha256": "cbede314276c3aff23a86ee1061be14c237ba43a27fa293f38b6e73b76f92ae1"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\STAGE0_COMPLETED.json",
+      "snapshot": "experiments/v11/stage0_20261102/STAGE0_COMPLETED.json",
+      "sha256": "5056a3037b11a4fa5f30427c6b143f79e4c060b814ab1e07b5c5e242968dead3"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\FINAL_DELIVERY_RECHECK_20261102.json",
+      "snapshot": "experiments/v11/stage0_20261102/FINAL_DELIVERY_RECHECK_20261102.json",
+      "sha256": "fbb03344ef8e7fa02e6aa4e47f0c1d9f369111615bf0a85b1db2c179e0fe45fe"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0\\FROZEN.json",
+      "snapshot": "experiments/v11/stage0_20261102/FROZEN.json",
+      "sha256": "0d1833c88fbd2f2192490b65f91ecbaab45d8641cdc6eba28cb0cbd578a128d8"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\walker_stage3\\config.json",
+      "snapshot": "experiments/v9/walker_bc_20261101/config.json",
+      "sha256": "cfac206da6b469b207b9b2fdd82a50a6c3e6ec309ca2fe223df829d1b6d15dd7"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\walker_stage3\\authorization.json",
+      "snapshot": "experiments/v9/walker_bc_20261101/authorization.json",
+      "sha256": "ab1b0069b30297d37d09dde8bf5fed1d9c673a4f696d6492e66e1aa12cdbaaf1"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\walker_stage3\\WALKER_RESULT.json",
+      "snapshot": "experiments/v9/walker_bc_20261101/WALKER_RESULT.json",
+      "sha256": "2cb5f42ba3d6c44c71027ec493ef5a068618c6382e0d3b69df1840368e3f410f"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\walker_stage3\\WALKER_REPORT_ZH.md",
+      "snapshot": "experiments/v9/walker_bc_20261101/WALKER_REPORT_ZH.md",
+      "sha256": "f378404d248254f77db7ee601e18321d17e208b6c215d03bc791fe8bf5e1ca82"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\walker_stage3\\DELIVERY_VERIFIED.json",
+      "snapshot": "experiments/v9/walker_bc_20261101/DELIVERY_VERIFIED.json",
+      "sha256": "43f996a4e6052db6afae11e7a8f9b6d8b38c85b6b3f8c02eb7bd6bb7cc34edbe"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\walker_stage3\\EXECUTION_SUMMARY.json",
+      "snapshot": "experiments/v9/walker_bc_20261101/EXECUTION_SUMMARY.json",
+      "sha256": "bfc915930cdb00a9063d24fc14e86818d7d36bf8099e11013c5561c573742913"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\walker_stage3\\WALKER_ONLY_COMPLETED.json",
+      "snapshot": "experiments/v9/walker_bc_20261101/WALKER_ONLY_COMPLETED.json",
+      "sha256": "47b2ce512c92363d158160e4990c33bdbd94ce8eb509b3980ae43c20dfd81b33"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\hopper_stage3_correction\\HOPPER_RESULT.json",
+      "snapshot": "experiments/v9/hopper_bc_20261101/HOPPER_RESULT.json",
+      "sha256": "68f39da7896e44d824558074506fe69a087bbaf14043fc60d7446031322804e7"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\hopper_stage3_correction\\HOPPER_REPORT_ZH.md",
+      "snapshot": "experiments/v9/hopper_bc_20261101/HOPPER_REPORT_ZH.md",
+      "sha256": "dfdced56c7bd00d71edd53a0e392332f1f5a223ad41bd7d449b0c1c4925ae3e0"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\hopper_stage3_correction\\DELIVERY_VERIFIED.json",
+      "snapshot": "experiments/v9/hopper_bc_20261101/DELIVERY_VERIFIED.json",
+      "sha256": "76970f84f55e776afe7b681a8af7cd74bfa09e374afe3725fd003756b0fe8c3c"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261101\\hopper_stage3_correction\\HOPPER_ONLY_COMPLETED.json",
+      "snapshot": "experiments/v9/hopper_bc_20261101/HOPPER_ONLY_COMPLETED.json",
+      "sha256": "c243091bd16bd7bedba97ab7a21d174046bc6d9fec66490eebe6fe81f771b087"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\protocol.json",
+      "snapshot": "experiments/v9/label_attribution_20261030/protocol.json",
+      "sha256": "dc2797ef4c8660ea0c40db7bb0340e2b09c707d74fafc6818df963cc3ebee624"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\stage_authorization.json",
+      "snapshot": "experiments/v9/label_attribution_20261030/stage_authorization.json",
+      "sha256": "04e52b2c22d97d1f53a55fadb50daa6cdcc21b5a05c1189ae5e9c2486fcd6266"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\PRE_RESULT_COMMITMENT.json",
+      "snapshot": "experiments/v9/label_attribution_20261030/PRE_RESULT_COMMITMENT.json",
+      "sha256": "0565da0aabbcfa74f021014a6f48a0ff32d2bdeb0891bad36f95d4c36f556ee1"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\LABEL_ATTRIBUTION_RESULT.json",
+      "snapshot": "experiments/v9/label_attribution_20261030/LABEL_ATTRIBUTION_RESULT.json",
+      "sha256": "7c77362acef8e7fe99e6e5a3c27e034992acd641ab266b9287e27f28d42fe876"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\STAGE2_REPORT_ZH.md",
+      "snapshot": "experiments/v9/label_attribution_20261030/STAGE2_REPORT_ZH.md",
+      "sha256": "0d67f857318f8024fc59647c6a2888913dd0f1a9b9a17d0c9095a7a6f487bbb0"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\ANALYSIS_COMPLETED.json",
+      "snapshot": "experiments/v9/label_attribution_20261030/ANALYSIS_COMPLETED.json",
+      "sha256": "841606f3eb5d49f137cd0f9ff91d37b80f5cb01cc6134afd41f6552520804bd9"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\DELIVERY_VERIFIED_STAGE2.json",
+      "snapshot": "experiments/v9/label_attribution_20261030/DELIVERY_VERIFIED_STAGE2.json",
+      "sha256": "a665291d0ccc2f56db2ef6eeceaa636a2f38b8c912a98e67efab6543b39bfa35"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\EXECUTION_SUMMARY.json",
+      "snapshot": "experiments/v9/label_attribution_20261030/EXECUTION_SUMMARY.json",
+      "sha256": "9718fb9e884add6a6bbd86482824c249399a71653d0d8835f2e358685ef3e31d"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\STAGE_COMPLETED.json",
+      "snapshot": "experiments/v9/label_attribution_20261030/STAGE_COMPLETED.json",
+      "sha256": "d60290cc1f65ca44ea159e609e3ae195727367d370620789997e8523da2b07fb"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\STAGE1_COMPLETED.json",
+      "snapshot": "experiments/v9/oracle_cache_20261030/STAGE1_COMPLETED.json",
+      "sha256": "2c9666935ea2e35438d2edec8a058240d656b131e441f14c0101a36187624541"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\INDEPENDENT_ACCEPTANCE.json",
+      "snapshot": "experiments/v9/oracle_cache_20261030/INDEPENDENT_ACCEPTANCE.json",
+      "sha256": "b08280270b5e3b134a8554c479297a40d2d7d6b0feaa03d3744a949a37b171be"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage1\\DELIVERY_VERIFIED_STAGE1.json",
+      "snapshot": "experiments/v9/oracle_cache_20261030/DELIVERY_VERIFIED_STAGE1.json",
+      "sha256": "70623ae17e8f28eded5a9d904f32a2b82583b8cb01a3039d76c51884a1c445bc"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\STAGE0_REPORT_ZH.md",
+      "snapshot": "experiments/v9/readonly_20261030/STAGE0_REPORT_ZH.md",
+      "sha256": "ef1c578e9dcd3579e4c6b8971351d3fd4fe53ac4ff1606f51673cb192cefa7da"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\protocol.json",
+      "snapshot": "experiments/r14/raw_source_20261029/protocol.json",
+      "sha256": "3ee1b943113de9f0183addd4573e3b5834f604bb47e4743ec4d2fa48f7730726"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\PRE_RESULT_COMMITMENT.json",
+      "snapshot": "experiments/r14/raw_source_20261029/PRE_RESULT_COMMITMENT.json",
+      "sha256": "216bcab590af76ae76271474ef07e6b4d0860715e73516c2c21dda161d2b5799"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\PRECHECK_RESULT.json",
+      "snapshot": "experiments/r14/raw_source_20261029/PRECHECK_RESULT.json",
+      "sha256": "f4607b0d33229be60cc84a15423dcb7a674a2d23a9639baeff966646a683ed11"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\ANALYSIS_COMPLETED.json",
+      "snapshot": "experiments/r14/raw_source_20261029/ANALYSIS_COMPLETED.json",
+      "sha256": "5fba005bcb691b1244c559ee3c1a8bf4f6cc1b0757a9630aba74d3ece96da723"
+    },
+    {
+      "source": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\STAGE_COMPLETED.json",
+      "snapshot": "experiments/r14/raw_source_20261029/STAGE_COMPLETED.json",
+      "sha256": "ffbce89c91e25d0709efd3facc4ab13d69336f41c57e43a754cc44e11f3746a5"
+    }
+  ],
+  "original_files_unchanged": true
+}

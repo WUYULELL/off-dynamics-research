@@ -1,0 +1,34 @@
+{
+  "scope": "V11_revision_Stage0_only_then_stop",
+  "Stage0_trials": [
+    [
+      "wa0_parity_s201",
+      "SA-all",
+      0.0,
+      10000
+    ],
+    [
+      "SA_all_s201",
+      "SA-all",
+      1.0,
+      20000
+    ],
+    [
+      "SA_top_s201",
+      "SA-top",
+      1.0,
+      20000
+    ]
+  ],
+  "wa0_loss_per_step_and_full_state_parity_required": true,
+  "SA_finite_and_diagnostics_required": true,
+  "no_formal_Last5_or_H_act_in_20k_trials": true,
+  "SA_top_denominator": "selected_count",
+  "empty_source_term": 0.0,
+  "report_empty_batch_fraction": true,
+  "stop_after_Stage0": true,
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "future_Walker_BC_reference": 38.85,
+  "future_task_order_requires_user_confirmation": true
+}

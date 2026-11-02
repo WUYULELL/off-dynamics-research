@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "raw_runs": 50,
+  "new_training_runs": 40,
+  "estimator_development": false,
+  "report": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\research_idea_protocol_20261029_r14_finish1\\DELIVERY_REPORT_R14.md",
+  "report_sha256": "173da30884532e3f0690e6932a71a40d8e79df402e9614cbba619a0f77282867",
+  "result_sha256": "f4607b0d33229be60cc84a15423dcb7a674a2d23a9639baeff966646a683ed11",
+  "time": 1793335688.7281077
+}

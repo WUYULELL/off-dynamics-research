@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "created_utc": "2026-09-19T13:01:00.400964+00:00",
+  "task": "walker2d-morph-srcdatatype-medium-tardatatype-medium",
+  "inputs_manifest_sha256": "2a7248a0efbc8fce354d3ab73e41663b81df069c8f9ffa0455e56f5d4573eb5d",
+  "source_rows": 999322,
+  "target_rows": 4999,
+  "feature_order_preserved": true,
+  "cost_is_negative": true,
+  "solve_ot_source_sha256": "831c67cb50c931a27be4bfd9a41e945acadbe22b0c338a625374f7aabc19bac5",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "jax": "0.4.20",
+    "jaxlib": "0.4.20",
+    "ott-jax": "0.4.5",
+    "jaxopt": "0.8.3",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "h5py": "3.11.0"
+  },
+  "backend": "cpu",
+  "elapsed_seconds": 3260.780999999959,
+  "settings": {
+    "dtype": "float16",
+    "cost": "cosine",
+    "scale_cost": "max_cost",
+    "threshold": 1e-09,
+    "max_iterations": 100,
+    "chunk": 10000
+  },
+  "deviations": [
+    "Windows CPU JAX/jaxlib 0.4.20 instead of authors' 0.4.9; numerical equivalence unverified",
+    "Uses official solve_ot AST without unrelated Torch/Gym imports",
+    "Skip the empty tail chunk only; non-empty chunks and target data unchanged"
+  ],
+  "cost_file": {
+    "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\costlogs\\walker2d-morph-srcdatatype-medium-tardatatype-medium.hdf5",
+    "bytes": 4131057,
+    "sha256": "cf20eb6c8630fe7a856d65b4ba7fa3022cdda5a0117bc5a27fb4942baea0edc5"
+  }
+}

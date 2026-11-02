@@ -1,0 +1,62 @@
+{
+  "equinox": {
+    "version": "0.11.2",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "h5py": {
+    "version": "3.11.0",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "jax": {
+    "version": "0.4.20",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "jaxlib": {
+    "version": "0.4.20",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "jaxopt": {
+    "version": "0.8.3",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "jaxtyping": {
+    "version": "0.2.25",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "lineax": {
+    "version": "0.0.1",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "ml-dtypes": {
+    "version": "0.3.2",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "numpy": {
+    "version": "1.26.4",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "opt-einsum": {
+    "version": "3.3.0",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "ott-jax": {
+    "version": "0.4.5",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "pip": {
+    "version": "25.0.1",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "scipy": {
+    "version": "1.11.4",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "typeguard": {
+    "version": "2.13.3",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  },
+  "typing_extensions": {
+    "version": "4.16.0",
+    "location": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_ot\\Lib\\site-packages"
+  }
+}

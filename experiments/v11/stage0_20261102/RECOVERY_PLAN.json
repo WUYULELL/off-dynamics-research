@@ -1,0 +1,16 @@
+{
+  "scope": "V11_revision_Stage0_only_then_stop",
+  "source_candidate": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_recovery1\\stage0",
+  "root_cause": "ambiguous train import resolved repository-root file",
+  "approved_repair": "Explicit importlib file path to unchanged O1 stage2/train.py evaluate",
+  "stop_after_Stage0": true,
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "code": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor_recovery_20261102_stage0",
+  "output": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261102_stage0_recovery2\\stage0",
+  "original_GPU_updates": 0,
+  "original_environment_steps": 0,
+  "new_CPU_updates": 0,
+  "reuse_CPU_synthetic_updates": 8,
+  "time": 1793618178.4013727
+}

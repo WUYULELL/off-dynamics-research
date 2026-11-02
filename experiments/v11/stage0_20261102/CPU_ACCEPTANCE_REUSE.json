@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "original_receipt": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_source_actor_20261101\\stage0\\CPU_ACCEPTANCE.json",
+  "original_sha256": "c7f14a33b64cf2418993aed46a379e3cbb87fb3587fb59a464a4e38a14fb37a6",
+  "new_synthetic_optimizer_updates": 0,
+  "total_previously_accepted_synthetic_learner_updates": 8,
+  "total_previously_accepted_Adam_steps": 24,
+  "actor_py_byte_identical": true,
+  "learner_config_identical": true
+}

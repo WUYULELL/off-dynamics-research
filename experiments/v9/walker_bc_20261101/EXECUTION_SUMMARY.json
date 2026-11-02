@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "new_jobs": 15,
+  "all15_audited": true,
+  "training_elapsed_seconds": {
+    "walk_BC_all_s301": 744.0727379322052,
+    "walk_BC_all_s302": 747.4528124332428,
+    "walk_BC_all_s303": 757.7790324687958,
+    "walk_BC_all_s304": 783.9087779521942,
+    "walk_BC_all_s305": 786.769781589508,
+    "walk_BC50_s301": 767.0981750488281,
+    "walk_BC50_s302": 792.499046087265,
+    "walk_BC50_s303": 776.1938807964325,
+    "walk_BC50_s304": 752.5166192054749,
+    "walk_BC50_s305": 772.9541203975677,
+    "walk_BC25_s301": 762.3473465442657,
+    "walk_BC25_s302": 771.1455194950104,
+    "walk_BC25_s303": 763.1716566085815,
+    "walk_BC25_s304": 770.325421333313,
+    "walk_BC25_s305": 770.0504722595215
+  },
+  "total_training_hours": 3.1995237222645017,
+  "queue_wall_hours": 3.2398767870664598,
+  "quoted_hours": [
+    3,
+    4
+  ],
+  "no_automatic_retraining": true,
+  "stage4_started": false,
+  "T_retuned": false,
+  "time": 1793553749.0626066
+}

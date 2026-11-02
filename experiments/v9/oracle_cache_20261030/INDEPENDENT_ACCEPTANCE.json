@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "sample_n": 10000,
+  "sample_seed": 20261030,
+  "sampled_without_replacement": true,
+  "independently_recovered_from_raw": true,
+  "generator_saved_qpos_qvel_used_as_recovery_input": false,
+  "errors": {
+    "restored_observation": {
+      "n": 10000,
+      "mean": 2.900786087969426e-08,
+      "median": 0.0,
+      "p99": 3.6009199105624417e-07,
+      "maximum": 6.919578661168657e-07
+    },
+    "source_next_state": {
+      "n": 10000,
+      "mean": 2.2851052803295907e-07,
+      "median": 1.7674939933876033e-07,
+      "p99": 8.743241773334633e-07,
+      "maximum": 1.9613642772142725e-06
+    },
+    "source_reward": {
+      "n": 10000,
+      "mean": 7.922363057193404e-08,
+      "median": 6.40854167510696e-08,
+      "p99": 2.8329561628126527e-07,
+      "maximum": 6.125845954940701e-07
+    },
+    "target_cache_next_state": {
+      "n": 10000,
+      "mean": 9.330044608323317e-08,
+      "median": 7.495719178685079e-08,
+      "p99": 3.9619669113477594e-07,
+      "maximum": 4.760969307682217e-07
+    },
+    "target_cache_reward": {
+      "n": 10000,
+      "mean": 6.272252916260657e-08,
+      "median": 5.553330373331278e-08,
+      "p99": 2.1789733609445255e-07,
+      "maximum": 2.3833712692322706e-07
+    },
+    "restoration_qpos_agreement": {
+      "n": 10000,
+      "mean": 0.0,
+      "median": 0.0,
+      "p99": 0.0,
+      "maximum": 0.0
+    },
+    "restoration_qvel_agreement": {
+      "n": 10000,
+      "mean": 0.0,
+      "median": 0.0,
+      "p99": 0.0,
+      "maximum": 0.0
+    }
+  },
+  "state_recovery_failed_count": 0,
+  "failed_count": 0,
+  "failures": [],
+  "source_terminal_disagreements": 0,
+  "target_terminal_disagreements": 0,
+  "bitwise_float32_next_matches": 10000,
+  "bitwise_float32_reward_matches": 10000,
+  "history_steps": {
+    "n": 10000,
+    "mean": 0.798,
+    "median": 0.0,
+    "p99": 9.0,
+    "maximum": 13.0
+  },
+  "counts": {
+    "source_replays": 17980,
+    "target_replays": 10000,
+    "environment_constructor_steps": 2
+  },
+  "elapsed_seconds": 12.176912546157837,
+  "replay_file_sha256": "267c4292a9e24b7f81177f619b0e4dedd0e4860981309c51b32198575abd41b5",
+  "generated_receipt_sha256": "d6ceae53bdf5fac4c0950f867967fe1aea27057098f9dc7830220eb44d6580bc",
+  "time": 1793369824.5695465,
+  "training_updates": 0,
+  "limitation": "Independent re-execution in the same MuJoCo target model verifies restoration and cache consistency, not independent physical ground truth; observed-state recovery errors do not certify hidden velocity truth"
+}

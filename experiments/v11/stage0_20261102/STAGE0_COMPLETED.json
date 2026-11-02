@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "status": "AWAITING_USER_STAGE_ORDER",
+  "stage1_started": false,
+  "stage2_started": false,
+  "stage1_authorized": false,
+  "stage2_authorized": false,
+  "report_sha256": "883ecc64bbd54f094f6fb2f11666f0ca76bffacf913952513abb184df862cd35",
+  "delivery_sha256": "cbede314276c3aff23a86ee1061be14c237ba43a27fa293f38b6e73b76f92ae1",
+  "time": 1793619673.6277235
+}

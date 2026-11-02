@@ -1,0 +1,173 @@
+{
+  "status": "INTERRUPTED_AWAITING_USER_RECOVERY_DECISION",
+  "CPU_only": true,
+  "no_GPU_jobs_launched": true,
+  "no_run_files_modified": true,
+  "code_freeze_intact": true,
+  "protected_count": 3209,
+  "protected_changed": [],
+  "completed_T_500k_count": 9,
+  "completed_run_receipts": [
+    {
+      "job": {
+        "id": "tune_T_t1_h500000_s101",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 101,
+        "temp": 1.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r09\\runs\\tune_T_t1_h500000_s101"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r09\\runs\\tune_T_t1_h500000_s101\\audit.json",
+      "audit_sha256": "50ac6a1e45fc8dfc9e0fccae5b2445b475cf6b30c311e4f5ea6a5c258a8a2984",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    },
+    {
+      "job": {
+        "id": "tune_T_t1_h500000_s102",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 102,
+        "temp": 1.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t1_h500000_s102"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t1_h500000_s102\\audit.json",
+      "audit_sha256": "b47b20e19a09a4268f556dfeff4ebe015d6b0b40213bd35698d33d32179394d7",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    },
+    {
+      "job": {
+        "id": "tune_T_t1_h500000_s103",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 103,
+        "temp": 1.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t1_h500000_s103"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t1_h500000_s103\\audit.json",
+      "audit_sha256": "a185f04f644a3169dff5465b88fd7504d7333820f376a04dae7c91bbdf035b95",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    },
+    {
+      "job": {
+        "id": "tune_T_t3_h500000_s101",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 101,
+        "temp": 3.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t3_h500000_s101"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t3_h500000_s101\\audit.json",
+      "audit_sha256": "e250b7fc54c8937e0ef875b849de81d9f28711bdd5f3ccaaf64dda7f09491c56",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    },
+    {
+      "job": {
+        "id": "tune_T_t3_h500000_s102",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 102,
+        "temp": 3.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t3_h500000_s102"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t3_h500000_s102\\audit.json",
+      "audit_sha256": "c68058ccf6a42b3110564e7cf9e160d7db3b7918a3865197f1815d3c7c4cd58a",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    },
+    {
+      "job": {
+        "id": "tune_T_t3_h500000_s103",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 103,
+        "temp": 3.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t3_h500000_s103"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t3_h500000_s103\\audit.json",
+      "audit_sha256": "8b8d840ed22b4c0077e65a9962f803e1b3223409fb9d8fa51f781d7469613f42",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    },
+    {
+      "job": {
+        "id": "tune_T_t10_h500000_s101",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 101,
+        "temp": 10.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t10_h500000_s101"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t10_h500000_s101\\audit.json",
+      "audit_sha256": "3b0c5caf35d2cd4e111f22ecb8e8719dfcd91e6ea1c18702246af8d0fe8a9a41",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    },
+    {
+      "job": {
+        "id": "tune_T_t10_h500000_s102",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 102,
+        "temp": 10.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t10_h500000_s102"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t10_h500000_s102\\audit.json",
+      "audit_sha256": "c45bbefa37c20f421e900481920d79c8cf4bf631388527bb552f5dc94f21c2ea",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    },
+    {
+      "job": {
+        "id": "tune_T_t10_h500000_s103",
+        "task": "walker2d-morph",
+        "arm": "T",
+        "phase": "tune",
+        "seed": 103,
+        "temp": 10.0,
+        "steps": 500000,
+        "out": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t10_h500000_s103"
+      },
+      "audit": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t10_h500000_s103\\audit.json",
+      "audit_sha256": "1173a3b73a93b3c6690efddcf25bb055fb0b4434e977aee98749e9c7c5e63b66",
+      "complete_and_audit_passed": true,
+      "recorded_artifact_hashes_intact": true
+    }
+  ],
+  "interrupted_job": "T temp10/H1M/seed101",
+  "last_recorded_step": 407000,
+  "last_progress_sha256": "979674b5c5d359a2acfbd95f00f5c6ee360a7d5db792afb38ce9af3f44678c70",
+  "no_completed_marker": true,
+  "checkpoint": {
+    "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_oracle_20261016_r11\\runs\\tune_T_t10_h1000000_s101\\model_400000.pt",
+    "sha256": "0951586da970e5c7f17a0759715801252df6657175d735d25cddc6f68748adf9",
+    "step": 400000,
+    "finite_CPU_checked": true
+  },
+  "first_incomplete_1M_not_included_in_comparisons": true,
+  "T_H_not_yet_locked": true,
+  "final_1M_seeds102_103_not_started": true,
+  "reference_and_diagnosis_and_smokes_not_started": true,
+  "recovery_requires_explicit_permission": true,
+  "automatic_rerun": false,
+  "cause_limit": "display-driver recovery and subsequent unexpected reboot are recorded; direct cause of last-progress stop is not established"
+}

@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "task": "walker2d-morph-srcdatatype-medium-tardatatype-medium",
+  "commit": "41e2e626844bd6b65e2316a418ce4d6df4bbe775",
+  "created_utc": "2026-09-19T12:03:50.206122+00:00",
+  "python": "3.8.13",
+  "numpy": "1.23.5",
+  "gym": "0.23.1",
+  "feature_order": [
+    "observations",
+    "actions",
+    "next_observations"
+  ],
+  "loader_note": "Official qlearning_dataset and call_tar_dataset; no row sorting, normalization or boundary fixes",
+  "original_files": [
+    {
+      "path": "C:\\Users\\TXin\\.d4rl\\datasets\\walker2d_medium-v2.hdf5",
+      "bytes": 232254996,
+      "sha256": "cf00f43add04c17fdfc2958dd581dea0851b2e5bedbe6fda073758a8f841aeda"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\datasets\\walker2d_morph_medium.hdf5",
+      "bytes": 785756,
+      "sha256": "c792b159e403d9deff9316964f0b5ae191a382533693a553abb5b3167463f80a"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\make_otdf_cost.py",
+      "bytes": 5901,
+      "sha256": "831c67cb50c931a27be4bfd9a41e945acadbe22b0c338a625374f7aabc19bac5"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\train_otdf.py",
+      "bytes": 6180,
+      "sha256": "19abd768440180b68917540f43440e65bd31e25b432f61dcc73d40f450747062"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\algo\\OTDF.py",
+      "bytes": 16861,
+      "sha256": "93575496e5171207a89968b1dc66e3b7af363bc84a81a905bf04c242aff5a32a"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\algo\\utils.py",
+      "bytes": 14438,
+      "sha256": "8f78857a82f03d039d00ca6f85c6aadcd3fada9c0642aa0828cec0cc7df0c875"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\config\\otdf\\walker2d_morph.yaml",
+      "bytes": 538,
+      "sha256": "47683142ddf01831c3c4b86be040c33861c1ee941801f6b0c0af72ec9286447f"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\envs\\common.py",
+      "bytes": 3679,
+      "sha256": "06b873f1ce55d3c874910a9e1b3a49b4ff77d9fedb610409649687940ea361b6"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\envs\\assets\\walker_morph.xml",
+      "bytes": 4353,
+      "sha256": "74fd6e3e451d3ab12985965a0a1fe1f76e221950ab9f43d30355080e264462a0"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\src\\d4rl\\d4rl\\__init__.py",
+      "bytes": 6162,
+      "sha256": "67fb5606d33c686d23315cb5dbd08a7ff9312f2be27e75599e1b7f23a4baa830"
+    },
+    {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\src\\d4rl\\d4rl\\offline_env.py",
+      "bytes": 6140,
+      "sha256": "314261682aa0bc2035ef56aadaca394f1d0a5c70172ca823636e6b3d8c799713"
+    }
+  ],
+  "features": {
+    "source": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\artifacts\\walker2d-morph-srcdatatype-medium-tardatatype-medium\\source.npy",
+      "bytes": 159891648,
+      "sha256": "6fad3b09e442d55806ab3a8b0e05f6680b67580b499e217d7cfc1fb85a99970a",
+      "rows": 999322,
+      "columns": 40,
+      "dtype": "float32"
+    },
+    "target": {
+      "path": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\otdf_setup\\artifacts\\walker2d-morph-srcdatatype-medium-tardatatype-medium\\target.npy",
+      "bytes": 799968,
+      "sha256": "014d2c37bea5c4f4e9ccb5e7368526a327a05ed2c5b462d9dbaec4a555f772b0",
+      "rows": 4999,
+      "columns": 40,
+      "dtype": "float32"
+    }
+  }
+}

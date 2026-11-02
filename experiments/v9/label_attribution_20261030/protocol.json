@@ -1,0 +1,109 @@
+{
+  "version": "V9-stage2-Hopper-label-attribution",
+  "tasks": [
+    {
+      "task": "hopper-morph",
+      "target_rows": 5000,
+      "source_rows": 999998,
+      "xml": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\envs\\assets\\hopper_morph.xml",
+      "xml_sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2",
+      "target_dataset": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\datasets\\hopper_morph_medium.hdf5",
+      "target_dataset_sha256": "135d69d7ae3d20d179219b0ae4f489d77e29b651375a7e66f4a3f1b5d85cd7bb",
+      "source_dataset": "C:\\Users\\TXin\\.d4rl\\datasets\\hopper_medium-v2.hdf5",
+      "source_dataset_sha256": "5bdf1bc4a713c82941de44633df669b36c89850b652a25985166796d25cf71a0",
+      "timestep": 0.002,
+      "score_min": -26.3360015397715,
+      "score_max": 3152.75,
+      "state_dim": 11,
+      "action_dim": 3,
+      "source_labels": "original_dataset",
+      "target_dataset_fixed": true
+    }
+  ],
+  "temperature": 10,
+  "steps": 500000,
+  "source_weights": [
+    1.0,
+    0.25
+  ],
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210
+  ],
+  "new_GPU_jobs": 20,
+  "new_gradient_updates": 10000000,
+  "order": "O1 seeds201-210, then O.25 seeds201-210; all20 finish before final attribution",
+  "independent_variable": "replace only source next_state/reward/terminal with accepted stage1 morph labels",
+  "invariant": "source observations/actions/canonical rows, learner, target data, RNG, temperature, batch, weights, schedule, evaluation exactly R14",
+  "loss": "target.mean + w * source.mean for V/Q; no division by1+w; actor_target_only",
+  "batch_target": 64,
+  "batch_source": 64,
+  "source_canonical_rows": 999998,
+  "target_rows": 5000,
+  "source_uniform_with_replacement": true,
+  "observation_scaling": "raw",
+  "reward_scale": 1.0,
+  "learning_rates": {
+    "actor": 0.0003,
+    "V": 0.0003,
+    "Q": 0.0003
+  },
+  "evaluation": {
+    "frequency": 10000,
+    "episodes": 10,
+    "deterministic": true,
+    "max_episode_steps": 1000,
+    "seeds": "500000+10*(run_seed-201)+episode0..9 per task; no online selection",
+    "preserve_training_RNG": true,
+    "Last5": [
+      460000,
+      470000,
+      480000,
+      490000,
+      500000
+    ],
+    "Final": "500000 auxiliary only"
+  },
+  "normalization_reference": "C:\\Users\\TXin\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\info.py",
+  "normalization_sha256": "fd4b47387a6e782c56fe63491fd93678d65a86340994452b142e2cda0952240b",
+  "comparison_records": 30,
+  "analysis_records": 50,
+  "Last5": [
+    460000,
+    470000,
+    480000,
+    490000,
+    500000
+  ],
+  "Final_auxiliary": true,
+  "sample_SD_ddof": 1,
+  "Q1": "linear25percent",
+  "paired_SE": "sampleSD/sqrt10",
+  "positive": "strictly greater than0",
+  "L": "O(w) - raw(w), same seed",
+  "E": "O(w) - T, same seed",
+  "rule_A": "L.mean>2*SE_L AND L.positive>=7 AND E.mean>-2*SE_E",
+  "rule_A_gain": "A AND E.mean>2*SE_E AND E.positive>=7",
+  "rule_B": "NOT(L.mean>2*SE_L) AND E.mean<-2*SE_E",
+  "rule_other": "uncertain",
+  "each_w_decided_separately": true,
+  "no_changed_thresholds": true,
+  "no_bootstrap_report": true,
+  "no_stage3_or_4": true,
+  "no_estimator": true,
+  "no_other_experiments": true,
+  "stop": "after all20 complete, audited, independent raw-data report; wait for user",
+  "quoted_hours": [
+    48,
+    55
+  ],
+  "budget_is_estimate_not_guarantee": true
+}

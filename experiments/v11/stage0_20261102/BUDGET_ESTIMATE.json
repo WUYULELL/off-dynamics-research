@@ -1,0 +1,16 @@
+{
+  "stage0_minutes_estimate": [
+    20,
+    35
+  ],
+  "historical_O1_seed201_500k_seconds": 8067.8929278850555,
+  "Stage0_GPU_new_updates": 50000,
+  "Stage0_GPU_reference_updates": 10000,
+  "total_GPU_learner_updates": 60000,
+  "Stage0_GPU_Adam_steps": 180000,
+  "evaluation_episodes": 50,
+  "new_CPU_optimizer_updates": 0,
+  "original_CPU_synthetic_learner_updates_reused": 8,
+  "single500k_prospective_budget_measured_after_trials": true,
+  "stages1_and2_not_authorized": true
+}

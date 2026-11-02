@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "raw_records": 60,
+  "raw_episode_statistics_and_V9_rechecked": true,
+  "all_input_model_report_hashes_checked": true,
+  "all_six_BC_oracle_comparisons_descriptive_only": true,
+  "protected_files": 6266,
+  "changed": [],
+  "Walker_runs": 0,
+  "report_sha256": "dfdced56c7bd00d71edd53a0e392332f1f5a223ad41bd7d449b0c1c4925ae3e0",
+  "result_sha256": "68f39da7896e44d824558074506fe69a087bbaf14043fc60d7446031322804e7",
+  "time": 1793540898.2965865
+}

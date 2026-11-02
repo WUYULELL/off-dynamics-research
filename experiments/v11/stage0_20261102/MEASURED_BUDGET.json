@@ -1,0 +1,23 @@
+{
+  "single_by_variant": {
+    "SA_all_s201": {
+      "estimated_single500k_hours": 2.817720503472222,
+      "estimated_10seeds_hours": 28.177205034722224,
+      "training_logging_seconds_projected": 10122.4761325,
+      "evaluation_seconds_projected": 21.31767999999994,
+      "warning": "20k prefix extrapolation; runtime/episode-length variation and audit overhead remain"
+    },
+    "SA_top_s201": {
+      "estimated_single500k_hours": 2.8165059749999997,
+      "estimated_10seeds_hours": 28.165059749999998,
+      "training_logging_seconds_projected": 10106.183304999999,
+      "evaluation_seconds_projected": 33.238204999999965,
+      "warning": "20k prefix extrapolation; runtime/episode-length variation and audit overhead remain"
+    }
+  },
+  "stage1_20jobs_hours": 56.34226478472222,
+  "exact_future_completion_guarantee": false,
+  "based_on_short_trials": true,
+  "measured_before_formal_Stage1": true,
+  "time": 1793619615.6088965
+}
