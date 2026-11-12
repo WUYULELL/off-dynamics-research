@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "full_zero_rows": 499660,
+  "prefix_zero_rows": 448166,
+  "nonzero_rows": 340,
+  "fully_equal_nonzero_rows": 236,
+  "partial_nonzero_rows": 104,
+  "all_zero_ranges_independently_verified": true,
+  "all_old_nonzero_values_bitwise_match": true,
+  "requested_JSONL_steps": 448506,
+  "requested_JSONL_byte_equal": true,
+  "prefix_sha256": "4211cf0f045c96c5a6d13ffe096225d9ddfcefb70e0eb9511e78a81b07dd34a1",
+  "new_optimizer_updates": 0,
+  "new_environment_steps": 0
+}

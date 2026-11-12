@@ -1,0 +1,16 @@
+{
+  "user_instruction_file": "INSTRUCTION_V14.md",
+  "user_instruction_sha256": "cc29a7e36753a4bc3381944774b0e23780866867dea8877edb56a937a8654431",
+  "B0_addendum": "User explicitly selected v13 raw corrected_observation_linf <=2e-6 at every committed step, every target record to its end, matching terminal. Any failure: no B1/B2; A/C continue. All pass: automatically B1/B2. Include all B0 outcomes in final report.",
+  "scope": [
+    "A",
+    "B0",
+    "B1 iff B0 passes",
+    "B2 iff B0 passes",
+    "C"
+  ],
+  "training_authorized": false,
+  "GPU_authorized": false,
+  "v13_stage2_authorized": false,
+  "server_connection_authorized": false
+}

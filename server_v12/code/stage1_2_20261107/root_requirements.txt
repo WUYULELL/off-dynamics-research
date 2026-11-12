@@ -1,0 +1,17 @@
+jax==0.4.9
+jaxlib==0.4.9+cuda11.cudnn86
+ott-jax==0.4.5
+jaxopt==0.8.3
+numpy==1.23.5
+scipy==1.10.1
+ml-dtypes==0.1.0
+opt-einsum==3.3.0
+PyYAML==6.0.2
+nvidia-cublas-cu11==11.11.3.6
+nvidia-cuda-cupti-cu11==11.8.87
+nvidia-cuda-nvcc-cu11==11.8.89
+nvidia-cuda-runtime-cu11==11.8.89
+nvidia-cudnn-cu11==8.6.0.163
+nvidia-cufft-cu11==10.9.0.58
+nvidia-cusolver-cu11==11.4.1.48
+nvidia-cusparse-cu11==11.7.5.86

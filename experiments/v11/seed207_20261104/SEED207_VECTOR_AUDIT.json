@@ -1,0 +1,1888 @@
+{
+  "shape": [
+    500000,
+    64,
+    7
+  ],
+  "dtype": "float32",
+  "step_row_definition": "one row = one training step,64 samples x7 columns",
+  "logged_steps": 448506,
+  "full_allocated_rows": 500000,
+  "zero_rows_full": 499660,
+  "zero_ranges_full": [
+    [
+      1,
+      31595
+    ],
+    [
+      31599,
+      71476
+    ],
+    [
+      71480,
+      72959
+    ],
+    [
+      72964,
+      89197
+    ],
+    [
+      89236,
+      90148
+    ],
+    [
+      90152,
+      90386
+    ],
+    [
+      90390,
+      97839
+    ],
+    [
+      97844,
+      100921
+    ],
+    [
+      100925,
+      105023
+    ],
+    [
+      105028,
+      116525
+    ],
+    [
+      116529,
+      127081
+    ],
+    [
+      127085,
+      127837
+    ],
+    [
+      127841,
+      128537
+    ],
+    [
+      128541,
+      129734
+    ],
+    [
+      129739,
+      129938
+    ],
+    [
+      129942,
+      130770
+    ],
+    [
+      130774,
+      130891
+    ],
+    [
+      130895,
+      131739
+    ],
+    [
+      131743,
+      137643
+    ],
+    [
+      137647,
+      139115
+    ],
+    [
+      139119,
+      143289
+    ],
+    [
+      143293,
+      144884
+    ],
+    [
+      144888,
+      145801
+    ],
+    [
+      145805,
+      152212
+    ],
+    [
+      152216,
+      152557
+    ],
+    [
+      152561,
+      155337
+    ],
+    [
+      155341,
+      155341
+    ],
+    [
+      155345,
+      157833
+    ],
+    [
+      157837,
+      181826
+    ],
+    [
+      181830,
+      187341
+    ],
+    [
+      187345,
+      189101
+    ],
+    [
+      189105,
+      189218
+    ],
+    [
+      189222,
+      195268
+    ],
+    [
+      195272,
+      197604
+    ],
+    [
+      197608,
+      201565
+    ],
+    [
+      201569,
+      203469
+    ],
+    [
+      203473,
+      239433
+    ],
+    [
+      239471,
+      261961
+    ],
+    [
+      261967,
+      261972
+    ],
+    [
+      261979,
+      262946
+    ],
+    [
+      262950,
+      266178
+    ],
+    [
+      266182,
+      283721
+    ],
+    [
+      283759,
+      283837
+    ],
+    [
+      283841,
+      295126
+    ],
+    [
+      295131,
+      296441
+    ],
+    [
+      296445,
+      301691
+    ],
+    [
+      301695,
+      315979
+    ],
+    [
+      315983,
+      316260
+    ],
+    [
+      316264,
+      374015
+    ],
+    [
+      374020,
+      374898
+    ],
+    [
+      374902,
+      375807
+    ],
+    [
+      375846,
+      378733
+    ],
+    [
+      378772,
+      500000
+    ]
+  ],
+  "zero_rows_logged_prefix": 448166,
+  "zero_ranges_logged_prefix": [
+    [
+      1,
+      31595
+    ],
+    [
+      31599,
+      71476
+    ],
+    [
+      71480,
+      72959
+    ],
+    [
+      72964,
+      89197
+    ],
+    [
+      89236,
+      90148
+    ],
+    [
+      90152,
+      90386
+    ],
+    [
+      90390,
+      97839
+    ],
+    [
+      97844,
+      100921
+    ],
+    [
+      100925,
+      105023
+    ],
+    [
+      105028,
+      116525
+    ],
+    [
+      116529,
+      127081
+    ],
+    [
+      127085,
+      127837
+    ],
+    [
+      127841,
+      128537
+    ],
+    [
+      128541,
+      129734
+    ],
+    [
+      129739,
+      129938
+    ],
+    [
+      129942,
+      130770
+    ],
+    [
+      130774,
+      130891
+    ],
+    [
+      130895,
+      131739
+    ],
+    [
+      131743,
+      137643
+    ],
+    [
+      137647,
+      139115
+    ],
+    [
+      139119,
+      143289
+    ],
+    [
+      143293,
+      144884
+    ],
+    [
+      144888,
+      145801
+    ],
+    [
+      145805,
+      152212
+    ],
+    [
+      152216,
+      152557
+    ],
+    [
+      152561,
+      155337
+    ],
+    [
+      155341,
+      155341
+    ],
+    [
+      155345,
+      157833
+    ],
+    [
+      157837,
+      181826
+    ],
+    [
+      181830,
+      187341
+    ],
+    [
+      187345,
+      189101
+    ],
+    [
+      189105,
+      189218
+    ],
+    [
+      189222,
+      195268
+    ],
+    [
+      195272,
+      197604
+    ],
+    [
+      197608,
+      201565
+    ],
+    [
+      201569,
+      203469
+    ],
+    [
+      203473,
+      239433
+    ],
+    [
+      239471,
+      261961
+    ],
+    [
+      261967,
+      261972
+    ],
+    [
+      261979,
+      262946
+    ],
+    [
+      262950,
+      266178
+    ],
+    [
+      266182,
+      283721
+    ],
+    [
+      283759,
+      283837
+    ],
+    [
+      283841,
+      295126
+    ],
+    [
+      295131,
+      296441
+    ],
+    [
+      296445,
+      301691
+    ],
+    [
+      301695,
+      315979
+    ],
+    [
+      315983,
+      316260
+    ],
+    [
+      316264,
+      374015
+    ],
+    [
+      374020,
+      374898
+    ],
+    [
+      374902,
+      375807
+    ],
+    [
+      375846,
+      378733
+    ],
+    [
+      378772,
+      448506
+    ]
+  ],
+  "nonzero_rows_logged_prefix": 340,
+  "nonzero_ranges_logged_prefix": [
+    [
+      31596,
+      31598
+    ],
+    [
+      71477,
+      71479
+    ],
+    [
+      72960,
+      72963
+    ],
+    [
+      89198,
+      89235
+    ],
+    [
+      90149,
+      90151
+    ],
+    [
+      90387,
+      90389
+    ],
+    [
+      97840,
+      97843
+    ],
+    [
+      100922,
+      100924
+    ],
+    [
+      105024,
+      105027
+    ],
+    [
+      116526,
+      116528
+    ],
+    [
+      127082,
+      127084
+    ],
+    [
+      127838,
+      127840
+    ],
+    [
+      128538,
+      128540
+    ],
+    [
+      129735,
+      129738
+    ],
+    [
+      129939,
+      129941
+    ],
+    [
+      130771,
+      130773
+    ],
+    [
+      130892,
+      130894
+    ],
+    [
+      131740,
+      131742
+    ],
+    [
+      137644,
+      137646
+    ],
+    [
+      139116,
+      139118
+    ],
+    [
+      143290,
+      143292
+    ],
+    [
+      144885,
+      144887
+    ],
+    [
+      145802,
+      145804
+    ],
+    [
+      152213,
+      152215
+    ],
+    [
+      152558,
+      152560
+    ],
+    [
+      155338,
+      155340
+    ],
+    [
+      155342,
+      155344
+    ],
+    [
+      157834,
+      157836
+    ],
+    [
+      181827,
+      181829
+    ],
+    [
+      187342,
+      187344
+    ],
+    [
+      189102,
+      189104
+    ],
+    [
+      189219,
+      189221
+    ],
+    [
+      195269,
+      195271
+    ],
+    [
+      197605,
+      197607
+    ],
+    [
+      201566,
+      201568
+    ],
+    [
+      203470,
+      203472
+    ],
+    [
+      239434,
+      239470
+    ],
+    [
+      261962,
+      261966
+    ],
+    [
+      261973,
+      261978
+    ],
+    [
+      262947,
+      262949
+    ],
+    [
+      266179,
+      266181
+    ],
+    [
+      283722,
+      283758
+    ],
+    [
+      283838,
+      283840
+    ],
+    [
+      295127,
+      295130
+    ],
+    [
+      296442,
+      296444
+    ],
+    [
+      301692,
+      301694
+    ],
+    [
+      315980,
+      315982
+    ],
+    [
+      316261,
+      316263
+    ],
+    [
+      374016,
+      374019
+    ],
+    [
+      374899,
+      374901
+    ],
+    [
+      375808,
+      375845
+    ],
+    [
+      378734,
+      378771
+    ]
+  ],
+  "nonzero_rows_full": 340,
+  "nonzero_ranges_full": [
+    [
+      31596,
+      31598
+    ],
+    [
+      71477,
+      71479
+    ],
+    [
+      72960,
+      72963
+    ],
+    [
+      89198,
+      89235
+    ],
+    [
+      90149,
+      90151
+    ],
+    [
+      90387,
+      90389
+    ],
+    [
+      97840,
+      97843
+    ],
+    [
+      100922,
+      100924
+    ],
+    [
+      105024,
+      105027
+    ],
+    [
+      116526,
+      116528
+    ],
+    [
+      127082,
+      127084
+    ],
+    [
+      127838,
+      127840
+    ],
+    [
+      128538,
+      128540
+    ],
+    [
+      129735,
+      129738
+    ],
+    [
+      129939,
+      129941
+    ],
+    [
+      130771,
+      130773
+    ],
+    [
+      130892,
+      130894
+    ],
+    [
+      131740,
+      131742
+    ],
+    [
+      137644,
+      137646
+    ],
+    [
+      139116,
+      139118
+    ],
+    [
+      143290,
+      143292
+    ],
+    [
+      144885,
+      144887
+    ],
+    [
+      145802,
+      145804
+    ],
+    [
+      152213,
+      152215
+    ],
+    [
+      152558,
+      152560
+    ],
+    [
+      155338,
+      155340
+    ],
+    [
+      155342,
+      155344
+    ],
+    [
+      157834,
+      157836
+    ],
+    [
+      181827,
+      181829
+    ],
+    [
+      187342,
+      187344
+    ],
+    [
+      189102,
+      189104
+    ],
+    [
+      189219,
+      189221
+    ],
+    [
+      195269,
+      195271
+    ],
+    [
+      197605,
+      197607
+    ],
+    [
+      201566,
+      201568
+    ],
+    [
+      203470,
+      203472
+    ],
+    [
+      239434,
+      239470
+    ],
+    [
+      261962,
+      261966
+    ],
+    [
+      261973,
+      261978
+    ],
+    [
+      262947,
+      262949
+    ],
+    [
+      266179,
+      266181
+    ],
+    [
+      283722,
+      283758
+    ],
+    [
+      283838,
+      283840
+    ],
+    [
+      295127,
+      295130
+    ],
+    [
+      296442,
+      296444
+    ],
+    [
+      301692,
+      301694
+    ],
+    [
+      315980,
+      315982
+    ],
+    [
+      316261,
+      316263
+    ],
+    [
+      374016,
+      374019
+    ],
+    [
+      374899,
+      374901
+    ],
+    [
+      375808,
+      375845
+    ],
+    [
+      378734,
+      378771
+    ]
+  ],
+  "nonzero_rows_bitwise_equal_count": 236,
+  "nonzero_rows_unequal_count": 104,
+  "first_nonzero_row_mismatch": 31596,
+  "scalar_nonzero_counts_by_nonzero_row": {
+    "31596": 288,
+    "31597": 448,
+    "31598": 288,
+    "71477": 224,
+    "71478": 448,
+    "71479": 350,
+    "72960": 32,
+    "72961": 448,
+    "72962": 448,
+    "72963": 96,
+    "89198": 160,
+    "89199": 448,
+    "89200": 446,
+    "89201": 448,
+    "89202": 448,
+    "89203": 448,
+    "89204": 448,
+    "89205": 448,
+    "89206": 446,
+    "89207": 448,
+    "89208": 446,
+    "89209": 446,
+    "89210": 448,
+    "89211": 448,
+    "89212": 448,
+    "89213": 448,
+    "89214": 448,
+    "89215": 446,
+    "89216": 448,
+    "89217": 448,
+    "89218": 448,
+    "89219": 448,
+    "89220": 448,
+    "89221": 448,
+    "89222": 448,
+    "89223": 446,
+    "89224": 448,
+    "89225": 448,
+    "89226": 448,
+    "89227": 448,
+    "89228": 448,
+    "89229": 448,
+    "89230": 448,
+    "89231": 448,
+    "89232": 448,
+    "89233": 448,
+    "89234": 448,
+    "89235": 96,
+    "90149": 224,
+    "90150": 448,
+    "90151": 352,
+    "90387": 352,
+    "90388": 448,
+    "90389": 224,
+    "97840": 32,
+    "97841": 448,
+    "97842": 448,
+    "97843": 96,
+    "100922": 416,
+    "100923": 448,
+    "100924": 160,
+    "105024": 32,
+    "105025": 446,
+    "105026": 448,
+    "105027": 96,
+    "116526": 160,
+    "116527": 448,
+    "116528": 416,
+    "127082": 416,
+    "127083": 448,
+    "127084": 160,
+    "127838": 160,
+    "127839": 448,
+    "127840": 416,
+    "128538": 416,
+    "128539": 448,
+    "128540": 160,
+    "129735": 96,
+    "129736": 448,
+    "129737": 448,
+    "129738": 32,
+    "129939": 350,
+    "129940": 448,
+    "129941": 224,
+    "130771": 352,
+    "130772": 448,
+    "130773": 224,
+    "130892": 286,
+    "130893": 448,
+    "130894": 288,
+    "131740": 288,
+    "131741": 448,
+    "131742": 288,
+    "137644": 288,
+    "137645": 448,
+    "137646": 288,
+    "139116": 288,
+    "139117": 446,
+    "139118": 288,
+    "143290": 416,
+    "143291": 448,
+    "143292": 160,
+    "144885": 224,
+    "144886": 448,
+    "144887": 352,
+    "145802": 416,
+    "145803": 448,
+    "145804": 158,
+    "152213": 224,
+    "152214": 448,
+    "152215": 352,
+    "152558": 160,
+    "152559": 448,
+    "152560": 416,
+    "155338": 416,
+    "155339": 448,
+    "155340": 160,
+    "155342": 160,
+    "155343": 448,
+    "155344": 414,
+    "157834": 414,
+    "157835": 448,
+    "157836": 160,
+    "181827": 352,
+    "181828": 448,
+    "181829": 224,
+    "187342": 160,
+    "187343": 448,
+    "187344": 416,
+    "189102": 160,
+    "189103": 448,
+    "189104": 416,
+    "189219": 352,
+    "189220": 448,
+    "189221": 224,
+    "195269": 224,
+    "195270": 448,
+    "195271": 352,
+    "197605": 224,
+    "197606": 448,
+    "197607": 352,
+    "201566": 160,
+    "201567": 448,
+    "201568": 416,
+    "203470": 160,
+    "203471": 446,
+    "203472": 416,
+    "239434": 416,
+    "239435": 448,
+    "239436": 448,
+    "239437": 448,
+    "239438": 448,
+    "239439": 448,
+    "239440": 448,
+    "239441": 448,
+    "239442": 448,
+    "239443": 446,
+    "239444": 448,
+    "239445": 448,
+    "239446": 448,
+    "239447": 448,
+    "239448": 448,
+    "239449": 446,
+    "239450": 448,
+    "239451": 448,
+    "239452": 448,
+    "239453": 448,
+    "239454": 448,
+    "239455": 448,
+    "239456": 448,
+    "239457": 448,
+    "239458": 448,
+    "239459": 448,
+    "239460": 448,
+    "239461": 448,
+    "239462": 448,
+    "239463": 448,
+    "239464": 448,
+    "239465": 448,
+    "239466": 448,
+    "239467": 448,
+    "239468": 448,
+    "239469": 448,
+    "239470": 288,
+    "261962": 416,
+    "261963": 446,
+    "261964": 448,
+    "261965": 448,
+    "261966": 288,
+    "261973": 224,
+    "261974": 448,
+    "261975": 448,
+    "261976": 448,
+    "261977": 448,
+    "261978": 32,
+    "262947": 352,
+    "262948": 446,
+    "262949": 224,
+    "266179": 352,
+    "266180": 448,
+    "266181": 224,
+    "283722": 414,
+    "283723": 446,
+    "283724": 448,
+    "283725": 448,
+    "283726": 448,
+    "283727": 448,
+    "283728": 448,
+    "283729": 448,
+    "283730": 448,
+    "283731": 448,
+    "283732": 448,
+    "283733": 448,
+    "283734": 448,
+    "283735": 448,
+    "283736": 448,
+    "283737": 448,
+    "283738": 448,
+    "283739": 448,
+    "283740": 448,
+    "283741": 448,
+    "283742": 448,
+    "283743": 446,
+    "283744": 448,
+    "283745": 446,
+    "283746": 448,
+    "283747": 448,
+    "283748": 446,
+    "283749": 446,
+    "283750": 448,
+    "283751": 448,
+    "283752": 444,
+    "283753": 448,
+    "283754": 448,
+    "283755": 448,
+    "283756": 448,
+    "283757": 448,
+    "283758": 288,
+    "283838": 160,
+    "283839": 448,
+    "283840": 416,
+    "295127": 96,
+    "295128": 446,
+    "295129": 448,
+    "295130": 32,
+    "296442": 412,
+    "296443": 448,
+    "296444": 160,
+    "301692": 288,
+    "301693": 448,
+    "301694": 288,
+    "315980": 288,
+    "315981": 448,
+    "315982": 288,
+    "316261": 224,
+    "316262": 448,
+    "316263": 352,
+    "374016": 32,
+    "374017": 448,
+    "374018": 448,
+    "374019": 96,
+    "374899": 352,
+    "374900": 446,
+    "374901": 224,
+    "375808": 32,
+    "375809": 448,
+    "375810": 448,
+    "375811": 448,
+    "375812": 448,
+    "375813": 448,
+    "375814": 448,
+    "375815": 448,
+    "375816": 448,
+    "375817": 448,
+    "375818": 448,
+    "375819": 448,
+    "375820": 448,
+    "375821": 448,
+    "375822": 448,
+    "375823": 446,
+    "375824": 448,
+    "375825": 446,
+    "375826": 448,
+    "375827": 446,
+    "375828": 446,
+    "375829": 448,
+    "375830": 448,
+    "375831": 448,
+    "375832": 448,
+    "375833": 448,
+    "375834": 448,
+    "375835": 448,
+    "375836": 448,
+    "375837": 448,
+    "375838": 446,
+    "375839": 448,
+    "375840": 448,
+    "375841": 448,
+    "375842": 448,
+    "375843": 448,
+    "375844": 448,
+    "375845": 224,
+    "378734": 160,
+    "378735": 448,
+    "378736": 446,
+    "378737": 448,
+    "378738": 448,
+    "378739": 446,
+    "378740": 446,
+    "378741": 448,
+    "378742": 448,
+    "378743": 448,
+    "378744": 448,
+    "378745": 446,
+    "378746": 448,
+    "378747": 448,
+    "378748": 448,
+    "378749": 445,
+    "378750": 448,
+    "378751": 448,
+    "378752": 448,
+    "378753": 448,
+    "378754": 446,
+    "378755": 448,
+    "378756": 448,
+    "378757": 446,
+    "378758": 446,
+    "378759": 444,
+    "378760": 448,
+    "378761": 448,
+    "378762": 448,
+    "378763": 446,
+    "378764": 448,
+    "378765": 446,
+    "378766": 448,
+    "378767": 448,
+    "378768": 448,
+    "378769": 448,
+    "378770": 446,
+    "378771": 96
+  },
+  "file_sha256": {
+    "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s207\\diagnostic_vectors.npy": "e2c4a47ba4dfefe1951c8206e0b7b88cf3fd949f1d60cff0cc614021f24c608e",
+    "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\seed207_rerun\\diagnostic_vectors.npy": "9fdd696ec7f4d5e70b59ea55be47a88cebf97799a018026f9810f15e6c0cbf5e"
+  },
+  "writer_source": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_saall_finish_20261103\\run_job.py",
+  "writer": "open_memmap mode w+ preallocates (500000,64,7); each step writes vectors[step-1]; vectors.flush only after normal loop completion; JSONL log.flush every1000 and fsync at normal completion. No per-block memmap flush.",
+  "source_lines": {
+    "preallocation": 40,
+    "per_step_assignment": 47,
+    "JSONL_flush": 51,
+    "JSONL_fsync": 67,
+    "normal_completion_vector_flush": 69
+  },
+  "classification": "中断版本该文件不完整",
+  "cause_scope": "Observed zero-filled persisted regions despite completed JSONL steps and no regular vector flush support incomplete persistence after interruption; exact OS writeback timing is not recoverable.",
+  "determinism_basis": "448506 JSONL records including V/Q/actor/all scalar diagnostics are byte-for-byte and numeric-bit identical",
+  "JSONL_first_mismatch": null,
+  "comparison_log": {
+    "steps_requested": 448506,
+    "steps_compared": 448506,
+    "all_loss_and_diagnostic_fields": [
+      "step",
+      "V",
+      "Q",
+      "actor",
+      "source_A_positive_fraction",
+      "target_weight_sum",
+      "source_weight_sum",
+      "target_normalized_weight_sum",
+      "source_normalized_weight_sum",
+      "source_selected",
+      "source_denominator",
+      "target_actor_term",
+      "source_actor_term",
+      "source_coefficient",
+      "actor_total",
+      "target_capped_fraction",
+      "source_capped_fraction",
+      "source_effective_capped_fraction",
+      "target_ESS",
+      "source_ESS",
+      "source_raw_ESS"
+    ],
+    "parsed_numeric_bits_equal": true,
+    "records_with_difference": 0,
+    "first_mismatch": null,
+    "serialized_prefix_bytes_equal": true,
+    "old_prefix_sha256": "4211cf0f045c96c5a6d13ffe096225d9ddfcefb70e0eb9511e78a81b07dd34a1",
+    "new_prefix_sha256": "4211cf0f045c96c5a6d13ffe096225d9ddfcefb70e0eb9511e78a81b07dd34a1"
+  },
+  "new_optimizer_updates": 0,
+  "new_environment_steps": 0,
+  "partially_persisted_nonzero_rows": [
+    {
+      "step": 31596,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 31598,
+      "different_cells": 158,
+      "different_cells_old_numeric_zero": 158,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 71477,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 71479,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 72960,
+      "different_cells": 416,
+      "different_cells_old_numeric_zero": 416,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 72963,
+      "different_cells": 350,
+      "different_cells_old_numeric_zero": 350,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 89198,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 89235,
+      "different_cells": 352,
+      "different_cells_old_numeric_zero": 352,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 90149,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 90151,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 90387,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 90389,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 97840,
+      "different_cells": 416,
+      "different_cells_old_numeric_zero": 416,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 97843,
+      "different_cells": 352,
+      "different_cells_old_numeric_zero": 352,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 100922,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 100924,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 105024,
+      "different_cells": 416,
+      "different_cells_old_numeric_zero": 416,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 105027,
+      "different_cells": 352,
+      "different_cells_old_numeric_zero": 352,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 116526,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 116528,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 127082,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 127084,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 127838,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 127840,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 128538,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 128540,
+      "different_cells": 286,
+      "different_cells_old_numeric_zero": 286,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 129735,
+      "different_cells": 350,
+      "different_cells_old_numeric_zero": 350,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 129738,
+      "different_cells": 416,
+      "different_cells_old_numeric_zero": 416,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 129939,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 129941,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 130771,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 130773,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 130892,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 130894,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 131740,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 131742,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 137644,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 137646,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 139116,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 139118,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 143290,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 143292,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 144885,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 144887,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 145802,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 145804,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 152213,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 152215,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 152558,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 152560,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 155338,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 155340,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 155342,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 155344,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 157834,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 157836,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 181827,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 181829,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 187342,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 187344,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 189102,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 189104,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 189219,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 189221,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 195269,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 195271,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 197605,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 197607,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 201566,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 201568,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 203470,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 203472,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 239434,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 239470,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 261962,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 261966,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 261973,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 261978,
+      "different_cells": 416,
+      "different_cells_old_numeric_zero": 416,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 262947,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 262949,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 266179,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 266181,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 283722,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 283758,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 283838,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 283840,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 295127,
+      "different_cells": 348,
+      "different_cells_old_numeric_zero": 348,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 295130,
+      "different_cells": 416,
+      "different_cells_old_numeric_zero": 416,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 296442,
+      "different_cells": 32,
+      "different_cells_old_numeric_zero": 32,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 296444,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 301692,
+      "different_cells": 158,
+      "different_cells_old_numeric_zero": 158,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 301694,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 315980,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 315982,
+      "different_cells": 160,
+      "different_cells_old_numeric_zero": 160,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 316261,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 316263,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 374016,
+      "different_cells": 414,
+      "different_cells_old_numeric_zero": 414,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 374019,
+      "different_cells": 352,
+      "different_cells_old_numeric_zero": 352,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 374899,
+      "different_cells": 96,
+      "different_cells_old_numeric_zero": 96,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 374901,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 375808,
+      "different_cells": 416,
+      "different_cells_old_numeric_zero": 416,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 375845,
+      "different_cells": 224,
+      "different_cells_old_numeric_zero": 224,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 378734,
+      "different_cells": 288,
+      "different_cells_old_numeric_zero": 288,
+      "old_nonzero_values_mismatch": 0
+    },
+    {
+      "step": 378771,
+      "different_cells": 352,
+      "different_cells_old_numeric_zero": 352,
+      "old_nonzero_values_mismatch": 0
+    }
+  ],
+  "mismatching_old_nonzero_cells_total": 0,
+  "all_104_row_differences_are_zero_filled_old_cells": true
+}

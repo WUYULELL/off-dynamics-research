@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/cristianhtvc/ROOT",
+  "commit": "0ae9c05d70ed369c16732c71abda59b54b559da9",
+  "commit_url": "https://github.com/cristianhtvc/ROOT/commit/0ae9c05d70ed369c16732c71abda59b54b559da9",
+  "readme_url": "https://github.com/cristianhtvc/ROOT/blob/0ae9c05d70ed369c16732c71abda59b54b559da9/README.md",
+  "paper_title": "Transport or Discard: Robust Unbalanced Optimal Transport for Cross-Domain Policy Adaptation",
+  "supplied_paper_sha256": "fbb64fa1f9e3e37df70fbc148a556a7893f69069d699f1f691ac7cff3a86f844",
+  "dependencies_as_stated_in_readme": {
+    "jax": "0.4.9",
+    "jaxlib": "0.4.9",
+    "ott-jax": "0.4.5",
+    "jaxopt": "0.8.3"
+  },
+  "reported_entry": "run_root.sh",
+  "ROOT_environment_installed": false,
+  "ROOT_weights_computed": false,
+  "ROOT_training_started": false,
+  "cluster_connected": false
+}

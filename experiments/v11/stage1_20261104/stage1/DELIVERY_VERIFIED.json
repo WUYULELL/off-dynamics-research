@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "raw_records": 70,
+  "new_run_audits": 10,
+  "statistics_rules_and_descriptive_diffs_recomputed": true,
+  "original_input_report_model_and_protection_hashes_verified": true,
+  "old_files_count": 7712,
+  "result_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+  "report_sha256": "085ea246d11f520924b5ae42c9e5eb090ebca55acf2cd766daaae1a352e55488",
+  "time": 1793755379.0434856
+}

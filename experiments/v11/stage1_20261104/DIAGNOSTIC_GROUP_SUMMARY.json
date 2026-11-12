@@ -1,0 +1,7 @@
+{
+  "target_capped_fraction": 0.118358653125,
+  "source_capped_fraction": 0.2082962375,
+  "target_ESS": 12.850172326070908,
+  "source_ESS": 16.512259412251307,
+  "aggregation": "equal500k steps per seed; mean of 10 per-seed means"
+}

@@ -1,0 +1,85 @@
+{
+  "comparison_finished": true,
+  "CPU_only": true,
+  "new_optimizer_updates": 0,
+  "new_environment_steps": 0,
+  "uses_returns": false,
+  "input_types_only": [
+    "steps.jsonl losses and diagnostics",
+    "diagnostic_vectors.npy"
+  ],
+  "original_interrupted_run": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s207",
+  "fresh_rerun": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\seed207_rerun",
+  "steps": 448506,
+  "all_compared_diagnostics_bitwise_equal": false,
+  "first_mismatch_step": 1,
+  "first_mismatch": {
+    "step": 1,
+    "sample_in_batch": 0,
+    "column": "target_A",
+    "old": 0.0,
+    "new": -0.49370282888412476,
+    "old_uint32": 0,
+    "new_uint32": 3204236958
+  },
+  "logs": {
+    "steps_requested": 448506,
+    "steps_compared": 448506,
+    "all_loss_and_diagnostic_fields": [
+      "step",
+      "V",
+      "Q",
+      "actor",
+      "source_A_positive_fraction",
+      "target_weight_sum",
+      "source_weight_sum",
+      "target_normalized_weight_sum",
+      "source_normalized_weight_sum",
+      "source_selected",
+      "source_denominator",
+      "target_actor_term",
+      "source_actor_term",
+      "source_coefficient",
+      "actor_total",
+      "target_capped_fraction",
+      "source_capped_fraction",
+      "source_effective_capped_fraction",
+      "target_ESS",
+      "source_ESS",
+      "source_raw_ESS"
+    ],
+    "parsed_numeric_bits_equal": true,
+    "records_with_difference": 0,
+    "first_mismatch": null,
+    "serialized_prefix_bytes_equal": true,
+    "old_prefix_sha256": "4211cf0f045c96c5a6d13ffe096225d9ddfcefb70e0eb9511e78a81b07dd34a1",
+    "new_prefix_sha256": "4211cf0f045c96c5a6d13ffe096225d9ddfcefb70e0eb9511e78a81b07dd34a1"
+  },
+  "raw_diagnostic_vectors": {
+    "steps_compared": 448506,
+    "float32_bits_equal": false,
+    "steps_with_difference": 448270,
+    "first_mismatch": {
+      "step": 1,
+      "sample_in_batch": 0,
+      "column": "target_A",
+      "old": 0.0,
+      "new": -0.49370282888412476,
+      "old_uint32": 0,
+      "new_uint32": 3204236958
+    },
+    "old_prefix_sha256": "7a09b08f857ee7e8d8df3e7ff02b5931fe57edc1ac862b73890a5a5fe116369e",
+    "new_prefix_sha256": "2dbc7660717c6647dd0836796b712d2ce2a3aca8c3bb84203638639d150f8970"
+  },
+  "mismatch_is_descriptive_and_does_not_block_following_seeds": true,
+  "no_parameter_or_seed_selection_from_comparison": true,
+  "input_sha256": {
+    "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s207\\steps.jsonl": "4211cf0f045c96c5a6d13ffe096225d9ddfcefb70e0eb9511e78a81b07dd34a1",
+    "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s207\\diagnostic_vectors.npy": "e2c4a47ba4dfefe1951c8206e0b7b88cf3fd949f1d60cff0cc614021f24c608e"
+  },
+  "new_input_sha256": {
+    "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\seed207_rerun\\steps.jsonl": "a2df9ec312de5cb2181b047acde81541ec3122fb847d9115628de6c4df06b6ac",
+    "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\seed207_rerun\\diagnostic_vectors.npy": "9fdd696ec7f4d5e70b59ea55be47a88cebf97799a018026f9810f15e6c0cbf5e"
+  },
+  "time": 1793715294.3653963
+}

@@ -1,0 +1,23 @@
+{
+  "primary_original_bytes": 5216269,
+  "primary_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+  "episode_length_source_sha256": "1316f74a56df4c77761508a752745e35f53eeaf36c8551760de53e501f72b3ae",
+  "export_script_sha256": "28d9533d604c76b0bdc81baa67b7ba8eed33a2c8955d120be2653448bff208fc",
+  "primary_score_rows": 70,
+  "SA_all_rows": 10,
+  "primary_has_episode_lengths": false,
+  "length_provenance": "Separate accepted read-only diagnostic; Last5 460k-500k pooled recorded episodes. Not derived or inferred from primary scores.",
+  "absent_groups": "Groups not covered by the saved length diagnostic are explicitly missing; no reevaluation.",
+  "original_files_unchanged": true,
+  "new_training_updates": 0,
+  "new_environment_steps": 0,
+  "outputs": {
+    "group_statistics.csv": "0ee21298f54eff9f85947e1ce551d2c58de8d2969f7849f709155947d5c4d9cd",
+    "per_seed_scores_and_lengths.csv": "d330e21ee54efd01d617475a86cbcb83213de3e4f5571b95d806ba070f8b4933",
+    "saved_Final_length_by_seed.csv": "1d2eee91c66fea0c7e47a16e7876c1de098f13b41d73f4d812a7df41b3d5aca6",
+    "saved_length_by_group.csv": "0f6afa7d061c7b2261a9da85dd59b9fd79d98c06f324bf8797a4d0e0e78972e6",
+    "saved_length_by_seed.csv": "841a3f93dc614b8df898966782468421af418f8665ced5d2e7eed4e6e8a9b8aa",
+    "SA_all_per_seed.csv": "4c54c031d311c97f0c29a97c69363a04a93b0628f32e8ce1283d01804cb85987",
+    "scores_direct_from_primary.csv": "556de5c5d5438f3ae9c97e46b719d95c6ffa6d474e3dfe120390028301e76736"
+  }
+}

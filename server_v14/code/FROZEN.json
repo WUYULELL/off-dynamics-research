@@ -1,0 +1,24 @@
+{
+  "version": "V14",
+  "files": {
+    "AUTHORIZATION.json": "e9af4f6cf63c0f8cb418a0412ce4199eda2ec0e9eb4dcc63a400322797e67cfb",
+    "config.json": "15dbfc61d9290034699af6c0a1db555e7da618604c7b28fb1564a35def2363ff",
+    "context.py": "b835f209a4aeab6edaaa1ff1b6294077fbe27f7da53bf24a732d314adbb0a374",
+    "core.py": "b130af8e6e50d5df2d4e65be8637ab4677d51c2d99540671550baf10c6908d2b",
+    "diagnostic_a.py": "9ce689b8b812214c7dde99e0ce82f80dfe1ce770aa237439375155db79805aa4",
+    "diagnostic_b.py": "b943f94ea8972d91b0846d7f18f6999143df69388d6ae657838911f7de0ed49a",
+    "diagnostic_c.py": "fadb33c675d8234bb15d169654f70d2eeed604aa1c44d0f08597e9d38948f9b5",
+    "INSTRUCTION_V14.md": "cc29a7e36753a4bc3381944774b0e23780866867dea8877edb56a937a8654431",
+    "limits.py": "72bfb6553fce06d422248f9f64cfa8fa34576b53920f17d06973241b2477df60",
+    "LOCAL_ACCEPTANCE.json": "8393338fdba9191599cac92422cb2f71fd0415f4136b8c26c0eaea716ad925ed",
+    "pipeline.py": "afb529d37d91971cf3cc553a10a606049d7ddce443d5bdfcc5ad2f6cad5b4344",
+    "README_ZH.md": "157a7ed5683fed7cf84369f33d67e2dec55daf45862cdf6fcde6e04a9ac39ae4",
+    "report.py": "75b65eebeb0131d6114e68dc89e2f47d9a5c7a56c70569be3c721d4d0ec5a320",
+    "run_in_tmux.sh": "cb6c2b1bde0fbfac51bc7682443faaecf75a53052662348625bd42745f8340a6",
+    "V13_CODE_EXPECTED.json": "360efb93b1071de76ddcf2631ee0f3e791c586fc99c22cf0e9a5507706637443",
+    "verify_package.py": "d48351467d3ffe2083517a0daba282284c7e920717c8f69ef9f9c9234fa26a8a"
+  },
+  "training_updates": 0,
+  "GPU_jobs": 0,
+  "stage2_authorized": false
+}

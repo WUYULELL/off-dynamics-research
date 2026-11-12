@@ -1,0 +1,27 @@
+{
+  "stage": 1,
+  "stage2_authorized": false,
+  "files": {
+    "AUTHORIZATION.json": "a1ea99d0dda7caba747fb796f39acb8afe7b826be970ec346c7fa916d21f649e",
+    "SHARED_POLICY.json": "0592364866737f641685c033352743112a2d9cf45e3caac96131a98a1193b7ef",
+    "admission.py": "e630b99ea674a1babda559f0834879b34e721e416ea27c270f74f299a92be9a7",
+    "common.py": "15a05531a5df519687f27fd32af4c107ced8071ca4aaddd3230de4c36ce9da76",
+    "config.json": "d72bc292fad73b6cfaf6f07afa188790cde50c218938801893081aff54747777",
+    "continuation.py": "6029bba39896461a78c66b099e4c00eb6d2ccca980a2a6e14986365d96afe2cd",
+    "controller.py": "258e97653bf562ed1e6340f3da8d267ea58b4d9688867e5d968768ccbf37e70b",
+    "resources.py": "72bfb6553fce06d422248f9f64cfa8fa34576b53920f17d06973241b2477df60",
+    "run_in_tmux.sh": "a7e7456220bbd93564a126263313b8c34d5799b6aea381d02a494e3a747a41e8",
+    "science.py": "5b2f1ad63f412b783cdf4f61d3e75fc9be7669bcb8e963e876bc008512a2acbf",
+    "shared60.py": "0afe71e0aede07d2c9696310eb0d78dcf0fc7a5287d4fe43f3b360be5a3668eb",
+    "stage1_core.py": "08b4e3781ae4815b74424916fedb6653fc8448d27d5eab5acee674f11fd661d8",
+    "stage1_report.py": "fbc4d7fe3931302cf9b0a6875ab72fdb354935c781978c9036d2ab1f670f85b5",
+    "v12_bc.py": "54b9824c356d633d4ae8865844ef5b0a37050aa5acf97fde385ad7739c6e5f71",
+    "worker.py": "03cf8d4e7e78b75a2c479f49bc62d645b04689de5fa486c36762d12bb12905a8"
+  },
+  "transfer_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7",
+  "v9_original_delivery_sha256": "70623ae17e8f28eded5a9d904f32a2b82583b8cb01a3039d76c51884a1c445bc",
+  "v9_original_acceptance_sha256": "b08280270b5e3b134a8554c479297a40d2d7d6b0feaa03d3744a949a37b171be",
+  "original_stage1_freeze_sha256": "c40f78b87eb6276a1043ce30fa330529f2087424aa8f685f779014cb86af1c5d",
+  "continuation_scope": "V13 shared GPU resource policy only, remaining authorized Stage 1 BC jobs",
+  "pid_repair_freeze_sha256": "237b970b51066a123890dc0078d3afc1f0bdb5fac18927d46f5fdcc32910e489"
+}

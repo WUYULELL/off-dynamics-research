@@ -1,0 +1,15 @@
+{
+  "stage": 1,
+  "permitted_gpu_indices": [1, 2, 3],
+  "max_added_processes_per_gpu": 1,
+  "max_added_processes_total": 3,
+  "max_existing_processes_per_gpu": 2,
+  "admission_max_utilization_percent": 60,
+  "utilization_gate_applies_to_running_workers": false,
+  "min_free_MiB": 12288,
+  "consecutive_admission_samples": 3,
+  "admission_sample_spacing_seconds": 2,
+  "require_registered_gpu": true,
+  "block_new_jobs_if_new_external_pid_appears_during_worker": true,
+  "stage2_authorized": false
+}

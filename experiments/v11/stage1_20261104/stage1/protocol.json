@@ -1,0 +1,23 @@
+{
+  "primary": "Last5",
+  "BC_reference": "V9 Hopper BC50 seeds301-310, raw values recomputed; displayed54.05",
+  "condition1": "M-BC50>=5 AND M-BC50>2*WelchSE",
+  "condition2": "paired M-O1 mean>2SE AND positive>=7/10",
+  "positive": "condition1 AND condition2",
+  "negative": "M-BC50<2 OR paired M-O1 mean<=0",
+  "other": "uncertain",
+  "pairs": [
+    "T",
+    "O1",
+    "raw1"
+  ],
+  "descriptive": [
+    "O.25",
+    "BC-all"
+  ],
+  "SD_ddof": 1,
+  "Q1": "linear25%",
+  "cap_fraction_and_ESS_are_descriptive_only": true,
+  "no_bootstrap": true,
+  "all_seeds_retained": true
+}

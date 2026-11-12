@@ -1,0 +1,34 @@
+[
+  {
+    "stage": "v12 stage0.1 / stage0.3",
+    "missing": "original server reports, runtime config, completion receipts, and tables; only prior editorial summary is locally available"
+  },
+  {
+    "stage": "v12 stage0.2",
+    "missing": "original server completion receipt/config/result JSON; pasted report and determinism check available"
+  },
+  {
+    "stage": "v12 stage1A / stage1B",
+    "missing": "original runtime configs and completion receipts; stage1B report available only in terminal export; stage1A editorial summary available"
+  },
+  {
+    "stage": "v12 stage2",
+    "missing": "full original report, runtime config and receipts/result tables; prior editorial summary and upstream provenance available"
+  },
+  {
+    "stage": "v12 stage3",
+    "missing": "original runtime config, result JSON and original receipt file bytes; complete terminal report hash verified and exported receipt available"
+  },
+  {
+    "stage": "v13 stage0",
+    "missing": "original/repaired server report and completion receipts; solver/config/report repair code available"
+  },
+  {
+    "stage": "v13 stage1",
+    "missing": "server RESULT, per-run runtime configs, and original completion-file bytes; global config source hash matches recorded receipt, complete terminal report hash verified"
+  },
+  {
+    "stage": "v14",
+    "missing": "no real diagnostic results supplied; code and 28-test synthetic acceptance only, intentionally not marked completed real diagnostics"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "scope": "Strict JSON semantic validation plus exact referenced-source hashes; provenance and failure wording only",
+  "changed": [
+    {
+      "file": "common.py",
+      "old_sha256": "2e7368d2d8f3416fd69accf3416e2bb7654334e0910d9d58796ab3f7badc6050",
+      "new_sha256": "29bd8d3a5e491f0e0528899e3aaa780e78fa9379443710f29c8beb16a998fe14"
+    },
+    {
+      "file": "pipeline.py",
+      "old_sha256": "1f700d94db1611ebef0907b445fe74680daa52dc9b38c8d4205ea4ca719c79fc",
+      "new_sha256": "6a749a52cf4998fa1ba3393dcbbcf26a8bba624908645f9cbfac55bb03c13c6b"
+    },
+    {
+      "file": "config_template.json",
+      "old_sha256": "f8a84b3fe4ad9032c4619979f2e561adc66f91e93688af5252d1a3bb7a35da33",
+      "new_sha256": "30ee6333432b219174aa9779666f99eb7bc001c38b6c2655eb1e0fceef10f383"
+    },
+    {
+      "file": "run_in_tmux.sh",
+      "old_sha256": "bc0bb8f09fad41ada0f9418a6f58e00676e3fc3d6d1b2218586104dc818c3414",
+      "new_sha256": "04985b8bc65a79d090f38143e7703caf159d2b3aea2d2c85402928061adf75b9"
+    },
+    {
+      "file": "README_ZH.md",
+      "old_sha256": "410882b108cd4c26d03735cf3d4b1f0741cda39dc721272cf798a84b934eb6ff",
+      "new_sha256": "6950d5d41736e23b889fc8e9e3765cc8876b93f9845837ed3c8dc3b80a74ccfd"
+    }
+  ],
+  "byte_identical_scientific_files": {
+    "worker.py": "e47c9d42d2edb16105251a00204c63ddb8aec8b8cc19f1da986536c420768407",
+    "science.py": "ffe28afc56fef034f4b63e5b9efa8705bca5309869c26b9f7333c6389a651978",
+    "audit.py": "ca4c22c39ca02dd4c46efc770db0e8025f328f347da3caf95906c189fec59001",
+    "SCIENCE_AST.json": "dc0d624b5766032fa2af9ca67c3ae0a857dd115252141a2f60c204a609ef9d3e",
+    "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352"
+  },
+  "resource_admission_AST_unchanged": true,
+  "rule_and_hyperparameters_unchanged": true,
+  "server_execution_not_started": true
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "CPU report repair and read-only vector audit only",
+  "original_training_frozen_and_failure_evidence_preserved": true,
+  "code_frozen_sha256": "59b6e8e6e1bdcc90805ebac8d9694cbc03b6e40c3eea91e8c249d1ef544eaa92",
+  "correction_mapping": "original root config.actor_loss -> report correction, verbatim",
+  "no_training_or_optimization_or_environment_steps": true,
+  "no_rule_or_data_changes": true,
+  "time": 1793755022.875565
+}

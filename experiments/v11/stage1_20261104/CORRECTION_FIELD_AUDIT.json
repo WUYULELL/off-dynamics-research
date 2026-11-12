@@ -1,0 +1,149 @@
+{
+  "expected_key": "correction",
+  "expected_file": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\config.json",
+  "historical_definition_file": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\v11_source_actor\\prepare.py",
+  "historical_lines": [
+    26,
+    36
+  ],
+  "historical_definition": "用户更正：v11的−log π作废；沿用O1实际exp(10A).clamp(max=100)优势加权动作MSE；源动作同类MSE并入。",
+  "interpretation": "Original report metadata describing replacement of negative log pi by O1 advantage-weighted action MSE; not a training parameter.",
+  "current_key_missing": true,
+  "explicit_mapping": {
+    "from_file": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\config.json",
+    "from_field": "actor_loss",
+    "exact_value": "O1 advantage-weighted action MSE; negative-log-pi superseded",
+    "to_report_field": "correction"
+  },
+  "support_fields": {
+    "actor_beta": 10.0,
+    "actor_weight_max": 100.0,
+    "actor_source_w": 1.0,
+    "source_actor_denominator": 64,
+    "advantage": "pre-V min(target_Q1,target_Q2)-V"
+  },
+  "seed_configs": [
+    {
+      "seed": 201,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s201\\config.json",
+      "sha256": "387b13e8e237a935dae805fd367e5a45a2123636fa34c766b8733ed3b22ab93e",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 202,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s202\\config.json",
+      "sha256": "476386276070bdb0a1b5da3ed4503c9fe02e5f3767a44bd258060cf91cdfdcc4",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 203,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s203\\config.json",
+      "sha256": "bec79656e06f9f82ffb3c48bbd9b06eba7aa77fdbbb62ff1568b2b7733069de3",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 204,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s204\\config.json",
+      "sha256": "788de852f02cc248c5d79c535c65b5ab7380d7bdc842696bee049dcee63ad211",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 205,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s205\\config.json",
+      "sha256": "1280d50ff05e7af35293c99ff923534f668e045eca9ffb0ff3185395c6681619",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 206,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s206\\config.json",
+      "sha256": "923a8f7c6849787e7c524e2f561f9791c6c5943532ac5bbfa5a16c512b8b584d",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 207,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\seed207_rerun\\config.json",
+      "sha256": "75fe789846b627e03f4708a6af98f9d2b11e273ea9a99127caa4d5ffde5bac6f",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 208,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\hopp_SAall_s208\\config.json",
+      "sha256": "d5cf2a1b150f297f28b1df06dcd586f299a95fdc9e266e0913885ad944ffae3e",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 209,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\hopp_SAall_s209\\config.json",
+      "sha256": "0eb02576ab3c6e80712d841b5669d8e46b15ddbf71d94257dbcbd1f53405a9e8",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    },
+    {
+      "seed": 210,
+      "config": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\hopp_SAall_s210\\config.json",
+      "sha256": "1a3d043213037aaf5dfd3fcbc6853701fb5b631c3f92840ccaae9f61da86e99c",
+      "correction_present": false,
+      "actor_loss_present": false,
+      "scientific_config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "parent_config_matches": true,
+      "temp": 10,
+      "actor_source_w": 1.0,
+      "source_denominator": 64
+    }
+  ],
+  "quote_is_verbatim": true,
+  "no_value_invented": true
+}

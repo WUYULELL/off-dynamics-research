@@ -1,0 +1,16 @@
+{
+  "stage": 3,
+  "upstream_commit": "0ae9c05d70ed369c16732c71abda59b54b559da9",
+  "GPU_process_limit": 3,
+  "files": {
+    "gpu_admission.py": "46f354fdf9dab1e4e66b5fddcbb1004204a27d171c3f052d60e1bf0a6f852567",
+    "handoff.py": "d4e471f627a8567a96ba7baa9ad3a800bb0ae85410e6760109dc937d317c6b60",
+    "PROTOCOL.json": "e0ef27e563dd902a82ec235d6d2bbf877d1423d8962189d42badf8856ce8a96e",
+    "README_ZH.md": "10d3073393c8ee694d1e913912fb26c8a5c1d677a2b0ea2dd94ea8885d752eae",
+    "run_in_tmux.sh": "bbe95a4fa691d9443ccaee6e58bb9476b69aca464191c68075d9ea00f3b3a449",
+    "stage3_controller.py": "bd1a9111868a957445ac5ee1be422ccc41274f2bee0a1214500bee0e1452c803",
+    "stage3_report.py": "176cecbb9c1e3a3c3eb369f2a41c964fd41241392952c34ac3ffb2d9bf9c998d",
+    "stage3_setup.py": "ddc080a6e6ceabcb7dbcaa3e24ad89ed827d62a025c31441e6be8877a49944f4",
+    "stage3_worker.py": "f20b7f7d5055fd7d20f7be3b2bb8d87707e0c4d1c385ff79f26b063df86d6e6d"
+  }
+}

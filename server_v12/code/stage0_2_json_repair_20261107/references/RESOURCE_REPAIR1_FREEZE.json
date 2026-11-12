@@ -1,0 +1,17 @@
+{
+  "files": {
+    "audit.py": "ca4c22c39ca02dd4c46efc770db0e8025f328f347da3caf95906c189fec59001",
+    "common.py": "2e7368d2d8f3416fd69accf3416e2bb7654334e0910d9d58796ab3f7badc6050",
+    "config_template.json": "f8a84b3fe4ad9032c4619979f2e561adc66f91e93688af5252d1a3bb7a35da33",
+    "pipeline.py": "1f700d94db1611ebef0907b445fe74680daa52dc9b38c8d4205ea4ca719c79fc",
+    "README_ZH.md": "410882b108cd4c26d03735cf3d4b1f0741cda39dc721272cf798a84b934eb6ff",
+    "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352",
+    "REPAIR_CHANGELOG.json": "39c4a28eb8010a978d269b2398a2d69696544742e988744019fec6e2fa1bca3a",
+    "run_in_tmux.sh": "bc0bb8f09fad41ada0f9418a6f58e00676e3fc3d6d1b2218586104dc818c3414",
+    "science.py": "ffe28afc56fef034f4b63e5b9efa8705bca5309869c26b9f7333c6389a651978",
+    "SCIENCE_AST.json": "dc0d624b5766032fa2af9ca67c3ae0a857dd115252141a2f60c204a609ef9d3e",
+    "worker.py": "e47c9d42d2edb16105251a00204c63ddb8aec8b8cc19f1da986536c420768407"
+  },
+  "project_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7",
+  "scope": "Resource-only repair candidate for the same V12 0.2 three jobs; explicit manual confirmation required"
+}

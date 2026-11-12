@@ -1,0 +1,40 @@
+{
+  "scope": "resource gate / failed-start evidence / manual authorization / new routes only",
+  "changes": [
+    {
+      "file": "common.py",
+      "old_sha256": "cb6007011d60a50090d4f1006288179cca64360afb60fadeafb3d7186bb102d9",
+      "new_sha256": "2e7368d2d8f3416fd69accf3416e2bb7654334e0910d9d58796ab3f7badc6050"
+    },
+    {
+      "file": "pipeline.py",
+      "old_sha256": "5448a8e987c20da45046368d749d90557e9807d2f14205d6a0dca1b15e3eb3c2",
+      "new_sha256": "1f700d94db1611ebef0907b445fe74680daa52dc9b38c8d4205ea4ca719c79fc"
+    },
+    {
+      "file": "run_in_tmux.sh",
+      "old_sha256": "309ee0654943fc8679041308cd23f9c86b86477690ba188746c3efb37ddd6c32",
+      "new_sha256": "bc0bb8f09fad41ada0f9418a6f58e00676e3fc3d6d1b2218586104dc818c3414"
+    },
+    {
+      "file": "README_ZH.md",
+      "old_sha256": "6003a1176ba32dfded8962109e017ee10ddcaa2c3a089a42d015920688eac451",
+      "new_sha256": "410882b108cd4c26d03735cf3d4b1f0741cda39dc721272cf798a84b934eb6ff"
+    },
+    {
+      "file": "config_template.json",
+      "old_sha256": "857e8476bc649355ab10c5bc2549fb968f071f4ac44b45612171b56e0dc9bd5a",
+      "new_sha256": "f8a84b3fe4ad9032c4619979f2e561adc66f91e93688af5252d1a3bb7a35da33"
+    }
+  ],
+  "byte_identical_scientific_files": {
+    "worker.py": "e47c9d42d2edb16105251a00204c63ddb8aec8b8cc19f1da986536c420768407",
+    "science.py": "ffe28afc56fef034f4b63e5b9efa8705bca5309869c26b9f7333c6389a651978",
+    "audit.py": "ca4c22c39ca02dd4c46efc770db0e8025f328f347da3caf95906c189fec59001",
+    "SCIENCE_AST.json": "dc0d624b5766032fa2af9ca67c3ae0a857dd115252141a2f60c204a609ef9d3e",
+    "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352"
+  },
+  "original_freeze_sha256": "493d8a9ee58fab0e23a91a7c543b138b0e5bcabfe3a79ce3313ce17899a9dd5a",
+  "real_training_or_environment_steps_executed_in_preparation": 0,
+  "server_recovery_not_started": true
+}

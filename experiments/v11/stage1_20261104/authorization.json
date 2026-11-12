@@ -1,0 +1,43 @@
+{
+  "authorized_at": "2026-11-03T11:34:43.095333+00:00",
+  "authorized_at_Asia_Shanghai": "2026-11-03T19:34:43.095333+08:00",
+  "source": "Latest explicit user message: no checkpoint recovery; fresh seed207500k in new directory; then208–210; compare first448506 losses/diagnostics without return use; stop after10logicalseeds.",
+  "checkpoint_resume_authorized": false,
+  "seed207_from_zero": true,
+  "seeds_to_execute": [
+    207,
+    208,
+    209,
+    210
+  ],
+  "steps_each": 500000,
+  "reused_completed_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206
+  ],
+  "logical_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210
+  ],
+  "logical_total": 10,
+  "comparison_steps": 448506,
+  "comparison_mismatch_does_not_block_following_seeds": true,
+  "comparison_uses_returns": false,
+  "original_interrupted_directory_must_remain_unchanged": true,
+  "automatic_retry_after_future_interruption": false,
+  "formal_SAtop_authorized": false,
+  "stage2_authorized": false,
+  "github_upload_authorized": false
+}

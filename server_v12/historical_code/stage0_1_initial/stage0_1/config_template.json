@@ -1,0 +1,94 @@
+{
+  "stage": "V12_0.1",
+  "scope": "CPU target environment restoration and one-step replay only",
+  "authorization": "2026-11-06 user: 按我给你的文档阶段走",
+  "instruction_sha256": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352",
+  "task_order": [
+    "hopper-morph",
+    "walker2d-morph"
+  ],
+  "sample_rows_per_task": 10000,
+  "sample_seeds": {
+    "hopper-morph": 2026110601,
+    "walker2d-morph": 2026110602
+  },
+  "sampling_with_replacement": true,
+  "independent_sample_count_not_10000": true,
+  "boundary_abs_tolerance": 1e-06,
+  "history_consistency_tolerance": 0.0001,
+  "qvel_clip_abs_tolerance": 1e-06,
+  "restoration": "unchanged Windows v2 recover and step AST; qpos x=0 translation symmetry; verified predecessor within episode",
+  "historical_technical_tolerances": {
+    "state_linf": 0.001,
+    "reward_abs": 0.0001,
+    "terminal": "exact"
+  },
+  "historical_tolerances_are_not_new_v12_acceptance_rule": true,
+  "v12_significant_error_increase_numeric_threshold": null,
+  "stop_after_0_1_for_user_review": true,
+  "automatic_stage0_2": false,
+  "stage0_3_started": false,
+  "expected_episode_starts": {
+    "hopper-morph": [
+      0,
+      652,
+      1320,
+      1963,
+      2618,
+      3265,
+      3911,
+      4564
+    ],
+    "walker2d-morph": [
+      0,
+      327,
+      590,
+      1258,
+      2258,
+      2725,
+      3725,
+      4725
+    ]
+  },
+  "windows_reference_files": {
+    "hopper-morph": "hopper_windows_target_acceptance.json",
+    "walker2d-morph": "walker2d_windows_target_acceptance.json"
+  },
+  "new_training_updates": 0,
+  "new_synthetic_optimization_updates": 0,
+  "model_instances": 0,
+  "optimizer_instances": 0,
+  "torch_import": false,
+  "CUDA_VISIBLE_DEVICES": "-1",
+  "MUJOCO_PY_FORCE_CPU": "1",
+  "GPU_tests": 0,
+  "cpu_threads_per_library": 1,
+  "environment_execution_in_tmux": true,
+  "expected_environment_steps_no_failure": {
+    "Hopper_recovery": 290,
+    "Walker_recovery": 1890,
+    "sampled_replays": 20000,
+    "constructors": 2,
+    "total": 22182
+  },
+  "copy_mujoco_binding_to_new_output": true,
+  "change_existing_Conda_environment": false,
+  "expected_versions": {
+    "numpy": "1.23.5",
+    "h5py": "3.11.0",
+    "gym": "0.18.3",
+    "mujoco-py": "2.1.2.14"
+  },
+  "outputs": "${HOME}/v12_linux/outputs/stage0_1_20261106",
+  "source_target_env_flag": "unset ODRL_PAPER_STYLE_SOURCE_TARGET",
+  "source_data_used": false,
+  "oracle_cache_used": false,
+  "new_oracle_cache": false,
+  "policy_return_evaluation": false,
+  "replay_reward_consistency_check": true,
+  "later_stage_authorization": false,
+  "SAtop_formal_authorized": false,
+  "Walker_stage2_authorized": false,
+  "no_automatic_retry_resume_or_rerun": true,
+  "prepared_utc": "2026-11-06T14:18:58.993050+00:00"
+}

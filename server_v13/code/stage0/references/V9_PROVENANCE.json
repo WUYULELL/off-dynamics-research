@@ -1,0 +1,20 @@
+{
+  "source_sha256": "5bdf1bc4a713c82941de44633df669b36c89850b652a25985166796d25cf71a0",
+  "xml_sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2",
+  "raw_indices_sha256": "c76f42b883d718528964e75e6516da8fb8878803ec00285291bf8992da1dd9f9",
+  "oracle_arrays_sha256": {
+    "next_state.npy": "e843f3782677f47a55038ffdfcf6956bcf6ce46528c24a33c2cbc7636b6d9a69",
+    "reward.npy": "e38459c358186a1f461ffab8a67820960bc0adad73def90503cd1b573287c581",
+    "terminal.npy": "26e0f7038da42a6d0b903db572eec0a573deed811f95cdb0dd90f4036ce91ba3",
+    "raw_indices.npy": "c76f42b883d718528964e75e6516da8fb8878803ec00285291bf8992da1dd9f9"
+  },
+  "v9_delivery_sha256": "70623ae17e8f28eded5a9d904f32a2b82583b8cb01a3039d76c51884a1c445bc",
+  "v9_independent_acceptance_sha256": "b08280270b5e3b134a8554c479297a40d2d7d6b0feaa03d3744a949a37b171be",
+  "accepted_recovery_file_sha256": {
+    "cache/recovery/qpos.npy": "80f909166dbc8500275769a8b0f8d2e45f5c58eeae0ed2a10d483c2d3e7a20cd",
+    "cache/recovery/qvel.npy": "8ddba04ea435aba712b91089c02721d41cc2bee675dd7b5d2c979226c54d3785",
+    "cache/recovery/recovery_status.npy": "ba2849bba55417b7ffc0057b683005a7369fe6a525bd6d381f5aa01d3ec889a6"
+  },
+  "source_sample_count": 20000,
+  "source_seed": 2026111301
+}

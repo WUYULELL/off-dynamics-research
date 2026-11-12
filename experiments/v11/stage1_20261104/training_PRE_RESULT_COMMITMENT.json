@@ -1,0 +1,12 @@
+{
+  "FROZEN_sha256": "f323599376e1139d4c7570bc7811ca8021bfad8c67647557b15266f7a8b49a03",
+  "original_PRE_RESULT_COMMITMENT_sha256": "990919822954a10a4d089d5a2d25422c2ed2418ef0e1ca60382aec1e6457bb5d",
+  "protocol_sha256": "5bf5f118759ed953bad631def8c6abec213d5a0f110f2427e51d82fc70a1e76b",
+  "config_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+  "protected_manifest_sha256": "7fb6993e5bf66f10c1e4babe15783393fb733c65366c83b3c454e64411ef937c",
+  "authorization_sha256": "a852ac34d632343cd8a832a57e2dac52ab6a57bf04a9f3aaac7602a409704e5d",
+  "comparison_mismatch_not_a_gate": true,
+  "comparison_uses_returns": false,
+  "new_training_started": false,
+  "time": 1793705721.6042798
+}

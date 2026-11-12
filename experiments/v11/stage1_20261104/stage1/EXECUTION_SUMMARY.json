@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "new_jobs": 10,
+  "total_updates": 5000000,
+  "training_elapsed_seconds": {
+    "hopp_SAall_s201": 11597.6193791,
+    "hopp_SAall_s202": 10906.7822499,
+    "hopp_SAall_s203": 10989.422511499999,
+    "hopp_SAall_s204": 10785.0688714,
+    "hopp_SAall_s205": 10946.4292788,
+    "hopp_SAall_s206": 11025.094784300001,
+    "hopp_SAall_s207": 9375.381988199999,
+    "hopp_SAall_s208": 8372.055608800001,
+    "hopp_SAall_s209": 8407.8902653,
+    "hopp_SAall_s210": 8440.502070499999
+  },
+  "total_training_hours": 28.012846391055557,
+  "no_automatic_retraining": true,
+  "user_authorized_seed207_fresh_rerun": true,
+  "new_executed_seeds": [
+    207,
+    208,
+    209,
+    210
+  ],
+  "reused_completed_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206
+  ],
+  "stage0_not_reused_as_formal_runs": true,
+  "prelaunch_budget": {
+    "user_estimate_hours": 11.3,
+    "measured_completed_seeds": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206
+    ],
+    "measured_mean_single_run_hours": 3.067148938657408,
+    "new_four_training_hours": 12.268595754629631,
+    "estimated_training_audit_analysis_delivery_hours": [
+      13,
+      14
+    ],
+    "estimate_not_a_training_or_scientific_gate": true
+  },
+  "stage2_started": false,
+  "time": 1793755174.8152776
+}

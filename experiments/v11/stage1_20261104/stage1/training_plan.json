@@ -1,0 +1,88 @@
+{
+  "jobs": [
+    {
+      "id": "hopp_SAall_s201",
+      "variant": "SA-all",
+      "seed": 201,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s201"
+    },
+    {
+      "id": "hopp_SAall_s202",
+      "variant": "SA-all",
+      "seed": 202,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s202"
+    },
+    {
+      "id": "hopp_SAall_s203",
+      "variant": "SA-all",
+      "seed": 203,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s203"
+    },
+    {
+      "id": "hopp_SAall_s204",
+      "variant": "SA-all",
+      "seed": 204,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s204"
+    },
+    {
+      "id": "hopp_SAall_s205",
+      "variant": "SA-all",
+      "seed": 205,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s205"
+    },
+    {
+      "id": "hopp_SAall_s206",
+      "variant": "SA-all",
+      "seed": 206,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_actor_w64_saall_20261102\\stage1\\runs\\hopp_SAall_s206"
+    },
+    {
+      "id": "hopp_SAall_s207",
+      "variant": "SA-all",
+      "seed": 207,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\seed207_rerun"
+    },
+    {
+      "id": "hopp_SAall_s208",
+      "variant": "SA-all",
+      "seed": 208,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\hopp_SAall_s208"
+    },
+    {
+      "id": "hopp_SAall_s209",
+      "variant": "SA-all",
+      "seed": 209,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\hopp_SAall_s209"
+    },
+    {
+      "id": "hopp_SAall_s210",
+      "variant": "SA-all",
+      "seed": 210,
+      "steps": 500000,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v11_saall_finish_20261103\\stage1\\runs\\hopp_SAall_s210"
+    }
+  ],
+  "new_jobs": 4,
+  "reused_completed_jobs": 6,
+  "logical_total_jobs": 10,
+  "new_updates": 2000000,
+  "logical_accepted_updates": 5000000,
+  "execution_seed_order": [
+    207,
+    208,
+    209,
+    210
+  ],
+  "original_interrupted_seed207_excluded_from_formal_analysis": true,
+  "source_top_formal_jobs": 0,
+  "stage2_jobs": 0
+}

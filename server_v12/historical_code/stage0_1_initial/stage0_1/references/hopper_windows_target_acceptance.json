@@ -1,0 +1,40 @@
+{
+  "loader": "fixed_v2",
+  "n": 5000,
+  "source_sha256": "135d69d7ae3d20d179219b0ae4f489d77e29b651375a7e66f4a3f1b5d85cd7bb",
+  "xml": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\envs\\assets\\hopper_morph.xml",
+  "xml_sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2",
+  "state_error": {
+    "n": 5000,
+    "mean": 3.49772089436565e-07,
+    "median": 2.5247840393372023e-07,
+    "p95": 9.461284669498585e-07,
+    "max": 1.7460656454026946e-06
+  },
+  "reward_error": {
+    "n": 5000,
+    "mean": 7.352797440292048e-08,
+    "median": 6.128409801853252e-08,
+    "p95": 1.805045306113585e-07,
+    "max": 3.203107770133329e-07
+  },
+  "clipped_fraction": 0.058,
+  "unrecoverable_initial_rows": [],
+  "initial_failed_rows": [],
+  "repaired_rows": [],
+  "failed_rows": [],
+  "done_disagreements": 0,
+  "accepted": true,
+  "source_class": "gym.envs.mujoco.hopper_v3",
+  "target_class": "d4rl.utils.wrappers",
+  "oracle_path": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\v2_20261006\\stage_c\\hopper_morph_source_oracle_fixed.npz",
+  "oracle_sha256": "eff6c8ff74dad78df0701db1039b5b31b5eb1fd67b4370a2c2cac9e306009bb6",
+  "physical_shift": {
+    "n": 5000,
+    "mean": 0.2782035887132399,
+    "median": 0.23373130692348265,
+    "p95": 0.8412527969311075,
+    "max": 1.5403483056441796
+  },
+  "shift_over_1e3_fraction": 1.0
+}

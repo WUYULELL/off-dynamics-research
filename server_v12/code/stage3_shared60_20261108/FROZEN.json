@@ -1,0 +1,19 @@
+{
+  "stage": 3,
+  "upstream_commit": "0ae9c05d70ed369c16732c71abda59b54b559da9",
+  "GPU_process_limit": 3,
+  "shared_util_percent_limit": 60,
+  "files": {
+    "gpu_admission.py": "d8d18cbf75839583252075cb14168ec941e8c86ba383f0da1ba357875bc4f6f4",
+    "handoff.py": "0e15ad9e24821af136bde57171ba55358b4066095c497c26be554233aa984a86",
+    "PROTOCOL.json": "b0de02acd1da39cf7c3c44f4f797694ad619ee4748b71ae57b52923b95de7da5",
+    "README_ZH.md": "3c018df2838ec9dbc27f0eeeab3e6b9aae94a21ea86b70a0096ab498583484fd",
+    "recovery.py": "deb92450753490113dbfcd2674db93ed8034b86550d821ceae13262dfba82d7c",
+    "resume_in_tmux.sh": "4045b54229c14879dd375612094526f9da957425ad2d6b615788ead41e6fd440",
+    "run_in_tmux.sh": "a107a13b4f64166c76b92bb667b9177d41a83f5e517ffebb1c4564c3e6a66eef",
+    "stage3_controller.py": "de3309dbae665641b5cf0a670a0fd15695eb809c2f51067bcfc4487feb83559d",
+    "stage3_report.py": "d6ae85008d2d5279517d91a79fbfc68d4ce5afe7a4ab614fad62831b00d22cbb",
+    "stage3_setup.py": "95c50a6caa40baaf87584a222fd2a40228ce77dab53567b0d7701c0f9c4767fb",
+    "stage3_worker.py": "b0f5cb7838ecbaf4a304ad7c39e397e1632466563b3a65f4d5ec07c8191915ab"
+  }
+}

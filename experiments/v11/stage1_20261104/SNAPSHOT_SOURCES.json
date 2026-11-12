@@ -1,0 +1,828 @@
+{
+  "source_root_template": "C:/Users/<USER>/Documents/New project/off-dynamics-rl-main/off-dynamics-rl-main",
+  "source_project_prefix": "${PROJECT_ROOT}",
+  "files": [
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/authorization.json",
+      "snapshot": "experiments/v11/stage1_20261104/authorization.json",
+      "source_bytes": 1106,
+      "source_sha256": "a852ac34d632343cd8a832a57e2dac52ab6a57bf04a9f3aaac7602a409704e5d",
+      "snapshot_bytes": 1106,
+      "snapshot_sha256": "a852ac34d632343cd8a832a57e2dac52ab6a57bf04a9f3aaac7602a409704e5d",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/config.json",
+      "snapshot": "experiments/v11/stage1_20261104/config.json",
+      "source_bytes": 5322,
+      "source_sha256": "3c1178da160c856d7e4f3d36d242cd91857861aa4209ff3347db202a06820d1c",
+      "snapshot_bytes": 5330,
+      "snapshot_sha256": "889fda55c065261ce703fed44ad335adaf5908f22d0a9e9269f10ffecf544c5d",
+      "exact_byte_copy": false,
+      "kind": "exact_copy; absolute_path_username_replacement",
+      "transformations": [
+        {
+          "kind": "windows_username_in_absolute_path",
+          "count": 4,
+          "replacement": "<USER>"
+        }
+      ]
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/CORRECTION_FIELD_AUDIT.json",
+      "snapshot": "experiments/v11/stage1_20261104/CORRECTION_FIELD_AUDIT.json",
+      "source_bytes": 7373,
+      "source_sha256": "86412eed7bee9369059b60824858771ce63ce5ba081ebb77cb25a822666b807e",
+      "snapshot_bytes": 7399,
+      "snapshot_sha256": "2f00e99a3a37038e70ec0fc5fd15687dc29ce780cbd62e05b0d500192e3976d4",
+      "exact_byte_copy": false,
+      "kind": "exact_copy; absolute_path_username_replacement",
+      "transformations": [
+        {
+          "kind": "windows_username_in_absolute_path",
+          "count": 13,
+          "replacement": "<USER>"
+        }
+      ]
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/DIAGNOSTIC_GROUP_SUMMARY.json",
+      "snapshot": "experiments/v11/stage1_20261104/DIAGNOSTIC_GROUP_SUMMARY.json",
+      "source_bytes": 238,
+      "source_sha256": "f38e46b2d5664a6a3acb6df225f9558c03b4134caf77b34dcb97286d3fa49c75",
+      "snapshot_bytes": 238,
+      "snapshot_sha256": "f38e46b2d5664a6a3acb6df225f9558c03b4134caf77b34dcb97286d3fa49c75",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/REPORT_REPAIR_COMMITMENT.json",
+      "snapshot": "experiments/v11/stage1_20261104/REPORT_REPAIR_COMMITMENT.json",
+      "source_bytes": 447,
+      "source_sha256": "d4d0b8d37407ae17395580390a69afa7fe85d9bffa2a320fd19a0f166b945805",
+      "snapshot_bytes": 447,
+      "snapshot_sha256": "d4d0b8d37407ae17395580390a69afa7fe85d9bffa2a320fd19a0f166b945805",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/REPORT_CODE_FROZEN.json",
+      "snapshot": "experiments/v11/stage1_20261104/REPORT_CODE_FROZEN.json",
+      "source_bytes": 3354,
+      "source_sha256": "59b6e8e6e1bdcc90805ebac8d9694cbc03b6e40c3eea91e8c249d1ef544eaa92",
+      "snapshot_bytes": 3384,
+      "snapshot_sha256": "a5807bee3e3468f62542dfe652fbf367a469ca689a2acba18c47b67812edee42",
+      "exact_byte_copy": false,
+      "kind": "exact_copy; absolute_path_username_replacement",
+      "transformations": [
+        {
+          "kind": "windows_username_in_absolute_path",
+          "count": 15,
+          "replacement": "<USER>"
+        }
+      ]
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/training_PRE_RESULT_COMMITMENT.json",
+      "snapshot": "experiments/v11/stage1_20261104/training_PRE_RESULT_COMMITMENT.json",
+      "source_bytes": 721,
+      "source_sha256": "0126cd1af682b6bbca619771af106395f3c872f00bf03fb1590aa52eac3f3097",
+      "snapshot_bytes": 721,
+      "snapshot_sha256": "0126cd1af682b6bbca619771af106395f3c872f00bf03fb1590aa52eac3f3097",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/STAGE1_REPORT_ZH.md",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/STAGE1_REPORT_ZH.md",
+      "source_bytes": 12982,
+      "source_sha256": "085ea246d11f520924b5ae42c9e5eb090ebca55acf2cd766daaae1a352e55488",
+      "snapshot_bytes": 12982,
+      "snapshot_sha256": "085ea246d11f520924b5ae42c9e5eb090ebca55acf2cd766daaae1a352e55488",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/STAGE1_COMPLETED.json",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/STAGE1_COMPLETED.json",
+      "source_bytes": 500,
+      "source_sha256": "82f1bf956deef3c77f0dc9aa923e22ab92c038bf8eae03807c46e39b84c51492",
+      "snapshot_bytes": 500,
+      "snapshot_sha256": "82f1bf956deef3c77f0dc9aa923e22ab92c038bf8eae03807c46e39b84c51492",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/ANALYSIS_COMPLETED.json",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/ANALYSIS_COMPLETED.json",
+      "source_bytes": 470,
+      "source_sha256": "dade6b2d573f8ad042fb8d3a97a0d7940ac45e693d3c825316c10b26854a449b",
+      "snapshot_bytes": 470,
+      "snapshot_sha256": "dade6b2d573f8ad042fb8d3a97a0d7940ac45e693d3c825316c10b26854a449b",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/ANALYSIS_BASE_COMPLETED.json",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/ANALYSIS_BASE_COMPLETED.json",
+      "source_bytes": 271,
+      "source_sha256": "9130241fc680171351297453c3d97659655af7e5c11afc17c26eb61380721d62",
+      "snapshot_bytes": 271,
+      "snapshot_sha256": "9130241fc680171351297453c3d97659655af7e5c11afc17c26eb61380721d62",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/DELIVERY_VERIFIED.json",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/DELIVERY_VERIFIED.json",
+      "source_bytes": 488,
+      "source_sha256": "c891eb77b7a77054b43927164f2f376f0da1531c2b59ce734b4d273f678ca3d8",
+      "snapshot_bytes": 488,
+      "snapshot_sha256": "c891eb77b7a77054b43927164f2f376f0da1531c2b59ce734b4d273f678ca3d8",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/EXECUTION_SUMMARY.json",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/EXECUTION_SUMMARY.json",
+      "source_bytes": 1355,
+      "source_sha256": "d9efb52846879041b4e0741e87d8ffccab7f57451d6eafd16c4260b1888ee24b",
+      "snapshot_bytes": 1355,
+      "snapshot_sha256": "d9efb52846879041b4e0741e87d8ffccab7f57451d6eafd16c4260b1888ee24b",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/protocol.json",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/protocol.json",
+      "source_bytes": 600,
+      "source_sha256": "5bf5f118759ed953bad631def8c6abec213d5a0f110f2427e51d82fc70a1e76b",
+      "snapshot_bytes": 600,
+      "snapshot_sha256": "5bf5f118759ed953bad631def8c6abec213d5a0f110f2427e51d82fc70a1e76b",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/training_plan.json",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/training_plan.json",
+      "source_bytes": 3240,
+      "source_sha256": "5a7c05525804928e82a8d57071f3816cadf34f96b2d372be5af336f23b4dbc67",
+      "snapshot_bytes": 3260,
+      "snapshot_sha256": "8f43ba36789d9a22face3b1a3e6e28d4a1bf157094831ac01ffafef63988df4a",
+      "exact_byte_copy": false,
+      "kind": "exact_copy; absolute_path_username_replacement",
+      "transformations": [
+        {
+          "kind": "windows_username_in_absolute_path",
+          "count": 10,
+          "replacement": "<USER>"
+        }
+      ]
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/reference_receipts.json",
+      "snapshot": "experiments/v11/stage1_20261104/stage1/reference_receipts.json",
+      "source_bytes": 34726,
+      "source_sha256": "0be8bbee6508778a78357702bc3e8fd70d226f7f8cc6fe155c785bec0b3da77e",
+      "snapshot_bytes": 34966,
+      "snapshot_sha256": "826cb50719f5bb1d19a54946df94f86e2fd31823d906d6225c5f29937baa59c5",
+      "exact_byte_copy": false,
+      "kind": "exact_copy; absolute_path_username_replacement",
+      "transformations": [
+        {
+          "kind": "windows_username_in_absolute_path",
+          "count": 120,
+          "replacement": "<USER>"
+        }
+      ]
+    },
+    {
+      "source": "${PROJECT_ROOT}/oracle_diag/v11_report_fix_20261104/generate_report.py",
+      "snapshot": "experiments/v11/stage1_20261104/report_code/generate_report.py",
+      "source_bytes": 6364,
+      "source_sha256": "ba1f470e4541b445bdd87a294461790784696c257d3d8404f09b12743358cbe4",
+      "snapshot_bytes": 6364,
+      "snapshot_sha256": "ba1f470e4541b445bdd87a294461790784696c257d3d8404f09b12743358cbe4",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/oracle_diag/v11_report_fix_20261104/inspect_inputs.py",
+      "snapshot": "experiments/v11/stage1_20261104/report_code/inspect_inputs.py",
+      "source_bytes": 5164,
+      "source_sha256": "07cfe898def88551c140bcd918feaa6385e502e565f4b9720fd50e6a4f7042dc",
+      "snapshot_bytes": 5164,
+      "snapshot_sha256": "07cfe898def88551c140bcd918feaa6385e502e565f4b9720fd50e6a4f7042dc",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/oracle_diag/v11_report_fix_20261104/prepare_report.py",
+      "snapshot": "experiments/v11/stage1_20261104/report_code/prepare_report.py",
+      "source_bytes": 3531,
+      "source_sha256": "d92b4901a623367c3603699926c79552b5c97d13cce07140da8f1efcd14a72ed",
+      "snapshot_bytes": 3531,
+      "snapshot_sha256": "d92b4901a623367c3603699926c79552b5c97d13cce07140da8f1efcd14a72ed",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/oracle_diag/v11_report_fix_20261104/report_runtime.py",
+      "snapshot": "experiments/v11/stage1_20261104/report_code/report_runtime.py",
+      "source_bytes": 1239,
+      "source_sha256": "2bbc17fab81f92b1382bd939a5092a51238933d3949e6bee10eca72a26f914e8",
+      "snapshot_bytes": 1239,
+      "snapshot_sha256": "2bbc17fab81f92b1382bd939a5092a51238933d3949e6bee10eca72a26f914e8",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/oracle_diag/v11_report_fix_20261104/stage1_report_repaired.py",
+      "snapshot": "experiments/v11/stage1_20261104/report_code/stage1_report_repaired.py",
+      "source_bytes": 11953,
+      "source_sha256": "fecbdbc332b5b0f9bf0df04ef3fd3de0ff5ccba60969fd758dbc83e76c4b0b81",
+      "snapshot_bytes": 11953,
+      "snapshot_sha256": "fecbdbc332b5b0f9bf0df04ef3fd3de0ff5ccba60969fd758dbc83e76c4b0b81",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/oracle_diag/v11_report_fix_20261104/stage1_verify_repaired.py",
+      "snapshot": "experiments/v11/stage1_20261104/report_code/stage1_verify_repaired.py",
+      "source_bytes": 3796,
+      "source_sha256": "89b89efade0da70850b20a58469f7712c0f36b9c1ab0152f07e65905f0c84d39",
+      "snapshot_bytes": 3796,
+      "snapshot_sha256": "89b89efade0da70850b20a58469f7712c0f36b9c1ab0152f07e65905f0c84d39",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/oracle_diag/v11_report_fix_20261104/verify_report.py",
+      "snapshot": "experiments/v11/stage1_20261104/report_code/verify_report.py",
+      "source_bytes": 1093,
+      "source_sha256": "117f1d0369ab720814d3e20ff35151b4416abfda06e819de0d4549e5225da613",
+      "snapshot_bytes": 1093,
+      "snapshot_sha256": "117f1d0369ab720814d3e20ff35151b4416abfda06e819de0d4549e5225da613",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/derived_v11_tables_v2/EXPORT_PROVENANCE.json",
+      "snapshot": "experiments/v11/stage1_20261104/tables/EXPORT_PROVENANCE.json",
+      "source_bytes": 1527,
+      "source_sha256": "f99e1201ac33624259530dad36e7f82a356b743fd5f8f085e079c145347b4a7e",
+      "snapshot_bytes": 1527,
+      "snapshot_sha256": "f99e1201ac33624259530dad36e7f82a356b743fd5f8f085e079c145347b4a7e",
+      "exact_byte_copy": true,
+      "kind": "derived_table_from_primary_JSON_or_saved_lengths",
+      "transformations": [],
+      "export_script": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "primary_source_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "exact_copy_scope": "selected/reconstructed material, not a claim of downloaded original server-file bytes"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/derived_v11_tables_v2/group_statistics.csv",
+      "snapshot": "experiments/v11/stage1_20261104/tables/group_statistics.csv",
+      "source_bytes": 5735,
+      "source_sha256": "0ee21298f54eff9f85947e1ce551d2c58de8d2969f7849f709155947d5c4d9cd",
+      "snapshot_bytes": 5735,
+      "snapshot_sha256": "0ee21298f54eff9f85947e1ce551d2c58de8d2969f7849f709155947d5c4d9cd",
+      "exact_byte_copy": true,
+      "kind": "derived_table_from_primary_JSON_or_saved_lengths",
+      "transformations": [],
+      "export_script": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "primary_source_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "exact_copy_scope": "selected/reconstructed material, not a claim of downloaded original server-file bytes"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/derived_v11_tables_v2/per_seed_scores_and_lengths.csv",
+      "snapshot": "experiments/v11/stage1_20261104/tables/per_seed_scores_and_lengths.csv",
+      "source_bytes": 18538,
+      "source_sha256": "d330e21ee54efd01d617475a86cbcb83213de3e4f5571b95d806ba070f8b4933",
+      "snapshot_bytes": 18538,
+      "snapshot_sha256": "d330e21ee54efd01d617475a86cbcb83213de3e4f5571b95d806ba070f8b4933",
+      "exact_byte_copy": true,
+      "kind": "derived_table_from_primary_JSON_or_saved_lengths",
+      "transformations": [],
+      "export_script": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "primary_source_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "exact_copy_scope": "selected/reconstructed material, not a claim of downloaded original server-file bytes"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/derived_v11_tables_v2/saved_Final_length_by_seed.csv",
+      "snapshot": "experiments/v11/stage1_20261104/tables/saved_Final_length_by_seed.csv",
+      "source_bytes": 2256,
+      "source_sha256": "1d2eee91c66fea0c7e47a16e7876c1de098f13b41d73f4d812a7df41b3d5aca6",
+      "snapshot_bytes": 2256,
+      "snapshot_sha256": "1d2eee91c66fea0c7e47a16e7876c1de098f13b41d73f4d812a7df41b3d5aca6",
+      "exact_byte_copy": true,
+      "kind": "derived_table_from_primary_JSON_or_saved_lengths",
+      "transformations": [],
+      "export_script": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "primary_source_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "exact_copy_scope": "selected/reconstructed material, not a claim of downloaded original server-file bytes"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/derived_v11_tables_v2/saved_length_by_group.csv",
+      "snapshot": "experiments/v11/stage1_20261104/tables/saved_length_by_group.csv",
+      "source_bytes": 458,
+      "source_sha256": "0f6afa7d061c7b2261a9da85dd59b9fd79d98c06f324bf8797a4d0e0e78972e6",
+      "snapshot_bytes": 458,
+      "snapshot_sha256": "0f6afa7d061c7b2261a9da85dd59b9fd79d98c06f324bf8797a4d0e0e78972e6",
+      "exact_byte_copy": true,
+      "kind": "derived_table_from_primary_JSON_or_saved_lengths",
+      "transformations": [],
+      "export_script": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "primary_source_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "exact_copy_scope": "selected/reconstructed material, not a claim of downloaded original server-file bytes"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/derived_v11_tables_v2/saved_length_by_seed.csv",
+      "snapshot": "experiments/v11/stage1_20261104/tables/saved_length_by_seed.csv",
+      "source_bytes": 2757,
+      "source_sha256": "841a3f93dc614b8df898966782468421af418f8665ced5d2e7eed4e6e8a9b8aa",
+      "snapshot_bytes": 2757,
+      "snapshot_sha256": "841a3f93dc614b8df898966782468421af418f8665ced5d2e7eed4e6e8a9b8aa",
+      "exact_byte_copy": true,
+      "kind": "derived_table_from_primary_JSON_or_saved_lengths",
+      "transformations": [],
+      "export_script": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "primary_source_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "exact_copy_scope": "selected/reconstructed material, not a claim of downloaded original server-file bytes"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/derived_v11_tables_v2/SA_all_per_seed.csv",
+      "snapshot": "experiments/v11/stage1_20261104/tables/SA_all_per_seed.csv",
+      "source_bytes": 3335,
+      "source_sha256": "4c54c031d311c97f0c29a97c69363a04a93b0628f32e8ce1283d01804cb85987",
+      "snapshot_bytes": 3335,
+      "snapshot_sha256": "4c54c031d311c97f0c29a97c69363a04a93b0628f32e8ce1283d01804cb85987",
+      "exact_byte_copy": true,
+      "kind": "derived_table_from_primary_JSON_or_saved_lengths",
+      "transformations": [],
+      "export_script": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "primary_source_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "exact_copy_scope": "selected/reconstructed material, not a claim of downloaded original server-file bytes"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/derived_v11_tables_v2/scores_direct_from_primary.csv",
+      "snapshot": "experiments/v11/stage1_20261104/tables/scores_direct_from_primary.csv",
+      "source_bytes": 5587,
+      "source_sha256": "556de5c5d5438f3ae9c97e46b719d95c6ffa6d474e3dfe120390028301e76736",
+      "snapshot_bytes": 5587,
+      "snapshot_sha256": "556de5c5d5438f3ae9c97e46b719d95c6ffa6d474e3dfe120390028301e76736",
+      "exact_byte_copy": true,
+      "kind": "derived_table_from_primary_JSON_or_saved_lengths",
+      "transformations": [],
+      "export_script": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "primary_source_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "exact_copy_scope": "selected/reconstructed material, not a claim of downloaded original server-file bytes"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/github_append_20261112/export_v11_tables.py",
+      "snapshot": "experiments/v11/stage1_20261104/tables/export_v11_tables.py",
+      "source_bytes": 5630,
+      "source_sha256": "28d9533d604c76b0bdc81baa67b7ba8eed33a2c8955d120be2653448bff208fc",
+      "snapshot_bytes": 5630,
+      "snapshot_sha256": "28d9533d604c76b0bdc81baa67b7ba8eed33a2c8955d120be2653448bff208fc",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "generated:publication_20261112/experiments/v11/stage1_20261104/README.md",
+      "snapshot": "experiments/v11/stage1_20261104/README.md",
+      "source_bytes": 1383,
+      "source_sha256": "7e7b73d231d206ec99ec76e4e6b10de72de7c9b1b0efe2455a18aa76eb504c4d",
+      "snapshot_bytes": 1383,
+      "snapshot_sha256": "7e7b73d231d206ec99ec76e4e6b10de72de7c9b1b0efe2455a18aa76eb504c4d",
+      "exact_byte_copy": true,
+      "kind": "generated_archive_documentation",
+      "transformations": []
+    }
+  ],
+  "excluded": [
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/stage1/STAGE1_RESULT.json",
+      "bytes": 5216269,
+      "sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+      "reason": "exceeds_5_MB; user explicitly approved table-only export; 未上传，保留在本机",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/algo/get_normalized_score.py",
+      "bytes": 2077,
+      "sha256": "9c5adb1680e840cbca4c41ff8ce6adfc0f361b481d656e5d19d8366367587cf3",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/algo/ROOT.py",
+      "bytes": 19014,
+      "sha256": "856efbb6dc0bede87449bb0bb31737912e806df063f303127552726fad701662",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/algo/utils.py",
+      "bytes": 15778,
+      "sha256": "f5d1993288693241cec6734b87d856d99c7e3c326ab4e851f2e46628b543c702",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/ant.yaml",
+      "bytes": 678,
+      "sha256": "765092fc1eb599f4d7480c25c396bcf02076eb700104a1e3894ac2a7f7e11f52",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/ant_gravity.yaml",
+      "bytes": 484,
+      "sha256": "e63329299d005d7772f693a17c6cee72038c0a739629cdcebe47da2491ac4db3",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/ant_morph.yaml",
+      "bytes": 480,
+      "sha256": "4b6aa52bd077b5c8a70e1746a5f775e75d5ed8394a599423bae4c1b0338558ee",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/halfcheetah.yaml",
+      "bytes": 620,
+      "sha256": "7e3b40eb63facd904fdace9a3e5e922c329e84116ef3c074f04e689e02e739d8",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/halfcheetah_gravity.yaml",
+      "bytes": 552,
+      "sha256": "4e597d5f00c6dc0e452ac7debe5e2d15e861bdb6a976514cc3923dd4e0e29282",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/halfcheetah_morph.yaml",
+      "bytes": 550,
+      "sha256": "648dff24a852a98b3d1f018255798cf740149dc743e1a176d47fd45f53ad3ee0",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/hopper.yaml",
+      "bytes": 659,
+      "sha256": "25e56a9435af69143397b83ee928d0fcbc376e9279004bdebae628c364059732",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/hopper_gravity.yaml",
+      "bytes": 542,
+      "sha256": "e21e3497aab02cf6936fc06e3c8753c688e2cb819e492706b5b09c190427d81f",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/hopper_morph.yaml",
+      "bytes": 538,
+      "sha256": "892f985502899ef39f3e7ea8247a16b5b548f1af24347d95b5fd4e72243a1b51",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/walker2d.yaml",
+      "bytes": 626,
+      "sha256": "d1c4420a4283ed45a7558964c128b9d03592c4280940c326f386197b46f1a236",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/walker2d_gravity.yaml",
+      "bytes": 542,
+      "sha256": "f18ee991b50778d8bfc66286634c33a224fe7d494899034859c813c9aa8618b0",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/walker2d_morph.yaml",
+      "bytes": 538,
+      "sha256": "47683142ddf01831c3c4b86be040c33861c1ee941801f6b0c0af72ec9286447f",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/datasets/hopper_morph_medium.hdf5",
+      "bytes": 514336,
+      "sha256": "135d69d7ae3d20d179219b0ae4f489d77e29b651375a7e66f4a3f1b5d85cd7bb",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/datasets/walker2d_morph_medium.hdf5",
+      "bytes": 785756,
+      "sha256": "c792b159e403d9deff9316964f0b5ae191a382533693a553abb5b3167463f80a",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/envs/assets/hopper_morph.xml",
+      "bytes": 3077,
+      "sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/envs/assets/walker_morph.xml",
+      "bytes": 4353,
+      "sha256": "74fd6e3e451d3ab12985965a0a1fe1f76e221950ab9f43d30355080e264462a0",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/envs/common.py",
+      "bytes": 3679,
+      "sha256": "06b873f1ce55d3c874910a9e1b3a49b4ff77d9fedb610409649687940ea361b6",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/README.md",
+      "bytes": 504,
+      "sha256": "ef33ecf5cb58c26b7b34546bbb0bb25099e741aad4d98c996efd029b2018a3bb",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/robust_ot_solver.py",
+      "bytes": 3439,
+      "sha256": "d672833d42509ea4f2e977f976fc7b2ac716277b794cc7676d335494bbb841b3",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/run_root.sh",
+      "bytes": 65404,
+      "sha256": "13bd0ed140acb5388318495966f860c860b6b6d849705dea73782708597f9aaa",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/release2/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/train_root.py",
+      "bytes": 10819,
+      "sha256": "a79f668370b1820876dcd9ca59a76e182b0df1b15c6264ff8be0b2644016624b",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/algo/get_normalized_score.py",
+      "bytes": 2077,
+      "sha256": "9c5adb1680e840cbca4c41ff8ce6adfc0f361b481d656e5d19d8366367587cf3",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/algo/ROOT.py",
+      "bytes": 19014,
+      "sha256": "856efbb6dc0bede87449bb0bb31737912e806df063f303127552726fad701662",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/algo/utils.py",
+      "bytes": 15778,
+      "sha256": "f5d1993288693241cec6734b87d856d99c7e3c326ab4e851f2e46628b543c702",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/ant.yaml",
+      "bytes": 678,
+      "sha256": "765092fc1eb599f4d7480c25c396bcf02076eb700104a1e3894ac2a7f7e11f52",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/ant_gravity.yaml",
+      "bytes": 484,
+      "sha256": "e63329299d005d7772f693a17c6cee72038c0a739629cdcebe47da2491ac4db3",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/ant_morph.yaml",
+      "bytes": 480,
+      "sha256": "4b6aa52bd077b5c8a70e1746a5f775e75d5ed8394a599423bae4c1b0338558ee",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/halfcheetah.yaml",
+      "bytes": 620,
+      "sha256": "7e3b40eb63facd904fdace9a3e5e922c329e84116ef3c074f04e689e02e739d8",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/halfcheetah_gravity.yaml",
+      "bytes": 552,
+      "sha256": "4e597d5f00c6dc0e452ac7debe5e2d15e861bdb6a976514cc3923dd4e0e29282",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/halfcheetah_morph.yaml",
+      "bytes": 550,
+      "sha256": "648dff24a852a98b3d1f018255798cf740149dc743e1a176d47fd45f53ad3ee0",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/hopper.yaml",
+      "bytes": 659,
+      "sha256": "25e56a9435af69143397b83ee928d0fcbc376e9279004bdebae628c364059732",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/hopper_gravity.yaml",
+      "bytes": 542,
+      "sha256": "e21e3497aab02cf6936fc06e3c8753c688e2cb819e492706b5b09c190427d81f",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/hopper_morph.yaml",
+      "bytes": 538,
+      "sha256": "892f985502899ef39f3e7ea8247a16b5b548f1af24347d95b5fd4e72243a1b51",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/walker2d.yaml",
+      "bytes": 626,
+      "sha256": "d1c4420a4283ed45a7558964c128b9d03592c4280940c326f386197b46f1a236",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/walker2d_gravity.yaml",
+      "bytes": 542,
+      "sha256": "f18ee991b50778d8bfc66286634c33a224fe7d494899034859c813c9aa8618b0",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/config/walker2d_morph.yaml",
+      "bytes": 538,
+      "sha256": "47683142ddf01831c3c4b86be040c33861c1ee941801f6b0c0af72ec9286447f",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/datasets/hopper_morph_medium.hdf5",
+      "bytes": 514336,
+      "sha256": "135d69d7ae3d20d179219b0ae4f489d77e29b651375a7e66f4a3f1b5d85cd7bb",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/datasets/walker2d_morph_medium.hdf5",
+      "bytes": 785756,
+      "sha256": "c792b159e403d9deff9316964f0b5ae191a382533693a553abb5b3167463f80a",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/envs/assets/hopper_morph.xml",
+      "bytes": 3077,
+      "sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/envs/assets/walker_morph.xml",
+      "bytes": 4353,
+      "sha256": "74fd6e3e451d3ab12985965a0a1fe1f76e221950ab9f43d30355080e264462a0",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/envs/common.py",
+      "bytes": 3679,
+      "sha256": "06b873f1ce55d3c874910a9e1b3a49b4ff77d9fedb610409649687940ea361b6",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/README.md",
+      "bytes": 504,
+      "sha256": "ef33ecf5cb58c26b7b34546bbb0bb25099e741aad4d98c996efd029b2018a3bb",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/robust_ot_solver.py",
+      "bytes": 3439,
+      "sha256": "d672833d42509ea4f2e977f976fc7b2ac716277b794cc7676d335494bbb841b3",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/run_root.sh",
+      "bytes": 65404,
+      "sha256": "13bd0ed140acb5388318495966f860c860b6b6d849705dea73782708597f9aaa",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v12_stage1_2_20261107/v12_linux_stage1_2_20261107.zip!/v12_linux/stage1_2_20261107/upstream_root/train_root.py",
+      "bytes": 10819,
+      "sha256": "a79f668370b1820876dcd9ca59a76e182b0df1b15c6264ff8be0b2644016624b",
+      "reason": "upstream_ROOT_tree_omitted_by_request; cite pinned source commit",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v13_action_fix_deployment/v13_action_fix_stage0.zip!/v13_action_fix/stage0/references/source_restoration_sample.npz",
+      "bytes": 2100990,
+      "sha256": "fd568534db2ca3f5cffc683e666840cd28b5e5e70212ab883553ed87f01e3f20",
+      "reason": "dataset_model_cache_binary_not_authorized",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v13_action_fix_deployment/v13_action_fix_stage1.zip!/v13_action_fix/stage1/restoration/qpos.npy",
+      "bytes": 48000128,
+      "sha256": "80f909166dbc8500275769a8b0f8d2e45f5c58eeae0ed2a10d483c2d3e7a20cd",
+      "reason": "dataset_model_cache_binary_not_authorized",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v13_action_fix_deployment/v13_action_fix_stage1.zip!/v13_action_fix/stage1/restoration/qvel.npy",
+      "bytes": 48000128,
+      "sha256": "8ddba04ea435aba712b91089c02721d41cc2bee675dd7b5d2c979226c54d3785",
+      "reason": "dataset_model_cache_binary_not_authorized",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v13_action_fix_deployment/v13_action_fix_stage1.zip!/v13_action_fix/stage1/restoration/recovery_status.npy",
+      "bytes": 1000128,
+      "sha256": "ba2849bba55417b7ffc0057b683005a7369fe6a525bd6d381f5aa01d3ec889a6",
+      "reason": "dataset_model_cache_binary_not_authorized",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "chat_attachment:6ff0cf9e-f6f1-499d-ab34-cd78222b8f18/已粘贴的文本.txt",
+      "bytes": 14886,
+      "sha256": "43b308d8cc2a2d2535548c8d2e46181a6af0460c1f519672262d0a5d0ab88530",
+      "reason": "raw_terminal_transcript_contains_server_login_identifiers; not uploaded; requested report/JSON blocks extracted separately",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "chat_attachment:d6706d91-fae9-48b3-9875-411e1745aa92/已粘贴的文本.txt",
+      "bytes": 7886,
+      "sha256": "de242ab1f6a82caaa13b29e133eaa6164a4a945b0f2ee1b05e826fd8cb413bb7",
+      "reason": "raw_terminal_transcript_contains_server_login_identifiers; not uploaded; requested report/JSON blocks extracted separately",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "chat_attachment:3469b290-6bc4-48bf-b89f-3cdb09cb9952/已粘贴的文本.txt",
+      "bytes": 9200,
+      "sha256": "def693a57b88dcbb21c88e36dfa92c0e0c31ac9ebe223bb3dac14906dcdac53c",
+      "reason": "raw_terminal_transcript_contains_server_login_identifiers; not uploaded; requested report/JSON blocks extracted separately",
+      "status": "未上传，保留在本机"
+    },
+    {
+      "source": "chat_attachment:d9245737-a5cf-4f23-b4a5-c80fba06bb4d/已粘贴的文本.txt",
+      "bytes": 8353,
+      "sha256": "3ef6c5b124ae14b46d9845cc6983cbc4b463f6842e4b36ee4d0fda8a4f4fd5cf",
+      "reason": "raw_terminal_transcript_contains_server_login_identifiers; not uploaded; requested report/JSON blocks extracted separately",
+      "status": "未上传，保留在本机"
+    }
+  ],
+  "original_sources_modified": false,
+  "publication_only": true,
+  "new_training_updates": 0,
+  "new_environment_steps": 0
+}

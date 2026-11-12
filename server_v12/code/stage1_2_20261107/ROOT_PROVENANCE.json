@@ -1,0 +1,30 @@
+{
+  "url": "https://github.com/cristianhtvc/ROOT",
+  "commit": "0ae9c05d70ed369c16732c71abda59b54b559da9",
+  "exact_git_archive_file_sha256": {
+    "algo/get_normalized_score.py": "9c5adb1680e840cbca4c41ff8ce6adfc0f361b481d656e5d19d8366367587cf3",
+    "algo/ROOT.py": "856efbb6dc0bede87449bb0bb31737912e806df063f303127552726fad701662",
+    "algo/utils.py": "f5d1993288693241cec6734b87d856d99c7e3c326ab4e851f2e46628b543c702",
+    "config/ant.yaml": "765092fc1eb599f4d7480c25c396bcf02076eb700104a1e3894ac2a7f7e11f52",
+    "config/ant_gravity.yaml": "e63329299d005d7772f693a17c6cee72038c0a739629cdcebe47da2491ac4db3",
+    "config/ant_morph.yaml": "4b6aa52bd077b5c8a70e1746a5f775e75d5ed8394a599423bae4c1b0338558ee",
+    "config/halfcheetah.yaml": "7e3b40eb63facd904fdace9a3e5e922c329e84116ef3c074f04e689e02e739d8",
+    "config/halfcheetah_gravity.yaml": "4e597d5f00c6dc0e452ac7debe5e2d15e861bdb6a976514cc3923dd4e0e29282",
+    "config/halfcheetah_morph.yaml": "648dff24a852a98b3d1f018255798cf740149dc743e1a176d47fd45f53ad3ee0",
+    "config/hopper.yaml": "25e56a9435af69143397b83ee928d0fcbc376e9279004bdebae628c364059732",
+    "config/hopper_gravity.yaml": "e21e3497aab02cf6936fc06e3c8753c688e2cb819e492706b5b09c190427d81f",
+    "config/hopper_morph.yaml": "892f985502899ef39f3e7ea8247a16b5b548f1af24347d95b5fd4e72243a1b51",
+    "config/walker2d.yaml": "d1c4420a4283ed45a7558964c128b9d03592c4280940c326f386197b46f1a236",
+    "config/walker2d_gravity.yaml": "f18ee991b50778d8bfc66286634c33a224fe7d494899034859c813c9aa8618b0",
+    "config/walker2d_morph.yaml": "47683142ddf01831c3c4b86be040c33861c1ee941801f6b0c0af72ec9286447f",
+    "datasets/hopper_morph_medium.hdf5": "135d69d7ae3d20d179219b0ae4f489d77e29b651375a7e66f4a3f1b5d85cd7bb",
+    "datasets/walker2d_morph_medium.hdf5": "c792b159e403d9deff9316964f0b5ae191a382533693a553abb5b3167463f80a",
+    "envs/assets/hopper_morph.xml": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2",
+    "envs/assets/walker_morph.xml": "74fd6e3e451d3ab12985965a0a1fe1f76e221950ab9f43d30355080e264462a0",
+    "envs/common.py": "06b873f1ce55d3c874910a9e1b3a49b4ff77d9fedb610409649687940ea361b6",
+    "README.md": "ef33ecf5cb58c26b7b34546bbb0bb25099e741aad4d98c996efd029b2018a3bb",
+    "robust_ot_solver.py": "d672833d42509ea4f2e977f976fc7b2ac716277b794cc7676d335494bbb841b3",
+    "run_root.sh": "13bd0ed140acb5388318495966f860c860b6b6d849705dea73782708597f9aaa",
+    "train_root.py": "a79f668370b1820876dcd9ca59a76e182b0df1b15c6264ff8be0b2644016624b"
+  }
+}

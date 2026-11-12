@@ -1,0 +1,16 @@
+{
+  "files": {
+    "audit.py": "ca4c22c39ca02dd4c46efc770db0e8025f328f347da3caf95906c189fec59001",
+    "common.py": "cb6007011d60a50090d4f1006288179cca64360afb60fadeafb3d7186bb102d9",
+    "config_template.json": "857e8476bc649355ab10c5bc2549fb968f071f4ac44b45612171b56e0dc9bd5a",
+    "pipeline.py": "5448a8e987c20da45046368d749d90557e9807d2f14205d6a0dca1b15e3eb3c2",
+    "README_ZH.md": "6003a1176ba32dfded8962109e017ee10ddcaa2c3a089a42d015920688eac451",
+    "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352",
+    "run_in_tmux.sh": "309ee0654943fc8679041308cd23f9c86b86477690ba188746c3efb37ddd6c32",
+    "science.py": "ffe28afc56fef034f4b63e5b9efa8705bca5309869c26b9f7333c6389a651978",
+    "SCIENCE_AST.json": "dc0d624b5766032fa2af9ca67c3ae0a857dd115252141a2f60c204a609ef9d3e",
+    "worker.py": "e47c9d42d2edb16105251a00204c63ddb8aec8b8cc19f1da986536c420768407"
+  },
+  "project_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7",
+  "scope": "V12 0.2 only: three serial Hopper T jobs, 40000 learner updates; no throughput/formal modes"
+}

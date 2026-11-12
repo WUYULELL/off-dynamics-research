@@ -1,0 +1,78 @@
+{
+  "source_root_template": "C:/Users/<USER>/Documents/New project/off-dynamics-rl-main/off-dynamics-rl-main",
+  "source_project_prefix": "${PROJECT_ROOT}",
+  "files": [
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/SEED207_PREFIX_COMPARISON.json",
+      "snapshot": "experiments/v11/seed207_20261104/SEED207_PREFIX_COMPARISON.json",
+      "source_bytes": 3686,
+      "source_sha256": "d882e5187846746674d2e9d59326a352a519f3bc1ccfbc1b3149e6158b3b92b5",
+      "snapshot_bytes": 3698,
+      "snapshot_sha256": "9b5c4f40dc637524032540746da039a0892672d04a028471b94d0924bf4a6b2e",
+      "exact_byte_copy": false,
+      "kind": "exact_copy; absolute_path_username_replacement",
+      "transformations": [
+        {
+          "kind": "windows_username_in_absolute_path",
+          "count": 6,
+          "replacement": "<USER>"
+        }
+      ]
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/SEED207_VECTOR_AUDIT.json",
+      "snapshot": "experiments/v11/seed207_20261104/SEED207_VECTOR_AUDIT.json",
+      "source_bytes": 35595,
+      "source_sha256": "2cdcf2f75b0b23a553e69e4ad8f8d2074d409c806387ef400fba2756e80e1764",
+      "snapshot_bytes": 35601,
+      "snapshot_sha256": "f4e239b4487583a6432b1eeaffa5e2ad265dae9212f63069cd5656983a74a96e",
+      "exact_byte_copy": false,
+      "kind": "exact_copy; absolute_path_username_replacement",
+      "transformations": [
+        {
+          "kind": "windows_username_in_absolute_path",
+          "count": 3,
+          "replacement": "<USER>"
+        }
+      ]
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/INDEPENDENT_VECTOR_VERIFIED.json",
+      "snapshot": "experiments/v11/seed207_20261104/INDEPENDENT_VECTOR_VERIFIED.json",
+      "source_bytes": 499,
+      "source_sha256": "000de791a6991a776701708950cbc3c7d0c297f96b4031633bef5fd7e7b7abd5",
+      "snapshot_bytes": 499,
+      "snapshot_sha256": "000de791a6991a776701708950cbc3c7d0c297f96b4031633bef5fd7e7b7abd5",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_saall_report_20261104/independent_vector_verify.py",
+      "snapshot": "experiments/v11/seed207_20261104/independent_vector_verify.py",
+      "source_bytes": 2194,
+      "source_sha256": "767667951eb9cf52b7fca0735f0b7da064b53a054f0b40238092e9f186b15763",
+      "snapshot_bytes": 2194,
+      "snapshot_sha256": "767667951eb9cf52b7fca0735f0b7da064b53a054f0b40238092e9f186b15763",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "generated:publication_20261112/experiments/v11/seed207_20261104/README.md",
+      "snapshot": "experiments/v11/seed207_20261104/README.md",
+      "source_bytes": 507,
+      "source_sha256": "c658ef3d18e9502afcaa88c67684e754f8b987f65947e6b6576af567c5873569",
+      "snapshot_bytes": 507,
+      "snapshot_sha256": "c658ef3d18e9502afcaa88c67684e754f8b987f65947e6b6576af567c5873569",
+      "exact_byte_copy": true,
+      "kind": "generated_archive_documentation",
+      "transformations": []
+    }
+  ],
+  "excluded": [],
+  "original_sources_modified": false,
+  "publication_only": true,
+  "new_training_updates": 0,
+  "new_environment_steps": 0
+}

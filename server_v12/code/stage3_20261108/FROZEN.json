@@ -1,0 +1,14 @@
+{
+  "stage": 3,
+  "upstream_commit": "0ae9c05d70ed369c16732c71abda59b54b559da9",
+  "GPU_process_limit": 3,
+  "files": {
+    "PROTOCOL.json": "0d247973eca071f3714e8a9734c2c4782b760b47a463594c70ee56ae38cc78a8",
+    "README_ZH.md": "ca3385881bdfbea6d07593f55719b9d2b1536879e6c3289f086bf058bb8515e8",
+    "run_in_tmux.sh": "ff654fd65b64c2dc377ec946e13a433c970f573c36dd9b13a2a8ea20d7ca2e8f",
+    "stage3_controller.py": "325f3e10cdba4f3d5e7a995830fd3fc90380e845588e44360c3091277c85f6d7",
+    "stage3_report.py": "52c6afd4b4b65ac922111a27ddebe61d18d1f3dae55ebdb5e556cd0d7cb07445",
+    "stage3_setup.py": "5c8e7d86890e7791985f32d370cf0f85c892e1e13550fd0fcf21c27f3f44c395",
+    "stage3_worker.py": "27c93fa11a57203c5892cb4a8ed00b927b8f68bb7031cdc0da6d11ef4b2bdaba"
+  }
+}

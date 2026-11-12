@@ -1,0 +1,607 @@
+{
+  "records": [
+    {
+      "label": "T",
+      "seed": 201,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s201",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s201\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "2fd5981e552f8e4db417b7a2b29727fa60e10624cf21429182b27a5a31b0024a"
+    },
+    {
+      "label": "T",
+      "seed": 202,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s202",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s202\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "de6fd3165117422ed9083231b785fdbf990b6a81306062afb32ed352408d8a8d"
+    },
+    {
+      "label": "T",
+      "seed": 203,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s203",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s203\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "1a11c905c1f193654d3bb1ed2ffe6eb10efeb0496f06a0eb3c7bb5ead55d82b6"
+    },
+    {
+      "label": "T",
+      "seed": 204,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s204",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s204\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "f511404e10f83d0dc062bc196a30f4b4fc09ee365d026ac97ec27b66515ff27d"
+    },
+    {
+      "label": "T",
+      "seed": 205,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s205",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s205\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "566c1a76d62ee36210c4de04a724fecd780e6101c12a3713c22692dff02e7a57"
+    },
+    {
+      "label": "T",
+      "seed": 206,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s206",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s206\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "df854c3bbd31c0127921285d63238738611a9dad8f84744d86f66683997bcfc9"
+    },
+    {
+      "label": "T",
+      "seed": 207,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s207",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s207\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "98b463b958752191cf79fd02e38acc19ef0c6fe82bb8a4ea88a385d91aab1de1"
+    },
+    {
+      "label": "T",
+      "seed": 208,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s208",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s208\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "ca4473330f3aa7e8035a59927078633ba12cc5011a22be2356e27596ff8e6a1d"
+    },
+    {
+      "label": "T",
+      "seed": 209,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s209",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s209\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "cc7cbe2087ebe61a1f91860a65b2b151eb6fca2fb543c6f35efae4f97ac0cfe6"
+    },
+    {
+      "label": "T",
+      "seed": 210,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s210",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w0_s210\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "02b31f1353a327056bc79ef4e98196f2373f45140b21380345497da6c25d37a8"
+    },
+    {
+      "label": "raw1",
+      "seed": 201,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w1_s201",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w1_s201\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "923bfbc310727ccbaa3dfd5807276be9bca7e459715d0a766df6558ff6182e42"
+    },
+    {
+      "label": "raw1",
+      "seed": 202,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w1_s202",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w1_s202\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "4f57485710ff64c7cdfda5439cb6c5b3c830466eab98e20ab4403c972136b116"
+    },
+    {
+      "label": "raw1",
+      "seed": 203,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w1_s203",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261026_r14\\runs\\hopp_w1_s203\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "09a6dca70a3e0830df6b5211b1763fac76c6c8270f64a7a79f107f57623f73c3"
+    },
+    {
+      "label": "raw1",
+      "seed": 204,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s204",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s204\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "2b0ba3648fbab266784f090d003d8734c7ea0a94a3402de8cbf33c9d1ffa0cac"
+    },
+    {
+      "label": "raw1",
+      "seed": 205,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s205",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s205\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "75f6cb66cf210992a3daf80eb5ce66025369ec50f4b7848177f3a7288cbee4ae"
+    },
+    {
+      "label": "raw1",
+      "seed": 206,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s206",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s206\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "017a22c8337c974419459030ee9ab2bfce1d86a7a827fe6b8db9c200578236a4"
+    },
+    {
+      "label": "raw1",
+      "seed": 207,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s207",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s207\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "690452746326be21747ee1de704b5623c055a94a2475f237eee5f8357000f1ea"
+    },
+    {
+      "label": "raw1",
+      "seed": 208,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s208",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s208\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "3a82637c3eed3c56553e1894fe93ba8bb3c4c0c87898f44fec40647321ddae30"
+    },
+    {
+      "label": "raw1",
+      "seed": 209,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s209",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s209\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "e2f0c7880cbd34e10d974ce423393b94a712a482d098a2fcfac28044814a759c"
+    },
+    {
+      "label": "raw1",
+      "seed": 210,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s210",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\coverage_raw_20261029_r14_finish1\\runs\\hopp_w1_s210\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "a9eb3abc7174bf843ee1fdf6dd37e00191ede92c115acb96d0595a6d238a99b2"
+    },
+    {
+      "label": "O1",
+      "seed": 201,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s201",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s201\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "e2256413a9368536c0e8136443e6691d2025cae63186cde285dd90186a2d4e44"
+    },
+    {
+      "label": "O1",
+      "seed": 202,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s202",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s202\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "2503f8543ee7926b566f31d17ea4069712e2c3fdfff43859614b93315566ea50"
+    },
+    {
+      "label": "O1",
+      "seed": 203,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s203",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s203\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "c35fbebdaed79420fef2e6881044080c4e508974bb8a00c5587906a71411d33c"
+    },
+    {
+      "label": "O1",
+      "seed": 204,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s204",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s204\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "0954c44e9129d8030cf6d14b3c0173643a0cde65d0e48696891e5f59c8e5b40d"
+    },
+    {
+      "label": "O1",
+      "seed": 205,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s205",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s205\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "a4b0f9d10491caf18e1c7da21aae0830ff41713f860bae8dbfab595f0271f200"
+    },
+    {
+      "label": "O1",
+      "seed": 206,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s206",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s206\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "fa9d0ae46ff6b2e50f9620e263ecb1318b08e936fe7a0b8e75357d2b33fbc1dd"
+    },
+    {
+      "label": "O1",
+      "seed": 207,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s207",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s207\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "8381ea3dd7ab4e2fb73cae01eb7c37a9f5f64138a08d67476a0ed536178da091"
+    },
+    {
+      "label": "O1",
+      "seed": 208,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s208",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s208\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "a2ec835183e8d5ed7e7901ed81609b9a03caaddc915022b205d69d8a98244d9d"
+    },
+    {
+      "label": "O1",
+      "seed": 209,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s209",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s209\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "bd40a02674056fe128fae44673819bc30e7c04787bfa001610b6c4b193da9a63"
+    },
+    {
+      "label": "O1",
+      "seed": 210,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s210",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O1_s210\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "ab11249a04437821aa489c9589d82afbba4125ed30a17c2ffa019860d6e3f1e6"
+    },
+    {
+      "label": "O.25",
+      "seed": 201,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s201",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s201\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "b12eb47a8023c070ca710d58f48d04f2b9b059361d2833d6019106f8b1a70e81"
+    },
+    {
+      "label": "O.25",
+      "seed": 202,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s202",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s202\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "b411ff8ae11d6230dd5137083ef7babebd2741778907ee235894263eee717501"
+    },
+    {
+      "label": "O.25",
+      "seed": 203,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s203",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s203\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "1a80157523ffbd119e3094d75f7e80d764ebd21a5c5be923e04d7c7344753b14"
+    },
+    {
+      "label": "O.25",
+      "seed": 204,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s204",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s204\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "af82f2b18ce0f5967c2d85c3c49d2cabeb97ea05da8adeb93023063d934ef72c"
+    },
+    {
+      "label": "O.25",
+      "seed": 205,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s205",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s205\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "056db865ef3356db72cf7f8eebeeb82463ba0ba29b77709dfb0d5e15c054411c"
+    },
+    {
+      "label": "O.25",
+      "seed": 206,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s206",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s206\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "c2609638b7665312b1e1d5ab55b9257838345d1f36f9437b9eafd270c6d07e2f"
+    },
+    {
+      "label": "O.25",
+      "seed": 207,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s207",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s207\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "511dbed9d166dc4cceb69d2c1fdf67b043a58eb58d34baf693c75dde8474a685"
+    },
+    {
+      "label": "O.25",
+      "seed": 208,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s208",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s208\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "61d426a240275bcbea218134f1961bede19d42988d96c01b9b85dcc88e6612a4"
+    },
+    {
+      "label": "O.25",
+      "seed": 209,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s209",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s209\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "f4e007d6ffbc81dfb7a34c0320ee8d3d1c3d605270ab26c1dd9df97e5d511291"
+    },
+    {
+      "label": "O.25",
+      "seed": 210,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s210",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261030\\stage2\\runs\\hopp_O025_s210\\audit.json",
+      "every": 10000,
+      "last": 500000,
+      "BC": false,
+      "audit_sha256": "9344d73d5f020f65bd067179447bcd51d09653b92c5020b1f11777900c9297c2"
+    },
+    {
+      "label": "BC-all",
+      "seed": 301,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s301",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s301\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "52a6c81afb61e1ad7b011bf430cffe946d628cb153d7cbe337a40514cd01e93e"
+    },
+    {
+      "label": "BC-all",
+      "seed": 302,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s302",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s302\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "7adaa1e3549741f0a84e875d75851b40a0401a2672409238b53e4778963da1e7"
+    },
+    {
+      "label": "BC-all",
+      "seed": 303,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s303",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s303\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "307a869d0beaf1b75405b442bd3e985eac73a983d521f7fbdbce91cecaac3ed3"
+    },
+    {
+      "label": "BC-all",
+      "seed": 304,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s304",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s304\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "d6bb44fa8f235d4ee5288c485deb1f20bada1b22ce41e250bcc2c83525509016"
+    },
+    {
+      "label": "BC-all",
+      "seed": 305,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s305",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s305\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "77efdc5cd250b2717f3822886ffa90390774d30a778ca322fe3a1e97b5670e0d"
+    },
+    {
+      "label": "BC-all",
+      "seed": 306,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s306",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s306\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "633e6fb7a1e3ee49acd0e2ac0f00298b9652bbb7b2b30b4a102391af804d651a"
+    },
+    {
+      "label": "BC-all",
+      "seed": 307,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s307",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s307\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "1e3487789898a4ffa46fdd1c9fd4475f8e49eeaf268236a8ef897ee5881d7c24"
+    },
+    {
+      "label": "BC-all",
+      "seed": 308,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s308",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s308\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "18d065a21cb74957271685c853b6fc8ee94ea76b5ca2436f650eea94bfa04f2b"
+    },
+    {
+      "label": "BC-all",
+      "seed": 309,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s309",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s309\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "d64e05cc897dd1e21cb3f942ad9af3bb85c4cd472b99ef774b41eb1061dc5000"
+    },
+    {
+      "label": "BC-all",
+      "seed": 310,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s310",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC_all_s310\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "0770452f970c6b0dfe681ad4a869597d739a0db95714d997657f8fcccee4ae90"
+    },
+    {
+      "label": "BC50",
+      "seed": 301,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s301",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s301\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "036b61be7ca98c065bb3c557615a4033943682611680d63925bef3cff8ef8ad3"
+    },
+    {
+      "label": "BC50",
+      "seed": 302,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s302",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s302\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "8a7246370edadea08edbe8db4ef5df3117b524ffdde71bacfe138c1d784bdd53"
+    },
+    {
+      "label": "BC50",
+      "seed": 303,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s303",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s303\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "24ce22ecbe7f5251e25b2c67c44ca1dffbb7cfce6eec28b9891a676ba90c6fc6"
+    },
+    {
+      "label": "BC50",
+      "seed": 304,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s304",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s304\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "a3f99c90204ea109e184eeeb679d16ad0eb174bb08223a4484c6bdd5e4a4aefe"
+    },
+    {
+      "label": "BC50",
+      "seed": 305,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s305",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s305\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "393bf5fa460c6ecbe89227f2d1f0e630c7c44737f0ac28cfba19759f81f8f990"
+    },
+    {
+      "label": "BC50",
+      "seed": 306,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s306",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s306\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "78be084e124be7f94884a6eef3683bab1b9d2d498cb56bc398c6fa8577d84cf7"
+    },
+    {
+      "label": "BC50",
+      "seed": 307,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s307",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s307\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "13a3aa2f977b3a2a54cad8a25373af523be0eafcd15556d22ec0bf52cf52cde0"
+    },
+    {
+      "label": "BC50",
+      "seed": 308,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s308",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s308\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "a24cdc550b808763bde5598f385d95e3272db37d524397f3f7f281a68ae4ffb9"
+    },
+    {
+      "label": "BC50",
+      "seed": 309,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s309",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s309\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "8becfa2f6a5e844d8dc5c25366c72a1c551feade59ee67a557078cd0d8e52876"
+    },
+    {
+      "label": "BC50",
+      "seed": 310,
+      "out": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s310",
+      "audit": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\outputs\\v9_hopper_label_headroom_20261031\\stage3\\runs\\hopp_BC50_s310\\audit.json",
+      "every": 5000,
+      "last": 200000,
+      "BC": true,
+      "audit_sha256": "497e5015b55f6b2f2917b66a06e24b058171ce53f6b5210d1064bd66a4f11bc9"
+    }
+  ],
+  "references_are_readonly": true,
+  "BC50_selected_from_prior_three_BC_variants": true,
+  "BC_seed_pairing": false
+}

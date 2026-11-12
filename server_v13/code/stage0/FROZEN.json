@@ -1,0 +1,18 @@
+{
+  "files": {
+    "RESTORATION_AST.json": "4043530000c5238721c2cb7f828eec282c80338e6f8c26e203a5848239b01300",
+    "config.json": "549cee3ae41b58d0050b402295ea586709c44339573b38eb22aff10cf6e50d7a",
+    "legacy_replay.py": "25402b4ca5995d3ed2b445acdc8a23f9e0b92dc9dd10057e7ca1bba2711df878",
+    "legacy_resources.py": "72bfb6553fce06d422248f9f64cfa8fa34576b53920f17d06973241b2477df60",
+    "references/INSTRUCTION_V13.md": "2e06b07dca0d846140de8c65e59191688e1e0db91294f870472d019f594c0df2",
+    "references/V9_PROVENANCE.json": "38bb0400556edf5b6c7c6a2e19adc6b350a8d53541a88a12e0926252d722c26e",
+    "references/source_restoration_sample.npz": "fd568534db2ca3f5cffc683e666840cd28b5e5e70212ab883553ed87f01e3f20",
+    "references/source_snapshot/oracle_diag/common.py": "a3c5ad6ea5ff15675a481476e3ca98d3f8dd63c7fe78639cd1b7338918e97473",
+    "references/source_snapshot/oracle_diag/verify_replay_v2.py": "600478c22d7eba9dc591664de56ef923156102625c092a82538394760373e57b",
+    "run_in_tmux.sh": "1e27a95d37c5e843946ac6225ca0270ea363d6428a32ef5d496ab71014c2740c",
+    "run_stage0.py": "de3c22d14f2ac32c96c2d6f24a031a068a0685e96a7270502c6e29884fbdf77c",
+    "solver.py": "89cb0c31fa867c93a36332bf4d91e3bc8c1c958924a66efe9619ae9e066a0d76"
+  },
+  "transfer_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7",
+  "scope": "V13 stage 0 only; no learner or GPU job"
+}

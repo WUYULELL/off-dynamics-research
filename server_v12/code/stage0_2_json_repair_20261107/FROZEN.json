@@ -1,0 +1,19 @@
+{
+  "files": {
+    "audit.py": "ca4c22c39ca02dd4c46efc770db0e8025f328f347da3caf95906c189fec59001",
+    "common.py": "29bd8d3a5e491f0e0528899e3aaa780e78fa9379443710f29c8beb16a998fe14",
+    "config_template.json": "30ee6333432b219174aa9779666f99eb7bc001c38b6c2655eb1e0fceef10f383",
+    "pipeline.py": "6a749a52cf4998fa1ba3393dcbbcf26a8bba624908645f9cbfac55bb03c13c6b",
+    "README_ZH.md": "6950d5d41736e23b889fc8e9e3765cc8876b93f9845837ed3c8dc3b80a74ccfd",
+    "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352",
+    "references/ORIGINAL_STAGE0_2_FREEZE.json": "493d8a9ee58fab0e23a91a7c543b138b0e5bcabfe3a79ce3313ce17899a9dd5a",
+    "references/RESOURCE_REPAIR1_FREEZE.json": "d474ec8904357fda4fe9002cbed64974baf53b1d480279501c97736deb256cd8",
+    "REPAIR_CHANGELOG.json": "a326e367443094c96ef3fc02c2312d0070c8f48bb8d91e89f3ab6990840ddd26",
+    "run_in_tmux.sh": "04985b8bc65a79d090f38143e7703caf159d2b3aea2d2c85402928061adf75b9",
+    "science.py": "ffe28afc56fef034f4b63e5b9efa8705bca5309869c26b9f7333c6389a651978",
+    "SCIENCE_AST.json": "dc0d624b5766032fa2af9ca67c3ae0a857dd115252141a2f60c204a609ef9d3e",
+    "worker.py": "e47c9d42d2edb16105251a00204c63ddb8aec8b8cc19f1da986536c420768407"
+  },
+  "project_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7",
+  "scope": "V12 0.2 strict JSON metadata repair only; no automatic retry; same 40000 learner updates"
+}

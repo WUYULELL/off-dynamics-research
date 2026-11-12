@@ -1,0 +1,68 @@
+{
+  "stage": 1,
+  "task": "hopper-morph",
+  "scope": "full source action correction, independent replay, five BC groups",
+  "stage2_authorized": false,
+  "canonical_source_rows": 999998,
+  "target_rows": 5000,
+  "residual_filter": {
+    "field": "e1",
+    "comparison": "<=",
+    "threshold": 0.0840,
+    "basis": "Stage 0 source residual median 0.084036923; fixed by user before stage 1; no policy returns consulted"
+  },
+  "original_stage0_freeze_sha256": "f298abe1507c3cca56724711a0dd827b8d49a04f7a925cd5ebace79d2b9f5d5a",
+  "original_stage0_repaired_evidence": {
+    "REPORT_ZH.md": "0d3c28bed6dabbaef10e717c4a971a7ad0da52bbf537bb39375c2a1641db6b87",
+    "RESULT.json": "2c27e1d6affc225d4cd10dc5c38fc074da071a9d9719bb9bc2e8bd960d4a501c",
+    "SOURCE_HASHES.json": "70ac4d727943781adcd8c311e9f52c68d830be6f99772934ddee12173494a297"
+  },
+  "cache": {
+    "cpu_workers_max": 32,
+    "pilot_rows": 256,
+    "chunk_rows": 8192,
+    "audit_seed": 2026111001,
+    "audit_rows": 10000,
+    "audit_state_linf": 0.000002,
+    "audit_reward_abs": 0.000002,
+    "audit_terminal": "exact",
+    "boundary_abs_tolerance": 1e-8
+  },
+  "bc": {
+    "variants": ["BC-fix", "BC-mix", "BC-all", "BC-fix-sel", "BC-mix-sel"],
+    "seeds": [601, 602, 603, 604, 605],
+    "resource_pilot": "BC-mix_s601",
+    "steps": 200000,
+    "batch_each_domain": 64,
+    "actor": "frozen V9 Actor and IQL_DYN Policy, beta=0, no critic",
+    "lr": 0.0003,
+    "hidden_size": 256,
+    "cosine_T_max": 200000,
+    "mixed_loss": "mean target action MSE + mean source action MSE",
+    "evaluation_every": 5000,
+    "episodes_each": 10,
+    "evaluation_seed": "500000 + 10*(seed-301) + episode, same V9/V12 convention",
+    "last5": [180000, 185000, 190000, 195000, 200000],
+    "loss_log_dtype": "<f4 columns target_MSE, source_MSE, total; absent-domain entry is zero",
+    "threads": 1,
+    "deterministic_algorithms": true,
+    "TF32": true
+  },
+  "resource_policy": {
+    "per_gpu_default": 3,
+    "per_gpu_v13_max": 6,
+    "all_gpu_max": 20,
+    "memory_max_fraction": 0.75,
+    "host_memory_min_fraction": 0.10,
+    "gpu_rss_safety_factor": 1.25,
+    "idle_utilization_percent": 0,
+    "resident_memory_allowance_MiB": 3,
+    "external_retry_max": 3
+  },
+  "interpretation": {
+    "source_only_Last5_below": 20,
+    "majority_short": "strictly more than 50 percent of pooled Last5 episodes under 200 steps",
+    "historical_v12_1A_Last5": 13.3235,
+    "formal_H_fix_test": false
+  }
+}

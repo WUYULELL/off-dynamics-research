@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "raw_records": 70,
+  "result_sha256": "3bca1d70b8b465774ef2addaa4693fb5ea3c91ca053e7d464f72f850736fa2d4",
+  "report_sha256": "085ea246d11f520924b5ae42c9e5eb090ebca55acf2cd766daaae1a352e55488",
+  "correction_field_audit_sha256": "86412eed7bee9369059b60824858771ce63ce5ba081ebb77cb25a822666b807e",
+  "vector_audit_sha256": "2cdcf2f75b0b23a553e69e4ad8f8d2074d409c806387ef400fba2756e80e1764",
+  "time": 1793755174.9978592
+}

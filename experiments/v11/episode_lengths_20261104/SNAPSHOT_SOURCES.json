@@ -1,0 +1,149 @@
+{
+  "source_root_template": "C:/Users/<USER>/Documents/New project/off-dynamics-rl-main/off-dynamics-rl-main",
+  "source_project_prefix": "${PROJECT_ROOT}",
+  "files": [
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/analyze_lengths.py",
+      "snapshot": "experiments/v11/episode_lengths_20261104/analyze_lengths.py",
+      "source_bytes": 8182,
+      "source_sha256": "21cf70cd8e05ec5910297439212914f634443ec659468204306f3a7f6ffd0c4d",
+      "snapshot_bytes": 8182,
+      "snapshot_sha256": "21cf70cd8e05ec5910297439212914f634443ec659468204306f3a7f6ffd0c4d",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/by_group.csv",
+      "snapshot": "experiments/v11/episode_lengths_20261104/by_group.csv",
+      "source_bytes": 466,
+      "source_sha256": "e49355ec911659baa80d7e28e7f1c2ae0e5ab301e5bb1610941200b718ff4273",
+      "snapshot_bytes": 466,
+      "snapshot_sha256": "e49355ec911659baa80d7e28e7f1c2ae0e5ab301e5bb1610941200b718ff4273",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/by_group_checkpoint.csv",
+      "snapshot": "experiments/v11/episode_lengths_20261104/by_group_checkpoint.csv",
+      "source_bytes": 1538,
+      "source_sha256": "648bde38dd9655ed88b501dd5144813d3a9732c5f79ece44ebbef212d8f12ef6",
+      "snapshot_bytes": 1538,
+      "snapshot_sha256": "648bde38dd9655ed88b501dd5144813d3a9732c5f79ece44ebbef212d8f12ef6",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/by_seed.csv",
+      "snapshot": "experiments/v11/episode_lengths_20261104/by_seed.csv",
+      "source_bytes": 2801,
+      "source_sha256": "32addcd4496ea9fcac244ee686ae5d2b773786937090f7b803f207afd242858f",
+      "snapshot_bytes": 2801,
+      "snapshot_sha256": "32addcd4496ea9fcac244ee686ae5d2b773786937090f7b803f207afd242858f",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/by_seed_checkpoint.csv",
+      "snapshot": "experiments/v11/episode_lengths_20261104/by_seed_checkpoint.csv",
+      "source_bytes": 10962,
+      "source_sha256": "6cd6d8d6b8506c8c40fbc272f2e2c0297e5b8d7615fbce5f87740934e97c743d",
+      "snapshot_bytes": 10962,
+      "snapshot_sha256": "6cd6d8d6b8506c8c40fbc272f2e2c0297e5b8d7615fbce5f87740934e97c743d",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/DIAGNOSTIC_COMPLETED.json",
+      "snapshot": "experiments/v11/episode_lengths_20261104/DIAGNOSTIC_COMPLETED.json",
+      "source_bytes": 1172,
+      "source_sha256": "c05317e16a266c01093de5b225466615b555909157d1759b1cba497e70fffedc",
+      "snapshot_bytes": 1172,
+      "snapshot_sha256": "c05317e16a266c01093de5b225466615b555909157d1759b1cba497e70fffedc",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/EPISODE_LENGTH_RESULT.json",
+      "snapshot": "experiments/v11/episode_lengths_20261104/EPISODE_LENGTH_RESULT.json",
+      "source_bytes": 82141,
+      "source_sha256": "1316f74a56df4c77761508a752745e35f53eeaf36c8551760de53e501f72b3ae",
+      "snapshot_bytes": 82141,
+      "snapshot_sha256": "1316f74a56df4c77761508a752745e35f53eeaf36c8551760de53e501f72b3ae",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/INDEPENDENT_VERIFIED.json",
+      "snapshot": "experiments/v11/episode_lengths_20261104/INDEPENDENT_VERIFIED.json",
+      "source_bytes": 389,
+      "source_sha256": "840a9969861142a4f961b8f0340fed8df97158a29253a42f4dd5a03c29db09d3",
+      "snapshot_bytes": 389,
+      "snapshot_sha256": "840a9969861142a4f961b8f0340fed8df97158a29253a42f4dd5a03c29db09d3",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/INPUT_HASHES.json",
+      "snapshot": "experiments/v11/episode_lengths_20261104/INPUT_HASHES.json",
+      "source_bytes": 10066,
+      "source_sha256": "f08f315aa35335ca73537279b8c6a69f47862793c5aeb5e980b2e2649e1d07b7",
+      "snapshot_bytes": 10148,
+      "snapshot_sha256": "f4249ac965c72d1ae4833d9f176cda6e1842d95fbae29722a8d90ee0068ec94c",
+      "exact_byte_copy": false,
+      "kind": "exact_copy; absolute_path_username_replacement",
+      "transformations": [
+        {
+          "kind": "windows_username_in_absolute_path",
+          "count": 41,
+          "replacement": "<USER>"
+        }
+      ]
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/REPORT_ZH.md",
+      "snapshot": "experiments/v11/episode_lengths_20261104/REPORT_ZH.md",
+      "source_bytes": 3117,
+      "source_sha256": "1c37b9377f418530bdb164da524d2a4bf5916f314cdf9603bbf9e0689e21b91b",
+      "snapshot_bytes": 3117,
+      "snapshot_sha256": "1c37b9377f418530bdb164da524d2a4bf5916f314cdf9603bbf9e0689e21b91b",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "${PROJECT_ROOT}/outputs/v11_episode_length_diagnostic_20261104/saved_episode_lengths.csv",
+      "snapshot": "experiments/v11/episode_lengths_20261104/saved_episode_lengths.csv",
+      "source_bytes": 58568,
+      "source_sha256": "e6137ef5829793589222d85675ec53b3aa63d087833fb509e6c48445781dfa81",
+      "snapshot_bytes": 58568,
+      "snapshot_sha256": "e6137ef5829793589222d85675ec53b3aa63d087833fb509e6c48445781dfa81",
+      "exact_byte_copy": true,
+      "kind": "exact_copy",
+      "transformations": []
+    },
+    {
+      "source": "generated:publication_20261112/experiments/v11/episode_lengths_20261104/README.md",
+      "snapshot": "experiments/v11/episode_lengths_20261104/README.md",
+      "source_bytes": 420,
+      "source_sha256": "99e92ce05d997ba21f9bf6a65225840ba35b7a1be9ca16bc3971619c17ad8204",
+      "snapshot_bytes": 420,
+      "snapshot_sha256": "99e92ce05d997ba21f9bf6a65225840ba35b7a1be9ca16bc3971619c17ad8204",
+      "exact_byte_copy": true,
+      "kind": "generated_archive_documentation",
+      "transformations": []
+    }
+  ],
+  "excluded": [],
+  "original_sources_modified": false,
+  "publication_only": true,
+  "new_training_updates": 0,
+  "new_environment_steps": 0
+}

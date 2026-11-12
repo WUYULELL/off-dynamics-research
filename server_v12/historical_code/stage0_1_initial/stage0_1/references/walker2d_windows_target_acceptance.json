@@ -1,0 +1,40 @@
+{
+  "loader": "fixed_v2",
+  "n": 5000,
+  "source_sha256": "c792b159e403d9deff9316964f0b5ae191a382533693a553abb5b3167463f80a",
+  "xml": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\reproductions\\OTDF\\envs\\assets\\walker_morph.xml",
+  "xml_sha256": "74fd6e3e451d3ab12985965a0a1fe1f76e221950ab9f43d30355080e264462a0",
+  "state_error": {
+    "n": 5000,
+    "mean": 8.849670219065807e-07,
+    "median": 3.7678468806090493e-07,
+    "p95": 3.150556355935309e-06,
+    "max": 3.918049025664061e-05
+  },
+  "reward_error": {
+    "n": 5000,
+    "mean": 9.082758073344355e-08,
+    "median": 6.967929411239027e-08,
+    "p95": 2.5044486400283007e-07,
+    "max": 7.514712976330884e-07
+  },
+  "clipped_fraction": 0.378,
+  "unrecoverable_initial_rows": [],
+  "initial_failed_rows": [],
+  "repaired_rows": [],
+  "failed_rows": [],
+  "done_disagreements": 0,
+  "accepted": true,
+  "source_class": "gym.envs.mujoco.walker2d_v3",
+  "target_class": "d4rl.utils.wrappers",
+  "oracle_path": "C:\\Users\\<USER>\\Documents\\New project\\off-dynamics-rl-main\\off-dynamics-rl-main\\oracle_diag\\results\\v2_20261006\\stage_c\\walker2d_morph_source_oracle_fixed.npz",
+  "oracle_sha256": "a79efb0cdb4ac0c9b7a29ac96e37b7b46ceb2f20a725236bfe3712aaa491ac88",
+  "physical_shift": {
+    "n": 5000,
+    "mean": 1.934937346214278,
+    "median": 1.4966822709198744,
+    "p95": 4.741977693375998,
+    "max": 16.531752909820643
+  },
+  "shift_over_1e3_fraction": 1.0
+}

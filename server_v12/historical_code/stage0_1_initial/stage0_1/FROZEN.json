@@ -1,0 +1,17 @@
+{
+  "files": {
+    "config_template.json": "590c9fa30c9becc743436df268beb9f2429f036814688d8b67b764424ea5340d",
+    "README_ZH.md": "16b965994d724ed348eb12498fd7d74f2a87682505fe45fa1297a8db6739969d",
+    "RESTORATION_AST.json": "4043530000c5238721c2cb7f828eec282c80338e6f8c26e203a5848239b01300",
+    "ROOT_SOURCE_LOCATION.json": "5a7feffa55b7cf78057011b7063fbd50d9636d226b4cb5fac844b22697be3c78",
+    "run_env_acceptance.py": "0c65ae44bdcf36a0cf0b995ec24f5e316ff34fd08c9e1c3cfa1d892a2f43e199",
+    "run_in_tmux.sh": "097026fcf2dde3441408fe86cd4a78456d3e50a00f9ff949d67a784e2fbf68bc",
+    "references/hopper_windows_target_acceptance.json": "137590a94cb391780bd3085067afbb08d587d2351793a79908f98054afbc6f73",
+    "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352",
+    "references/walker2d_windows_target_acceptance.json": "52c2370e27bd73644dfc54a9f5e09a76da3ef1c6d45f889048902be592b9af9c",
+    "references/source_snapshot/oracle_diag/common.py": "a3c5ad6ea5ff15675a481476e3ca98d3f8dd63c7fe78639cd1b7338918e97473",
+    "references/source_snapshot/oracle_diag/verify_replay_v2.py": "600478c22d7eba9dc591664de56ef923156102625c092a82538394760373e57b"
+  },
+  "project_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7",
+  "scope": "V12 0.1 CPU replay only; stop before GPU learner or throughput"
+}
