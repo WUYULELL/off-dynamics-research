@@ -1,0 +1,10 @@
+{
+  "version": "V15b",
+  "purpose": "Read-only diagnosis of the V15 B0 self-check; no simulation, no training, no GPU",
+  "v15_run": "screen_20261113_102214",
+  "tasks": ["hopper-morph", "walker2d-morph"],
+  "B0_normalized_residual_limit": 0.00084,
+  "levels": [0.0001, 0.00084, 0.01, 0.084, 1.0],
+  "window_steps": 100,
+  "context_steps": 5
+}
