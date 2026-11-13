@@ -1,0 +1,12 @@
+{
+  "version": "V15c",
+  "files": {
+    "README_ZH.md": "a2ad5368aac4c7dc1c502bf001970918eb866a6e5f89c6b73fa6959be826c307",
+    "config.json": "8897fb4f87d3e47c5d249d5d63634e43a1062a70ab3e45da8f6f154f918526d9",
+    "run_in_tmux.sh": "44c5afd12746d9fd60c8e04e44ac5e7edbce9de63e3c70d7926da518dbd0cc5a",
+    "track_walker.py": "f984ab4664f986dfd83abc5330b26541721042933c091cde3792b81ce39bb20e",
+    "verify_package.py": "c2df111f5fb3a8f13543c9805310ef5e81f7bb800a5b67c66b2268db055ae4a8"
+  },
+  "training_updates": 0,
+  "GPU_jobs": 0
+}
