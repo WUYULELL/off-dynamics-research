@@ -1,0 +1,282 @@
+{
+  "version": "V16",
+  "purpose": "Tracking-feasibility screening of D4RL medium source trajectories in every ODRL shifted simulator for hopper and walker2d, plus an unshifted control; no target datasets, no training",
+  "authorized_by_user": "2026-11-13: direction one (screen other shift types)",
+  "robots": [
+    "hopper",
+    "walker2d"
+  ],
+  "tasks": [
+    {
+      "id": "hopper-none",
+      "robot": "hopper",
+      "shift": "none",
+      "xml": "hopper.xml"
+    },
+    {
+      "id": "hopper-friction-0.5",
+      "robot": "hopper",
+      "shift": "friction 0.5",
+      "xml": "hopper_friction_0.5.xml"
+    },
+    {
+      "id": "hopper-friction-2.0",
+      "robot": "hopper",
+      "shift": "friction 2.0",
+      "xml": "hopper_friction_2.0.xml"
+    },
+    {
+      "id": "hopper-friction-5.0",
+      "robot": "hopper",
+      "shift": "friction 5.0",
+      "xml": "hopper_friction_5.0.xml"
+    },
+    {
+      "id": "hopper-gravity-0.1",
+      "robot": "hopper",
+      "shift": "gravity 0.1",
+      "xml": "hopper_gravity_0.1.xml"
+    },
+    {
+      "id": "hopper-gravity-0.5",
+      "robot": "hopper",
+      "shift": "gravity 0.5",
+      "xml": "hopper_gravity_0.5.xml"
+    },
+    {
+      "id": "hopper-gravity-2.0",
+      "robot": "hopper",
+      "shift": "gravity 2.0",
+      "xml": "hopper_gravity_2.0.xml"
+    },
+    {
+      "id": "hopper-gravity-5.0",
+      "robot": "hopper",
+      "shift": "gravity 5.0",
+      "xml": "hopper_gravity_5.0.xml"
+    },
+    {
+      "id": "hopper-kinematic-footjnt-easy",
+      "robot": "hopper",
+      "shift": "kinematic footjnt easy",
+      "xml": "hopper_kinematic_footjnt_easy.xml"
+    },
+    {
+      "id": "hopper-kinematic-footjnt-medium",
+      "robot": "hopper",
+      "shift": "kinematic footjnt medium",
+      "xml": "hopper_kinematic_footjnt_medium.xml"
+    },
+    {
+      "id": "hopper-kinematic-footjnt-hard",
+      "robot": "hopper",
+      "shift": "kinematic footjnt hard",
+      "xml": "hopper_kinematic_footjnt_hard.xml"
+    },
+    {
+      "id": "hopper-kinematic-legjnt-easy",
+      "robot": "hopper",
+      "shift": "kinematic legjnt easy",
+      "xml": "hopper_kinematic_legjnt_easy.xml"
+    },
+    {
+      "id": "hopper-kinematic-legjnt-medium",
+      "robot": "hopper",
+      "shift": "kinematic legjnt medium",
+      "xml": "hopper_kinematic_legjnt_medium.xml"
+    },
+    {
+      "id": "hopper-kinematic-legjnt-hard",
+      "robot": "hopper",
+      "shift": "kinematic legjnt hard",
+      "xml": "hopper_kinematic_legjnt_hard.xml"
+    },
+    {
+      "id": "hopper-morph-foot-easy",
+      "robot": "hopper",
+      "shift": "morph foot easy",
+      "xml": "hopper_morph_foot_easy.xml"
+    },
+    {
+      "id": "hopper-morph-foot-medium",
+      "robot": "hopper",
+      "shift": "morph foot medium",
+      "xml": "hopper_morph_foot_medium.xml"
+    },
+    {
+      "id": "hopper-morph-foot-hard",
+      "robot": "hopper",
+      "shift": "morph foot hard",
+      "xml": "hopper_morph_foot_hard.xml"
+    },
+    {
+      "id": "hopper-morph-torso-easy",
+      "robot": "hopper",
+      "shift": "morph torso easy",
+      "xml": "hopper_morph_torso_easy.xml"
+    },
+    {
+      "id": "hopper-morph-torso-medium",
+      "robot": "hopper",
+      "shift": "morph torso medium",
+      "xml": "hopper_morph_torso_medium.xml"
+    },
+    {
+      "id": "hopper-morph-torso-hard",
+      "robot": "hopper",
+      "shift": "morph torso hard",
+      "xml": "hopper_morph_torso_hard.xml"
+    },
+    {
+      "id": "walker2d-none",
+      "robot": "walker2d",
+      "shift": "none",
+      "xml": "walker2d.xml"
+    },
+    {
+      "id": "walker2d-friction-0.1",
+      "robot": "walker2d",
+      "shift": "friction 0.1",
+      "xml": "walker2d_friction_0.1.xml"
+    },
+    {
+      "id": "walker2d-friction-0.5",
+      "robot": "walker2d",
+      "shift": "friction 0.5",
+      "xml": "walker2d_friction_0.5.xml"
+    },
+    {
+      "id": "walker2d-friction-2.0",
+      "robot": "walker2d",
+      "shift": "friction 2.0",
+      "xml": "walker2d_friction_2.0.xml"
+    },
+    {
+      "id": "walker2d-friction-5.0",
+      "robot": "walker2d",
+      "shift": "friction 5.0",
+      "xml": "walker2d_friction_5.0.xml"
+    },
+    {
+      "id": "walker2d-gravity-0.1",
+      "robot": "walker2d",
+      "shift": "gravity 0.1",
+      "xml": "walker2d_gravity_0.1.xml"
+    },
+    {
+      "id": "walker2d-gravity-0.5",
+      "robot": "walker2d",
+      "shift": "gravity 0.5",
+      "xml": "walker2d_gravity_0.5.xml"
+    },
+    {
+      "id": "walker2d-gravity-2.0",
+      "robot": "walker2d",
+      "shift": "gravity 2.0",
+      "xml": "walker2d_gravity_2.0.xml"
+    },
+    {
+      "id": "walker2d-gravity-5.0",
+      "robot": "walker2d",
+      "shift": "gravity 5.0",
+      "xml": "walker2d_gravity_5.0.xml"
+    },
+    {
+      "id": "walker2d-kinematic-footjnt-easy",
+      "robot": "walker2d",
+      "shift": "kinematic footjnt easy",
+      "xml": "walker2d_kinematic_footjnt_easy.xml"
+    },
+    {
+      "id": "walker2d-kinematic-footjnt-medium",
+      "robot": "walker2d",
+      "shift": "kinematic footjnt medium",
+      "xml": "walker2d_kinematic_footjnt_medium.xml"
+    },
+    {
+      "id": "walker2d-kinematic-footjnt-hard",
+      "robot": "walker2d",
+      "shift": "kinematic footjnt hard",
+      "xml": "walker2d_kinematic_footjnt_hard.xml"
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-easy",
+      "robot": "walker2d",
+      "shift": "kinematic thighjnt easy",
+      "xml": "walker2d_kinematic_thighjnt_easy.xml"
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-medium",
+      "robot": "walker2d",
+      "shift": "kinematic thighjnt medium",
+      "xml": "walker2d_kinematic_thighjnt_medium.xml"
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-hard",
+      "robot": "walker2d",
+      "shift": "kinematic thighjnt hard",
+      "xml": "walker2d_kinematic_thighjnt_hard.xml"
+    },
+    {
+      "id": "walker2d-morph-leg-easy",
+      "robot": "walker2d",
+      "shift": "morph leg easy",
+      "xml": "walker2d_morph_leg_easy.xml"
+    },
+    {
+      "id": "walker2d-morph-leg-medium",
+      "robot": "walker2d",
+      "shift": "morph leg medium",
+      "xml": "walker2d_morph_leg_medium.xml"
+    },
+    {
+      "id": "walker2d-morph-leg-hard",
+      "robot": "walker2d",
+      "shift": "morph leg hard",
+      "xml": "walker2d_morph_leg_hard.xml"
+    },
+    {
+      "id": "walker2d-morph-torso-easy",
+      "robot": "walker2d",
+      "shift": "morph torso easy",
+      "xml": "walker2d_morph_torso_easy.xml"
+    },
+    {
+      "id": "walker2d-morph-torso-medium",
+      "robot": "walker2d",
+      "shift": "morph torso medium",
+      "xml": "walker2d_morph_torso_medium.xml"
+    },
+    {
+      "id": "walker2d-morph-torso-hard",
+      "robot": "walker2d",
+      "shift": "morph torso hard",
+      "xml": "walker2d_morph_torso_hard.xml"
+    }
+  ],
+  "source_trajectories": 500,
+  "source_seed": {
+    "hopper": 2026111403,
+    "walker2d": 2026111501
+  },
+  "source_selection": "identical rule and seeds to V14b/V15 (complete trajectories with unclipped first observation)",
+  "horizon_steps": 400,
+  "horizon_basis": "V15b: one-step tracking of genuine target trajectories stayed within the gate for >=403 steps on walker2d-morph; the same H is used for every task",
+  "normalization": "source current observations, per-coordinate sample SD (ddof=1) + v13 std_epsilon; no target data is read",
+  "selfcheck_trajectories": 20,
+  "selfcheck_gate": 0.00084,
+  "candidate_residual_limit": 0.084,
+  "rule": {
+    "untrackable": "median T_H < 200 and fraction(T_H/L_H >= 0.8) < 0.1",
+    "candidate": "fraction(T_H/L_H >= 0.8) >= 0.5 and median over trajectories of the per-trajectory median B2 residual <= 0.084",
+    "survives_but_not_following": "fraction >= 0.5 but residual above 0.084",
+    "uncertain": "otherwise",
+    "instrument": "if any self-check trajectory fails, the task is not judged"
+  },
+  "xml_source": "ODRL envs/mujoco/assets (MIT licence), copied unchanged into assets/",
+  "new_training_updates": 0,
+  "GPU_jobs": 0,
+  "cpu_workers_default": 24,
+  "cpu_worker_cli_maximum": 32,
+  "failure_policy": "No retry. Any exception, NaN/Inf or hash mismatch stops and keeps the evidence."
+}
