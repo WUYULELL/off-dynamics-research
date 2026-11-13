@@ -1,0 +1,16 @@
+{
+  "version": "V14b",
+  "task": "hopper-morph",
+  "authorized": ["B0_rejudge_from_saved_arrays", "B1_if_rejudge_passes", "B2_if_rejudge_passes"],
+  "earlier_v14_run": "diagnostics_20261112_215443",
+  "B0_normalized_residual_limit": 0.00084,
+  "B0_revision": "User 2026-11-12, after the earlier B0 result was known: the 2e-6 raw L-infinity gate was a v13 single-step replay standard and does not fit closed-loop tracking over hundreds of steps. Revised gate: every target segment reaches its recorded end with matching terminal labels, and every step has normalized residual <= 8.4e-4 (1% of the v13 filter threshold 0.0840). Judged from the saved B0 arrays without new simulation. The earlier result is kept unchanged.",
+  "B1_B2": "Unchanged v14 definition and frozen v14_diag code: same 500 source trajectories, same solver, same interpretation rule.",
+  "new_training_updates": 0,
+  "GPU_jobs": 0,
+  "v13_stage2_authorized": false,
+  "cpu_workers_default": 16,
+  "cpu_worker_cli_maximum": 24,
+  "threads_each": 1,
+  "failure_policy": "No retry. Any exception, NaN/Inf or hash mismatch stops and keeps the evidence."
+}
