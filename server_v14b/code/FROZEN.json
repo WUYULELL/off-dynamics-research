@@ -1,0 +1,14 @@
+{
+  "version": "V14b",
+  "files": {
+    "INSTRUCTION_V14B.md": "7adb3b3639ea730563e624bac3a3782ecc0bb22b194385f961a6675e95578189",
+    "README_ZH.md": "4b9417510d5a1bc428fff5766971fcb7f254c542e0624adaa2e289c51c6830f2",
+    "config.json": "5043f65cc3a27958e59e5d5da7a40d79769d82c287548a3847d31d762c1df296",
+    "run_in_tmux.sh": "ab720ea678be66eabdfca9b119396caa86d630eab61e626c8b5547b786406883",
+    "track_pipeline.py": "93174f0c6bf3bd082aff9a5159c8d0f7f02bc9dede15549309c7ac6c9544a374",
+    "verify_package.py": "c2df111f5fb3a8f13543c9805310ef5e81f7bb800a5b67c66b2268db055ae4a8"
+  },
+  "training_updates": 0,
+  "GPU_jobs": 0,
+  "stage2_authorized": false
+}
