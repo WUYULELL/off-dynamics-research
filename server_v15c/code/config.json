@@ -1,0 +1,16 @@
+{
+  "version": "V15c",
+  "task": "walker2d-morph",
+  "v15_run": "screen_20261113_102214",
+  "horizon_steps": 400,
+  "horizon_basis": "V15b read-only diagnosis of the V15 walker2d B0 arrays: every target segment stays within the 8.4e-4 gate for at least 403 steps (segments 3/5/6 first exceed at steps 468/404/965); H = 400. Fixed by the user on 2026-11-12 after that diagnosis and before any walker2d source-trajectory result existed; this is the second rule adjustment made after seeing a B0 result.",
+  "B0_normalized_residual_limit": 0.00084,
+  "rule": "T_H=min(T,H), L_H=min(L,H). Untrackable if median T_H < 200 and fraction(T_H/L_H >= 0.8) < 0.1; trackable if fraction >= 0.5; otherwise uncertain. Judged on B2 only, one-step greedy tracking only. Residuals within the first H steps are reported descriptively.",
+  "residual_reference": 0.084,
+  "source_selection": "identical to V15: seed 2026111501, 500 complete source trajectories with unclipped first observation; asserted equal to the V15 frozen plan",
+  "new_training_updates": 0,
+  "GPU_jobs": 0,
+  "cpu_workers_default": 16,
+  "cpu_worker_cli_maximum": 24,
+  "failure_policy": "No retry. Any exception, NaN/Inf or hash mismatch stops and keeps the evidence."
+}
