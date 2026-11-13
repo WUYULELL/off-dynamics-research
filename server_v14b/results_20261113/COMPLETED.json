@@ -1,0 +1,19 @@
+{
+  "completed": true,
+  "B0_rejudged_passed": true,
+  "B1_B2_started": true,
+  "B1_B2_records": 1000,
+  "status": "AWAITING_USER_REVIEW",
+  "new_training_updates": 0,
+  "optimizer_instances": 0,
+  "GPU_jobs": 0,
+  "environment_steps": 1046167,
+  "stage2_started": false,
+  "ended_utc": "2026-11-13T02:02:33.221022+00:00",
+  "evidence_sha256": {
+    "REPORT_ZH.md": "82f8f15024fa300965e0024f898fcda75ad1bc46a438c028927f5cd796cd9d32",
+    "RESULT.json": "d433c82ddc6bc3fecb31ec654bca8dbcd0c91d49204d5ab9ccca3555b1fe9f96",
+    "config.json": "53f25371a6cba54ca65046adc8b2936ac1e62d49f08a1ebaae0148e5171c021e",
+    "B0_REJUDGED.json": "2ebcbb2cb67634fdcffbf85d2f9c2fd49d14453a615280c1eb39c26994782d47"
+  }
+}

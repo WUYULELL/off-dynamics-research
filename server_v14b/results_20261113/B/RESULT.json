@@ -1,0 +1,840 @@
+{
+  "B0": {
+    "passed": true,
+    "trajectories": [],
+    "simulator_steps": 0,
+    "source_tracking_started": true,
+    "note": "B0 was not re-simulated; see ../B0_REJUDGED.json for the revised gate applied to the earlier arrays."
+  },
+  "B1_B2_started": true,
+  "groups": {
+    "B1": {
+      "episodes": 500,
+      "survival_steps": {
+        "n": 500,
+        "mean": 37.886,
+        "median": 38.0,
+        "min": 34.0,
+        "p10": 36.0,
+        "p90": 40.0,
+        "p99": 46.049999999999955,
+        "max": 65.0
+      },
+      "T_over_L": {
+        "n": 500,
+        "mean": 0.08925868087574877,
+        "median": 0.0809058697375169,
+        "min": 0.038,
+        "p10": 0.06332688927943761,
+        "p90": 0.13226976413417094,
+        "p99": 0.21621779674411254,
+        "max": 0.2413793103448276
+      },
+      "fraction_T_under_200": 1.0,
+      "fraction_T_over_L_at_least_08": 0.0,
+      "normalized_score": {
+        "n": 500,
+        "mean": 2.221501810250022,
+        "median": 2.212335785423888,
+        "min": 2.0727367826034566,
+        "p10": 2.1533754101147773,
+        "p90": 2.2785209477873662,
+        "p99": 2.4861099414455365,
+        "max": 3.237319687767284
+      },
+      "physical_terminal_count": 500
+    },
+    "B2": {
+      "episodes": 500,
+      "survival_steps": {
+        "n": 500,
+        "mean": 154.364,
+        "median": 154.0,
+        "min": 131.0,
+        "p10": 142.0,
+        "p90": 166.0,
+        "p99": 176.0,
+        "max": 202.0
+      },
+      "T_over_L": {
+        "n": 500,
+        "mean": 0.3608028922662323,
+        "median": 0.3395687645687646,
+        "min": 0.159,
+        "p10": 0.26217050982412876,
+        "p90": 0.4810471548000909,
+        "p99": 0.9588306698401904,
+        "max": 1.0
+      },
+      "fraction_T_under_200": 0.998,
+      "fraction_T_over_L_at_least_08": 0.022,
+      "normalized_score": {
+        "n": 500,
+        "mean": 10.975196014957934,
+        "median": 10.822849413439563,
+        "min": 9.081641484382075,
+        "p10": 10.116636625981565,
+        "p90": 12.127750555990644,
+        "p99": 13.13318069339209,
+        "max": 13.930851412323996
+      },
+      "physical_terminal_count": 499,
+      "interpretation": "不可跟踪：仅限当前一步贪心跟踪方式，不能排除前瞻控制器更好。"
+    }
+  },
+  "residual_bins": [
+    {
+      "mode": "B1",
+      "step_bin": "0-49",
+      "n": 18914,
+      "mean": 1.0830033784761102,
+      "median": 1.0917957263899143,
+      "min": 0.012508620518112804,
+      "p10": 0.11444732462672204,
+      "p90": 1.9964016109371971,
+      "p99": 2.286809150536621,
+      "max": 2.6176261207165363
+    },
+    {
+      "mode": "B1",
+      "step_bin": "50-99",
+      "n": 29,
+      "mean": 2.090255825304381,
+      "median": 2.1030330422647934,
+      "min": 1.4805500536885947,
+      "p10": 1.719128940392388,
+      "p90": 2.4817826680787416,
+      "p99": 2.781650562324674,
+      "max": 2.83440850826427
+    },
+    {
+      "mode": "B1",
+      "step_bin": "100-149",
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "p10": null,
+      "p90": null,
+      "p99": null,
+      "max": null
+    },
+    {
+      "mode": "B1",
+      "step_bin": "150-199",
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "p10": null,
+      "p90": null,
+      "p99": null,
+      "max": null
+    },
+    {
+      "mode": "B1",
+      "step_bin": "200-399",
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "p10": null,
+      "p90": null,
+      "p99": null,
+      "max": null
+    },
+    {
+      "mode": "B1",
+      "step_bin": ">=400",
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "p10": null,
+      "p90": null,
+      "p99": null,
+      "max": null
+    },
+    {
+      "mode": "B2",
+      "step_bin": "0-49",
+      "n": 25000,
+      "mean": 0.5748161448476801,
+      "median": 0.6148100769839875,
+      "min": 0.0035894146429546712,
+      "p10": 0.11822324125575352,
+      "p90": 0.9409026074531777,
+      "p99": 1.239824857092572,
+      "max": 1.619232666998952
+    },
+    {
+      "mode": "B2",
+      "step_bin": "50-99",
+      "n": 25000,
+      "mean": 1.9484401492657142,
+      "median": 1.7662011519278669,
+      "min": 0.4341596606450093,
+      "p10": 0.8765795226533724,
+      "p90": 3.1670312921513832,
+      "p99": 3.73191142372758,
+      "max": 4.254286804798459
+    },
+    {
+      "mode": "B2",
+      "step_bin": "100-149",
+      "n": 24083,
+      "mean": 3.4417130216047522,
+      "median": 3.4491697862540174,
+      "min": 0.5089436762805118,
+      "p10": 1.615419297566457,
+      "p90": 4.894181787331688,
+      "p99": 6.574305594123591,
+      "max": 7.938864674440614
+    },
+    {
+      "mode": "B2",
+      "step_bin": "150-199",
+      "n": 3097,
+      "mean": 5.739087716493256,
+      "median": 5.684935059617199,
+      "min": 0.9238424227689351,
+      "p10": 4.283714172223232,
+      "p90": 7.595967300700139,
+      "p99": 8.219676943874099,
+      "max": 8.692447327914405
+    },
+    {
+      "mode": "B2",
+      "step_bin": "200-399",
+      "n": 2,
+      "mean": 8.24532664159474,
+      "median": 8.24532664159474,
+      "min": 8.1769130727632,
+      "p10": 8.190595786529508,
+      "p90": 8.300057496659973,
+      "p99": 8.31237193904965,
+      "max": 8.31374021042628
+    },
+    {
+      "mode": "B2",
+      "step_bin": ">=400",
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "p10": null,
+      "p90": null,
+      "p99": null,
+      "max": null
+    }
+  ],
+  "histogram": [
+    {
+      "mode": "B1",
+      "executed_step_first": 1,
+      "executed_step_last": 20,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 21,
+      "executed_step_last": 40,
+      "count": 471
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 41,
+      "executed_step_last": 60,
+      "count": 28
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 61,
+      "executed_step_last": 80,
+      "count": 1
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 81,
+      "executed_step_last": 100,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 101,
+      "executed_step_last": 120,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 121,
+      "executed_step_last": 140,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 141,
+      "executed_step_last": 160,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 161,
+      "executed_step_last": 180,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 181,
+      "executed_step_last": 200,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 201,
+      "executed_step_last": 220,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 221,
+      "executed_step_last": 240,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 241,
+      "executed_step_last": 260,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 261,
+      "executed_step_last": 280,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 281,
+      "executed_step_last": 300,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 301,
+      "executed_step_last": 320,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 321,
+      "executed_step_last": 340,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 341,
+      "executed_step_last": 360,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 361,
+      "executed_step_last": 380,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 381,
+      "executed_step_last": 400,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 401,
+      "executed_step_last": 420,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 421,
+      "executed_step_last": 440,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 441,
+      "executed_step_last": 460,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 461,
+      "executed_step_last": 480,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 481,
+      "executed_step_last": 500,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 501,
+      "executed_step_last": 520,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 521,
+      "executed_step_last": 540,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 541,
+      "executed_step_last": 560,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 561,
+      "executed_step_last": 580,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 581,
+      "executed_step_last": 600,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 601,
+      "executed_step_last": 620,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 621,
+      "executed_step_last": 640,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 641,
+      "executed_step_last": 660,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 661,
+      "executed_step_last": 680,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 681,
+      "executed_step_last": 700,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 701,
+      "executed_step_last": 720,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 721,
+      "executed_step_last": 740,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 741,
+      "executed_step_last": 760,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 761,
+      "executed_step_last": 780,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 781,
+      "executed_step_last": 800,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 801,
+      "executed_step_last": 820,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 821,
+      "executed_step_last": 840,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 841,
+      "executed_step_last": 860,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 861,
+      "executed_step_last": 880,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 881,
+      "executed_step_last": 900,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 901,
+      "executed_step_last": 920,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 921,
+      "executed_step_last": 940,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 941,
+      "executed_step_last": 960,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 961,
+      "executed_step_last": 980,
+      "count": 0
+    },
+    {
+      "mode": "B1",
+      "executed_step_first": 981,
+      "executed_step_last": 1000,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 1,
+      "executed_step_last": 20,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 21,
+      "executed_step_last": 40,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 41,
+      "executed_step_last": 60,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 61,
+      "executed_step_last": 80,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 81,
+      "executed_step_last": 100,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 101,
+      "executed_step_last": 120,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 121,
+      "executed_step_last": 140,
+      "count": 45
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 141,
+      "executed_step_last": 160,
+      "count": 336
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 161,
+      "executed_step_last": 180,
+      "count": 115
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 181,
+      "executed_step_last": 200,
+      "count": 2
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 201,
+      "executed_step_last": 220,
+      "count": 1
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 221,
+      "executed_step_last": 240,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 241,
+      "executed_step_last": 260,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 261,
+      "executed_step_last": 280,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 281,
+      "executed_step_last": 300,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 301,
+      "executed_step_last": 320,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 321,
+      "executed_step_last": 340,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 341,
+      "executed_step_last": 360,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 361,
+      "executed_step_last": 380,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 381,
+      "executed_step_last": 400,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 401,
+      "executed_step_last": 420,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 421,
+      "executed_step_last": 440,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 441,
+      "executed_step_last": 460,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 461,
+      "executed_step_last": 480,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 481,
+      "executed_step_last": 500,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 501,
+      "executed_step_last": 520,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 521,
+      "executed_step_last": 540,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 541,
+      "executed_step_last": 560,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 561,
+      "executed_step_last": 580,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 581,
+      "executed_step_last": 600,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 601,
+      "executed_step_last": 620,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 621,
+      "executed_step_last": 640,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 641,
+      "executed_step_last": 660,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 661,
+      "executed_step_last": 680,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 681,
+      "executed_step_last": 700,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 701,
+      "executed_step_last": 720,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 721,
+      "executed_step_last": 740,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 741,
+      "executed_step_last": 760,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 761,
+      "executed_step_last": 780,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 781,
+      "executed_step_last": 800,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 801,
+      "executed_step_last": 820,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 821,
+      "executed_step_last": 840,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 841,
+      "executed_step_last": 860,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 861,
+      "executed_step_last": 880,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 881,
+      "executed_step_last": 900,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 901,
+      "executed_step_last": 920,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 921,
+      "executed_step_last": 940,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 941,
+      "executed_step_last": 960,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 961,
+      "executed_step_last": 980,
+      "count": 0
+    },
+    {
+      "mode": "B2",
+      "executed_step_first": 981,
+      "executed_step_last": 1000,
+      "count": 0
+    }
+  ],
+  "source_episode_count": 500,
+  "limitation": "B2 is one-step greedy tracking with v13 cold-reset/zero-warmstart candidate convention; the actual committed qpos/qvel are carried forward, not replaced by source states. Failure does not rule out lookahead controllers.",
+  "histogram_note": "Counts include physical environment termination, including natural termination on the recorded final step; horizon/source-record endings without physical termination are not falls.",
+  "score_note": "Normalized cumulative return over each tracked record; variable record length and early termination, not a formal policy-performance comparison.",
+  "simulator_steps": 1046167,
+  "new_training_updates": 0,
+  "GPU_jobs": 0
+}

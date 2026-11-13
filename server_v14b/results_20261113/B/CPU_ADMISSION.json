@@ -1,0 +1,9 @@
+{
+  "requested_workers": 16,
+  "actual_workers": 16,
+  "pilot_peak_RSS_bytes": 264613888,
+  "projected_worker_RSS_bytes": 4233822208,
+  "effective_available_memory_bytes": 198018265088,
+  "process_ceiling_including_controller_and_helpers": 32,
+  "no_GPU": true
+}
