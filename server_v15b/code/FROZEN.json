@@ -1,0 +1,9 @@
+{
+  "version": "V15b",
+  "files": {
+    "README_ZH.md": "1f9d8946635814ff6d8b1d6896b06bc596e78655550a36551c74346adbc8219f",
+    "config.json": "8838fb4981b7964eac3b857340a01d113a5a66544ec79ad6b3560a369c78295d",
+    "diagnose.py": "bc9a983e17e59576757168c89def83b10b87b642cb3a50854c0b8d9dacaac078",
+    "run.sh": "c8b17ab11e63292127426d566601d3cfab349d8ae8511b9482aa3f30966e81e6"
+  }
+}
