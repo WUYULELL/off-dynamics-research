@@ -1,0 +1,19 @@
+{
+  "completed": true,
+  "CPU_audited_runs": 25,
+  "planned_runs": 25,
+  "own_GPU_workers_exited": true,
+  "accepted_cache": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/full_cache",
+  "cache_acceptance_sha256": "37d5891bf4108b17fc786361b6fef27820a4be3362871e52a085feffb13e1f98",
+  "acceptance_status": "AWAITING_STAGE2_CONFIRMATION",
+  "stage2_started": false,
+  "ended_utc": "2026-11-12T12:29:44.296481+00:00",
+  "evidence_sha256": {
+    "REPORT_ZH.md": "70f32fe2b7e1d0e5d4f3949a3e62578d6804ca1473f5aa223992bbf3256cabf8",
+    "RESULT.json": "15afa57c24285ab9ba5381e84cc48e54a75988c7b4ee70dabfd9ce728daf8877",
+    "PLAN.json": "ee9770036f5ec98b0d393a4713b854d5737e3198424c2dd7ca2df6c41d4df1e1",
+    "config.json": "d72bc292fad73b6cfaf6f07afa188790cde50c218938801893081aff54747777",
+    "INPUT_PROTECTION_AFTER.json": "6d92e7d69e1331fdd0d4df1d1aee1c18b4dad190c09fff3ab370e278c95b2ff9",
+    "CONTINUATION.json": "26f12e6b5e78256e037575e2e59f421581216795e562beb548cbb22d88fc21fb"
+  }
+}

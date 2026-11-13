@@ -1,0 +1,28 @@
+{
+  "resumed": false,
+  "attempt_path": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108",
+  "previous_outputs": [
+    "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_20261108"
+  ],
+  "reused_jobs": {},
+  "previous_interrupted_runs": [],
+  "newly_scheduled_jobs": [
+    "ROOT_s501",
+    "ROOT_s502",
+    "ROOT_s503",
+    "ROOT_s504",
+    "ROOT_s505",
+    "T_s501",
+    "T_s502",
+    "T_s503",
+    "T_s504",
+    "T_s505",
+    "BC-all_s501",
+    "BC-all_s502",
+    "BC-all_s503",
+    "BC-all_s504",
+    "BC-all_s505"
+  ],
+  "verified_weights_path": null,
+  "restart_policy": "Interrupted seeds restart from step 0 in this attempt; no in-seed restore"
+}

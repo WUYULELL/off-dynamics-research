@@ -1,0 +1,37 @@
+{
+  "stage0": {
+    "stage0_3_receipt_sha256": "a3eb802c9857d6a75e1489ea0168e2c96747e56bfc5b6c548afe7740bb38c3ce",
+    "verified_evidence_files": 608,
+    "selected_GPU_UUID": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "stage0_user_accepted": true
+  },
+  "bc_diagnostic_completion_hashes": {
+    "1A": "d958f3fd8a9ef2953e517ca6c650f86cecfb7096aa02d8adba6faa1c79b4b48e",
+    "1B": "927a8e44ac4bf3f1d2c4f531bf27e0a62a4ff0a913807f74722b66565b24d325"
+  },
+  "stage2_completion_hash": "7865dcc66ac7661e272dc8102fc7f8fb335b1bbfa43e206bf8bf91ad16901854",
+  "stage2_original_hashes": {
+    "config.json": "9b9c7a42c7f5b6941eac9f3f15d63dbaac457b091effe67241c6fee5b3c8ff0e",
+    "AUDIT.json": "e16ac1bbdaaa4138f61e6c48fd90dbbec0ae3ed0b4a8966aac2a77dccd1afb2b",
+    "REPORT_ZH.md": "95bc09ebe8e9721e4bcbd5f8d7faa51a864ccb7060da4531bd6568fc8d20289b",
+    "RESULT.json": "26e1211b750a7a33372824062f7551332b0b0a00c7fe8f6fcff19a60184c7d69",
+    "final_checkpoint.pt": "a55d3d2bd3a7563e1408065122bac4e615bf51d5dd275977ac5bf860801ea7be",
+    "robust_weights.hdf5": "649e7a5b86bd81830d88009006b691d0bc7f6f09d9c9cf00b36e5ff2c7fe8cb0",
+    "ROOT_INPUTS.json": "20c6f14ffa301103eaf5021111fb2d937efc9ee54526ba8ae7099bdc6e2631a3",
+    "ROOT_DATA_ENV_COMPARISON.json": "d448ae05e5f286151f874ccc0dedbf44c6e503284529c6e39da9d254b7cf823f",
+    "ENVIRONMENT_READY.json": "24d8bad23821e54bd12a6bd0d66510d0222d1a7d97fdb44d5875ad8eee4595c7",
+    "PIP_ENVIRONMENT_AFTER.txt": "76a9076d4838960efd0d149a8ef57630a7e5036ab6840d3a0fc71fd57e84a43f"
+  },
+  "stage2_environment_versions": {
+    "jax": "0.4.9",
+    "jaxlib": "0.4.9+cuda11.cudnn86",
+    "ott-jax": "0.4.5",
+    "jaxopt": "0.8.3",
+    "torch": "1.11.0+cu113",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "h5py": "3.11.0",
+    "gym": "0.18.3",
+    "mujoco-py": "2.1.2.14"
+  }
+}

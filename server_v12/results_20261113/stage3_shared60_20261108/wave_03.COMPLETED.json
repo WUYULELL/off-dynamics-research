@@ -1,0 +1,21 @@
+{
+  "label": "wave_03",
+  "jobs": [
+    "ROOT_s505",
+    "T_s501",
+    "T_s502"
+  ],
+  "workers": 3,
+  "wall_seconds": 27922.048469161615,
+  "GPU_phase_seconds": 27908.677031055093,
+  "GPU_workers_exited": true,
+  "selected_GPU_UUID": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+  "external_GPU_pids_at_release": [],
+  "total_GPU_processes_at_release": 3,
+  "peak_worker_RSS_bytes": 5260808192,
+  "peak_GPU_memory_MiB": 25110,
+  "pressure_warnings": [
+    "throttled",
+    "high_CPU"
+  ]
+}

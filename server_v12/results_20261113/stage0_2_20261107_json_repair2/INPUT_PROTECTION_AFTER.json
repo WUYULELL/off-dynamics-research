@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "transfer_files": 1639,
+  "Conda_metadata_unchanged": true,
+  "installed_MuJoCo_binding_unchanged": true,
+  "MuJoCo_library_unchanged": true,
+  "stage0_1_receipt_unchanged": true,
+  "Gym_reference_files_unchanged": 6
+}

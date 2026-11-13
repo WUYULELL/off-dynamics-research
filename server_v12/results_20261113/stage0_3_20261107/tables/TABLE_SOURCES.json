@@ -1,0 +1,41 @@
+{
+  "source_report": "server_v12/results_20261113/stage0_3_20261107/REPORT_ZH.md",
+  "source_original_sha256": "3526f0bc336bcd7c088be6269a06744008331c212f1783e1a44a415cc28d243b",
+  "source_public_sha256": "3526f0bc336bcd7c088be6269a06744008331c212f1783e1a44a415cc28d243b",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v12/results_20261113/stage0_3_20261107/tables/report_table_01.csv",
+      "section": "V12 阶段 0.3 单卡吞吐测量报告",
+      "rows": 5
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_3_20261107/tables/report_table_02.csv",
+      "section": "IQL_n1",
+      "rows": 1
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_3_20261107/tables/report_table_03.csv",
+      "section": "IQL_n2",
+      "rows": 2
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_3_20261107/tables/report_table_04.csv",
+      "section": "IQL_n4",
+      "rows": 4
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_3_20261107/tables/report_table_05.csv",
+      "section": "IQL_n6",
+      "rows": 6
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_3_20261107/tables/report_table_06.csv",
+      "section": "BC_n1",
+      "rows": 1
+    }
+  ],
+  "per_seed_rows": 0,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

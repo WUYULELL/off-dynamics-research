@@ -1,0 +1,96 @@
+{
+  "job": {
+    "stage": 1,
+    "task": "hopper-morph",
+    "job": "BC-fix_s605",
+    "run": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110_shared60",
+    "output": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix_s605",
+    "attempt": 0,
+    "plan_sha256": "ee9770036f5ec98b0d393a4713b854d5737e3198424c2dd7ca2df6c41d4df1e1",
+    "controller_pid": 3367208,
+    "gpu": {
+      "index": 2,
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "name": "NVIDIA RTX A6000",
+      "driver": "580.105.08",
+      "memory_total_MiB": 49140
+    },
+    "session": 1,
+    "boot_id": "0748a4e7-db67-4d7a-856b-b1b040658b13",
+    "variant": "BC-fix",
+    "seed": 605,
+    "cache": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/full_cache",
+    "cache_receipt_sha256": "37d5891bf4108b17fc786361b6fef27820a4be3362871e52a085feffb13e1f98",
+    "private_binding": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110_shared60/runtime_0001/private_runtime/mujoco_py"
+  },
+  "training": {
+    "variants": [
+      "BC-fix",
+      "BC-mix",
+      "BC-all",
+      "BC-fix-sel",
+      "BC-mix-sel"
+    ],
+    "seeds": [
+      601,
+      602,
+      603,
+      604,
+      605
+    ],
+    "resource_pilot": "BC-mix_s601",
+    "steps": 200000,
+    "batch_each_domain": 64,
+    "actor": "frozen V9 Actor and IQL_DYN Policy, beta=0, no critic",
+    "lr": 0.0003,
+    "hidden_size": 256,
+    "cosine_T_max": 200000,
+    "mixed_loss": "mean target action MSE + mean source action MSE",
+    "evaluation_every": 5000,
+    "episodes_each": 10,
+    "evaluation_seed": "500000 + 10*(seed-301) + episode, same V9/V12 convention",
+    "last5": [
+      180000,
+      185000,
+      190000,
+      195000,
+      200000
+    ],
+    "loss_log_dtype": "<f4 columns target_MSE, source_MSE, total; absent-domain entry is zero",
+    "threads": 1,
+    "deterministic_algorithms": true,
+    "TF32": true
+  },
+  "filter": {
+    "field": "e1",
+    "comparison": "<=",
+    "threshold": 0.084,
+    "basis": "Stage 0 source residual median 0.084036923; fixed by user before stage 1; no policy returns consulted"
+  },
+  "inputs": {
+    "source": {
+      "rows": 999998,
+      "sample_index_sha256": "8b4b0ca19aa249b8181c9bf2dc6b135d7142eb7765a22482d5017f4c247970f7",
+      "raw_row_sha256": "802bac077bd0df977e2ce134f15acf2be5c67880dbd1b088cf79dfb371be9194",
+      "files": {
+        "source_observations.npy": "df9b1636eb6e7c7823ce4721a8c73ab95e2ced0bc41d4e5510cd16a605d57a79",
+        "action_fixed.npy": "571e583d3d581d2369c948b39327fbf62c08e505b33cca98b0e1ff0cfd4ce56a",
+        "row_id.npy": "c76f42b883d718528964e75e6516da8fb8878803ec00285291bf8992da1dd9f9"
+      }
+    }
+  },
+  "normalization": {
+    "source_dataset": "data/source/hopper_medium-v2.hdf5",
+    "target_dataset": "data/target/hopper_morph_medium.hdf5",
+    "xml": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104/data/xml/hopper_morph.xml",
+    "target_rows": 5000,
+    "source_rows": 999998,
+    "state_dim": 11,
+    "action_dim": 3,
+    "score_min": -26.3360015397715,
+    "score_max": 3152.75,
+    "timestep": 0.002,
+    "xml_sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2"
+  },
+  "Q_or_V_constructed": false
+}

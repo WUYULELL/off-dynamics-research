@@ -1,0 +1,64 @@
+{
+  "task": "walker2d-morph",
+  "sample_count": 10000,
+  "unique_sampled_rows": 4329,
+  "dataset_rows": 5000,
+  "dataset_clipped_rows": 1890,
+  "dataset_state_restoration_failures": 0,
+  "dataset_failed_restoration_rows": [],
+  "sampled_state_restoration_failures": 0,
+  "failed_restorations": [],
+  "state_linf_error": {
+    "n": 10000,
+    "finite_count": 10000,
+    "missing_count": 0,
+    "maximum": 3.19285495784527e-05,
+    "median": 3.7614578007882926e-07,
+    "p99": 5.871417870118033e-06,
+    "mean": 8.927491613136848e-07
+  },
+  "reward_abs_error": {
+    "n": 10000,
+    "finite_count": 10000,
+    "missing_count": 0,
+    "maximum": 7.514712980771776e-07,
+    "median": 6.984699174594766e-08,
+    "p99": 3.9684415042984256e-07,
+    "mean": 9.143239921324265e-08
+  },
+  "terminal_mismatches": 0,
+  "historical_state_limit": 0.001,
+  "historical_reward_limit": 0.0001,
+  "historical_limits_met": true,
+  "windows_reference_state_error": {
+    "n": 5000,
+    "mean": 8.849670219065807e-07,
+    "median": 3.7678468806090493e-07,
+    "p95": 3.150556355935309e-06,
+    "max": 3.918049025664061e-05
+  },
+  "state_error_ratio_to_windows": {
+    "maximum": 0.814909394173321,
+    "median": 0.9983043154291547
+  },
+  "windows_reference_same_dataset": true,
+  "windows_reference_same_xml": true,
+  "cross_platform_bitwise_equality_required": false,
+  "v12_replay_accepted": null,
+  "acceptance_status": "AWAITING_USER_REPLAY_REVIEW",
+  "reason": "V12 does not quantify significant replay-error increase; no automatic passage to 0.2",
+  "known_constructor_environment_steps": 1,
+  "adapter_environment_step_attempts": 11890,
+  "adapter_environment_step_returns": 11890,
+  "steps_by_phase": {
+    "chronological_state_recovery": 1890,
+    "sampled_one_step_replay": 10000
+  },
+  "env_class": "gym.envs.mujoco.walker2d_v3.Walker2dEnv",
+  "timestep": 0.002,
+  "frame_skip": 4,
+  "elapsed_seconds": 4.206405392847955,
+  "no_policy_evaluation": true,
+  "no_oracle_cache_created": true,
+  "new_training_updates": 0
+}

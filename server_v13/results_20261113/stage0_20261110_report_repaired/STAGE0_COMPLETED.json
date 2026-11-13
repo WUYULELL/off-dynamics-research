@@ -1,0 +1,17 @@
+{
+  "completed": true,
+  "target_control_passed": true,
+  "acceptance_status": "AWAITING_STAGE1_CONFIRMATION",
+  "later_stage_started": false,
+  "report_recovery_only": true,
+  "source_count": 20000,
+  "target_count": 5000,
+  "new_simulator_steps": 0,
+  "ended_utc": "2026-11-10T06:25:48.201920+00:00",
+  "original_run": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage0_20261110",
+  "evidence_sha256": {
+    "REPORT_ZH.md": "0d3c28bed6dabbaef10e717c4a971a7ad0da52bbf537bb39375c2a1641db6b87",
+    "RESULT.json": "2c27e1d6affc225d4cd10dc5c38fc074da071a9d9719bb9bc2e8bd960d4a501c",
+    "SOURCE_HASHES.json": "70ac4d727943781adcd8c311e9f52c68d830be6f99772934ddee12173494a297"
+  }
+}

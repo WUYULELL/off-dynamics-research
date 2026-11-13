@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "algorithm": "IQL",
+  "raw_loss_records": 20000,
+  "all_model_optimizer_scheduler_finite": true,
+  "complete_sampling_stream_verified": true,
+  "evaluation_RNG_and_lengths_verified": true,
+  "full_checkpoint_state_sha256": "57ea87137ab39356992c47818e1332e92196c5b7b1ef585a74394ecab34610d2",
+  "completed_sha256": "aba61d6356b118a06166036f9f80ade757d7786d91870a638998b3e2b021df6f",
+  "checkpoint_sha256": "db1342e43da219d84cc323a5b69521c4f6eb29597e214f5e1127413c88bc263b",
+  "new_optimization_updates": 0,
+  "new_environment_steps": 0,
+  "time": "2026-11-07T02:37:48.747284+00:00"
+}

@@ -1,0 +1,6 @@
+task,group,seed,Last5,Final,Last5_length_mean,Last5_length_median,Last5_length_minimum,Last5_length_fraction_under_200,Final_length_mean,Final_length_median,Final_length_minimum,Final_length_fraction_under_200
+hopper-morph,source,401,13.5521,13.5715,160.76,161.0,157,1.0,160.90,161.0,158,1.0
+hopper-morph,source,402,12.8377,12.8441,157.18,157.0,155,1.0,157.20,157.0,156,1.0
+hopper-morph,source,403,13.7820,13.7888,165.20,165.0,163,1.0,165.20,165.0,163,1.0
+hopper-morph,source,404,13.0701,13.0662,159.20,159.0,157,1.0,159.20,159.0,157,1.0
+hopper-morph,source,405,13.3757,13.3677,160.54,161.0,159,1.0,160.50,160.5,159,1.0

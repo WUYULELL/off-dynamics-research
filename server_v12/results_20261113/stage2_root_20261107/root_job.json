@@ -1,0 +1,10 @@
+{
+  "stage": "2",
+  "id": "root_walker2d_morph_m_m_s901",
+  "task": "walker2d-morph",
+  "seed": 901,
+  "controller_pid": 159886,
+  "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage2_root_20261107",
+  "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+  "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88"
+}

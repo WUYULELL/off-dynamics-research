@@ -1,0 +1,168 @@
+{
+  "stage": 1,
+  "stage2_authorized": false,
+  "job_ids": [
+    "full_cache",
+    "BC-fix_s601",
+    "BC-mix_s601",
+    "BC-all_s601",
+    "BC-fix-sel_s601",
+    "BC-mix-sel_s601",
+    "BC-fix_s602",
+    "BC-mix_s602",
+    "BC-all_s602",
+    "BC-fix-sel_s602",
+    "BC-mix-sel_s602",
+    "BC-fix_s603",
+    "BC-mix_s603",
+    "BC-all_s603",
+    "BC-fix-sel_s603",
+    "BC-mix-sel_s603",
+    "BC-fix_s604",
+    "BC-mix_s604",
+    "BC-all_s604",
+    "BC-fix-sel_s604",
+    "BC-mix-sel_s604",
+    "BC-fix_s605",
+    "BC-mix_s605",
+    "BC-all_s605",
+    "BC-fix-sel_s605",
+    "BC-mix-sel_s605"
+  ],
+  "bc_jobs": {
+    "BC-fix_s601": [
+      "BC-fix",
+      601
+    ],
+    "BC-mix_s601": [
+      "BC-mix",
+      601
+    ],
+    "BC-all_s601": [
+      "BC-all",
+      601
+    ],
+    "BC-fix-sel_s601": [
+      "BC-fix-sel",
+      601
+    ],
+    "BC-mix-sel_s601": [
+      "BC-mix-sel",
+      601
+    ],
+    "BC-fix_s602": [
+      "BC-fix",
+      602
+    ],
+    "BC-mix_s602": [
+      "BC-mix",
+      602
+    ],
+    "BC-all_s602": [
+      "BC-all",
+      602
+    ],
+    "BC-fix-sel_s602": [
+      "BC-fix-sel",
+      602
+    ],
+    "BC-mix-sel_s602": [
+      "BC-mix-sel",
+      602
+    ],
+    "BC-fix_s603": [
+      "BC-fix",
+      603
+    ],
+    "BC-mix_s603": [
+      "BC-mix",
+      603
+    ],
+    "BC-all_s603": [
+      "BC-all",
+      603
+    ],
+    "BC-fix-sel_s603": [
+      "BC-fix-sel",
+      603
+    ],
+    "BC-mix-sel_s603": [
+      "BC-mix-sel",
+      603
+    ],
+    "BC-fix_s604": [
+      "BC-fix",
+      604
+    ],
+    "BC-mix_s604": [
+      "BC-mix",
+      604
+    ],
+    "BC-all_s604": [
+      "BC-all",
+      604
+    ],
+    "BC-fix-sel_s604": [
+      "BC-fix-sel",
+      604
+    ],
+    "BC-mix-sel_s604": [
+      "BC-mix-sel",
+      604
+    ],
+    "BC-fix_s605": [
+      "BC-fix",
+      605
+    ],
+    "BC-mix_s605": [
+      "BC-mix",
+      605
+    ],
+    "BC-all_s605": [
+      "BC-all",
+      605
+    ],
+    "BC-fix-sel_s605": [
+      "BC-fix-sel",
+      605
+    ],
+    "BC-mix-sel_s605": [
+      "BC-mix-sel",
+      605
+    ]
+  },
+  "registered_gpus": [
+    {
+      "index": 3,
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "name": "NVIDIA RTX A6000",
+      "driver": "580.105.08",
+      "memory_total_MiB": 49140
+    }
+  ],
+  "per_GPU_limit": 3,
+  "global_GPU_limit": 20,
+  "cluster_six_rule_user_attested": false,
+  "seed_device_order": {
+    "601": [
+      3
+    ],
+    "602": [
+      3
+    ],
+    "603": [
+      3
+    ],
+    "604": [
+      3
+    ],
+    "605": [
+      3
+    ]
+  },
+  "assignment_rule": "cyclic registered order by seed; fall back in the fixed order if preferred device is blocked",
+  "code_freeze_sha256": "c40f78b87eb6276a1043ce30fa330529f2087424aa8f685f779014cb86af1c5d",
+  "config_sha256": "d72bc292fad73b6cfaf6f07afa188790cde50c218938801893081aff54747777",
+  "authorization_sha256": "7f0101870594d56a6c158ee878e90891af362795e038f62dcbb438ad74bffe94",
+  "transfer_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7"
+}

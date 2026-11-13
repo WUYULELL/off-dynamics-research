@@ -1,0 +1,64 @@
+{
+  "task": "hopper-morph",
+  "sample_count": 10000,
+  "unique_sampled_rows": 4326,
+  "dataset_rows": 5000,
+  "dataset_clipped_rows": 290,
+  "dataset_state_restoration_failures": 0,
+  "dataset_failed_restoration_rows": [],
+  "sampled_state_restoration_failures": 0,
+  "failed_restorations": [],
+  "state_linf_error": {
+    "n": 10000,
+    "finite_count": 10000,
+    "missing_count": 0,
+    "maximum": 1.7460656454026946e-06,
+    "median": 2.5079951049278293e-07,
+    "p99": 1.1970561608976035e-06,
+    "mean": 3.4973809047900006e-07
+  },
+  "reward_abs_error": {
+    "n": 10000,
+    "finite_count": 10000,
+    "missing_count": 0,
+    "maximum": 3.203107770133329e-07,
+    "median": 6.162255483666002e-08,
+    "p99": 2.2722200350155945e-07,
+    "mean": 7.402977595538651e-08
+  },
+  "terminal_mismatches": 0,
+  "historical_state_limit": 0.001,
+  "historical_reward_limit": 0.0001,
+  "historical_limits_met": true,
+  "windows_reference_state_error": {
+    "n": 5000,
+    "mean": 3.49772089436565e-07,
+    "median": 2.5247840393372023e-07,
+    "p95": 9.461284669498585e-07,
+    "max": 1.7460656454026946e-06
+  },
+  "state_error_ratio_to_windows": {
+    "maximum": 1.0,
+    "median": 0.9933503483277007
+  },
+  "windows_reference_same_dataset": true,
+  "windows_reference_same_xml": true,
+  "cross_platform_bitwise_equality_required": false,
+  "v12_replay_accepted": null,
+  "acceptance_status": "AWAITING_USER_REPLAY_REVIEW",
+  "reason": "V12 does not quantify significant replay-error increase; no automatic passage to 0.2",
+  "known_constructor_environment_steps": 1,
+  "adapter_environment_step_attempts": 10290,
+  "adapter_environment_step_returns": 10290,
+  "steps_by_phase": {
+    "chronological_state_recovery": 290,
+    "sampled_one_step_replay": 10000
+  },
+  "env_class": "gym.envs.mujoco.hopper_v3.HopperEnv",
+  "timestep": 0.002,
+  "frame_skip": 4,
+  "elapsed_seconds": 3.465799539349973,
+  "no_policy_evaluation": true,
+  "no_oracle_cache_created": true,
+  "new_training_updates": 0
+}

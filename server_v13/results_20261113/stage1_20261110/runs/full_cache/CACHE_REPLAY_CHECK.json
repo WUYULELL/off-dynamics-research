@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "replay_count": 10000,
+  "state_linf": {
+    "n": 10000,
+    "mean": 0.0,
+    "min": 0.0,
+    "median": 0.0,
+    "p90": 0.0,
+    "p99": 0.0,
+    "max": 0.0
+  },
+  "reward_abs": {
+    "n": 10000,
+    "mean": 0.0,
+    "min": 0.0,
+    "median": 0.0,
+    "p90": 0.0,
+    "p99": 0.0,
+    "max": 0.0
+  },
+  "terminal_disagreement": 0,
+  "total_steps": 10001,
+  "state_tolerance": 2e-06,
+  "reward_tolerance": 2e-06,
+  "sample_seed": 2026111001,
+  "sample_sha256": "d3d7d4740c63c461dd5356508911a94d94612720b38cb33964ac5d98454ad1d3",
+  "replay_sha256": "2b6a67b2bc3ef2739e001595a4dda4c47b9a551a38ca7bf20bb25b55a68b6f6e"
+}

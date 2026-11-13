@@ -1,0 +1,7 @@
+{
+  "python_binding": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage0_1_20261106/private_runtime/mujoco_py/__init__.py",
+  "extension": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage0_1_20261106/private_runtime/mujoco_py/generated/cymj_2.1.2.14_38_linuxcpuextensionbuilder_38.so",
+  "extension_sha256": "6d0289cb7f959d8600088624fe0b3c9064f732e861e32fbf0eef493683c01de0",
+  "mujoco_library": "/mnt/cs_dsns_public/<USER>/.mujoco210/mujoco210/bin/libmujoco210.so",
+  "mujoco_library_sha256": "9e7ffba152bff0e4e889e2fddf3850785fb5da28ebd05adbb6f4daaa34e3bd21"
+}

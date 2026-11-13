@@ -1,0 +1,14 @@
+{
+  "bitwise_equal": true,
+  "records_compared": 10000,
+  "records_with_difference": 0,
+  "first_difference": null,
+  "final_parameter_bits_equal": true,
+  "full_checkpoint_state_equal": true,
+  "initialization_equal": true,
+  "target_stream_equal": true,
+  "serialized_loss_JSONL_equal": true,
+  "same_Linux_GPU_only": true,
+  "Windows_results_not_paired": true,
+  "passed": true
+}

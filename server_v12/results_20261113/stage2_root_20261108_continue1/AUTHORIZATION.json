@@ -1,0 +1,6 @@
+{
+  "stage": "2",
+  "job_sha256": "96933ef5cbefb8777fa8a97d7e3922e27364f3767bc6654b295d015e75bc64af",
+  "scope": "only the unstarted ROOT weights and the original 20k trial",
+  "stage3_authorized": false
+}

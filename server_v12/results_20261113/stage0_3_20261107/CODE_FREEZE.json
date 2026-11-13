@@ -1,0 +1,18 @@
+{
+  "files": {
+    "audit.py": "8761d57a177068c1d43941e763d76a47c18467c315d6ae5b40501bdb9cea252e",
+    "common.py": "15a05531a5df519687f27fd32af4c107ced8071ca4aaddd3230de4c36ce9da76",
+    "config_template.json": "b3fb2a20b9f7f5f8fdb5163d3ac3f821c72666d083c3494353ed158f35f3abb9",
+    "pipeline.py": "0f4a60206da0c9a63b30273e48538eaf878d59abe20bece60c86460d1f66a38b",
+    "README_ZH.md": "13901613d78d53515f82d1e6ea4407351929cad703a02ee8ad1c59859eeae90a",
+    "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352",
+    "references/STAGE0_2_SOURCE_FREEZE.json": "b4c0b6e9615c18431412a8d9f92248c3056487523f691fcf54f588bb58ebff60",
+    "resources.py": "72bfb6553fce06d422248f9f64cfa8fa34576b53920f17d06973241b2477df60",
+    "run_in_tmux.sh": "0e306f878f9a0f1f753dee63395ad5ec174f848d55293beab2f9b1907cdb9ba7",
+    "science.py": "ebf30664b1b36677c1c2875a77269381a6ad254708a22d64b27683c0f9fa4986",
+    "SCIENCE_AST.json": "7cc281b46f7d31ddf182f86065c95e3d7e17f450828535e4abf6f8556e9bef70",
+    "worker.py": "1b65e0e68b52c6985859875b95f2ac083bec1decfd042f08a0cd627c7d61993e"
+  },
+  "project_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7",
+  "scope": "V12 0.3 only; up to 13 IQL and 1 BC short benchmark jobs on one allocated GPU; no later stage"
+}

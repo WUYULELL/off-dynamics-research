@@ -1,0 +1,69 @@
+{
+  "completed": true,
+  "job": {
+    "id": "determinism_a",
+    "task": "hopper-morph",
+    "seed": 201,
+    "temp": 10.0,
+    "steps": 10000,
+    "max_step": 500000,
+    "evaluate": false,
+    "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+    "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "formal_training": false
+  },
+  "counts": {
+    "learner_updates": 10000,
+    "Adam_updates": 30000,
+    "environment_construction_attempts": 0,
+    "environment_instances": 0,
+    "constructor_environment_steps": 0,
+    "evaluation_environment_steps": 0
+  },
+  "elapsed_seconds": 101.66099974699318,
+  "parameter_sha256": "ee55808b8d8ced34b254e2978873805aa1c9d4f11cc6ff73db925d405ca011ab",
+  "checkpoint_sha256": "53a45b1e2c4fbb63ca27dae8164d8558b2d1ea8fbab228aa74dfae8094534069",
+  "initialization_sha256": "92ee4ce9f5ee8b2d042f763545b6f97cf8c493b3cd867266b035891e375e94ad",
+  "losses_npy_sha256": "06daf932160a92fcfb026e9216acea7d1f131461aa6b76a63e635602279bbf68",
+  "losses_jsonl_sha256": "404211d3d7414d27c347d2387e9877e33efb53b290010c681433f274885721c7",
+  "sampling_sha256": "5ae405ce2a2d32544f976a550a0f989395cfd15a994e586a1af30b7a8c1d6f7e",
+  "loss_statistics": {
+    "V": {
+      "mean": 0.040271666886790625,
+      "minimum": 0.00010278587433276698,
+      "median": 0.03119449783116579,
+      "p99": 0.17195031732320787,
+      "maximum": 0.5040403604507446,
+      "first": 0.010718684643507004,
+      "last": 0.09586815536022186
+    },
+    "Q": {
+      "mean": 1.3697578241807409,
+      "minimum": 0.00897961389273405,
+      "median": 0.5459261536598206,
+      "p99": 19.400528945922858,
+      "maximum": 44.66946792602539,
+      "first": 18.484703063964844,
+      "last": 0.9615270495414734
+    },
+    "actor": {
+      "mean": 0.05681973733737177,
+      "minimum": 9.1854170022998e-05,
+      "median": 0.033246053382754326,
+      "p99": 0.3551581993699074,
+      "maximum": 1.6910308599472046,
+      "first": 0.11694635450839996,
+      "last": 0.022686798125505447
+    }
+  },
+  "evaluation_count": 0,
+  "evaluation_episodes": 0,
+  "length_statistics": null,
+  "all_model_parameters_finite": true,
+  "peak_GPU_allocated_bytes": 5836288,
+  "peak_GPU_reserved_bytes": 6291456,
+  "ended_utc": "2026-11-07T01:39:21.904163+00:00",
+  "formal_result": false,
+  "Last5_applicable": false,
+  "automatic_resume_supported": false
+}

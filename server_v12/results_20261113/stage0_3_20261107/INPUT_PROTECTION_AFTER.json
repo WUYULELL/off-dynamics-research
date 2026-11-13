@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "original_transfer_unchanged": true,
+  "prior_0_2_output_and_source_unchanged": true,
+  "Conda_metadata_and_original_MuJoCo_binding_unchanged": true,
+  "Gym_files_unchanged": true
+}

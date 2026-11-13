@@ -1,0 +1,5 @@
+{
+  "time": "2026-11-10T06:20:04.220811+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/cs_dsns_public/<USER>/v13_action_fix/stage0/run_stage0.py\", line 474, in main\n    stage0(out, cfg, freeze)\n  File \"/mnt/cs_dsns_public/<USER>/v13_action_fix/stage0/run_stage0.py\", line 425, in stage0\n    report(out, target_summary, fail, source_summary, bins, budget)\n  File \"/mnt/cs_dsns_public/<USER>/v13_action_fix/stage0/run_stage0.py\", line 255, in report\n    lines.append(f'|{i}|{s[\"n\"]}|{b[\"min\"]:.7g}–{b[\"max\"]:.7g}|{b[\"median\"]:.7g}|'\nKeyError: 'min'\n",
+  "later_stage_started": false
+}

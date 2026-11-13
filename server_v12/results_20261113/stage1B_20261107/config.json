@@ -1,0 +1,28 @@
+{
+  "stage": "1B",
+  "seed_range": [
+    401,
+    405
+  ],
+  "steps_per_job": 200000,
+  "cosine_T_max": 200000,
+  "evaluation_every": 5000,
+  "episode_count": 10,
+  "seeds_fixed": true,
+  "maximum_GPU_workers": 6,
+  "Torch_threads": 1,
+  "BLAS_threads": 1,
+  "lr": 0.0003,
+  "batch": 64,
+  "beta": 0,
+  "trajectory_seed": 777,
+  "rule": "delta(7−4)>2*WelchSE unsaturated; delta<0 or delta<WelchSE saturated; otherwise uncertain",
+  "last5_points": [
+    180000,
+    185000,
+    190000,
+    195000,
+    200000
+  ],
+  "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88"
+}

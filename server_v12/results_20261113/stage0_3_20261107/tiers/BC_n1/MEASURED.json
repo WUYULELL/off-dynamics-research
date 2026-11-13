@@ -1,0 +1,42 @@
+{
+  "name": "BC_n1",
+  "algorithm": "BC",
+  "concurrency": 1,
+  "worker_results": [
+    {
+      "job": "BC_n1_s901",
+      "seed": 901,
+      "first_10000_seconds": 29.134464429691434,
+      "second_10000_seconds": 29.7125435564667,
+      "training_seconds": 58.84700798615813,
+      "evaluation_seconds": 0.9086669413372874,
+      "length_statistics": {
+        "n": 10,
+        "mean": 236.6,
+        "median": 252.0,
+        "minimum": 111,
+        "fraction_under_200": 0.4,
+        "episodes_under_200": 4
+      }
+    }
+  ],
+  "rates": {
+    "total_training_updates": 20000,
+    "group_training_wall_seconds": 58.93390596937388,
+    "aggregate_group_updates_per_second": 339.3632183550396,
+    "sum_individual_updates_per_second": 339.8643479835773,
+    "per_process_updates_per_second": [
+      339.8643479835773
+    ]
+  },
+  "mean_GPU_utilization_percent": 7.571428571428571,
+  "max_GPU_memory_used_MiB": 2031,
+  "mean_owned_CPU_percent_one_core_100": 99.05400430244457,
+  "mean_host_CPU_busy_percent": 5.891119931948405,
+  "max_worker_RSS_bytes": 5037907968,
+  "pressure_warnings": [],
+  "training_sample_count": 28,
+  "monitor_interval_seconds": 2,
+  "tier_total_wall_seconds": 66.90116232726723,
+  "metrics_include_monitor_and_logging_overhead": true
+}

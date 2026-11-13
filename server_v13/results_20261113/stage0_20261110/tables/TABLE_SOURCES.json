@@ -1,0 +1,10 @@
+{
+  "source_report": "server_v13/results_20261113/stage0_20261110/REPORT_ZH.md",
+  "source_original_sha256": "0b2ed9196c90fe189ea16cb9a446c6bbd766d3a5491efd4fec349d2fe8e40a6f",
+  "source_public_sha256": "0b2ed9196c90fe189ea16cb9a446c6bbd766d3a5491efd4fec349d2fe8e40a6f",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [],
+  "per_seed_rows": 0,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

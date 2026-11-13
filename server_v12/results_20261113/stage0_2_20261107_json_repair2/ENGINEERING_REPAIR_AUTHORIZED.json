@@ -1,0 +1,7 @@
+{
+  "explicit_manual_CLI_confirmation": true,
+  "confirmation_flag": "--confirm-engineering-repair",
+  "old_failure_sha256": "cb46c25d06df9ad8179ec0a57ed1fd5928b8686919c158fb2a28448847d1c6f8",
+  "scope": "JSON/provenance correction; resource rule and original 0.2 three jobs unchanged",
+  "time": "2026-11-07T01:36:53.920086+00:00"
+}

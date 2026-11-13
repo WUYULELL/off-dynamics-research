@@ -1,0 +1,93 @@
+{
+  "name": "IQL_n4",
+  "algorithm": "IQL",
+  "concurrency": 4,
+  "worker_results": [
+    {
+      "job": "IQL_n4_s901",
+      "seed": 901,
+      "first_10000_seconds": 100.89796126261353,
+      "second_10000_seconds": 102.49993654247373,
+      "training_seconds": 203.39789780508727,
+      "evaluation_seconds": 0.8366297939792275,
+      "length_statistics": {
+        "n": 10,
+        "mean": 112.6,
+        "median": 97.5,
+        "minimum": 93,
+        "fraction_under_200": 1.0,
+        "episodes_under_200": 10
+      }
+    },
+    {
+      "job": "IQL_n4_s902",
+      "seed": 902,
+      "first_10000_seconds": 101.76024521235377,
+      "second_10000_seconds": 102.52960627060384,
+      "training_seconds": 204.2898514829576,
+      "evaluation_seconds": 1.1277455789968371,
+      "length_statistics": {
+        "n": 10,
+        "mean": 169.4,
+        "median": 165.5,
+        "minimum": 158,
+        "fraction_under_200": 1.0,
+        "episodes_under_200": 10
+      }
+    },
+    {
+      "job": "IQL_n4_s903",
+      "seed": 903,
+      "first_10000_seconds": 101.9067777460441,
+      "second_10000_seconds": 101.94822545628995,
+      "training_seconds": 203.85500320233405,
+      "evaluation_seconds": 1.088224339298904,
+      "length_statistics": {
+        "n": 10,
+        "mean": 157.5,
+        "median": 170.5,
+        "minimum": 97,
+        "fraction_under_200": 1.0,
+        "episodes_under_200": 10
+      }
+    },
+    {
+      "job": "IQL_n4_s904",
+      "seed": 904,
+      "first_10000_seconds": 102.33634560275823,
+      "second_10000_seconds": 99.85251600109041,
+      "training_seconds": 202.18886160384864,
+      "evaluation_seconds": 1.0231391107663512,
+      "length_statistics": {
+        "n": 10,
+        "mean": 144.0,
+        "median": 149.5,
+        "minimum": 89,
+        "fraction_under_200": 1.0,
+        "episodes_under_200": 10
+      }
+    }
+  ],
+  "rates": {
+    "total_training_updates": 80000,
+    "group_training_wall_seconds": 204.34823924209923,
+    "aggregate_group_updates_per_second": 391.48857018151705,
+    "sum_individual_updates_per_second": 393.2559141659583,
+    "per_process_updates_per_second": [
+      98.3294331742094,
+      97.90011522754693,
+      98.10894844778089,
+      98.91741731642107
+    ]
+  },
+  "mean_GPU_utilization_percent": 97.84536082474227,
+  "max_GPU_memory_used_MiB": 8129,
+  "mean_owned_CPU_percent_one_core_100": 397.0304241898769,
+  "mean_host_CPU_busy_percent": 8.632433071247274,
+  "max_worker_RSS_bytes": 5051367424,
+  "pressure_warnings": [],
+  "training_sample_count": 97,
+  "monitor_interval_seconds": 2,
+  "tier_total_wall_seconds": 214.61819444783032,
+  "metrics_include_monitor_and_logging_overhead": true
+}

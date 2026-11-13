@@ -1,0 +1,64 @@
+{
+  "training_updates": 20000,
+  "train_start_monotonic": 4297770.818854957,
+  "train_end_monotonic": 4297829.665862943,
+  "release_monotonic": 4297770.731956974,
+  "training_seconds": 58.84700798615813,
+  "first_10000_seconds": 29.134464429691434,
+  "second_10000_seconds": 29.7125435564667,
+  "target_draws": 1280000,
+  "target_stream_sha256": "da6f34fdb82d13a1bb82c029ab8821dd1759ce889318e00fdc6c64173d79b331",
+  "completed": true,
+  "job": {
+    "id": "BC_n1_s901",
+    "tier": "BC_n1",
+    "algorithm": "BC",
+    "concurrency": 1,
+    "seed": 901,
+    "steps": 20000,
+    "task": "hopper-morph",
+    "variant": "BC_all",
+    "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+    "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "controller_pid": 115622,
+    "barrier_timeout_seconds": 7200,
+    "formal_result": false
+  },
+  "counts": {
+    "training_updates": 20000,
+    "Adam_updates": 20000,
+    "constructor_environment_steps": 1,
+    "evaluation_environment_steps": 2366
+  },
+  "evaluation_seconds": 0.9086669413372874,
+  "evaluation_episodes": 10,
+  "length_statistics": {
+    "n": 10,
+    "mean": 236.6,
+    "median": 252.0,
+    "minimum": 111,
+    "fraction_under_200": 0.4,
+    "episodes_under_200": 4
+  },
+  "parameter_sha256": "b2d6321ba92b5ce6c4e5c033ded140c0cb6fcd003b09ceb821f0faf892361038",
+  "all_model_parameters_finite": true,
+  "peak_GPU_allocated_bytes": 1658880,
+  "peak_GPU_reserved_bytes": 2097152,
+  "losses_sha256": "f1fe01cf5986faa51ef2c59bc3de2a445ac4114e520b37994ee4c6330530386b",
+  "JSONL_sha256": "50e583019e55ba787fc2c18d2b9a1cbf2e13aad8aec4242bdaa8b5fd18c8cb7d",
+  "checkpoint_sha256": "7f00611757d85710d45d0691656162e1e52731687dee3862d6f9bc302cb42455",
+  "loss_statistics": [
+    {
+      "mean": 0.004610961036253139,
+      "minimum": 0.0005933580687269568,
+      "median": 0.002033752272836864,
+      "p99": 0.04886062953621093,
+      "maximum": 0.47278982400894165,
+      "first": 0.47278982400894165,
+      "last": 0.0015650491695851088
+    }
+  ],
+  "ended_utc": "2026-11-07T02:38:58.987482+00:00",
+  "formal_result": false,
+  "Last5_applicable": false
+}

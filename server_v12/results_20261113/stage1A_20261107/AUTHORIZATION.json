@@ -1,0 +1,13 @@
+{
+  "stage": "1A",
+  "jobs": {
+    "hopper-morph_source_s401": "c6507969cc6f7273b03eefe9bb9c93101e994cb47da8b79a63acd10e027918cf",
+    "hopper-morph_source_s402": "19c6392236bd0e0e9430bc6c84c6a8f357eaaeac9bc23ffcae258aaac76bf386",
+    "hopper-morph_source_s403": "97c25b0876871044920bdda02cfeb24edd35dfcb2cfe71cd545881df15f4de6b",
+    "hopper-morph_source_s404": "e0ac86f3f80c48072ad8daad240c2010fdf867c0c32844dd59739e85670d3667",
+    "hopper-morph_source_s405": "7bce49830c60a09c88ef6301a4314c9dab395ecbfc4c839ca798ec838d5c4295"
+  },
+  "total_jobs": 5,
+  "max_GPU_training_processes": 6,
+  "next_stage_authorized": true
+}

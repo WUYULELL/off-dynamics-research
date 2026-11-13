@@ -1,0 +1,59 @@
+{
+  "job": {
+    "id": "BC_n1_s901",
+    "tier": "BC_n1",
+    "algorithm": "BC",
+    "concurrency": 1,
+    "seed": 901,
+    "steps": 20000,
+    "task": "hopper-morph",
+    "variant": "BC_all",
+    "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+    "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "controller_pid": 115622,
+    "barrier_timeout_seconds": 7200,
+    "formal_result": false
+  },
+  "learner": {
+    "actor_lr": 0.0003,
+    "hidden_sizes": 256,
+    "batch": 64,
+    "beta": 0,
+    "cosine_max_step": 200000,
+    "Q_V_constructed": false
+  },
+  "physical_gpu": {
+    "index": 0,
+    "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "name": "NVIDIA RTX A6000",
+    "driver": "580.105.08",
+    "memory_used_MiB": 1965,
+    "memory_total_MiB": 49140,
+    "utilization_gpu_percent": 10,
+    "raw": "0, GPU-965aff83-8d85-646b-eb0e-042db35f2e88, NVIDIA RTX A6000, 580.105.08, 1965, 49140, 10\n"
+  },
+  "scientific_AST": {
+    "source_snapshot/oracle_diag/coverage_raw_r14/runtime.py::seed": "5465c18200bd52c72fe96dd0eec2f0bd879ae885c7cb2bdf0425468b3fe5f86c",
+    "source_snapshot/oracle_diag/coverage_raw_r14/runtime.py::model_config": "9ca2250fabe114be9d539c704b2daba977cc37b8bf1ba9b6b8802b76da93d17f",
+    "source_snapshot/oracle_diag/coverage_raw_r14/runtime.py::target_data": "914719a43d152c5a1bc41a44b0ef82ce942f89a9b8e576b344b377d1e4d59d48",
+    "source_snapshot/oracle_diag/coverage_raw_r14/learner.py::Learner": "63ba62c2d4066e161e249b790e83538d6188420ca0224003019b45ae28f2f769",
+    "source_snapshot/oracle_diag/coverage_raw_r14/learner.py::Sampler": "3ffa9b9974290b8f7ba59a3ddb7036c9539754589be9668f736b2efde298a95d",
+    "source_snapshot/oracle_diag/coverage_raw_r14/learner.py::initialize": "3ae6350fca6ec26d6b5fe41969afec44734136f347a048647c3c13eef96730a0",
+    "source_snapshot/oracle_diag/coverage_raw_r14/train.py::evaluate": "fba7935aa26584e1913c8e62c5c4fe6570b1d48049900570a6cd51cda6affd7a",
+    "source_snapshot/oracle_diag/v9_hopper_label_headroom/stage3/runtime.py::seed": "c3df9057d9638f6cc3317c26f687e3484694ec0711569af4f304d5d98a19d09d",
+    "source_snapshot/oracle_diag/v9_hopper_label_headroom/stage3/runtime.py::ids": "8904edeec5b494bbb2b4e98064f103eda2850b5ac9baae59b2df093c6bf67bba",
+    "source_snapshot/oracle_diag/v9_hopper_label_headroom/stage3/learner.py::Actor": "aceaf5eb6516e5543598d8d8551a901f41710ea8e3e263211b6d4e36f9296c2d",
+    "source_snapshot/oracle_diag/v9_hopper_label_headroom/stage3/learner.py::Sampler": "489d458cdccb261a0b08e90dfa1c95721f50fe0e340cb7137d95563d48edf9c3",
+    "source_snapshot/oracle_diag/v9_hopper_label_headroom/stage3/train.py::evaluate": "3eb727ff2d435a9a77a26016a8a6ac7b1b72c9c9628a2b887a3de93121ae7a50"
+  },
+  "threads": 1,
+  "source_rows": 0,
+  "raw_observations": true,
+  "reward_scale": 1.0,
+  "diagnostic_only": true,
+  "no_warmup_optimization": true,
+  "deterministic_algorithms": true,
+  "matmul_allow_tf32": true,
+  "cudnn_allow_tf32": true,
+  "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+}

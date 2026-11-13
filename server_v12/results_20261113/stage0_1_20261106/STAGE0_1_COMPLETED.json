@@ -1,0 +1,53 @@
+{
+  "completed": true,
+  "acceptance_status": "AWAITING_USER_REPLAY_REVIEW",
+  "v12_environment_acceptance_approved": false,
+  "historical_technical_checks": true,
+  "task_results": {
+    "hopper-morph": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage0_1_20261106/hopper-morph/RESULT.json",
+    "walker2d-morph": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage0_1_20261106/walker2d-morph/RESULT.json"
+  },
+  "counts": {
+    "environment_construction_attempts": 2,
+    "environment_instances": 2,
+    "known_constructor_environment_steps": 2,
+    "adapter_environment_step_attempts": 22180,
+    "adapter_environment_step_returns": 22180
+  },
+  "new_training_updates": 0,
+  "model_instances": 0,
+  "optimizer_instances": 0,
+  "GPU_tests": 0,
+  "Torch_imported": false,
+  "stage0_2_started": false,
+  "later_stages_started": false,
+  "elapsed_seconds": 28.65992460679263,
+  "ended_utc": "2026-11-06T14:25:35.474129+00:00",
+  "evidence_sha256": {
+    "REPORT_ZH.md": "213327296407dad9d2f19a5410f6c7dce80fb1087ef2406c66c7e10e3fef6245",
+    "INPUT_HASHES_BEFORE.json": "0b4da9b0616df0b9d1a378d8e17a1c7e5bac5709a7e8888f46520f2b0a503c91",
+    "GYM_INPUT_HASHES.json": "58f11ea1e4e891481130d5e55dbb303bb26906f3923c7cd2c4bb74655d8cebcd",
+    "ACTUAL_NATIVE_RUNTIME.json": "77dbd14f8713f0bea2146a5b5dd4fbfa238d162f21bf07854d5b00be873a8f28",
+    "config.json": "539e01bd058f374f853ea35e686a44d197a3de1851f98f850dbf976623e4a3a0",
+    "MUJOCO_BINDING_COPY.json": "2757ccecd4f9d5e518025e9c7ec9dbed62aa86826c02cf934dcae996229ed5f7",
+    "CONDA_METADATA_HASHES_BEFORE.json": "fac004e353462c6f5d5c41304a2d55c1733936fa17e55cd10731695149d344ec",
+    "RESOURCES_BEFORE.json": "b47b03eb545bb621851f53db8fc49cf2563c03c678d3b1926212505c5766e13f",
+    "INPUT_PROTECTION_AFTER.json": "937b7ad2dbd2bc657ea07e38e1c2cf2921a4a6e3e1d8c5fc7ca71014dbb4527d",
+    "CODE_FREEZE.json": "d4f8f6bea8126f92551c2d51f0b842a2a3b7f04da18f2b94bea5a0e417337d2d",
+    "ENVIRONMENT.json": "b57fc9aea9186ac25fe804d055df8ed77b96e01d3a37d6cff22d802c8884c0c9",
+    "PRIVATE_BINDING_HASHES_AFTER.json": "31f3112e2c55d395d33e9e5975ac2795160cb5ed936aefa7a64c6ab25d4141f5",
+    "CONDA_PACKAGES.json": "a0909c340f905f862eddb1216323d94dd3850c039baa502b327204d33661f114",
+    "walker2d-morph/RESULT.json": "77101d040f71c92be237dece6b3866d0d40c8cab2d9fd1a3ee3da1d6e1e59a34",
+    "walker2d-morph/replay_steps.jsonl": "5d02f998393de1fd50c8f4204e810c064e79bf519da4bb3bd4c79c80b989277a",
+    "walker2d-morph/PRE_SIMULATOR_COMMITMENT.json": "e0d52b94f3d19fd73fe123a5b2611db46adc2e88a700887051959662dcd9c02d",
+    "walker2d-morph/restoration_states.npz": "d22c9c73c274c6967f64f2afbff069d6a53b58e2a6df25348982f9d33f7172e3",
+    "walker2d-morph/replay_inputs_outputs.npz": "2b697aec6fdb7abb52baf7b830bc88e4a12b872d9c9a1cd11516467248f9c431",
+    "walker2d-morph/sample_indices.npy": "68b09b1cfd996e803b38105e2d4968dd56ac37be29baf6d95ac388ba7973f3e4",
+    "hopper-morph/RESULT.json": "11e026d5defe8670c7766e8b6d853005045a9184abee78844d73bd51edd57844",
+    "hopper-morph/replay_steps.jsonl": "d90141b8adc2ae5fc66263daf2e9f3516e1dd83dbbb510f6e3931e86cfad3337",
+    "hopper-morph/PRE_SIMULATOR_COMMITMENT.json": "ab3fbb50c6543400304dcdc7460d4c386a81b75f32ca9f743d72fbdb162b54c4",
+    "hopper-morph/restoration_states.npz": "b305304db7b34cb12fec3eee8f85d17c51c9322cd19ad7b5f02e89eb77c33a03",
+    "hopper-morph/replay_inputs_outputs.npz": "24cdaa6e2ecc90650c446685490eda260391278f2e2e305109f2f578a479205b",
+    "hopper-morph/sample_indices.npy": "c3aa9d49fd552f4c2372abf942321478ecd48f49cd1910738a69ac93f8c33b47"
+  }
+}

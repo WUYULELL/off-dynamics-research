@@ -1,0 +1,44 @@
+{
+  "max_GPU_processes": 3,
+  "per_job_hours": {
+    "ROOT": 5.44,
+    "T": 1.4080833333333334,
+    "BC-all": 0.25
+  },
+  "nominal_waves": [
+    [
+      "T",
+      "T",
+      "BC-all"
+    ],
+    [
+      "BC-all",
+      "BC-all",
+      "BC-all"
+    ],
+    [
+      "BC-all"
+    ]
+  ],
+  "weights_once_hours_anchor": 0.0,
+  "nominal_wall_hours_before_wait_and_overhead": 1.9080833333333334,
+  "single_worker_wall_hours_before_wait_and_overhead": 4.066166666666667,
+  "selected_GPU": {
+    "index": 3,
+    "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+    "name": "NVIDIA RTX A6000",
+    "driver": "580.105.08",
+    "memory_used_MiB": 0,
+    "memory_total_MiB": 49140,
+    "utilization_gpu_percent": 0,
+    "raw": "3, GPU-ccef28f6-93fc-9d7d-037e-e8217619672a, NVIDIA RTX A6000, 580.105.08, 0, 49140, 0\n"
+  },
+  "initial_admissible_own_workers": 3,
+  "budget_hours_with_margin": null,
+  "assumed_parallel_speedup": "three concurrent jobs, same per-job time",
+  "stage0_T_anchor": "IQL 500k extrapolation from one-process Hopper short run",
+  "stage1B_BC_anchor": "Walker-containing BC waves, about 15 minutes per wave",
+  "stage2_ROOT_anchor": "Walker2d-morph 20k trial extrapolation, no 3-way ROOT measurement",
+  "gpu_occupancy_wait_seconds": "unknown until launch",
+  "resource_limited_concurrency_can_extend_duration": true
+}

@@ -1,0 +1,11 @@
+{
+  "rows": 8192,
+  "rows_sha256": "44311f051b150d8eb0e334f6690da6dee5cb6ae9a1880913b17195243d392c73",
+  "wall_seconds": 39.188698176294565,
+  "peak_RSS_bytes": 293130240,
+  "environment_step_counts": {
+    "constructor": 1,
+    "solve": 101582
+  },
+  "completed_utc": "2026-11-10T06:54:07.375501+00:00"
+}

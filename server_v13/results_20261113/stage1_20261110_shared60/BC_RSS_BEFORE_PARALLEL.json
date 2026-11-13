@@ -1,0 +1,9 @@
+{
+  "pilot": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601",
+  "pilot_peak_RSS_bytes": 5133131776,
+  "worker_estimate_bytes": 6416414720,
+  "controller_RSS_bytes": 38973440,
+  "maximum_slots": 3,
+  "projected_total_RSS_bytes": 19288217600,
+  "time": "2026-11-10T12:43:28.880328+00:00"
+}

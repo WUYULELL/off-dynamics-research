@@ -1,0 +1,102 @@
+{
+  "job": {
+    "stage": 1,
+    "task": "hopper-morph",
+    "job": "BC-mix-sel_s602",
+    "run": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110_shared60",
+    "output": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix-sel_s602",
+    "attempt": 0,
+    "plan_sha256": "ee9770036f5ec98b0d393a4713b854d5737e3198424c2dd7ca2df6c41d4df1e1",
+    "controller_pid": 3367208,
+    "gpu": {
+      "index": 1,
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "name": "NVIDIA RTX A6000",
+      "driver": "580.105.08",
+      "memory_total_MiB": 49140
+    },
+    "session": 1,
+    "boot_id": "0748a4e7-db67-4d7a-856b-b1b040658b13",
+    "variant": "BC-mix-sel",
+    "seed": 602,
+    "cache": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/full_cache",
+    "cache_receipt_sha256": "37d5891bf4108b17fc786361b6fef27820a4be3362871e52a085feffb13e1f98",
+    "private_binding": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110_shared60/runtime_0001/private_runtime/mujoco_py"
+  },
+  "training": {
+    "variants": [
+      "BC-fix",
+      "BC-mix",
+      "BC-all",
+      "BC-fix-sel",
+      "BC-mix-sel"
+    ],
+    "seeds": [
+      601,
+      602,
+      603,
+      604,
+      605
+    ],
+    "resource_pilot": "BC-mix_s601",
+    "steps": 200000,
+    "batch_each_domain": 64,
+    "actor": "frozen V9 Actor and IQL_DYN Policy, beta=0, no critic",
+    "lr": 0.0003,
+    "hidden_size": 256,
+    "cosine_T_max": 200000,
+    "mixed_loss": "mean target action MSE + mean source action MSE",
+    "evaluation_every": 5000,
+    "episodes_each": 10,
+    "evaluation_seed": "500000 + 10*(seed-301) + episode, same V9/V12 convention",
+    "last5": [
+      180000,
+      185000,
+      190000,
+      195000,
+      200000
+    ],
+    "loss_log_dtype": "<f4 columns target_MSE, source_MSE, total; absent-domain entry is zero",
+    "threads": 1,
+    "deterministic_algorithms": true,
+    "TF32": true
+  },
+  "filter": {
+    "field": "e1",
+    "comparison": "<=",
+    "threshold": 0.084,
+    "basis": "Stage 0 source residual median 0.084036923; fixed by user before stage 1; no policy returns consulted"
+  },
+  "inputs": {
+    "target": {
+      "rows": 5000,
+      "sample_index_sha256": "a3d44437f284b46e5d827df6101e63efe16f752040ad67db809c061bc367bde5",
+      "data_sha256": "135d69d7ae3d20d179219b0ae4f489d77e29b651375a7e66f4a3f1b5d85cd7bb"
+    },
+    "source": {
+      "rows": 503298,
+      "sample_index_sha256": "f428a347c3959a0e0614bdd273b684fa661cb1e90516b51888ab475cb7dab4bd",
+      "raw_row_sha256": "3530f0c3ed6a649dabbb984f618cb6906d5fb004fd02d1ebf83dddae227fa091",
+      "files": {
+        "source_observations.npy": "df9b1636eb6e7c7823ce4721a8c73ab95e2ced0bc41d4e5510cd16a605d57a79",
+        "action_fixed.npy": "571e583d3d581d2369c948b39327fbf62c08e505b33cca98b0e1ff0cfd4ce56a",
+        "row_id.npy": "c76f42b883d718528964e75e6516da8fb8878803ec00285291bf8992da1dd9f9",
+        "selected_positions.npy": "57d5cbca97c9cf98d99d8df800f396d27a40c8f1d9c79c293daacf1d8bd639e9"
+      }
+    }
+  },
+  "normalization": {
+    "source_dataset": "data/source/hopper_medium-v2.hdf5",
+    "target_dataset": "data/target/hopper_morph_medium.hdf5",
+    "xml": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104/data/xml/hopper_morph.xml",
+    "target_rows": 5000,
+    "source_rows": 999998,
+    "state_dim": 11,
+    "action_dim": 3,
+    "score_min": -26.3360015397715,
+    "score_max": 3152.75,
+    "timestep": 0.002,
+    "xml_sha256": "96aae8bfdd48aa51c28a3a4c1fc84d07958c3c406724468995279347b6474ed2"
+  },
+  "Q_or_V_constructed": false
+}

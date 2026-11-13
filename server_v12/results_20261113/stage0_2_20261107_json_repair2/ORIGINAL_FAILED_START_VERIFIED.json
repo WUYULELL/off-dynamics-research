@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "old_failure": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage0_2_20261106",
+  "old_failure_sha256": "cb46c25d06df9ad8179ec0a57ed1fd5928b8686919c158fb2a28448847d1c6f8",
+  "old_files_sha256": {
+    "CODE_FREEZE.json": "297ecc147975cb4bf98660110e7391d93671ed38d92cc9d31bfc78a65c233248",
+    "ENVIRONMENT_BEFORE.json": "d9620117e879f6d001dbb916a3a433fcfc2986c551bf9708a6783e6b51ed0e64",
+    "FAILED.json": "cb46c25d06df9ad8179ec0a57ed1fd5928b8686919c158fb2a28448847d1c6f8",
+    "GYM_INPUT_HASHES.json": "58f11ea1e4e891481130d5e55dbb303bb26906f3923c7cd2c4bb74655d8cebcd",
+    "INPUT_HASHES_BEFORE.json": "0b4da9b0616df0b9d1a378d8e17a1c7e5bac5709a7e8888f46520f2b0a503c91",
+    "REPORT_ZH.md": "ab412b77cda28ac3743581d88f4afa864d666db712faac4b28561302d2a94b82",
+    "STAGE0_1_APPROVAL.json": "11470b64c35c1669d15d5d6ba4909b0be31d577370236275333f6e6e1dabea20",
+    "config.json": "fce8d6359592ddd20304f61f884e089d5f02a5e83514870684e3e76816bd1d29"
+  },
+  "freeze_content": {
+    "parsed_JSON_content_equal": true,
+    "actual_raw_sha256": "297ecc147975cb4bf98660110e7391d93671ed38d92cc9d31bfc78a65c233248",
+    "expected_raw_sha256": "493d8a9ee58fab0e23a91a7c543b138b0e5bcabfe3a79ce3313ce17899a9dd5a",
+    "canonical_content_sha256": "87834e9d51766fa74a3ea00287335f6671973d1d5bc723fff8e717dbb5cf11fc",
+    "raw_bytes_equal": false
+  },
+  "source_packages": {
+    "/mnt/cs_dsns_public/<USER>/v12_linux/stage0_2": {
+      "FROZEN.json": "493d8a9ee58fab0e23a91a7c543b138b0e5bcabfe3a79ce3313ce17899a9dd5a",
+      "README_ZH.md": "6003a1176ba32dfded8962109e017ee10ddcaa2c3a089a42d015920688eac451",
+      "SCIENCE_AST.json": "dc0d624b5766032fa2af9ca67c3ae0a857dd115252141a2f60c204a609ef9d3e",
+      "audit.py": "ca4c22c39ca02dd4c46efc770db0e8025f328f347da3caf95906c189fec59001",
+      "common.py": "cb6007011d60a50090d4f1006288179cca64360afb60fadeafb3d7186bb102d9",
+      "config_template.json": "857e8476bc649355ab10c5bc2549fb968f071f4ac44b45612171b56e0dc9bd5a",
+      "pipeline.py": "5448a8e987c20da45046368d749d90557e9807d2f14205d6a0dca1b15e3eb3c2",
+      "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352",
+      "run_in_tmux.sh": "309ee0654943fc8679041308cd23f9c86b86477690ba188746c3efb37ddd6c32",
+      "science.py": "ffe28afc56fef034f4b63e5b9efa8705bca5309869c26b9f7333c6389a651978",
+      "worker.py": "e47c9d42d2edb16105251a00204c63ddb8aec8b8cc19f1da986536c420768407"
+    },
+    "/mnt/cs_dsns_public/<USER>/v12_linux/stage0_2_resource_repair_20261107": {
+      "FROZEN.json": "d474ec8904357fda4fe9002cbed64974baf53b1d480279501c97736deb256cd8",
+      "README_ZH.md": "410882b108cd4c26d03735cf3d4b1f0741cda39dc721272cf798a84b934eb6ff",
+      "REPAIR_CHANGELOG.json": "39c4a28eb8010a978d269b2398a2d69696544742e988744019fec6e2fa1bca3a",
+      "SCIENCE_AST.json": "dc0d624b5766032fa2af9ca67c3ae0a857dd115252141a2f60c204a609ef9d3e",
+      "audit.py": "ca4c22c39ca02dd4c46efc770db0e8025f328f347da3caf95906c189fec59001",
+      "common.py": "2e7368d2d8f3416fd69accf3416e2bb7654334e0910d9d58796ab3f7badc6050",
+      "config_template.json": "f8a84b3fe4ad9032c4619979f2e561adc66f91e93688af5252d1a3bb7a35da33",
+      "pipeline.py": "1f700d94db1611ebef0907b445fe74680daa52dc9b38c8d4205ea4ca719c79fc",
+      "references/INSTRUCTION_V12.md": "54fc24df2ed1f93439d784332167500ae960eec5c8d49d1f2995af9c5c6e0352",
+      "run_in_tmux.sh": "bc0bb8f09fad41ada0f9418a6f58e00676e3fc3d6d1b2218586104dc818c3414",
+      "science.py": "ffe28afc56fef034f4b63e5b9efa8705bca5309869c26b9f7333c6389a651978",
+      "worker.py": "e47c9d42d2edb16105251a00204c63ddb8aec8b8cc19f1da986536c420768407"
+    }
+  },
+  "original_source_verification": {
+    "parsed_JSON_content_equal": true,
+    "actual_raw_sha256": "493d8a9ee58fab0e23a91a7c543b138b0e5bcabfe3a79ce3313ce17899a9dd5a",
+    "expected_raw_sha256": "493d8a9ee58fab0e23a91a7c543b138b0e5bcabfe3a79ce3313ce17899a9dd5a",
+    "canonical_content_sha256": "87834e9d51766fa74a3ea00287335f6671973d1d5bc723fff8e717dbb5cf11fc",
+    "raw_bytes_equal": true,
+    "all_referenced_source_file_bytes_verified": true,
+    "source_files": 10
+  },
+  "previous_repair_output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage0_2_20261107_resource_repair1",
+  "previous_repair_files_sha256": {
+    "CODE_FREEZE.json": "f637ba249f7d8de7b7d889e8cdcc07b165c0eca877c23d519423fe58f8e7303b",
+    "FAILED.json": "acf878ccab8515166c61043e584f66ba10341e0490353a06619d8df56816e8f7",
+    "REPORT_ZH.md": "c0ac9b78aaee1dda0353ee0e07627834bfa98c8f27cdc149d0832e332b297e1f",
+    "config.json": "cc6f938759c9d98120acbdc86808a14629395e1d1a8e7dc9157e3e73cae4ac78"
+  },
+  "previous_repair_freeze_content": {
+    "parsed_JSON_content_equal": true,
+    "actual_raw_sha256": "f637ba249f7d8de7b7d889e8cdcc07b165c0eca877c23d519423fe58f8e7303b",
+    "expected_raw_sha256": "d474ec8904357fda4fe9002cbed64974baf53b1d480279501c97736deb256cd8",
+    "canonical_content_sha256": "2f045b3f2a6765ae1e98bc32fa32061449a5ba862f94ce28db9a4bd1ee8c4a9a",
+    "raw_bytes_equal": false
+  },
+  "previous_repair_source_verification": {
+    "parsed_JSON_content_equal": true,
+    "actual_raw_sha256": "d474ec8904357fda4fe9002cbed64974baf53b1d480279501c97736deb256cd8",
+    "expected_raw_sha256": "d474ec8904357fda4fe9002cbed64974baf53b1d480279501c97736deb256cd8",
+    "canonical_content_sha256": "2f045b3f2a6765ae1e98bc32fa32061449a5ba862f94ce28db9a4bd1ee8c4a9a",
+    "raw_bytes_equal": true,
+    "all_referenced_source_file_bytes_verified": true,
+    "source_files": 11
+  },
+  "verified_training_updates_before_failure": 0,
+  "verified_previous_repair_training_updates": 0,
+  "verified_environment_steps_before_failure": 0,
+  "reason": "Original controller stopped at the first resource gate before creating job files or workers"
+}

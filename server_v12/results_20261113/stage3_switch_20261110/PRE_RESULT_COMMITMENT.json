@@ -1,0 +1,10 @@
+{
+  "before_ANY_GPU_workers": true,
+  "time": "2026-11-10T01:54:49.316819+00:00",
+  "scope": "stage3 only",
+  "CAP": 3,
+  "protocol_sha256": "53c6b6e628d06a7f8de1299f59be259b8fef354c646a808900eaca39ce52cc6e",
+  "restart_plan_sha256": "bb7dba9935b597c155186bc14d8c67bfdb3d256f90edf6bf9f7f1dd6332f4735",
+  "authorization_sha256": "b76fa34e982dc8fad6549e12aafc2643ba34d2ce994f24330ac95569a488f0e7",
+  "budget_sha256": "064c1b8a4d0cdf7c4db9bd3ff950de991000a870930ddf81ea9a0736b62d91ae"
+}

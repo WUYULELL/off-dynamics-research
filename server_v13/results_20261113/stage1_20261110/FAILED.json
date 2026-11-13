@@ -1,0 +1,7 @@
+{
+  "time": "2026-11-10T07:13:20.755724+00:00",
+  "type": "AssertionError",
+  "message": "All registered cards observed another process during our runs. See GPU_BLOCKED receipts.",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/cs_dsns_public/<USER>/v13_action_fix/stage1/controller.py\", line 468, in run\n    accepted = queue.training(cache)\n  File \"/mnt/cs_dsns_public/<USER>/v13_action_fix/stage1/controller.py\", line 357, in training\n    index = self.preferred(name)\n  File \"/mnt/cs_dsns_public/<USER>/v13_action_fix/stage1/controller.py\", line 374, in preferred\n    assert selected,'All registered cards observed another process during our runs. See GPU_BLOCKED receipts.'\nAssertionError: All registered cards observed another process during our runs. See GPU_BLOCKED receipts.\n",
+  "stage2_started": false
+}

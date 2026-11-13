@@ -1,0 +1,76 @@
+{
+  "completed": true,
+  "job": {
+    "id": "entry_20k",
+    "task": "hopper-morph",
+    "seed": 201,
+    "temp": 10.0,
+    "steps": 20000,
+    "max_step": 500000,
+    "evaluate": true,
+    "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+    "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "formal_training": false
+  },
+  "counts": {
+    "learner_updates": 20000,
+    "Adam_updates": 60000,
+    "environment_construction_attempts": 1,
+    "environment_instances": 1,
+    "constructor_environment_steps": 1,
+    "evaluation_environment_steps": 1689
+  },
+  "elapsed_seconds": 198.38351015374064,
+  "parameter_sha256": "6ca5589131ed89701a528715a37c48c7dbe6b59f1f21bc4f787b6767d96ff24d",
+  "checkpoint_sha256": "a47c8f019c22a9ee78add73c9af4621f0829a983a139579ed3dc8138aa48bcf6",
+  "initialization_sha256": "92ee4ce9f5ee8b2d042f763545b6f97cf8c493b3cd867266b035891e375e94ad",
+  "losses_npy_sha256": "7727908b81f17103ef8bd08dc7f4abfcc22ca28fc25196794552b1a76177e179",
+  "losses_jsonl_sha256": "f30a7169b8e3533f9b6eb7c051987b688d14146224c3ba133885e72131470be0",
+  "sampling_sha256": "9ae115765fc37bc4490e5557c2db75307b08153d3ba891998b05a77b79cdb8d5",
+  "loss_statistics": {
+    "V": {
+      "mean": 0.10845267026375185,
+      "minimum": 0.00010278587433276698,
+      "median": 0.08465058729052544,
+      "p99": 0.47086548745632145,
+      "maximum": 1.2605199813842773,
+      "first": 0.010718684643507004,
+      "last": 0.15433663129806519
+    },
+    "Q": {
+      "mean": 1.8513807660690043,
+      "minimum": 0.00897961389273405,
+      "median": 1.0531188249588013,
+      "p99": 16.623492698669356,
+      "maximum": 44.66946792602539,
+      "first": 18.484703063964844,
+      "last": 1.661287784576416
+    },
+    "actor": {
+      "mean": 0.051415626432259706,
+      "minimum": 1.7804411982069723e-05,
+      "median": 0.032435428351163864,
+      "p99": 0.30228178322315186,
+      "maximum": 1.6910308599472046,
+      "first": 0.11694635450839996,
+      "last": 0.027563292533159256
+    }
+  },
+  "evaluation_count": 2,
+  "evaluation_episodes": 20,
+  "length_statistics": {
+    "n": 20,
+    "mean": 84.45,
+    "median": 81.5,
+    "minimum": 20,
+    "fraction_under_200": 1.0,
+    "episodes_under_200": 20
+  },
+  "all_model_parameters_finite": true,
+  "peak_GPU_allocated_bytes": 5836288,
+  "peak_GPU_reserved_bytes": 6291456,
+  "ended_utc": "2026-11-07T01:44:39.954104+00:00",
+  "formal_result": false,
+  "Last5_applicable": false,
+  "automatic_resume_supported": false
+}

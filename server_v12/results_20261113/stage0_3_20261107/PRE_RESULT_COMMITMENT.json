@@ -1,0 +1,33 @@
+{
+  "config_sha256": "62c87d3e8ea117c6fc9809317333505d43a80f7624da905cabdcf0fbe625fb25",
+  "code_freeze_sha256": "44b6b64ef627cb58996acd584da0caf383e94980c218d2dfba8622bb51b665c2",
+  "jobs": {
+    "IQL_n1_s901": "09f983f663d9545ea9ea9e3325fb235398e3f37b76bf8305cbeb0e253bc265ab",
+    "IQL_n2_s901": "0d1c8151849fd6b53c54c7314eb82d3e3f8552605287a92c0f9d749770deb1eb",
+    "IQL_n2_s902": "34a389190d601e4a28f60e54eaa73557d3e0c3c1b77e812462bdcc0f806d0df5",
+    "IQL_n4_s901": "e4ee795edfbdfc4c7a884969da8be77e613464e9764648e6c07b7acc327c18b7",
+    "IQL_n4_s902": "fbb834c9f0f23a5d1b5b8649a1789853636a54d965eda5bb7f53766ed5e221ae",
+    "IQL_n4_s903": "c44415a32448b4b9e5658ef4bdd23fdaea0ee1c7708d79e3c5e34344c3c36fe9",
+    "IQL_n4_s904": "2bbf1755ece83da6f25f59d850378d6edf387b3404db5952a0e4c6de0f6a213f",
+    "IQL_n6_s901": "3012c37c977cbb77639bb7f996152f7363ef038d33f258fe047e3abbf704ed09",
+    "IQL_n6_s902": "2eefce6b95264a99077f3ab4c381b00fedf54c54a7aa78939f7263151ea0df40",
+    "IQL_n6_s903": "4bb9ea20d2c0b1bf8583862afe54b2799f9179ce33208398b12c3b3db7723815",
+    "IQL_n6_s904": "4ae7bb8491463abef983274e45344e24c53e6f7f2b58f40feaea0d5e91d68ae2",
+    "IQL_n6_s905": "036200da03a7e42575fef1f99d8cc5d6f9fbd057a3cc0e272d66c58565d7345e",
+    "IQL_n6_s906": "03985d4539062c1e34e5b188fc80659d8b9ba484748c812cf2bffac14a64dd94",
+    "BC_n1_s901": "bb8f993fdc1ecb7d725f94d16c8256c40f31cdf080c83b119635e9d79a3dd9bc"
+  },
+  "resource_limits": {
+    "reserve_cpu_cores": 1,
+    "reserve_memory_bytes": 2147483648,
+    "initial_worker_memory_estimate_bytes": 1073741824,
+    "memory_prediction_multiplier": 2,
+    "max_projected_GPU_memory_fraction": 0.8,
+    "CPU_busy_percent": 85,
+    "max_throttled_period_fraction": 0.25,
+    "pressure_duration_seconds": 15,
+    "emergency_memory_floor_bytes": 536870912
+  },
+  "before_any_new_optimization": true,
+  "time": "2026-11-07T02:22:55.809350+00:00"
+}

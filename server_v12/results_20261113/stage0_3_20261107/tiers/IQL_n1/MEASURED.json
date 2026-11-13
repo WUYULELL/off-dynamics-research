@@ -1,0 +1,42 @@
+{
+  "name": "IQL_n1",
+  "algorithm": "IQL",
+  "concurrency": 1,
+  "worker_results": [
+    {
+      "job": "IQL_n1_s901",
+      "seed": 901,
+      "first_10000_seconds": 100.11342041753232,
+      "second_10000_seconds": 101.77059170976281,
+      "training_seconds": 201.88401212729514,
+      "evaluation_seconds": 0.43965128250420094,
+      "length_statistics": {
+        "n": 10,
+        "mean": 112.6,
+        "median": 97.5,
+        "minimum": 93,
+        "fraction_under_200": 1.0,
+        "episodes_under_200": 10
+      }
+    }
+  ],
+  "rates": {
+    "total_training_updates": 20000,
+    "group_training_wall_seconds": 201.95514529570937,
+    "aggregate_group_updates_per_second": 99.03189131782378,
+    "sum_individual_updates_per_second": 99.06678487937559,
+    "per_process_updates_per_second": [
+      99.06678487937559
+    ]
+  },
+  "mean_GPU_utilization_percent": 10.666666666666666,
+  "max_GPU_memory_used_MiB": 2035,
+  "mean_owned_CPU_percent_one_core_100": 99.74157380687645,
+  "mean_host_CPU_busy_percent": 5.770186229050552,
+  "max_worker_RSS_bytes": 5029924864,
+  "pressure_warnings": [],
+  "training_sample_count": 96,
+  "monitor_interval_seconds": 2,
+  "tier_total_wall_seconds": 209.36178783141077,
+  "metrics_include_monitor_and_logging_overhead": true
+}

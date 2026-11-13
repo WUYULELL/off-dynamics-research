@@ -1,0 +1,325 @@
+[
+  {
+    "source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/GPU_BEFORE.json",
+    "bytes": 7802,
+    "source_sha256": "ae0f4ac7696e0ffadb7e73acffe84cebeac681d8caa9da313d61d0c3f0880570",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "other_process_data"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage0_3_20261107/GPU_BEFORE.json",
+    "bytes": 7756,
+    "source_sha256": "f1530afa0a85c32303cc5acf586610ebd21cd4b8c279495670e1bd21b581f22d",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "other_process_data"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage1A_20261107/RESULT.json",
+    "bytes": 25755,
+    "source_sha256": "99769f0e671336e02e7372d0b8e1adb91c72011c145c3bb64238be562303ce60",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "IPv4"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage1B_20261107/RESULT.json",
+    "bytes": 78950,
+    "source_sha256": "85fec42f0642801c5cf8d46578e7de8728fc90227316f008f2f592503999cc8c",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "IPv4"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261107/CONDA_ENVIRONMENT_AFTER.json",
+    "bytes": 34930,
+    "source_sha256": "ced9d04017b6824bd11982da140cae575384bb53dfd4833202da61c582d5ff3e",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "IPv4"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261107/FAILED.json",
+    "bytes": 2204,
+    "source_sha256": "321b43e9d337fee629dc8c94aff2fafa7f14fdba557343b27b0055c240206aae",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "other_process_data"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/CONDA_ENVIRONMENT_AFTER.json",
+    "bytes": 34930,
+    "source_sha256": "ced9d04017b6824bd11982da140cae575384bb53dfd4833202da61c582d5ff3e",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "IPv4"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/RESULT.json",
+    "bytes": 28628,
+    "source_sha256": "26e1211b750a7a33372824062f7551332b0b0a00c7fe8f6fcff19a60184c7d69",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "IPv4"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/STAGE3_RESULT.json",
+    "bytes": 116514,
+    "source_sha256": "41b7a13f5a1445755bfc26acc07f08e2e7a1046dbdd76fabdbd19a5e574d3ca5",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "IPv4"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/RESULT.json",
+    "bytes": 291513,
+    "source_sha256": "f1c46c7682c05a9e6640bb76e9526069b828773aee9174469f0a74878634f55f",
+    "reason": "sensitive_information",
+    "finding_types": [
+      "IPv4"
+    ],
+    "publication_decision": "未上传；原件保留在服务器；内容不在收到的 ZIP 内",
+    "review_scope": "只收到排除元数据，未复查被排除文件正文"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_001000.json",
+    "bytes": 37,
+    "source_sha256": "8c06e8b9c63d4e9bc99950766bee34023c72c2825e021618fba7d39f221bdf62",
+    "export_sha256": "8c06e8b9c63d4e9bc99950766bee34023c72c2825e021618fba7d39f221bdf62",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_002000.json",
+    "bytes": 37,
+    "source_sha256": "06fed6d0520f5da5771cbf45b5c9747d5a76dbf9a361110a057cbc33643ca387",
+    "export_sha256": "06fed6d0520f5da5771cbf45b5c9747d5a76dbf9a361110a057cbc33643ca387",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_003000.json",
+    "bytes": 37,
+    "source_sha256": "866deef66630a72f32833a82b74bac79d6efee4256f5d4b534d1cf42b7bad222",
+    "export_sha256": "866deef66630a72f32833a82b74bac79d6efee4256f5d4b534d1cf42b7bad222",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_004000.json",
+    "bytes": 37,
+    "source_sha256": "c258a5eaa2b82c785351a2a09f8ab2a2c6838957744f9125cdf66825759b985d",
+    "export_sha256": "c258a5eaa2b82c785351a2a09f8ab2a2c6838957744f9125cdf66825759b985d",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_005000.json",
+    "bytes": 37,
+    "source_sha256": "a16dcfce500ec01d7463fa1db7372d8e809cf6aff912cfa6389eb42b89d49c65",
+    "export_sha256": "a16dcfce500ec01d7463fa1db7372d8e809cf6aff912cfa6389eb42b89d49c65",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_006000.json",
+    "bytes": 37,
+    "source_sha256": "51d76581249359b89c48e5673d439b99f32ec690a4342a6cce2976bd8a35dab7",
+    "export_sha256": "51d76581249359b89c48e5673d439b99f32ec690a4342a6cce2976bd8a35dab7",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_007000.json",
+    "bytes": 37,
+    "source_sha256": "6e3fac01718ee9f2e13f0bbef99016c2d4fc9dfdef8b19a706a1bf73cedbf9b8",
+    "export_sha256": "6e3fac01718ee9f2e13f0bbef99016c2d4fc9dfdef8b19a706a1bf73cedbf9b8",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_008000.json",
+    "bytes": 37,
+    "source_sha256": "451958d834dc17f58fbd265e780e0f5801b91e1cecf6db44faf1b6dac522cb96",
+    "export_sha256": "451958d834dc17f58fbd265e780e0f5801b91e1cecf6db44faf1b6dac522cb96",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_009000.json",
+    "bytes": 37,
+    "source_sha256": "6c3b1e8001b4f3f33e21b3cea23b90872fe7fe1c4185e08db6080bc95a3f1069",
+    "export_sha256": "6c3b1e8001b4f3f33e21b3cea23b90872fe7fe1c4185e08db6080bc95a3f1069",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_010000.json",
+    "bytes": 38,
+    "source_sha256": "cc64417ccdb809cfd418c8c8564ac8a0525bdc09d5460c8f6460a7763624eed9",
+    "export_sha256": "cc64417ccdb809cfd418c8c8564ac8a0525bdc09d5460c8f6460a7763624eed9",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_011000.json",
+    "bytes": 38,
+    "source_sha256": "c8bb16c42683c29002835a8dd68576dde05d27bee8971b8737913703f6d22563",
+    "export_sha256": "c8bb16c42683c29002835a8dd68576dde05d27bee8971b8737913703f6d22563",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_012000.json",
+    "bytes": 38,
+    "source_sha256": "5c8202d1ff7029063db2d538f7023f261071cabd08eeb46179339ffdc32c166c",
+    "export_sha256": "5c8202d1ff7029063db2d538f7023f261071cabd08eeb46179339ffdc32c166c",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_013000.json",
+    "bytes": 38,
+    "source_sha256": "d052e3f78b7449a0fe03c8ed97d5eebb9b935a4facd8706e06b87fad30fc7c5c",
+    "export_sha256": "d052e3f78b7449a0fe03c8ed97d5eebb9b935a4facd8706e06b87fad30fc7c5c",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_014000.json",
+    "bytes": 38,
+    "source_sha256": "228d29f23b015753290c8b85d829e7ba575ee5cc40b4ada47e8e3a2330ff0dde",
+    "export_sha256": "228d29f23b015753290c8b85d829e7ba575ee5cc40b4ada47e8e3a2330ff0dde",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_015000.json",
+    "bytes": 38,
+    "source_sha256": "93a0804a66496c49e613b01f70059e0b3078f3682b8f8a0cc56275fe0ab4ded6",
+    "export_sha256": "93a0804a66496c49e613b01f70059e0b3078f3682b8f8a0cc56275fe0ab4ded6",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_016000.json",
+    "bytes": 38,
+    "source_sha256": "b307989bf82edf882bc456bbf5ac2c4be2f63ea51872af68f54c285782af528a",
+    "export_sha256": "b307989bf82edf882bc456bbf5ac2c4be2f63ea51872af68f54c285782af528a",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_017000.json",
+    "bytes": 38,
+    "source_sha256": "d1141abbd965fe2d8c36599d580daf8aa6c1f4d5aa59c35cff913cc7aca32f28",
+    "export_sha256": "d1141abbd965fe2d8c36599d580daf8aa6c1f4d5aa59c35cff913cc7aca32f28",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_018000.json",
+    "bytes": 38,
+    "source_sha256": "5d14fc2dbba8ae6994ba333c4d46af28d866ed0c08d7bccdc8299c0020adf74f",
+    "export_sha256": "5d14fc2dbba8ae6994ba333c4d46af28d866ed0c08d7bccdc8299c0020adf74f",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_019000.json",
+    "bytes": 38,
+    "source_sha256": "594102ff496a523c7791651921cac2771c486b4b2cfe2e74b279ad9ec0441f96",
+    "export_sha256": "594102ff496a523c7791651921cac2771c486b4b2cfe2e74b279ad9ec0441f96",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/progress_020000.json",
+    "bytes": 38,
+    "source_sha256": "5be7b43153393126ffbfbed06ad3eabcf2838c4f52f7348800f35f8ad3502ac9",
+    "export_sha256": "5be7b43153393126ffbfbed06ad3eabcf2838c4f52f7348800f35f8ad3502ac9",
+    "reason": "运行中进度日志；不属于报告、完成凭据或结果表",
+    "finding_types": [],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/FAILED.json",
+    "bytes": 66716,
+    "source_sha256": "7a38a226e3cd58424132bf45af9bcac8807ab494a27f4a657345880d417e3043",
+    "export_sha256": "e6bf4999ca9b08c48029f92391dc901bfdd005705bee92efe3ae045c23f50ea0",
+    "reason": "敏感信息；整文件排除",
+    "finding_types": [
+      "other_process_data"
+    ],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/ROOT_weights.COMPLETED.json",
+    "bytes": 445,
+    "source_sha256": "bd1644d3a6b14172444e3300526c10a465908961362ace2080c69d66970af3b8",
+    "export_sha256": "bd1644d3a6b14172444e3300526c10a465908961362ace2080c69d66970af3b8",
+    "reason": "敏感信息；整文件排除",
+    "finding_types": [
+      "other_process_data"
+    ],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  },
+  {
+    "source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/wave_01.COMPLETED.json",
+    "bytes": 441,
+    "source_sha256": "3db3c90e34cbb8d9d29a023816ecd856251d51528693dace0d331edfc706c8e0",
+    "export_sha256": "3db3c90e34cbb8d9d29a023816ecd856251d51528693dace0d331edfc706c8e0",
+    "reason": "敏感信息；整文件排除",
+    "finding_types": [
+      "other_process_data"
+    ],
+    "publication_decision": "未上传；收到的 ZIP 和服务器原件均保持不变"
+  }
+]

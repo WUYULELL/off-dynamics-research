@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "complete_sample_stream_verified": true,
+  "raw_evaluation_points": 40,
+  "checkpoint_sha256": "555566976a51ef50c0e2b33f2966ddd6551284033ab1342dbd2d74832e0bc0e2",
+  "completed_sha256": "bdfde9ea576eda9e55111a167e0856d9b61d62f7f14ff27b56718a23fcb28da8",
+  "time": "2026-11-07T04:50:35.930153+00:00"
+}

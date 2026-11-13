@@ -1,0 +1,21 @@
+{
+  "wall_seconds": 836.6279495470226,
+  "peak_worker_RSS_bytes": 5050957824,
+  "peak_gpu_used_MiB": 12167,
+  "sampled_mean_host_CPU_percent": 9.334422255963059,
+  "sampled_peak_host_CPU_percent": 36.41911383978105,
+  "sampled_mean_worker_CPU_percent": 572.4268778306854,
+  "sample_count": 396,
+  "pressure_warnings": [],
+  "index": 2,
+  "worker_rates": {
+    "hopper-morph_4_s402": 335.6048059361878,
+    "hopper-morph_4_s403": 332.47200508543403,
+    "hopper-morph_4_s404": 332.0221366071002,
+    "hopper-morph_4_s405": 336.29001394906237,
+    "hopper-morph_7_s401": 329.8858983529756,
+    "hopper-morph_7_s402": 336.6085177229678
+  },
+  "wall_updates_per_second": 1434.3293224302615,
+  "sum_training_updates_per_second": 2002.8833776537276
+}

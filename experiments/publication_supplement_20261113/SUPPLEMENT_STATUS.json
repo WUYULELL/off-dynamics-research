@@ -1,0 +1,83 @@
+{
+  "previous_commit": "c346377af52b91191976da8b07c35616116e494d",
+  "archive_sha256": "95c5385da03d751cfa7d743190fbf1ae34f22abe10330bc21ec3becc528f813a",
+  "source_files_verified": 661,
+  "export_exclusions": 10,
+  "additional_sensitive_exclusions": 3,
+  "progress_log_exclusions": 20,
+  "server_files_uploaded": 638,
+  "received_stage_directories": {
+    "v12_linux/outputs/stage0_1_20261106": 15,
+    "v12_linux/outputs/stage0_2_20261107_json_repair2": 29,
+    "v12_linux/outputs/stage0_3_20261107": 64,
+    "v12_linux/outputs/stage1A_20261107": 22,
+    "v12_linux/outputs/stage1B_20261107": 100,
+    "v12_linux/outputs/stage2_root_20261107": 13,
+    "v12_linux/outputs/stage2_root_20261108_continue1": 21,
+    "v12_linux/outputs/stage3_shared60_20261108": 42,
+    "v12_linux/outputs/stage3_switch_20261110": 41,
+    "v13_action_fix/outputs/stage0_20261110": 32,
+    "v13_action_fix/outputs/stage0_20261110_report_repaired": 4,
+    "v13_action_fix/outputs/stage1_20261110": 138,
+    "v13_action_fix/outputs/stage1_20261110_shared60": 85,
+    "v14_diag/outputs/diagnostics_20261112_215443": 32
+  },
+  "previous_gap_list_unchanged": true,
+  "code_already_published": true,
+  "remaining_intentional_omissions": "含敏感信息原件按清单保留；模型/数据/缓存/逐步日志不在上传范围；V14 B1/B2按B0门槛未运行，无对应结果。",
+  "formal_conclusions": {
+    "V12_H_root": "不成立",
+    "V13_stage2_H_fix": "未检验",
+    "V14_B0": "不通过，A/C完成，B1/B2未运行"
+  },
+  "training_updates_started": 0,
+  "environment_steps_started": 0,
+  "server_connection_attempts": 0,
+  "original_outputs_modified": false,
+  "report_exports": {
+    "v12_linux/outputs/stage0_1_20261106/REPORT_ZH.md": {
+      "tables": 1,
+      "seed_rows": 0
+    },
+    "v12_linux/outputs/stage0_2_20261107_json_repair2/REPORT_ZH.md": {
+      "tables": 5,
+      "seed_rows": 0
+    },
+    "v12_linux/outputs/stage0_3_20261107/REPORT_ZH.md": {
+      "tables": 6,
+      "seed_rows": 0
+    },
+    "v12_linux/outputs/stage1A_20261107/REPORT_ZH.md": {
+      "tables": 2,
+      "seed_rows": 5
+    },
+    "v12_linux/outputs/stage1B_20261107/REPORT_ZH.md": {
+      "tables": 3,
+      "seed_rows": 30
+    },
+    "v12_linux/outputs/stage2_root_20261108_continue1/REPORT_ZH.md": {
+      "tables": 3,
+      "seed_rows": 0
+    },
+    "v12_linux/outputs/stage3_switch_20261110/STAGE3_REPORT_ZH.md": {
+      "tables": 6,
+      "seed_rows": 15
+    },
+    "v13_action_fix/outputs/stage0_20261110/REPORT_ZH.md": {
+      "tables": 0,
+      "seed_rows": 0
+    },
+    "v13_action_fix/outputs/stage0_20261110_report_repaired/REPORT_ZH.md": {
+      "tables": 3,
+      "seed_rows": 0
+    },
+    "v13_action_fix/outputs/stage1_20261110_shared60/REPORT_ZH.md": {
+      "tables": 4,
+      "seed_rows": 25
+    },
+    "v14_diag/outputs/diagnostics_20261112_215443/REPORT_ZH.md": {
+      "tables": 9,
+      "seed_rows": 0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "stage": "2",
+  "job_sha256": "fd6c0c34eb61ecc2ae643bbaa505bdbafd34898d791621c41bb7ae5d8504a23f",
+  "scope": "one OT solve and one 20k ROOT trial",
+  "stage3_authorized": false
+}

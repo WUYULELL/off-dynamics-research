@@ -1,0 +1,7 @@
+{
+  "bitwise_equal": true,
+  "records_compared": 10000,
+  "records_with_difference": 0,
+  "first_difference": null,
+  "first_10000_parameter_and_stream_equal": true
+}

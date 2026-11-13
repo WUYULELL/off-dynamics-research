@@ -1,0 +1,29 @@
+{
+  "scope": "V12_STAGE3_3_GPU_PROCESSES_ONLY",
+  "max_gpu_workers": 3,
+  "GPU_UUID": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+  "jobs": {
+    "ROOT_s501": "7e9bee8fd659144fd578db00952a93c853ed844f615f155b2f8fab1c6bbf62b9",
+    "ROOT_s502": "f51a0e35fc2b8d924c284a71a7f321a1424d364c799c22fd424c3c092d316898",
+    "ROOT_s503": "dab783af974e09b59bf8f8672bc004f62b2b8958a95ea215decb31f25cb562b4",
+    "ROOT_s504": "7fcf427e09285cf0cfdac906f6c3ef3d70d8b60095b1ccdb00524455aa06f8f3",
+    "ROOT_s505": "b42763dc3da4a86fdb7a61629e3fb20e1257052c4702121836fd1391216f46c9",
+    "T_s501": "af721aa119063e62af2a0dbadc1c4b7b85184e750a4222403504ff5b43c3277b",
+    "T_s502": "20ff8a0b6ff08a339af83d5d6e152aa047d21fe29fdacbb31bcda2da82b44044",
+    "T_s503": "0b8bbcc1e7db29f051a5b94c06a727edb2c50d9d579dd44bc6e24701da29e9f6",
+    "T_s504": "af4444a4b7c9ee10dd39a72e44f457a19d1edf3f5cebf5b6d1cb637b4c2a244c",
+    "T_s505": "0dbbed3a075e361162a412174c630dd63f41f002ba36afaf21f2c21e10a0aa96",
+    "BC-all_s501": "938255e824a50048788eb8d6f23ddd9e90668e1a7c81a633a70252fafa311021",
+    "BC-all_s502": "141dea177520fb45f41f5d5599e4cd07cf632c8e790443715ae89a4ca647ed11",
+    "BC-all_s503": "0abc2d2fc92d8c886d7b033f0ba9784fb1a069fb0d84d8a78d1eaceaf667c716",
+    "BC-all_s504": "c5b11429a61da980f27e94ac133d94f11a1c7823c45723adb3391d296dc4cbae",
+    "BC-all_s505": "1d313f758882ff8473b45e51fbe63843c51253a3f50993af68497817fea75dd7"
+  },
+  "training_job_count": 15,
+  "allowed_groups": [
+    "ROOT",
+    "T",
+    "BC-all"
+  ],
+  "later_stages_authorized": false
+}

@@ -1,0 +1,26 @@
+{
+  "source_report": "server_v13/results_20261113/stage0_20261110_report_repaired/REPORT_ZH.md",
+  "source_original_sha256": "0d3c28bed6dabbaef10e717c4a971a7ad0da52bbf537bb39375c2a1641db6b87",
+  "source_public_sha256": "0d3c28bed6dabbaef10e717c4a971a7ad0da52bbf537bb39375c2a1641db6b87",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v13/results_20261113/stage0_20261110_report_repaired/tables/report_table_01.csv",
+      "section": "目标数据自检",
+      "rows": 9
+    },
+    {
+      "table": "server_v13/results_20261113/stage0_20261110_report_repaired/tables/report_table_02.csv",
+      "section": "源数据修正",
+      "rows": 9
+    },
+    {
+      "table": "server_v13/results_20261113/stage0_20261110_report_repaired/tables/report_table_03.csv",
+      "section": "到目标状态的最近邻距离与 e1（仅描述）",
+      "rows": 5
+    }
+  ],
+  "per_seed_rows": 0,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

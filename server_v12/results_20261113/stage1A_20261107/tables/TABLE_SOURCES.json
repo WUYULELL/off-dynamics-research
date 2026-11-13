@@ -1,0 +1,21 @@
+{
+  "source_report": "server_v12/results_20261113/stage1A_20261107/REPORT_ZH.md",
+  "source_original_sha256": "ab65d18c570526e41b857058b837c440c65ca238296797c3acc796cc54fb1938",
+  "source_public_sha256": "e9bd3fbc88e71e922637f046fcfae764202c3581c81aee2b000e9b1c1cb8f70d",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v12/results_20261113/stage1A_20261107/tables/report_table_01.csv",
+      "section": "组别统计",
+      "rows": 1
+    },
+    {
+      "table": "server_v12/results_20261113/stage1A_20261107/tables/report_table_02.csv",
+      "section": "逐种子得分和回合长度",
+      "rows": 6
+    }
+  ],
+  "per_seed_rows": 5,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

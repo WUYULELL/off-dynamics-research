@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "hopper-morph_source_s401",
+    "task": "hopper-morph",
+    "trajectories": "source",
+    "seed": 401,
+    "stage": "1A",
+    "steps": 200000,
+    "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+    "base": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage1A_20261107",
+    "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage1A_20261107/runs/hopper-morph_source_s401",
+    "controller_pid": 159886
+  },
+  "steps": 200000,
+  "Adam_updates": 200000,
+  "finite": true,
+  "training_seconds": 579.8215757180005,
+  "wall_seconds": 612.0086755044758,
+  "end_monotonic": 4301657.838186811,
+  "evaluation_seconds": 31.229461192153394,
+  "evaluation_episodes": 400,
+  "evaluation_environment_steps": 63835,
+  "checkpoint_sha256": "73a3e179a3c780b80538488f4983cceecbed468c72f4a92cdcde585781429e12",
+  "model_digest": "719e12be5073579ebeb234c3ef7beb83cbc0c2b7fe40ed763dcb5982041a4e1b",
+  "target_or_source_stream_sha256": "f433798b41d717d65ca455acbbdc34c9cd2e7f2b775d21ffd64478b5d4f5b0d0",
+  "draws": 12800000,
+  "GPU_peak_allocated_bytes": 1658880,
+  "ended_utc": "2026-11-07T03:42:46.022202+00:00"
+}

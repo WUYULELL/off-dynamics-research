@@ -1,0 +1,17 @@
+{
+  "status": "无可对照记录",
+  "reason": "迁移包未保留同配置 Hopper T seed201 的原始逐步损失或 TB 记录",
+  "matching_configuration": "records/oracle_diag/results/coverage_raw_20261026_r14/runs/hopp_w0_s201/config.json",
+  "available_records": [
+    "records/oracle_diag/results/coverage_raw_20261026_r14/runs/hopp_w0_s201/audit.json",
+    "records/oracle_diag/results/coverage_raw_20261026_r14/runs/hopp_w0_s201/completed.json",
+    "records/oracle_diag/results/coverage_raw_20261026_r14/runs/hopp_w0_s201/config.json",
+    "records/oracle_diag/results/coverage_raw_20261026_r14/runs/hopp_w0_s201/evaluations.json",
+    "records/oracle_diag/results/coverage_raw_20261026_r14/runs/hopp_w0_s201/initialization.json",
+    "records/oracle_diag/results/coverage_raw_20261026_r14/runs/hopp_w0_s201/sampling.json"
+  ],
+  "audit_summaries_not_used_as_loss_input": true,
+  "relative_loss_difference_range": null,
+  "approximate_divergence_step": null,
+  "Windows_pairwise_inference": false
+}

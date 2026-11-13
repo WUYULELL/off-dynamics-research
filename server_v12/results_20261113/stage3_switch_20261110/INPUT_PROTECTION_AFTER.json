@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "transfer_files_rechecked": 1639,
+  "transfer_manifest_sha256": "fcdd6c7c514d63f3431b535a8df7fffc525aa5785cd888d11021c5739eee26d7",
+  "legacy_freeze_sha256": "ff6bdb1e4014bd1fea176a25d5040dca8f82b0149d34e9767427d99a04d4ce2d",
+  "stage3_freeze_sha256": "61061793cf79d97c7ad9ebd18884eaff5dde5039c6c8d52ca745bacc0a527f2c",
+  "prior_verified_sha256": "ebe3e8ff1fd903882fa308e1365a45ebf084be1f486536cf6ceaa8f00b6cd97f",
+  "original_offdynamics_environment_checked": true,
+  "ROOT_environment_pip_freeze_checked": true
+}

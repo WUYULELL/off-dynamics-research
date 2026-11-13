@@ -1,0 +1,26 @@
+{
+  "source_report": "server_v12/results_20261113/stage2_root_20261108_continue1/REPORT_ZH.md",
+  "source_original_sha256": "95bc09ebe8e9721e4bcbd5f8d7faa51a864ccb7060da4531bd6568fc8d20289b",
+  "source_public_sha256": "84171a60b5a2f5bff2ad119d20eb9c4795f7acd9c53810c735989b2bc27adccd",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v12/results_20261113/stage2_root_20261108_continue1/tables/report_table_01.csv",
+      "section": "数据与评估核对",
+      "rows": 2
+    },
+    {
+      "table": "server_v12/results_20261113/stage2_root_20261108_continue1/tables/report_table_02.csv",
+      "section": "鲁棒 OT 权重",
+      "rows": 3
+    },
+    {
+      "table": "server_v12/results_20261113/stage2_root_20261108_continue1/tables/report_table_03.csv",
+      "section": "短跑评估与耗时",
+      "rows": 2
+    }
+  ],
+  "per_seed_rows": 0,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

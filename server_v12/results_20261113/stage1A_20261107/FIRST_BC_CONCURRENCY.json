@@ -1,0 +1,17 @@
+{
+  "wall_seconds": 624.3468917338178,
+  "peak_worker_RSS_bytes": 5106208768,
+  "peak_gpu_used_MiB": 4060,
+  "sampled_mean_host_CPU_percent": 6.892785158913855,
+  "sampled_peak_host_CPU_percent": 41.86408630853075,
+  "sampled_mean_worker_CPU_percent": 195.40805132003854,
+  "sample_count": 297,
+  "pressure_warnings": [],
+  "index": 1,
+  "worker_rates": {
+    "hopper-morph_source_s401": 344.9336974953673,
+    "hopper-morph_source_s402": 347.8705674530899
+  },
+  "wall_updates_per_second": 640.6694824558122,
+  "sum_training_updates_per_second": 692.8042649484572
+}

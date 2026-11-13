@@ -1,0 +1,56 @@
+{
+  "source_report": "server_v14/results_20261113/diagnostics_20261112_215443/REPORT_ZH.md",
+  "source_original_sha256": "c3d650d2386e164c39c6d1435e6f3d6761018f7fd92c26c6bceb36d8c50c4861",
+  "source_public_sha256": "aea70fe0eb660964f003832c3f5e2b73eafffbb5ec79d278a9a554b129b9e07d",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_01.csv",
+      "section": "A：最终 BC 模型、训练记录与实际轨迹",
+      "rows": 4
+    },
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_02.csv",
+      "section": "A1 逐模型结果",
+      "rows": 20
+    },
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_03.csv",
+      "section": "A2 训练日志核对",
+      "rows": 5
+    },
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_04.csv",
+      "section": "A3 新 CPU 轨迹诊断",
+      "rows": 24
+    },
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_05.csv",
+      "section": "B：目标自检与源轨迹跟踪",
+      "rows": 8
+    },
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_06.csv",
+      "section": "B：目标自检与源轨迹跟踪",
+      "rows": 1
+    },
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_07.csv",
+      "section": "跟踪累计回报归一化分数",
+      "rows": 1
+    },
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_08.csv",
+      "section": "跟踪残差按步数分档",
+      "rows": 6
+    },
+    {
+      "table": "server_v14/results_20261113/diagnostics_20261112_215443/tables/report_table_09.csv",
+      "section": "C：残差在源轨迹中的位置",
+      "rows": 21
+    }
+  ],
+  "per_seed_rows": 0,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

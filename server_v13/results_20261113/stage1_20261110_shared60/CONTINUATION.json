@@ -1,0 +1,45 @@
+{
+  "original_output": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110",
+  "reused_cache": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/full_cache",
+  "reused_pilot": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601",
+  "new_runs": 24,
+  "original_block_ownership": "unconfirmed across PID namespaces",
+  "evidence_sha256": {
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/FAILED.json": "d49750d6ade8308177260400688ecd054ec382449f4beb63ace9c1a08bf74c5c",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/GPU_BLOCKED_3.json": "a166144e1122198f24aa19b0d66e8d43b03795357d8ffa21e4e3e86989c592e7",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/PLAN.json": "07cde805af85b26bde91f334193b6dfddb049e70c5bd40a16780775293356d34",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/config.json": "d72bc292fad73b6cfaf6f07afa188790cde50c218938801893081aff54747777",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/AUTHORIZATION.json": "7f0101870594d56a6c158ee878e90891af362795e038f62dcbb438ad74bffe94",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/full_cache/CACHE_ACCEPTANCE.json": "37d5891bf4108b17fc786361b6fef27820a4be3362871e52a085feffb13e1f98",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/full_cache/CACHE_STATISTICS.json": "e9c6abdd101df1e339e3e12c148edb798c0f7ea0fa1f4b7d6386d3b5e003ffdf",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/full_cache/OUTCOME.json": "b6106db6de6356fbf1d83594489c03cb8c58e27e43804682d4df054ce779b21a",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601/AUDIT.json": "279bcaa72d9221411ee01419ab3c5d5d1dceb8ec66d1ff7a0d9016016112132a",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601/COMPLETED.json": "767957960cdf4e998cb7a9e6c2c119c5dc9202706be52fdd09b3782021375bb9",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601/OUTCOME.json": "1879a6f01932f206462abd1422f8b5c2504cd71ef36ec94b1046afadb693cf67",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601/LAUNCH.json": "745ac7851216251f1455c3532d81a6ea56fe3c7d44e12eabe1abe94805470563",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601/JOB.json": "3313b29d14806ba4749f37be2c7db6bfdd1c93a0d299415648c6279ac8a4d871"
+  },
+  "stage2_authorized": false,
+  "reused_BC": {
+    "BC-mix_s601": "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601"
+  },
+  "shared_policy": {
+    "stage": 1,
+    "permitted_gpu_indices": [
+      1,
+      2,
+      3
+    ],
+    "max_added_processes_per_gpu": 1,
+    "max_added_processes_total": 3,
+    "max_existing_processes_per_gpu": 2,
+    "admission_max_utilization_percent": 60,
+    "utilization_gate_applies_to_running_workers": false,
+    "min_free_MiB": 12288,
+    "consecutive_admission_samples": 3,
+    "admission_sample_spacing_seconds": 2,
+    "require_registered_gpu": true,
+    "block_new_jobs_if_new_external_pid_appears_during_worker": true,
+    "stage2_authorized": false
+  }
+}

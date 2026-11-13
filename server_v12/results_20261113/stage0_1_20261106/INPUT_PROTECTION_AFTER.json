@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "transfer_files": 1639,
+  "original_mujoco_binding_files": 79,
+  "gym_reference_files": 6,
+  "conda_metadata_files": 74,
+  "mujoco_library_unchanged": true
+}

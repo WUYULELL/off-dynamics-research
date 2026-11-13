@@ -1,0 +1,106 @@
+{
+  "scope": "V12_0.3_only",
+  "authorization": "2026-11-07: 启动0.3",
+  "task": "hopper-morph",
+  "IQL_concurrency_tiers": [
+    1,
+    2,
+    4,
+    6
+  ],
+  "BC_concurrency": 1,
+  "seeds_by_tier": {
+    "1": [
+      901
+    ],
+    "2": [
+      901,
+      902
+    ],
+    "4": [
+      901,
+      902,
+      903,
+      904
+    ],
+    "6": [
+      901,
+      902,
+      903,
+      904,
+      905,
+      906
+    ]
+  },
+  "steps_per_worker": 20000,
+  "evaluation_points": [
+    20000
+  ],
+  "episodes_per_evaluation": 10,
+  "maximum_IQL_workers": 13,
+  "maximum_BC_workers": 1,
+  "maximum_IQL_updates": 260000,
+  "maximum_BC_actor_updates": 20000,
+  "maximum_Adam_updates": 800000,
+  "IQL_cosine_max_step": 500000,
+  "BC_cosine_max_step": 200000,
+  "raw_observations": true,
+  "reward_scale": 1.0,
+  "source_samples": 0,
+  "BC_variant": "BC_all",
+  "BC_all_includes_EOF_tail": true,
+  "BC_short_benchmark_is_not_200000_formal_updates": true,
+  "expected_versions": {
+    "torch": "1.11.0+cu113",
+    "numpy": "1.23.5",
+    "h5py": "3.11.0",
+    "gym": "0.18.3",
+    "mujoco-py": "2.1.2.14"
+  },
+  "resource_admission": {
+    "expected_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "observed_driver": "580.105.08",
+    "max_resident_MiB": 3,
+    "required_utilization_gpu_percent": 0,
+    "selected_compute_processes_required_empty": true,
+    "selected_pmon_processes_required_empty": true,
+    "consecutive_samples": 3,
+    "sample_interval_seconds": 1,
+    "unknown_visibility": "reject",
+    "baseline_origin": "User-provided 2026-11-07 nvidia-smi, compute-process query, pmon; no training had started",
+    "resident_memory_origin_proven": false
+  },
+  "resource_limits": {
+    "reserve_cpu_cores": 1,
+    "reserve_memory_bytes": 2147483648,
+    "initial_worker_memory_estimate_bytes": 1073741824,
+    "memory_prediction_multiplier": 2,
+    "max_projected_GPU_memory_fraction": 0.8,
+    "CPU_busy_percent": 85,
+    "max_throttled_period_fraction": 0.25,
+    "pressure_duration_seconds": 15,
+    "emergency_memory_floor_bytes": 536870912
+  },
+  "monitor_interval_seconds": 2,
+  "minimum_free_disk_bytes": 2147483648,
+  "initialization_timeout_seconds": 600,
+  "tier_timeout_seconds": 7200,
+  "preflight_successful_0_2_required": true,
+  "single_GPU_UUID": true,
+  "worker_threads": 1,
+  "deterministic_algorithms": true,
+  "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+  "matmul_allow_tf32": true,
+  "cudnn_allow_tf32": true,
+  "training_then_evaluation_barriers": true,
+  "no_extra_warmup_updates": true,
+  "all_results_discarded_from_formal_experiments": true,
+  "recommendation_requires_future_user_confirmation": true,
+  "later_stages_authorized": false,
+  "automatic_retry_resume_retrain": false,
+  "output": "${HOME}/v12_linux/outputs/stage0_3_20261107",
+  "actual_project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+  "actual_prior": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage0_2_20261107_json_repair2",
+  "TMUX": "/tmp/tmux-10076/default,3843723,4",
+  "time": "2026-11-07T02:22:50.726692+00:00"
+}

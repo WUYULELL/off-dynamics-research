@@ -1,0 +1,9 @@
+{
+  "cloned_from": "/mnt/cs_dsns_public/<USER>/conda-envs/offdynamics38",
+  "isolated_prefix": "/mnt/cs_dsns_public/<USER>/conda-envs/v12_root_20261107",
+  "conda_copy": true,
+  "JAX_process_separate": true,
+  "preallocate_GPU_memory": false,
+  "solver_unchanged": true,
+  "note": "The JAX worker computes weights once and exits. The Torch worker reads the same float values and applies the original global mean normalization and training clamp."
+}

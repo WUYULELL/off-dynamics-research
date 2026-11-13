@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "executable": "/mnt/cs_dsns_public/<USER>/conda-envs/v12_root_20261107/bin/python",
+  "prefix": "/mnt/cs_dsns_public/<USER>/conda-envs/v12_root_20261107",
+  "versions": {
+    "jax": "0.4.9",
+    "jaxlib": "0.4.9+cuda11.cudnn86",
+    "ott-jax": "0.4.5",
+    "jaxopt": "0.8.3",
+    "torch": "1.11.0+cu113",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "h5py": "3.11.0",
+    "gym": "0.18.3",
+    "mujoco-py": "2.1.2.14"
+  }
+}

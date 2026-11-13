@@ -1,0 +1,50 @@
+{
+  "original_output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage2_root_20261107",
+  "original_artifact_sha256": {
+    "FAILED.json": "321b43e9d337fee629dc8c94aff2fafa7f14fdba557343b27b0055c240206aae",
+    "STARTED.json": "35af6a0a2ed47f29e268b6e046d7b8d4199e3569c92ab74f449b0ef58337c065",
+    "root_job.json": "fd6c0c34eb61ecc2ae643bbaa505bdbafd34898d791621c41bb7ae5d8504a23f",
+    "AUTHORIZATION.json": "04a1479f23efcdd99397babc1170b015d30e8c1d740698396633ce9205c9e003",
+    "config.json": "9b9c7a42c7f5b6941eac9f3f15d63dbaac457b091effe67241c6fee5b3c8ff0e",
+    "ROOT_INPUTS.json": "20c6f14ffa301103eaf5021111fb2d937efc9ee54526ba8ae7099bdc6e2631a3",
+    "ROOT_DATA_ENV_COMPARISON.json": "d448ae05e5f286151f874ccc0dedbf44c6e503284529c6e39da9d254b7cf823f",
+    "ENVIRONMENT_READY.json": "24d8bad23821e54bd12a6bd0d66510d0222d1a7d97fdb44d5875ad8eee4595c7",
+    "ROOT_ENVIRONMENT_PLAN.json": "3b7a58167760ab57f31c68b228e691849f1ee3d9aaceb925f49b4152113e30e4",
+    "CONDA_ORIGINAL.json": "b6ac42d68bc8ca3469c2353e6457910fed0393d393163bb0d8bc07fea39a3281",
+    "PIP_ORIGINAL.txt": "c5e4f68337a09f9309f86739b7e8c7cc93800abb379a0d85cf07b7e1ae4ddb37",
+    "CONDA_ENVIRONMENT_BEFORE.json": "b6ac42d68bc8ca3469c2353e6457910fed0393d393163bb0d8bc07fea39a3281",
+    "PIP_ENVIRONMENT_BEFORE.txt": "c5e4f68337a09f9309f86739b7e8c7cc93800abb379a0d85cf07b7e1ae4ddb37",
+    "CONDA_ENVIRONMENT_AFTER.json": "ced9d04017b6824bd11982da140cae575384bb53dfd4833202da61c582d5ff3e",
+    "CONDA_ENVIRONMENT_AFTER_EXPLICIT.txt": "8be3a8dfb80f78ceabefe2c03ef333b86c7034f670de329171caaca990916afe",
+    "PIP_ENVIRONMENT_AFTER.txt": "76a9076d4838960efd0d149a8ef57630a7e5036ab6840d3a0fc71fd57e84a43f"
+  },
+  "ROOT_environment": {
+    "passed": true,
+    "executable": "/mnt/cs_dsns_public/<USER>/conda-envs/v12_root_20261107/bin/python",
+    "prefix": "/mnt/cs_dsns_public/<USER>/conda-envs/v12_root_20261107",
+    "versions": {
+      "jax": "0.4.9",
+      "jaxlib": "0.4.9+cuda11.cudnn86",
+      "ott-jax": "0.4.5",
+      "jaxopt": "0.8.3",
+      "torch": "1.11.0+cu113",
+      "numpy": "1.23.5",
+      "scipy": "1.10.1",
+      "h5py": "3.11.0",
+      "gym": "0.18.3",
+      "mujoco-py": "2.1.2.14"
+    }
+  },
+  "stage0": {
+    "stage0_3_receipt_sha256": "a3eb802c9857d6a75e1489ea0168e2c96747e56bfc5b6c548afe7740bb38c3ce",
+    "verified_evidence_files": 608,
+    "selected_GPU_UUID": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "stage0_user_accepted": true
+  },
+  "BC_completion_sha256": {
+    "1A": "d958f3fd8a9ef2953e517ca6c650f86cecfb7096aa02d8adba6faa1c79b4b48e",
+    "1B": "927a8e44ac4bf3f1d2c4f531bf27e0a62a4ff0a913807f74722b66565b24d325"
+  },
+  "original_training_started": false,
+  "reused_installed_environment": true
+}

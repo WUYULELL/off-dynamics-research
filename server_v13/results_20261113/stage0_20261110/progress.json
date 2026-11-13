@@ -1,0 +1,10 @@
+{
+  "time": "2026-11-10T06:20:02.012982+00:00",
+  "active": {},
+  "phase": "source",
+  "current_batch_completed": 20,
+  "pending": 0,
+  "exhausted": [],
+  "admission_waiting": false,
+  "effective_available_memory_bytes": 215303925760
+}

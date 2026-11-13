@@ -1,0 +1,166 @@
+{
+  "runs": [
+    {
+      "seed": 601,
+      "steps_first": 195001,
+      "steps_last": 200000,
+      "target_loss_mean": 0.0007686668069916777,
+      "source_loss_mean": 0.09520495528131723,
+      "total_loss_mean": 0.09597362207099795,
+      "final_target_full_MSE": 0.0007748290990045019,
+      "final_source_sample_MSE": 0.09651919550008732,
+      "streams": {
+        "target": {
+          "draws": 12800000,
+          "sha256": "0e071c33148ba020d199ae33d8c9faff6125395b5d2b49113ea3555b2016503a"
+        },
+        "source": {
+          "draws": 12800000,
+          "sha256": "157a1038019c6a3be48bf251a0cc421c147ff6fd9bc4315824fe28e3a1042931"
+        }
+      },
+      "audit": {
+        "passed": true,
+        "CPU_only": true,
+        "complete_sample_streams_verified": true,
+        "full_loss_log_verified": true,
+        "raw_evaluation_points": 40,
+        "checkpoint_sha256": "0e6586e3fc06a69af3e10d1b35b070f10112a65474e30a8ac2fe563b99615292",
+        "completed_sha256": "767957960cdf4e998cb7a9e6c2c119c5dc9202706be52fdd09b3782021375bb9",
+        "time": "2026-11-10T07:13:20.655678+00:00"
+      },
+      "log_sha256": "a48c8feeb8db213ae42149205474e413ea93cab847f7c1dcbd2c45d0b6d31f9e"
+    },
+    {
+      "seed": 602,
+      "steps_first": 195001,
+      "steps_last": 200000,
+      "target_loss_mean": 0.000770071522105718,
+      "source_loss_mean": 0.09591146661713719,
+      "total_loss_mean": 0.09668153817504645,
+      "final_target_full_MSE": 0.0007643063741881363,
+      "final_source_sample_MSE": 0.09650176693906233,
+      "streams": {
+        "target": {
+          "draws": 12800000,
+          "sha256": "9708eaec0ce37058349eaf1ee171e094d4438d256bf15fd55edb19f6324902f7"
+        },
+        "source": {
+          "draws": 12800000,
+          "sha256": "93287f4c4ff287836961c66118bada58517dbaf72e58401bff18ffdc0a8bb12a"
+        }
+      },
+      "audit": {
+        "passed": true,
+        "CPU_only": true,
+        "complete_sample_streams_verified": true,
+        "full_loss_log_verified": true,
+        "raw_evaluation_points": 40,
+        "checkpoint_sha256": "b25cf566a331ebb231459c2a3add2586973d1c3cbedd4230c129423ff26388c9",
+        "completed_sha256": "5ed3ea14b7e9978ac14538c8e32c788a1eecf9ab91cdea273b412c2d60d141a6",
+        "time": "2026-11-10T13:15:19.101034+00:00"
+      },
+      "log_sha256": "30390ca099afb5a3cbfd969e85b1b9f6b3dc710fa8294362329527d2489cc775"
+    },
+    {
+      "seed": 603,
+      "steps_first": 195001,
+      "steps_last": 200000,
+      "target_loss_mean": 0.0007690658869280014,
+      "source_loss_mean": 0.09603485815152527,
+      "total_loss_mean": 0.09680392403751611,
+      "final_target_full_MSE": 0.000768068914683087,
+      "final_source_sample_MSE": 0.09689339275275151,
+      "streams": {
+        "target": {
+          "draws": 12800000,
+          "sha256": "c8a98e3955cfaa083460f999066c7b298e3744d800d0229ba1c9a2061a9799c8"
+        },
+        "source": {
+          "draws": 12800000,
+          "sha256": "ae76735a072ade797b1314451895fcaa1fc560c537b4887478274425e8cecd9b"
+        }
+      },
+      "audit": {
+        "passed": true,
+        "CPU_only": true,
+        "complete_sample_streams_verified": true,
+        "full_loss_log_verified": true,
+        "raw_evaluation_points": 40,
+        "checkpoint_sha256": "4e0815d90be7fcf360b31f277fc53bd4db3e1c5e7c73cb9802a110fa1d74b215",
+        "completed_sha256": "1c58b20cabb2cbaddd136e93f072eeb3cc9ab22d22534f96430918d8dc7282f7",
+        "time": "2026-11-10T13:14:38.400657+00:00"
+      },
+      "log_sha256": "cbb49fbca7e847e434a87dda52b0bd5155e50a726cc46c00acce48139b861ae3"
+    },
+    {
+      "seed": 604,
+      "steps_first": 195001,
+      "steps_last": 200000,
+      "target_loss_mean": 0.0007451303063658998,
+      "source_loss_mean": 0.09529771352112293,
+      "total_loss_mean": 0.09604284378290176,
+      "final_target_full_MSE": 0.0007427638903479556,
+      "final_source_sample_MSE": 0.09665161316861264,
+      "streams": {
+        "target": {
+          "draws": 12800000,
+          "sha256": "b829002fb49007ed204f6246b6009c95c1febc04bfb6795974c8c72e24cc0034"
+        },
+        "source": {
+          "draws": 12800000,
+          "sha256": "c09edd54c8116755cabc303ae78cb9a1c5a022fff1ab5ff7b152e44439424ab7"
+        }
+      },
+      "audit": {
+        "passed": true,
+        "CPU_only": true,
+        "complete_sample_streams_verified": true,
+        "full_loss_log_verified": true,
+        "raw_evaluation_points": 40,
+        "checkpoint_sha256": "2d234a1cff7cd0d2740bda1c7a5b69e11ed733f0c736a44feeed2d8f4b2e3b37",
+        "completed_sha256": "35ca2e52875abfab63b4409e0b1efacdd95fbcf87029d213b6f4161ed0517322",
+        "time": "2026-11-12T09:46:33.238179+00:00"
+      },
+      "log_sha256": "0ad96be66d9d6dc83d5c8e9923bd308cc2c3952662850a890412731ccaaef162"
+    },
+    {
+      "seed": 605,
+      "steps_first": 195001,
+      "steps_last": 200000,
+      "target_loss_mean": 0.0007770481354149524,
+      "source_loss_mean": 0.09558873734250664,
+      "total_loss_mean": 0.09636578547731042,
+      "final_target_full_MSE": 0.0007804212943440392,
+      "final_source_sample_MSE": 0.09670373692489798,
+      "streams": {
+        "target": {
+          "draws": 12800000,
+          "sha256": "b14742a0beca9afc610ed2c7b7cd29c3918539737dbf3bb73804efa71b488712"
+        },
+        "source": {
+          "draws": 12800000,
+          "sha256": "475a48877c401b1633a579f466076bc97e3da76a191cdeeee3d3bfabd22ad474"
+        }
+      },
+      "audit": {
+        "passed": true,
+        "CPU_only": true,
+        "complete_sample_streams_verified": true,
+        "full_loss_log_verified": true,
+        "raw_evaluation_points": 40,
+        "checkpoint_sha256": "fc89f00bb159d5190fb9af82563f2a3fe07ee284c0aaeaba44d54085342bc0ef",
+        "completed_sha256": "4a9109b3f44edea9cd4af59ea453e49c7c2a5312a09aebcf3984c2527ffeaebd",
+        "time": "2026-11-12T11:26:33.213492+00:00"
+      },
+      "log_sha256": "2b2242e0ca09b7a3bd4293f688d2feafc2358db8b37cb9866aa1ce27fdf1dc20"
+    }
+  ],
+  "code_sources": {
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601/config.json": "dfa6c4a06b4325bd9f96fc10c1b5118cf16ffe49ef784c195c9ca8a504334a32",
+    "/mnt/cs_dsns_public/<USER>/v13_action_fix/stage1_shared60_20261110/worker.py": "03cf8d4e7e78b75a2c479f49bc62d645b04689de5fa486c36762d12bb12905a8"
+  },
+  "distinction": "Saved losses use changing pre-update policies and sampled batches; A1 uses final 200k policy and full target/fixed source sample. Exact equality is not required.",
+  "sampler_order": "target 64 then source 64, independent RandomState streams",
+  "optimizer_evidence": "Code: zero_grad, backward(total target+source), optimizer.step, scheduler.step. Existing CPU audits check full 200k Adam state and cosine; no optimization repeated."
+}

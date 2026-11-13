@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "old_failure_sha256": "cb46c25d06df9ad8179ec0a57ed1fd5928b8686919c158fb2a28448847d1c6f8",
+  "files": 8,
+  "previous_repair_output_unchanged": true,
+  "both_old_source_packages_unchanged": true
+}

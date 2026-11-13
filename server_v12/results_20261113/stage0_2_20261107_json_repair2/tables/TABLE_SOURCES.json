@@ -1,0 +1,36 @@
+{
+  "source_report": "server_v12/results_20261113/stage0_2_20261107_json_repair2/REPORT_ZH.md",
+  "source_original_sha256": "47eec625617a480c59b9411fe235542a3af7d023ff150f9fcff74337fcef2c67",
+  "source_public_sha256": "47eec625617a480c59b9411fe235542a3af7d023ff150f9fcff74337fcef2c67",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v12/results_20261113/stage0_2_20261107_json_repair2/tables/report_table_01.csv",
+      "section": "已完成范围",
+      "rows": 3
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_2_20261107_json_repair2/tables/report_table_02.csv",
+      "section": "determinism_a 损失值域",
+      "rows": 3
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_2_20261107_json_repair2/tables/report_table_03.csv",
+      "section": "determinism_b 损失值域",
+      "rows": 3
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_2_20261107_json_repair2/tables/report_table_04.csv",
+      "section": "entry_20k 损失值域",
+      "rows": 3
+    },
+    {
+      "table": "server_v12/results_20261113/stage0_2_20261107_json_repair2/tables/report_table_05.csv",
+      "section": "完整入口与评估",
+      "rows": 2
+    }
+  ],
+  "per_seed_rows": 0,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

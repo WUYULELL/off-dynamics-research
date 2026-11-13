@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "source": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_20261108",
+  "artifacts": {
+    "ROOT_Q_READONLY_PROBE.json": "003a2931f0286f799797d5d42a9f97c88e913ca31e577fd216cb8a979830114f",
+    "ROOT_INPUTS.json": "31dfcd4a544be63a7160d9a3c3010b48e800189d38d94f3a122c158018f7bb07",
+    "ROOT_OT_SEED_INDEPENDENCE.json": "5e196823f5662932351333ae9248dad5d0f1211a5e7dd4c004a9e724280d7a58"
+  }
+}

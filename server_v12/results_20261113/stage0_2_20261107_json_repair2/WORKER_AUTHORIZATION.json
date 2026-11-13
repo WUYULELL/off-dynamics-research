@@ -1,0 +1,14 @@
+{
+  "scope": "V12_0.2_three_fixed_jobs_only",
+  "jobs": {
+    "determinism_a": "0190cd2ff480203c3648dab03169889f1b6f8f79d8f5f7659a307c40553b5dc4",
+    "determinism_b": "158adf04b62cb66f5511aec7780ee93bbcd7480577d177324bddaed2460d8127",
+    "entry_20k": "b3e68a5bc6ec8c89145b9b5c970d6daee9a4dfc700b2859dba3a16dfa2864ab1"
+  },
+  "total_learner_updates": 40000,
+  "total_Adam_updates": 120000,
+  "maximum_concurrent_GPU_workers": 1,
+  "stage0_3_authorized": false,
+  "later_stages_authorized": false,
+  "automatic_resume": false
+}

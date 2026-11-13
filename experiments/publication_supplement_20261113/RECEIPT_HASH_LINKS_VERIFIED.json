@@ -1,0 +1,1387 @@
+{
+  "passed": true,
+  "checked": 230,
+  "scope": "收到的小文件及排除元数据之间的原始哈希交叉核验；未加载模型或重跑科学审计",
+  "checks": [
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "213327296407dad9d2f19a5410f6c7dce80fb1087ef2406c66c7e10e3fef6245"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/INPUT_HASHES_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0b4da9b0616df0b9d1a378d8e17a1c7e5bac5709a7e8888f46520f2b0a503c91"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/GYM_INPUT_HASHES.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "58f11ea1e4e891481130d5e55dbb303bb26906f3923c7cd2c4bb74655d8cebcd"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/ACTUAL_NATIVE_RUNTIME.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "77dbd14f8713f0bea2146a5b5dd4fbfa238d162f21bf07854d5b00be873a8f28"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "539e01bd058f374f853ea35e686a44d197a3de1851f98f850dbf976623e4a3a0"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/MUJOCO_BINDING_COPY.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2757ccecd4f9d5e518025e9c7ec9dbed62aa86826c02cf934dcae996229ed5f7"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/CONDA_METADATA_HASHES_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "fac004e353462c6f5d5c41304a2d55c1733936fa17e55cd10731695149d344ec"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/INPUT_PROTECTION_AFTER.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "937b7ad2dbd2bc657ea07e38e1c2cf2921a4a6e3e1d8c5fc7ca71014dbb4527d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/CODE_FREEZE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d4f8f6bea8126f92551c2d51f0b842a2a3b7f04da18f2b94bea5a0e417337d2d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/ENVIRONMENT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "b57fc9aea9186ac25fe804d055df8ed77b96e01d3a37d6cff22d802c8884c0c9"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/PRIVATE_BINDING_HASHES_AFTER.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "31f3112e2c55d395d33e9e5975ac2795160cb5ed936aefa7a64c6ab25d4141f5"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/CONDA_PACKAGES.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "a0909c340f905f862eddb1216323d94dd3850c039baa502b327204d33661f114"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/walker2d-morph/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "77101d040f71c92be237dece6b3866d0d40c8cab2d9fd1a3ee3da1d6e1e59a34"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_1_20261106/STAGE0_1_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/hopper-morph/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "11e026d5defe8670c7766e8b6d853005045a9184abee78844d73bd51edd57844"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/PRE_RESULT_COMMITMENT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4669fd91eeb88c4dcf897e408acb74bbb2ad5a6be1cab19a3704723ddc0c3933"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_1_APPROVAL.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_1_20261106/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "213327296407dad9d2f19a5410f6c7dce80fb1087ef2406c66c7e10e3fef6245"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/ENTRY_PREFIX_COMPARISON.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "edde02b886c1fd9414ee942c7698d589ca4cc7c0068286cff7bc14b4eaf04140"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "47eec625617a480c59b9411fe235542a3af7d023ff150f9fcff74337fcef2c67"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/INPUT_HASHES_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0b4da9b0616df0b9d1a378d8e17a1c7e5bac5709a7e8888f46520f2b0a503c91"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/STAGE0_1_APPROVAL.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "11470b64c35c1669d15d5d6ba4909b0be31d577370236275333f6e6e1dabea20"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/GYM_INPUT_HASHES.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "58f11ea1e4e891481130d5e55dbb303bb26906f3923c7cd2c4bb74655d8cebcd"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_a.job.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0190cd2ff480203c3648dab03169889f1b6f8f79d8f5f7659a307c40553b5dc4"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/PRE_RESULT_COMMITMENT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "faa1f0ebaaae7d7e7160c5dca57191a32a26fd3f207b69a6057fdf339aedf7b2"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/ORIGINAL_FAILED_START_PROTECTION_AFTER.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2dd87bb8a8cd0010fd305b4b388ff1b2792770e759f0165f14c8548a4ca93503"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/entry_20k.job.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "b3e68a5bc6ec8c89145b9b5c970d6daee9a4dfc700b2859dba3a16dfa2864ab1"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4669fd91eeb88c4dcf897e408acb74bbb2ad5a6be1cab19a3704723ddc0c3933"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/ENVIRONMENT_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d9620117e879f6d001dbb916a3a433fcfc2986c551bf9708a6783e6b51ed0e64"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_b.job.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "158adf04b62cb66f5511aec7780ee93bbcd7480577d177324bddaed2460d8127"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/WORKER_AUTHORIZATION.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "431786f85c4827649bc4fcea1472c9c418b999b54bdd0c882a99af7e871dc0b4"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/INPUT_PROTECTION_AFTER.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "b55be33fc2cbac851d9f1bade2e8f6124c34c4eb242b4e2cd5c4cc7be49ae256"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/CODE_FREEZE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "b4c0b6e9615c18431412a8d9f92248c3056487523f691fcf54f588bb58ebff60"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/ORIGINAL_FAILED_START_VERIFIED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "40fbc8dabbe57c7576bd0691821deff3db93fa706be85be1239af0154c44607a"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/DETERMINISM_COMPARISON.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "41227bde90203bab34c36df290cb21b54eebd64a32b9551a27b9b9eed32e68e3"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/GPU_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ae0f4ac7696e0ffadb7e73acffe84cebeac681d8caa9da313d61d0c3f0880570"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/ENGINEERING_REPAIR_AUTHORIZED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "367ab5d6230b4691f19c4a368b0ebc7dfb5241f6be4bc0f4985772d03452cb4c"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/WINDOWS_LOSS_COMPARISON.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2372e03e7cd0f7bd719f36e28f3661bfe03948afad5a5fb26c4140c6bea07bd5"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_b/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ffda02b5313f6f18153916bd99a2aa7dbc2bbe6e2580f3130ed699277c08e947"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_b/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1e354f21cca6e9a3876cbb6b29cc5047162a615f4ccc0a4d5b881801bb95a1ae"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_b/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "dc4b8cfa2b758a47a3a243ac638212a16f73e912533592a1ca89831d7b013200"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/entry_20k/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "5a6a87f0576412f299535925bc1b88d2dff0f348ca6f33c13413ff57edfa4036"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/entry_20k/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "6b5da51ecec9bb0f64cf4ece28ff0491d79537df0ee3036182679502f84ffe93"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/entry_20k/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ebf1a50e0e29ea8766adfbae5e12d8832b1052be04b362b6ea966b91045e3ced"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_a/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "db653f138d9c540d48bda6f86f6d0f8d7062b854c4cfb81984bd6b8c85ded5a4"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_a/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2ffb1163e74c78c72ccffaed79ab772b71a6e2d5a3be2b2f139ae10d161b4854"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/STAGE0_2_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_a/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c82d46ba8e7a9745f910cdc4b8f1a07e9b6c3d8a4f0a0104d481242af7053773"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/determinism_a/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_a/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "db653f138d9c540d48bda6f86f6d0f8d7062b854c4cfb81984bd6b8c85ded5a4"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/determinism_b/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/determinism_b/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ffda02b5313f6f18153916bd99a2aa7dbc2bbe6e2580f3130ed699277c08e947"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_2_20261107_json_repair2/entry_20k/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_2_20261107_json_repair2/entry_20k/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "5a6a87f0576412f299535925bc1b88d2dff0f348ca6f33c13413ff57edfa4036"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/PRE_RESULT_COMMITMENT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "62c87d3e8ea117c6fc9809317333505d43a80f7624da905cabdcf0fbe625fb25"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "3526f0bc336bcd7c088be6269a06744008331c212f1783e1a44a415cc28d243b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/INPUT_HASHES_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0b4da9b0616df0b9d1a378d8e17a1c7e5bac5709a7e8888f46520f2b0a503c91"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/THROUGHPUT_RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c46adc6a571a431272696fc4c984bfd2c9ff16a9be97236a1dce90f4e664b90d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/PRE_RESULT_COMMITMENT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "608d3ac4be24ddf0619ba1a88dde1aa7a5c420302ad70c725350c0b1e5da7862"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/STAGE0_2_APPROVAL_VERIFIED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d2cbad3e0f2629de4717d0a20aa712f926b0ebd39707dccf1062011152e8a579"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "62c87d3e8ea117c6fc9809317333505d43a80f7624da905cabdcf0fbe625fb25"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/ENVIRONMENT_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d9620117e879f6d001dbb916a3a433fcfc2986c551bf9708a6783e6b51ed0e64"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/WORKER_AUTHORIZATION.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "5f59df0b9a9cdcb5177229a5cccda564e5e48eba283f278d48999faf23559934"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/INPUT_PROTECTION_AFTER.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "031e420df7015c9482b6b58551f0f015338d947c21dc6c6e6f493190da164dba"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/CODE_FREEZE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "44b6b64ef627cb58996acd584da0caf383e94980c218d2dfba8622bb51b665c2"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/GPU_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f1530afa0a85c32303cc5acf586610ebd21cd4b8c279495670e1bd21b581f22d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/PRIOR_SUCCESS_HASHES_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "090ef8055cc51db7b6b2b0d62f044e7f96675a973c714b347182ef2abd58eada"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s906/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1315a1ae04ec90a939f7e21012f955479439e5ecb04ecfdb1c17c53cb2eebf64"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s906/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f2a6aa2d367ce11109330271e3f6f675cf4fa148ab7cce84b2b990437c3df40b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s906/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c32d35b71f499a3410d6bd22841be49c20f55381442886a88cb6cbf4f0b36b3e"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n2_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2d4168f17e9da5a9f46dd4c823b8e07ff12e4aee5cc7b0095e1562d25c1a9237"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n2_s901/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2e86d0c79bf8d4a88503fab68a45ff1b526b32f8e8260fdf1551ab0395d1769b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n2_s901/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ac589c4c499a68d8746a7ec4cc859216de8f8dc1ceeb5a6c9b62efca30ababff"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/BC_n1_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "9dce4445129c8f7062fe9138c1b9af99afe1dd95212f23410c56a935b39da586"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/BC_n1_s901/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "e13b8faa1e0c25a14634d7e90acad6268ce66a63e2f2b90a3bc869c3ce07ad2d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/BC_n1_s901/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "28527cbbd6a4b6c313c3de6824074b4993d736b8cfd7263651521870b272c633"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s902/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4bc254ce93f54ada9d64e0724fbc46d0d46893c03d4754d88cc75f92bc957f0b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s902/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "75f6b70ffe963ad2e04785d8ad2fe6bb913fb7768e64fc76269e9b5ca0914a30"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s902/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "b540821581c21282561b276e612551e627499c1fdc78e168d4f709fd94e3517b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s903/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c5560e5e892630fbd1727693996ec3826288c3143e8552ad68ecdd334ea3701f"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s903/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "7c2dd1f36c5fcbb2965fa664f3249280fcaeff7b5f83901ebe35e9eb414cc7dc"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s903/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "e07e011ab64459b4ed7aea90a256e02818cf1ea65cf21baad4300b0cf6c84fba"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s903/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2d7fb05ebabe2995ac6591b7d2ab313f012adcedbb900b5deadf27feead5ce27"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s903/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1b02f929b9b49309bb8b38f1246be56d7659e07bf19acadf03db471e02aaa201"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s903/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "5fb083e968d49dfcff56dd861c4dbd2aa9b359bed2cea5842e3fb1fa48181e97"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s904/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4ad3350be2addf3cddb94096fbb764be816ee830b2d799b2f7915276f932b0ff"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s904/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f36762f637ce81a3256bd7d1009e817668914f31054ee1b308bf6ffc9e0ff63e"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s904/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f27b2657ad88ca7444d7b598d4b373bd10cebc2db6a6b3be206931a05e5bf2a3"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "332daa6fa587211ab8bfbe67d2b6617b62b5738e0b9544a25ce5051cf027b963"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s901/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "81d3fb946ad8a674366f47779ac1127be52386d6b0ff876a2166265116556756"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s901/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "796e1f688d4124658ccaa1ee06e9c9593187687c0271e86ec585c38e9e175a63"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n1_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ea8c897228365e61dedb25f514e454341a99011bcf56c4fd22b5f0f7743d6f68"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n1_s901/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "8b8f6438d06167e3f6294e64f419eeeff63628a0f7762705427e728811ce81b1"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n1_s901/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "a05e04f1add2f1044cd3c045f0622439e474f514f7d5822fb49d6d1dace561ec"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "a3e263b0c3ed3b3876a4a70d790e2bb78449f5e684103eddbc5f62fefb1a3562"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s901/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "135d6bf1b9ab87b8e157147c957e6ada37f73e463e61d71d4623466570ebd038"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s901/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f6660dd090324b74b2ea078807b88c4c6bd26684ab047787c03ae7620ac845af"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s902/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0d91afcbb6b3d574c57abfad85ce18b9321cf1d2529323f2cd1851029078714d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s902/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d5b43fc64724c319bb92d3f0cb72a309bb1b8d2f2fe2a9e36ac51c3426ddef78"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s902/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ef81f4addd872cea5b0a851db368b713584bc52ff00962a972eef164b8825ef1"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n2_s902/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "8d7b9f31cc4a6b7244c87e2c8c97ab35cd335ee9087fa93f5c030427895e9e12"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n2_s902/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f3c90eb52e11246fae77a2f4f6ba57ce376bc231f3f5fe4ad5116a4cfa15eebb"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n2_s902/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "3e404564885a595198f289f69e4b9b7a1744b1ed9d08676291d68e11d2de0a87"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s904/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4c06a7158668d7f967316ce920d8ddfd239d02344def781823c3481ea0c858c7"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s904/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c39de6c310e83555470eafbcdaa721c693e0f95c9c55da73fdedb26b22751f87"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s904/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "873093141ce8366fd86e0b24045482fb9538fcd2eb88448ab255230fd1a72726"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s905/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "aba61d6356b118a06166036f9f80ade757d7786d91870a638998b3e2b021df6f"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s905/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "00ff3befb06427fd7c8a2de99db06cd3793c73706972fe9436cf69ab58a63c74"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s905/AUDIT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ad96437c3f6d501abd3019fddad66f890f3680b2a28b6d9071df93f179902663"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/IQL_n6/MEASURED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4c47aa91833ae2d927e9970098e9b688af53a5d9adcb50b9cc3f36030aa6e081"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/IQL_n6/TIER_COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1931da7ca6cc06007a43cbdab9cadd7f0adf6ea727f106ffc789dccd9a444a2a"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/IQL_n2/MEASURED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "179f08fe330411e2cf5ca116624bd8b9982d641ce3f429375db1c7222ea10134"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/IQL_n2/TIER_COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d49b85727e0fea7fe456a0febcf72fd0c165fd459d8a8cde03484acb36fa377d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/BC_n1/MEASURED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "74d4be4217a60ca31cf38b341bd7b6273d325e935b477f76f31e368484229236"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/BC_n1/TIER_COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "46ef087b645ae92a3b50fa25c844bca091414f8b88cb8686e771f480707566e6"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/IQL_n4/MEASURED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "7c43ad9ff3ab24474a16e21324c12be29b2640c06b0ac1154e3b4f88a4ff15f4"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/IQL_n4/TIER_COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "b8bc09694afa9b627ee0947f520ab52d55de6801a858a3b8e9b948b3f0b0f1f1"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/IQL_n1/MEASURED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "b38f14682eec7faccbdb738d00755d71cedf7865f477472955de9249ec14f126"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/STAGE0_3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/tiers/IQL_n1/TIER_COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d99b7b550f5ca5116e1d4f6d27fa3d4cc4430e4f578a4dae8d9af55d8c337523"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/BC_n1_s901/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/BC_n1_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "9dce4445129c8f7062fe9138c1b9af99afe1dd95212f23410c56a935b39da586"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n1_s901/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n1_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ea8c897228365e61dedb25f514e454341a99011bcf56c4fd22b5f0f7743d6f68"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n2_s901/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n2_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2d4168f17e9da5a9f46dd4c823b8e07ff12e4aee5cc7b0095e1562d25c1a9237"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n2_s902/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n2_s902/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "8d7b9f31cc4a6b7244c87e2c8c97ab35cd335ee9087fa93f5c030427895e9e12"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n4_s901/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "a3e263b0c3ed3b3876a4a70d790e2bb78449f5e684103eddbc5f62fefb1a3562"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n4_s902/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s902/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0d91afcbb6b3d574c57abfad85ce18b9321cf1d2529323f2cd1851029078714d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n4_s903/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s903/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c5560e5e892630fbd1727693996ec3826288c3143e8552ad68ecdd334ea3701f"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n4_s904/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n4_s904/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4c06a7158668d7f967316ce920d8ddfd239d02344def781823c3481ea0c858c7"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n6_s901/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s901/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "332daa6fa587211ab8bfbe67d2b6617b62b5738e0b9544a25ce5051cf027b963"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n6_s902/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s902/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4bc254ce93f54ada9d64e0724fbc46d0d46893c03d4754d88cc75f92bc957f0b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n6_s903/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s903/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2d7fb05ebabe2995ac6591b7d2ab313f012adcedbb900b5deadf27feead5ce27"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n6_s904/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s904/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4ad3350be2addf3cddb94096fbb764be816ee830b2d799b2f7915276f932b0ff"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n6_s905/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s905/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "aba61d6356b118a06166036f9f80ade757d7786d91870a638998b3e2b021df6f"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage0_3_20261107/runs/IQL_n6_s906/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage0_3_20261107/runs/IQL_n6_s906/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1315a1ae04ec90a939f7e21012f955479439e5ecb04ecfdb1c17c53cb2eebf64"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1A_20261107/COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1A_20261107/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ab65d18c570526e41b857058b837c440c65ca238296797c3acc796cc54fb1938"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1A_20261107/COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1A_20261107/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "99769f0e671336e02e7372d0b8e1adb91c72011c145c3bb64238be562303ce60"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1A_20261107/runs/hopper-morph_source_s401/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1A_20261107/runs/hopper-morph_source_s401/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "6240a3ce048a9cedcbda7cd678267cc482377d0c95e6121de47224e64c6c533d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1A_20261107/runs/hopper-morph_source_s402/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1A_20261107/runs/hopper-morph_source_s402/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "8062f79c0bbba2cc3c4874b7785e5560bc6b248df583d3f50c5520010ad39ba5"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1A_20261107/runs/hopper-morph_source_s403/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1A_20261107/runs/hopper-morph_source_s403/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ee968de38cd2ddcdea1490ee5051b6ac8f3ec5124072c0434d12de73b8fc85e0"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1A_20261107/runs/hopper-morph_source_s404/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1A_20261107/runs/hopper-morph_source_s404/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "51866aa3e9f3b510888a64ddcafb3b3ac5c3472c630cc613e92e71ad78f588d4"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1A_20261107/runs/hopper-morph_source_s405/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1A_20261107/runs/hopper-morph_source_s405/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "cdea9d2b88e8aad68797ae0b99f53aa29fa1076d8f6078b4ad967f9d8a556714"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1ef22f4ca9ee28faec249fe130d364e90fe3d6b986dcc84260a60fddebc8514b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "85fec42f0642801c5cf8d46578e7de8728fc90227316f008f2f592503999cc8c"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_2_s401/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_2_s401/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ccdd397e2105c6af2e7b1b67d15441e49019f15fea562b14fc73f0fa136e4cd0"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_2_s402/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_2_s402/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "5bef29bed5aaadfb97d10c544957123c5614d64f975410232060c2cc46d598f3"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_2_s403/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_2_s403/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "478eab6fe38599c80bae1e2adf176fe97af15e104b4630e2eb08453b2c3978ee"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_2_s404/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_2_s404/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c9a97e7bd0667039ad3c13274b9ab5ffca24133b4122262a5997652aa75586a5"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_2_s405/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_2_s405/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0b93839945bd35c3c2b1ef782eda99eb587e982a8d83f0835c200edcb659da4c"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_4_s401/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_4_s401/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "a6fa369bc69114c7acfb7c6232c6969c3ed7afa6537d5d97bb5aecc31e517cf1"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_4_s402/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_4_s402/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "9d373f48b8d2529d38cf5bc734f773429bc0cb1f0d1e145a2ebbf97830bf7b7c"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_4_s403/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_4_s403/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "6ff6c1d1e05eb1cefc0d6f12ef357c1c50ea087a725b7696ab529eeabacd2b6d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_4_s404/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_4_s404/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "e7e7bc6e66c72340ee365c6762ff5270153f9d5ab835d9a5619b760cfee434b9"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_4_s405/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_4_s405/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "cbbb56593e467625f926dc0808332fd2a09f87013baf6d5f72403dc9189654d5"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_7_s401/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_7_s401/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "bcd137d6876f54cd35000e1c90e082801c07d0231400854402bdd7f38010416a"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_7_s402/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_7_s402/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4aab26a6b3f2e819da1eb79c53441a06027d8915ea845c83d5fda708ca4577a5"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_7_s403/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_7_s403/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0950e53864fc90d6e04330684d196c0dcfacd07bae86c02f7ca1b62c99c2cd1d"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_7_s404/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_7_s404/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "e382e6eaa47b3fcc972de67799c43c9b8d029b60b59ab22b54d4444e75f9f756"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/hopper-morph_7_s405/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/hopper-morph_7_s405/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ac3f9c200b54d8da2648abb5a6b63cedff3a0e2ed498ade945d91e9124dd1f3c"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_2_s401/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_2_s401/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4d8c0accc7c9f7a93a4bdf3a30c46a9769914fa2c95796b36fa2531219531cbb"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_2_s402/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_2_s402/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "208bb418d2ec9cb034a18370c9a17bd82b00d415fcdd41b37fe3ed0ebf484825"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_2_s403/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_2_s403/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d2358512e370289c43a35a7abd51860838a316c780ede9dc511718ee9099e049"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_2_s404/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_2_s404/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "83835014cdc32a0f44630d13867ba9c360eeef3e70973b3fafd31845a66db987"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_2_s405/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_2_s405/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "bdfde9ea576eda9e55111a167e0856d9b61d62f7f14ff27b56718a23fcb28da8"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_4_s401/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_4_s401/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d9f4e7cd724345bd0dff5f49e6de9d2fa475308fd2f2822a92f6ba55b02fcc98"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_4_s402/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_4_s402/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "00645eac447825a144caf5f2ce7354fb935870204a66ce44a01d2f60c50439e5"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_4_s403/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_4_s403/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "125c2fc2b808005a002cdf25c6f17a321cdabeb26340a95626bc1f55f3bc80a3"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_4_s404/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_4_s404/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "42e6a83be1a52a470c19cfae5f91dec5773d1c37e25044e0fc46906df021a5e1"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_4_s405/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_4_s405/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "658eff66315fc9d833bd6c3f9151d187ba4a403d34d8f66d25c5141ea5ffc78b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_7_s401/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_7_s401/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f87510bf4fd7c638bff0c2a2e36817e0e1c9b3f3b8c8ec0c76aabb4a08de8ee4"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_7_s402/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_7_s402/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "58259035ce3878ee9151cfd1a03e5fd20dff18b1df5df2fb2099b98193c16cd3"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_7_s403/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_7_s403/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "e0de5329d9d31d25e2347eb2ad2d6b48b01f46e9650fd6e3a28b562347885481"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_7_s404/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_7_s404/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "5b2f733ee4c019105a4a1366cc4fc2b5b6d84ff66dc464b11b07e95309b2b930"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage1B_20261107/runs/walker2d-morph_7_s405/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_7_s405/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "47c765ea247a278bf640eca9c80a1c0459fd47afad863013da0a66c8795a3179"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage2_root_20261108_continue1/COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "95bc09ebe8e9721e4bcbd5f8d7faa51a864ccb7060da4531bd6568fc8d20289b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage2_root_20261108_continue1/COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage2_root_20261108_continue1/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "26e1211b750a7a33372824062f7551332b0b0a00c7fe8f6fcff19a60184c7d69"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_shared60_20261108/runs/ROOT_s501/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s501/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "9eef644c8eb7dd7b6dbe1793070c5db8e3cd5ddaaa7ea32730d1237ebf122817"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_shared60_20261108/runs/ROOT_s502/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s502/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "adeab8dc2dc1ce0016a916bda153015d6b459cce79a3f7014c0451ed1e57003b"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_shared60_20261108/runs/ROOT_s503/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s503/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0d9913efac45282c055181dc654b11f509679508029e162155f72244f5135e89"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_shared60_20261108/runs/ROOT_s504/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s504/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "36a549d5e3821c91f2727cc5bfad212ff968488f8f2ff5194569b28be1cf1dfb"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_shared60_20261108/runs/ROOT_s505/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s505/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "8485f1b06289af93cb9bf400c014900f8f188a0a8bb04302f6780fe6942d81bb"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_shared60_20261108/runs/T_s501/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/runs/T_s501/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1e12f83c6ca1f70a78656d46061ca4c8a4d3aba69154fa5b5faf961abda03261"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_shared60_20261108/runs/T_s502/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/runs/T_s502/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "bb17468a4358c8e0289e2eed560fc30d73c9e0859c1f8b939db6ceb096db1b17"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_shared60_20261108/runs/T_s503/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_shared60_20261108/runs/T_s503/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "768b562f2394e535ff8e251dfadfa2343fbd471e327e1d4aa1009d32badc14e9"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/STAGE3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/STAGE3_REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c7fbd6e515c4550a9971faea9ab3697a24393b97c93141f46d5e3d09b88a5c4c"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/STAGE3_COMPLETED.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/STAGE3_RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "41b7a13f5a1445755bfc26acc07f08e2e7a1046dbdd76fabdbd19a5e574d3ca5"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/runs/BC-all_s501/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/runs/BC-all_s501/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "76528aa5a322d10c08d5cde766cd5db3c8f7bde9fe15d5774454826049547cd0"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/runs/BC-all_s502/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/runs/BC-all_s502/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d25fc8d1859cefab1388aa65c243764ab140b0e4256919ca9b2acc5a4e1d88a7"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/runs/BC-all_s503/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/runs/BC-all_s503/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "83b7678e5a6b14924d65fbdab1c5fdfcd7dcf814fa0157177c59fbb171b13e6c"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/runs/BC-all_s504/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/runs/BC-all_s504/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4bd8ceda76d91b9d38d4ea4cb4859c4cc5b4e1670dab63bad6825954744a8fdb"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/runs/BC-all_s505/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/runs/BC-all_s505/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "33f99118811617179a0409dd7e5cf41f9373adcaf6dd204a84febec81435df1a"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/runs/T_s504/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/runs/T_s504/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "7bca77c9f2598355fb376d10f6dfeff90b481a90a95eb24025055974e15b26a8"
+    },
+    {
+      "receipt": "server_v12/results_20261113/stage3_switch_20261110/runs/T_s505/AUDIT.json",
+      "referenced_source": "${HOME}/v12_linux/outputs/stage3_switch_20261110/runs/T_s505/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f8393439af43a71e986a9b0bcd09cc97a9a8ef5ac83210ecb7e33304e5609147"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage0_20261110/PRE_SIMULATOR_COMMITMENT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage0_20261110/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "324a5b253509749f3920919ed5eeae60641a0481f3b7b6a9aa9836f402fcb0e9"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage0_20261110_report_repaired/STAGE0_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage0_20261110_report_repaired/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "0d3c28bed6dabbaef10e717c4a971a7ad0da52bbf537bb39375c2a1641db6b87"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage0_20261110_report_repaired/STAGE0_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage0_20261110_report_repaired/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "2c27e1d6affc225d4cd10dc5c38fc074da071a9d9719bb9bc2e8bd960d4a501c"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage0_20261110_report_repaired/STAGE0_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage0_20261110_report_repaired/SOURCE_HASHES.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "70ac4d727943781adcd8c311e9f52c68d830be6f99772934ddee12173494a297"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110/PLAN.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d72bc292fad73b6cfaf6f07afa188790cde50c218938801893081aff54747777"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110/runs/BC-mix_s601/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110/runs/BC-mix_s601/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "767957960cdf4e998cb7a9e6c2c119c5dc9202706be52fdd09b3782021375bb9"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/PLAN.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d72bc292fad73b6cfaf6f07afa188790cde50c218938801893081aff54747777"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/STAGE1_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "70f32fe2b7e1d0e5d4f3949a3e62578d6804ca1473f5aa223992bbf3256cabf8"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/STAGE1_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "15afa57c24285ab9ba5381e84cc48e54a75988c7b4ee70dabfd9ce728daf8877"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/STAGE1_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/PLAN.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "ee9770036f5ec98b0d393a4713b854d5737e3198424c2dd7ca2df6c41d4df1e1"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/STAGE1_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "d72bc292fad73b6cfaf6f07afa188790cde50c218938801893081aff54747777"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/STAGE1_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/INPUT_PROTECTION_AFTER.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "6d92e7d69e1331fdd0d4df1d1aee1c18b4dad190c09fff3ab370e278c95b2ff9"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/STAGE1_COMPLETED.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/CONTINUATION.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "26f12e6b5e78256e037575e2e59f421581216795e562beb548cbb22d88fc21fb"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-all_s601/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-all_s601/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f60ed20435c3fe1e83bb5ea38428462223b84c9d5d40dc0feab5060e019d97f2"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-all_s602/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-all_s602/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c81ffd8dd68e06854dde4fbcb2426d58f0ff107d4c3e4cabf2e103fec9e284e6"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-all_s603/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-all_s603/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "6181983e432af44fb0cf2c8be7498e96e72a0a18fcd685680cc6de1abced65e1"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-all_s604/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-all_s604/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "deeea6d9cf6a29e6ec9c7300e4879190908790f768bcb818191cfdf1f2f9bbe3"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-all_s605/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-all_s605/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1dcb60091de541b47a3a6626ab56542c1ec08f52a21d27413f6bd95120211be1"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix-sel_s601/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix-sel_s601/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "414e5f17cd28422df742304c77b8f07fe0f659a98372306ffbd82e41a032754e"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix-sel_s602/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix-sel_s602/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f45eacdd80b1f85292bcd54cb4874c497c3e7985dbb56d505da21d92a127580c"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix-sel_s603/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix-sel_s603/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "864bd2781065b72fc0187b94ea8a28d3434b7901b140de150eb662f96f8bc684"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix-sel_s604/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix-sel_s604/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "145599d4037cb7fd710f5e5f605131a36ce3ec4d69c09676f58c572fb69b1f16"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix-sel_s605/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix-sel_s605/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "39a639aaeca55b8546fe2ba4353b0be0e4364c8c6c669416d9edc8781a07b354"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix_s601/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix_s601/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "83cdc660651bc5197ada564a5c61549c01483e363e92dfbc8868d88becffa403"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix_s602/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix_s602/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f75bc7397a8f22da3a90560d6b5149571871d29a10eeb30667ccf887f2cdb09a"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix_s603/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix_s603/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "794b8ddbf154916ca1c5364e08a09d6941d6ad95d016db2aaa9e23fc242ead2c"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix_s604/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix_s604/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "8009e970fd4ace486ea884ccc46b053f64b86f5ff9c066e15dbbf3c16335846a"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-fix_s605/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-fix_s605/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "84b720a9049c73406627606e4475b09c434126b5a964ad06eded5e9e7abb1e00"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix-sel_s601/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix-sel_s601/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "cc45fd6413f8e8a9308b522c23338063b78ba08e4d2175c75b042b5121add79e"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix-sel_s602/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix-sel_s602/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "3f40504063ad1ee555b827c6c8a1a48cba3bf6f5ca79e1c9518b00e6bb877a6c"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix-sel_s603/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix-sel_s603/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "463c963145f153255e7a5132212e67e77fe877667bfdde5eebc4d0bd7c98b871"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix-sel_s604/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix-sel_s604/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "014d63520d769c9a804e4cad4ee33c24dbd70c7fa2b4fac64cc437bb89977896"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix-sel_s605/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix-sel_s605/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "8e343071444f841248ecb54884378c5c0bbc81d500460105e1c85a1c6f6a1abe"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix_s602/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix_s602/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "5ed3ea14b7e9978ac14538c8e32c788a1eecf9ab91cdea273b412c2d60d141a6"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix_s603/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix_s603/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "1c58b20cabb2cbaddd136e93f072eeb3cc9ab22d22534f96430918d8dc7282f7"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix_s604/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix_s604/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "35ca2e52875abfab63b4409e0b1efacdd95fbcf87029d213b6f4161ed0517322"
+    },
+    {
+      "receipt": "server_v13/results_20261113/stage1_20261110_shared60/runs/BC-mix_s605/AUDIT.json",
+      "referenced_source": "${HOME}/v13_action_fix/outputs/stage1_20261110_shared60/runs/BC-mix_s605/COMPLETED.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "4a9109b3f44edea9cd4af59ea453e49c7c2a5312a09aebcf3984c2527ffeaebd"
+    },
+    {
+      "receipt": "server_v14/results_20261113/diagnostics_20261112_215443/A/COMPLETED.json",
+      "referenced_source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/A/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "494a4199e5745d1bfb7b1390279044272409dd913af08fe83d17cf7d05fe77c3"
+    },
+    {
+      "receipt": "server_v14/results_20261113/diagnostics_20261112_215443/B/COMPLETED.json",
+      "referenced_source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/B/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "11ad6c118749ce9617ea746f8109f9634c233931758ae342e72c92da3daecc45"
+    },
+    {
+      "receipt": "server_v14/results_20261113/diagnostics_20261112_215443/C/COMPLETED.json",
+      "referenced_source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/C/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "aa94a3732816a45da33708585686035b02ea8011541a3c7afca8a6d8d06dfea8"
+    },
+    {
+      "receipt": "server_v14/results_20261113/diagnostics_20261112_215443/COMPLETED.json",
+      "referenced_source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/REPORT_ZH.md",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "c3d650d2386e164c39c6d1435e6f3d6761018f7fd92c26c6bceb36d8c50c4861"
+    },
+    {
+      "receipt": "server_v14/results_20261113/diagnostics_20261112_215443/COMPLETED.json",
+      "referenced_source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/RESULT.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "f1c46c7682c05a9e6640bb76e9526069b828773aee9174469f0a74878634f55f"
+    },
+    {
+      "receipt": "server_v14/results_20261113/diagnostics_20261112_215443/COMPLETED.json",
+      "referenced_source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/config.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "60c840c7071a6d4c7aa96b53c2a765c43fce44c498d51a9f4e78fa038faff0ca"
+    },
+    {
+      "receipt": "server_v14/results_20261113/diagnostics_20261112_215443/COMPLETED.json",
+      "referenced_source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/INPUT_HASHES_BEFORE.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "742e192a94a4c50d2f46a62ec22b85fc4633c4c23bbbe10a0a81a4096f104af2"
+    },
+    {
+      "receipt": "server_v14/results_20261113/diagnostics_20261112_215443/COMPLETED.json",
+      "referenced_source": "${HOME}/v14_diag/outputs/diagnostics_20261112_215443/INPUT_PROTECTION_AFTER.json",
+      "matches_original_sha256": true,
+      "referenced_original_sha256": "62521f3ba9ab4d6411ba5d297f988d0781afb2ee0c039eb60d7cef9e2f290056"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "training_seed_input": false,
+  "RNG_use_in_pinned_solver": false,
+  "solver_sha256": "d672833d42509ea4f2e977f976fc7b2ac716277b794cc7676d335494bbb841b3",
+  "inspected_functions": [
+    "compute_and_save_weights",
+    "filter_dataset",
+    "solve_robust_ot"
+  ],
+  "effective_solver_arguments": {
+    "epsilon": 0.01,
+    "lambda_src": 0.05,
+    "lambda_tar": 0.5
+  },
+  "solve_calls_for_formal_stage": 1,
+  "formal_training_seeds": [
+    501,
+    502,
+    503,
+    504,
+    505
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "stage": 0,
+  "task": "hopper-morph",
+  "source_sample_seed": 2026111301,
+  "source_sample_count": 20000,
+  "source_sampling_without_replacement": true,
+  "target_sample_count": 5000,
+  "target_sampling": "all rows once, in original order",
+  "normalization": "sample SD (ddof=1) of each coordinate of target current observations + 1e-6, computed in float64; residual is L2; neighbor distance uses the same SD",
+  "std_epsilon": 1e-06,
+  "solver": {
+    "method": "box-constrained Gauss-Newton with dense SciPy BVLS linear subproblem and decreasing-cost backtracking",
+    "max_outer_iterations": 10,
+    "finite_difference_absolute_step": 1e-05,
+    "linear_tolerance": 1e-10,
+    "observation_noise_linf": 2e-06,
+    "gtol": 1e-09,
+    "xtol": 1e-09,
+    "ftol": 1e-08,
+    "backtracking_trials": 8
+  },
+  "target_control_acceptance": {
+    "original_observation_linf": 2e-06,
+    "corrected_observation_linf": 2e-06,
+    "action_change_l2": 0.0001,
+    "original_reward_abs": 2e-06,
+    "original_terminal_exact": true
+  },
+  "original_oracle_comparison": {
+    "observation_linf": 3e-06,
+    "reward_abs": 2e-06,
+    "terminal_exact": true
+  },
+  "action_boundary_abs_tolerance": 1e-08,
+  "source_observation_restoration_linf": 0.0001,
+  "pilot_count": 256,
+  "source_chunk_size": 1024,
+  "max_cpu_workers": 32,
+  "cpu_core_budget": 60,
+  "thread_count": 1,
+  "memory_fraction": 0.75,
+  "host_memory_stop_fraction": 0.1,
+  "external_retry_limit": 3,
+  "expected_packages": {
+    "numpy": "1.23.5",
+    "h5py": "3.11.0",
+    "scipy": "1.4.1",
+    "gym": "0.18.3",
+    "mujoco-py": "2.1.2.14"
+  },
+  "training_updates": 0,
+  "policy_evaluations": 0,
+  "stage1_authorized": false,
+  "stage2_authorized": false
+}

@@ -1,0 +1,5 @@
+{
+  "nproc": 128,
+  "cgroup_effective_cpu": 60.0,
+  "host_CPU_busy_percent": 28.685271231146594
+}

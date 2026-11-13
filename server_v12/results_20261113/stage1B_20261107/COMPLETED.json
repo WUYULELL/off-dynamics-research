@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "stage": "1B",
+  "input_protection_passed": true,
+  "workers_audited": 30,
+  "report_sha256": "1ef22f4ca9ee28faec249fe130d364e90fe3d6b986dcc84260a60fddebc8514b",
+  "result_sha256": "85fec42f0642801c5cf8d46578e7de8728fc90227316f008f2f592503999cc8c",
+  "status": "DIAGNOSTIC_COMPLETED",
+  "stage3_started": false,
+  "ended_utc": "2026-11-07T05:06:09.443074+00:00",
+  "elapsed_seconds": 4355.705667548813
+}

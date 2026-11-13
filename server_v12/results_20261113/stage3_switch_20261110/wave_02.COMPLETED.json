@@ -1,0 +1,18 @@
+{
+  "label": "wave_02",
+  "jobs": [
+    "BC-all_s502",
+    "BC-all_s503",
+    "BC-all_s504"
+  ],
+  "workers": 3,
+  "wall_seconds": 773.3019638871774,
+  "GPU_phase_seconds": 759.4273739410564,
+  "GPU_workers_exited": true,
+  "selected_GPU_UUID": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+  "external_GPU_pids_at_release": [],
+  "total_GPU_processes_at_release": 3,
+  "peak_worker_RSS_bytes": 5042585600,
+  "peak_GPU_memory_MiB": 6085,
+  "pressure_warnings": []
+}

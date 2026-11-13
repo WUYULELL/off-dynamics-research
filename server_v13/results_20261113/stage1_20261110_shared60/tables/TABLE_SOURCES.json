@@ -1,0 +1,31 @@
+{
+  "source_report": "server_v13/results_20261113/stage1_20261110_shared60/REPORT_ZH.md",
+  "source_original_sha256": "70f32fe2b7e1d0e5d4f3949a3e62578d6804ca1473f5aa223992bbf3256cabf8",
+  "source_public_sha256": "70f32fe2b7e1d0e5d4f3949a3e62578d6804ca1473f5aa223992bbf3256cabf8",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v13/results_20261113/stage1_20261110_shared60/tables/report_table_01.csv",
+      "section": "全量缓存及独立回放",
+      "rows": 7
+    },
+    {
+      "table": "server_v13/results_20261113/stage1_20261110_shared60/tables/report_table_02.csv",
+      "section": "BC 结果",
+      "rows": 5
+    },
+    {
+      "table": "server_v13/results_20261113/stage1_20261110_shared60/tables/report_table_03.csv",
+      "section": "BC 结果",
+      "rows": 4
+    },
+    {
+      "table": "server_v13/results_20261113/stage1_20261110_shared60/tables/report_table_04.csv",
+      "section": "BC 结果",
+      "rows": 25
+    }
+  ],
+  "per_seed_rows": 25,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

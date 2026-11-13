@@ -1,0 +1,16 @@
+{
+  "main_steps": 20000,
+  "VAE_updates": 10000,
+  "main_Adam_updates": 60000,
+  "training_seconds": 387.0881577003747,
+  "VAE_seconds": 65.24062638077885,
+  "evaluation_seconds": [
+    1.507217612117529,
+    1.77959721442312
+  ],
+  "checkpoint_sha256": "a55d3d2bd3a7563e1408065122bac4e615bf51d5dd275977ac5bf860801ea7be",
+  "weight_sha256": "649e7a5b86bd81830d88009006b691d0bc7f6f09d9c9cf00b36e5ff2c7fe8cb0",
+  "GPU_peak_allocated_bytes": 58219008,
+  "estimated_1M_seconds_without_weight_computation": 19583.989252726547,
+  "time": "2026-11-08T07:07:37.209972+00:00"
+}

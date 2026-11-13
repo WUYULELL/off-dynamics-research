@@ -1,0 +1,41 @@
+{
+  "source_report": "server_v12/results_20261113/stage3_switch_20261110/STAGE3_REPORT_ZH.md",
+  "source_original_sha256": "c7fbd6e515c4550a9971faea9ab3697a24393b97c93141f46d5e3d09b88a5c4c",
+  "source_public_sha256": "bbfc045ac2d47004576b046548c1ec05355d51d4c33c6c2e61e2cb8483b414ec",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v12/results_20261113/stage3_switch_20261110/tables/report_table_01.csv",
+      "section": "启动前 CPU 核验",
+      "rows": 3
+    },
+    {
+      "table": "server_v12/results_20261113/stage3_switch_20261110/tables/report_table_02.csv",
+      "section": "OT 权重对照",
+      "rows": 6
+    },
+    {
+      "table": "server_v12/results_20261113/stage3_switch_20261110/tables/report_table_03.csv",
+      "section": "组别和预设判定",
+      "rows": 3
+    },
+    {
+      "table": "server_v12/results_20261113/stage3_switch_20261110/tables/report_table_04.csv",
+      "section": "各种子和回合长度",
+      "rows": 18
+    },
+    {
+      "table": "server_v12/results_20261113/stage3_switch_20261110/tables/report_table_05.csv",
+      "section": "ROOT 描述性指标",
+      "rows": 6
+    },
+    {
+      "table": "server_v12/results_20261113/stage3_switch_20261110/tables/report_table_06.csv",
+      "section": "资源与耗时",
+      "rows": 3
+    }
+  ],
+  "per_seed_rows": 15,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

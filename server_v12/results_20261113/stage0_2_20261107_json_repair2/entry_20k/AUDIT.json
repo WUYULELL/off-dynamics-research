@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_initialized": false,
+  "step": 20000,
+  "raw_loss_records": 20000,
+  "raw_loss_vector_and_JSONL_bits_equal": true,
+  "all_four_networks_three_Adam_scheduler_finite": true,
+  "optimizers": {
+    "V_optimizer": {
+      "state_entries": 6,
+      "all_steps": 20000,
+      "finite": true
+    },
+    "Q_optimizer": {
+      "state_entries": 12,
+      "all_steps": 20000,
+      "finite": true
+    },
+    "actor_optimizer": {
+      "state_entries": 6,
+      "all_steps": 20000,
+      "finite": true
+    }
+  },
+  "cosine_period": 500000,
+  "complete_target_sampling_stream_verified": true,
+  "full_checkpoint_state_sha256": "d0c3fde7a72b356330c8fadf6033451cb7723e8be5eea0d4d1ef1f9e3e0b3f7d",
+  "parameter_sha256": "6ca5589131ed89701a528715a37c48c7dbe6b59f1f21bc4f787b6767d96ff24d",
+  "evaluation_events": 2,
+  "episode_lengths_verified": true,
+  "completed_sha256": "5a6a87f0576412f299535925bc1b88d2dff0f348ca6f33c13413ff57edfa4036",
+  "checkpoint_sha256": "a47c8f019c22a9ee78add73c9af4621f0829a983a139579ed3dc8138aa48bcf6",
+  "new_optimization_updates": 0,
+  "new_environment_steps": 0,
+  "time": "2026-11-07T01:44:41.573025+00:00"
+}

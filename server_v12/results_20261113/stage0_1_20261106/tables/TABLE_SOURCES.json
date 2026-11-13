@@ -1,0 +1,16 @@
+{
+  "source_report": "server_v12/results_20261113/stage0_1_20261106/REPORT_ZH.md",
+  "source_original_sha256": "213327296407dad9d2f19a5410f6c7dce80fb1087ef2406c66c7e10e3fef6245",
+  "source_public_sha256": "213327296407dad9d2f19a5410f6c7dce80fb1087ef2406c66c7e10e3fef6245",
+  "export_script": "experiments/publication_supplement_20261113/tools/build_supplement.py",
+  "export_script_sha256": "9f46ac2fb33256d2d33f78fdeeebe6a93f58fa522b048361d8e67f114484bbb4",
+  "tables": [
+    {
+      "table": "server_v12/results_20261113/stage0_1_20261106/tables/report_table_01.csv",
+      "section": "V12 阶段 0.1 环境运行验收报告",
+      "rows": 2
+    }
+  ],
+  "per_seed_rows": 0,
+  "note": "逐表保留原报告精度，不填造未记录字段。"
+}

@@ -1,0 +1,26 @@
+{
+  "completed": true,
+  "authorized_plan_stopped_with_reports": true,
+  "all_three_diagnostics_completed": false,
+  "A_completed": true,
+  "C_completed": true,
+  "B0_passed": false,
+  "B1_B2_started": false,
+  "status": "B0_FAILED_A_C_COMPLETED_AWAITING_USER_REVIEW",
+  "own_child_workers_exited": true,
+  "new_training_updates": 0,
+  "optimizer_instances": 0,
+  "GPU_jobs": 0,
+  "A_policy_evaluation_episodes": 200,
+  "environment_steps": 83723,
+  "CUDA_initialized": false,
+  "stage2_started": false,
+  "ended_utc": "2026-11-12T13:56:46.662833+00:00",
+  "evidence_sha256": {
+    "REPORT_ZH.md": "c3d650d2386e164c39c6d1435e6f3d6761018f7fd92c26c6bceb36d8c50c4861",
+    "RESULT.json": "f1c46c7682c05a9e6640bb76e9526069b828773aee9174469f0a74878634f55f",
+    "config.json": "60c840c7071a6d4c7aa96b53c2a765c43fce44c498d51a9f4e78fa038faff0ca",
+    "INPUT_HASHES_BEFORE.json": "742e192a94a4c50d2f46a62ec22b85fc4633c4c23bbbe10a0a81a4096f104af2",
+    "INPUT_PROTECTION_AFTER.json": "62521f3ba9ab4d6411ba5d297f988d0781afb2ee0c039eb60d7cef9e2f290056"
+  }
+}

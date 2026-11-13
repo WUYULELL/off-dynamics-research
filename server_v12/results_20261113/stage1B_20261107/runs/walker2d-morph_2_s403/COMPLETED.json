@@ -1,0 +1,30 @@
+{
+  "job": {
+    "id": "walker2d-morph_2_s403",
+    "task": "walker2d-morph",
+    "trajectories": 2,
+    "seed": 403,
+    "stage": "1B",
+    "steps": 200000,
+    "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+    "base": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage1B_20261107",
+    "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage1B_20261107/runs/walker2d-morph_2_s403",
+    "controller_pid": 159886
+  },
+  "steps": 200000,
+  "Adam_updates": 200000,
+  "finite": true,
+  "training_seconds": 599.6023234315217,
+  "wall_seconds": 794.3515943810344,
+  "end_monotonic": 4304749.903319613,
+  "evaluation_seconds": 194.70275039132684,
+  "evaluation_episodes": 400,
+  "evaluation_environment_steps": 145622,
+  "checkpoint_sha256": "3e230f128e20a063f8d78cdb21349e63a3b296150b47db045f763bc3966a69ae",
+  "model_digest": "989250b947c515ce7968992da568ba33b7ec3f56faaf807206615481f1701507",
+  "target_or_source_stream_sha256": "d569fc46a7d0423e42e57a6f7b9ce8d2c0c59ba3e3999247b3612fb1ceea058d",
+  "draws": 12800000,
+  "GPU_peak_allocated_bytes": 1710080,
+  "ended_utc": "2026-11-07T04:34:18.091189+00:00"
+}

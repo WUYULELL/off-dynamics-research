@@ -1,0 +1,10 @@
+{
+  "source": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104/data/source/walker2d_medium-v2.hdf5",
+  "source_sha256": "cf00f43add04c17fdfc2958dd581dea0851b2e5bedbe6fda073758a8f841aeda",
+  "source_rows": 999322,
+  "source_rows_sha256": "756c39518ecb9b8919c9cd53af8806d7f0fb9bdcabf8db75fd9d29169dad7e42",
+  "target": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104/data/target/walker2d_morph_medium.hdf5",
+  "target_sha256": "c792b159e403d9deff9316964f0b5ae191a382533693a553abb5b3167463f80a",
+  "target_rows": 5000,
+  "explicit_next": true
+}

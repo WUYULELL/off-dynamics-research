@@ -1,0 +1,9 @@
+{
+  "pilot_RSS_bytes": 104857600,
+  "parent_RSS_bytes": 141901824,
+  "workers": 32,
+  "predicted_RSS_bytes": 3497345024,
+  "effective_available_memory_bytes": 215312588800,
+  "nproc": 128,
+  "effective_cpu": 60.0
+}

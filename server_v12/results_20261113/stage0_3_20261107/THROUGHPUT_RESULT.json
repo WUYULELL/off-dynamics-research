@@ -1,0 +1,427 @@
+{
+  "measured": [
+    {
+      "name": "IQL_n1",
+      "algorithm": "IQL",
+      "concurrency": 1,
+      "worker_results": [
+        {
+          "job": "IQL_n1_s901",
+          "seed": 901,
+          "first_10000_seconds": 100.11342041753232,
+          "second_10000_seconds": 101.77059170976281,
+          "training_seconds": 201.88401212729514,
+          "evaluation_seconds": 0.43965128250420094,
+          "length_statistics": {
+            "n": 10,
+            "mean": 112.6,
+            "median": 97.5,
+            "minimum": 93,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        }
+      ],
+      "rates": {
+        "total_training_updates": 20000,
+        "group_training_wall_seconds": 201.95514529570937,
+        "aggregate_group_updates_per_second": 99.03189131782378,
+        "sum_individual_updates_per_second": 99.06678487937559,
+        "per_process_updates_per_second": [
+          99.06678487937559
+        ]
+      },
+      "mean_GPU_utilization_percent": 10.666666666666666,
+      "max_GPU_memory_used_MiB": 2035,
+      "mean_owned_CPU_percent_one_core_100": 99.74157380687645,
+      "mean_host_CPU_busy_percent": 5.770186229050552,
+      "max_worker_RSS_bytes": 5029924864,
+      "pressure_warnings": [],
+      "training_sample_count": 96,
+      "monitor_interval_seconds": 2,
+      "tier_total_wall_seconds": 209.36178783141077,
+      "metrics_include_monitor_and_logging_overhead": true
+    },
+    {
+      "name": "IQL_n2",
+      "algorithm": "IQL",
+      "concurrency": 2,
+      "worker_results": [
+        {
+          "job": "IQL_n2_s901",
+          "seed": 901,
+          "first_10000_seconds": 102.41041106078774,
+          "second_10000_seconds": 99.93175356835127,
+          "training_seconds": 202.342164629139,
+          "evaluation_seconds": 0.6762560429051518,
+          "length_statistics": {
+            "n": 10,
+            "mean": 112.6,
+            "median": 97.5,
+            "minimum": 93,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        },
+        {
+          "job": "IQL_n2_s902",
+          "seed": 902,
+          "first_10000_seconds": 100.7988407947123,
+          "second_10000_seconds": 100.67407055478543,
+          "training_seconds": 201.47291134949774,
+          "evaluation_seconds": 0.8917941423133016,
+          "length_statistics": {
+            "n": 10,
+            "mean": 169.4,
+            "median": 165.5,
+            "minimum": 158,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        }
+      ],
+      "rates": {
+        "total_training_updates": 40000,
+        "group_training_wall_seconds": 202.38279974646866,
+        "aggregate_group_updates_per_second": 197.64525468621477,
+        "sum_individual_updates_per_second": 198.11140162012816,
+        "per_process_updates_per_second": [
+          98.84247327617958,
+          99.2689283439486
+        ]
+      },
+      "mean_GPU_utilization_percent": 94.625,
+      "max_GPU_memory_used_MiB": 4066,
+      "mean_owned_CPU_percent_one_core_100": 199.09069857581028,
+      "mean_host_CPU_busy_percent": 7.183938631971944,
+      "max_worker_RSS_bytes": 5024882688,
+      "pressure_warnings": [],
+      "training_sample_count": 96,
+      "monitor_interval_seconds": 2,
+      "tier_total_wall_seconds": 211.067303433083,
+      "metrics_include_monitor_and_logging_overhead": true
+    },
+    {
+      "name": "IQL_n4",
+      "algorithm": "IQL",
+      "concurrency": 4,
+      "worker_results": [
+        {
+          "job": "IQL_n4_s901",
+          "seed": 901,
+          "first_10000_seconds": 100.89796126261353,
+          "second_10000_seconds": 102.49993654247373,
+          "training_seconds": 203.39789780508727,
+          "evaluation_seconds": 0.8366297939792275,
+          "length_statistics": {
+            "n": 10,
+            "mean": 112.6,
+            "median": 97.5,
+            "minimum": 93,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        },
+        {
+          "job": "IQL_n4_s902",
+          "seed": 902,
+          "first_10000_seconds": 101.76024521235377,
+          "second_10000_seconds": 102.52960627060384,
+          "training_seconds": 204.2898514829576,
+          "evaluation_seconds": 1.1277455789968371,
+          "length_statistics": {
+            "n": 10,
+            "mean": 169.4,
+            "median": 165.5,
+            "minimum": 158,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        },
+        {
+          "job": "IQL_n4_s903",
+          "seed": 903,
+          "first_10000_seconds": 101.9067777460441,
+          "second_10000_seconds": 101.94822545628995,
+          "training_seconds": 203.85500320233405,
+          "evaluation_seconds": 1.088224339298904,
+          "length_statistics": {
+            "n": 10,
+            "mean": 157.5,
+            "median": 170.5,
+            "minimum": 97,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        },
+        {
+          "job": "IQL_n4_s904",
+          "seed": 904,
+          "first_10000_seconds": 102.33634560275823,
+          "second_10000_seconds": 99.85251600109041,
+          "training_seconds": 202.18886160384864,
+          "evaluation_seconds": 1.0231391107663512,
+          "length_statistics": {
+            "n": 10,
+            "mean": 144.0,
+            "median": 149.5,
+            "minimum": 89,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        }
+      ],
+      "rates": {
+        "total_training_updates": 80000,
+        "group_training_wall_seconds": 204.34823924209923,
+        "aggregate_group_updates_per_second": 391.48857018151705,
+        "sum_individual_updates_per_second": 393.2559141659583,
+        "per_process_updates_per_second": [
+          98.3294331742094,
+          97.90011522754693,
+          98.10894844778089,
+          98.91741731642107
+        ]
+      },
+      "mean_GPU_utilization_percent": 97.84536082474227,
+      "max_GPU_memory_used_MiB": 8129,
+      "mean_owned_CPU_percent_one_core_100": 397.0304241898769,
+      "mean_host_CPU_busy_percent": 8.632433071247274,
+      "max_worker_RSS_bytes": 5051367424,
+      "pressure_warnings": [],
+      "training_sample_count": 97,
+      "monitor_interval_seconds": 2,
+      "tier_total_wall_seconds": 214.61819444783032,
+      "metrics_include_monitor_and_logging_overhead": true
+    },
+    {
+      "name": "IQL_n6",
+      "algorithm": "IQL",
+      "concurrency": 6,
+      "worker_results": [
+        {
+          "job": "IQL_n6_s901",
+          "seed": 901,
+          "first_10000_seconds": 109.4073194321245,
+          "second_10000_seconds": 109.28089394420385,
+          "training_seconds": 218.68821337632835,
+          "evaluation_seconds": 1.2422951608896255,
+          "length_statistics": {
+            "n": 10,
+            "mean": 112.6,
+            "median": 97.5,
+            "minimum": 93,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        },
+        {
+          "job": "IQL_n6_s902",
+          "seed": 902,
+          "first_10000_seconds": 112.39835994783789,
+          "second_10000_seconds": 108.4280722597614,
+          "training_seconds": 220.82643220759928,
+          "evaluation_seconds": 1.6902904752641916,
+          "length_statistics": {
+            "n": 10,
+            "mean": 169.4,
+            "median": 165.5,
+            "minimum": 158,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        },
+        {
+          "job": "IQL_n6_s903",
+          "seed": 903,
+          "first_10000_seconds": 110.99826941359788,
+          "second_10000_seconds": 109.34956486243755,
+          "training_seconds": 220.34783427603543,
+          "evaluation_seconds": 1.6202446753159165,
+          "length_statistics": {
+            "n": 10,
+            "mean": 157.5,
+            "median": 170.5,
+            "minimum": 97,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        },
+        {
+          "job": "IQL_n6_s904",
+          "seed": 904,
+          "first_10000_seconds": 108.37808454595506,
+          "second_10000_seconds": 108.10913333110511,
+          "training_seconds": 216.48721787706017,
+          "evaluation_seconds": 1.526879652403295,
+          "length_statistics": {
+            "n": 10,
+            "mean": 144.0,
+            "median": 149.5,
+            "minimum": 89,
+            "fraction_under_200": 1.0,
+            "episodes_under_200": 10
+          }
+        },
+        {
+          "job": "IQL_n6_s905",
+          "seed": 905,
+          "first_10000_seconds": 111.12544874474406,
+          "second_10000_seconds": 110.03291906509548,
+          "training_seconds": 221.15836780983955,
+          "evaluation_seconds": 1.728308878839016,
+          "length_statistics": {
+            "n": 10,
+            "mean": 180.0,
+            "median": 173.5,
+            "minimum": 127,
+            "fraction_under_200": 0.7,
+            "episodes_under_200": 7
+          }
+        },
+        {
+          "job": "IQL_n6_s906",
+          "seed": 906,
+          "first_10000_seconds": 109.10382467042655,
+          "second_10000_seconds": 109.62660672143102,
+          "training_seconds": 218.73043139185756,
+          "evaluation_seconds": 1.564576500095427,
+          "length_statistics": {
+            "n": 10,
+            "mean": 149.4,
+            "median": 116.0,
+            "minimum": 108,
+            "fraction_under_200": 0.7,
+            "episodes_under_200": 7
+          }
+        }
+      ],
+      "rates": {
+        "total_training_updates": 120000,
+        "group_training_wall_seconds": 221.18102860357612,
+        "aggregate_group_updates_per_second": 542.5420107575167,
+        "sum_individual_updates_per_second": 547.0427476029836,
+        "per_process_updates_per_second": [
+          91.45440301157483,
+          90.56886804745352,
+          90.7655846299151,
+          92.38420723461695,
+          90.43293363964762,
+          91.43675103977561
+        ]
+      },
+      "mean_GPU_utilization_percent": 98.875,
+      "max_GPU_memory_used_MiB": 12191,
+      "mean_owned_CPU_percent_one_core_100": 595.1582375022739,
+      "mean_host_CPU_busy_percent": 10.204943339434864,
+      "max_worker_RSS_bytes": 5047328768,
+      "pressure_warnings": [],
+      "training_sample_count": 104,
+      "monitor_interval_seconds": 2,
+      "tier_total_wall_seconds": 233.52859337907284,
+      "metrics_include_monitor_and_logging_overhead": true
+    },
+    {
+      "name": "BC_n1",
+      "algorithm": "BC",
+      "concurrency": 1,
+      "worker_results": [
+        {
+          "job": "BC_n1_s901",
+          "seed": 901,
+          "first_10000_seconds": 29.134464429691434,
+          "second_10000_seconds": 29.7125435564667,
+          "training_seconds": 58.84700798615813,
+          "evaluation_seconds": 0.9086669413372874,
+          "length_statistics": {
+            "n": 10,
+            "mean": 236.6,
+            "median": 252.0,
+            "minimum": 111,
+            "fraction_under_200": 0.4,
+            "episodes_under_200": 4
+          }
+        }
+      ],
+      "rates": {
+        "total_training_updates": 20000,
+        "group_training_wall_seconds": 58.93390596937388,
+        "aggregate_group_updates_per_second": 339.3632183550396,
+        "sum_individual_updates_per_second": 339.8643479835773,
+        "per_process_updates_per_second": [
+          339.8643479835773
+        ]
+      },
+      "mean_GPU_utilization_percent": 7.571428571428571,
+      "max_GPU_memory_used_MiB": 2031,
+      "mean_owned_CPU_percent_one_core_100": 99.05400430244457,
+      "mean_host_CPU_busy_percent": 5.891119931948405,
+      "max_worker_RSS_bytes": 5037907968,
+      "pressure_warnings": [],
+      "training_sample_count": 28,
+      "monitor_interval_seconds": 2,
+      "tier_total_wall_seconds": 66.90116232726723,
+      "metrics_include_monitor_and_logging_overhead": true
+    }
+  ],
+  "skipped": [],
+  "analysis": {
+    "recommended_measured_concurrency": 6,
+    "selection": "Highest group updates/s among measured IQL tiers without resource-pressure flags",
+    "future_concurrency_requires_user_confirmation": true,
+    "not_a_formal_experiment_authorization": true,
+    "estimates": [
+      {
+        "algorithm": "IQL",
+        "concurrency": 1,
+        "full_training_updates": 500000,
+        "training_only_seconds": 5047.100303182378,
+        "estimated_total_seconds": 5069.0828673075885,
+        "evaluation_points": 50,
+        "uses_early_policy_episode_length": true,
+        "not_a_runtime_guarantee": true
+      },
+      {
+        "algorithm": "IQL",
+        "concurrency": 2,
+        "full_training_updates": 500000,
+        "training_only_seconds": 5047.688449732959,
+        "estimated_total_seconds": 5086.889704363421,
+        "evaluation_points": 50,
+        "uses_early_policy_episode_length": true,
+        "not_a_runtime_guarantee": true
+      },
+      {
+        "algorithm": "IQL",
+        "concurrency": 4,
+        "full_training_updates": 500000,
+        "training_only_seconds": 5085.822588088922,
+        "estimated_total_seconds": 5136.769323376939,
+        "evaluation_points": 50,
+        "uses_early_policy_episode_length": true,
+        "not_a_runtime_guarantee": true
+      },
+      {
+        "algorithm": "IQL",
+        "concurrency": 6,
+        "full_training_updates": 500000,
+        "training_only_seconds": 5484.327070578001,
+        "estimated_total_seconds": 5562.432031768064,
+        "evaluation_points": 50,
+        "uses_early_policy_episode_length": true,
+        "not_a_runtime_guarantee": true
+      },
+      {
+        "algorithm": "BC",
+        "concurrency": 1,
+        "full_training_updates": 200000,
+        "training_only_seconds": 588.4700798615813,
+        "estimated_total_seconds": 624.8167575150728,
+        "evaluation_points": 40,
+        "uses_early_policy_episode_length": true,
+        "not_a_runtime_guarantee": true
+      }
+    ],
+    "limitation": "One short measurement per tier under shared background load; early short episodes can underestimate late evaluation time"
+  }
+}

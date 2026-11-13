@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "receipt_sha256": "d157d7c1b2cc48519805ca116aeea4004cdc0e9cf3147141c2e7f9b5c54f2e18",
+  "referenced_evidence_files": 121,
+  "source": {
+    "parsed_JSON_content_equal": true,
+    "actual_raw_sha256": "b4c0b6e9615c18431412a8d9f92248c3056487523f691fcf54f588bb58ebff60",
+    "expected_raw_sha256": "b4c0b6e9615c18431412a8d9f92248c3056487523f691fcf54f588bb58ebff60",
+    "canonical_content_sha256": "6824709a3eaade21cfdb63ce5c0a4609c55faab787ee74643d43f3a5572cfb5b",
+    "raw_bytes_equal": true,
+    "all_referenced_source_file_bytes_verified": true,
+    "source_files": 13
+  },
+  "freeze": {
+    "parsed_JSON_content_equal": true,
+    "actual_raw_sha256": "b4c0b6e9615c18431412a8d9f92248c3056487523f691fcf54f588bb58ebff60",
+    "expected_raw_sha256": "b4c0b6e9615c18431412a8d9f92248c3056487523f691fcf54f588bb58ebff60",
+    "canonical_content_sha256": "6824709a3eaade21cfdb63ce5c0a4609c55faab787ee74643d43f3a5572cfb5b",
+    "raw_bytes_equal": true
+  },
+  "source_code_path": "/mnt/cs_dsns_public/<USER>/v12_linux/stage0_2_json_repair_20261107",
+  "user_authorization": "2026-11-07: 启动0.3"
+}

@@ -1,0 +1,70 @@
+{
+  "completed": true,
+  "seconds": 149.6451861327514,
+  "path": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/weights/robust_weights.hdf5",
+  "sha256": "46e65223e422000a485522a5d52a803a47daf747802e9bc02c9bab101b83be8e",
+  "source_rows_sha256": "756c39518ecb9b8919c9cd53af8806d7f0fb9bdcabf8db75fd9d29169dad7e42",
+  "rows": 999322,
+  "source_chunks": 100,
+  "raw": {
+    "mean": 8.785410395959594e-05,
+    "quantiles": {
+      "min": 2.119201326422626e-06,
+      "p01": 2.6062299966724822e-05,
+      "p25": 6.839238631073385e-05,
+      "p50": 8.603844253229909e-05,
+      "p75": 0.0001007838873192668,
+      "p95": 0.00014107554670772513,
+      "p99": 0.000202724985574605,
+      "max": 0.0008667554939165711
+    }
+  },
+  "normalized_float32": {
+    "mean": 1.0,
+    "quantiles": {
+      "min": 0.024121824651956558,
+      "p01": 0.29665431439876555,
+      "p25": 0.7784768342971802,
+      "p50": 0.9793331921100616,
+      "p75": 1.1471733748912811,
+      "p95": 1.6057934582233426,
+      "p99": 2.3075185632705693,
+      "max": 9.865850448608398
+    }
+  },
+  "fraction_zero": 0.0,
+  "fraction_clipped_at_5": 0.00022615333195906824,
+  "fraction_at_cap_after_clip": 0.00022615333195906824,
+  "clipped": {
+    "mean": 0.9997984766960144,
+    "quantiles": {
+      "min": 0.024121824651956558,
+      "p01": 0.29665431439876555,
+      "p25": 0.7784768342971802,
+      "p50": 0.9793331921100616,
+      "p75": 1.1471733748912811,
+      "p95": 1.6057934582233426,
+      "p99": 2.3075185632705693,
+      "max": 5.0
+    }
+  },
+  "backend": "gpu",
+  "jax_device": "gpu:0",
+  "CUDA_VISIBLE_DEVICES": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+  "jax": "0.4.9",
+  "jaxlib": "0.4.9+cuda11.cudnn86",
+  "ott_jax": "0.4.5",
+  "jaxopt": "0.8.3",
+  "time": "2026-11-08T15:17:10.525435+00:00",
+  "origin": "one_upstream_adjacent_source_solve_for_all_seeds",
+  "source_mode": "upstream_adjacent",
+  "formal_training_seeds": [
+    501,
+    502,
+    503,
+    504,
+    505
+  ],
+  "seed_independence_sha256": "5e196823f5662932351333ae9248dad5d0f1211a5e7dd4c004a9e724280d7a58",
+  "comparison_sha256": "02490df85dc8ecdfdb41ebc819660bf510e789bfb4b532f9b529bff6e5dda277"
+}

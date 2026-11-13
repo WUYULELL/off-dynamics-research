@@ -1,0 +1,82 @@
+{
+  "training_updates": 20000,
+  "train_start_monotonic": 4297531.626075291,
+  "train_end_monotonic": 4297748.113293168,
+  "release_monotonic": 4297531.558509203,
+  "training_seconds": 216.48721787706017,
+  "first_10000_seconds": 108.37808454595506,
+  "second_10000_seconds": 108.10913333110511,
+  "target_draws": 1280000,
+  "target_stream_sha256": "8543709dd29e43cead95852ecab42b86a0b08237562c637ba4d723cf28c2ed3c",
+  "completed": true,
+  "job": {
+    "id": "IQL_n6_s904",
+    "tier": "IQL_n6",
+    "algorithm": "IQL",
+    "concurrency": 6,
+    "seed": 904,
+    "steps": 20000,
+    "task": "hopper-morph",
+    "variant": "BC_all",
+    "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+    "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "controller_pid": 115622,
+    "barrier_timeout_seconds": 7200,
+    "formal_result": false
+  },
+  "counts": {
+    "training_updates": 20000,
+    "Adam_updates": 60000,
+    "constructor_environment_steps": 1,
+    "evaluation_environment_steps": 1440
+  },
+  "evaluation_seconds": 1.526879652403295,
+  "evaluation_episodes": 10,
+  "length_statistics": {
+    "n": 10,
+    "mean": 144.0,
+    "median": 149.5,
+    "minimum": 89,
+    "fraction_under_200": 1.0,
+    "episodes_under_200": 10
+  },
+  "parameter_sha256": "527eeee64b5e70c63bee3a1449b327c02b1c26ce3782dc819258f02334a1874d",
+  "all_model_parameters_finite": true,
+  "peak_GPU_allocated_bytes": 5836288,
+  "peak_GPU_reserved_bytes": 6291456,
+  "losses_sha256": "9c157ed41ec97516ed94d625fdd9e613fefd02650b61f2ccce8d06afca95ce03",
+  "JSONL_sha256": "462c6ae3458e38c97e1198216d6d960c3827fea3bda8ddb983623fc67ae95479",
+  "checkpoint_sha256": "1f7bd8ee48f4a2e2ab320a51c48055465d68d99aac240b6d63b3d80a328c7efa",
+  "loss_statistics": [
+    {
+      "mean": 0.11953609349446123,
+      "minimum": 0.000104584323707968,
+      "median": 0.09123154729604721,
+      "p99": 0.5400120735168452,
+      "maximum": 1.4112385511398315,
+      "first": 0.018831491470336914,
+      "last": 0.175390362739563
+    },
+    {
+      "mean": 1.9254000569487921,
+      "minimum": 0.016762319952249527,
+      "median": 1.1002488136291504,
+      "p99": 16.283251018524112,
+      "maximum": 47.38398742675781,
+      "first": 19.360252380371094,
+      "last": 3.6446313858032227
+    },
+    {
+      "mean": 0.05193812074550724,
+      "minimum": 2.693617898330558e-05,
+      "median": 0.03393946960568428,
+      "p99": 0.30264509886502994,
+      "maximum": 1.429612398147583,
+      "first": 0.052556730806827545,
+      "last": 0.04430718347430229
+    }
+  ],
+  "ended_utc": "2026-11-07T02:37:42.708251+00:00",
+  "formal_result": false,
+  "Last5_applicable": false
+}

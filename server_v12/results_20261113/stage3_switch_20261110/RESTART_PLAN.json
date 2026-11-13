@@ -1,0 +1,158 @@
+{
+  "resumed": true,
+  "attempt_path": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_switch_20261110",
+  "previous_outputs": [
+    "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_20261108",
+    "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108"
+  ],
+  "reused_jobs": {
+    "ROOT_s501": {
+      "job": {
+        "id": "ROOT_s501",
+        "task": "walker2d-morph",
+        "stage": "3",
+        "group": "ROOT",
+        "seed": 501,
+        "steps": 1000000,
+        "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+        "controller_pid": 3236604,
+        "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+        "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s501",
+        "release": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/gates/ROOT_s501.json"
+      },
+      "audit": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s501/AUDIT.json"
+    },
+    "ROOT_s502": {
+      "job": {
+        "id": "ROOT_s502",
+        "task": "walker2d-morph",
+        "stage": "3",
+        "group": "ROOT",
+        "seed": 502,
+        "steps": 1000000,
+        "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+        "controller_pid": 3236604,
+        "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+        "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s502",
+        "release": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/gates/ROOT_s502.json"
+      },
+      "audit": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s502/AUDIT.json"
+    },
+    "ROOT_s503": {
+      "job": {
+        "id": "ROOT_s503",
+        "task": "walker2d-morph",
+        "stage": "3",
+        "group": "ROOT",
+        "seed": 503,
+        "steps": 1000000,
+        "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+        "controller_pid": 3236604,
+        "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+        "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s503",
+        "release": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/gates/ROOT_s503.json"
+      },
+      "audit": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s503/AUDIT.json"
+    },
+    "ROOT_s504": {
+      "job": {
+        "id": "ROOT_s504",
+        "task": "walker2d-morph",
+        "stage": "3",
+        "group": "ROOT",
+        "seed": 504,
+        "steps": 1000000,
+        "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+        "controller_pid": 3236604,
+        "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+        "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s504",
+        "release": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/gates/ROOT_s504.json"
+      },
+      "audit": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s504/AUDIT.json"
+    },
+    "ROOT_s505": {
+      "job": {
+        "id": "ROOT_s505",
+        "task": "walker2d-morph",
+        "stage": "3",
+        "group": "ROOT",
+        "seed": 505,
+        "steps": 1000000,
+        "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+        "controller_pid": 3236604,
+        "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+        "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s505",
+        "release": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/gates/ROOT_s505.json"
+      },
+      "audit": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/ROOT_s505/AUDIT.json"
+    },
+    "T_s501": {
+      "job": {
+        "id": "T_s501",
+        "task": "walker2d-morph",
+        "stage": "3",
+        "group": "T",
+        "seed": 501,
+        "steps": 500000,
+        "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+        "controller_pid": 3236604,
+        "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+        "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/T_s501",
+        "release": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/gates/T_s501.json"
+      },
+      "audit": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/T_s501/AUDIT.json"
+    },
+    "T_s502": {
+      "job": {
+        "id": "T_s502",
+        "task": "walker2d-morph",
+        "stage": "3",
+        "group": "T",
+        "seed": 502,
+        "steps": 500000,
+        "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+        "controller_pid": 3236604,
+        "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+        "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/T_s502",
+        "release": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/gates/T_s502.json"
+      },
+      "audit": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/T_s502/AUDIT.json"
+    },
+    "T_s503": {
+      "job": {
+        "id": "T_s503",
+        "task": "walker2d-morph",
+        "stage": "3",
+        "group": "T",
+        "seed": 503,
+        "steps": 500000,
+        "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+        "controller_pid": 3236604,
+        "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+        "output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/T_s503",
+        "release": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/gates/T_s503.json"
+      },
+      "audit": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/T_s503/AUDIT.json"
+    }
+  },
+  "previous_interrupted_runs": [
+    {
+      "id": "T_s504",
+      "previous_output": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/runs/T_s504"
+    }
+  ],
+  "newly_scheduled_jobs": [
+    "T_s504",
+    "T_s505",
+    "BC-all_s501",
+    "BC-all_s502",
+    "BC-all_s503",
+    "BC-all_s504",
+    "BC-all_s505"
+  ],
+  "verified_weights_path": "/mnt/cs_dsns_public/<USER>/v12_linux/outputs/stage3_shared60_20261108/weights/robust_weights.hdf5",
+  "previous_GPU_index": 0,
+  "continuation_GPU_index": 3,
+  "continuation_GPU_UUID": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+  "restart_policy": "Interrupted seeds restart from step 0 in this attempt; no in-seed restore"
+}

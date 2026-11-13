@@ -1,0 +1,12 @@
+{
+  "id": "entry_20k",
+  "task": "hopper-morph",
+  "seed": 201,
+  "temp": 10.0,
+  "steps": 20000,
+  "max_step": 500000,
+  "evaluate": true,
+  "project": "/mnt/cs_dsns_public/<USER>/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104",
+  "gpu_uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+  "formal_training": false
+}

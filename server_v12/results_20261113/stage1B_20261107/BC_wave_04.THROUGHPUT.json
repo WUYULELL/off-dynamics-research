@@ -1,0 +1,21 @@
+{
+  "wall_seconds": 893.6423065550625,
+  "peak_worker_RSS_bytes": 5042057216,
+  "peak_gpu_used_MiB": 12167,
+  "sampled_mean_host_CPU_percent": 9.727514951828294,
+  "sampled_peak_host_CPU_percent": 42.60178748758689,
+  "sampled_mean_worker_CPU_percent": 567.2385098811998,
+  "sample_count": 423,
+  "pressure_warnings": [],
+  "index": 4,
+  "worker_rates": {
+    "walker2d-morph_2_s404": 336.8398115837335,
+    "walker2d-morph_2_s405": 335.02843280606277,
+    "walker2d-morph_4_s401": 333.755264046662,
+    "walker2d-morph_4_s402": 332.88310754106175,
+    "walker2d-morph_4_s403": 336.15545151637554,
+    "walker2d-morph_4_s404": 337.0764978221716
+  },
+  "wall_updates_per_second": 1342.819147211067,
+  "sum_training_updates_per_second": 2011.738565316067
+}

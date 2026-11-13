@@ -1,0 +1,13 @@
+{
+  "stage": "2",
+  "completed": true,
+  "status": "AWAITING_STAGE3_CONFIRMATION",
+  "original_input_protection_passed": true,
+  "own_GPU_workers_exited": true,
+  "workers_audited": 1,
+  "stage3_started": false,
+  "report_sha256": "95bc09ebe8e9721e4bcbd5f8d7faa51a864ccb7060da4531bd6568fc8d20289b",
+  "result_sha256": "26e1211b750a7a33372824062f7551332b0b0a00c7fe8f6fcff19a60184c7d69",
+  "elapsed_seconds": 642.4247217057273,
+  "ended_utc": "2026-11-08T07:07:42.104434+00:00"
+}
