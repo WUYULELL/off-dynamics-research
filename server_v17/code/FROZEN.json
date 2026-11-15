@@ -1,0 +1,14 @@
+{
+  "version": "V17",
+  "files": {
+    "INSTRUCTION_V17.md": "5ba541c5d0692b95f1464dc8b5e3a431af233bdb2d6f4e57244789558a4b3c97",
+    "README_ZH.md": "22d17ba1ae52873ecb6f05f3f47ef4a4696234c3b1ce29aeb616fb93749675cd",
+    "config.json": "81ad51317de696f7aef2f91722b6fe02ed5ad6ac3035860785c1fa884bc6081c",
+    "run_in_tmux.sh": "132299365c5b831019194de389fe418e4034ff627c1cd0e406c51f6dd00273df",
+    "v17_controller.py": "44d9e94f01646cd0595500e1af1dc842c2595a7435b1791dcec9594090e2e478",
+    "v17_worker.py": "ee114fc01b5e174030340d05f32b11c6a76d177a6492d1eb918e6875cc50a1bd",
+    "verify_package.py": "c2df111f5fb3a8f13543c9805310ef5e81f7bb800a5b67c66b2268db055ae4a8"
+  },
+  "training_updates": 0,
+  "GPU_jobs": 0
+}
