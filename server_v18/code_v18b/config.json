@@ -1,0 +1,99 @@
+{
+  "version": "V18b",
+  "purpose": "Pilot A: on ODRL kinematic shifts that leave D4RL medium source trajectories reproducible (V16), does mixing source data beat target-only training? Screening only (5 seeds).",
+  "authorized_by_user": "2026-11-15: write and run pilot A",
+  "tasks": [
+    {
+      "id": "hopper-kinematic-legjnt-medium",
+      "robot": "hopper",
+      "target_file": "hopper_kinematic_legjnt_medium_medium.hdf5",
+      "target_sha256": "82f4414e6acb88523ed809b60b56838b6b68da603d75ee72eb79362515cf00d0",
+      "xml": "hopper_kinematic_legjnt_medium.xml",
+      "xml_sha256": "11e5861cd1fcd4142418978911b95240001f142282f3cacdacfe99bf3a1209a8",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3,
+      "v16_B1": "1.00",
+      "v16_B2": "1.00"
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-medium",
+      "robot": "walker2d",
+      "target_file": "walker2d_kinematic_thighjnt_medium_medium.hdf5",
+      "target_sha256": "cae31125683286271a798d52bde1f0e2a0650baf527e5f5ff490d6d7cde03a07",
+      "xml": "walker2d_kinematic_thighjnt_medium.xml",
+      "xml_sha256": "bf4797354c7adc42c86572e1365b08ae6c7e22d2e75c4f4122964e196036b699",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3,
+      "v16_B1": "0.97",
+      "v16_B2": "0.994"
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-hard",
+      "robot": "walker2d",
+      "target_file": "walker2d_kinematic_thighjnt_hard_medium.hdf5",
+      "target_sha256": "16b792230e8018a1028ba636d79a47797448e41aa6c60af5159acef5cebe0c58",
+      "xml": "walker2d_kinematic_thighjnt_hard.xml",
+      "xml_sha256": "cabadec6f494e02ae4d9ff3bc37d4f81401f8cb87a8d54a8fdca177f91724458",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3,
+      "v16_B1": "0.54",
+      "v16_B2": "0.64"
+    }
+  ],
+  "target_archive": "odrl_target_20261115.zip",
+  "target_archive_sha256": "df9c2b43c0a1f479c2ebeac1a3bbf156a95fa8aaedc6e92d36443baea85ae6fc",
+  "excluded": "hopper_kinematic_legjnt_hard/easy target files are byte-identical on the ODRL drive; their task cannot be established, so they are not used",
+  "groups": {
+    "T": "target-only IQL",
+    "BC": "target-only BC",
+    "MIXVQ": "source in V and Q (weight 1), policy from target only",
+    "MIXALL": "source in V, Q and policy (weight 1, own exp(10A) weights capped at 100)",
+    "BCMIX": "BC on target + BC on source, batch means added"
+  },
+  "source": "D4RL medium from the transfer project, timeout rows dropped, recorded rewards and next observations, no relabelling or correction",
+  "score_normalization": "ODRL reference returns (envs/infos.py); not comparable with the OTDF morph-task scores used before",
+  "seeds": [
+    801,
+    802,
+    803,
+    804,
+    805
+  ],
+  "steps": {
+    "IQL": 500000,
+    "BC": 200000
+  },
+  "eval_every": {
+    "IQL": 10000,
+    "BC": 5000
+  },
+  "learner": "frozen network classes and loss functions (iql_dyn.py, iql_unc.py); IQL: gamma 0.99, tau 0.005, expectile 0.7, temperature 10, lr 3e-4, hidden 256, 64 target (+64 source) rows per step, policy cosine schedule; BC: lr 3e-4, hidden 256, cosine schedule; raw observations and rewards",
+  "rule": {
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each",
+    "strong_baseline": "the better of T and BC by Last5 mean on that task",
+    "effective": "paired difference of a mixed group against the strong baseline (same seeds): mean > 0 and mean > 2 * paired SE",
+    "status": "screening with 5 seeds; confirmation with new seeds is required before any claim"
+  },
+  "smoke_seed": 901,
+  "smoke_steps": 2000,
+  "smoke_tasks": [
+    "hopper-kinematic-legjnt-medium",
+    "walker2d-kinematic-thighjnt-medium"
+  ],
+  "gpu_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "max_per_gpu": 6,
+  "idle_utilization_max": 10,
+  "idle_memory_max_MiB": 500,
+  "launch_gap_seconds": 3,
+  "external_retry_max": 3,
+  "failure_policy": "A run killed by a signal is restarted from step 0 with the same seed and config in a new folder, at most 3 times. A Python error, NaN/Inf or failed audit stops new launches and is reported. Returns are never used to decide a retry.",
+  "resource_revision": "2026-11-16, user request: a card another user is on may be joined when the whole card shows utilization <= 60% and at least 12000 MiB free, one new run per card per 90 s. Only the GPU admission rule differs from V18; tasks, groups, seeds, learner and decision rule are identical. V18 produced no training result (it was still waiting for a card when stopped).",
+  "shared_utilization_max": 60,
+  "shared_free_memory_min_MiB": 12000,
+  "shared_cooldown_seconds": 90
+}
