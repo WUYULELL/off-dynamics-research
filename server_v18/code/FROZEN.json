@@ -1,0 +1,17 @@
+{
+  "version": "V18",
+  "files": {
+    "INSTRUCTION_V18.md": "f56d8da5f4a5f0cc6dcbf57670e65edf03480190ffe04b0a1fa5dd8ebd32a717",
+    "README_ZH.md": "c3d50469a857dc03f9e4dfff9924c486c875f9da1227f888452d5b8e71b3a5be",
+    "assets/hopper_kinematic_legjnt_medium.xml": "11e5861cd1fcd4142418978911b95240001f142282f3cacdacfe99bf3a1209a8",
+    "assets/walker2d_kinematic_thighjnt_hard.xml": "cabadec6f494e02ae4d9ff3bc37d4f81401f8cb87a8d54a8fdca177f91724458",
+    "assets/walker2d_kinematic_thighjnt_medium.xml": "bf4797354c7adc42c86572e1365b08ae6c7e22d2e75c4f4122964e196036b699",
+    "config.json": "7ead6507bee01862fe7f7930f0bb2db2306c41c73effe584614e57be01c795f2",
+    "run_in_tmux.sh": "71a9b4eee89784a4a70c2522c4eeb2d0664781ebc77ac0de9fc4ce64f23c34b5",
+    "v18_controller.py": "409a0f4c7629a9d0c5b4ceeef83c8444b9cca634db0e7d8d786d0187579b2f8a",
+    "v18_worker.py": "2eb4d22624ae81a3b6110746fbc0509f0028ac7f72c4dd27e914b59f2edad085",
+    "verify_package.py": "c2df111f5fb3a8f13543c9805310ef5e81f7bb800a5b67c66b2268db055ae4a8"
+  },
+  "training_updates": 0,
+  "GPU_jobs": 0
+}
