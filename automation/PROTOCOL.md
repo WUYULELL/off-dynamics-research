@@ -53,8 +53,8 @@ jobs/j012_residual_pilot/
 
 ## 授权规则（在实验室电脑本地配置，Claude 改不了）
 
-- `max_hours × max(1, gpus)` ≤ `auto_approve_gpu_hours`（默认 2 GPU·小时）：自动运行。冒烟测试、调试、小规模试跑属于这一类。
-- 超过预算：状态变为 `waiting_approval`。你在 GitHub 网页上编辑这个任务的 `job.json`，把 `approved_by_user` 改成 `true` 并提交（随手加一个 `"approved_note": "ok"` 也行）。relay 会检查**最后一次修改 job.json 的提交者邮箱**是否在 `approver_emails` 名单里，所以只有你的提交算数。
+- `max_hours` ≤ `auto_approve_hours`（默认 24 小时）：自动运行。按任务的运行时间上限计算，与用几张卡无关。
+- 超过 24 小时：状态变为 `waiting_approval`。你在 GitHub 网页上编辑这个任务的 `job.json`，把 `approved_by_user` 改成 `true` 并提交（随手加一个 `"approved_note": "ok"` 也行）。relay 会检查**最后一次修改 job.json 的提交者邮箱**是否在 `approver_emails` 名单里，所以只有你的提交算数。
 - 运行时间上限、并发数、每张卡最多跑几个任务、GPU 门槛，都在实验室电脑的 `relay_config.json` 里，不在仓库里。
 
 ## results/<任务名>/relay_status.json 的状态

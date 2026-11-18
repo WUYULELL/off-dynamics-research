@@ -13,7 +13,7 @@
 ## 你日常需要做的事
 
 1. **在对话里和 Claude 商定实验计划**，写进 `research/PLAN.md`（包括看结果前定好的判定规则）。自动循环只跑登记过的实验。
-2. **授权大任务**：收到通知说某任务在 `waiting_approval`，就在 GitHub 网页上编辑 `jobs/<任务名>/job.json`，把 `"approved_by_user": false` 改成 `true`，提交即可。小于 2 GPU·小时的任务自动运行。
+2. **授权大任务**：收到通知说某任务在 `waiting_approval`，就在 GitHub 网页上编辑 `jobs/<任务名>/job.json`，把 `"approved_by_user": false` 改成 `true`，提交即可。运行上限不超过 24 小时的任务自动运行。
 3. **看进展**：`research/LOOP_LOG.md`（每轮结论）、`analysis/`（每个任务的分析）、`results/<任务名>/relay_status.json`（运行状态）。
 
 ## 安全边界

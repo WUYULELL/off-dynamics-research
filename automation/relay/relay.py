@@ -48,7 +48,7 @@ DEFAULTS = {
     "max_gpus_per_job": 4,
     "gpu_util_max": 60,
     "gpu_mem_frac_max": 0.75,
-    "auto_approve_gpu_hours": 2.0,
+    "auto_approve_hours": 24.0,
     "hard_max_hours": 48,
     "max_retries_cap": 3,
     "cpu_threads": 4,
@@ -276,11 +276,11 @@ class Relay:
         return job, ""
 
     def approval(self, jid, job):
-        gpu_hours = job["max_hours"] * max(1, job["gpus"])
-        if gpu_hours <= float(self.cfg["auto_approve_gpu_hours"]):
-            return True, "自动授权（%.2f GPU·时 ≤ 预算 %.2f）" % (gpu_hours, self.cfg["auto_approve_gpu_hours"])
+        limit = float(self.cfg["auto_approve_hours"])
+        if job["max_hours"] <= limit:
+            return True, "自动授权（运行上限 %g 小时 ≤ %g 小时）" % (job["max_hours"], limit)
         if job.get("approved_by_user") is not True:
-            return False, "需要你授权：%.2f GPU·时超过自动预算；在 GitHub 上把 job.json 的 approved_by_user 改成 true" % gpu_hours
+            return False, "需要你授权：运行上限 %g 小时超过 %g 小时；在 GitHub 上把 job.json 的 approved_by_user 改成 true" % (job["max_hours"], limit)
         approvers = [e.lower() for e in self.cfg.get("approver_emails", []) if e]
         if approvers:
             rel = os.path.relpath(os.path.join(self.jobs_dir, jid, "job.json"), self.repo).replace("\\", "/")
