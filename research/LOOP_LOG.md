@@ -12,3 +12,7 @@
 - j001_smoke_cpu：假设“CPU 链路通、资源路径存在” → completed，numpy/torch/gym 可导入，三个资源路径都在 → 按规则通过（见 analysis/j001_smoke_cpu.md）。附带发现：自动任务环境没有设置 MuJoCo 路径，mujoco_py 导入失败（V21 用 `$HOME/.mujoco210/mujoco210` + 私有副本）；4 张卡利用率 96–99%。
 - j002_collect_v21 仍在运行（等待 V21 结束）；j000_smoke 仍 waiting_gpu。
 - 下一步：提交 j003_pipeline_smoke_cpu（CPU，上限 1 小时），验证 MuJoCo 设置、数据、学习器和三个 V21 任务的环境。暂不提交研究训练任务，理由：训练链路在自动任务环境里尚未验证，而且 GPU 当前全满；V21 结果出来前可做的“不依赖 V21 的实验”也需要先有可用的链路。j003 通过后再设计第一个研究实验。
+
+## 2026-11-18 18:21 UTC（Claude 定时会话）
+- 新结果提交 ce5d680 只是状态变化：j003_pipeline_smoke_cpu 于 02:11（北京时间）进入 running（上限 1 小时）；j002 仍在运行；j000 仍 waiting_gpu。没有新结束的任务，无需分析。
+- 下一步不变：等 j003 结果，通过后再设计第一个研究实验。
