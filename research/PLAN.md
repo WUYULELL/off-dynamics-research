@@ -22,3 +22,9 @@
 - 设置：不训练，只检查 conda 环境、GPU、MuJoCo/ODRL 依赖能否导入。预算 1 卡 × 0.1 小时。
 - 判定：状态为 `completed`，且报告显示 torch 能用 CUDA、gym/mujoco 相关模块能导入，即为通过。
 - 类型：连通性检查。
+
+### j001_smoke_cpu
+- 问题：GPU 全被占用时，先只用 CPU 验证链路（上传、解压、conda 环境、结果回传），并盘点服务器上自动任务要引用的已有资源（只读）。
+- 设置：不训练，`gpus: 0`。预算 CPU × 0.25 小时。
+- 判定：状态为 `completed`（numpy、torch、gym 都能导入），且 `inventory.txt` 中迁移项目、ODRL 目标数据压缩包、v13 代码路径都存在，即为通过。路径不存在时，在 CONTEXT.md 第 6 节更正路径。
+- 类型：连通性检查。

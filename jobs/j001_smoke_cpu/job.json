@@ -1,0 +1,12 @@
+{
+  "job_id": "j001_smoke_cpu",
+  "description": "只用 CPU 的冒烟测试：GPU 全被占用时也能先验证整条链路；同时盘点服务器上自动任务要引用的已有资源（只读），供后续写任务代码使用。不训练。",
+  "gpus": 0,
+  "max_hours": 0.25,
+  "retries": 0,
+  "conda_env": "offdynamics38",
+  "result_dirs": ["outputs"],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": null
+}
