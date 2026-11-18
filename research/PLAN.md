@@ -35,3 +35,10 @@
 - 判定：这是数据收集，不是新实验。V21 的结论**必须按它自己事先写定的规则**判定，规则见分支 `claude/v21-confirm`（PR #10）里的 `server_v21/code_v21/v21_confirm/INSTRUCTION_V21.md` 和 `config.json` 的 `rule`，不得另立规则。
 - 若 `COLLECTED.json` 的 state 为 `not_finished`（V21 超过 23.5 小时还没结束），就提交一个同样内容的新收集任务（任务名递增）。
 - 类型：数据收集。
+
+### j003_pipeline_smoke_cpu
+- 问题：j001 显示自动任务环境里 `mujoco_py` 导入失败（自动任务没有设置 MuJoCo 路径；V21 的 `run_in_tmux.sh` 用的是 `$HOME/.mujoco210/mujoco210` 加环境变量和 mujoco_py 私有副本）。在提交任何训练任务之前，用 CPU 验证一次完整链路，避免训练任务因环境问题失败。
+- 设置：`gpus: 0`，预算 CPU × 1 小时（上限）。按 V21 的方式设置 MuJoCo 环境变量；把 mujoco_py 复制到任务目录后导入（不导入、不写已安装的包）；校验并解压 ODRL 目标数据压缩包到任务自己的 `code/data/`，列出全部条目；按 MANIFEST 校验 hopper/walker 源数据和 iql_dyn.py、iql_unc.py；对三个 V21 任务（hopper 腿关节 medium、walker 大腿关节 medium/hard，XML 与 V21 哈希一致）构建环境、跑一回合随机动作、做 1000 步 IQL 混合-全部更新和 500 步 BC-混合更新（CPU）、一回合评估，并记录 CPU 更新速度和描述性的源/目标轨迹回报统计。
+- 种子：冒烟专用 2999（不属于研究种子，回报不读取、不报告）。
+- 判定：状态 `completed` 且 `summary.json` 中 `all_passed` 为 true 即为通过；任何一项失败就按报错修复后新建任务重跑（`parent_job` 写 j003）。通过后，后续训练任务一律沿用 j003 的环境设置。
+- 类型：连通性检查（不计入研究实验数）。

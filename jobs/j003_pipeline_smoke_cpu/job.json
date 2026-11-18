@@ -1,0 +1,13 @@
+{
+  "job_id": "j003_pipeline_smoke_cpu",
+  "description": "只用 CPU 的整条训练链路冒烟测试：j001 发现自动任务环境里没有设置 MuJoCo 路径（mujoco_py 导入失败），本任务按 V21 的做法设置环境变量并使用 mujoco_py 私有副本，验证 ODRL 目标数据解压与哈希、源数据与学习器文件的 MANIFEST 哈希、三个 V21 任务的环境构建、少量 IQL/BC 混合更新和一回合评估，并测 CPU 上的更新速度。不产生研究结论。",
+  "hypothesis": "见 research/PLAN.md 的 j003_pipeline_smoke_cpu 登记：所有检查通过即为通过。",
+  "gpus": 0,
+  "max_hours": 1,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": ["outputs"],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j001_smoke_cpu"
+}
