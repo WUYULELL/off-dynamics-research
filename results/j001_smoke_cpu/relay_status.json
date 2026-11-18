@@ -6,13 +6,20 @@
       "time": "2026-11-18T23:11:29+08:00",
       "state": "running",
       "note": "第 1 次运行，GPU=none，上限 0.25 小时"
+    },
+    {
+      "time": "2026-11-19T01:11:25+08:00",
+      "state": "completed",
+      "note": "取回 4 个文件，0.0 MB"
     }
   ],
-  "state": "running",
-  "note": "第 1 次运行，GPU=none，上限 0.25 小时",
+  "state": "completed",
+  "note": "取回 4 个文件，0.0 MB",
   "gpus": "none",
   "started_at": "2026-11-18T23:11:29+08:00",
   "max_hours": 0.25,
   "remote_dir": "~/auto_jobs/j001_smoke_cpu",
-  "updated_at": "2026-11-18T23:11:29+08:00"
+  "updated_at": "2026-11-19T01:11:25+08:00",
+  "exit_code": 0,
+  "finished_at": "2026-11-19T01:11:25+08:00"
 }

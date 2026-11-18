@@ -1,0 +1,174 @@
+== 基本信息
+2026-11-18T23:11:30+08:00
+ecs-instance-525d908e
+HOME=/mnt/cs_dsns_public/cs_dsns_tanxin
+PWD=/mnt/cs_dsns_public/cs_dsns_tanxin/auto_jobs/j001_smoke_cpu/code
+CUDA_VISIBLE_DEVICES=[]
+nproc=4
+
+== 内存
+               total        used        free      shared  buff/cache   available
+Mem:             755          98          94           0         562         651
+Swap:              0           0           0
+
+== 磁盘（HOME）
+Filesystem                 Size  Used Avail Use% Mounted on
+172.30.10.62:6789:/ltaidc  284T  236T   49T  84% /mnt/cs_dsns_public
+
+== GPU 概况（只读查询）
+index, name, utilization.gpu [%], memory.used [MiB], memory.total [MiB]
+0, NVIDIA RTX A6000, 99 %, 11531 MiB, 49140 MiB
+1, NVIDIA RTX A6000, 99 %, 10128 MiB, 49140 MiB
+2, NVIDIA RTX A6000, 96 %, 27831 MiB, 49140 MiB
+3, NVIDIA RTX A6000, 99 %, 15346 MiB, 49140 MiB
+
+== 迁移项目（只读）
+total 663
+drwxr-xr-x 7 cs_dsns_tanxin group_shenguowei      7 11月  4 21:45 .
+drwxr-xr-x 3 cs_dsns_tanxin group_shenguowei      1 11月  5 13:02 ..
+drwxr-xr-x 2 cs_dsns_tanxin group_shenguowei      6 11月  4 21:45 cluster
+drwxr-xr-x 6 cs_dsns_tanxin group_shenguowei      4 11月  4 21:45 data
+drwxr-xr-x 3 cs_dsns_tanxin group_shenguowei      3 11月  4 21:45 environment
+-rw-r--r-- 1 cs_dsns_tanxin group_shenguowei 677880 11月  4 21:45 MANIFEST.json
+drwxr-xr-x 4 cs_dsns_tanxin group_shenguowei      2 11月  4 21:45 records
+drwxr-xr-x 7 cs_dsns_tanxin group_shenguowei     13 11月  4 21:45 source_snapshot
+-rw-r--r-- 1 cs_dsns_tanxin group_shenguowei    796 11月  4 21:45 UPLOAD_SINGLE_ZIP_ZH.md
+
+-- cluster/paths.example.json
+{
+  "cluster_root": "${HOME}/off-dynamics-transfer-20261104",
+  "note": "Mapping example only; not a runnable training config or new authorization",
+  "tasks": {
+    "walker2d-morph": {
+      "source_dataset": "data/source/walker2d_medium-v2.hdf5",
+      "target_dataset": "data/target/walker2d_morph_medium.hdf5",
+      "xml": "data/xml/walker_morph.xml",
+      "target_rows": 5000,
+      "source_rows": 999322,
+      "state_dim": 17,
+      "action_dim": 6,
+      "score_min": 10.079455055289959,
+      "score_max": 4398.43,
+      "timestep": 0.002
+    },
+    "hopper-morph": {
+      "source_dataset": "data/source/hopper_medium-v2.hdf5",
+      "target_dataset": "data/target/hopper_morph_medium.hdf5",
+      "xml": "data/xml/hopper_morph.xml",
+      "target_rows": 5000,
+      "source_rows": 999998,
+      "state_dim": 11,
+      "action_dim": 3,
+      "score_min": -26.3360015397715,
+      "score_max": 3152.75,
+      "timestep": 0.002
+    }
+  },
+  "oracle_cache": {
+    "hopper": "data/oracle/hopper",
+    "walker": "data/oracle/walker"
+  }
+}
+
+-- MANIFEST.json（前 40 行）
+{
+  "created_utc": "2026-11-04T02:00:24.641251+00:00",
+  "files": [
+    {
+      "path": "cluster/inspect_environment_readonly.py",
+      "bytes": 846,
+      "sha256": "dac8be93b60df0279367b150da46864b9eca484c19cc4c64adab17cf7652a0e6",
+      "source": "new migration-preparation file",
+      "category": "cluster"
+    },
+    {
+      "path": "cluster/paths.example.json",
+      "bytes": 1046,
+      "sha256": "25f6a195cbda921d42ae22e206aa6f83caa5e8698c838cc0965843e355678ca4",
+      "source": "new migration-preparation file",
+      "category": "cluster"
+    },
+    {
+      "path": "cluster/PORTABILITY_FINDINGS.json",
+      "bytes": 34257,
+      "sha256": "e82c423764acdb9bd97553ac35c3d76e660484b6f43b14badbe4391675abac62",
+      "source": "new migration-preparation file",
+      "category": "cluster"
+    },
+    {
+      "path": "cluster/README_CLUSTER_ZH.md",
+      "bytes": 10822,
+      "sha256": "7ce299f314b7fa0f90273cc93e31dcb57c3af257ca4ef022f3579a08392982d5",
+      "source": "new migration-preparation file",
+      "category": "cluster"
+    },
+    {
+      "path": "cluster/SCOPE.json",
+      "bytes": 436,
+      "sha256": "85191697fbe7590ca60e22410f0581fa0d5a6a3332e071cdd96015aee5ff6925",
+      "source": "new migration-preparation file",
+      "category": "cluster"
+    },
+    {
+      "path": "cluster/verify_package.py",
+
+-- source_snapshot/algo/offline_offline
+bosa.py
+dara.py
+igdf.py
+iql_bellman_ab.py
+iql_bellman_ab_v5.py
+iql_bellman_fb.py
+iql_dyn.py
+iql.py
+iql_unc.py
+td3_bc.py
+
+== ODRL 目标数据压缩包
+-rw-r--r-- 1 cs_dsns_tanxin group_shenguowei 3800530 11月 16 10:43 /mnt/cs_dsns_public/cs_dsns_tanxin/odrl_target_20261115.zip
+
+== v13 求解与回放代码
+config.json
+FROZEN.json
+legacy_replay.py
+legacy_resources.py
+references
+RESTORATION_AST.json
+run_in_tmux.sh
+run_stage0.py
+solver.py
+
+== HOME 下的顶层目录（只列名字）
+auto_jobs
+cluster_zip_reupload_20261104
+collect_missing_small_files.py
+conda-envs
+github_missing_export_20261112_235126
+github_missing_export_20261112_235126.zip
+miniconda3
+odrl_linux_preflight_20261105
+odrl_linux_readiness_20261105
+odrl_target_20261115.zip
+Packages
+v12_linux
+v13_action_fix
+v14b_results.tar.gz
+v14b_track
+v14_diag
+v15b_b0diag
+v15c_walker
+v15_screen
+v16_shift
+v17_reg
+v17_reg.zip
+v18b_pilotA
+v18b_pilotA.zip
+v18_pilotA
+v18_pilotA.zip
+v19_residual
+v19_residual.zip
+v20_check
+v20_check.zip
+v21_confirm
+v21_confirm.zip
+_write_test
