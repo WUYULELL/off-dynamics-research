@@ -4,7 +4,7 @@
 
 ## 目标
 
-让这台电脑每 10 分钟自动执行一次 `relay.py`：从 GitHub 仓库 `WUYULELL/off-dynamics-research` 的 `auto-loop` 分支拉取新实验，上传到实验服务器解压并在 tmux 里运行，跑完后把结果小文件取回并推送到 GitHub。relay 的代码已经写好并测试过，**你的任务只是配置环境，不要修改 `relay.py` 和 `auto_runner.sh` 的逻辑**。如果发现必须改，停下来告诉用户原因。
+让这台电脑每 1 小时自动执行一次 `relay.py`：从 GitHub 仓库 `WUYULELL/off-dynamics-research` 的 `auto-loop` 分支拉取新实验，上传到实验服务器解压并在 tmux 里运行，跑完后把结果小文件取回并推送到 GitHub。relay 的代码已经写好并测试过，**你的任务只是配置环境，不要修改 `relay.py` 和 `auto_runner.sh` 的逻辑**。如果发现必须改，停下来告诉用户原因。
 
 ## 目录约定（路径里不要有中文和空格）
 
@@ -114,6 +114,7 @@ copy relay_config.example.json relay_config.json
 - `default_conda_env`：`offdynamics38`
 - `approver_emails`：用户在 GitHub 网页上提交时使用的邮箱。确认方法：请用户在 GitHub 网页上随便编辑一下 `research/LOOP_LOG.md` 并提交，然后执行
   `git -C D:\claude_relay\off-dynamics-research pull` 和 `git -C D:\claude_relay\off-dynamics-research log -1 --format=%ae`，把输出的邮箱填进去（通常形如 `数字+用户名@users.noreply.github.com`）。
+- `exclude_gpus`：用户手动运行的实验正在占用的卡号，例如 `["0"]`，自动任务不会分配到这些卡上；没有就留空 `[]`。向用户确认。
 - 其余数值保持默认，除非用户另有要求。
 
 编辑 `run_relay.bat`，把 `set PYTHON=python` 改成 python.exe 的完整路径。
@@ -142,7 +143,7 @@ python relay.py --config relay_config.json --once
 ### 8. 注册定时任务
 
 ```powershell
-schtasks /Create /TN "ClaudeRelay" /SC MINUTE /MO 10 /TR "\"D:\claude_relay\relay\relay\run_relay.bat\"" /F
+schtasks /Create /TN "ClaudeRelay" /SC HOURLY /MO 1 /TR "\"D:\claude_relay\relay\relay\run_relay.bat\"" /F
 schtasks /Run /TN "ClaudeRelay"
 ```
 

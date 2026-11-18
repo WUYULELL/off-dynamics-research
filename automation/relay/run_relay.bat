@@ -1,5 +1,5 @@
 @echo off
-REM Called by Windows Task Scheduler every 10 minutes.
+REM Called by Windows Task Scheduler every hour.
 REM Set PYTHON to the full path of python.exe (Python 3.8+).
 set PYTHON=python
 cd /d "%~dp0"

@@ -14,6 +14,7 @@
   "max_gpus_per_job": 4,
   "gpu_util_max": 60,
   "gpu_mem_frac_max": 0.75,
+  "exclude_gpus": [],
   "cpu_threads": 4,
   "max_retries_cap": 3,
 

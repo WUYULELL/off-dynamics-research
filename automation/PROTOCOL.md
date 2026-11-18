@@ -46,7 +46,7 @@ jobs/j012_residual_pilot/
 
 | 字段 | 含义 |
 |---|---|
-| `gpus` | 需要几张卡，0 表示只用 CPU。relay 会选利用率 < 60%、显存占用 < 75% 的卡，并设置 `CUDA_VISIBLE_DEVICES` |
+| `gpus` | 需要几张卡，0 表示只用 CPU。relay 会选利用率 < 60%、显存占用 < 75%、且不在 `exclude_gpus`（实验室电脑本地配置，留给你手动实验的卡）里的卡，并设置 `CUDA_VISIBLE_DEVICES` |
 | `max_hours` | 运行时间硬上限，超时会被终止（状态 `timeout`）。也用来计算是否需要你授权 |
 | `retries` | 被别人挤掉、服务器重启等**中断**（没有退出码）时自动重跑几次。代码报错（有退出码）不会重跑 |
 | `approved_by_user` | **只有你能改**，见下方授权规则 |

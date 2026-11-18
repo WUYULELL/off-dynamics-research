@@ -3,7 +3,7 @@
 relay.py —— 实验室电脑上的中转程序（GitHub <-> 实验服务器）。
 
 只用 Python 标准库，Python >= 3.8，Windows / Linux 都能跑。依赖系统里的 git 和 ssh 命令。
-由 Windows 任务计划程序每 10 分钟调用一次：
+由 Windows 任务计划程序每 1 小时调用一次：
 
     python relay.py --config relay_config.json --once
 
@@ -15,7 +15,7 @@ relay.py —— 实验室电脑上的中转程序（GitHub <-> 实验服务器�
 
 其他用法：
     python relay.py --config relay_config.json --check     自检（git、ssh、GPU、conda）
-    python relay.py --config relay_config.json --loop 600  不用任务计划，前台每 600 秒循环
+    python relay.py --config relay_config.json --loop 3600  不用任务计划，前台每 3600 秒循环
 """
 import argparse
 import datetime
@@ -48,6 +48,7 @@ DEFAULTS = {
     "max_gpus_per_job": 4,
     "gpu_util_max": 60,
     "gpu_mem_frac_max": 0.75,
+    "exclude_gpus": [],
     "auto_approve_hours": 24.0,
     "hard_max_hours": 48,
     "max_retries_cap": 3,
@@ -308,6 +309,8 @@ class Relay:
             try:
                 idx, util, used, total = parts[0], float(parts[1]), float(parts[2]), float(parts[3])
             except ValueError:
+                continue
+            if idx in [str(x) for x in self.cfg.get("exclude_gpus", [])]:
                 continue
             if util >= self.cfg["gpu_util_max"]:
                 continue

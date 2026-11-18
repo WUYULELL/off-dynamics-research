@@ -1,7 +1,7 @@
 # 自动实验循环：使用说明
 
 ```
- Claude（定时会话）           GitHub: auto-loop 分支            实验室电脑（relay，每 10 分钟）        服务器
+ Claude（定时会话）           GitHub: auto-loop 分支            实验室电脑（relay，每 1 小时）        服务器
   写 jobs/<任务>/   ──push──▶  jobs/     ──pull──────────────▶  打包上传 → 解压 → tmux 运行   ─────▶  ~/auto_jobs/<任务>/
   读 results/ 分析  ◀──pull──  results/  ◀──push──────────────  取回结果小文件              ◀─────  outputs/、日志
 ```
