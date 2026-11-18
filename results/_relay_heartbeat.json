@@ -1,8 +1,9 @@
 {
-  "time": "2026-11-19T01:11:29+08:00",
-  "time_epoch": 1795021889,
+  "time": "2026-11-19T02:11:37+08:00",
+  "time_epoch": 1795025497,
   "running": [
-    "j002_collect_v21"
+    "j002_collect_v21",
+    "j003_pipeline_smoke_cpu"
   ],
   "pending": [
     "j000_smoke"
