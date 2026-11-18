@@ -28,3 +28,10 @@
 - 设置：不训练，`gpus: 0`。预算 CPU × 0.25 小时。
 - 判定：状态为 `completed`（numpy、torch、gym 都能导入），且 `inventory.txt` 中迁移项目、ODRL 目标数据压缩包、v13 代码路径都存在，即为通过。路径不存在时，在 CONTEXT.md 第 6 节更正路径。
 - 类型：连通性检查。
+
+### j002_collect_v21
+- 问题：不再让用户手动转交 V21 的结果。等 V21 结束后，自动取回它的报告和汇总文件。
+- 设置：只用 CPU，不训练；每 10 分钟查看一次 `$HOME/v21_confirm/outputs/LATEST_RUN.txt` 指向的运行目录，出现 `COMPLETED.json` 或 `FAILED.json` 后，只读复制小文件。预算 CPU × 24 小时（实际只是等待）。
+- 判定：这是数据收集，不是新实验。V21 的结论**必须按它自己事先写定的规则**判定，规则见分支 `claude/v21-confirm`（PR #10）里的 `server_v21/code_v21/v21_confirm/INSTRUCTION_V21.md` 和 `config.json` 的 `rule`，不得另立规则。
+- 若 `COLLECTED.json` 的 state 为 `not_finished`（V21 超过 23.5 小时还没结束），就提交一个同样内容的新收集任务（任务名递增）。
+- 类型：数据收集。
