@@ -12,9 +12,10 @@
 
 ## 你日常需要做的事
 
-1. **在对话里和 Claude 商定实验计划**，写进 `research/PLAN.md`（包括看结果前定好的判定规则）。自动循环只跑登记过的实验。
-2. **授权大任务**：收到通知说某任务在 `waiting_approval`，就在 GitHub 网页上编辑 `jobs/<任务名>/job.json`，把 `"approved_by_user": false` 改成 `true`，提交即可。运行上限不超过 24 小时的任务自动运行。
-3. **看进展**：`research/LOOP_LOG.md`（每轮结论）、`analysis/`（每个任务的分析）、`results/<任务名>/relay_status.json`（运行状态）。
+Claude 自主设计、运行、分析实验，不需要你事先确认计划。每个实验的判定规则会在运行前由 Claude 写进 `research/PLAN.md`。达到 PLAN.md 第一节的结束条件时，循环自动停止并通知你。
+
+1. **授权超长任务**：收到通知说某任务在 `waiting_approval`，就在 GitHub 网页上编辑 `jobs/<任务名>/job.json`，把 `"approved_by_user": false` 改成 `true`，提交即可。运行上限不超过 24 小时的任务自动运行。
+2. **看进展**：`research/LOOP_LOG.md`（每轮结论）、`analysis/`（每个任务的分析）、`results/<任务名>/relay_status.json`（运行状态）。
 
 ## 安全边界
 
@@ -29,4 +30,4 @@
 
 - 暂停全部：实验室电脑上的任务计划程序 → 禁用 `ClaudeRelay`。
 - 停掉一个正在跑的任务：在服务器上执行 `bash ~/auto_jobs/_runner/auto_runner.sh kill <任务名>`。
-- 停止 Claude 这边：在 claude.ai 的定时任务列表里暂停或删除对应的定时任务。
+- 停止 Claude 这边：在 GitHub 上把 `research/LOOP_STATE.json` 里的 `loop_enabled` 改成 `false`；或者在 claude.ai 的定时任务列表里暂停或删除对应的定时任务。

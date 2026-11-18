@@ -1,0 +1,10 @@
+{
+  "loop_enabled": true,
+  "last_seen_results_commit": null,
+  "heartbeat_alert_sent": false,
+  "experiments_started": 0,
+  "experiments_since_last_positive": 0,
+  "consecutive_failures": 0,
+  "next_seed": 3001,
+  "note": "用户可以把 loop_enabled 改成 false 来停止 Claude 这一侧的循环"
+}
