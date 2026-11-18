@@ -4,7 +4,7 @@
 
 ## 每次唤醒的步骤
 
-1. 克隆或拉取 `WUYULELL/off-dynamics-research` 的 `auto-loop` 分支。读本文件、`automation/PROTOCOL.md`、`research/PLAN.md`、`research/LOOP_LOG.md` 最近的条目。
+1. 克隆或拉取 `WUYULELL/off-dynamics-research` 的 `auto-loop` 分支。读本文件、`research/CONTEXT.md`（研究背景、规范，以及去哪里看最新状态）、`automation/PROTOCOL.md`、`research/PLAN.md`、`research/LOOP_LOG.md` 最近的条目；再按 CONTEXT.md 第 1 节打开“研究进度记录”文档，看最新状态。读不到这个文档时，在通知里说明，并只依据仓库里的文件工作。
 2. 看 `results/_relay_heartbeat.json`：最近一次心跳超过 12 小时，说明实验室电脑上的中转可能停了。这时不新建任务，只通知用户。
 3. 找出已经结束（completed / failed / timeout / interrupted / rejected）但还没有 `analysis/<任务名>.md` 的任务，逐个分析：
    - 读 `results/<任务名>/files/` 下的报告、摘要和日志尾部；
