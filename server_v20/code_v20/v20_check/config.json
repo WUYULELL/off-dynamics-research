@@ -1,0 +1,150 @@
+{
+  "version": "V20",
+  "purpose": "Two cheap checks chosen by the user (option C, 2026-11-17). Part 1 (CPU): compare behaviour quality of D4RL medium source trajectories and ODRL target trajectories on the kinematic tasks (returns, lengths, reward per step), to examine why mixing helped on hopper and hurt on walker in V18b. Part 2 (GPU): new hypothesis from V19 (descriptive there): a dynamics model pretrained on source data and fine-tuned on target data (FT) predicts held-out target trajectories better than one trained on target data only (T). New seeds, whole trajectories held out. Model error only; no policy training, no simulator.",
+  "authorized_by_user": "2026-11-17: option C (FT confirmation + data-quality check)",
+  "dense_tasks": [
+    "hopper-morph",
+    "walker2d-morph"
+  ],
+  "tasks": [
+    {
+      "id": "hopper-morph",
+      "robot": "hopper",
+      "kind": "dense",
+      "origin": "transfer_project",
+      "spec_task": "hopper-morph"
+    },
+    {
+      "id": "walker2d-morph",
+      "robot": "walker2d",
+      "kind": "dense",
+      "origin": "transfer_project",
+      "spec_task": "walker2d-morph"
+    },
+    {
+      "id": "hopper-kinematic-legjnt-medium",
+      "robot": "hopper",
+      "kind": "sparse",
+      "origin": "odrl_archive",
+      "target_file": "hopper_kinematic_legjnt_medium_medium.hdf5",
+      "target_sha256": "82f4414e6acb88523ed809b60b56838b6b68da603d75ee72eb79362515cf00d0",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-medium",
+      "robot": "walker2d",
+      "kind": "sparse",
+      "origin": "odrl_archive",
+      "target_file": "walker2d_kinematic_thighjnt_medium_medium.hdf5",
+      "target_sha256": "cae31125683286271a798d52bde1f0e2a0650baf527e5f5ff490d6d7cde03a07",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-hard",
+      "robot": "walker2d",
+      "kind": "sparse",
+      "origin": "odrl_archive",
+      "target_file": "walker2d_kinematic_thighjnt_hard_medium.hdf5",
+      "target_sha256": "16b792230e8018a1028ba636d79a47797448e41aa6c60af5159acef5cebe0c58",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    }
+  ],
+  "target_archive": "odrl_target_20261115.zip",
+  "target_archive_sha256": "df9c2b43c0a1f479c2ebeac1a3bbf156a95fa8aaedc6e92d36443baea85ae6fc",
+  "source": "D4RL medium of the same robot from the transfer project (hopper-morph / walker2d-morph source_dataset), timeout rows dropped",
+  "models": {
+    "S": "source model only (trained on the source data, applied to the target unchanged)",
+    "T": "trained on the target training blocks only",
+    "FT": "source model weights and normalization, then fine-tuned on the target training blocks"
+  },
+  "network": {
+    "hidden": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "activation": "SiLU",
+    "inputs": "state and action, standardized",
+    "outputs": "next-state change and reward, standardized"
+  },
+  "source_training": {
+    "steps": 200000,
+    "batch": 512,
+    "lr": 0.001,
+    "validation_fraction": 0.02,
+    "eval_every": 5000
+  },
+  "target_training": {
+    "max_steps": 30000,
+    "batch": 256,
+    "lr": 0.0003,
+    "eval_every": 500,
+    "patience_evals": 20
+  },
+  "split": {
+    "mode": "trajectory",
+    "test_fraction": 0.2,
+    "validation_fraction": 0.1,
+    "note": "Trajectory segments (split at terminals, timeouts and discontinuities) are shuffled by seed and assigned whole: to test until at least 20% of rows, then to validation until at least 10%, the rest to training. Train fractions take training segments in a fixed random order until the given share of training rows is reached (nested). No row of a held-out trajectory is used for training."
+  },
+  "train_fractions": [
+    0.5,
+    1.0
+  ],
+  "rollout_horizons": [
+    5,
+    10
+  ],
+  "source_coverage_sample": 100000,
+  "seeds": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+  ],
+  "rule": {
+    "units": "Errors are mean squared errors per dimension in units of the standard deviation of the full target training set of that repetition (state change for one-step state error, state for rollout error).",
+    "primary": "one-step next-state error on held-out target trajectories, train fraction 1.0",
+    "better": "paired over the 5 repetitions (same split and seed): mean(error of T - error of FT) > 0 and > 2 * paired SE",
+    "decision": {
+      "confirmed": "FT better than T on both dense tasks (hopper-morph, walker2d-morph): H_FT is confirmed at the model-error level; a policy pilot with model-generated data may be proposed (not started by this package).",
+      "not_confirmed": "otherwise: the V19 observation is not confirmed under new seeds and trajectory hold-out; source pretraining is not used as the basis of innovation 2."
+    },
+    "sparse_tasks": "reported as a reference only; they do not enter the decision",
+    "secondary": "rollout errors, near/far split, reward error, fraction 0.5 are descriptive",
+    "quality_check": "Part 1 is descriptive. Expectation written before results: if source behaviour quality explains V18b, the normalised mean return of source trajectories should exceed that of target trajectories on hopper-kinematic-legjnt-medium and fall below it on walker2d-kinematic-thighjnt-medium. Source returns are those recorded in the source environment; on walker2d-kinematic-thighjnt-hard only 54% of source trajectories are reproducible in the target (V16), so its comparison is weaker. Agreement or disagreement is reported; it is not proof of cause.",
+    "caveat": "A lower model error is necessary but not sufficient for a better policy."
+  },
+  "smoke_seed": 2099,
+  "smoke": {
+    "task": "hopper-morph",
+    "source_steps": 2000,
+    "source_eval_every": 1000,
+    "target_max_steps": 300,
+    "target_eval_every": 100,
+    "fractions": [
+      1.0
+    ]
+  },
+  "gpu_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "max_per_gpu": 6,
+  "idle_utilization_max": 10,
+  "idle_memory_max_MiB": 500,
+  "shared_utilization_max": 60,
+  "shared_free_memory_min_MiB": 12000,
+  "shared_cooldown_seconds": 90,
+  "launch_gap_seconds": 3,
+  "external_retry_max": 3,
+  "failure_policy": "A run killed by a signal is restarted from the beginning with the same seed in a new folder, at most 3 times. A Python error, NaN/Inf or failed audit stops new launches and is reported. Results are never used to decide a retry.",
+  "origin_note": "Hypothesis H_FT was formed after seeing V19, where FT < T was observed but was not a decision criterion. It is tested here with new seeds and a stricter split; V19 results are not reused."
+}
