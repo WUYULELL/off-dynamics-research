@@ -1,0 +1,14 @@
+{
+  "version": "V20",
+  "files": {
+    "INSTRUCTION_V20.md": "eb85973add214241690bc4ce6fecc40a9511f67be6660d0ba0943712b5c04275",
+    "README_ZH.md": "c003fc103f0203302490824cf794362fd6c4c4dffcc6e95c0fa3340d88926c5e",
+    "config.json": "a1a860d83d13efff3d38beb56c992b62000e33914c047fa812dd29f9abb77683",
+    "run_in_tmux.sh": "55fbf282e09bd33206f2707cd2e47cd39cdf956cd75228fe95a691f3d9b5eadd",
+    "v20_controller.py": "de041d0f2368409ad3b188574edec59e7f977e7a2f1c449fc4843c6aff7a972c",
+    "v20_worker.py": "f9f3516e2d6d63b7bf2585d421f5de1532d4a68f4ea491461bc6d4fb688c93bf",
+    "verify_package.py": "c2df111f5fb3a8f13543c9805310ef5e81f7bb800a5b67c66b2268db055ae4a8"
+  },
+  "training_updates": 0,
+  "GPU_jobs": 0
+}
