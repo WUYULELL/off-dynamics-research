@@ -1,0 +1,18 @@
+{
+  "job_id": "j001_smoke_cpu",
+  "attempts": 1,
+  "history": [
+    {
+      "time": "2026-11-18T23:11:29+08:00",
+      "state": "running",
+      "note": "第 1 次运行，GPU=none，上限 0.25 小时"
+    }
+  ],
+  "state": "running",
+  "note": "第 1 次运行，GPU=none，上限 0.25 小时",
+  "gpus": "none",
+  "started_at": "2026-11-18T23:11:29+08:00",
+  "max_hours": 0.25,
+  "remote_dir": "~/auto_jobs/j001_smoke_cpu",
+  "updated_at": "2026-11-18T23:11:29+08:00"
+}

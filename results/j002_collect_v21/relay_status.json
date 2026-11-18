@@ -1,0 +1,18 @@
+{
+  "job_id": "j002_collect_v21",
+  "attempts": 1,
+  "history": [
+    {
+      "time": "2026-11-18T23:11:38+08:00",
+      "state": "running",
+      "note": "第 1 次运行，GPU=none，上限 24 小时"
+    }
+  ],
+  "state": "running",
+  "note": "第 1 次运行，GPU=none，上限 24 小时",
+  "gpus": "none",
+  "started_at": "2026-11-18T23:11:38+08:00",
+  "max_hours": 24.0,
+  "remote_dir": "~/auto_jobs/j002_collect_v21",
+  "updated_at": "2026-11-18T23:11:38+08:00"
+}
