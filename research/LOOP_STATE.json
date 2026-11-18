@@ -1,10 +1,19 @@
 {
   "loop_enabled": true,
-  "last_seen_results_commit": "ce5d6808d041fe1d836ab3173b23e62224999880",
+  "last_seen_results_commit": "5fd7417d48db3be116fef0b7cd97547a237a486e",
   "heartbeat_alert_sent": false,
-  "experiments_started": 0,
+  "experiments_started": 1,
   "experiments_since_last_positive": 0,
   "consecutive_failures": 0,
-  "next_seed": 3001,
-  "note": "用户可以把 loop_enabled 改成 false 来停止 Claude 这一侧的循环"
+  "next_seed": 3006,
+  "note": "用户可以把 loop_enabled 改成 false 来停止 Claude 这一侧的循环",
+  "seeds_used_by_loop": {
+    "j004_domain_cond_bc_screen": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005
+    ]
+  }
 }
