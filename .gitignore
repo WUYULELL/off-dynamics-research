@@ -76,3 +76,11 @@
 *.key
 *.whl
 /src/rl-utils/figures/
+# auto-loop automation (Claude <-> GitHub <-> lab PC relay <-> server)
+!/automation/
+!/jobs/
+!/results/
+!/analysis/
+!/research/
+/automation/relay/relay_config.json
+/automation/relay/relay_work/

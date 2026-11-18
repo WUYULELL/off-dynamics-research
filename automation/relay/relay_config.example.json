@@ -1,0 +1,23 @@
+{
+  "repo_dir": "D:/claude_relay/off-dynamics-research",
+  "branch": "auto-loop",
+  "ssh_host": "labserver",
+  "conda_sh": "/home/你的用户名/miniconda3/etc/profile.d/conda.sh",
+  "default_conda_env": "offdynamics38",
+
+  "approver_emails": ["你在GitHub上提交时用的邮箱"],
+  "auto_approve_gpu_hours": 2.0,
+  "hard_max_hours": 48,
+
+  "max_concurrent_jobs": 4,
+  "max_jobs_per_gpu": 3,
+  "max_gpus_per_job": 4,
+  "gpu_util_max": 60,
+  "gpu_mem_frac_max": 0.75,
+  "cpu_threads": 4,
+  "max_retries_cap": 3,
+
+  "max_file_kb": 5120,
+  "max_total_mb": 50,
+  "heartbeat_hours": 6
+}
