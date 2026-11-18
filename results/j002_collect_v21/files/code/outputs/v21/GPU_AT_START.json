@@ -1,0 +1,30 @@
+{
+  "0": {
+    "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+    "utilization": 100,
+    "used_MiB": 43427,
+    "total_MiB": 49140,
+    "processes": 3
+  },
+  "1": {
+    "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+    "utilization": 100,
+    "used_MiB": 41908,
+    "total_MiB": 49140,
+    "processes": 2
+  },
+  "2": {
+    "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+    "utilization": 51,
+    "used_MiB": 42117,
+    "total_MiB": 49140,
+    "processes": 3
+  },
+  "3": {
+    "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+    "utilization": 35,
+    "used_MiB": 736,
+    "total_MiB": 49140,
+    "processes": 2
+  }
+}

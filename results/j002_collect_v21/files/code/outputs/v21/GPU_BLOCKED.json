@@ -1,0 +1,662 @@
+{
+  "0": {
+    "checks": 7930,
+    "samples": [
+      {
+        "t": 1794982649.5474048,
+        "time": "2026-11-18T06:17:29Z",
+        "own_runs": 0,
+        "driver_processes": 3,
+        "utilization": 100,
+        "used_MiB": 43427
+      },
+      {
+        "t": 1794982710.209531,
+        "time": "2026-11-18T06:18:30Z",
+        "own_runs": 0,
+        "driver_processes": 3,
+        "utilization": 100,
+        "used_MiB": 43427
+      },
+      {
+        "t": 1794982772.471067,
+        "time": "2026-11-18T06:19:32Z",
+        "own_runs": 0,
+        "driver_processes": 3,
+        "utilization": 100,
+        "used_MiB": 43427
+      },
+      {
+        "t": 1794982835.294657,
+        "time": "2026-11-18T06:20:35Z",
+        "own_runs": 0,
+        "driver_processes": 3,
+        "utilization": 100,
+        "used_MiB": 43427
+      },
+      {
+        "t": 1794982929.3754513,
+        "time": "2026-11-18T06:22:09Z",
+        "own_runs": 0,
+        "driver_processes": 3,
+        "utilization": 66,
+        "used_MiB": 19667
+      },
+      {
+        "t": 1794982991.8868268,
+        "time": "2026-11-18T06:23:11Z",
+        "own_runs": 1,
+        "driver_processes": 4,
+        "utilization": 81,
+        "used_MiB": 2637
+      },
+      {
+        "t": 1794983053.22251,
+        "time": "2026-11-18T06:24:13Z",
+        "own_runs": 1,
+        "driver_processes": 6,
+        "utilization": 90,
+        "used_MiB": 5805
+      },
+      {
+        "t": 1794983116.022178,
+        "time": "2026-11-18T06:25:16Z",
+        "own_runs": 1,
+        "driver_processes": 4,
+        "utilization": 95,
+        "used_MiB": 4133
+      },
+      {
+        "t": 1794983180.635617,
+        "time": "2026-11-18T06:26:20Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4793
+      },
+      {
+        "t": 1794983241.867909,
+        "time": "2026-11-18T06:27:21Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4793
+      },
+      {
+        "t": 1794983304.8036063,
+        "time": "2026-11-18T06:28:24Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 33266
+      },
+      {
+        "t": 1794983368.3469286,
+        "time": "2026-11-18T06:29:28Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 100,
+        "used_MiB": 47628
+      },
+      {
+        "t": 1794983431.4112496,
+        "time": "2026-11-18T06:30:31Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 100,
+        "used_MiB": 48190
+      },
+      {
+        "t": 1794983494.433077,
+        "time": "2026-11-18T06:31:34Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 5638
+      },
+      {
+        "t": 1794983557.5036905,
+        "time": "2026-11-18T06:32:37Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 92,
+        "used_MiB": 5640
+      },
+      {
+        "t": 1794983620.2534096,
+        "time": "2026-11-18T06:33:40Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 5642
+      },
+      {
+        "t": 1794983683.6413724,
+        "time": "2026-11-18T06:34:43Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 19826
+      },
+      {
+        "t": 1794983744.3339765,
+        "time": "2026-11-18T06:35:44Z",
+        "own_runs": 2,
+        "driver_processes": 6,
+        "utilization": 100,
+        "used_MiB": 46725
+      },
+      {
+        "t": 1794983807.4764607,
+        "time": "2026-11-18T06:36:47Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4793
+      },
+      {
+        "t": 1794983870.1896265,
+        "time": "2026-11-18T06:37:50Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 5500
+      }
+    ]
+  },
+  "1": {
+    "checks": 6083,
+    "samples": [
+      {
+        "t": 1794982649.5474715,
+        "time": "2026-11-18T06:17:29Z",
+        "own_runs": 0,
+        "driver_processes": 2,
+        "utilization": 100,
+        "used_MiB": 41908
+      },
+      {
+        "t": 1794982710.209604,
+        "time": "2026-11-18T06:18:30Z",
+        "own_runs": 0,
+        "driver_processes": 2,
+        "utilization": 100,
+        "used_MiB": 42136
+      },
+      {
+        "t": 1794982772.4711487,
+        "time": "2026-11-18T06:19:32Z",
+        "own_runs": 1,
+        "driver_processes": 3,
+        "utilization": 60,
+        "used_MiB": 30867
+      },
+      {
+        "t": 1794982835.2947288,
+        "time": "2026-11-18T06:20:35Z",
+        "own_runs": 0,
+        "driver_processes": 2,
+        "utilization": 100,
+        "used_MiB": 43058
+      },
+      {
+        "t": 1794982896.1469226,
+        "time": "2026-11-18T06:21:36Z",
+        "own_runs": 0,
+        "driver_processes": 2,
+        "utilization": 100,
+        "used_MiB": 43058
+      },
+      {
+        "t": 1794982956.952695,
+        "time": "2026-11-18T06:22:36Z",
+        "own_runs": 1,
+        "driver_processes": 3,
+        "utilization": 100,
+        "used_MiB": 24435
+      },
+      {
+        "t": 1794983018.2968867,
+        "time": "2026-11-18T06:23:38Z",
+        "own_runs": 1,
+        "driver_processes": 4,
+        "utilization": 48,
+        "used_MiB": 4165
+      },
+      {
+        "t": 1794983079.332886,
+        "time": "2026-11-18T06:24:39Z",
+        "own_runs": 2,
+        "driver_processes": 6,
+        "utilization": 98,
+        "used_MiB": 7619
+      },
+      {
+        "t": 1794983142.497708,
+        "time": "2026-11-18T06:25:42Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 5529
+      },
+      {
+        "t": 1794983204.719212,
+        "time": "2026-11-18T06:26:44Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 97,
+        "used_MiB": 6312
+      },
+      {
+        "t": 1794983268.4049673,
+        "time": "2026-11-18T06:27:48Z",
+        "own_runs": 2,
+        "driver_processes": 7,
+        "utilization": 96,
+        "used_MiB": 8983
+      },
+      {
+        "t": 1794983331.2010615,
+        "time": "2026-11-18T06:28:51Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 96,
+        "used_MiB": 6756
+      },
+      {
+        "t": 1794983394.5235019,
+        "time": "2026-11-18T06:29:54Z",
+        "own_runs": 2,
+        "driver_processes": 6,
+        "utilization": 98,
+        "used_MiB": 8057
+      },
+      {
+        "t": 1794983457.8286662,
+        "time": "2026-11-18T06:30:57Z",
+        "own_runs": 2,
+        "driver_processes": 8,
+        "utilization": 97,
+        "used_MiB": 9650
+      },
+      {
+        "t": 1794983520.6372228,
+        "time": "2026-11-18T06:32:00Z",
+        "own_runs": 2,
+        "driver_processes": 7,
+        "utilization": 99,
+        "used_MiB": 9981
+      },
+      {
+        "t": 1794983583.8750257,
+        "time": "2026-11-18T06:33:03Z",
+        "own_runs": 2,
+        "driver_processes": 6,
+        "utilization": 90,
+        "used_MiB": 9301
+      },
+      {
+        "t": 1794983646.642476,
+        "time": "2026-11-18T06:34:06Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 98,
+        "used_MiB": 7686
+      },
+      {
+        "t": 1794983709.6365395,
+        "time": "2026-11-18T06:35:09Z",
+        "own_runs": 2,
+        "driver_processes": 6,
+        "utilization": 98,
+        "used_MiB": 8623
+      },
+      {
+        "t": 1794983770.3571117,
+        "time": "2026-11-18T06:36:10Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 97,
+        "used_MiB": 19457
+      },
+      {
+        "t": 1794983833.838549,
+        "time": "2026-11-18T06:37:13Z",
+        "own_runs": 2,
+        "driver_processes": 3,
+        "utilization": 97,
+        "used_MiB": 4423
+      }
+    ]
+  },
+  "2": {
+    "checks": 8857,
+    "samples": [
+      {
+        "t": 1794982649.547495,
+        "time": "2026-11-18T06:17:29Z",
+        "own_runs": 0,
+        "driver_processes": 3,
+        "utilization": 24,
+        "used_MiB": 42117
+      },
+      {
+        "t": 1794982710.2096252,
+        "time": "2026-11-18T06:18:30Z",
+        "own_runs": 0,
+        "driver_processes": 3,
+        "utilization": 100,
+        "used_MiB": 42389
+      },
+      {
+        "t": 1794982772.4711719,
+        "time": "2026-11-18T06:19:32Z",
+        "own_runs": 1,
+        "driver_processes": 4,
+        "utilization": 74,
+        "used_MiB": 31245
+      },
+      {
+        "t": 1794982838.585848,
+        "time": "2026-11-18T06:20:38Z",
+        "own_runs": 1,
+        "driver_processes": 3,
+        "utilization": 65,
+        "used_MiB": 1187
+      },
+      {
+        "t": 1794982929.3755488,
+        "time": "2026-11-18T06:22:09Z",
+        "own_runs": 0,
+        "driver_processes": 3,
+        "utilization": 100,
+        "used_MiB": 23029
+      },
+      {
+        "t": 1794982991.886925,
+        "time": "2026-11-18T06:23:11Z",
+        "own_runs": 1,
+        "driver_processes": 4,
+        "utilization": 94,
+        "used_MiB": 3555
+      },
+      {
+        "t": 1794983053.222589,
+        "time": "2026-11-18T06:24:13Z",
+        "own_runs": 1,
+        "driver_processes": 6,
+        "utilization": 94,
+        "used_MiB": 5221
+      },
+      {
+        "t": 1794983116.0222602,
+        "time": "2026-11-18T06:25:16Z",
+        "own_runs": 1,
+        "driver_processes": 4,
+        "utilization": 96,
+        "used_MiB": 3839
+      },
+      {
+        "t": 1794983180.6356993,
+        "time": "2026-11-18T06:26:20Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 19834
+      },
+      {
+        "t": 1794983241.8679938,
+        "time": "2026-11-18T06:27:21Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4801
+      },
+      {
+        "t": 1794983304.8036864,
+        "time": "2026-11-18T06:28:24Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4801
+      },
+      {
+        "t": 1794983368.347012,
+        "time": "2026-11-18T06:29:28Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 98,
+        "used_MiB": 46928
+      },
+      {
+        "t": 1794983431.411335,
+        "time": "2026-11-18T06:30:31Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4801
+      },
+      {
+        "t": 1794983494.4331336,
+        "time": "2026-11-18T06:31:34Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 5398
+      },
+      {
+        "t": 1794983557.503773,
+        "time": "2026-11-18T06:32:37Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4801
+      },
+      {
+        "t": 1794983620.2534966,
+        "time": "2026-11-18T06:33:40Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4801
+      },
+      {
+        "t": 1794983683.641461,
+        "time": "2026-11-18T06:34:43Z",
+        "own_runs": 2,
+        "driver_processes": 6,
+        "utilization": 100,
+        "used_MiB": 46787
+      },
+      {
+        "t": 1794983744.3340588,
+        "time": "2026-11-18T06:35:44Z",
+        "own_runs": 2,
+        "driver_processes": 6,
+        "utilization": 100,
+        "used_MiB": 46799
+      },
+      {
+        "t": 1794983807.4765463,
+        "time": "2026-11-18T06:36:47Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4801
+      },
+      {
+        "t": 1794983870.1897116,
+        "time": "2026-11-18T06:37:50Z",
+        "own_runs": 2,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 5530
+      }
+    ]
+  },
+  "3": {
+    "checks": 8963,
+    "samples": [
+      {
+        "t": 1794982652.8053722,
+        "time": "2026-11-18T06:17:32Z",
+        "own_runs": 1,
+        "driver_processes": 3,
+        "utilization": 90,
+        "used_MiB": 1737
+      },
+      {
+        "t": 1794982715.4464586,
+        "time": "2026-11-18T06:18:35Z",
+        "own_runs": 0,
+        "driver_processes": 2,
+        "utilization": 47,
+        "used_MiB": 736
+      },
+      {
+        "t": 1794982777.7594514,
+        "time": "2026-11-18T06:19:37Z",
+        "own_runs": 0,
+        "driver_processes": 2,
+        "utilization": 52,
+        "used_MiB": 736
+      },
+      {
+        "t": 1794982838.585921,
+        "time": "2026-11-18T06:20:38Z",
+        "own_runs": 0,
+        "driver_processes": 5,
+        "utilization": 99,
+        "used_MiB": 15930
+      },
+      {
+        "t": 1794982929.3755665,
+        "time": "2026-11-18T06:22:09Z",
+        "own_runs": 0,
+        "driver_processes": 5,
+        "utilization": 100,
+        "used_MiB": 20640
+      },
+      {
+        "t": 1794982991.8869443,
+        "time": "2026-11-18T06:23:11Z",
+        "own_runs": 0,
+        "driver_processes": 5,
+        "utilization": 98,
+        "used_MiB": 20640
+      },
+      {
+        "t": 1794983053.2226067,
+        "time": "2026-11-18T06:24:13Z",
+        "own_runs": 0,
+        "driver_processes": 5,
+        "utilization": 91,
+        "used_MiB": 20640
+      },
+      {
+        "t": 1794983116.0222828,
+        "time": "2026-11-18T06:25:16Z",
+        "own_runs": 0,
+        "driver_processes": 5,
+        "utilization": 83,
+        "used_MiB": 20640
+      },
+      {
+        "t": 1794983180.63572,
+        "time": "2026-11-18T06:26:20Z",
+        "own_runs": 0,
+        "driver_processes": 5,
+        "utilization": 100,
+        "used_MiB": 20640
+      },
+      {
+        "t": 1794983241.8680153,
+        "time": "2026-11-18T06:27:21Z",
+        "own_runs": 1,
+        "driver_processes": 6,
+        "utilization": 100,
+        "used_MiB": 22671
+      },
+      {
+        "t": 1794983304.8037043,
+        "time": "2026-11-18T06:28:24Z",
+        "own_runs": 1,
+        "driver_processes": 6,
+        "utilization": 100,
+        "used_MiB": 22671
+      },
+      {
+        "t": 1794983368.3470316,
+        "time": "2026-11-18T06:29:28Z",
+        "own_runs": 1,
+        "driver_processes": 6,
+        "utilization": 100,
+        "used_MiB": 22671
+      },
+      {
+        "t": 1794983431.4113533,
+        "time": "2026-11-18T06:30:31Z",
+        "own_runs": 1,
+        "driver_processes": 6,
+        "utilization": 100,
+        "used_MiB": 22671
+      },
+      {
+        "t": 1794983494.433148,
+        "time": "2026-11-18T06:31:34Z",
+        "own_runs": 1,
+        "driver_processes": 5,
+        "utilization": 100,
+        "used_MiB": 16042
+      },
+      {
+        "t": 1794983557.5037906,
+        "time": "2026-11-18T06:32:37Z",
+        "own_runs": 1,
+        "driver_processes": 3,
+        "utilization": 86,
+        "used_MiB": 2769
+      },
+      {
+        "t": 1794983620.2535162,
+        "time": "2026-11-18T06:33:40Z",
+        "own_runs": 1,
+        "driver_processes": 3,
+        "utilization": 85,
+        "used_MiB": 2769
+      },
+      {
+        "t": 1794983683.6414824,
+        "time": "2026-11-18T06:34:43Z",
+        "own_runs": 1,
+        "driver_processes": 3,
+        "utilization": 98,
+        "used_MiB": 2769
+      },
+      {
+        "t": 1794983744.3340762,
+        "time": "2026-11-18T06:35:44Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4731
+      },
+      {
+        "t": 1794983807.4765644,
+        "time": "2026-11-18T06:36:47Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 92,
+        "used_MiB": 4801
+      },
+      {
+        "t": 1794983870.1897318,
+        "time": "2026-11-18T06:37:50Z",
+        "own_runs": 2,
+        "driver_processes": 4,
+        "utilization": 99,
+        "used_MiB": 4801
+      }
+    ]
+  }
+}

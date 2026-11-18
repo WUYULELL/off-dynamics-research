@@ -1,0 +1,26 @@
+{
+  "completed": true,
+  "status": "AWAITING_USER_REVIEW",
+  "runs": 100,
+  "effective": [
+    [
+      "hopper-kinematic-legjnt-medium",
+      "BCMIX"
+    ],
+    [
+      "walker2d-kinematic-thighjnt-hard",
+      "BCMIX"
+    ],
+    [
+      "walker2d-kinematic-thighjnt-hard",
+      "BCMIXQ"
+    ]
+  ],
+  "elapsed_seconds": 48926.23825446144,
+  "ended_utc": "2026-11-18T19:52:53Z",
+  "evidence_sha256": {
+    "REPORT_ZH.md": "0cce86cf8c53576df0ed1c05c0ab6c3593e6302dd3a36b703a9ab892680e0b51",
+    "RESULT.json": "854dd3d02a6b6c571b5f63d5e34034692986c07f2adc71181c1b67b16ea34955",
+    "config.json": "474ec24e3e6bd97c61d0438939c809b216e7ad8c2bcf0cc3bb9e1c3ac2fc1a05"
+  }
+}

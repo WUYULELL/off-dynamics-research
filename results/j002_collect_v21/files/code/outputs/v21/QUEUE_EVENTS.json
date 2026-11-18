@@ -1,0 +1,2649 @@
+[
+  {
+    "time": "2026-11-18T06:17:29Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 32,
+      "used_MiB": 736,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:17:29Z",
+    "event": "start",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 1559377
+  },
+  {
+    "time": "2026-11-18T06:18:04Z",
+    "event": "exit",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T06:19:01Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 7,
+      "used_MiB": 361,
+      "total_MiB": 49140,
+      "processes": 1,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:19:01Z",
+    "event": "start",
+    "job": "smoke_MIXALL_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 1561271
+  },
+  {
+    "time": "2026-11-18T06:19:04Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 25,
+      "used_MiB": 738,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:19:04Z",
+    "event": "start",
+    "job": "smoke_MIXALLQ_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 1561463
+  },
+  {
+    "time": "2026-11-18T06:19:08Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 10,
+      "used_MiB": 736,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:19:08Z",
+    "event": "start",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 1561638
+  },
+  {
+    "time": "2026-11-18T06:19:26Z",
+    "event": "exit",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T06:19:53Z",
+    "event": "exit",
+    "job": "smoke_MIXALL_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T06:20:24Z",
+    "event": "exit",
+    "job": "smoke_MIXALLQ_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T06:20:35Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 22,
+      "used_MiB": 738,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:20:35Z",
+    "event": "start",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 1567984
+  },
+  {
+    "time": "2026-11-18T06:20:59Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T06:21:36Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 46,
+      "used_MiB": 730,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:21:36Z",
+    "event": "start",
+    "job": "smoke_BCMIXQ_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 1578091
+  },
+  {
+    "time": "2026-11-18T06:22:04Z",
+    "event": "exit",
+    "job": "smoke_BCMIXQ_walker2d-kinematic-thighjnt-medium_s2199",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T06:22:09Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 7,
+      "used_MiB": 361,
+      "total_MiB": 49140,
+      "processes": 1,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:22:09Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2101",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 1583433
+  },
+  {
+    "time": "2026-11-18T06:22:23Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 20,
+      "used_MiB": 23129,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:22:23Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2102",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 1585819
+  },
+  {
+    "time": "2026-11-18T06:23:08Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 42,
+      "used_MiB": 2099,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:23:08Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2103",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 1592586
+  },
+  {
+    "time": "2026-11-18T06:23:43Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 52,
+      "used_MiB": 4165,
+      "total_MiB": 49140,
+      "processes": 4,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T06:23:43Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2104",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 1598680
+  },
+  {
+    "time": "2026-11-18T06:25:47Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 48,
+      "used_MiB": 2769,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T06:25:47Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2105",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 1619172
+  },
+  {
+    "time": "2026-11-18T06:26:01Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 28,
+      "used_MiB": 4135,
+      "total_MiB": 49140,
+      "processes": 4,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T06:26:01Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2106",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 1621451
+  },
+  {
+    "time": "2026-11-18T06:26:25Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 47,
+      "used_MiB": 20640,
+      "total_MiB": 49140,
+      "processes": 5,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T06:26:25Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2107",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 1625724
+  },
+  {
+    "time": "2026-11-18T06:35:35Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 57,
+      "used_MiB": 2769,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T06:35:35Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2108",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 1682409
+  },
+  {
+    "time": "2026-11-18T06:45:29Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 57,
+      "used_MiB": 4423,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T06:45:29Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2109",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 1732575
+  },
+  {
+    "time": "2026-11-18T07:55:57Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s2110",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2032251
+  },
+  {
+    "time": "2026-11-18T07:56:01Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2032458
+  },
+  {
+    "time": "2026-11-18T07:56:04Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2032686
+  },
+  {
+    "time": "2026-11-18T08:04:23Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2103",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T08:04:34Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 55,
+      "used_MiB": 5261,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T08:04:34Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2046150
+  },
+  {
+    "time": "2026-11-18T08:05:14Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2101",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T08:06:33Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2104",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T08:11:18Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2106",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T08:17:06Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2102",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T08:25:32Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2105",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T08:28:31Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2109",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T08:50:28Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 7,
+      "used_MiB": 373,
+      "total_MiB": 49140,
+      "processes": 1,
+      "own_runs": 0
+    }
+  },
+  {
+    "time": "2026-11-18T08:50:28Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 2118545
+  },
+  {
+    "time": "2026-11-18T08:50:31Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 60,
+      "used_MiB": 2404,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T08:50:31Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2118757
+  },
+  {
+    "time": "2026-11-18T08:50:44Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2107",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T08:51:32Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 51,
+      "used_MiB": 17047,
+      "total_MiB": 49140,
+      "processes": 4,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T08:51:32Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 2120765
+  },
+  {
+    "time": "2026-11-18T08:58:20Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2131749
+  },
+  {
+    "time": "2026-11-18T08:58:23Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2131956
+  },
+  {
+    "time": "2026-11-18T08:58:27Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2132167
+  },
+  {
+    "time": "2026-11-18T09:01:50Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2108",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T09:18:06Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 29,
+      "used_MiB": 2404,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T09:18:06Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 2182801
+  },
+  {
+    "time": "2026-11-18T09:28:00Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 55,
+      "used_MiB": 2769,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T09:28:00Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2101",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 2198130
+  },
+  {
+    "time": "2026-11-18T09:37:59Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s2110",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T09:42:08Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T09:43:00Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T09:56:07Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 54,
+      "used_MiB": 8955,
+      "total_MiB": 49140,
+      "processes": 4,
+      "own_runs": 3
+    }
+  },
+  {
+    "time": "2026-11-18T09:56:07Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2102",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2243766
+  },
+  {
+    "time": "2026-11-18T09:56:52Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 26,
+      "used_MiB": 7223,
+      "total_MiB": 49140,
+      "processes": 4,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T09:56:52Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2103",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 2245125
+  },
+  {
+    "time": "2026-11-18T10:24:28Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T10:24:55Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 38,
+      "used_MiB": 5257,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T10:24:55Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2104",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2289898
+  },
+  {
+    "time": "2026-11-18T10:48:13Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T10:50:46Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 58,
+      "used_MiB": 2769,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T10:50:46Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2105",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 2343883
+  },
+  {
+    "time": "2026-11-18T11:00:02Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T11:01:21Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T11:02:19Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T11:03:01Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 58,
+      "used_MiB": 2406,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T11:03:01Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2106",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2371756
+  },
+  {
+    "time": "2026-11-18T11:04:07Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T11:04:07Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T11:05:26Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 20,
+      "used_MiB": 31889,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T11:05:26Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2107",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2377755
+  },
+  {
+    "time": "2026-11-18T11:11:22Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 57,
+      "used_MiB": 33923,
+      "total_MiB": 49140,
+      "processes": 4,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T11:11:22Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2108",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2392260
+  },
+  {
+    "time": "2026-11-18T11:23:02Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T11:51:32Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2109",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2494504
+  },
+  {
+    "time": "2026-11-18T11:51:35Z",
+    "event": "start",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2110",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2494731
+  },
+  {
+    "time": "2026-11-18T11:51:38Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2494952
+  },
+  {
+    "time": "2026-11-18T12:29:29Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2101",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T12:30:06Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 58,
+      "used_MiB": 14282,
+      "total_MiB": 49140,
+      "processes": 5,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T12:30:06Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 2602078
+  },
+  {
+    "time": "2026-11-18T13:07:38Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 30,
+      "used_MiB": 2406,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T13:07:38Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 2708377
+  },
+  {
+    "time": "2026-11-18T13:48:09Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2102",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T13:49:28Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2105",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T13:54:29Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 2840220
+  },
+  {
+    "time": "2026-11-18T14:00:03Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2103",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T14:00:19Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 11,
+      "used_MiB": 5023,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T14:00:19Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2853805
+  },
+  {
+    "time": "2026-11-18T14:01:04Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2104",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T14:02:02Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 59,
+      "used_MiB": 11493,
+      "total_MiB": 49140,
+      "processes": 4,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T14:02:02Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 2858434
+  },
+  {
+    "time": "2026-11-18T14:02:53Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 57,
+      "used_MiB": 5529,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T14:02:53Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2860330
+  },
+  {
+    "time": "2026-11-18T14:28:17Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 31,
+      "used_MiB": 3063,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T14:28:17Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 2917664
+  },
+  {
+    "time": "2026-11-18T14:28:52Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2918885
+  },
+  {
+    "time": "2026-11-18T14:28:56Z",
+    "event": "start",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2919060
+  },
+  {
+    "time": "2026-11-18T14:28:59Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 2919231
+  },
+  {
+    "time": "2026-11-18T14:32:02Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2106",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T14:40:48Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2107",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T14:43:37Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2108",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T15:12:24Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2110",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T15:13:21Z",
+    "event": "exit",
+    "job": "MIXALL_hopper-kinematic-legjnt-medium_s2109",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T15:13:37Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T15:13:38Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 8,
+      "used_MiB": 4028,
+      "total_MiB": 49140,
+      "processes": 2,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T15:13:38Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3015680
+  },
+  {
+    "time": "2026-11-18T15:13:41Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3015849
+  },
+  {
+    "time": "2026-11-18T15:13:44Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3016026
+  },
+  {
+    "time": "2026-11-18T15:23:11Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T15:25:38Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 56,
+      "used_MiB": 12945,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T15:25:38Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 3040842
+  },
+  {
+    "time": "2026-11-18T15:44:18Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3078754
+  },
+  {
+    "time": "2026-11-18T15:58:33Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 58,
+      "used_MiB": 8020,
+      "total_MiB": 49140,
+      "processes": 5,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T15:58:33Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3107783
+  },
+  {
+    "time": "2026-11-18T16:39:47Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3191448
+  },
+  {
+    "time": "2026-11-18T16:39:50Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3191617
+  },
+  {
+    "time": "2026-11-18T16:50:36Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T16:51:45Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T16:56:20Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T16:56:52Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 40,
+      "used_MiB": 12945,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T16:56:53Z",
+    "event": "start",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 3227467
+  },
+  {
+    "time": "2026-11-18T17:01:25Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:04:09Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:14:34Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 34,
+      "used_MiB": 13979,
+      "total_MiB": 49140,
+      "processes": 15,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T17:14:34Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2101",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3263321
+  },
+  {
+    "time": "2026-11-18T17:29:25Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2101",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:31:42Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:33:49Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:34:37Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:34:37Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 8,
+      "used_MiB": 14099,
+      "total_MiB": 49140,
+      "processes": 12,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T17:34:37Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2102",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3304266
+  },
+  {
+    "time": "2026-11-18T17:38:06Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 52,
+      "used_MiB": 16255,
+      "total_MiB": 49140,
+      "processes": 13,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T17:38:06Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2103",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3311550
+  },
+  {
+    "time": "2026-11-18T17:43:31Z",
+    "event": "exit",
+    "job": "MIXALL_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:43:31Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 8,
+      "used_MiB": 12619,
+      "total_MiB": 49140,
+      "processes": 13,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T17:43:31Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2104",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3322951
+  },
+  {
+    "time": "2026-11-18T17:47:06Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 8,
+      "used_MiB": 14648,
+      "total_MiB": 49140,
+      "processes": 14,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T17:47:06Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2105",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3330300
+  },
+  {
+    "time": "2026-11-18T17:47:24Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2102",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:48:39Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 9,
+      "used_MiB": 16921,
+      "total_MiB": 49140,
+      "processes": 13,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T17:48:39Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2106",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3333744
+  },
+  {
+    "time": "2026-11-18T17:50:43Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2103",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:51:36Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 59,
+      "used_MiB": 16921,
+      "total_MiB": 49140,
+      "processes": 13,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T17:51:36Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2107",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3339498
+  },
+  {
+    "time": "2026-11-18T17:56:19Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2104",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T17:56:29Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 35,
+      "used_MiB": 14798,
+      "total_MiB": 49140,
+      "processes": 14,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T17:56:29Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2108",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3349468
+  },
+  {
+    "time": "2026-11-18T17:56:43Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 55,
+      "used_MiB": 19190,
+      "total_MiB": 49140,
+      "processes": 14,
+      "own_runs": 3
+    }
+  },
+  {
+    "time": "2026-11-18T17:56:43Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2109",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3350277
+  },
+  {
+    "time": "2026-11-18T18:00:02Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2105",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:00:55Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 44,
+      "used_MiB": 14798,
+      "total_MiB": 49140,
+      "processes": 14,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T18:00:55Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2110",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3359112
+  },
+  {
+    "time": "2026-11-18T18:01:56Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2106",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:05:01Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2107",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:05:59Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 7,
+      "used_MiB": 17231,
+      "total_MiB": 49140,
+      "processes": 13,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T18:05:59Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3369355
+  },
+  {
+    "time": "2026-11-18T18:06:39Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:09:02Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:09:24Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2108",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:09:34Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 50,
+      "used_MiB": 11332,
+      "total_MiB": 49140,
+      "processes": 8,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T18:09:34Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3376593
+  },
+  {
+    "time": "2026-11-18T18:10:04Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:10:09Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2109",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:11:44Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 48,
+      "used_MiB": 15660,
+      "total_MiB": 49140,
+      "processes": 11,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T18:11:44Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3381640
+  },
+  {
+    "time": "2026-11-18T18:12:55Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 8,
+      "used_MiB": 14711,
+      "total_MiB": 49140,
+      "processes": 12,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T18:12:55Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3384375
+  },
+  {
+    "time": "2026-11-18T18:13:45Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s2110",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:19:06Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:19:17Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 33,
+      "used_MiB": 15873,
+      "total_MiB": 49140,
+      "processes": 12,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T18:19:17Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3397290
+  },
+  {
+    "time": "2026-11-18T18:19:20Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 38,
+      "used_MiB": 12945,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T18:19:20Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 3397462
+  },
+  {
+    "time": "2026-11-18T18:20:32Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:21:35Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 33,
+      "used_MiB": 16052,
+      "total_MiB": 49140,
+      "processes": 11,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T18:21:35Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3402577
+  },
+  {
+    "time": "2026-11-18T18:23:44Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:24:21Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 57,
+      "used_MiB": 16947,
+      "total_MiB": 49140,
+      "processes": 12,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T18:24:21Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3408208
+  },
+  {
+    "time": "2026-11-18T18:26:51Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:28:10Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:32:44Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3425748
+  },
+  {
+    "time": "2026-11-18T18:32:47Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3425929
+  },
+  {
+    "time": "2026-11-18T18:32:51Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2101",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3426100
+  },
+  {
+    "time": "2026-11-18T18:32:54Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2102",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3426274
+  },
+  {
+    "time": "2026-11-18T18:32:57Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2103",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3426453
+  },
+  {
+    "time": "2026-11-18T18:33:00Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2104",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3427139
+  },
+  {
+    "time": "2026-11-18T18:33:04Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2105",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3427313
+  },
+  {
+    "time": "2026-11-18T18:33:07Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2106",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3427487
+  },
+  {
+    "time": "2026-11-18T18:33:10Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2107",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3427790
+  },
+  {
+    "time": "2026-11-18T18:33:14Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2108",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3427970
+  },
+  {
+    "time": "2026-11-18T18:33:17Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2109",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3428144
+  },
+  {
+    "time": "2026-11-18T18:34:49Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:35:53Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:36:04Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:37:50Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 44,
+      "used_MiB": 12945,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T18:37:50Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2110",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 3438405
+  },
+  {
+    "time": "2026-11-18T18:40:43Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:46:32Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:48:34Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:51:44Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:55:16Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 47,
+      "used_MiB": 14877,
+      "total_MiB": 49140,
+      "processes": 16,
+      "own_runs": 3
+    }
+  },
+  {
+    "time": "2026-11-18T18:55:16Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3474388
+  },
+  {
+    "time": "2026-11-18T18:56:01Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:58:34Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2103",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:58:39Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2106",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:58:45Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2109",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:58:45Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 6,
+      "used_MiB": 10934,
+      "total_MiB": 49140,
+      "processes": 14,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T18:58:45Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3482177
+  },
+  {
+    "time": "2026-11-18T18:59:09Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2101",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:59:09Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2104",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T18:59:09Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 7,
+      "used_MiB": 10493,
+      "total_MiB": 49140,
+      "processes": 13,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T18:59:09Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3483125
+  },
+  {
+    "time": "2026-11-18T18:59:28Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2107",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:00:42Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 8,
+      "used_MiB": 11757,
+      "total_MiB": 49140,
+      "processes": 15,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T19:00:42Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3486239
+  },
+  {
+    "time": "2026-11-18T19:01:17Z",
+    "event": "shared_admission",
+    "gpu": 2,
+    "reading": {
+      "uuid": "GPU-46bd602a-acec-adb7-9684-4292d55ba65c",
+      "utilization": 32,
+      "used_MiB": 12983,
+      "total_MiB": 49140,
+      "processes": 15,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T19:01:17Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3487838
+  },
+  {
+    "time": "2026-11-18T19:02:19Z",
+    "event": "shared_admission",
+    "gpu": 0,
+    "reading": {
+      "uuid": "GPU-965aff83-8d85-646b-eb0e-042db35f2e88",
+      "utilization": 54,
+      "used_MiB": 13805,
+      "total_MiB": 49140,
+      "processes": 16,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T19:02:19Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3489871
+  },
+  {
+    "time": "2026-11-18T19:03:04Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2110",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:05:00Z",
+    "event": "shared_admission",
+    "gpu": 3,
+    "reading": {
+      "uuid": "GPU-ccef28f6-93fc-9d7d-037e-e8217619672a",
+      "utilization": 53,
+      "used_MiB": 12945,
+      "total_MiB": 49140,
+      "processes": 3,
+      "own_runs": 1
+    }
+  },
+  {
+    "time": "2026-11-18T19:05:00Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 3,
+    "attempt": 0,
+    "pid": 3495933
+  },
+  {
+    "time": "2026-11-18T19:06:17Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2102",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:06:22Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2105",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:06:28Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s2108",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:11:39Z",
+    "event": "shared_admission",
+    "gpu": 1,
+    "reading": {
+      "uuid": "GPU-06b314a5-6d68-6c46-4008-802f8a7e9d54",
+      "utilization": 38,
+      "used_MiB": 13295,
+      "total_MiB": 49140,
+      "processes": 15,
+      "own_runs": 2
+    }
+  },
+  {
+    "time": "2026-11-18T19:11:39Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3509549
+  },
+  {
+    "time": "2026-11-18T19:17:40Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3522553
+  },
+  {
+    "time": "2026-11-18T19:17:43Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3522724
+  },
+  {
+    "time": "2026-11-18T19:17:47Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3522895
+  },
+  {
+    "time": "2026-11-18T19:17:50Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3523082
+  },
+  {
+    "time": "2026-11-18T19:17:53Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3523262
+  },
+  {
+    "time": "2026-11-18T19:17:57Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3523440
+  },
+  {
+    "time": "2026-11-18T19:18:00Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3523612
+  },
+  {
+    "time": "2026-11-18T19:18:03Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 1,
+    "attempt": 0,
+    "pid": 3523786
+  },
+  {
+    "time": "2026-11-18T19:18:07Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3523962
+  },
+  {
+    "time": "2026-11-18T19:19:08Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:19:08Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3526520
+  },
+  {
+    "time": "2026-11-18T19:23:03Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:23:04Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 2,
+    "attempt": 0,
+    "pid": 3534688
+  },
+  {
+    "time": "2026-11-18T19:23:44Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:23:44Z",
+    "event": "start",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "pid": 3536472
+  },
+  {
+    "time": "2026-11-18T19:27:17Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:27:47Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:29:27Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:32:22Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:34:42Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:37:08Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:42:43Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:45:53Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2202",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:46:23Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:46:33Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:48:23Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2203",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:48:33Z",
+    "event": "exit",
+    "job": "MIXALLQ_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 3,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:48:38Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2201",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:48:48Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 1,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:48:53Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2201",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:49:18Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-medium_s2204",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:49:28Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2202",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:49:58Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2205",
+    "gpu": 0,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:50:13Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2203",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-18T19:52:34Z",
+    "event": "exit",
+    "job": "BCMIXQ_walker2d-kinematic-thighjnt-hard_s2204",
+    "gpu": 2,
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]
