@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-19T09:46:35Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 74,
+  "failed": 0,
+  "progress": {
+    "QDCBC_walker2d-kinematic-thighjnt-hard_s3005": "195000/200000"
+  }
+}

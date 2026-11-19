@@ -1,0 +1,642 @@
+[j004 2026-11-19T00:11:41Z] GPUs ['3']
+[j004 2026-11-19T00:13:23Z] smoke pending 0 running 5 done 0 failed 0
+[j004 2026-11-19T00:13:43Z] smoke passed 5
+[j004 2026-11-19T00:15:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:16:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:17:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:18:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:19:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:20:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:21:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:22:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:23:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:24:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:25:43Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:26:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:27:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:28:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:29:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:30:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:31:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:32:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:33:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:34:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:35:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:36:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:37:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:38:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:39:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:40:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:41:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:42:44Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:43:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:44:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:45:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:46:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:47:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:48:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:49:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:50:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:51:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:52:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:53:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:54:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:55:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:56:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:57:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:58:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T00:59:45Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:00:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:01:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:02:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:03:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:04:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:05:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:06:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:07:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:08:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:09:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:10:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:11:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:12:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:13:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:14:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:15:46Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:16:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:17:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:18:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:19:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:20:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:21:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:22:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:23:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:24:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:25:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:26:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:27:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:28:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:29:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:30:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:31:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:32:47Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:33:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:34:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:35:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:36:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:37:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:38:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:39:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:40:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:41:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:42:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:43:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:44:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:45:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:46:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:47:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:48:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:49:48Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:50:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:51:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:52:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:53:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:54:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:55:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:56:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:57:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:58:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T01:59:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T02:00:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T02:01:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T02:02:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T02:03:49Z] main pending 69 running 6 done 0 failed 0
+[j004 2026-11-19T02:04:49Z] main pending 68 running 6 done 1 failed 0
+[j004 2026-11-19T02:05:49Z] main pending 68 running 6 done 1 failed 0
+[j004 2026-11-19T02:07:40Z] main pending 64 running 6 done 5 failed 0
+[j004 2026-11-19T02:08:40Z] main pending 64 running 6 done 5 failed 0
+[j004 2026-11-19T02:09:40Z] main pending 64 running 6 done 5 failed 0
+[j004 2026-11-19T02:10:40Z] main pending 64 running 6 done 5 failed 0
+[j004 2026-11-19T02:11:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:12:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:13:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:14:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:15:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:16:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:17:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:18:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:19:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:20:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:21:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:22:40Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:23:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:24:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:25:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:26:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:27:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:28:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:29:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:30:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:31:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:32:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:33:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:34:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:35:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:36:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:37:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:38:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:39:41Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:40:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:41:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:42:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:43:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:44:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:45:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:46:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:47:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:48:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:49:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:50:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:51:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:52:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:53:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:54:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:55:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:56:42Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:57:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:58:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T02:59:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:00:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:01:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:02:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:03:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:04:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:05:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:06:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:07:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:08:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:09:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:10:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:11:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:12:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:13:43Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:14:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:15:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:16:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:17:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:18:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:19:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:20:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:21:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:22:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:23:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:24:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:25:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:26:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:27:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:28:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:29:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:30:44Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:31:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:32:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:33:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:34:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:35:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:36:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:37:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:38:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:39:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:40:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:41:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:42:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:43:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:44:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:45:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:46:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:47:45Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:48:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:49:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:50:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:51:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:52:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:53:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:54:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:55:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:56:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:57:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:58:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T03:59:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T04:00:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T04:01:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T04:02:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T04:03:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T04:04:46Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T04:05:47Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T04:06:47Z] main pending 63 running 6 done 6 failed 0
+[j004 2026-11-19T04:07:47Z] main pending 62 running 6 done 7 failed 0
+[j004 2026-11-19T04:08:47Z] main pending 61 running 6 done 8 failed 0
+[j004 2026-11-19T04:09:47Z] main pending 59 running 6 done 10 failed 0
+[j004 2026-11-19T04:10:47Z] main pending 58 running 6 done 11 failed 0
+[j004 2026-11-19T04:11:47Z] main pending 58 running 6 done 11 failed 0
+[j004 2026-11-19T04:12:47Z] main pending 58 running 6 done 11 failed 0
+[j004 2026-11-19T04:13:47Z] main pending 58 running 6 done 11 failed 0
+[j004 2026-11-19T04:14:47Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:15:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:16:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:17:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:18:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:19:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:20:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:21:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:22:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:23:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:24:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:25:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:26:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:27:48Z] main pending 57 running 6 done 12 failed 0
+[j004 2026-11-19T04:29:08Z] main pending 56 running 6 done 13 failed 0
+[j004 2026-11-19T04:30:09Z] main pending 55 running 6 done 14 failed 0
+[j004 2026-11-19T04:31:09Z] main pending 55 running 6 done 14 failed 0
+[j004 2026-11-19T04:32:09Z] main pending 55 running 6 done 14 failed 0
+[j004 2026-11-19T04:33:29Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:34:29Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:35:29Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:36:29Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:37:29Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:38:29Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:39:31Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:40:31Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:41:34Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:42:35Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:43:35Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:44:35Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:45:35Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:46:35Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:47:35Z] main pending 54 running 6 done 15 failed 0
+[j004 2026-11-19T04:48:35Z] main pending 53 running 6 done 16 failed 0
+[j004 2026-11-19T04:49:35Z] main pending 52 running 6 done 17 failed 0
+[j004 2026-11-19T04:50:35Z] main pending 52 running 6 done 17 failed 0
+[j004 2026-11-19T04:51:35Z] main pending 52 running 6 done 17 failed 0
+[j004 2026-11-19T04:52:35Z] main pending 52 running 6 done 17 failed 0
+[j004 2026-11-19T04:53:35Z] main pending 52 running 6 done 17 failed 0
+[j004 2026-11-19T04:54:35Z] main pending 52 running 6 done 17 failed 0
+[j004 2026-11-19T04:55:35Z] main pending 52 running 6 done 17 failed 0
+[j004 2026-11-19T04:56:35Z] main pending 52 running 6 done 17 failed 0
+[j004 2026-11-19T04:57:35Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T04:58:35Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T04:59:35Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:00:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:01:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:02:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:03:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:04:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:05:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:06:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:07:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:08:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:09:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:10:36Z] main pending 51 running 6 done 18 failed 0
+[j004 2026-11-19T05:11:56Z] main pending 50 running 6 done 19 failed 0
+[j004 2026-11-19T05:12:56Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:13:56Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:14:56Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:15:56Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:16:57Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:17:57Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:18:57Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:19:57Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:20:57Z] main pending 49 running 6 done 20 failed 0
+[j004 2026-11-19T05:22:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:23:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:24:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:25:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:26:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:27:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:28:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:29:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:30:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:31:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:32:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:33:07Z] main pending 48 running 6 done 21 failed 0
+[j004 2026-11-19T05:34:28Z] main pending 47 running 6 done 22 failed 0
+[j004 2026-11-19T05:35:28Z] main pending 47 running 6 done 22 failed 0
+[j004 2026-11-19T05:36:38Z] main pending 46 running 6 done 23 failed 0
+[j004 2026-11-19T05:37:38Z] main pending 46 running 6 done 23 failed 0
+[j004 2026-11-19T05:38:38Z] main pending 46 running 6 done 23 failed 0
+[j004 2026-11-19T05:39:38Z] main pending 46 running 6 done 23 failed 0
+[j004 2026-11-19T05:40:38Z] main pending 46 running 6 done 23 failed 0
+[j004 2026-11-19T05:41:38Z] main pending 46 running 6 done 23 failed 0
+[j004 2026-11-19T05:42:38Z] main pending 46 running 6 done 23 failed 0
+[j004 2026-11-19T05:43:38Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:44:38Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:45:38Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:46:38Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:47:38Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:48:38Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:49:38Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:50:39Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:51:39Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:52:39Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:53:39Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:54:39Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:55:39Z] main pending 45 running 6 done 24 failed 0
+[j004 2026-11-19T05:56:49Z] main pending 44 running 6 done 25 failed 0
+[j004 2026-11-19T05:57:49Z] main pending 44 running 6 done 25 failed 0
+[j004 2026-11-19T05:58:49Z] main pending 44 running 6 done 25 failed 0
+[j004 2026-11-19T06:00:09Z] main pending 42 running 6 done 27 failed 0
+[j004 2026-11-19T06:01:09Z] main pending 41 running 6 done 28 failed 0
+[j004 2026-11-19T06:02:09Z] main pending 41 running 6 done 28 failed 0
+[j004 2026-11-19T06:03:09Z] main pending 40 running 6 done 29 failed 0
+[j004 2026-11-19T06:04:09Z] main pending 40 running 6 done 29 failed 0
+[j004 2026-11-19T06:05:09Z] main pending 40 running 6 done 29 failed 0
+[j004 2026-11-19T06:06:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:07:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:08:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:09:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:10:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:11:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:12:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:13:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:14:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:15:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:16:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:17:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:18:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:19:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:20:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:21:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:22:10Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:23:11Z] main pending 39 running 6 done 30 failed 0
+[j004 2026-11-19T06:24:21Z] main pending 38 running 6 done 31 failed 0
+[j004 2026-11-19T06:25:21Z] main pending 38 running 6 done 31 failed 0
+[j004 2026-11-19T06:26:41Z] main pending 37 running 6 done 32 failed 0
+[j004 2026-11-19T06:27:41Z] main pending 36 running 6 done 33 failed 0
+[j004 2026-11-19T06:28:41Z] main pending 35 running 6 done 34 failed 0
+[j004 2026-11-19T06:30:01Z] main pending 34 running 6 done 35 failed 0
+[j004 2026-11-19T06:31:01Z] main pending 34 running 6 done 35 failed 0
+[j004 2026-11-19T06:32:02Z] main pending 34 running 6 done 35 failed 0
+[j004 2026-11-19T06:33:02Z] main pending 34 running 6 done 35 failed 0
+[j004 2026-11-19T06:34:02Z] main pending 34 running 6 done 35 failed 0
+[j004 2026-11-19T06:35:02Z] main pending 34 running 6 done 35 failed 0
+[j004 2026-11-19T06:36:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:37:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:38:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:39:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:40:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:41:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:42:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:43:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:44:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:45:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:46:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:47:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:48:02Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:49:03Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:50:03Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:51:03Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:52:03Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:53:03Z] main pending 33 running 6 done 36 failed 0
+[j004 2026-11-19T06:54:13Z] main pending 32 running 6 done 37 failed 0
+[j004 2026-11-19T06:55:13Z] main pending 32 running 6 done 37 failed 0
+[j004 2026-11-19T06:56:23Z] main pending 31 running 6 done 38 failed 0
+[j004 2026-11-19T06:57:33Z] main pending 30 running 6 done 39 failed 0
+[j004 2026-11-19T06:58:33Z] main pending 29 running 6 done 40 failed 0
+[j004 2026-11-19T06:59:33Z] main pending 29 running 6 done 40 failed 0
+[j004 2026-11-19T07:00:33Z] main pending 29 running 6 done 40 failed 0
+[j004 2026-11-19T07:01:33Z] main pending 28 running 6 done 41 failed 0
+[j004 2026-11-19T07:02:33Z] main pending 28 running 6 done 41 failed 0
+[j004 2026-11-19T07:03:33Z] main pending 28 running 6 done 41 failed 0
+[j004 2026-11-19T07:04:33Z] main pending 28 running 6 done 41 failed 0
+[j004 2026-11-19T07:05:34Z] main pending 28 running 6 done 41 failed 0
+[j004 2026-11-19T07:06:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:07:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:08:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:09:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:10:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:11:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:12:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:13:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:14:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:15:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:16:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:17:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:18:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:19:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:20:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:21:34Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:22:35Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:23:35Z] main pending 27 running 6 done 42 failed 0
+[j004 2026-11-19T07:24:55Z] main pending 25 running 6 done 44 failed 0
+[j004 2026-11-19T07:25:55Z] main pending 25 running 6 done 44 failed 0
+[j004 2026-11-19T07:27:25Z] main pending 23 running 6 done 46 failed 0
+[j004 2026-11-19T07:28:35Z] main pending 22 running 6 done 47 failed 0
+[j004 2026-11-19T07:29:35Z] main pending 22 running 6 done 47 failed 0
+[j004 2026-11-19T07:30:35Z] main pending 22 running 6 done 47 failed 0
+[j004 2026-11-19T07:31:35Z] main pending 22 running 6 done 47 failed 0
+[j004 2026-11-19T07:32:35Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:33:35Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:34:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:35:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:36:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:37:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:38:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:39:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:40:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:41:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:42:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:43:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:44:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:45:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:46:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:47:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:48:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:49:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:50:36Z] main pending 21 running 6 done 48 failed 0
+[j004 2026-11-19T07:51:47Z] main pending 19 running 6 done 50 failed 0
+[j004 2026-11-19T07:52:47Z] main pending 19 running 6 done 50 failed 0
+[j004 2026-11-19T07:53:47Z] main pending 19 running 6 done 50 failed 0
+[j004 2026-11-19T07:54:47Z] main pending 19 running 6 done 50 failed 0
+[j004 2026-11-19T07:55:47Z] main pending 19 running 6 done 50 failed 0
+[j004 2026-11-19T07:57:17Z] main pending 17 running 6 done 52 failed 0
+[j004 2026-11-19T07:58:17Z] main pending 17 running 6 done 52 failed 0
+[j004 2026-11-19T07:59:17Z] main pending 16 running 6 done 53 failed 0
+[j004 2026-11-19T08:00:17Z] main pending 16 running 6 done 53 failed 0
+[j004 2026-11-19T08:01:17Z] main pending 16 running 6 done 53 failed 0
+[j004 2026-11-19T08:02:17Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:03:17Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:04:17Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:05:17Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:06:17Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:07:17Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:08:17Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:09:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:10:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:11:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:12:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:13:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:14:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:15:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:16:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:17:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:18:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:19:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:20:18Z] main pending 15 running 6 done 54 failed 0
+[j004 2026-11-19T08:21:38Z] main pending 14 running 6 done 55 failed 0
+[j004 2026-11-19T08:22:38Z] main pending 13 running 6 done 56 failed 0
+[j004 2026-11-19T08:23:38Z] main pending 13 running 6 done 56 failed 0
+[j004 2026-11-19T08:24:38Z] main pending 13 running 6 done 56 failed 0
+[j004 2026-11-19T08:25:59Z] main pending 12 running 6 done 57 failed 0
+[j004 2026-11-19T08:26:59Z] main pending 11 running 6 done 58 failed 0
+[j004 2026-11-19T08:27:59Z] main pending 11 running 6 done 58 failed 0
+[j004 2026-11-19T08:28:59Z] main pending 10 running 6 done 59 failed 0
+[j004 2026-11-19T08:29:59Z] main pending 10 running 6 done 59 failed 0
+[j004 2026-11-19T08:30:59Z] main pending 10 running 6 done 59 failed 0
+[j004 2026-11-19T08:31:59Z] main pending 10 running 6 done 59 failed 0
+[j004 2026-11-19T08:32:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:33:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:34:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:35:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:36:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:37:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:38:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:39:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:40:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:41:59Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:43:00Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:44:00Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:45:00Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:46:00Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:47:00Z] main pending 9 running 6 done 60 failed 0
+[j004 2026-11-19T08:48:00Z] main pending 8 running 6 done 61 failed 0
+[j004 2026-11-19T08:49:00Z] main pending 7 running 6 done 62 failed 0
+[j004 2026-11-19T08:50:00Z] main pending 7 running 6 done 62 failed 0
+[j004 2026-11-19T08:51:00Z] main pending 7 running 6 done 62 failed 0
+[j004 2026-11-19T08:52:00Z] main pending 7 running 6 done 62 failed 0
+[j004 2026-11-19T08:53:10Z] main pending 5 running 6 done 64 failed 0
+[j004 2026-11-19T08:54:10Z] main pending 5 running 6 done 64 failed 0
+[j004 2026-11-19T08:55:10Z] main pending 5 running 6 done 64 failed 0
+[j004 2026-11-19T08:56:10Z] main pending 4 running 6 done 65 failed 0
+[j004 2026-11-19T08:57:10Z] main pending 4 running 6 done 65 failed 0
+[j004 2026-11-19T08:58:10Z] main pending 4 running 6 done 65 failed 0
+[j004 2026-11-19T08:59:10Z] main pending 4 running 6 done 65 failed 0
+[j004 2026-11-19T09:00:11Z] main pending 4 running 6 done 65 failed 0
+[j004 2026-11-19T09:01:11Z] main pending 4 running 6 done 65 failed 0
+[j004 2026-11-19T09:02:11Z] main pending 4 running 6 done 65 failed 0
+[j004 2026-11-19T09:03:11Z] main pending 4 running 6 done 65 failed 0
+[j004 2026-11-19T09:04:11Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:05:11Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:06:11Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:07:11Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:08:11Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:09:11Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:10:11Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:11:13Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:12:13Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:13:13Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:14:13Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:15:13Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:16:13Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:17:13Z] main pending 3 running 6 done 66 failed 0
+[j004 2026-11-19T09:18:33Z] main pending 2 running 6 done 67 failed 0
+[j004 2026-11-19T09:19:33Z] main pending 1 running 6 done 68 failed 0
+[j004 2026-11-19T09:20:33Z] main pending 1 running 6 done 68 failed 0
+[j004 2026-11-19T09:21:34Z] main pending 1 running 6 done 68 failed 0
+[j004 2026-11-19T09:22:34Z] main pending 1 running 6 done 68 failed 0
+[j004 2026-11-19T09:23:34Z] main pending 0 running 5 done 70 failed 0
+[j004 2026-11-19T09:24:34Z] main pending 0 running 4 done 71 failed 0
+[j004 2026-11-19T09:25:34Z] main pending 0 running 4 done 71 failed 0
+[j004 2026-11-19T09:26:34Z] main pending 0 running 4 done 71 failed 0
+[j004 2026-11-19T09:27:34Z] main pending 0 running 4 done 71 failed 0
+[j004 2026-11-19T09:28:34Z] main pending 0 running 4 done 71 failed 0
+[j004 2026-11-19T09:29:34Z] main pending 0 running 4 done 71 failed 0
+[j004 2026-11-19T09:30:34Z] main pending 0 running 4 done 71 failed 0
+[j004 2026-11-19T09:31:34Z] main pending 0 running 4 done 71 failed 0
+[j004 2026-11-19T09:32:34Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:33:34Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:34:34Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:35:34Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:36:34Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:37:34Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:38:35Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:39:35Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:40:35Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:41:35Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:42:35Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:43:35Z] main pending 0 running 3 done 72 failed 0
+[j004 2026-11-19T09:44:35Z] main pending 0 running 1 done 74 failed 0
+[j004 2026-11-19T09:45:35Z] main pending 0 running 1 done 74 failed 0
+[j004 2026-11-19T09:46:35Z] main pending 0 running 1 done 74 failed 0
+# j004：域条件 BC-混合（DCBC）与质量-域条件 BC-混合（QDCBC）筛查
+
+种子 3001–3005（新种子）；T、BC、BC-混合在同一台机器、同一批种子下重跑。主指标 Last5（最后五个评估点平均，每点 10 回合），分数按 ODRL 参考回报归一化。
+
+## 预设规则（提交前写进 research/PLAN.md）
+
+- metric：Last5 = mean of the last five evaluation points, 10 episodes each (V21 metric)
+- strong_control：per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3001-3005
+- screen_effective：candidate minus strong control, paired by seed: mean > 0 and mean > 1 * paired SE
+- supported：screen-effective on at least 2 of the 3 tasks -> a confirmation job with 5 never-used seeds per task on those tasks
+- rejected：paired mean difference <= 0 on at least 2 of the 3 tasks
+- otherwise：uncertain; not advanced to confirmation
+- descriptive：2 * SE criterion, candidate minus BCMIX and minus BC, DCBC vs QDCBC, episode lengths
+- note：Rules are fixed before results; not changed after results are seen.
+
+## 按规则的结论
+
+- DCBC：**否定**；筛查有效的任务：无；均值差 ≤ 0 的任务：hopper-kinematic-legjnt-medium、walker2d-kinematic-thighjnt-medium、walker2d-kinematic-thighjnt-hard
+- QDCBC：**否定**；筛查有效的任务：无；均值差 ≤ 0 的任务：hopper-kinematic-legjnt-medium、walker2d-kinematic-thighjnt-medium、walker2d-kinematic-thighjnt-hard
+
+## hopper-kinematic-legjnt-medium（强对照：BCMIX，56.38）
+
+|组|Last5均值|SD|最差种子|回合长度|<200步比例|各种子|
+|---|---|---|---|---|---|---|
+|T（只用目标数据的 IQL）|40.39|2.20|38.36|382.4|0.00|40.2 / 40.6 / 44.0 / 38.8 / 38.4|
+|BC（只用目标数据）|39.92|3.21|37.99|374.0|0.00|38.0 / 38.5 / 38.3 / 45.6 / 39.2|
+|BC-混合（目标 + 源数据）|56.38|2.61|52.76|567.3|0.00|52.8 / 57.3 / 59.9 / 55.3 / 56.6|
+|DCBC（候选：域条件 BC-混合）|40.07|3.17|37.83|374.3|0.00|38.0 / 38.4 / 37.8 / 40.8 / 45.3|
+|QDCBC（候选：质量与域条件 BC-混合）|40.52|3.21|38.03|378.7|0.00|38.0 / 46.0 / 40.5 / 38.7 / 39.4|
+
+|候选|相对强对照|配对SE|正号种子|筛查有效（>1SE）|>2SE（描述）|相对BC-混合|相对BC|相对T|
+|---|---|---|---|---|---|---|---|---|
+|DCBC|-16.31|1.87|0|否|否|-16.31（SE 1.87）|0.14（SE 1.74）|-0.32（SE 2.23）|
+|QDCBC|-15.86|1.36|0|否|否|-15.86（SE 1.36）|0.60（SE 2.32）|0.13（SE 1.53）|
+
+描述性：BC-混合 − BC 16.46（SE 2.01，5/5 正）；QDCBC − DCBC 0.45（SE 2.29，3/5 正）。
+
+## walker2d-kinematic-thighjnt-medium（强对照：BC，69.74）
+
+|组|Last5均值|SD|最差种子|回合长度|<200步比例|各种子|
+|---|---|---|---|---|---|---|
+|T（只用目标数据的 IQL）|58.88|6.57|49.97|773.6|0.03|50.0 / 67.4 / 59.3 / 55.7 / 62.1|
+|BC（只用目标数据）|69.74|5.39|63.93|907.8|0.02|68.1 / 63.9 / 66.0 / 76.3 / 74.4|
+|BC-混合（目标 + 源数据）|64.57|9.00|49.42|842.1|0.03|68.8 / 72.5 / 49.4 / 63.9 / 68.2|
+|DCBC（候选：域条件 BC-混合）|68.70|5.05|61.15|881.0|0.02|67.4 / 61.2 / 74.1 / 68.4 / 72.4|
+|QDCBC（候选：质量与域条件 BC-混合）|69.60|3.72|64.30|896.9|0.01|68.8 / 73.3 / 64.3 / 73.1 / 68.5|
+
+|候选|相对强对照|配对SE|正号种子|筛查有效（>1SE）|>2SE（描述）|相对BC-混合|相对BC|相对T|
+|---|---|---|---|---|---|---|---|---|
+|DCBC|-1.03|2.61|1|否|否|4.13（SE 5.89）|-1.03（SE 2.61）|9.82（SE 4.18）|
+|QDCBC|-0.14|2.60|2|否|否|5.02（SE 3.00）|-0.14（SE 2.60）|10.71（SE 3.05）|
+
+描述性：BC-混合 − BC -5.16（SE 4.51，2/5 正）；QDCBC − DCBC 0.90（SE 3.73，3/5 正）。
+
+## walker2d-kinematic-thighjnt-hard（强对照：BCMIX，70.70）
+
+|组|Last5均值|SD|最差种子|回合长度|<200步比例|各种子|
+|---|---|---|---|---|---|---|
+|T（只用目标数据的 IQL）|58.84|6.85|48.15|744.5|0.27|48.2 / 61.0 / 57.2 / 66.6 / 61.1|
+|BC（只用目标数据）|52.29|9.24|41.15|672.8|0.29|48.7 / 52.3 / 41.2 / 52.7 / 66.6|
+|BC-混合（目标 + 源数据）|70.70|2.59|66.74|853.0|0.00|70.9 / 72.7 / 66.7 / 69.9 / 73.2|
+|DCBC（候选：域条件 BC-混合）|62.63|9.87|48.56|794.3|0.21|59.6 / 60.9 / 48.6 / 70.9 / 73.2|
+|QDCBC（候选：质量与域条件 BC-混合）|64.02|10.36|49.68|804.7|0.20|49.7 / 56.9 / 73.8 / 72.1 / 67.6|
+
+|候选|相对强对照|配对SE|正号种子|筛查有效（>1SE）|>2SE（描述）|相对BC-混合|相对BC|相对T|
+|---|---|---|---|---|---|---|---|---|
+|DCBC|-8.07|3.70|1|否|否|-8.07（SE 3.70）|10.34（SE 2.09）|3.79（SE 3.85）|
+|QDCBC|-6.68|5.31|2|否|否|-6.68（SE 5.31）|11.73（SE 6.23）|5.18（SE 3.39）|
+
+描述性：BC-混合 − BC 18.41（SE 3.25，5/5 正）；QDCBC − DCBC 1.39（SE 6.21，2/5 正）。
+
+## 运行情况
+
+总耗时 9.6 小时。冒烟运行的回报不读取、不报告。所有种子都保留。
+
