@@ -31,3 +31,9 @@
 - j000：假设“GPU 链路与依赖可用” → CUDA/A6000 正常，mujoco_py 导入失败（未设置 MuJoCo 路径，同 j001）→ 按字面规则未完全通过（GPU 部分通过）；MuJoCo 问题已由 j003 的环境设置解决，j004 沿用该设置，不单独重跑（analysis/j000_smoke.md）。
 - 研究进度记录：本轮只有连通性检查结果，未更新。
 - 下一步：不提交新实验，等 j004 结果——下一个候选方向取决于域条件化是否有效；同时检查 j004 的冒烟阶段是否在 GPU 任务环境里跑通 MuJoCo。
+
+## 2026-11-19 11:35 UTC（主研究对话，应用户要求提前分析并继续循环）
+- relay 在 08:11 至 19:11（北京时间）间多次连不上 GitHub（curl 28/56），j004 结果延迟回传；用户让 Codex 诊断后手动运行一次 relay，结果已回传（e8284bd）。
+- j004_domain_cond_bc_screen：假设“区分源/目标域（及轨迹质量）的 BC-混合能保住收益、消除 walker medium 上的损害” → DCBC、QDCBC 在 3 个任务上均值都低于或等于强对照（hopper −16.3/−15.9，walker medium −1.0/−0.1，walker hard −8.1/−6.7）→ 两个候选都**否定**（analysis/j004_domain_cond_bc_screen.md）。研究实验无筛查有效计数：1。
+- 关键观察：评估时取 d=1 后，hopper 上分数退回 BC 水平，说明 BC-混合的收益来自在目标环境里执行源行为；BC-混合相对 BC 的效果第三次复现（hopper +16.5，walker hard +18.4，walker medium −5.2）。
+- 下一步：登记并提交 j005（覆盖门控 BC-混合，CG50/CG90），按 CONTEXT 第 6 节拆成 3 个单卡子任务 j005a/b/c，种子 3101–3105。
