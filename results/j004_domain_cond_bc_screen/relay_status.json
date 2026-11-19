@@ -1,0 +1,18 @@
+{
+  "job_id": "j004_domain_cond_bc_screen",
+  "attempts": 1,
+  "history": [
+    {
+      "time": "2026-11-19T08:11:40+08:00",
+      "state": "running",
+      "note": "第 1 次运行，GPU=3，上限 22 小时"
+    }
+  ],
+  "state": "running",
+  "note": "第 1 次运行，GPU=3，上限 22 小时",
+  "gpus": "3",
+  "started_at": "2026-11-19T08:11:40+08:00",
+  "max_hours": 22.0,
+  "remote_dir": "~/auto_jobs/j004_domain_cond_bc_screen",
+  "updated_at": "2026-11-19T08:11:40+08:00"
+}
