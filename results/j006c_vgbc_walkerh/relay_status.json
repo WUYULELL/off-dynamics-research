@@ -1,0 +1,14 @@
+{
+  "job_id": "j006c_vgbc_walkerh",
+  "attempts": 0,
+  "history": [
+    {
+      "time": "2026-11-20T04:11:30+08:00",
+      "state": "waiting_gpu",
+      "note": "没有满足条件的 GPU（利用率<60%、显存<75%）"
+    }
+  ],
+  "state": "waiting_gpu",
+  "note": "没有满足条件的 GPU（利用率<60%、显存<75%）",
+  "updated_at": "2026-11-20T04:11:30+08:00"
+}
