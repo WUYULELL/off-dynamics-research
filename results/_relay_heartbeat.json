@@ -1,10 +1,6 @@
 {
-  "time": "2026-11-19T19:53:52+08:00",
-  "time_epoch": 1795089232,
-  "running": [
-    "j005a_cgbc_hopper",
-    "j005b_cgbc_walkerm",
-    "j005c_cgbc_walkerh"
-  ],
+  "time": "2026-11-20T03:11:30+08:00",
+  "time_epoch": 1795115490,
+  "running": [],
   "pending": []
 }

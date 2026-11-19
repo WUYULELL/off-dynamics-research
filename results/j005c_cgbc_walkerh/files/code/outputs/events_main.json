@@ -1,0 +1,402 @@
+[
+  {
+    "time": "2026-11-19T11:56:24Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T11:56:44Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T11:57:04Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T11:57:24Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T11:57:44Z",
+    "event": "start",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T11:58:04Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T12:22:45Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T12:22:45Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T12:56:37Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T12:56:37Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T13:33:39Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T13:33:39Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T14:11:42Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T14:11:42Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T14:31:53Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T14:31:53Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T14:33:03Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T14:33:03Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T14:33:33Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T14:33:33Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T14:35:33Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T14:35:33Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T14:36:03Z",
+    "event": "exit",
+    "job": "T_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T14:36:03Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T14:47:54Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T14:47:54Z",
+    "event": "start",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T15:17:05Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T15:17:05Z",
+    "event": "start",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T15:17:55Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T15:17:55Z",
+    "event": "start",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T15:19:26Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T15:19:26Z",
+    "event": "start",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T15:20:46Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T15:20:46Z",
+    "event": "start",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T15:21:36Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T15:21:36Z",
+    "event": "start",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T15:31:46Z",
+    "event": "exit",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T15:31:46Z",
+    "event": "start",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T16:02:08Z",
+    "event": "exit",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T16:02:08Z",
+    "event": "start",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T16:02:58Z",
+    "event": "exit",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T16:02:58Z",
+    "event": "start",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T16:03:48Z",
+    "event": "exit",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T16:03:48Z",
+    "event": "start",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T16:05:38Z",
+    "event": "exit",
+    "job": "CG50_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T16:06:48Z",
+    "event": "exit",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3101",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T16:16:19Z",
+    "event": "exit",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3102",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T16:40:00Z",
+    "event": "exit",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3103",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T16:40:51Z",
+    "event": "exit",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3104",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T16:41:01Z",
+    "event": "exit",
+    "job": "CG90_walker2d-kinematic-thighjnt-hard_s3105",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

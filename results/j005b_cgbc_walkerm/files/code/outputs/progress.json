@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-19T18:58:37Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 24,
+  "failed": 0,
+  "progress": {
+    "CG90_walker2d-kinematic-thighjnt-medium_s3105": "200000/200000"
+  }
+}

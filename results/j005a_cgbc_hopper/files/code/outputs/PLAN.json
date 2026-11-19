@@ -1,0 +1,177 @@
+[
+  {
+    "id": "T_hopper-kinematic-legjnt-medium_s3101",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "T",
+    "seed": 3101,
+    "steps": 500000
+  },
+  {
+    "id": "T_hopper-kinematic-legjnt-medium_s3102",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "T",
+    "seed": 3102,
+    "steps": 500000
+  },
+  {
+    "id": "T_hopper-kinematic-legjnt-medium_s3103",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "T",
+    "seed": 3103,
+    "steps": 500000
+  },
+  {
+    "id": "T_hopper-kinematic-legjnt-medium_s3104",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "T",
+    "seed": 3104,
+    "steps": 500000
+  },
+  {
+    "id": "T_hopper-kinematic-legjnt-medium_s3105",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "T",
+    "seed": 3105,
+    "steps": 500000
+  },
+  {
+    "id": "BC_hopper-kinematic-legjnt-medium_s3101",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BC",
+    "seed": 3101,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-legjnt-medium_s3102",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BC",
+    "seed": 3102,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-legjnt-medium_s3103",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BC",
+    "seed": 3103,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-legjnt-medium_s3104",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BC",
+    "seed": 3104,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-legjnt-medium_s3105",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BC",
+    "seed": 3105,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-legjnt-medium_s3101",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BCMIX",
+    "seed": 3101,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-legjnt-medium_s3102",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BCMIX",
+    "seed": 3102,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-legjnt-medium_s3103",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BCMIX",
+    "seed": 3103,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-legjnt-medium_s3104",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BCMIX",
+    "seed": 3104,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-legjnt-medium_s3105",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "BCMIX",
+    "seed": 3105,
+    "steps": 200000
+  },
+  {
+    "id": "CG50_hopper-kinematic-legjnt-medium_s3101",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG50",
+    "seed": 3101,
+    "steps": 200000
+  },
+  {
+    "id": "CG50_hopper-kinematic-legjnt-medium_s3102",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG50",
+    "seed": 3102,
+    "steps": 200000
+  },
+  {
+    "id": "CG50_hopper-kinematic-legjnt-medium_s3103",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG50",
+    "seed": 3103,
+    "steps": 200000
+  },
+  {
+    "id": "CG50_hopper-kinematic-legjnt-medium_s3104",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG50",
+    "seed": 3104,
+    "steps": 200000
+  },
+  {
+    "id": "CG50_hopper-kinematic-legjnt-medium_s3105",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG50",
+    "seed": 3105,
+    "steps": 200000
+  },
+  {
+    "id": "CG90_hopper-kinematic-legjnt-medium_s3101",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG90",
+    "seed": 3101,
+    "steps": 200000
+  },
+  {
+    "id": "CG90_hopper-kinematic-legjnt-medium_s3102",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG90",
+    "seed": 3102,
+    "steps": 200000
+  },
+  {
+    "id": "CG90_hopper-kinematic-legjnt-medium_s3103",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG90",
+    "seed": 3103,
+    "steps": 200000
+  },
+  {
+    "id": "CG90_hopper-kinematic-legjnt-medium_s3104",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG90",
+    "seed": 3104,
+    "steps": 200000
+  },
+  {
+    "id": "CG90_hopper-kinematic-legjnt-medium_s3105",
+    "task": "hopper-kinematic-legjnt-medium",
+    "group": "CG90",
+    "seed": 3105,
+    "steps": 200000
+  }
+]
