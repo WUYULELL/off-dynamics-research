@@ -1,0 +1,66 @@
+{
+  "job": "j005a_cgbc_hopper",
+  "purpose": "Sub-job of j005 (coverage-gated BC-mixing screen) on hopper-kinematic-legjnt-medium. Registered in research/PLAN.md (auto-loop) before submission.",
+  "tasks": [
+    {
+      "id": "hopper-kinematic-legjnt-medium",
+      "robot": "hopper",
+      "target_file": "hopper_kinematic_legjnt_medium_medium.hdf5",
+      "target_sha256": "82f4414e6acb88523ed809b60b56838b6b68da603d75ee72eb79362515cf00d0",
+      "xml": "hopper_kinematic_legjnt_medium.xml",
+      "xml_sha256": "11e5861cd1fcd4142418978911b95240001f142282f3cacdacfe99bf3a1209a8",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    }
+  ],
+  "groups": [
+    "T",
+    "BC",
+    "BCMIX",
+    "CG50",
+    "CG90"
+  ],
+  "controls": [
+    "T",
+    "BC",
+    "BCMIX"
+  ],
+  "candidates": [
+    "CG50",
+    "CG90"
+  ],
+  "seeds": [
+    3101,
+    3102,
+    3103,
+    3104,
+    3105
+  ],
+  "steps": {
+    "IQL": 500000,
+    "BC": 200000
+  },
+  "eval_every": {
+    "IQL": 10000,
+    "BC": 5000
+  },
+  "target_rows": 5000,
+  "smoke": {
+    "seed": 2999,
+    "task": "hopper-kinematic-legjnt-medium",
+    "steps": 1000
+  },
+  "max_per_gpu": 6,
+  "launch_gap_seconds": 20,
+  "external_retry_max": 3,
+  "rule": {
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004 metric)",
+    "strong_control": "per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3101-3105",
+    "screen_effective": "candidate minus strong control, paired by seed: mean > 0 and mean > 1 * paired SE",
+    "supported": "screen-effective on at least 2 of the 3 tasks (j005a/b/c combined) -> a confirmation job with 5 never-used seeds per task on those tasks",
+    "rejected": "paired mean difference <= 0 on at least 2 of the 3 tasks",
+    "otherwise": "uncertain; not advanced to confirmation",
+    "descriptive": "2 * SE criterion, candidate minus BCMIX and minus BC, CG90 vs CG50, kept source fraction, episode lengths",
+    "note": "Rules are fixed before results; not changed after results are seen. The verdict is made only after all three sub-jobs finish; if any sub-job fails, no verdict."
+  }
+}
