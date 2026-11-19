@@ -1,0 +1,15 @@
+{
+  "job_id": "j006a_vgbc_hopper",
+  "description": "j006 子任务：在 hopper 腿关节 medium（hopper-kinematic-legjnt-medium）上筛查价值函数引导的 BC-混合（AWM：用只在目标数据上训练的 IQL 价值函数的优势对 128 行联合加权；AFM：只模仿优势>0 的源动作），与同机同种子重跑的 T、BC、BC-混合比较。种子 3106–3110（新种子），25 项训练（另 5 项冒烟）。",
+  "hypothesis": "见 research/PLAN.md 的 j006 登记：候选相对强对照（T、BC、BC-混合中均值最高者）的同种子配对差均值 > 0 且 > 1 倍配对标准误即该任务筛查有效；三个子任务合并后，≥2 个任务有效为支持并进入新种子确认；≥2 个任务均值差 ≤ 0 为否定。",
+  "gpus": 1,
+  "max_hours": 20,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j005a_cgbc_hopper"
+}

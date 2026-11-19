@@ -1,0 +1,83 @@
+{
+  "job": "j006c_vgbc_walkerh",
+  "purpose": "Sub-job of j006 (value-guided BC-mixing screen: AWM, AFM) on walker2d-kinematic-thighjnt-hard. Registered in research/PLAN.md (auto-loop) before submission.",
+  "tasks": [
+    {
+      "id": "walker2d-kinematic-thighjnt-hard",
+      "robot": "walker2d",
+      "target_file": "walker2d_kinematic_thighjnt_hard_medium.hdf5",
+      "target_sha256": "16b792230e8018a1028ba636d79a47797448e41aa6c60af5159acef5cebe0c58",
+      "xml": "walker2d_kinematic_thighjnt_hard.xml",
+      "xml_sha256": "cabadec6f494e02ae4d9ff3bc37d4f81401f8cb87a8d54a8fdca177f91724458",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    }
+  ],
+  "groups": [
+    "T",
+    "BC",
+    "BCMIX",
+    "AWM",
+    "AFM"
+  ],
+  "controls": [
+    "T",
+    "BC",
+    "BCMIX"
+  ],
+  "candidates": [
+    "AWM",
+    "AFM"
+  ],
+  "seeds": [
+    3106,
+    3107,
+    3108,
+    3109,
+    3110
+  ],
+  "steps": {
+    "IQL": 500000,
+    "BC": 200000
+  },
+  "eval_every": {
+    "IQL": 10000,
+    "BC": 5000
+  },
+  "target_rows": 5000,
+  "smoke": {
+    "seed": 2999,
+    "task": "walker2d-kinematic-thighjnt-hard",
+    "steps": 1000,
+    "critic_warmup": 500
+  },
+  "max_per_gpu": 6,
+  "launch_gap_seconds": 20,
+  "external_retry_max": 3,
+  "rule": {
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004/j005 metric)",
+    "strong_control": "per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3106-3110",
+    "screen_effective": "candidate minus strong control, paired by seed: mean > 0 and mean > 1 * paired SE",
+    "supported": "screen-effective on at least 2 of the 3 tasks (j006a/b/c combined) -> a confirmation job with 5 never-used seeds per task on those tasks",
+    "rejected": "paired mean difference <= 0 on at least 2 of the 3 tasks",
+    "otherwise": "uncertain; not advanced to confirmation",
+    "descriptive": "2 * SE criterion, candidate minus BCMIX / BC / T, AFM vs AWM, guidance statistics (source weight share, kept fraction, advantages), episode lengths",
+    "note": "Rules are fixed before results; not changed after results are seen. The verdict is made only after all three sub-jobs finish; if any sub-job fails, no verdict."
+  },
+  "launch_order": [
+    "T",
+    "AWM",
+    "AFM",
+    "BC",
+    "BCMIX"
+  ],
+  "critic_warmup": 100000,
+  "candidate_settings": {
+    "critic": "IQL on target rows only, identical updates to group T (expectile 0.7, gamma 0.99, Polyak 0.005, lr 3e-4, batch 64)",
+    "actor": "fresh iql_unc.Policy, Adam 3e-4, cosine over 200000 steps, 64 target + 64 source rows (as BCMIX)",
+    "advantage": "A = min target-Q(s,a) - V(s), no gradient",
+    "AWM": "u = min(exp(3*A),100); w = u/mean(u) over the 128 rows; loss = 2*mean(w*mse)",
+    "AFM": "target rows weight 1; source rows weight 1 if A>0 else 0; loss = mean_target(mse) + sum_source(keep*mse)/64",
+    "schedule": "100000 critic-only warm-up steps, then 200000 steps each with one critic step and one actor step; evaluation every 5000 actor steps"
+  }
+}

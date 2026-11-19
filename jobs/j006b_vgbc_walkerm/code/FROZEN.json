@@ -1,0 +1,10 @@
+{
+  "job": "j006b_vgbc_walkerm",
+  "files": {
+    "assets/walker2d_kinematic_thighjnt_medium.xml": "bf4797354c7adc42c86572e1365b08ae6c7e22d2e75c4f4122964e196036b699",
+    "config.json": "21da107987a8171487acfc47705fe4df7a9e2cc0b2c5eda336b078ed385f5d43",
+    "controller.py": "e99e89c415c1e516ef677f552b07dea65654873b0794628677e6687a6496d71b",
+    "run.sh": "6a5136ebd1929034f5bb696ba4040a03095b6becf5ecc9b21add67510dc3c90d",
+    "worker.py": "246d5c0622db25816bebb62a932d4a4161479a21fbd50e1104b58739596f87a2"
+  }
+}
