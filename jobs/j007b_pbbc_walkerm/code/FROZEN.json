@@ -1,0 +1,10 @@
+{
+  "job": "j007b_pbbc_walkerm",
+  "files": {
+    "assets/walker2d_kinematic_thighjnt_medium.xml": "bf4797354c7adc42c86572e1365b08ae6c7e22d2e75c4f4122964e196036b699",
+    "config.json": "fbd4104c93a233ab385912a29df096f8cdbf3fc0c38c7beaac5a1a0bb727e816",
+    "controller.py": "29d5b8dcdd436b64479ee64813a37770e3341962ae3efeca8ded3eb728ffbc09",
+    "run.sh": "b9eb46e0e2b23e69a03b3f44f5f0f98d1591ecb0ea08328e2cccac5a04de7ec4",
+    "worker.py": "0ac9c9598d822764b376fc8294040d456685de5901362ca23fd5c960f08ed897"
+  }
+}
