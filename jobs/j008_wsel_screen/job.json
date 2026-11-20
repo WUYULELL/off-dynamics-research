@@ -1,0 +1,15 @@
+{
+  "job_id": "j008_wsel_screen",
+  "description": "j008（用户 2026-11-20 选的方向一）：任务层面选择源数据权重。三个关节限位任务上训练源权重 w ∈ {0, 0.25, 0.5, 1} 的 BC-混合（w=0 即 BC，w=1 即 BC-混合），再用源预训练 + 目标微调的动力学模型集成从重置起点模拟四个策略、按模拟回报为每个（任务、种子）选 w（SEL）。候选 SEL、W25、W50 与强对照（BC、BC-混合中较高者）比较。种子 3116–3120（新种子），单卡，60 项策略训练 + 10 个源模型 + 15 次选择（另有冒烟）。",
+  "hypothesis": "见 research/PLAN.md 的 j008 登记：候选相对强对照的同种子配对差均值 > 0 且 > 1 倍配对标准误即该任务筛查有效；≥2 个任务有效为支持并进入新种子确认；≥2 个任务均值差 ≤ 0 为否定。次要（不计入循环判定）：SEL 在三个任务上都不低于强对照 1 个配对 SE 以上为“稳健”。",
+  "gpus": 1,
+  "max_hours": 20,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "user_choice_20261120_option1"
+}
