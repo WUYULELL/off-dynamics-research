@@ -1,14 +1,23 @@
 {
   "job_id": "j006b_vgbc_walkerm",
-  "attempts": 0,
+  "attempts": 1,
   "history": [
     {
       "time": "2026-11-20T04:11:26+08:00",
       "state": "waiting_gpu",
       "note": "没有满足条件的 GPU（利用率<60%、显存<75%）"
+    },
+    {
+      "time": "2026-11-20T09:11:37+08:00",
+      "state": "running",
+      "note": "第 1 次运行，GPU=2，上限 20 小时"
     }
   ],
-  "state": "waiting_gpu",
-  "note": "没有满足条件的 GPU（利用率<60%、显存<75%）",
-  "updated_at": "2026-11-20T04:11:26+08:00"
+  "state": "running",
+  "note": "第 1 次运行，GPU=2，上限 20 小时",
+  "updated_at": "2026-11-20T09:11:37+08:00",
+  "gpus": "2",
+  "started_at": "2026-11-20T09:11:37+08:00",
+  "max_hours": 20.0,
+  "remote_dir": "~/auto_jobs/j006b_vgbc_walkerm"
 }

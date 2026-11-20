@@ -1,11 +1,11 @@
 {
-  "time": "2026-11-20T05:11:40+08:00",
-  "time_epoch": 1795122700,
+  "time": "2026-11-20T09:11:41+08:00",
+  "time_epoch": 1795137101,
   "running": [
-    "j006a_vgbc_hopper"
+    "j006a_vgbc_hopper",
+    "j006b_vgbc_walkerm"
   ],
   "pending": [
-    "j006b_vgbc_walkerm",
     "j006c_vgbc_walkerh"
   ]
 }
