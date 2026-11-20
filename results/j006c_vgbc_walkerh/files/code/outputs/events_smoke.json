@@ -1,0 +1,82 @@
+[
+  {
+    "time": "2026-11-20T05:11:54Z",
+    "event": "start",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T05:12:14Z",
+    "event": "start",
+    "job": "smoke_AWM_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T05:12:34Z",
+    "event": "start",
+    "job": "smoke_AFM_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T05:12:54Z",
+    "event": "start",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T05:13:14Z",
+    "event": "start",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T05:13:44Z",
+    "event": "exit",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T05:13:44Z",
+    "event": "exit",
+    "job": "smoke_AWM_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T05:13:44Z",
+    "event": "exit",
+    "job": "smoke_AFM_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T05:13:44Z",
+    "event": "exit",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T05:13:44Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

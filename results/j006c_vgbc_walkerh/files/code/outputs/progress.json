@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-20T09:47:43Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 24,
+  "failed": 0,
+  "progress": {
+    "BCMIX_walker2d-kinematic-thighjnt-hard_s3110": "199000/200000"
+  }
+}

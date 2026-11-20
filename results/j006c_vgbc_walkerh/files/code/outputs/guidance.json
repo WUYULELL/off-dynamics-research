@@ -1,0 +1,38 @@
+{
+  "AWM": {
+    "all_steps": {
+      "adv_target_mean": -0.22870499153852464,
+      "adv_source_mean": -0.714248827521205,
+      "source_adv_positive": 0.46619515624999996,
+      "target_adv_positive": 0.37957015625000007,
+      "source_weight_share": 0.9242208469983935,
+      "weight_max": 4.715568764096498,
+      "clipped_fraction": 0.21171156250000003
+    },
+    "last_20pct": {
+      "adv_target_mean": -0.2191024045109749,
+      "adv_source_mean": -2.742114560246468,
+      "source_adv_positive": 0.4165515625,
+      "target_adv_positive": 0.3803859375,
+      "source_weight_share": 0.9185176197171211,
+      "weight_max": 5.363961219704151,
+      "clipped_fraction": 0.190426171875
+    }
+  },
+  "AFM": {
+    "all_steps": {
+      "adv_target_mean": -0.22870499153852464,
+      "adv_source_mean": -0.714248827521205,
+      "source_adv_positive": 0.46619515624999996,
+      "target_adv_positive": 0.37957015625000007,
+      "source_kept_fraction": 0.46619515624999996
+    },
+    "last_20pct": {
+      "adv_target_mean": -0.2191024045109749,
+      "adv_source_mean": -2.742114560246468,
+      "source_adv_positive": 0.4165515625,
+      "target_adv_positive": 0.3803859375,
+      "source_kept_fraction": 0.4165515625
+    }
+  }
+}
