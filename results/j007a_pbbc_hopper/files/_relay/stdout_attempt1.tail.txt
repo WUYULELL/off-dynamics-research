@@ -1,0 +1,293 @@
+[auto_runner] start 2026-11-21T00:12:54+08:00 host=ecs-instance-525d908e attempt=1 CUDA_VISIBLE_DEVICES=1 maxsec=43200
+[auto_runner] python=/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/bin/python
+[j007a_pbbc_hopper] CUDA_VISIBLE_DEVICES=1 host=ecs-instance-525d908e
+[j007a_pbbc_hopper 2026-11-20T16:12:55Z] GPUs ['1']
+[j007a_pbbc_hopper 2026-11-20T16:14:46Z] smoke pending 0 running 5 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:15:36Z] smoke passed 5
+[j007a_pbbc_hopper 2026-11-20T16:17:36Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:18:36Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:19:36Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:20:36Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:21:36Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:22:36Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:23:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:24:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:25:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:26:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:27:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:28:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:29:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:30:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:31:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:32:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:33:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:34:37Z] main pending 19 running 6 done 0 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:35:37Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:36:37Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:37:37Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:38:37Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:39:37Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:40:37Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:41:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:42:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:43:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:44:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:45:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:46:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:47:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:48:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:49:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:50:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:51:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:52:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:53:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:54:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:55:38Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:56:39Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:57:39Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:58:39Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T16:59:39Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:00:39Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:01:39Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:02:39Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:03:39Z] main pending 18 running 6 done 1 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:04:59Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:05:59Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:06:59Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:07:59Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:08:59Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:10:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:11:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:12:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:13:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:14:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:15:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:16:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:17:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:18:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:19:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:20:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:21:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:22:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:23:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:24:00Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:25:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:26:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:27:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:28:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:29:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:30:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:31:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:32:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:33:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:34:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:35:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:36:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:37:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:38:01Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:39:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:40:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:41:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:42:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:43:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:44:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:45:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:46:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:47:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:48:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:49:02Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:50:03Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:51:03Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:52:03Z] main pending 17 running 6 done 2 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:53:03Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:54:03Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:55:03Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:56:03Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:57:03Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:58:03Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T17:59:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:00:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:01:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:02:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:03:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:04:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:05:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:06:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:07:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:08:04Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:09:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:10:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:11:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:12:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:13:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:14:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:15:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:16:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:17:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:18:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:19:05Z] main pending 16 running 6 done 3 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:20:05Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:21:05Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:22:05Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:23:05Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:24:05Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:25:05Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:26:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:27:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:28:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:29:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:30:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:31:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:32:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:33:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:34:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:35:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:36:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:37:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:38:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:39:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:40:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:41:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:42:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:43:06Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:44:07Z] main pending 15 running 6 done 4 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:45:07Z] main pending 14 running 6 done 5 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:46:07Z] main pending 13 running 6 done 6 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:47:07Z] main pending 13 running 6 done 6 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:48:07Z] main pending 12 running 6 done 7 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:49:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:50:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:51:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:52:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:53:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:54:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:55:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:56:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:57:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:58:57Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T18:59:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:00:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:01:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:02:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:03:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:04:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:05:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:06:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:07:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:08:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:09:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:10:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:11:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:12:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:13:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:14:58Z] main pending 9 running 6 done 10 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:15:58Z] main pending 8 running 6 done 11 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:16:59Z] main pending 7 running 6 done 12 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:18:19Z] main pending 6 running 6 done 13 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:19:29Z] main pending 5 running 6 done 14 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:20:29Z] main pending 4 running 6 done 15 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:21:29Z] main pending 4 running 6 done 15 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:22:29Z] main pending 4 running 6 done 15 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:23:29Z] main pending 4 running 6 done 15 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:24:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:25:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:26:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:27:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:28:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:29:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:30:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:31:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:32:49Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:33:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:34:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:35:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:36:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:37:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:38:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:39:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:40:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:41:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:42:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:43:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:44:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:45:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:46:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:47:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:48:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:49:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:50:50Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:51:51Z] main pending 3 running 6 done 16 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:52:51Z] main pending 2 running 6 done 17 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:53:51Z] main pending 1 running 6 done 18 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:54:51Z] main pending 0 running 6 done 19 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:55:51Z] main pending 0 running 5 done 20 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:56:51Z] main pending 0 running 4 done 21 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:57:51Z] main pending 0 running 4 done 21 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:58:51Z] main pending 0 running 4 done 21 failed 0
+[j007a_pbbc_hopper 2026-11-20T19:59:51Z] main pending 0 running 4 done 21 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:00:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:01:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:02:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:03:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:04:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:05:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:06:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:07:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:08:51Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:09:52Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:10:52Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:11:52Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:12:52Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:13:52Z] main pending 0 running 3 done 22 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:14:52Z] main pending 0 running 2 done 23 failed 0
+[j007a_pbbc_hopper 2026-11-20T20:15:52Z] main pending 0 running 1 done 24 failed 0
+# j007a_pbbc_hopper：近邻加采样 BC-混合（PB25、PB50）筛查（单任务子任务）
+
+种子 [3111, 3112, 3113, 3114, 3115]（新种子）；T、BC、BC-混合在同一台机器、同一批种子下重跑。主指标 Last5（最后五个评估点平均，每点 10 回合），分数按 ODRL 参考回报归一化。
+
+本任务是 j007 的一个子任务（j007a/b/c 各一个任务）。支持/否定的判定需要三个子任务的结果，在 analysis/ 中合并后按 research/PLAN.md 的登记规则做出；这里只给出本任务上每个候选是否“筛查有效”。
+
+## 预设规则（提交前写进 research/PLAN.md）
+
+- metric：Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004/j005/j006 metric)
+- strong_control：per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3111-3115
+- screen_effective：candidate minus strong control, paired by seed: mean > 0 and mean > 1 * paired SE
+- supported：screen-effective on at least 2 of the 3 tasks (j007a/b/c combined) -> a confirmation job with 5 never-used seeds per task on those tasks
+- rejected：paired mean difference <= 0 on at least 2 of the 3 tasks
+- otherwise：uncertain; not advanced to confirmation
+- descriptive：2 * SE criterion, candidate minus BCMIX / BC / T, PB50 vs PB25, near-set size, near-row BC loss, episode lengths
+- note：Rules are fixed before results; not changed after results are seen. The verdict is made only after all three sub-jobs finish; if any sub-job fails, no verdict.
+
+## 本任务上的筛查结果
+
+- PB25：筛查有效 是；均值差 ≤ 0：否
+- PB50：筛查有效 否；均值差 ≤ 0：是
+
+## 近邻集的统计（描述性，各种子相同）
+
+- PB25：阈值 tau=0.539；近邻集 14666 / 999999 行（1.47%），每批 16/64 个源行来自近邻集；目标留一轨迹最近距离分位数 {"0.1": 0.03674176978256924, "0.5": 0.16663886406286188, "0.9": 0.5386192867070883, "0.99": 1.4027663315052643}；源数据到目标最近距离分位数 {"0.01": 0.46732948902407384, "0.1": 1.4727535978636592, "0.5": 2.740342881800882, "0.9": 6.81167857583935}
+- PB50：阈值 tau=0.539；近邻集 14666 / 999999 行（1.47%），每批 32/64 个源行来自近邻集；目标留一轨迹最近距离分位数 {"0.1": 0.03674176978256924, "0.5": 0.16663886406286188, "0.9": 0.5386192867070883, "0.99": 1.4027663315052643}；源数据到目标最近距离分位数 {"0.01": 0.46732948902407384, "0.1": 1.4727535978636592, "0.5": 2.740342881800882, "0.9": 6.81167857583935}
+
+## hopper-kinematic-legjnt-medium（强对照：BCMIX，53.12）
+
+|组|Last5均值|SD|最差种子|回合长度|<200步比例|各种子|
+|---|---|---|---|---|---|---|
+|T（只用目标数据的 IQL）|42.41|3.47|38.79|401.6|0.00|46.6 / 41.0 / 40.1 / 45.6 / 38.8|
+|BC（只用目标数据）|40.95|1.66|39.26|383.7|0.00|41.4 / 39.3 / 40.6 / 43.5 / 39.9|
+|BC-混合（目标 + 源数据）|53.12|2.30|50.12|538.3|0.00|55.8 / 53.2 / 51.7 / 50.1 / 54.9|
+|PB25（候选：近邻加采样 BC-混合，源批中 16/64 来自近邻集）|54.27|1.13|53.12|546.1|0.00|55.2 / 55.7 / 53.1 / 54.0 / 53.4|
+|PB50（候选：近邻加采样 BC-混合，源批中 32/64 来自近邻集）|53.03|1.68|50.47|533.9|0.00|53.6 / 52.7 / 55.1 / 53.3 / 50.5|
+
+|候选|相对强对照|配对SE|正号种子|筛查有效（>1SE）|>2SE（描述）|相对BC-混合|相对BC|相对T|
+|---|---|---|---|---|---|---|---|---|
+|PB25|1.16|0.98|3|是|否|1.16（SE 0.98）|13.32（SE 0.97）|11.86（SE 1.41）|
+|PB50|-0.09|1.52|2|否|否|-0.09（SE 1.52）|12.08（SE 0.88）|10.61（SE 1.47）|
+
+描述性：BC-混合 − BC 12.17（SE 1.55，5/5 正）；PB50 − PB25 -1.25（SE 0.91，1/5 正）。
+
+## 运行情况
+
+总耗时 4.1 小时。冒烟运行的回报不读取、不报告。所有种子都保留。
+
+[j007a_pbbc_hopper] exit code 0
+[auto_runner] end 2026-11-21T04:16:52+08:00 rc=0

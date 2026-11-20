@@ -1,0 +1,299 @@
+[auto_runner] start 2026-11-21T00:13:08+08:00 host=ecs-instance-525d908e attempt=1 CUDA_VISIBLE_DEVICES=0 maxsec=43200
+[auto_runner] python=/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/bin/python
+[j007b_pbbc_walkerm] CUDA_VISIBLE_DEVICES=0 host=ecs-instance-525d908e
+[j007b_pbbc_walkerm 2026-11-20T16:13:08Z] GPUs ['0']
+[j007b_pbbc_walkerm 2026-11-20T16:14:49Z] smoke pending 0 running 5 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:15:40Z] smoke passed 5
+[j007b_pbbc_walkerm 2026-11-20T16:17:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:18:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:19:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:20:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:21:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:22:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:23:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:24:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:25:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:26:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:27:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:28:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:29:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:30:40Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:31:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:32:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:33:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:34:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:35:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:36:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:37:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:38:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:39:41Z] main pending 19 running 6 done 0 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:40:41Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:41:41Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:42:41Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:43:41Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:44:41Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:45:41Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:46:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:47:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:48:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:49:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:50:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:51:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:52:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:53:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:54:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:55:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:56:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:57:42Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:58:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T16:59:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:00:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:01:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:02:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:03:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:04:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:05:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:06:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:07:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:08:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:09:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:10:43Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:11:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:12:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:13:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:14:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:15:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:16:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:17:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:18:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:19:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:20:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:21:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:22:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:23:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:24:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:25:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:26:44Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:27:45Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:28:45Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:29:45Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:30:45Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:31:45Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:32:45Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:33:45Z] main pending 18 running 6 done 1 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:34:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:35:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:36:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:37:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:38:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:39:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:40:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:41:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:42:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:43:45Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:44:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:45:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:46:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:47:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:48:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:49:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:50:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:51:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:52:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:53:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:54:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:55:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:56:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:57:46Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:58:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T17:59:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:00:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:01:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:02:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:03:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:04:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:05:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:06:47Z] main pending 17 running 6 done 2 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:08:07Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:09:07Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:10:07Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:11:07Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:12:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:13:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:14:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:15:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:16:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:17:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:18:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:19:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:20:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:21:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:22:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:23:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:24:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:25:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:26:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:27:08Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:28:09Z] main pending 16 running 6 done 3 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:29:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:30:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:31:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:32:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:33:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:34:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:35:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:36:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:37:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:38:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:39:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:40:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:41:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:42:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:43:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:44:09Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:45:10Z] main pending 15 running 6 done 4 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:46:30Z] main pending 12 running 6 done 7 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:47:30Z] main pending 12 running 6 done 7 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:48:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:49:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:50:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:51:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:52:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:53:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:54:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:55:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:56:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:57:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:58:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T18:59:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:00:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:01:40Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:02:41Z] main pending 10 running 6 done 9 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:03:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:04:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:05:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:06:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:07:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:08:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:09:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:10:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:11:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:12:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:13:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:14:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:15:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:16:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:17:41Z] main pending 9 running 6 done 10 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:19:22Z] main pending 7 running 6 done 12 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:20:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:21:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:22:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:23:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:24:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:25:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:26:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:27:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:28:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:29:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:30:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:31:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:32:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:33:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:34:42Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:35:43Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:36:43Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:37:43Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:38:43Z] main pending 4 running 6 done 15 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:39:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:40:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:41:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:42:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:43:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:44:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:45:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:46:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:47:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:48:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:49:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:50:43Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:51:44Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:52:44Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:53:44Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:54:44Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:55:44Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:56:44Z] main pending 3 running 6 done 16 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:57:54Z] main pending 2 running 6 done 17 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:58:54Z] main pending 0 running 5 done 20 failed 0
+[j007b_pbbc_walkerm 2026-11-20T19:59:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:00:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:01:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:02:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:03:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:04:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:05:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:06:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:07:54Z] main pending 0 running 4 done 21 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:08:54Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:09:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:10:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:11:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:12:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:13:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:14:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:15:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:16:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:17:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:18:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:19:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:20:55Z] main pending 0 running 3 done 22 failed 0
+[j007b_pbbc_walkerm 2026-11-20T20:21:55Z] main pending 0 running 1 done 24 failed 0
+# j007b_pbbc_walkerm：近邻加采样 BC-混合（PB25、PB50）筛查（单任务子任务）
+
+种子 [3111, 3112, 3113, 3114, 3115]（新种子）；T、BC、BC-混合在同一台机器、同一批种子下重跑。主指标 Last5（最后五个评估点平均，每点 10 回合），分数按 ODRL 参考回报归一化。
+
+本任务是 j007 的一个子任务（j007a/b/c 各一个任务）。支持/否定的判定需要三个子任务的结果，在 analysis/ 中合并后按 research/PLAN.md 的登记规则做出；这里只给出本任务上每个候选是否“筛查有效”。
+
+## 预设规则（提交前写进 research/PLAN.md）
+
+- metric：Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004/j005/j006 metric)
+- strong_control：per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3111-3115
+- screen_effective：candidate minus strong control, paired by seed: mean > 0 and mean > 1 * paired SE
+- supported：screen-effective on at least 2 of the 3 tasks (j007a/b/c combined) -> a confirmation job with 5 never-used seeds per task on those tasks
+- rejected：paired mean difference <= 0 on at least 2 of the 3 tasks
+- otherwise：uncertain; not advanced to confirmation
+- descriptive：2 * SE criterion, candidate minus BCMIX / BC / T, PB50 vs PB25, near-set size, near-row BC loss, episode lengths
+- note：Rules are fixed before results; not changed after results are seen. The verdict is made only after all three sub-jobs finish; if any sub-job fails, no verdict.
+
+## 本任务上的筛查结果
+
+- PB25：筛查有效 否；均值差 ≤ 0：否
+- PB50：筛查有效 是；均值差 ≤ 0：否
+
+## 近邻集的统计（描述性，各种子相同）
+
+- PB25：阈值 tau=1.549；近邻集 10132 / 999323 行（1.01%），每批 16/64 个源行来自近邻集；目标留一轨迹最近距离分位数 {"0.1": 0.13700898634124306, "0.5": 0.38922955338398657, "0.9": 1.5488928357718932, "0.99": 2.806880087067943}；源数据到目标最近距离分位数 {"0.01": 1.5437614604556777, "0.1": 2.2529495582983703, "0.5": 3.1434323053111717, "0.9": 6.8600708145539695}
+- PB50：阈值 tau=1.549；近邻集 10132 / 999323 行（1.01%），每批 32/64 个源行来自近邻集；目标留一轨迹最近距离分位数 {"0.1": 0.13700898634124306, "0.5": 0.38922955338398657, "0.9": 1.5488928357718932, "0.99": 2.806880087067943}；源数据到目标最近距离分位数 {"0.01": 1.5437614604556777, "0.1": 2.2529495582983703, "0.5": 3.1434323053111717, "0.9": 6.8600708145539695}
+
+## walker2d-kinematic-thighjnt-medium（强对照：BC，69.54）
+
+|组|Last5均值|SD|最差种子|回合长度|<200步比例|各种子|
+|---|---|---|---|---|---|---|
+|T（只用目标数据的 IQL）|66.35|4.37|61.42|862.7|0.00|65.6 / 65.1 / 66.2 / 61.4 / 73.4|
+|BC（只用目标数据）|69.54|6.97|58.00|908.8|0.00|72.7 / 74.2 / 68.1 / 58.0 / 74.7|
+|BC-混合（目标 + 源数据）|61.73|10.18|47.07|797.4|0.02|65.0 / 75.1 / 62.8 / 47.1 / 58.7|
+|PB25（候选：近邻加采样 BC-混合，源批中 16/64 来自近邻集）|71.26|3.67|68.18|890.8|0.00|68.2 / 68.9 / 68.8 / 76.0 / 74.5|
+|PB50（候选：近邻加采样 BC-混合，源批中 32/64 来自近邻集）|72.45|2.49|69.54|900.4|0.00|73.0 / 75.6 / 70.4 / 69.5 / 73.7|
+
+|候选|相对强对照|配对SE|正号种子|筛查有效（>1SE）|>2SE（描述）|相对BC-混合|相对BC|相对T|
+|---|---|---|---|---|---|---|---|---|
+|PB25|1.72|4.22|2|否|否|9.53（SE 5.98）|1.72（SE 4.22）|4.91（SE 2.44）|
+|PB50|2.91|2.23|4|是|否|10.72（SE 3.72）|2.91（SE 2.23）|6.10（SE 1.78）|
+
+描述性：BC-混合 − BC -7.81（SE 2.83，1/5 正）；PB50 − PB25 1.19（SE 2.30，3/5 正）。
+
+## 运行情况
+
+总耗时 4.2 小时。冒烟运行的回报不读取、不报告。所有种子都保留。
+
+[j007b_pbbc_walkerm] exit code 0
+[auto_runner] end 2026-11-21T04:22:36+08:00 rc=0

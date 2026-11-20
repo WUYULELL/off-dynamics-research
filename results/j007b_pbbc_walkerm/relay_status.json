@@ -6,13 +6,20 @@
       "time": "2026-11-21T00:13:07+08:00",
       "state": "running",
       "note": "第 1 次运行，GPU=0，上限 12 小时"
+    },
+    {
+      "time": "2026-11-21T06:11:28+08:00",
+      "state": "completed",
+      "note": "取回 11 个文件，0.1 MB"
     }
   ],
-  "state": "running",
-  "note": "第 1 次运行，GPU=0，上限 12 小时",
+  "state": "completed",
+  "note": "取回 11 个文件，0.1 MB",
   "gpus": "0",
   "started_at": "2026-11-21T00:13:07+08:00",
   "max_hours": 12.0,
   "remote_dir": "~/auto_jobs/j007b_pbbc_walkerm",
-  "updated_at": "2026-11-21T00:13:07+08:00"
+  "updated_at": "2026-11-21T06:11:28+08:00",
+  "exit_code": 0,
+  "finished_at": "2026-11-21T06:11:28+08:00"
 }

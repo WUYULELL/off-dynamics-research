@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-20T20:15:52Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 24,
+  "failed": 0,
+  "progress": {
+    "PB50_hopper-kinematic-legjnt-medium_s3115": "191000/200000"
+  }
+}

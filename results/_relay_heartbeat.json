@@ -1,12 +1,9 @@
 {
-  "time": "2026-11-21T00:13:25+08:00",
-  "time_epoch": 1795191205,
+  "time": "2026-11-21T06:11:41+08:00",
+  "time_epoch": 1795212701,
   "running": [
-    "j007a_pbbc_hopper",
-    "j007b_pbbc_walkerm",
+    "j007c_pbbc_walkerh",
     "j008_wsel_screen"
   ],
-  "pending": [
-    "j007c_pbbc_walkerh"
-  ]
+  "pending": []
 }
