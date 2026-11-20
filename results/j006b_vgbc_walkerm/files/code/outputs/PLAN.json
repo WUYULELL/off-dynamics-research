@@ -1,0 +1,177 @@
+[
+  {
+    "id": "T_walker2d-kinematic-thighjnt-medium_s3106",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "T",
+    "seed": 3106,
+    "steps": 500000
+  },
+  {
+    "id": "T_walker2d-kinematic-thighjnt-medium_s3107",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "T",
+    "seed": 3107,
+    "steps": 500000
+  },
+  {
+    "id": "T_walker2d-kinematic-thighjnt-medium_s3108",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "T",
+    "seed": 3108,
+    "steps": 500000
+  },
+  {
+    "id": "T_walker2d-kinematic-thighjnt-medium_s3109",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "T",
+    "seed": 3109,
+    "steps": 500000
+  },
+  {
+    "id": "T_walker2d-kinematic-thighjnt-medium_s3110",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "T",
+    "seed": 3110,
+    "steps": 500000
+  },
+  {
+    "id": "AWM_walker2d-kinematic-thighjnt-medium_s3106",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AWM",
+    "seed": 3106,
+    "steps": 200000
+  },
+  {
+    "id": "AWM_walker2d-kinematic-thighjnt-medium_s3107",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AWM",
+    "seed": 3107,
+    "steps": 200000
+  },
+  {
+    "id": "AWM_walker2d-kinematic-thighjnt-medium_s3108",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AWM",
+    "seed": 3108,
+    "steps": 200000
+  },
+  {
+    "id": "AWM_walker2d-kinematic-thighjnt-medium_s3109",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AWM",
+    "seed": 3109,
+    "steps": 200000
+  },
+  {
+    "id": "AWM_walker2d-kinematic-thighjnt-medium_s3110",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AWM",
+    "seed": 3110,
+    "steps": 200000
+  },
+  {
+    "id": "AFM_walker2d-kinematic-thighjnt-medium_s3106",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AFM",
+    "seed": 3106,
+    "steps": 200000
+  },
+  {
+    "id": "AFM_walker2d-kinematic-thighjnt-medium_s3107",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AFM",
+    "seed": 3107,
+    "steps": 200000
+  },
+  {
+    "id": "AFM_walker2d-kinematic-thighjnt-medium_s3108",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AFM",
+    "seed": 3108,
+    "steps": 200000
+  },
+  {
+    "id": "AFM_walker2d-kinematic-thighjnt-medium_s3109",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AFM",
+    "seed": 3109,
+    "steps": 200000
+  },
+  {
+    "id": "AFM_walker2d-kinematic-thighjnt-medium_s3110",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "AFM",
+    "seed": 3110,
+    "steps": 200000
+  },
+  {
+    "id": "BC_walker2d-kinematic-thighjnt-medium_s3106",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BC",
+    "seed": 3106,
+    "steps": 200000
+  },
+  {
+    "id": "BC_walker2d-kinematic-thighjnt-medium_s3107",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BC",
+    "seed": 3107,
+    "steps": 200000
+  },
+  {
+    "id": "BC_walker2d-kinematic-thighjnt-medium_s3108",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BC",
+    "seed": 3108,
+    "steps": 200000
+  },
+  {
+    "id": "BC_walker2d-kinematic-thighjnt-medium_s3109",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BC",
+    "seed": 3109,
+    "steps": 200000
+  },
+  {
+    "id": "BC_walker2d-kinematic-thighjnt-medium_s3110",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BC",
+    "seed": 3110,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_walker2d-kinematic-thighjnt-medium_s3106",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BCMIX",
+    "seed": 3106,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_walker2d-kinematic-thighjnt-medium_s3107",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BCMIX",
+    "seed": 3107,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_walker2d-kinematic-thighjnt-medium_s3108",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BCMIX",
+    "seed": 3108,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_walker2d-kinematic-thighjnt-medium_s3109",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BCMIX",
+    "seed": 3109,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_walker2d-kinematic-thighjnt-medium_s3110",
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "group": "BCMIX",
+    "seed": 3110,
+    "steps": 200000
+  }
+]
