@@ -1,0 +1,402 @@
+[
+  {
+    "time": "2026-11-19T21:13:48Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T21:14:08Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T21:14:28Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T21:14:48Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T21:15:08Z",
+    "event": "start",
+    "job": "T_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T21:15:28Z",
+    "event": "start",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T23:29:16Z",
+    "event": "exit",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T23:29:16Z",
+    "event": "start",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T23:43:27Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T23:43:27Z",
+    "event": "start",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T23:45:47Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T23:45:47Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T23:45:47Z",
+    "event": "start",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T23:46:07Z",
+    "event": "start",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T23:46:37Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T23:46:37Z",
+    "event": "exit",
+    "job": "T_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-19T23:46:37Z",
+    "event": "start",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-19T23:46:57Z",
+    "event": "start",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T01:37:44Z",
+    "event": "exit",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T01:37:44Z",
+    "event": "start",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T01:48:15Z",
+    "event": "exit",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T01:48:15Z",
+    "event": "start",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T01:48:55Z",
+    "event": "exit",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T01:48:55Z",
+    "event": "start",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T01:51:15Z",
+    "event": "exit",
+    "job": "AWM_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T01:51:15Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T01:51:45Z",
+    "event": "exit",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T01:51:45Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T01:52:15Z",
+    "event": "exit",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T01:52:15Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T02:18:17Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T02:18:17Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T02:18:47Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T02:18:47Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T02:19:27Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T02:19:27Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T02:45:09Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T02:45:09Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T02:45:39Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T02:45:39Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T03:01:50Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3106",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T03:01:50Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T03:27:31Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3107",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T03:27:31Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T03:28:21Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T03:40:32Z",
+    "event": "exit",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3108",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T03:43:02Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T03:47:32Z",
+    "event": "exit",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T03:49:22Z",
+    "event": "exit",
+    "job": "AFM_hopper-kinematic-legjnt-medium_s3109",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T04:01:03Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-legjnt-medium_s3110",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

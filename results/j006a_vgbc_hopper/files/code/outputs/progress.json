@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-20T04:00:13Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 24,
+  "failed": 0,
+  "progress": {
+    "BCMIX_hopper-kinematic-legjnt-medium_s3110": "195000/200000"
+  }
+}

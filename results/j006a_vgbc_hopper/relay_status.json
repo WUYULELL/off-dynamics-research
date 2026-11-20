@@ -11,13 +11,20 @@
       "time": "2026-11-20T05:11:33+08:00",
       "state": "running",
       "note": "第 1 次运行，GPU=3，上限 20 小时"
+    },
+    {
+      "time": "2026-11-20T13:11:25+08:00",
+      "state": "completed",
+      "note": "取回 12 个文件，0.1 MB"
     }
   ],
-  "state": "running",
-  "note": "第 1 次运行，GPU=3，上限 20 小时",
-  "updated_at": "2026-11-20T05:11:33+08:00",
+  "state": "completed",
+  "note": "取回 12 个文件，0.1 MB",
+  "updated_at": "2026-11-20T13:11:25+08:00",
   "gpus": "3",
   "started_at": "2026-11-20T05:11:33+08:00",
   "max_hours": 20.0,
-  "remote_dir": "~/auto_jobs/j006a_vgbc_hopper"
+  "remote_dir": "~/auto_jobs/j006a_vgbc_hopper",
+  "exit_code": 0,
+  "finished_at": "2026-11-20T13:11:25+08:00"
 }
