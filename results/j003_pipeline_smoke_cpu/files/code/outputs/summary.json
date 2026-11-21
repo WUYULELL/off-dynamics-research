@@ -3,7 +3,7 @@
   "seed": 2999,
   "started": "2026-11-19 02:11:38",
   "python": "3.8.13",
-  "executable": "/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/bin/python",
+  "executable": "~/conda-envs/offdynamics38/bin/python",
   "checks": [
     {
       "name": "frozen_package",
@@ -18,8 +18,8 @@
       "ok": true,
       "seconds": 0.0,
       "detail": {
-        "MUJOCO_PY_MUJOCO_PATH": "/mnt/cs_dsns_public/cs_dsns_tanxin/.mujoco210/mujoco210",
-        "LD_LIBRARY_PATH": "/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/lib:/mnt/cs_dsns_public/cs_dsns_tanxin/.mujoco210/mujoco210/bin",
+        "MUJOCO_PY_MUJOCO_PATH": "~/.mujoco210/mujoco210",
+        "LD_LIBRARY_PATH": "~/conda-envs/offdynamics38/lib:~/.mujoco210/mujoco210/bin",
         "CUDA_VISIBLE_DEVICES": "-1",
         "MUJOCO_PY_FORCE_CPU": "1",
         "OMP_NUM_THREADS": "4",
@@ -48,8 +48,8 @@
       "ok": true,
       "seconds": 1.66,
       "detail": {
-        "original": "/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/lib/python3.8/site-packages/mujoco_py",
-        "imported_from": "/mnt/cs_dsns_public/cs_dsns_tanxin/auto_jobs/j003_pipeline_smoke_cpu/code/private_runtime/mujoco_py/__init__.py",
+        "original": "~/conda-envs/offdynamics38/lib/python3.8/site-packages/mujoco_py",
+        "imported_from": "~/auto_jobs/j003_pipeline_smoke_cpu/code/private_runtime/mujoco_py/__init__.py",
         "import_seconds": 0.4,
         "version": "2.1.2.14"
       }

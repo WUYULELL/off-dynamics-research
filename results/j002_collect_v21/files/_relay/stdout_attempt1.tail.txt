@@ -1,4 +1,4 @@
-[auto_runner] start 2026-11-18T23:11:39+08:00 host=ecs-instance-525d908e attempt=1 CUDA_VISIBLE_DEVICES= maxsec=86400
-[auto_runner] python=/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/bin/python
-V21 completed; copied 158230 bytes from /mnt/cs_dsns_public/cs_dsns_tanxin/v21_confirm/outputs/confirm_20261118_141727
+[auto_runner] start 2026-11-18T23:11:39+08:00 host=<HOSTNAME> attempt=1 CUDA_VISIBLE_DEVICES= maxsec=86400
+[auto_runner] python=~/conda-envs/offdynamics38/bin/python
+V21 completed; copied 158230 bytes from ~/v21_confirm/outputs/confirm_20261118_141727
 [auto_runner] end 2026-11-19T04:01:42+08:00 rc=0

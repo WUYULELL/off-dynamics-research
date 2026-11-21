@@ -1,6 +1,6 @@
 # V21：hopper 上 V18b 有效组的确认；walker 上按回报筛选源数据的筛查
 
-任务来自 ODRL 的关节限位偏移，源数据 D4RL medium，目标数据 ODRL 5000 条 medium 数据，分数按 ODRL 参考回报归一化。本次输出：`/mnt/cs_dsns_public/cs_dsns_tanxin/v21_confirm/outputs/confirm_20261118_141727`。
+任务来自 ODRL 的关节限位偏移，源数据 D4RL medium，目标数据 ODRL 5000 条 medium 数据，分数按 ODRL 参考回报归一化。本次输出：`~/v21_confirm/outputs/confirm_20261118_141727`。
 
 ## 预设规则（结果产生前写定）
 

@@ -1,6 +1,6 @@
-[auto_runner] start 2026-11-19T19:53:52+08:00 host=ecs-instance-525d908e attempt=1 CUDA_VISIBLE_DEVICES=3 maxsec=43200
-[auto_runner] python=/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/bin/python
-[j005c_cgbc_walkerh] CUDA_VISIBLE_DEVICES=3 host=ecs-instance-525d908e
+[auto_runner] start 2026-11-19T19:53:52+08:00 host=<HOSTNAME> attempt=1 CUDA_VISIBLE_DEVICES=3 maxsec=43200
+[auto_runner] python=~/conda-envs/offdynamics38/bin/python
+[j005c_cgbc_walkerh] CUDA_VISIBLE_DEVICES=3 host=<HOSTNAME>
 [j005c_cgbc_walkerh 2026-11-19T11:53:53Z] GPUs ['3']
 [j005c_cgbc_walkerh 2026-11-19T11:55:34Z] smoke pending 0 running 5 done 0 failed 0
 [j005c_cgbc_walkerh 2026-11-19T11:56:24Z] smoke passed 5

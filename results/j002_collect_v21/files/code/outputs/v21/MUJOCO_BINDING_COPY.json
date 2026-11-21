@@ -1,6 +1,6 @@
 {
-  "original": "/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/lib/python3.8/site-packages/mujoco_py",
-  "copy": "/mnt/cs_dsns_public/cs_dsns_tanxin/v21_confirm/outputs/confirm_20261118_141727/private_runtime/mujoco_py",
+  "original": "~/conda-envs/offdynamics38/lib/python3.8/site-packages/mujoco_py",
+  "copy": "~/v21_confirm/outputs/confirm_20261118_141727/private_runtime/mujoco_py",
   "original_hashes": {
     "__init__.py": "c6f8d791fb297961788ed73a43b16e1e2731f44f07ed2e215a94bad470e8a8e9",
     "__pycache__/__init__.cpython-38.pyc": "a37bb82281bcf67d2701893debc01613fc39f9d3e7b3493f96951c062bfe6541",
@@ -16,8 +16,8 @@
     "generated/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "generated/__pycache__/__init__.cpython-38.pyc": "2863958f02c1cd929af11c3718d1b0e23ac463b17db04fac38312a66457ae69a",
     "generated/__pycache__/const.cpython-38.pyc": "b53457c5173a989f747757072adc509202103feb05ca06c89620b00d66393301",
-    "generated/_pyxbld_2.1.2.14_38_linuxcpuextensionbuilder/temp.linux-x86_64-cpython-38/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/lib/python3.8/site-packages/mujoco_py/cymj.o": "6aa4cf3cff3f6c0aa35ed0a4ae42527ff36c8947a13c15cb63d5f12dc112a69b",
-    "generated/_pyxbld_2.1.2.14_38_linuxcpuextensionbuilder/temp.linux-x86_64-cpython-38/mnt/cs_dsns_public/cs_dsns_tanxin/conda-envs/offdynamics38/lib/python3.8/site-packages/mujoco_py/gl/osmesashim.o": "c2490e54784524f4e88006f4181dd967a87f6b3f6c56d78afa8e99e1cc1ab05b",
+    "generated/_pyxbld_2.1.2.14_38_linuxcpuextensionbuilder/temp.linux-x86_64-cpython-38~/conda-envs/offdynamics38/lib/python3.8/site-packages/mujoco_py/cymj.o": "6aa4cf3cff3f6c0aa35ed0a4ae42527ff36c8947a13c15cb63d5f12dc112a69b",
+    "generated/_pyxbld_2.1.2.14_38_linuxcpuextensionbuilder/temp.linux-x86_64-cpython-38~/conda-envs/offdynamics38/lib/python3.8/site-packages/mujoco_py/gl/osmesashim.o": "c2490e54784524f4e88006f4181dd967a87f6b3f6c56d78afa8e99e1cc1ab05b",
     "generated/const.py": "c79c8bc81a8d269fb08e9fd1fd97d1d17920cb2357a571b1bf3da113567c2131",
     "generated/cymj_2.0.2.8_37_macextensionbuilder_37.so": "a5038a5cf9197825b59403c3acead56c1405da12eba26ef805309920a6698df8",
     "generated/cymj_2.1.2.14_37_macextensionbuilder_37.so": "4c72d2ca45869f0b20e88b5f8fab2a707638a70518979b7fdf583a6b43eb01f1",

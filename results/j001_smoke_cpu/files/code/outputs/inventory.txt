@@ -1,8 +1,8 @@
 == 基本信息
 2026-11-18T23:11:30+08:00
-ecs-instance-525d908e
-HOME=/mnt/cs_dsns_public/cs_dsns_tanxin
-PWD=/mnt/cs_dsns_public/cs_dsns_tanxin/auto_jobs/j001_smoke_cpu/code
+<HOSTNAME>
+HOME=~
+PWD=~/auto_jobs/j001_smoke_cpu/code
 CUDA_VISIBLE_DEVICES=[]
 nproc=4
 
@@ -13,7 +13,7 @@ Swap:              0           0           0
 
 == 磁盘（HOME）
 Filesystem                 Size  Used Avail Use% Mounted on
-172.30.10.62:6789:/ltaidc  284T  236T   49T  84% /mnt/cs_dsns_public
+172.30.10.62:6789:/ltaidc  284T  236T   49T  84% /mnt/<SHARE>
 
 == GPU 概况（只读查询）
 index, name, utilization.gpu [%], memory.used [MiB], memory.total [MiB]
@@ -24,15 +24,15 @@ index, name, utilization.gpu [%], memory.used [MiB], memory.total [MiB]
 
 == 迁移项目（只读）
 total 663
-drwxr-xr-x 7 cs_dsns_tanxin group_shenguowei      7 11月  4 21:45 .
-drwxr-xr-x 3 cs_dsns_tanxin group_shenguowei      1 11月  5 13:02 ..
-drwxr-xr-x 2 cs_dsns_tanxin group_shenguowei      6 11月  4 21:45 cluster
-drwxr-xr-x 6 cs_dsns_tanxin group_shenguowei      4 11月  4 21:45 data
-drwxr-xr-x 3 cs_dsns_tanxin group_shenguowei      3 11月  4 21:45 environment
--rw-r--r-- 1 cs_dsns_tanxin group_shenguowei 677880 11月  4 21:45 MANIFEST.json
-drwxr-xr-x 4 cs_dsns_tanxin group_shenguowei      2 11月  4 21:45 records
-drwxr-xr-x 7 cs_dsns_tanxin group_shenguowei     13 11月  4 21:45 source_snapshot
--rw-r--r-- 1 cs_dsns_tanxin group_shenguowei    796 11月  4 21:45 UPLOAD_SINGLE_ZIP_ZH.md
+drwxr-xr-x 7 <USER> group_shenguowei      7 11月  4 21:45 .
+drwxr-xr-x 3 <USER> group_shenguowei      1 11月  5 13:02 ..
+drwxr-xr-x 2 <USER> group_shenguowei      6 11月  4 21:45 cluster
+drwxr-xr-x 6 <USER> group_shenguowei      4 11月  4 21:45 data
+drwxr-xr-x 3 <USER> group_shenguowei      3 11月  4 21:45 environment
+-rw-r--r-- 1 <USER> group_shenguowei 677880 11月  4 21:45 MANIFEST.json
+drwxr-xr-x 4 <USER> group_shenguowei      2 11月  4 21:45 records
+drwxr-xr-x 7 <USER> group_shenguowei     13 11月  4 21:45 source_snapshot
+-rw-r--r-- 1 <USER> group_shenguowei    796 11月  4 21:45 UPLOAD_SINGLE_ZIP_ZH.md
 
 -- cluster/paths.example.json
 {
@@ -125,7 +125,7 @@ iql_unc.py
 td3_bc.py
 
 == ODRL 目标数据压缩包
--rw-r--r-- 1 cs_dsns_tanxin group_shenguowei 3800530 11月 16 10:43 /mnt/cs_dsns_public/cs_dsns_tanxin/odrl_target_20261115.zip
+-rw-r--r-- 1 <USER> group_shenguowei 3800530 11月 16 10:43 ~/odrl_target_20261115.zip
 
 == v13 求解与回放代码
 config.json

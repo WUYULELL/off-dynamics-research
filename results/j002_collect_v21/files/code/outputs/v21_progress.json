@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-11-19 04:01:41",
-  "run_dir": "/mnt/cs_dsns_public/cs_dsns_tanxin/v21_confirm/outputs/confirm_20261118_141727",
+  "run_dir": "~/v21_confirm/outputs/confirm_20261118_141727",
   "time": "2026-11-18T19:52:53Z",
   "phase": "STOPPED_AWAITING_USER_REVIEW",
   "pending": null,
