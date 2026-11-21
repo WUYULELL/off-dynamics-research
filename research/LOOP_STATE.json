@@ -5,7 +5,7 @@
   "experiments_started": 6,
   "experiments_since_last_positive": 4,
   "consecutive_failures": 0,
-  "next_seed": 3126,
+  "next_seed": 3129,
   "note": "用户可以把 loop_enabled 改成 false 来停止 Claude 这一侧的循环",
   "seeds_used_by_loop": {
     "j004_domain_cond_bc_screen": [
@@ -49,6 +49,11 @@
       3123,
       3124,
       3125
+    ],
+    "j010_survey (j010a/b; descriptive survey, user request, not a research experiment)": [
+      3126,
+      3127,
+      3128
     ]
   }
 }

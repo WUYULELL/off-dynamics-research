@@ -181,3 +181,16 @@
   - 描述性（不判定）：2 倍标准误标准；BCMIXN 相对 BC-混合 / BC / T；2×2 的全部效应与交互；W50N 在每个任务上相对强对照；近邻集大小；回合长度。
 - 已知风险（预先写明）：(1) j007 中把近邻行加到批次的一半（PB50）并没有在 hopper / walker hard 上超过 BC-混合，BCMIXN 是“加”而不是“替换”，但也可能同样只是追平；(2) walker medium 上 BCMIXN 仍保留全部远源行，可能仍低于 BC；(3) 近邻项权重 0.5 预先固定，没有调参。
 - 类型：筛查。研究实验计数：第 6 个。
+
+### j010_survey（j010a/b 两个单卡子任务；2026-11-21 06:20 UTC 由主研究对话按用户要求登记，提交前写定；描述性调查）
+- 目的：到 j009 为止，所有方法都只在 3 个关节限位任务上筛查，而“源数据有害”的任务只有 walker medium 一个。本调查在更多 ODRL 任务上只跑 BC 和 BC-混合，画出“源数据在哪里有用、在哪里有害”的地图，用来 (1) 给之后的方法提供更多源数据有害 / 有益的任务；(2) 看 BC-混合的收益与偏移类型、只用目标数据时的稳定性、近邻集大小的关系；(3) 为开题的分析部分提供广度。
+- 类型：**描述性调查**。不登记候选，不做支持 / 否定判定，**不计入**“研究实验”编号和“连续无筛查有效”计数。结果只用于为之后的登记筛查挑选任务和提出假设。
+- 任务（每种机器人 8 个，规则先定：重力 0.5 / 2.0、摩擦 0.5 / 2.0、筛查任务没用过的那个关节的关节限位 medium / hard、一个部件的形态 medium / hard；目标数据用该任务的 ODRL medium 质量文件 `<任务>_medium.hdf5`）：
+  - j010a（hopper）：hopper-gravity-0.5、hopper-gravity-2.0、hopper-friction-0.5、hopper-friction-2.0、hopper-kinematic-footjnt-medium、hopper-kinematic-footjnt-hard、hopper-morph-foot-medium、hopper-morph-foot-hard。
+  - j010b（walker2d）：walker2d-gravity-0.5、walker2d-gravity-2.0、walker2d-friction-0.5、walker2d-friction-2.0、walker2d-kinematic-footjnt-medium、walker2d-kinematic-footjnt-hard、walker2d-morph-leg-medium、walker2d-morph-leg-hard。
+  - 某任务的目标文件不在 ODRL 压缩包里时，按规则去掉并在报告中列出，不替换成别的任务；目标文件的哈希在运行时记录（这些文件以前没用过）。XML 与归一化参考回报来自本仓库 `envs/mujoco/assets/`、`envs/infos.py`。
+  - halfcheetah、ant 暂不包括：服务器上是否有对应的 D4RL 源数据还没核实（已请 Codex 只读核查）；如果有，另行登记补充子任务。
+- 组别：BC（20 万步）、BC-混合（64 目标行 + 64 源行，20 万步），与 V21、j004–j009 的定义完全相同；每 5000 步评估 10 回合，Last5。BC-混合的运行同时记录（不使用）j005 / j007 规则下的近邻集占比，作为描述性协变量。
+- 种子：3126–3128（每个任务 3 个，从未用过）。冒烟种子 2999，覆盖全部 8 个任务（回报不读取）。
+- 报告：每个任务的 BC、BC-混合 Last5 均值 / SD，BC-混合 − BC 的同种子配对差（均值、SE、正号种子数），评估回合中短于 200 步的比例，近邻集占比。3 个种子只够描述，不下结论。
+- 预算：每个子任务 2 组 × 8 任务 × 3 种子 = 48 项训练（另 16 项冒烟），同卡最多 6 个进程，估计 9 小时左右，上限 16 小时。与 j009 共用 4 张卡，后启动的子任务会先等空卡。
