@@ -1,0 +1,98 @@
+[
+  {
+    "time": "2026-11-21T06:31:22Z",
+    "event": "start",
+    "job": "smoke_T_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T06:31:42Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T06:32:02Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T06:32:22Z",
+    "event": "start",
+    "job": "smoke_W50_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T06:32:42Z",
+    "event": "start",
+    "job": "smoke_W50N_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T06:33:02Z",
+    "event": "start",
+    "job": "smoke_BCMIXN_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T06:33:32Z",
+    "event": "exit",
+    "job": "smoke_T_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T06:33:32Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T06:33:32Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T06:33:32Z",
+    "event": "exit",
+    "job": "smoke_W50_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T06:33:42Z",
+    "event": "exit",
+    "job": "smoke_W50N_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T06:34:02Z",
+    "event": "exit",
+    "job": "smoke_BCMIXN_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

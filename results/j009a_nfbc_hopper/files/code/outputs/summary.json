@@ -1,0 +1,265 @@
+{
+  "job": "j009a_nfbc_hopper",
+  "seeds": [
+    3121,
+    3122,
+    3123,
+    3124,
+    3125
+  ],
+  "rule": {
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j008 metric)",
+    "strong_control": "per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3121-3125",
+    "screen_effective": "candidate (BCMIXN) minus strong control, paired by seed: mean > 0 and mean > 1 * paired SE",
+    "supported": "screen-effective on at least 2 of the 3 tasks (j009a/b/c combined) -> a confirmation job with 5 never-used seeds per task on those tasks",
+    "rejected": "paired mean difference <= 0 on at least 2 of the 3 tasks",
+    "otherwise": "uncertain; not advanced to confirmation",
+    "factorial_registered_secondary": "not counted by the loop: near term helps if near_at_far1 and near_at_far05 are both > 0 and > 1 SE on a task; far weight hurts on walker medium if BCMIX-W50 < 0 and BCMIXN-W50N < 0 there, each beyond 1 SE",
+    "descriptive": "2 * SE criterion, candidate minus BCMIX / BC / T, all 2x2 effects and the interaction, W50N vs strong control on every task, near-set size, episode lengths",
+    "note": "Rules are fixed before results; not changed after results are seen. The verdict is made only after all three sub-jobs finish; if any sub-job fails, no verdict."
+  },
+  "tasks": {
+    "hopper-kinematic-legjnt-medium": {
+      "groups": {
+        "T": {
+          "per_seed": {
+            "3121": 39.16457394083905,
+            "3122": 41.53405121002497,
+            "3123": 40.55770874920979,
+            "3124": 43.682152940295076,
+            "3125": 45.536047566152
+          },
+          "mean": 42.094906881304176,
+          "sd": 2.531066355708233,
+          "se": 1.1319272853852544,
+          "worst": 39.16457394083905,
+          "length_mean": 398.216,
+          "fraction_under_200": 0.0
+        },
+        "BC": {
+          "per_seed": {
+            "3121": 42.995695016961726,
+            "3122": 37.82901179989886,
+            "3123": 43.56432744960851,
+            "3124": 43.0041125170311,
+            "3125": 37.042621322559356
+          },
+          "mean": 40.88715362121191,
+          "sd": 3.171252965559391,
+          "se": 1.4182274409677196,
+          "worst": 37.042621322559356,
+          "length_mean": 383.30400000000003,
+          "fraction_under_200": 0.0
+        },
+        "BCMIX": {
+          "per_seed": {
+            "3121": 53.40792303399943,
+            "3122": 51.813693443452415,
+            "3123": 56.054130909610045,
+            "3124": 55.95464154938372,
+            "3125": 55.590890919545494
+          },
+          "mean": 54.56425597119822,
+          "sd": 1.8781359632619823,
+          "se": 0.8399279369681679,
+          "worst": 51.813693443452415,
+          "length_mean": 550.404,
+          "fraction_under_200": 0.0
+        },
+        "W50": {
+          "per_seed": {
+            "3121": 49.72160305906177,
+            "3122": 46.12072803332099,
+            "3123": 49.128498804906116,
+            "3124": 50.792869685372594,
+            "3125": 45.41883468800411
+          },
+          "mean": 48.23650685413311,
+          "sd": 2.3426452867141085,
+          "se": 1.0476628216524462,
+          "worst": 45.41883468800411,
+          "length_mean": 486.51599999999996,
+          "fraction_under_200": 0.0
+        },
+        "W50N": {
+          "per_seed": {
+            "3121": 57.23809122205522,
+            "3122": 45.15780669160069,
+            "3123": 53.178439980702876,
+            "3124": 52.23552876859624,
+            "3125": 52.80822206551896
+          },
+          "mean": 52.1236177456948,
+          "sd": 4.366755651538396,
+          "se": 1.9528724955942474,
+          "worst": 45.15780669160069,
+          "length_mean": 525.26,
+          "fraction_under_200": 0.0
+        },
+        "BCMIXN": {
+          "per_seed": {
+            "3121": 55.18254692266206,
+            "3122": 51.27764399414336,
+            "3123": 56.9458844838511,
+            "3124": 55.108267422688165,
+            "3125": 53.0232570518117
+          },
+          "mean": 54.307519975031276,
+          "sd": 2.19073706951149,
+          "se": 0.9797274016512746,
+          "worst": 51.27764399414336,
+          "length_mean": 545.7560000000001,
+          "fraction_under_200": 0.0
+        }
+      },
+      "strong_control": "BCMIX",
+      "candidates": {
+        "BCMIXN": {
+          "minus_strong": {
+            "mean": -0.25673599616694387,
+            "sd": 1.6741706437757802,
+            "se": 0.7487118730834459,
+            "positive": 2,
+            "diffs": [
+              1.7746238886626315,
+              -0.5360494493090542,
+              0.8917535742410578,
+              -0.846374126695558,
+              -2.5676338677337966
+            ]
+          },
+          "screen_effective": false,
+          "two_se_descriptive": false,
+          "minus_BCMIX": {
+            "mean": -0.25673599616694387,
+            "sd": 1.6741706437757802,
+            "se": 0.7487118730834459,
+            "positive": 2,
+            "diffs": [
+              1.7746238886626315,
+              -0.5360494493090542,
+              0.8917535742410578,
+              -0.846374126695558,
+              -2.5676338677337966
+            ]
+          },
+          "minus_BC": {
+            "mean": 13.420366353819366,
+            "sd": 1.5661461350870816,
+            "se": 0.7004018441506565,
+            "positive": 5,
+            "diffs": [
+              12.186851905700337,
+              13.448632194244503,
+              13.38155703424259,
+              12.104154905657062,
+              15.980635729252342
+            ]
+          },
+          "minus_T": {
+            "mean": 12.212613093727102,
+            "sd": 3.903849634020081,
+            "se": 1.7458546311213152,
+            "positive": 5,
+            "diffs": [
+              16.017972981823014,
+              9.743592784118391,
+              16.388175734641315,
+              11.42611448239309,
+              7.487209485659697
+            ]
+          }
+        }
+      },
+      "BCMIX_minus_BC": {
+        "mean": 13.67710234998631,
+        "sd": 3.0174437534143914,
+        "se": 1.3494418701833384,
+        "positive": 5,
+        "diffs": [
+          10.412228017037705,
+          13.984681643553557,
+          12.489803460001532,
+          12.95052903235262,
+          18.548269596986138
+        ]
+      },
+      "factorial": {
+        "near_at_far1 (BCMIXN-BCMIX)": {
+          "mean": -0.25673599616694387,
+          "sd": 1.6741706437757802,
+          "se": 0.7487118730834459,
+          "positive": 2,
+          "diffs": [
+            1.7746238886626315,
+            -0.5360494493090542,
+            0.8917535742410578,
+            -0.846374126695558,
+            -2.5676338677337966
+          ]
+        },
+        "near_at_far05 (W50N-W50)": {
+          "mean": 3.8871108915616817,
+          "sd": 3.706851459496027,
+          "se": 1.6577543691854848,
+          "positive": 4,
+          "diffs": [
+            7.516488162993447,
+            -0.9629213417202962,
+            4.049941175796761,
+            1.4426590832236457,
+            7.389387377514851
+          ]
+        },
+        "far_without_near (BCMIX-W50)": {
+          "mean": 6.327749117065106,
+          "sd": 2.443141547241417,
+          "se": 1.0926061156571643,
+          "positive": 5,
+          "diffs": [
+            3.6863199749376605,
+            5.692965410131428,
+            6.925632104703929,
+            5.161771864011129,
+            10.172056231541383
+          ]
+        },
+        "far_with_near (BCMIXN-W50N)": {
+          "mean": 2.1839022293364807,
+          "sd": 3.175020934742076,
+          "se": 1.419912528013641,
+          "positive": 4,
+          "diffs": [
+            -2.055544299393155,
+            6.11983730254267,
+            3.7674445031482264,
+            2.8727386540919255,
+            0.21503498629273565
+          ]
+        },
+        "interaction": {
+          "mean": -4.143846887728626,
+          "sd": 3.9258751843933575,
+          "se": 1.7557047566966137,
+          "positive": 1,
+          "diffs": [
+            -5.7418642743308155,
+            0.426871892411242,
+            -3.158187601555703,
+            -2.2890332099192037,
+            -9.957021245248647
+          ]
+        }
+      }
+    }
+  },
+  "per_task_screen": {
+    "BCMIXN": {
+      "hopper-kinematic-legjnt-medium": {
+        "screen_effective": false,
+        "nonpositive": true
+      }
+    }
+  },
+  "elapsed_hours": 4.155382470885913
+}

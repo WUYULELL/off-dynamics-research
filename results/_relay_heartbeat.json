@@ -1,13 +1,11 @@
 {
-  "time": "2026-11-21T15:58:56+08:00",
-  "time_epoch": 1795247936,
+  "time": "2026-11-21T19:12:00+08:00",
+  "time_epoch": 1795259520,
   "running": [
-    "j009a_nfbc_hopper",
-    "j009c_nfbc_walkerh"
+    "j009b_nfbc_walkerm",
+    "j010a_survey_hopper_data_r1"
   ],
   "pending": [
-    "j009b_nfbc_walkerm",
-    "j010a_survey_hopper_data_r1",
     "j010b_survey_walker",
     "j010b_survey_walker_data_r1"
   ]
