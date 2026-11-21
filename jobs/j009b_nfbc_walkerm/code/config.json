@@ -1,0 +1,87 @@
+{
+  "job": "j009b_nfbc_walkerm",
+  "purpose": "Sub-job of j009 (2x2 source-composition screen: far-source weight in {0.5, 1} x near term in {0, 0.5}) on walker2d-kinematic-thighjnt-medium. Registered in research/PLAN.md (auto-loop) before submission; requested by the user on 2026-11-21.",
+  "tasks": [
+    {
+      "id": "walker2d-kinematic-thighjnt-medium",
+      "robot": "walker2d",
+      "target_file": "walker2d_kinematic_thighjnt_medium_medium.hdf5",
+      "target_sha256": "cae31125683286271a798d52bde1f0e2a0650baf527e5f5ff490d6d7cde03a07",
+      "xml": "walker2d_kinematic_thighjnt_medium.xml",
+      "xml_sha256": "bf4797354c7adc42c86572e1365b08ae6c7e22d2e75c4f4122964e196036b699",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    }
+  ],
+  "groups": [
+    "T",
+    "BC",
+    "BCMIX",
+    "W50",
+    "W50N",
+    "BCMIXN"
+  ],
+  "controls": [
+    "T",
+    "BC",
+    "BCMIX"
+  ],
+  "candidates": [
+    "BCMIXN"
+  ],
+  "seeds": [
+    3121,
+    3122,
+    3123,
+    3124,
+    3125
+  ],
+  "steps": {
+    "IQL": 500000,
+    "BC": 200000
+  },
+  "eval_every": {
+    "IQL": 10000,
+    "BC": 5000
+  },
+  "target_rows": 5000,
+  "smoke": {
+    "seed": 2999,
+    "task": "walker2d-kinematic-thighjnt-medium",
+    "steps": 1000
+  },
+  "max_per_gpu": 6,
+  "launch_gap_seconds": 20,
+  "external_retry_max": 3,
+  "rule": {
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j008 metric)",
+    "strong_control": "per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3121-3125",
+    "screen_effective": "candidate (BCMIXN) minus strong control, paired by seed: mean > 0 and mean > 1 * paired SE",
+    "supported": "screen-effective on at least 2 of the 3 tasks (j009a/b/c combined) -> a confirmation job with 5 never-used seeds per task on those tasks",
+    "rejected": "paired mean difference <= 0 on at least 2 of the 3 tasks",
+    "otherwise": "uncertain; not advanced to confirmation",
+    "factorial_registered_secondary": "not counted by the loop: near term helps if near_at_far1 and near_at_far05 are both > 0 and > 1 SE on a task; far weight hurts on walker medium if BCMIX-W50 < 0 and BCMIXN-W50N < 0 there, each beyond 1 SE",
+    "descriptive": "2 * SE criterion, candidate minus BCMIX / BC / T, all 2x2 effects and the interaction, W50N vs strong control on every task, near-set size, episode lengths",
+    "note": "Rules are fixed before results; not changed after results are seen. The verdict is made only after all three sub-jobs finish; if any sub-job fails, no verdict."
+  },
+  "candidate_settings": {
+    "near_set": "source rows with standardized-state nearest distance to target states <= tau; tau = 90% quantile of target leave-one-trajectory-out nearest distances (exactly the rows j005 CG90 removed, the near set of j007)",
+    "loss": "mean BC over 64 target rows + a * mean BC over 64 uniform source rows + b * mean BC over 32 near rows",
+    "BCMIX": {
+      "a": 1.0,
+      "b": 0.0
+    },
+    "W50": {
+      "a": 0.5,
+      "b": 0.0
+    },
+    "W50N": {
+      "a": 0.5,
+      "b": 0.5
+    },
+    "BCMIXN": {
+      "a": 1.0,
+      "b": 0.5
+    }
+  }
+}

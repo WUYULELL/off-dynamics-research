@@ -2,10 +2,10 @@
   "loop_enabled": true,
   "last_seen_results_commit": "7d09701fcd7c8f57c32541d4ebe8825031d26b8b",
   "heartbeat_alert_sent": false,
-  "experiments_started": 5,
+  "experiments_started": 6,
   "experiments_since_last_positive": 4,
   "consecutive_failures": 0,
-  "next_seed": 3121,
+  "next_seed": 3126,
   "note": "用户可以把 loop_enabled 改成 false 来停止 Claude 这一侧的循环",
   "seeds_used_by_loop": {
     "j004_domain_cond_bc_screen": [
@@ -42,6 +42,13 @@
       3118,
       3119,
       3120
+    ],
+    "j009_nfbc_screen (j009a/b/c; user request, main conversation)": [
+      3121,
+      3122,
+      3123,
+      3124,
+      3125
     ]
   }
 }

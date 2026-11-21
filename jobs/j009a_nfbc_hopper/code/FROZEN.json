@@ -1,0 +1,10 @@
+{
+  "job": "j009a_nfbc_hopper",
+  "files": {
+    "assets/hopper_kinematic_legjnt_medium.xml": "11e5861cd1fcd4142418978911b95240001f142282f3cacdacfe99bf3a1209a8",
+    "config.json": "95a8ccc5c7356a06f087c5a268e837ea8a28cbdeef10100aa0f0aa7db4beb778",
+    "controller.py": "231e740fecf80264b133b8799378fdec5c7c0fb2f6e60913b09a39e091faca70",
+    "run.sh": "afba3eabb569423bec3d04fbb01e61c515c40d473b3a32c6385a4176d5615f06",
+    "worker.py": "9c1f1401e500ef3f23f0d02bb21fe606ab6306a36b34517032704e305307e423"
+  }
+}

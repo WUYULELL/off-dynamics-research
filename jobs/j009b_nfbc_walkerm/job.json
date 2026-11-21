@@ -1,0 +1,15 @@
+{
+  "job_id": "j009b_nfbc_walkerm",
+  "description": "j009 子任务（用户 2026-11-21 要求）：在 walker 大腿关节 medium 上做源数据组成 2×2 筛查——远源权重 a ∈ {0.5, 1} × 近邻项权重 b ∈ {0, 0.5}（BC-混合、W50、W50N、BCMIXN），与同机同种子重跑的 T、BC 比较；候选 BCMIXN = BC-混合 + 0.5 × 32 条近邻源行的 BC 损失。种子 3121–3125（新种子），30 项训练（另 6 项冒烟）。",
+  "hypothesis": "见 research/PLAN.md 的 j009 登记：BCMIXN 相对强对照（T、BC、BC-混合中均值最高者）的同种子配对差均值 > 0 且 > 1 倍配对标准误即该任务筛查有效；三个子任务合并后，≥2 个任务有效为支持并进入新种子确认；≥2 个任务均值差 ≤ 0 为否定。",
+  "gpus": 1,
+  "max_hours": 12,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j008_wsel_screen"
+}
