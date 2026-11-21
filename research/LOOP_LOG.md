@@ -113,3 +113,12 @@
 - j009a、j009c 运行中（GPU 1、0）；j009b 等空卡。
 - **j010a 失败（退出码 1，未开始训练）**：所选 8 个 hopper 任务的目标数据都不在 ODRL 压缩包 `raw/` 里，按登记规则全部去掉后无任务可跑。这是我登记时没有先核对压缩包内容造成的。j010b（walker）多半同样缺数据，已把它的 `max_hours` 改为 25 使其停在 `waiting_approval`，**不要授权**。
 - 下一步：请 Codex 列出压缩包里全部 hopper / walker2d 目标文件，再按实际有的数据重新登记调查（用新任务名，不复用 j010）。halfcheetah、ant：压缩包里没有目标数据，服务器上也没有 D4RL 源数据，调查只限 hopper / walker2d。
+
+## 2026-11-21 07:30 UTC（Claude 定时会话）
+- 新结果提交 0539d5b：j008_wsel_screen 结果取回（completed，12.2 小时，0 失败）；j010a_survey_hopper failed（退出码 1）；j009a、j009c 运行中，j009b 等卡；j010b 停在 waiting_approval（主研究对话有意设置，不授权）。
+- j008：假设“用源预训练 + 目标微调的动力学集成按模拟回报为每个任务选源权重 w（SEL），或固定中间权重 W25 / W50，能三个任务都不吃亏” → 相对强对照 SEL −6.69 / 0.00 / −1.63，W25 −13.30 / −4.46 / −5.21，W50 −10.31 / −5.80 / −2.35（hopper / walker medium / walker hard）→ **三个候选全部否定**（RUNS.csv + SELECTION.json 独立重算，与服务器报告和主研究对话的判定一致）。次要稳健性不成立（hopper −6.69，SE 2.77）。描述性：模型在 walker medium 上 5/5 选对 BC，在 hopper 上 3/5 把 W50 误选为优于 W100；分数随 w 单调（hopper / walker hard 升、walker medium 降），中间权重从不优于两端中较好者。BC-混合 − BC 第七次复现（+15.98 / −7.34 / +16.99）。见 analysis/j008_wsel_screen.md。
+- j010a：没有训练；8 个登记的 hopper 任务目标文件都不在 ODRL 压缩包里，控制器按规则全部去掉后无任务可跑。登记时未核对数据所致，不是代码错误；j010 整组作废（描述性调查，不计数）。见 analysis/j010a_survey_hopper.md。
+- 计数：连续无筛查有效的研究实验 5（j004–j008）；experiments_started 仍为 6（j009 已计）；consecutive_failures 0（j010a 不是代码错误）。结束条件均未满足。
+- 研究进度记录：已读，追加一行（j008 正式分析 + j010a 失败）。
+- 通知：j008 结论和 j010a 失败用户已在主研究对话中知道，本轮重算无出入，不另行通知。
+- 下一步：不登记新实验（主研究对话要求等 j009）。j009 三个子任务都结束后合并判定；若 BCMIXN 支持，下一会话登记确认实验（新种子从 3129 起，对照 T、BC、BC-混合）。j010 的重新登记由主研究对话在 Codex 列出压缩包内容后进行。
