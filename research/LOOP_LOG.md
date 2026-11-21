@@ -148,3 +148,8 @@
 - 新结果提交 18e0248：只有状态变化（j010a_survey_hopper_data_r2、j010b_survey_walker_data_r1 → running；j010b_survey_walker_data_r2 → waiting_gpu），没有新完成的任务，无可分析内容。j009b 仍在运行。
 - 结束条件均未满足；停机前不登记新实验。不通知。
 - 下一步不变：j009b 结束后合并判定 j009；j010 r2 结束后写 analysis/j010_survey.md。j010b_r1 预计会因同样的 NameError 退出，不用管。
+
+## 2026-11-21 15:20 UTC（Claude 定时会话）
+- 新结果提交 746a1be：j010b_survey_walker_data_r1 failed（NameError: ARCHIVE，与 j010a_r1 同一遗留行，上一会话已预判；数据 8 个文件齐全），j010b_survey_walker_data_r2 → running（北京时间 22:36 起，GPU 0）。j009b、j010a_r2 仍在运行。见 analysis/j010b_survey_walker_data_r1.md。
+- 无可判定的结论；结束条件均未满足；停机前不登记新实验（自己的排队/运行任务也已到 4 个上限）。不通知。
+- 下一步不变：j009b 结束后合并判定 j009（并通知）；j010 r2 都结束后写 analysis/j010_survey.md。
