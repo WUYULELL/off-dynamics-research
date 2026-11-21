@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-21T01:21:55Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 24,
+  "failed": 0,
+  "progress": {
+    "PB50_walker2d-kinematic-thighjnt-hard_s3115": "200000/200000"
+  }
+}
