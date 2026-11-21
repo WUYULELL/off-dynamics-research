@@ -1,0 +1,265 @@
+{
+  "job": "j009b_nfbc_walkerm",
+  "seeds": [
+    3121,
+    3122,
+    3123,
+    3124,
+    3125
+  ],
+  "rule": {
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j008 metric)",
+    "strong_control": "per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3121-3125",
+    "screen_effective": "candidate (BCMIXN) minus strong control, paired by seed: mean > 0 and mean > 1 * paired SE",
+    "supported": "screen-effective on at least 2 of the 3 tasks (j009a/b/c combined) -> a confirmation job with 5 never-used seeds per task on those tasks",
+    "rejected": "paired mean difference <= 0 on at least 2 of the 3 tasks",
+    "otherwise": "uncertain; not advanced to confirmation",
+    "factorial_registered_secondary": "not counted by the loop: near term helps if near_at_far1 and near_at_far05 are both > 0 and > 1 SE on a task; far weight hurts on walker medium if BCMIX-W50 < 0 and BCMIXN-W50N < 0 there, each beyond 1 SE",
+    "descriptive": "2 * SE criterion, candidate minus BCMIX / BC / T, all 2x2 effects and the interaction, W50N vs strong control on every task, near-set size, episode lengths",
+    "note": "Rules are fixed before results; not changed after results are seen. The verdict is made only after all three sub-jobs finish; if any sub-job fails, no verdict."
+  },
+  "tasks": {
+    "walker2d-kinematic-thighjnt-medium": {
+      "groups": {
+        "T": {
+          "per_seed": {
+            "3121": 60.98170742133321,
+            "3122": 71.74565711123289,
+            "3123": 62.37751609874779,
+            "3124": 67.64283487798679,
+            "3125": 72.54004979684949
+          },
+          "mean": 67.05755306123004,
+          "sd": 5.272506307601975,
+          "se": 2.357936503118886,
+          "worst": 60.98170742133321,
+          "length_mean": 864.4680000000001,
+          "fraction_under_200": 0.0
+        },
+        "BC": {
+          "per_seed": {
+            "3121": 64.64063254059172,
+            "3122": 57.89076768788668,
+            "3123": 67.32710540658222,
+            "3124": 69.94770233364697,
+            "3125": 63.772495608358405
+          },
+          "mean": 64.7157407154132,
+          "sd": 4.518524574496856,
+          "se": 2.020745621315656,
+          "worst": 57.89076768788668,
+          "length_mean": 851.2279999999998,
+          "fraction_under_200": 0.04
+        },
+        "BCMIX": {
+          "per_seed": {
+            "3121": 66.98001199175053,
+            "3122": 58.50617420912116,
+            "3123": 61.376564907568934,
+            "3124": 29.16614689707036,
+            "3125": 59.5492110070035
+          },
+          "mean": 55.11562180250289,
+          "sd": 14.870196450043554,
+          "se": 6.650154020214688,
+          "worst": 29.16614689707036,
+          "length_mean": 834.28,
+          "fraction_under_200": 0.016
+        },
+        "W50": {
+          "per_seed": {
+            "3121": 60.60312999055666,
+            "3122": 57.75346495585798,
+            "3123": 61.44890604301675,
+            "3124": 67.77678124653357,
+            "3125": 69.41810579266664
+          },
+          "mean": 63.400077605726324,
+          "sd": 4.972082533130523,
+          "se": 2.22358290676384,
+          "worst": 57.75346495585798,
+          "length_mean": 802.612,
+          "fraction_under_200": 0.004
+        },
+        "W50N": {
+          "per_seed": {
+            "3121": 74.1603022723325,
+            "3122": 71.86751853202338,
+            "3123": 73.40417775601577,
+            "3124": 64.45810347121396,
+            "3125": 75.33981594829962
+          },
+          "mean": 71.84598359597706,
+          "sd": 4.317758127014014,
+          "se": 1.930960136481101,
+          "worst": 64.45810347121396,
+          "length_mean": 893.9879999999999,
+          "fraction_under_200": 0.0
+        },
+        "BCMIXN": {
+          "per_seed": {
+            "3121": 75.24955763612047,
+            "3122": 72.51544706099519,
+            "3123": 68.83825998320629,
+            "3124": 67.02788821366083,
+            "3125": 69.75251878345102
+          },
+          "mean": 70.67673433548677,
+          "sd": 3.2341852829247113,
+          "se": 1.4463716288898087,
+          "worst": 67.02788821366083,
+          "length_mean": 884.6800000000001,
+          "fraction_under_200": 0.004
+        }
+      },
+      "strong_control": "T",
+      "candidates": {
+        "BCMIXN": {
+          "minus_strong": {
+            "mean": 3.6191812742567264,
+            "sd": 6.865884155188953,
+            "se": 3.0705167393282427,
+            "positive": 3,
+            "diffs": [
+              14.26785021478726,
+              0.7697899497622984,
+              6.460743884458495,
+              -0.6149466643259558,
+              -2.787531013398464
+            ]
+          },
+          "screen_effective": true,
+          "two_se_descriptive": false,
+          "minus_BCMIX": {
+            "mean": 15.561112532983861,
+            "sd": 12.720061253672819,
+            "se": 5.6885843282347235,
+            "positive": 5,
+            "diffs": [
+              8.269545644369941,
+              14.009272851874023,
+              7.461695075637351,
+              37.86174131659047,
+              10.203307776447524
+            ]
+          },
+          "minus_BC": {
+            "mean": 5.960993620073559,
+            "sd": 6.988077231620008,
+            "se": 3.125163144384176,
+            "positive": 4,
+            "diffs": [
+              10.608925095528747,
+              14.624679373108506,
+              1.5111545766240653,
+              -2.9198141199861425,
+              5.980023175092619
+            ]
+          },
+          "minus_T": {
+            "mean": 3.6191812742567264,
+            "sd": 6.865884155188953,
+            "se": 3.0705167393282427,
+            "positive": 3,
+            "diffs": [
+              14.26785021478726,
+              0.7697899497622984,
+              6.460743884458495,
+              -0.6149466643259558,
+              -2.787531013398464
+            ]
+          }
+        }
+      },
+      "BCMIX_minus_BC": {
+        "mean": -9.600118912910302,
+        "sd": 17.758239880220405,
+        "se": 7.941726306584109,
+        "positive": 2,
+        "diffs": [
+          2.3393794511588055,
+          0.6154065212344833,
+          -5.950540499013286,
+          -40.78155543657661,
+          -4.223284601354905
+        ]
+      },
+      "factorial": {
+        "near_at_far1 (BCMIXN-BCMIX)": {
+          "mean": 15.561112532983861,
+          "sd": 12.720061253672819,
+          "se": 5.6885843282347235,
+          "positive": 5,
+          "diffs": [
+            8.269545644369941,
+            14.009272851874023,
+            7.461695075637351,
+            37.86174131659047,
+            10.203307776447524
+          ]
+        },
+        "near_at_far05 (W50N-W50)": {
+          "mean": 8.445905990250726,
+          "sd": 7.337328937072652,
+          "se": 3.281353255314145,
+          "positive": 4,
+          "diffs": [
+            13.557172281775841,
+            14.114053576165404,
+            11.955271712999021,
+            -3.318677775319614,
+            5.921710155632979
+          ]
+        },
+        "far_without_near (BCMIX-W50)": {
+          "mean": -8.284455803223421,
+          "sd": 17.93217470008589,
+          "se": 8.019512322758791,
+          "positive": 2,
+          "diffs": [
+            6.37688200119387,
+            0.752709253263184,
+            -0.07234113544781451,
+            -38.61063434946321,
+            -9.868894785663137
+          ]
+        },
+        "far_with_near (BCMIXN-W50N)": {
+          "mean": -1.1692492604902867,
+          "sd": 3.6551285134488225,
+          "se": 1.6346231645138642,
+          "positive": 3,
+          "diffs": [
+            1.08925536378797,
+            0.6479285289718035,
+            -4.565917772809485,
+            2.5697847424468705,
+            -5.587297164848593
+          ]
+        },
+        "interaction": {
+          "mean": 7.1152065427331355,
+          "sd": 19.42414978509861,
+          "se": 8.686743864923685,
+          "positive": 2,
+          "diffs": [
+            -5.2876266374059,
+            -0.10478072429138052,
+            -4.49357663736167,
+            41.18041909191008,
+            4.281597620814544
+          ]
+        }
+      }
+    }
+  },
+  "per_task_screen": {
+    "BCMIXN": {
+      "walker2d-kinematic-thighjnt-medium": {
+        "screen_effective": true,
+        "nonpositive": false
+      }
+    }
+  },
+  "elapsed_hours": 4.168687955008613
+}

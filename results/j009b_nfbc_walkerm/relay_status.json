@@ -11,13 +11,20 @@
       "time": "2026-11-21T19:11:43+08:00",
       "state": "running",
       "note": "第 1 次运行，GPU=1，上限 12 小时"
+    },
+    {
+      "time": "2026-11-22T00:11:24+08:00",
+      "state": "completed",
+      "note": "取回 10 个文件，0.1 MB，跳过 1 个（大小上限、路径或脱敏检查）"
     }
   ],
-  "state": "running",
-  "note": "第 1 次运行，GPU=1，上限 12 小时",
-  "updated_at": "2026-11-21T19:11:43+08:00",
+  "state": "completed",
+  "note": "取回 10 个文件，0.1 MB，跳过 1 个（大小上限、路径或脱敏检查）",
+  "updated_at": "2026-11-22T00:11:24+08:00",
   "gpus": "1",
   "started_at": "2026-11-21T19:11:43+08:00",
   "max_hours": 12.0,
-  "remote_dir": "~/auto_jobs/j009b_nfbc_walkerm"
+  "remote_dir": "~/auto_jobs/j009b_nfbc_walkerm",
+  "exit_code": 0,
+  "finished_at": "2026-11-22T00:11:24+08:00"
 }

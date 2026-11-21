@@ -1,0 +1,98 @@
+[
+  {
+    "time": "2026-11-21T11:11:48Z",
+    "event": "start",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T11:12:08Z",
+    "event": "start",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T11:12:28Z",
+    "event": "start",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T11:12:48Z",
+    "event": "start",
+    "job": "smoke_W50_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T11:13:08Z",
+    "event": "start",
+    "job": "smoke_W50N_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T11:13:28Z",
+    "event": "start",
+    "job": "smoke_BCMIXN_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T11:13:58Z",
+    "event": "exit",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T11:13:58Z",
+    "event": "exit",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T11:13:58Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T11:13:58Z",
+    "event": "exit",
+    "job": "smoke_W50_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T11:14:08Z",
+    "event": "exit",
+    "job": "smoke_W50N_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T11:14:28Z",
+    "event": "exit",
+    "job": "smoke_BCMIXN_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]
