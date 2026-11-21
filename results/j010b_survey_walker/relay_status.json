@@ -6,9 +6,14 @@
       "time": "2026-11-21T14:31:55+08:00",
       "state": "waiting_gpu",
       "note": "没有满足条件的 GPU（利用率<60%、显存<75%）"
+    },
+    {
+      "time": "2026-11-21T14:56:40+08:00",
+      "state": "waiting_approval",
+      "note": "需要你授权：运行上限 25 小时超过 24 小时；在 GitHub 上把 job.json 的 approved_by_user 改成 true"
     }
   ],
-  "state": "waiting_gpu",
-  "note": "没有满足条件的 GPU（利用率<60%、显存<75%）",
-  "updated_at": "2026-11-21T14:31:55+08:00"
+  "state": "waiting_approval",
+  "note": "需要你授权：运行上限 25 小时超过 24 小时；在 GitHub 上把 job.json 的 approved_by_user 改成 true",
+  "updated_at": "2026-11-21T14:56:40+08:00"
 }

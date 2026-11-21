@@ -1,0 +1,37 @@
+{
+  "kept": [],
+  "skipped": [
+    {
+      "task": "hopper-gravity-0.5",
+      "reason": "target file not in the ODRL archive"
+    },
+    {
+      "task": "hopper-gravity-2.0",
+      "reason": "target file not in the ODRL archive"
+    },
+    {
+      "task": "hopper-friction-0.5",
+      "reason": "target file not in the ODRL archive"
+    },
+    {
+      "task": "hopper-friction-2.0",
+      "reason": "target file not in the ODRL archive"
+    },
+    {
+      "task": "hopper-kinematic-footjnt-medium",
+      "reason": "target file not in the ODRL archive"
+    },
+    {
+      "task": "hopper-kinematic-footjnt-hard",
+      "reason": "target file not in the ODRL archive"
+    },
+    {
+      "task": "hopper-morph-foot-medium",
+      "reason": "target file not in the ODRL archive"
+    },
+    {
+      "task": "hopper-morph-foot-hard",
+      "reason": "target file not in the ODRL archive"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[auto_runner] start 2026-11-21T14:31:52+08:00 host=<HOSTNAME> attempt=1 CUDA_VISIBLE_DEVICES=3 maxsec=57600
+[auto_runner] python=~/conda-envs/offdynamics38/bin/python
+[j010a_survey_hopper] CUDA_VISIBLE_DEVICES=3 host=<HOSTNAME>
+[j010a_survey_hopper 2026-11-21T06:31:52Z] GPUs ['3']
+Traceback (most recent call last):
+  File "~/auto_jobs/j010a_survey_hopper/code/controller.py", line 373, in <module>
+    code = main()
+  File "~/auto_jobs/j010a_survey_hopper/code/controller.py", line 327, in main
+    vendor, algo, data, sources, source_sha = prepare(cfg)
+  File "~/auto_jobs/j010a_survey_hopper/code/controller.py", line 108, in prepare
+    assert kept, 'no task has target data'
+AssertionError: no task has target data
+[j010a_survey_hopper] exit code 1
+[auto_runner] end 2026-11-21T14:31:53+08:00 rc=1

@@ -1,0 +1,5 @@
+{
+  "time": "2026-11-21T06:31:53Z",
+  "phase": "controller_error",
+  "traceback": "Traceback (most recent call last):\n  File \"~/auto_jobs/j010a_survey_hopper/code/controller.py\", line 373, in <module>\n    code = main()\n  File \"~/auto_jobs/j010a_survey_hopper/code/controller.py\", line 327, in main\n    vendor, algo, data, sources, source_sha = prepare(cfg)\n  File \"~/auto_jobs/j010a_survey_hopper/code/controller.py\", line 108, in prepare\n    assert kept, 'no task has target data'\nAssertionError: no task has target data\n"
+}

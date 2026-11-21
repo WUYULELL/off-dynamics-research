@@ -1,0 +1,9 @@
+[j010a_survey_hopper 2026-11-21T06:31:52Z] GPUs ['3']
+Traceback (most recent call last):
+  File "~/auto_jobs/j010a_survey_hopper/code/controller.py", line 373, in <module>
+    code = main()
+  File "~/auto_jobs/j010a_survey_hopper/code/controller.py", line 327, in main
+    vendor, algo, data, sources, source_sha = prepare(cfg)
+  File "~/auto_jobs/j010a_survey_hopper/code/controller.py", line 108, in prepare
+    assert kept, 'no task has target data'
+AssertionError: no task has target data
