@@ -11,13 +11,20 @@
       "time": "2026-11-21T22:15:41+08:00",
       "state": "running",
       "note": "第 1 次运行，GPU=0，上限 16 小时"
+    },
+    {
+      "time": "2026-11-21T22:36:10+08:00",
+      "state": "failed",
+      "note": "退出码 1；取回 4 个文件，0.0 MB"
     }
   ],
-  "state": "running",
-  "note": "第 1 次运行，GPU=0，上限 16 小时",
-  "updated_at": "2026-11-21T22:15:41+08:00",
+  "state": "failed",
+  "note": "退出码 1；取回 4 个文件，0.0 MB",
+  "updated_at": "2026-11-21T22:36:10+08:00",
   "gpus": "0",
   "started_at": "2026-11-21T22:15:41+08:00",
   "max_hours": 16.0,
-  "remote_dir": "~/auto_jobs/j010b_survey_walker_data_r1"
+  "remote_dir": "~/auto_jobs/j010b_survey_walker_data_r1",
+  "exit_code": 1,
+  "finished_at": "2026-11-21T22:36:10+08:00"
 }

@@ -1,0 +1,5 @@
+{
+  "time": "2026-11-21T14:15:44Z",
+  "phase": "controller_error",
+  "traceback": "Traceback (most recent call last):\n  File \"~/auto_jobs/j010b_survey_walker_data_r1/code/controller.py\", line 368, in <module>\n    code = main()\n  File \"~/auto_jobs/j010b_survey_walker_data_r1/code/controller.py\", line 322, in main\n    vendor, algo, data, sources, source_sha = prepare(cfg)\n  File \"~/auto_jobs/j010b_survey_walker_data_r1/code/controller.py\", line 106, in prepare\n    assert ARCHIVE.is_file() and sha(ARCHIVE) == ARCHIVE_SHA, 'ODRL archive missing or hash mismatch'\nNameError: name 'ARCHIVE' is not defined\n"
+}

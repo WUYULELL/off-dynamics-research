@@ -1,0 +1,14 @@
+[auto_runner] start 2026-11-21T22:15:43+08:00 host=<HOSTNAME> attempt=1 CUDA_VISIBLE_DEVICES=0 maxsec=57600
+[auto_runner] python=~/conda-envs/offdynamics38/bin/python
+[j010b_survey_walker_data_r1] CUDA_VISIBLE_DEVICES=0 host=<HOSTNAME>
+[j010b_survey_walker_data_r1 2026-11-21T14:15:43Z] GPUs ['0']
+Traceback (most recent call last):
+  File "~/auto_jobs/j010b_survey_walker_data_r1/code/controller.py", line 368, in <module>
+    code = main()
+  File "~/auto_jobs/j010b_survey_walker_data_r1/code/controller.py", line 322, in main
+    vendor, algo, data, sources, source_sha = prepare(cfg)
+  File "~/auto_jobs/j010b_survey_walker_data_r1/code/controller.py", line 106, in prepare
+    assert ARCHIVE.is_file() and sha(ARCHIVE) == ARCHIVE_SHA, 'ODRL archive missing or hash mismatch'
+NameError: name 'ARCHIVE' is not defined
+[j010b_survey_walker_data_r1] exit code 1
+[auto_runner] end 2026-11-21T22:15:44+08:00 rc=1

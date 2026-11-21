@@ -1,14 +1,23 @@
 {
   "job_id": "j010b_survey_walker_data_r2",
-  "attempts": 0,
+  "attempts": 1,
   "history": [
     {
       "time": "2026-11-21T22:15:45+08:00",
       "state": "waiting_gpu",
       "note": "没有满足条件的 GPU（利用率<60%、显存<75%）"
+    },
+    {
+      "time": "2026-11-21T22:36:24+08:00",
+      "state": "running",
+      "note": "第 1 次运行，GPU=0，上限 16 小时"
     }
   ],
-  "state": "waiting_gpu",
-  "note": "没有满足条件的 GPU（利用率<60%、显存<75%）",
-  "updated_at": "2026-11-21T22:15:45+08:00"
+  "state": "running",
+  "note": "第 1 次运行，GPU=0，上限 16 小时",
+  "updated_at": "2026-11-21T22:36:24+08:00",
+  "gpus": "0",
+  "started_at": "2026-11-21T22:36:24+08:00",
+  "max_hours": 16.0,
+  "remote_dir": "~/auto_jobs/j010b_survey_walker_data_r2"
 }
