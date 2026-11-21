@@ -1,0 +1,18 @@
+{
+  "job_id": "j011_w50n_confirm",
+  "attempts": 1,
+  "history": [
+    {
+      "time": "2026-11-22T01:11:26+08:00",
+      "state": "running",
+      "note": "第 1 次运行，GPU=1，上限 16 小时"
+    }
+  ],
+  "state": "running",
+  "note": "第 1 次运行，GPU=1，上限 16 小时",
+  "gpus": "1",
+  "started_at": "2026-11-22T01:11:26+08:00",
+  "max_hours": 16.0,
+  "remote_dir": "~/auto_jobs/j011_w50n_confirm",
+  "updated_at": "2026-11-22T01:11:26+08:00"
+}
