@@ -1,0 +1,770 @@
+[
+  {
+    "time": "2026-11-21T14:22:02Z",
+    "event": "start",
+    "job": "BC_hopper-gravity-0.5_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:22:22Z",
+    "event": "start",
+    "job": "BC_hopper-gravity-0.5_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:22:42Z",
+    "event": "start",
+    "job": "BC_hopper-gravity-0.5_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:23:02Z",
+    "event": "start",
+    "job": "BC_hopper-gravity-2.0_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:23:22Z",
+    "event": "start",
+    "job": "BC_hopper-gravity-2.0_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:23:42Z",
+    "event": "start",
+    "job": "BC_hopper-gravity-2.0_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:43:23Z",
+    "event": "exit",
+    "job": "BC_hopper-gravity-2.0_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:43:23Z",
+    "event": "start",
+    "job": "BC_hopper-friction-0.5_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:43:53Z",
+    "event": "exit",
+    "job": "BC_hopper-gravity-2.0_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:43:53Z",
+    "event": "start",
+    "job": "BC_hopper-friction-0.5_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:44:23Z",
+    "event": "exit",
+    "job": "BC_hopper-gravity-0.5_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:44:23Z",
+    "event": "exit",
+    "job": "BC_hopper-gravity-2.0_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:44:23Z",
+    "event": "start",
+    "job": "BC_hopper-friction-0.5_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:44:43Z",
+    "event": "start",
+    "job": "BC_hopper-friction-2.0_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:45:13Z",
+    "event": "exit",
+    "job": "BC_hopper-gravity-0.5_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:45:13Z",
+    "event": "start",
+    "job": "BC_hopper-friction-2.0_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:46:03Z",
+    "event": "exit",
+    "job": "BC_hopper-gravity-0.5_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:46:03Z",
+    "event": "start",
+    "job": "BC_hopper-friction-2.0_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:04:14Z",
+    "event": "exit",
+    "job": "BC_hopper-friction-2.0_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:04:14Z",
+    "event": "exit",
+    "job": "BC_hopper-friction-2.0_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:04:14Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-footjnt-medium_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:04:34Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-footjnt-medium_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:05:04Z",
+    "event": "exit",
+    "job": "BC_hopper-friction-2.0_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:05:04Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-footjnt-medium_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:05:34Z",
+    "event": "exit",
+    "job": "BC_hopper-friction-0.5_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:05:34Z",
+    "event": "exit",
+    "job": "BC_hopper-friction-0.5_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:05:34Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-footjnt-hard_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:05:54Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-footjnt-hard_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:06:34Z",
+    "event": "exit",
+    "job": "BC_hopper-friction-0.5_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:06:35Z",
+    "event": "start",
+    "job": "BC_hopper-kinematic-footjnt-hard_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:32:16Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-footjnt-medium_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:32:16Z",
+    "event": "start",
+    "job": "BC_hopper-morph-foot-medium_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:32:56Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-footjnt-medium_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:32:56Z",
+    "event": "start",
+    "job": "BC_hopper-morph-foot-medium_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:33:26Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-footjnt-medium_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:33:26Z",
+    "event": "start",
+    "job": "BC_hopper-morph-foot-medium_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:35:36Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-footjnt-hard_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:35:36Z",
+    "event": "start",
+    "job": "BC_hopper-morph-foot-hard_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:36:06Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-footjnt-hard_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:36:06Z",
+    "event": "start",
+    "job": "BC_hopper-morph-foot-hard_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:36:36Z",
+    "event": "exit",
+    "job": "BC_hopper-kinematic-footjnt-hard_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:36:36Z",
+    "event": "start",
+    "job": "BC_hopper-morph-foot-hard_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:57:57Z",
+    "event": "exit",
+    "job": "BC_hopper-morph-foot-medium_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:57:57Z",
+    "event": "start",
+    "job": "BCMIX_hopper-gravity-0.5_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:59:08Z",
+    "event": "exit",
+    "job": "BC_hopper-morph-foot-medium_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:59:08Z",
+    "event": "start",
+    "job": "BCMIX_hopper-gravity-0.5_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:00:38Z",
+    "event": "exit",
+    "job": "BC_hopper-morph-foot-medium_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:00:38Z",
+    "event": "start",
+    "job": "BCMIX_hopper-gravity-0.5_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:01:28Z",
+    "event": "exit",
+    "job": "BC_hopper-morph-foot-hard_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:01:28Z",
+    "event": "start",
+    "job": "BCMIX_hopper-gravity-2.0_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:02:08Z",
+    "event": "exit",
+    "job": "BC_hopper-morph-foot-hard_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:02:08Z",
+    "event": "start",
+    "job": "BCMIX_hopper-gravity-2.0_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:02:48Z",
+    "event": "exit",
+    "job": "BC_hopper-morph-foot-hard_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:02:48Z",
+    "event": "start",
+    "job": "BCMIX_hopper-gravity-2.0_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:29:49Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-gravity-0.5_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:29:49Z",
+    "event": "start",
+    "job": "BCMIX_hopper-friction-0.5_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:31:10Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-gravity-0.5_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:31:10Z",
+    "event": "start",
+    "job": "BCMIX_hopper-friction-0.5_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:32:10Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-gravity-0.5_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:32:10Z",
+    "event": "start",
+    "job": "BCMIX_hopper-friction-0.5_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:32:40Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-gravity-2.0_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:32:40Z",
+    "event": "start",
+    "job": "BCMIX_hopper-friction-2.0_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:33:10Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-gravity-2.0_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:33:10Z",
+    "event": "start",
+    "job": "BCMIX_hopper-friction-2.0_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:33:40Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-gravity-2.0_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:33:40Z",
+    "event": "start",
+    "job": "BCMIX_hopper-friction-2.0_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:03:21Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-friction-2.0_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:03:21Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-footjnt-medium_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:03:51Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-friction-0.5_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:03:51Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-friction-2.0_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:03:51Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-footjnt-medium_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:04:12Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-footjnt-medium_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:04:42Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-friction-0.5_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:04:42Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-friction-2.0_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:04:42Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-footjnt-hard_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:05:02Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-footjnt-hard_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:05:32Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-friction-0.5_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:05:32Z",
+    "event": "start",
+    "job": "BCMIX_hopper-kinematic-footjnt-hard_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:35:03Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-footjnt-medium_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:35:03Z",
+    "event": "start",
+    "job": "BCMIX_hopper-morph-foot-medium_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:35:33Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-footjnt-medium_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:35:33Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-footjnt-medium_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:35:33Z",
+    "event": "start",
+    "job": "BCMIX_hopper-morph-foot-medium_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:35:53Z",
+    "event": "start",
+    "job": "BCMIX_hopper-morph-foot-medium_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:46:24Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-footjnt-hard_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:46:24Z",
+    "event": "start",
+    "job": "BCMIX_hopper-morph-foot-hard_s3126",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:47:04Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-footjnt-hard_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:47:04Z",
+    "event": "start",
+    "job": "BCMIX_hopper-morph-foot-hard_s3127",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:47:34Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-kinematic-footjnt-hard_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:47:34Z",
+    "event": "start",
+    "job": "BCMIX_hopper-morph-foot-hard_s3128",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T18:05:55Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-morph-foot-medium_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:06:55Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-morph-foot-medium_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:06:55Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-morph-foot-medium_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:16:26Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-morph-foot-hard_s3127",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:16:56Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-morph-foot-hard_s3128",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:17:36Z",
+    "event": "exit",
+    "job": "BCMIX_hopper-morph-foot-hard_s3126",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

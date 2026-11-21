@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-21T18:16:56Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 47,
+  "failed": 0,
+  "progress": {
+    "BCMIX_hopper-morph-foot-hard_s3126": "196000/200000"
+  }
+}

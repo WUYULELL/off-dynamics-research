@@ -1,0 +1,258 @@
+[
+  {
+    "time": "2026-11-21T14:15:31Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-gravity-0.5_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:15:51Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-gravity-2.0_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:16:11Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-friction-0.5_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:16:31Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-friction-2.0_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:16:51Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:17:11Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-kinematic-footjnt-hard_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:17:42Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-gravity-0.5_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:17:42Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-gravity-2.0_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:17:42Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-friction-0.5_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:17:42Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-friction-2.0_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:17:42Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:17:42Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-kinematic-footjnt-hard_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:17:42Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-morph-foot-medium_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:18:02Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-morph-foot-hard_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:18:22Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-gravity-0.5_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:18:42Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-gravity-2.0_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:19:02Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-friction-0.5_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:19:22Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-friction-2.0_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:19:52Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-morph-foot-medium_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:19:52Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-morph-foot-hard_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:19:52Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-gravity-0.5_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:19:52Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-gravity-2.0_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:19:52Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:20:12Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-kinematic-footjnt-hard_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:20:32Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-morph-foot-medium_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:20:52Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-morph-foot-hard_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:21:22Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-friction-0.5_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:21:22Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-friction-2.0_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:21:22Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:21:22Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-kinematic-footjnt-hard_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:21:32Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-morph-foot-medium_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T14:21:52Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-morph-foot-hard_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "BC_hopper-gravity-0.5_s3126",
+    "task": "hopper-gravity-0.5",
+    "group": "BC",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-gravity-0.5_s3127",
+    "task": "hopper-gravity-0.5",
+    "group": "BC",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-gravity-0.5_s3128",
+    "task": "hopper-gravity-0.5",
+    "group": "BC",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-gravity-2.0_s3126",
+    "task": "hopper-gravity-2.0",
+    "group": "BC",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-gravity-2.0_s3127",
+    "task": "hopper-gravity-2.0",
+    "group": "BC",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-gravity-2.0_s3128",
+    "task": "hopper-gravity-2.0",
+    "group": "BC",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-friction-0.5_s3126",
+    "task": "hopper-friction-0.5",
+    "group": "BC",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-friction-0.5_s3127",
+    "task": "hopper-friction-0.5",
+    "group": "BC",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-friction-0.5_s3128",
+    "task": "hopper-friction-0.5",
+    "group": "BC",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-friction-2.0_s3126",
+    "task": "hopper-friction-2.0",
+    "group": "BC",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-friction-2.0_s3127",
+    "task": "hopper-friction-2.0",
+    "group": "BC",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-friction-2.0_s3128",
+    "task": "hopper-friction-2.0",
+    "group": "BC",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-medium_s3126",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BC",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-medium_s3127",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BC",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-medium_s3128",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BC",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-hard_s3126",
+    "task": "hopper-kinematic-footjnt-hard",
+    "group": "BC",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-hard_s3127",
+    "task": "hopper-kinematic-footjnt-hard",
+    "group": "BC",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-hard_s3128",
+    "task": "hopper-kinematic-footjnt-hard",
+    "group": "BC",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-morph-foot-medium_s3126",
+    "task": "hopper-morph-foot-medium",
+    "group": "BC",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-morph-foot-medium_s3127",
+    "task": "hopper-morph-foot-medium",
+    "group": "BC",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-morph-foot-medium_s3128",
+    "task": "hopper-morph-foot-medium",
+    "group": "BC",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-morph-foot-hard_s3126",
+    "task": "hopper-morph-foot-hard",
+    "group": "BC",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-morph-foot-hard_s3127",
+    "task": "hopper-morph-foot-hard",
+    "group": "BC",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-morph-foot-hard_s3128",
+    "task": "hopper-morph-foot-hard",
+    "group": "BC",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-gravity-0.5_s3126",
+    "task": "hopper-gravity-0.5",
+    "group": "BCMIX",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-gravity-0.5_s3127",
+    "task": "hopper-gravity-0.5",
+    "group": "BCMIX",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-gravity-0.5_s3128",
+    "task": "hopper-gravity-0.5",
+    "group": "BCMIX",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-gravity-2.0_s3126",
+    "task": "hopper-gravity-2.0",
+    "group": "BCMIX",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-gravity-2.0_s3127",
+    "task": "hopper-gravity-2.0",
+    "group": "BCMIX",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-gravity-2.0_s3128",
+    "task": "hopper-gravity-2.0",
+    "group": "BCMIX",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-friction-0.5_s3126",
+    "task": "hopper-friction-0.5",
+    "group": "BCMIX",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-friction-0.5_s3127",
+    "task": "hopper-friction-0.5",
+    "group": "BCMIX",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-friction-0.5_s3128",
+    "task": "hopper-friction-0.5",
+    "group": "BCMIX",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-friction-2.0_s3126",
+    "task": "hopper-friction-2.0",
+    "group": "BCMIX",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-friction-2.0_s3127",
+    "task": "hopper-friction-2.0",
+    "group": "BCMIX",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-friction-2.0_s3128",
+    "task": "hopper-friction-2.0",
+    "group": "BCMIX",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-medium_s3126",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BCMIX",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-medium_s3127",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BCMIX",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-medium_s3128",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BCMIX",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-hard_s3126",
+    "task": "hopper-kinematic-footjnt-hard",
+    "group": "BCMIX",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-hard_s3127",
+    "task": "hopper-kinematic-footjnt-hard",
+    "group": "BCMIX",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-hard_s3128",
+    "task": "hopper-kinematic-footjnt-hard",
+    "group": "BCMIX",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-morph-foot-medium_s3126",
+    "task": "hopper-morph-foot-medium",
+    "group": "BCMIX",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-morph-foot-medium_s3127",
+    "task": "hopper-morph-foot-medium",
+    "group": "BCMIX",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-morph-foot-medium_s3128",
+    "task": "hopper-morph-foot-medium",
+    "group": "BCMIX",
+    "seed": 3128,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-morph-foot-hard_s3126",
+    "task": "hopper-morph-foot-hard",
+    "group": "BCMIX",
+    "seed": 3126,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-morph-foot-hard_s3127",
+    "task": "hopper-morph-foot-hard",
+    "group": "BCMIX",
+    "seed": 3127,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-morph-foot-hard_s3128",
+    "task": "hopper-morph-foot-hard",
+    "group": "BCMIX",
+    "seed": 3128,
+    "steps": 200000
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-21T18:11:00Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 47,
+  "failed": 0,
+  "progress": {
+    "BCMIX_walker2d-morph-leg-medium_s3128": "195000/200000"
+  }
+}

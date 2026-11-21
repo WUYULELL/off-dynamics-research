@@ -1,0 +1,46 @@
+{
+  "source": "~/odrl_target_extra_20261121/raw",
+  "kept": [
+    {
+      "task": "hopper-gravity-0.5",
+      "file": "hopper_gravity_0.5_medium.hdf5",
+      "sha256": "827ad7f2a64801d797a7b0b4920fd856ce1071ba00fbed5e09a55f2819f263a7"
+    },
+    {
+      "task": "hopper-gravity-2.0",
+      "file": "hopper_gravity_2.0_medium.hdf5",
+      "sha256": "dfd573b6968a6dc4c64441ac745dbed4c1cba76084fa93ff1cb221141258d192"
+    },
+    {
+      "task": "hopper-friction-0.5",
+      "file": "hopper_friction_0.5_medium.hdf5",
+      "sha256": "80d16bd15ad11811d7e1d9a417f1425cff9054c6d7fe1f8eaefdda3bc076efb3"
+    },
+    {
+      "task": "hopper-friction-2.0",
+      "file": "hopper_friction_2.0_medium.hdf5",
+      "sha256": "a05590dff8bdd484e203c1e2577b9bea799f0e678c0996739f7853c0cb0c7730"
+    },
+    {
+      "task": "hopper-kinematic-footjnt-medium",
+      "file": "hopper_kinematic_footjnt_medium_medium.hdf5",
+      "sha256": "c6a64c6ddcc5f113a185076e6049c6baa75fb2304c12862a17e86369514e5134"
+    },
+    {
+      "task": "hopper-kinematic-footjnt-hard",
+      "file": "hopper_kinematic_footjnt_hard_medium.hdf5",
+      "sha256": "01a7f799d06cc6f82e7b8e5cd6610654d2c087cb060126d3aeac6c395fa3f085"
+    },
+    {
+      "task": "hopper-morph-foot-medium",
+      "file": "hopper_morph_foot_medium_medium.hdf5",
+      "sha256": "1cdf9a7fb6c6e86d820b048f8cc616551cc7ea960e12eb72340cca640f7c8cb0"
+    },
+    {
+      "task": "hopper-morph-foot-hard",
+      "file": "hopper_morph_foot_hard_medium.hdf5",
+      "sha256": "49a3208f01aecabe3796dbf718d7d3197f5cc764e6c3d92a896348f725e6930b"
+    }
+  ],
+  "skipped": []
+}

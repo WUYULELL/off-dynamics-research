@@ -1,0 +1,770 @@
+[
+  {
+    "time": "2026-11-21T14:43:07Z",
+    "event": "start",
+    "job": "BC_walker2d-gravity-0.5_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:43:27Z",
+    "event": "start",
+    "job": "BC_walker2d-gravity-0.5_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:43:47Z",
+    "event": "start",
+    "job": "BC_walker2d-gravity-0.5_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:44:07Z",
+    "event": "start",
+    "job": "BC_walker2d-gravity-2.0_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:44:27Z",
+    "event": "start",
+    "job": "BC_walker2d-gravity-2.0_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T14:44:47Z",
+    "event": "start",
+    "job": "BC_walker2d-gravity-2.0_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:00:18Z",
+    "event": "exit",
+    "job": "BC_walker2d-gravity-0.5_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:00:18Z",
+    "event": "start",
+    "job": "BC_walker2d-friction-0.5_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:01:08Z",
+    "event": "exit",
+    "job": "BC_walker2d-gravity-0.5_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:01:08Z",
+    "event": "start",
+    "job": "BC_walker2d-friction-0.5_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:03:58Z",
+    "event": "exit",
+    "job": "BC_walker2d-gravity-0.5_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:03:58Z",
+    "event": "start",
+    "job": "BC_walker2d-friction-0.5_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:04:28Z",
+    "event": "exit",
+    "job": "BC_walker2d-gravity-2.0_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:04:28Z",
+    "event": "start",
+    "job": "BC_walker2d-friction-2.0_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:05:19Z",
+    "event": "exit",
+    "job": "BC_walker2d-gravity-2.0_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:05:19Z",
+    "event": "start",
+    "job": "BC_walker2d-friction-2.0_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:05:49Z",
+    "event": "exit",
+    "job": "BC_walker2d-gravity-2.0_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:05:49Z",
+    "event": "start",
+    "job": "BC_walker2d-friction-2.0_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:21:39Z",
+    "event": "exit",
+    "job": "BC_walker2d-friction-0.5_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:21:40Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-footjnt-medium_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:22:10Z",
+    "event": "exit",
+    "job": "BC_walker2d-friction-0.5_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:22:10Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-footjnt-medium_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:26:40Z",
+    "event": "exit",
+    "job": "BC_walker2d-friction-0.5_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:26:40Z",
+    "event": "exit",
+    "job": "BC_walker2d-friction-2.0_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:26:40Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-footjnt-medium_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:27:00Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-footjnt-hard_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:28:30Z",
+    "event": "exit",
+    "job": "BC_walker2d-friction-2.0_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:28:30Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-footjnt-hard_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:29:00Z",
+    "event": "exit",
+    "job": "BC_walker2d-friction-2.0_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:29:00Z",
+    "event": "start",
+    "job": "BC_walker2d-kinematic-footjnt-hard_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:44:51Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-footjnt-medium_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:44:51Z",
+    "event": "start",
+    "job": "BC_walker2d-morph-leg-medium_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:45:21Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-footjnt-medium_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:45:21Z",
+    "event": "start",
+    "job": "BC_walker2d-morph-leg-medium_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:48:51Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-footjnt-medium_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:48:51Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-footjnt-hard_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:48:51Z",
+    "event": "start",
+    "job": "BC_walker2d-morph-leg-medium_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:49:11Z",
+    "event": "start",
+    "job": "BC_walker2d-morph-leg-hard_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:50:11Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-footjnt-hard_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:50:11Z",
+    "event": "start",
+    "job": "BC_walker2d-morph-leg-hard_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T15:50:41Z",
+    "event": "exit",
+    "job": "BC_walker2d-kinematic-footjnt-hard_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T15:50:41Z",
+    "event": "start",
+    "job": "BC_walker2d-morph-leg-hard_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:06:22Z",
+    "event": "exit",
+    "job": "BC_walker2d-morph-leg-medium_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:06:22Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-gravity-0.5_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:06:52Z",
+    "event": "exit",
+    "job": "BC_walker2d-morph-leg-medium_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:06:52Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-gravity-0.5_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:10:53Z",
+    "event": "exit",
+    "job": "BC_walker2d-morph-leg-medium_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:10:53Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-gravity-0.5_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:12:03Z",
+    "event": "exit",
+    "job": "BC_walker2d-morph-leg-hard_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:12:03Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-gravity-2.0_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:13:33Z",
+    "event": "exit",
+    "job": "BC_walker2d-morph-leg-hard_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:13:33Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-gravity-2.0_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:14:03Z",
+    "event": "exit",
+    "job": "BC_walker2d-morph-leg-hard_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:14:03Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-gravity-2.0_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:37:04Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-gravity-0.5_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:37:04Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-friction-0.5_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:37:34Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-gravity-0.5_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:37:34Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-friction-0.5_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:38:14Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-gravity-2.0_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:38:14Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-friction-0.5_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:40:04Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-gravity-2.0_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:40:04Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-gravity-2.0_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:40:04Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-friction-2.0_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:40:24Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-friction-2.0_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T16:41:34Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-gravity-0.5_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T16:41:34Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-friction-2.0_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:08:26Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-friction-2.0_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:08:26Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-footjnt-medium_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:09:56Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-friction-0.5_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:09:56Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-footjnt-medium_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:10:26Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-friction-0.5_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:10:26Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-friction-0.5_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:10:26Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-footjnt-medium_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:10:46Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-footjnt-hard_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:11:36Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-friction-2.0_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:11:36Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-footjnt-hard_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:12:06Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-friction-2.0_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:12:06Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-kinematic-footjnt-hard_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:38:48Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-footjnt-medium_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:38:48Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-footjnt-medium_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:38:48Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-morph-leg-medium_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:39:08Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-morph-leg-medium_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:40:48Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-footjnt-medium_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:40:48Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-morph-leg-medium_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:42:28Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-footjnt-hard_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:42:28Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-morph-leg-hard_s3126",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:43:08Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-footjnt-hard_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:43:08Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-morph-leg-hard_s3127",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:43:38Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-kinematic-footjnt-hard_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:43:38Z",
+    "event": "start",
+    "job": "BCMIX_walker2d-morph-leg-hard_s3128",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T18:09:30Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-morph-leg-medium_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:09:50Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-morph-leg-hard_s3126",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:10:10Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-morph-leg-hard_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:10:20Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-morph-leg-medium_s3127",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:10:40Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-morph-leg-hard_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T18:11:40Z",
+    "event": "exit",
+    "job": "BCMIX_walker2d-morph-leg-medium_s3128",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]
