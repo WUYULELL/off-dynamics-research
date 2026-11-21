@@ -1,0 +1,14 @@
+{
+  "job_id": "j010b_survey_walker_data_r1",
+  "attempts": 0,
+  "history": [
+    {
+      "time": "2026-11-21T15:58:56+08:00",
+      "state": "waiting_gpu",
+      "note": "没有满足条件的 GPU（利用率<60%、显存<75%）"
+    }
+  ],
+  "state": "waiting_gpu",
+  "note": "没有满足条件的 GPU（利用率<60%、显存<75%）",
+  "updated_at": "2026-11-21T15:58:56+08:00"
+}
