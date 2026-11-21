@@ -3,7 +3,7 @@
   "description": "j010 子任务（用户 2026-11-21 要求的全景调查，描述性，不判定）：在 walker2d 的 8 个 ODRL 任务（重力 0.5/2.0、摩擦 0.5/2.0、关节限位 medium/hard、形态 medium/hard）上只跑 BC 和 BC-混合，看源数据在哪里有用、在哪里有害。种子 3126–3128（新种子），48 项训练（另 16 项冒烟）。",
   "hypothesis": "描述性调查，不登记候选、不判定；见 research/PLAN.md 的 j010 登记。",
   "gpus": 1,
-  "max_hours": 16,
+  "max_hours": 25,
   "retries": 1,
   "conda_env": "offdynamics38",
   "result_dirs": [
@@ -11,5 +11,6 @@
   ],
   "approved_by_user": false,
   "created_by": "claude",
-  "parent_job": "user_request_20261121_survey"
+  "parent_job": "user_request_20261121_survey",
+  "parked_note": "2026-11-21 主研究对话暂停：j010a 发现所选 8 个任务的目标数据都不在 ODRL 压缩包里，j010b 的任务很可能同样缺失。max_hours 改为 25 使其进入 waiting_approval、不会自动运行；不要授权。会按压缩包里实际有的数据重新登记为新任务。"
 }

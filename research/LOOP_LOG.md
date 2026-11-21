@@ -107,3 +107,9 @@
 - 登记并提交 **j010_survey**（j010a_survey_hopper、j010b_survey_walker，种子 3126–3128）：描述性全景调查，每种机器人 8 个 ODRL 任务只跑 BC 和 BC-混合。**不是研究实验**：不判定、不计入 experiments_started 和“连续无筛查有效”。结果出来后请定时会话写描述性分析（analysis/j010_survey.md），挑出“源数据有害”和“有益但只用目标数据不稳定”的任务，供之后的筛查使用。
 - 隐私问题：relay 收集的 stdout 类文件含服务器用户名、主机名、家目录路径（results/ 下约 22 个文件）。Codex 在启动 j009 前发现并停下。已给用户一份 Codex 指令：relay 收集时脱敏、清理现有 results/ 文件后再运行 --once。定时会话写分析或进度记录时，不要把服务器用户名、主机名、绝对路径抄进 analysis/ 或文档。
 - LOOP_STATE：next_seed=3129（experiments_started 仍为 6）。j009、j010 都已提交，**定时会话不要再登记新实验**，等结果。
+
+## 2026-11-21 06:50 UTC（主研究对话）
+- relay 已加脱敏（Codex，35d0d21 清理已公开的 22 个文件；b3ca9f3 取回 j008，stdout 类原文不上传）。
+- j009a、j009c 运行中（GPU 1、0）；j009b 等空卡。
+- **j010a 失败（退出码 1，未开始训练）**：所选 8 个 hopper 任务的目标数据都不在 ODRL 压缩包 `raw/` 里，按登记规则全部去掉后无任务可跑。这是我登记时没有先核对压缩包内容造成的。j010b（walker）多半同样缺数据，已把它的 `max_hours` 改为 25 使其停在 `waiting_approval`，**不要授权**。
+- 下一步：请 Codex 列出压缩包里全部 hopper / walker2d 目标文件，再按实际有的数据重新登记调查（用新任务名，不复用 j010）。halfcheetah、ant：压缩包里没有目标数据，服务器上也没有 D4RL 源数据，调查只限 hopper / walker2d。
