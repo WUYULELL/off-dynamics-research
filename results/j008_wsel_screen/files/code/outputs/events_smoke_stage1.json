@@ -1,0 +1,354 @@
+[
+  {
+    "time": "2026-11-20T16:13:27Z",
+    "event": "start",
+    "job": "smoke_source_hopper_m0",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:13:47Z",
+    "event": "start",
+    "job": "smoke_source_hopper_m1",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:14:07Z",
+    "event": "start",
+    "job": "smoke_source_hopper_m2",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:14:27Z",
+    "event": "start",
+    "job": "smoke_source_hopper_m3",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:14:47Z",
+    "event": "start",
+    "job": "smoke_source_hopper_m4",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:15:07Z",
+    "event": "start",
+    "job": "smoke_source_walker2d_m0",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:15:37Z",
+    "event": "exit",
+    "job": "smoke_source_hopper_m0",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:15:37Z",
+    "event": "exit",
+    "job": "smoke_source_hopper_m1",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:15:37Z",
+    "event": "exit",
+    "job": "smoke_source_hopper_m2",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:15:37Z",
+    "event": "exit",
+    "job": "smoke_source_hopper_m3",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:15:37Z",
+    "event": "exit",
+    "job": "smoke_source_hopper_m4",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:15:37Z",
+    "event": "start",
+    "job": "smoke_source_walker2d_m1",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:15:57Z",
+    "event": "start",
+    "job": "smoke_source_walker2d_m2",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:16:17Z",
+    "event": "start",
+    "job": "smoke_source_walker2d_m3",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:16:37Z",
+    "event": "start",
+    "job": "smoke_source_walker2d_m4",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:16:58Z",
+    "event": "start",
+    "job": "smoke_W0_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:17:28Z",
+    "event": "exit",
+    "job": "smoke_source_walker2d_m0",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:17:28Z",
+    "event": "exit",
+    "job": "smoke_source_walker2d_m1",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:17:28Z",
+    "event": "exit",
+    "job": "smoke_source_walker2d_m2",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:17:28Z",
+    "event": "exit",
+    "job": "smoke_source_walker2d_m3",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:17:28Z",
+    "event": "exit",
+    "job": "smoke_source_walker2d_m4",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:17:28Z",
+    "event": "exit",
+    "job": "smoke_W0_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:17:28Z",
+    "event": "start",
+    "job": "smoke_W0_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:17:48Z",
+    "event": "start",
+    "job": "smoke_W0_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:18:08Z",
+    "event": "start",
+    "job": "smoke_W25_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:18:28Z",
+    "event": "start",
+    "job": "smoke_W25_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:18:48Z",
+    "event": "start",
+    "job": "smoke_W25_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:19:08Z",
+    "event": "start",
+    "job": "smoke_W50_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:19:38Z",
+    "event": "exit",
+    "job": "smoke_W0_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:19:38Z",
+    "event": "exit",
+    "job": "smoke_W0_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:19:38Z",
+    "event": "exit",
+    "job": "smoke_W25_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:19:38Z",
+    "event": "exit",
+    "job": "smoke_W25_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:19:38Z",
+    "event": "exit",
+    "job": "smoke_W25_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:19:38Z",
+    "event": "start",
+    "job": "smoke_W50_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:19:58Z",
+    "event": "start",
+    "job": "smoke_W50_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:20:18Z",
+    "event": "start",
+    "job": "smoke_W100_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:20:38Z",
+    "event": "start",
+    "job": "smoke_W100_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:20:58Z",
+    "event": "start",
+    "job": "smoke_W100_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "3",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-20T16:21:28Z",
+    "event": "exit",
+    "job": "smoke_W50_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:21:28Z",
+    "event": "exit",
+    "job": "smoke_W50_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:21:28Z",
+    "event": "exit",
+    "job": "smoke_W50_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:21:28Z",
+    "event": "exit",
+    "job": "smoke_W100_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:21:28Z",
+    "event": "exit",
+    "job": "smoke_W100_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-20T16:21:38Z",
+    "event": "exit",
+    "job": "smoke_W100_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "3",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

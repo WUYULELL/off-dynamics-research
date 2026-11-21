@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-21T04:27:23Z",
+  "phase": "main_select",
+  "pending": 0,
+  "running": 1,
+  "done": 14,
+  "failed": 0,
+  "progress": {
+    "select_walker2d-kinematic-thighjnt-hard_s3120": "146000/150000"
+  }
+}

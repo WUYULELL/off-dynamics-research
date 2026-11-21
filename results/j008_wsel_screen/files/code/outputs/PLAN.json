@@ -1,0 +1,282 @@
+[
+  {
+    "id": "source_hopper_m0",
+    "kind": "source"
+  },
+  {
+    "id": "source_hopper_m1",
+    "kind": "source"
+  },
+  {
+    "id": "source_hopper_m2",
+    "kind": "source"
+  },
+  {
+    "id": "source_hopper_m3",
+    "kind": "source"
+  },
+  {
+    "id": "source_hopper_m4",
+    "kind": "source"
+  },
+  {
+    "id": "source_walker2d_m0",
+    "kind": "source"
+  },
+  {
+    "id": "source_walker2d_m1",
+    "kind": "source"
+  },
+  {
+    "id": "source_walker2d_m2",
+    "kind": "source"
+  },
+  {
+    "id": "source_walker2d_m3",
+    "kind": "source"
+  },
+  {
+    "id": "source_walker2d_m4",
+    "kind": "source"
+  },
+  {
+    "id": "W0_hopper-kinematic-legjnt-medium_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_hopper-kinematic-legjnt-medium_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_hopper-kinematic-legjnt-medium_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_hopper-kinematic-legjnt-medium_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_hopper-kinematic-legjnt-medium_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-medium_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-medium_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-medium_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-medium_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-medium_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-hard_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-hard_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-hard_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-hard_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W0_walker2d-kinematic-thighjnt-hard_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_hopper-kinematic-legjnt-medium_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_hopper-kinematic-legjnt-medium_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_hopper-kinematic-legjnt-medium_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_hopper-kinematic-legjnt-medium_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_hopper-kinematic-legjnt-medium_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-medium_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-medium_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-medium_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-medium_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-medium_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-hard_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-hard_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-hard_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-hard_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W25_walker2d-kinematic-thighjnt-hard_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_hopper-kinematic-legjnt-medium_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_hopper-kinematic-legjnt-medium_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_hopper-kinematic-legjnt-medium_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_hopper-kinematic-legjnt-medium_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_hopper-kinematic-legjnt-medium_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-medium_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-medium_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-medium_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-medium_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-medium_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-hard_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-hard_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-hard_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-hard_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W50_walker2d-kinematic-thighjnt-hard_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_hopper-kinematic-legjnt-medium_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_hopper-kinematic-legjnt-medium_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_hopper-kinematic-legjnt-medium_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_hopper-kinematic-legjnt-medium_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_hopper-kinematic-legjnt-medium_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-medium_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-medium_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-medium_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-medium_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-medium_s3120",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-hard_s3116",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-hard_s3117",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-hard_s3118",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-hard_s3119",
+    "kind": "policy"
+  },
+  {
+    "id": "W100_walker2d-kinematic-thighjnt-hard_s3120",
+    "kind": "policy"
+  }
+]

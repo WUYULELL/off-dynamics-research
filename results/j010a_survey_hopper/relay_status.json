@@ -1,0 +1,18 @@
+{
+  "job_id": "j010a_survey_hopper",
+  "attempts": 1,
+  "history": [
+    {
+      "time": "2026-11-21T14:31:51+08:00",
+      "state": "running",
+      "note": "第 1 次运行，GPU=3，上限 16 小时"
+    }
+  ],
+  "state": "running",
+  "note": "第 1 次运行，GPU=3，上限 16 小时",
+  "gpus": "3",
+  "started_at": "2026-11-21T14:31:51+08:00",
+  "max_hours": 16.0,
+  "remote_dir": "~/auto_jobs/j010a_survey_hopper",
+  "updated_at": "2026-11-21T14:31:51+08:00"
+}
