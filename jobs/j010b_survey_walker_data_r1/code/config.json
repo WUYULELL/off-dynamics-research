@@ -1,0 +1,124 @@
+{
+  "job": "j010b_survey_walker_data_r1",
+  "purpose": "Sub-job of j010 (descriptive survey: where does BC-mix help or hurt?) on 8 ODRL tasks of walker2d. Registered in research/PLAN.md (auto-loop) before submission; requested by the user on 2026-11-21.",
+  "tasks": [
+    {
+      "id": "walker2d-gravity-0.5",
+      "robot": "walker2d",
+      "target_file": "walker2d_gravity_0.5_medium.hdf5",
+      "target_sha256": null,
+      "xml": "walker2d_gravity_0.5.xml",
+      "xml_sha256": "52761d753cba01e0c28588afd809b2f2aa6be651cf470ca595600d8527b1c260",
+      "score_min": 10.079455055289959,
+      "score_max": 5194.713
+    },
+    {
+      "id": "walker2d-gravity-2.0",
+      "robot": "walker2d",
+      "target_file": "walker2d_gravity_2.0_medium.hdf5",
+      "target_sha256": null,
+      "xml": "walker2d_gravity_2.0.xml",
+      "xml_sha256": "4041a0d451c958febe91a5c17f2dc32426024a1578ebfa7c93958673bf37e4c3",
+      "score_min": 10.079455055289959,
+      "score_max": 5056.445
+    },
+    {
+      "id": "walker2d-friction-0.5",
+      "robot": "walker2d",
+      "target_file": "walker2d_friction_0.5_medium.hdf5",
+      "target_sha256": null,
+      "xml": "walker2d_friction_0.5.xml",
+      "xml_sha256": "a27415eefb473160ad3d41f78cff7acdd021738245ad891f8544250dac2e7fe9",
+      "score_min": 10.079455055289959,
+      "score_max": 4229.348
+    },
+    {
+      "id": "walker2d-friction-2.0",
+      "robot": "walker2d",
+      "target_file": "walker2d_friction_2.0_medium.hdf5",
+      "target_sha256": null,
+      "xml": "walker2d_friction_2.0.xml",
+      "xml_sha256": "3dc189d5460c18de990f484d974c3e2a5231ed0c543498e57e8811b6f72ce908",
+      "score_min": 10.079455055289959,
+      "score_max": 5180.044
+    },
+    {
+      "id": "walker2d-kinematic-footjnt-medium",
+      "robot": "walker2d",
+      "target_file": "walker2d_kinematic_footjnt_medium_medium.hdf5",
+      "target_sha256": null,
+      "xml": "walker2d_kinematic_footjnt_medium.xml",
+      "xml_sha256": "10bd8ba6610a8817dd783145747d4a0014abf2667a657f10170c94440a99b24d",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    },
+    {
+      "id": "walker2d-kinematic-footjnt-hard",
+      "robot": "walker2d",
+      "target_file": "walker2d_kinematic_footjnt_hard_medium.hdf5",
+      "target_sha256": null,
+      "xml": "walker2d_kinematic_footjnt_hard.xml",
+      "xml_sha256": "ec6e2db9567a53a6e8c6fff7376050f3319a2c1aea371dbc3ea9aa3dce3b8c4c",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    },
+    {
+      "id": "walker2d-morph-leg-medium",
+      "robot": "walker2d",
+      "target_file": "walker2d_morph_leg_medium_medium.hdf5",
+      "target_sha256": null,
+      "xml": "walker2d_morph_leg_medium.xml",
+      "xml_sha256": "a2dc38b51b3775aa9a01eacc5ab57a547419adad8c61befb444672272b44b989",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    },
+    {
+      "id": "walker2d-morph-leg-hard",
+      "robot": "walker2d",
+      "target_file": "walker2d_morph_leg_hard_medium.hdf5",
+      "target_sha256": null,
+      "xml": "walker2d_morph_leg_hard.xml",
+      "xml_sha256": "ef5c6f10e3d5602be00250b8897e12fea21d6d4a640f3ff671856e5f7fcbd491",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    }
+  ],
+  "groups": [
+    "BC",
+    "BCMIX"
+  ],
+  "controls": [
+    "BC",
+    "BCMIX"
+  ],
+  "candidates": [],
+  "seeds": [
+    3126,
+    3127,
+    3128
+  ],
+  "steps": {
+    "IQL": 500000,
+    "BC": 200000
+  },
+  "eval_every": {
+    "IQL": 10000,
+    "BC": 5000
+  },
+  "target_rows": null,
+  "smoke": {
+    "seed": 2999,
+    "task": "walker2d-gravity-0.5",
+    "steps": 1000
+  },
+  "max_per_gpu": 6,
+  "launch_gap_seconds": 20,
+  "external_retry_max": 3,
+  "rule": {
+    "type": "descriptive survey; no candidate, no verdict, not counted by the loop",
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j009 metric)",
+    "tasks": "per robot: gravity 0.5 / 2.0, friction 0.5 / 2.0, kinematic (the joint not used in the screening tasks) medium / hard, morph (one part) medium / hard; target data = the ODRL medium-quality file of each task; a task whose target file is missing from the archive is dropped and reported, never replaced",
+    "reported": "per task: BC and BC-mix Last5 mean / SD, BC-mix minus BC paired by seed (mean, SE, positive seeds), fraction of evaluation episodes under 200 steps, near-set share of the source data (j005/j007 tau rule)",
+    "note": "Rules are fixed before results. 3 seeds per task: differences are descriptive and only used to choose tasks and hypotheses for later registered screens."
+  }
+}

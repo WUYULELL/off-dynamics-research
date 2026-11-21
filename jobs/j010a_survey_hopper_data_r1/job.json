@@ -1,0 +1,15 @@
+{
+  "job_id": "j010a_survey_hopper_data_r1",
+  "description": "j010 子任务（用户 2026-11-21 要求的全景调查，描述性，不判定）：在 hopper 的 8 个 ODRL 任务（重力 0.5/2.0、摩擦 0.5/2.0、关节限位 medium/hard、形态 medium/hard）上只跑 BC 和 BC-混合，看源数据在哪里有用、在哪里有害。种子 3126–3128（新种子），48 项训练（另 16 项冒烟）。 本次从新目录读取经过 SHA-256 核验的官方目标数据，原任务保留。",
+  "hypothesis": "描述性调查，不登记候选、不判定；见 research/PLAN.md 的 j010 登记。",
+  "gpus": 1,
+  "max_hours": 16,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j010a_survey_hopper"
+}

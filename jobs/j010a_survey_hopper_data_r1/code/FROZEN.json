@@ -1,0 +1,18 @@
+{
+  "job": "j010a_survey_hopper_data_r1",
+  "files": {
+    "TARGET_SHA256.json": "d61690fd1c24400f020eaa2c145c3c9377071632c7e08d3b3ac83a506eec99ee",
+    "assets/hopper_friction_0.5.xml": "08d807a67f5fe13fcd2a3e3d28eb961391fe7bc48b5b17188cdbd831f793497f",
+    "assets/hopper_friction_2.0.xml": "eeb89cb224d2c91381410b37a7044d409f26196dda0604a21efb9ad846bc2834",
+    "assets/hopper_gravity_0.5.xml": "53f84a00f2931ebeed1819e7577b98c7035a8c09b99e6ef9f559b1566d6bffcc",
+    "assets/hopper_gravity_2.0.xml": "3eb86b0071e5e149e1d66128fbc6207a5084523c84333303b78858847ef9e268",
+    "assets/hopper_kinematic_footjnt_hard.xml": "2ec360077993050a1c87213ec39e6c6d1d6019a12489706c7da5d214781c4fb5",
+    "assets/hopper_kinematic_footjnt_medium.xml": "196bb3d0b556155b5b733a9d1ab13701f2a0e8e5463ab0f262698046fb39cdf4",
+    "assets/hopper_morph_foot_hard.xml": "5f9b61c8c9a563e23e1fdc93be1bb40de2d8cf5830186b765c3d8727b05c71db",
+    "assets/hopper_morph_foot_medium.xml": "bb9e85ce9bf8b832cf4d22a818037f34e8c9dad5bbd7c3811c8a99ca4f628b49",
+    "config.json": "fd6f620e96f40c9e6800278485a8c0b23cffaecb2b34cdfbae9b07816e2b1bec",
+    "controller.py": "ef28910f6da6c11a6790d15c9d0fa7ef6cab943d8aa8c24036509c7147660c31",
+    "run.sh": "7e46416a7a42bdc1f798b7da6e017a7123543eb277f532880c62d69d1a1f8786",
+    "worker.py": "04a9e6ee041d343cb16042f3a7b872350edf41bce6d99f831c8471ad2c4408cc"
+  }
+}
