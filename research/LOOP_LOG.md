@@ -153,3 +153,11 @@
 - 新结果提交 746a1be：j010b_survey_walker_data_r1 failed（NameError: ARCHIVE，与 j010a_r1 同一遗留行，上一会话已预判；数据 8 个文件齐全），j010b_survey_walker_data_r2 → running（北京时间 22:36 起，GPU 0）。j009b、j010a_r2 仍在运行。见 analysis/j010b_survey_walker_data_r1.md。
 - 无可判定的结论；结束条件均未满足；停机前不登记新实验（自己的排队/运行任务也已到 4 个上限）。不通知。
 - 下一步不变：j009b 结束后合并判定 j009（并通知）；j010 r2 都结束后写 analysis/j010_survey.md。
+
+## 2026-11-21 16:40 UTC（Claude 定时会话）
+- 新结果提交 7f9cf00：j009b_nfbc_walkerm completed（4.2 小时，30 项，0 重跑）。j009 三个子任务齐全，合并判定。j010a/b_survey_*_data_r2 仍在运行。
+- j009（假设：BC-混合 + 0.5 × 32 行近邻源 BC 项（BCMIXN）能超过最强对照）→ BCMIXN − 强对照：hopper −0.26（SE 0.75），walker medium +3.62（SE 3.07，强对照 T，筛查有效），walker hard −2.96（SE 1.57）→ **否定**（2 个任务均值差 ≤ 0）。RUNS.csv 独立重算一致。2×2：远源减半时近邻项三个任务都有用（+3.9 / +8.5 / +8.3），远源满权重时只在 walker medium 有用（+15.6）；近邻与远源大体互相替代。BC-混合 − BC：+13.68 / −9.60 / +21.01。见 analysis/j009_nfbc_screen.md、j009b_nfbc_walkerm.md。
+- 事后观察（不作证据）：W50N 相对强对照 hopper −2.44、walker medium +4.79（SE 3.15）、walker hard +1.32（SE 1.13），两个 walker 任务都 > 1 SE。
+- 下一步（已提交）：**j011_w50n_confirm**——W50N 新种子确认（3129–3133），单卡、三个任务同一 job，组 T / BC / BC-混合 / W50N，60 项训练，估计 9–10 小时、上限 16 小时；worker.py 与 j009 逐字节相同。成功 = 两个 walker 任务上 W50N 均值都高于强对照（PLAN 第一节条件 1）；hopper 只描述。登记见 PLAN.md。停机前登记的理由：主研究对话只要求“停机期间”不登记；本任务单卡，若有空卡约在北京时间 11-22 中午前结束，被停机打断则恢复后按中断规则重跑。本地用假工作进程跑通了控制器全流程（12 项冒烟 + 60 项主训练 → 报告、summary、RUNS.csv），AST 未定义名称检查通过。
+- 计数：experiments_started 7（j011），连续无筛查有效 6（j004–j009），consecutive_failures 0。结束条件均未满足。自己排队/运行中的任务：j010a_r2、j010b_r2、j011（另有旧 j010b_survey_walker 停在 waiting_approval，不授权、不会运行）。
+- 通知：j009 按规则得出否定结论，通知用户（含 j011 已提交）。

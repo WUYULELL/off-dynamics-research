@@ -1,0 +1,15 @@
+{
+  "job_id": "j011_w50n_confirm",
+  "description": "W50N（64 目标行 BC + 0.5 × 64 均匀源行 BC + 0.5 × 32 近邻源行 BC）的新种子确认：三个关节限位任务 × {T, BC, BC-混合, W50N} × 种子 3129–3133（从未用过），同机同种子，60 项训练（另 12 项冒烟），单卡。W50N 是看过 j009 结果后选出的组；worker.py 与 j009 逐字节相同。",
+  "hypothesis": "见 research/PLAN.md 的 j011 登记：W50N 的 Last5 均值在 walker 大腿关节 medium 和 hard 两个主要任务上都高于强对照（T、BC、BC-混合中均值最高者）即满足 PLAN 第一节成功条件；否则不确认。hopper 只作描述。",
+  "gpus": 1,
+  "max_hours": 16,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j009b_nfbc_walkerm"
+}

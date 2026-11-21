@@ -1,11 +1,11 @@
 {
   "loop_enabled": true,
-  "last_seen_results_commit": "746a1beebd583e27a285470189f9a647eccdd9cb",
+  "last_seen_results_commit": "7f9cf00d5d44d91dc6adde253be14ca3074faf94",
   "heartbeat_alert_sent": false,
-  "experiments_started": 6,
-  "experiments_since_last_positive": 5,
+  "experiments_started": 7,
+  "experiments_since_last_positive": 6,
   "consecutive_failures": 0,
-  "next_seed": 3129,
+  "next_seed": 3134,
   "note": "用户可以把 loop_enabled 改成 false 来停止 Claude 这一侧的循环",
   "seeds_used_by_loop": {
     "j004_domain_cond_bc_screen": [
@@ -59,9 +59,16 @@
       3126,
       3127,
       3128
+    ],
+    "j011_w50n_confirm (confirmation of W50N, post-hoc from j009)": [
+      3129,
+      3130,
+      3131,
+      3132,
+      3133
     ]
   },
-  "last_session_note": "2026-11-21 12:45 UTC：j009a、j009c completed，BCMIXN 相对 BC-混合 −0.26 / −2.96（两个任务均值差 ≤ 0），j009 待 j009b 结束后正式合并判定（除非 j009b 失败，否则必为否定）。j010a_survey_hopper_data_r1 因遗留代码 NameError 失败（数据已齐），已提交修复后的 j010a/b_survey_*_data_r2；j010b_survey_walker_data_r1 会以同样错误退出，不用管。 | 2026-11-21 14:20 UTC：仅状态变化（j010a_r2、j010b_r1 running，j010b_r2 waiting_gpu），无新完成任务。 | 2026-11-21 15:20 UTC：j010b_survey_walker_data_r1 按预期 NameError 失败，r2 已在运行；无新结论。",
+  "last_session_note": "2026-11-21 12:45 UTC：j009a、j009c completed，BCMIXN 相对 BC-混合 −0.26 / −2.96（两个任务均值差 ≤ 0），j009 待 j009b 结束后正式合并判定（除非 j009b 失败，否则必为否定）。j010a_survey_hopper_data_r1 因遗留代码 NameError 失败（数据已齐），已提交修复后的 j010a/b_survey_*_data_r2；j010b_survey_walker_data_r1 会以同样错误退出，不用管。 | 2026-11-21 14:20 UTC：仅状态变化（j010a_r2、j010b_r1 running，j010b_r2 waiting_gpu），无新完成任务。 | 2026-11-21 15:20 UTC：j010b_survey_walker_data_r1 按预期 NameError 失败，r2 已在运行；无新结论。 | 2026-11-21 16:40 UTC：j009b completed，j009 合并判定为否定（BCMIXN：hopper −0.26、walker medium +3.62 有效、walker hard −2.96）。事后观察 W50N 在两个 walker 任务上都 > 1 SE，已登记并提交 j011_w50n_confirm（新种子 3129–3133，单卡，上限 16 小时）。成功 = 两个 walker 任务 W50N 均值都高于强对照 → 结束循环。",
   "planned_outage": {
     "from": "2026-11-22T23:00:00+08:00",
     "until_approx": "2026-11-28",

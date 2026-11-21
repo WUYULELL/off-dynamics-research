@@ -1,0 +1,101 @@
+{
+  "job": "j011_w50n_confirm",
+  "purpose": "Confirmation (never-used seeds 3129-3133) of W50N = BC on 64 target rows + 0.5 * BC on 64 uniform source rows + 0.5 * BC on 32 near-set source rows, against T, BC, BCMIX rerun on the same machine and seeds, on the three joint-limit tasks. W50N was selected after seeing j009 (it was a registered arm of j009 but not its candidate). Registered in research/PLAN.md (auto-loop) before submission.",
+  "tasks": [
+    {
+      "id": "hopper-kinematic-legjnt-medium",
+      "robot": "hopper",
+      "target_file": "hopper_kinematic_legjnt_medium_medium.hdf5",
+      "target_sha256": "82f4414e6acb88523ed809b60b56838b6b68da603d75ee72eb79362515cf00d0",
+      "xml": "hopper_kinematic_legjnt_medium.xml",
+      "xml_sha256": "11e5861cd1fcd4142418978911b95240001f142282f3cacdacfe99bf3a1209a8",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-medium",
+      "robot": "walker2d",
+      "target_file": "walker2d_kinematic_thighjnt_medium_medium.hdf5",
+      "target_sha256": "cae31125683286271a798d52bde1f0e2a0650baf527e5f5ff490d6d7cde03a07",
+      "xml": "walker2d_kinematic_thighjnt_medium.xml",
+      "xml_sha256": "bf4797354c7adc42c86572e1365b08ae6c7e22d2e75c4f4122964e196036b699",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    },
+    {
+      "id": "walker2d-kinematic-thighjnt-hard",
+      "robot": "walker2d",
+      "target_file": "walker2d_kinematic_thighjnt_hard_medium.hdf5",
+      "target_sha256": "16b792230e8018a1028ba636d79a47797448e41aa6c60af5159acef5cebe0c58",
+      "xml": "walker2d_kinematic_thighjnt_hard.xml",
+      "xml_sha256": "cabadec6f494e02ae4d9ff3bc37d4f81401f8cb87a8d54a8fdca177f91724458",
+      "score_min": 10.079455055289959,
+      "score_max": 4592.3
+    }
+  ],
+  "primary_tasks": [
+    "walker2d-kinematic-thighjnt-medium",
+    "walker2d-kinematic-thighjnt-hard"
+  ],
+  "groups": [
+    "T",
+    "BC",
+    "BCMIX",
+    "W50N"
+  ],
+  "controls": [
+    "T",
+    "BC",
+    "BCMIX"
+  ],
+  "candidates": [
+    "W50N"
+  ],
+  "seeds": [
+    3129,
+    3130,
+    3131,
+    3132,
+    3133
+  ],
+  "steps": {
+    "IQL": 500000,
+    "BC": 200000
+  },
+  "eval_every": {
+    "IQL": 10000,
+    "BC": 5000
+  },
+  "target_rows": 5000,
+  "smoke": {
+    "seed": 2999,
+    "tasks": "all",
+    "steps": 1000
+  },
+  "max_per_gpu": 6,
+  "launch_gap_seconds": 20,
+  "external_retry_max": 3,
+  "rule": {
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j009 metric)",
+    "strong_control": "per task, the group among T, BC, BCMIX with the highest Last5 mean over seeds 3129-3133",
+    "confirmed_on_task": "W50N Last5 mean over seeds 3129-3133 > strong-control Last5 mean (PLAN section 1 success condition: mean above the strongest control; no significance test)",
+    "success": "confirmed on BOTH primary tasks (walker2d-kinematic-thighjnt-medium and walker2d-kinematic-thighjnt-hard; the two tasks where W50N was above the strong control by > 1 paired SE in j009) -> PLAN section 1 condition 1 met; loop stops and the user is notified",
+    "not_confirmed": "otherwise; W50N is not a confirmed method",
+    "hopper": "hopper-kinematic-legjnt-medium is reported descriptively and does not count toward success (W50N was below BCMIX there in j009)",
+    "descriptive": "paired difference vs strong control / BCMIX / BC / T with SE and positive-seed count; 1 SE and 2 SE criteria; mean +- SD per group; BCMIX - BC; near-set size; episode lengths",
+    "note": "Rules fixed before results; not changed after results are seen. Any failed run -> no verdict (failure handling). All seeds kept."
+  },
+  "candidate_settings": {
+    "near_set": "source rows with standardized-state nearest distance to target states <= tau; tau = 90% quantile of target leave-one-trajectory-out nearest distances (exactly the rows j005 CG90 removed, the near set of j007)",
+    "loss": "mean BC over 64 target rows + a * mean BC over 64 uniform source rows + b * mean BC over 32 near rows",
+    "BCMIX": {
+      "a": 1.0,
+      "b": 0.0
+    },
+    "W50N": {
+      "a": 0.5,
+      "b": 0.5
+    },
+    "implementation": "worker.py is byte-identical to the j009 worker (same W50N implementation as in j009; its internal seed-derivation prefix 'J009-20261121' is kept unchanged, the run seeds 3129-3133 are new)"
+  }
+}
