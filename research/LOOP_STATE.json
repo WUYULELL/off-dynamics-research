@@ -1,6 +1,6 @@
 {
   "loop_enabled": true,
-  "last_seen_results_commit": "2b453e4c915fb691f8d8ab25bc48149344bb694f",
+  "last_seen_results_commit": "d706357b8dfc3d49b6b7f34b8de89f4885bea905",
   "heartbeat_alert_sent": false,
   "experiments_started": 6,
   "experiments_since_last_positive": 5,
@@ -54,12 +54,17 @@
       3126,
       3127,
       3128
+    ],
+    "j010_survey r2 (j010a/b_survey_*_data_r2; code-fix rerun of r1, same registered seeds)": [
+      3126,
+      3127,
+      3128
     ]
   },
-  "last_session_note": "2026-11-21 08:21 UTC：新结果提交 2b453e4 只有状态变化（j010a/b_survey_*_data_r1 -> waiting_gpu），没有新完成的任务；j009 仍在运行；未登记新实验。",
+  "last_session_note": "2026-11-21 12:45 UTC：j009a、j009c completed，BCMIXN 相对 BC-混合 −0.26 / −2.96（两个任务均值差 ≤ 0），j009 待 j009b 结束后正式合并判定（除非 j009b 失败，否则必为否定）。j010a_survey_hopper_data_r1 因遗留代码 NameError 失败（数据已齐），已提交修复后的 j010a/b_survey_*_data_r2；j010b_survey_walker_data_r1 会以同样错误退出，不用管。",
   "planned_outage": {
-    "from": "2026-11-22T11:00:00+08:00",
-    "until_approx": "2026-11-27",
-    "note": "学院 GPU 集群停机维护，relay 暂停；此期间心跳超过 12 小时是预期的，不发心跳告警、不登记新实验（见 LOOP_LOG 2026-11-21 08:25 条目）。恢复后若心跳仍长期不更新，再按第 0 步告警。"
+    "from": "2026-11-22T23:00:00+08:00",
+    "until_approx": "2026-11-28",
+    "note": "学院 GPU 集群停机维护（按 LOOP_LOG 2026-11-21 08:25 用户更正时区后的时间：北京时间约 11-22 23:00 最后收一次结果，11-23 00:00 起停机，约 11-28 恢复），relay 暂停；此期间心跳超过 12 小时是预期的，不发心跳告警、不登记新实验。恢复后若心跳仍长期不更新，再按第 0 步告警。"
   }
 }

@@ -1,0 +1,124 @@
+{
+  "job": "j010a_survey_hopper_data_r2",
+  "purpose": "Sub-job of j010 (descriptive survey: where does BC-mix help or hurt?) on 8 ODRL tasks of hopper. Registered in research/PLAN.md (auto-loop) before submission; requested by the user on 2026-11-21.",
+  "tasks": [
+    {
+      "id": "hopper-gravity-0.5",
+      "robot": "hopper",
+      "target_file": "hopper_gravity_0.5_medium.hdf5",
+      "target_sha256": null,
+      "xml": "hopper_gravity_0.5.xml",
+      "xml_sha256": "53f84a00f2931ebeed1819e7577b98c7035a8c09b99e6ef9f559b1566d6bffcc",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "hopper-gravity-2.0",
+      "robot": "hopper",
+      "target_file": "hopper_gravity_2.0_medium.hdf5",
+      "target_sha256": null,
+      "xml": "hopper_gravity_2.0.xml",
+      "xml_sha256": "3eb86b0071e5e149e1d66128fbc6207a5084523c84333303b78858847ef9e268",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "hopper-friction-0.5",
+      "robot": "hopper",
+      "target_file": "hopper_friction_0.5_medium.hdf5",
+      "target_sha256": null,
+      "xml": "hopper_friction_0.5.xml",
+      "xml_sha256": "08d807a67f5fe13fcd2a3e3d28eb961391fe7bc48b5b17188cdbd831f793497f",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "hopper-friction-2.0",
+      "robot": "hopper",
+      "target_file": "hopper_friction_2.0_medium.hdf5",
+      "target_sha256": null,
+      "xml": "hopper_friction_2.0.xml",
+      "xml_sha256": "eeb89cb224d2c91381410b37a7044d409f26196dda0604a21efb9ad846bc2834",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "hopper-kinematic-footjnt-medium",
+      "robot": "hopper",
+      "target_file": "hopper_kinematic_footjnt_medium_medium.hdf5",
+      "target_sha256": null,
+      "xml": "hopper_kinematic_footjnt_medium.xml",
+      "xml_sha256": "196bb3d0b556155b5b733a9d1ab13701f2a0e8e5463ab0f262698046fb39cdf4",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "hopper-kinematic-footjnt-hard",
+      "robot": "hopper",
+      "target_file": "hopper_kinematic_footjnt_hard_medium.hdf5",
+      "target_sha256": null,
+      "xml": "hopper_kinematic_footjnt_hard.xml",
+      "xml_sha256": "2ec360077993050a1c87213ec39e6c6d1d6019a12489706c7da5d214781c4fb5",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "hopper-morph-foot-medium",
+      "robot": "hopper",
+      "target_file": "hopper_morph_foot_medium_medium.hdf5",
+      "target_sha256": null,
+      "xml": "hopper_morph_foot_medium.xml",
+      "xml_sha256": "bb9e85ce9bf8b832cf4d22a818037f34e8c9dad5bbd7c3811c8a99ca4f628b49",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    },
+    {
+      "id": "hopper-morph-foot-hard",
+      "robot": "hopper",
+      "target_file": "hopper_morph_foot_hard_medium.hdf5",
+      "target_sha256": null,
+      "xml": "hopper_morph_foot_hard.xml",
+      "xml_sha256": "5f9b61c8c9a563e23e1fdc93be1bb40de2d8cf5830186b765c3d8727b05c71db",
+      "score_min": -26.3360015397715,
+      "score_max": 3234.3
+    }
+  ],
+  "groups": [
+    "BC",
+    "BCMIX"
+  ],
+  "controls": [
+    "BC",
+    "BCMIX"
+  ],
+  "candidates": [],
+  "seeds": [
+    3126,
+    3127,
+    3128
+  ],
+  "steps": {
+    "IQL": 500000,
+    "BC": 200000
+  },
+  "eval_every": {
+    "IQL": 10000,
+    "BC": 5000
+  },
+  "target_rows": null,
+  "smoke": {
+    "seed": 2999,
+    "task": "hopper-gravity-0.5",
+    "steps": 1000
+  },
+  "max_per_gpu": 6,
+  "launch_gap_seconds": 20,
+  "external_retry_max": 3,
+  "rule": {
+    "type": "descriptive survey; no candidate, no verdict, not counted by the loop",
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j009 metric)",
+    "tasks": "per robot: gravity 0.5 / 2.0, friction 0.5 / 2.0, kinematic (the joint not used in the screening tasks) medium / hard, morph (one part) medium / hard; target data = the ODRL medium-quality file of each task; a task whose target file is missing from the archive is dropped and reported, never replaced",
+    "reported": "per task: BC and BC-mix Last5 mean / SD, BC-mix minus BC paired by seed (mean, SE, positive seeds), fraction of evaluation episodes under 200 steps, near-set share of the source data (j005/j007 tau rule)",
+    "note": "Rules are fixed before results. 3 seeds per task: differences are descriptive and only used to choose tasks and hypotheses for later registered screens."
+  }
+}

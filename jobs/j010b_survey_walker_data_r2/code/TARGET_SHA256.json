@@ -1,0 +1,10 @@
+{
+  "walker2d_gravity_0.5_medium.hdf5": "46be0e8f4fac6c4634da2b32c2dcdb57afb57f0d488104ce3bf4610980948dd0",
+  "walker2d_gravity_2.0_medium.hdf5": "339c59c2f608c1541c13fadb55f41946e457403dfefd43e217744602e995845b",
+  "walker2d_friction_0.5_medium.hdf5": "d1a14e67d6c9667b97dc7792900947bd2c9187b20585cca23cce65a5e7387db9",
+  "walker2d_friction_2.0_medium.hdf5": "9979d6cfc4e2064dde13a93569ac52b4bad159020224b70843ec7016b9984084",
+  "walker2d_kinematic_footjnt_medium_medium.hdf5": "eeb97eca1028196e5cc4888e8bff09fa77a1a3f8999513a122c7e9a016ff488f",
+  "walker2d_kinematic_footjnt_hard_medium.hdf5": "0fe39ecf74a7bd283ca417bc73b68eeba7ced088bbcdcf00731e886ef5aed060",
+  "walker2d_morph_leg_medium_medium.hdf5": "526ee33034b83c310676c25ee324da629fea1dce811ff86157e9432d5b4541df",
+  "walker2d_morph_leg_hard_medium.hdf5": "edf18ced80b3dbd137108f1ce7297a2e46aae81315349aaf1c949fac3d8ecd09"
+}

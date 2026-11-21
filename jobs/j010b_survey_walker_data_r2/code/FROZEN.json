@@ -1,0 +1,18 @@
+{
+  "job": "j010b_survey_walker_data_r2",
+  "files": {
+    "TARGET_SHA256.json": "588095ebb3980d8e6102267bfe176f76e81006f1aac3dc6150e652bd74db3a06",
+    "assets/walker2d_friction_0.5.xml": "a27415eefb473160ad3d41f78cff7acdd021738245ad891f8544250dac2e7fe9",
+    "assets/walker2d_friction_2.0.xml": "3dc189d5460c18de990f484d974c3e2a5231ed0c543498e57e8811b6f72ce908",
+    "assets/walker2d_gravity_0.5.xml": "52761d753cba01e0c28588afd809b2f2aa6be651cf470ca595600d8527b1c260",
+    "assets/walker2d_gravity_2.0.xml": "4041a0d451c958febe91a5c17f2dc32426024a1578ebfa7c93958673bf37e4c3",
+    "assets/walker2d_kinematic_footjnt_hard.xml": "ec6e2db9567a53a6e8c6fff7376050f3319a2c1aea371dbc3ea9aa3dce3b8c4c",
+    "assets/walker2d_kinematic_footjnt_medium.xml": "10bd8ba6610a8817dd783145747d4a0014abf2667a657f10170c94440a99b24d",
+    "assets/walker2d_morph_leg_hard.xml": "ef5c6f10e3d5602be00250b8897e12fea21d6d4a640f3ff671856e5f7fcbd491",
+    "assets/walker2d_morph_leg_medium.xml": "a2dc38b51b3775aa9a01eacc5ab57a547419adad8c61befb444672272b44b989",
+    "config.json": "0395781cafea7c7fa27ff8283d72db21e8abee84bcbd224d89a9cda52cbd238d",
+    "controller.py": "c9b3346fd3abecaf222527a3d76f628f19ec24a8713f8e35fe0e6a3d1c172311",
+    "run.sh": "2cea79fe830cdad1f4f9a5a5b9afc24cecea59dd8e32ffcd23ef2352fd9dff6f",
+    "worker.py": "04a9e6ee041d343cb16042f3a7b872350edf41bce6d99f831c8471ad2c4408cc"
+  }
+}

@@ -133,3 +133,13 @@
 - 新结果提交 2b453e4：只有状态变化（j010a_survey_hopper_data_r1、j010b_survey_walker_data_r1 → waiting_gpu），没有新完成的任务，无可分析内容。j009a、j009c 运行中，j009b 等卡。
 - 结束条件均未满足；按主研究对话要求不登记新实验。不通知。
 - LOOP_STATE 新增 `planned_outage` 字段（集群停机约 11-22 11:00 至 11-27，北京时间），让之后只读 LOOP_STATE 的第 0 步会话知道停机期间不发心跳告警。
+
+## 2026-11-21 12:45 UTC（Claude 定时会话）
+- 新结果提交 8b30350、d706357：j009a_nfbc_hopper、j009c_nfbc_walkerh completed（4.2 / 4.4 小时，各 30 项，0 重跑）；j009b_nfbc_walkerm 运行中；j010a_survey_hopper_data_r1 failed。
+- j009（假设：在 BC-混合上加 0.5 × 32 行近邻源 BC 项（BCMIXN）能超过 BC-混合）→ BCMIXN − 强对照（两个任务都是 BC-混合）：hopper −0.26（SE 0.75，2/5），walker hard −2.96（SE 1.57，1/5）→ 两个任务均值差 ≤ 0。**正式判定等 j009b 结束后合并做**；除非 j009b 失败（则整组不判定），否则按规则必为否定。2×2 描述性：近邻项只在远源减半时有用（W50N − W50 +3.89 / +8.31），在 a=1 时无用或有害（交互 −4.14 / −11.26），近邻与远源大体互相替代。未登记的 W50N 在 walker hard 上比 BC-混合高 1.32（SE 1.13），在 hopper 上低 2.44——事后观察，不作证据。BC-混合 − BC 第八次复现（+13.68 / +21.01）。见 analysis/j009a_nfbc_hopper.md、analysis/j009c_nfbc_walkerh.md（RUNS.csv 独立重算一致）。
+- j010a_survey_hopper_data_r1：数据已齐（8 个目标文件哈希都对），但 controller.py prepare() 遗留旧版本校验 ODRL 压缩包的一行（ARCHIVE 未定义）→ NameError，训练前退出。j010b_survey_walker_data_r1 代码相同，排到卡后会同样退出。按 CLAUDE_LOOP 第 4 步“代码修复后重跑”，新建 **j010a_survey_hopper_data_r2、j010b_survey_walker_data_r2**：只删除这一行，任务、组别、种子 3126–3128 与 j010 登记相同（不是新登记的实验）；本地 AST 未定义名称检查 + 假工作进程跑通控制器全流程。见 analysis/j010a_survey_hopper_data_r1.md。
+- 计数：experiments_started 6，连续无筛查有效 5（j009 判定后更新），consecutive_failures 0（j010 不计）。结束条件均未满足。
+- LOOP_STATE 的 planned_outage 改为用户更正时区后的时间（北京时间约 11-22 23:00 最后收结果、11-23 起停机、约 11-28 恢复）。
+- 研究进度记录：已读，追加一行。
+- 通知：本轮没有按规则成立的结论，j010 修复不需要用户决定，不通知（j009 判定在下一会话通知）。
+- 下一步：j009b 结束后合并判定 j009；j010 r2 结束后写 analysis/j010_survey.md（描述性），挑选“源数据有害”和“有益但只用目标数据不稳定”的任务。停机期间不登记新实验。
