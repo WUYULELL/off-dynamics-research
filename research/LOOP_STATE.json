@@ -1,6 +1,6 @@
 {
   "loop_enabled": true,
-  "last_seen_results_commit": "0539d5b628a085f9f6451785c80a5ef04f720370",
+  "last_seen_results_commit": "2b453e4c915fb691f8d8ab25bc48149344bb694f",
   "heartbeat_alert_sent": false,
   "experiments_started": 6,
   "experiments_since_last_positive": 5,
@@ -56,5 +56,10 @@
       3128
     ]
   },
-  "last_session_note": "2026-11-21 07:30 UTC：j008 正式分析（全部否定，计数 5）；j010a 失败（登记时目标数据不存在，非代码错误，不计入 consecutive_failures）；j009 运行中，未登记新实验。"
+  "last_session_note": "2026-11-21 08:21 UTC：新结果提交 2b453e4 只有状态变化（j010a/b_survey_*_data_r1 -> waiting_gpu），没有新完成的任务；j009 仍在运行；未登记新实验。",
+  "planned_outage": {
+    "from": "2026-11-22T11:00:00+08:00",
+    "until_approx": "2026-11-27",
+    "note": "学院 GPU 集群停机维护，relay 暂停；此期间心跳超过 12 小时是预期的，不发心跳告警、不登记新实验（见 LOOP_LOG 2026-11-21 08:25 条目）。恢复后若心跳仍长期不更新，再按第 0 步告警。"
+  }
 }

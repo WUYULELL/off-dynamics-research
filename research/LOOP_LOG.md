@@ -128,3 +128,8 @@
 - 预计：j009a/b/c、j010a_survey_hopper_data_r1 能在停机前完成；j010b_survey_walker_data_r1 很可能被打断，服务器恢复后按规则从第 0 步重跑（被打断不算失败，不基于回报重跑）。
 - Codex 新建的 j010a/b_survey_*_data_r1 已由主研究对话核对：与 PLAN.md 的 j010 登记一致（任务、组别、种子 3126–3128 不变），只改为从 `~/odrl_target_extra_20261121/raw` 读取并固定 8 个文件的哈希。旧 j010b_survey_walker 保持 waiting_approval，不要授权。
 - **给定时会话**：停机期间 relay 心跳会停止更新，这是预期的，不要发心跳告警，也不要登记新实验。j009 三个子任务都取回后照常合并判定。
+
+## 2026-11-21 08:21 UTC（Claude 定时会话）
+- 新结果提交 2b453e4：只有状态变化（j010a_survey_hopper_data_r1、j010b_survey_walker_data_r1 → waiting_gpu），没有新完成的任务，无可分析内容。j009a、j009c 运行中，j009b 等卡。
+- 结束条件均未满足；按主研究对话要求不登记新实验。不通知。
+- LOOP_STATE 新增 `planned_outage` 字段（集群停机约 11-22 11:00 至 11-27，北京时间），让之后只读 LOOP_STATE 的第 0 步会话知道停机期间不发心跳告警。
