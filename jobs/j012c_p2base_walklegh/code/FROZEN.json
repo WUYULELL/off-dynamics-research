@@ -1,0 +1,11 @@
+{
+  "job": "j012c_p2base_walklegh",
+  "files": {
+    "TARGET_SHA256.json": "012155e00c9f402d9ea27f5de5af8cafe298da3a73f603b5fa51f23cf88dd90f",
+    "assets/walker2d_morph_leg_hard.xml": "ef5c6f10e3d5602be00250b8897e12fea21d6d4a640f3ff671856e5f7fcbd491",
+    "config.json": "236b1a565e2ae587e6ae19e6e98ac37e85d819b9b852e1470cd5b87788e21993",
+    "controller.py": "7da21077e45d17e9345c55b5f414454dc9dccdfa6c9efc8862f35c1082f1aeb3",
+    "run.sh": "84c4e319be77c635d65c8713a52b1b5b4c8d4f1a3aa7a7cf0008203b0a5c00d1",
+    "worker.py": "9c1f1401e500ef3f23f0d02bb21fe606ab6306a36b34517032704e305307e423"
+  }
+}

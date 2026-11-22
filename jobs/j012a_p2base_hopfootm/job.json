@@ -1,0 +1,15 @@
+{
+  "job_id": "j012a_p2base_hopfootm",
+  "description": "第二阶段基线（不含 OTDF，描述性，不判定）：hopper-kinematic-footjnt-medium（源数据有害）× {T, BC, BC-混合, W50N} × 种子 3129–3133（与 j011 相同），20 项训练（另 4 项冒烟），单卡。worker.py 与 j011 逐字节相同。",
+  "hypothesis": "描述性基线，不判定、不计数；见 research/PLAN.md 的 j012 登记。OTDF 在停机结束后用同一组种子补跑。",
+  "gpus": 1,
+  "max_hours": 8,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j011_w50n_confirm"
+}

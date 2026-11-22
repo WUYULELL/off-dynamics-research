@@ -1,0 +1,11 @@
+{
+  "job": "j012a_p2base_hopfootm",
+  "files": {
+    "TARGET_SHA256.json": "92ed8068efa1fb520779c4ce25032e3ed79e1e9ab140e5b734371daeea40d984",
+    "assets/hopper_kinematic_footjnt_medium.xml": "196bb3d0b556155b5b733a9d1ab13701f2a0e8e5463ab0f262698046fb39cdf4",
+    "config.json": "15b110e78fe645ec02d1ee8a9fdacd951fdccb1427a26285f6b238228280412a",
+    "controller.py": "7da21077e45d17e9345c55b5f414454dc9dccdfa6c9efc8862f35c1082f1aeb3",
+    "run.sh": "18c7df156f20fca1b520467f6ab13b24b53a244d08bfbdd56f3b4cce6593d48e",
+    "worker.py": "9c1f1401e500ef3f23f0d02bb21fe606ab6306a36b34517032704e305307e423"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "job": "j012b_p2base_walkg20",
+  "files": {
+    "TARGET_SHA256.json": "1132ab340b7121ccbef298eff4e2893e93fa79ebdff61dc5307df2ecd0c9152f",
+    "assets/walker2d_gravity_2.0.xml": "4041a0d451c958febe91a5c17f2dc32426024a1578ebfa7c93958673bf37e4c3",
+    "config.json": "abd8d780eafcfeeec5062b17bd97f67d8bf6eab08c610541c7cf6d5708d68a39",
+    "controller.py": "7da21077e45d17e9345c55b5f414454dc9dccdfa6c9efc8862f35c1082f1aeb3",
+    "run.sh": "b3e4edfc6a0d5db817e230e4cefbb0cc3bce0557091fd0ee8e484902df3629b6",
+    "worker.py": "9c1f1401e500ef3f23f0d02bb21fe606ab6306a36b34517032704e305307e423"
+  }
+}

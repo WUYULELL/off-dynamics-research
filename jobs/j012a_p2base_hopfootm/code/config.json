@@ -1,0 +1,74 @@
+{
+ "job": "j012a_p2base_hopfootm",
+ "purpose": "Phase-2 baseline without OTDF (descriptive, no verdict) on hopper-kinematic-footjnt-medium (source-harmful task in the phase-2 screen set): T, BC, BCMIX and W50N with seeds 3129-3133 (the j011 seeds, so all six phase-2 tasks share one seed set). OTDF is added with the same seeds after the cluster outage. Registered in research/PLAN.md (auto-loop) before submission.",
+ "groups": [
+  "T",
+  "BC",
+  "BCMIX",
+  "W50N"
+ ],
+ "controls": [
+  "T",
+  "BC",
+  "BCMIX"
+ ],
+ "candidates": [
+  "W50N"
+ ],
+ "seeds": [
+  3129,
+  3130,
+  3131,
+  3132,
+  3133
+ ],
+ "steps": {
+  "IQL": 500000,
+  "BC": 200000
+ },
+ "eval_every": {
+  "IQL": 10000,
+  "BC": 5000
+ },
+ "target_rows": null,
+ "smoke": {
+  "seed": 2999,
+  "tasks": "all",
+  "steps": 1000
+ },
+ "max_per_gpu": 6,
+ "launch_gap_seconds": 20,
+ "external_retry_max": 3,
+ "rule": {
+  "type": "descriptive phase-2 baseline; no candidate verdict, not counted by the loop (PLAN section 1 phase 2, j012)",
+  "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j011 metric)",
+  "reported": "per group mean / SD / worst seed / episode length / fraction under 200 steps; strongest control among T, BC, BCMIX; W50N minus strongest control / BCMIX / BC / T with paired SE (descriptive); BCMIX minus BC",
+  "use": "these runs plus j011 (two original tasks) form the T / BC / BCMIX columns of the phase-2 baseline; OTDF is added later with seeds 3129-3133; candidates are then judged by the phase-2 rules in PLAN section 1",
+  "note": "Rules fixed before results. Any failed run -> no summary (failure handling). All seeds kept."
+ },
+ "candidate_settings": {
+  "near_set": "source rows with standardized-state nearest distance to target states <= tau; tau = 90% quantile of target leave-one-trajectory-out nearest distances (exactly the rows j005 CG90 removed, the near set of j007)",
+  "loss": "mean BC over 64 target rows + a * mean BC over 64 uniform source rows + b * mean BC over 32 near rows",
+  "BCMIX": {
+   "a": 1.0,
+   "b": 0.0
+  },
+  "W50N": {
+   "a": 0.5,
+   "b": 0.5
+  },
+  "implementation": "worker.py is byte-identical to j011 / j009 (internal seed-derivation prefix J009-20261121 unchanged)"
+ },
+ "tasks": [
+  {
+   "id": "hopper-kinematic-footjnt-medium",
+   "robot": "hopper",
+   "target_file": "hopper_kinematic_footjnt_medium_medium.hdf5",
+   "target_sha256": "c6a64c6ddcc5f113a185076e6049c6baa75fb2304c12862a17e86369514e5134",
+   "xml": "hopper_kinematic_footjnt_medium.xml",
+   "xml_sha256": "196bb3d0b556155b5b733a9d1ab13701f2a0e8e5463ab0f262698046fb39cdf4",
+   "score_min": -26.3360015397715,
+   "score_max": 3234.3
+  }
+ ]
+}
