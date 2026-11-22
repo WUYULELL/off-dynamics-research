@@ -1,0 +1,622 @@
+{
+  "source": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/",
+  "server_dir": "~/d4rl_source_20261121",
+  "files": [
+    {
+      "name": "ant_medium-v2.hdf5",
+      "bytes": 376239825,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/ant_medium-v2.hdf5",
+      "status": "verified",
+      "sha256": "461c03b9f70f40d66b47608a92965e4ef3642bd9cdb1320d10acc92754167137",
+      "rows": 1000000,
+      "downloaded_at": "2026-11-21T22:56:01.932585+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/ant_medium-v2.hdf5",
+      "shapes": {
+        "observations": [
+          1000000,
+          111
+        ],
+        "actions": [
+          1000000,
+          8
+        ],
+        "next_observations": [
+          1000000,
+          111
+        ],
+        "rewards": [
+          1000000
+        ],
+        "terminals": [
+          1000000
+        ],
+        "timeouts": [
+          1000000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 378,
+        "timeouts": 824
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 1000000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_medium_expert-v2.hdf5",
+      "bytes": 748335217,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/ant_medium_expert-v2.hdf5",
+      "status": "verified",
+      "sha256": "8cfb64e62d8944b5d9dada5f0cfc13a295fafe0c6ba58b778e32ebf16c95aef1",
+      "rows": 1999946,
+      "downloaded_at": "2026-11-21T22:46:24.882589+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/ant_medium_expert-v2.hdf5",
+      "shapes": {
+        "observations": [
+          1999946,
+          111
+        ],
+        "actions": [
+          1999946,
+          8
+        ],
+        "next_observations": [
+          1999946,
+          111
+        ],
+        "rewards": [
+          1999946
+        ],
+        "terminals": [
+          1999946
+        ],
+        "timeouts": [
+          1999946
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 449,
+        "timeouts": 1787
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 2000000,
+      "rows_off_reference": true,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_medium_replay-v2.hdf5",
+      "bytes": 136482252,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/ant_medium_replay-v2.hdf5",
+      "status": "verified",
+      "sha256": "844c4e5743ef51091f2106a3570b257fb149032c4743f8a5f02f40adc3b42a46",
+      "rows": 302000,
+      "downloaded_at": "2026-11-21T22:28:05.873633+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/ant_medium_replay-v2.hdf5",
+      "shapes": {
+        "observations": [
+          302000,
+          111
+        ],
+        "actions": [
+          302000,
+          8
+        ],
+        "next_observations": [
+          302000,
+          111
+        ],
+        "rewards": [
+          302000
+        ],
+        "terminals": [
+          302000
+        ],
+        "timeouts": [
+          302000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 183,
+        "timeouts": 302
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": null,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_medium-v2.hdf5",
+      "bytes": 237727262,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/halfcheetah_medium-v2.hdf5",
+      "status": "verified",
+      "sha256": "41324e8487a9556d8cfa4538827f8937f4d63dae3030825ebc9f3a726ed08ca0",
+      "rows": 1000000,
+      "downloaded_at": "2026-06-13T16:50:40.534695+00:00",
+      "reused": true,
+      "server_path": "~/d4rl_source_20261121/halfcheetah_medium-v2.hdf5",
+      "shapes": {
+        "observations": [
+          1000000,
+          17
+        ],
+        "actions": [
+          1000000,
+          6
+        ],
+        "next_observations": [
+          1000000,
+          17
+        ],
+        "rewards": [
+          1000000
+        ],
+        "terminals": [
+          1000000
+        ],
+        "timeouts": [
+          1000000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0,
+        "timeouts": 1000
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 1000000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_medium_expert-v2.hdf5",
+      "bytes": 474567252,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/halfcheetah_medium_expert-v2.hdf5",
+      "status": "verified",
+      "sha256": "015db75dae5bbe8e94029b71fa0bafc2073365df0c94744e71031189f3f79c06",
+      "rows": 2000000,
+      "downloaded_at": "2026-11-21T22:29:49.131755+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/halfcheetah_medium_expert-v2.hdf5",
+      "shapes": {
+        "observations": [
+          2000000,
+          17
+        ],
+        "actions": [
+          2000000,
+          6
+        ],
+        "next_observations": [
+          2000000,
+          17
+        ],
+        "rewards": [
+          2000000
+        ],
+        "terminals": [
+          2000000
+        ],
+        "timeouts": [
+          2000000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0,
+        "timeouts": 2000
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 2000000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_medium_replay-v2.hdf5",
+      "bytes": 59448533,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/halfcheetah_medium_replay-v2.hdf5",
+      "status": "verified",
+      "sha256": "48d494a4770c11f48260736dec090b78bdca8375647ed4d24bfa5b6610c7f683",
+      "rows": 202000,
+      "downloaded_at": "2026-11-21T22:34:39.558798+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/halfcheetah_medium_replay-v2.hdf5",
+      "shapes": {
+        "observations": [
+          202000,
+          17
+        ],
+        "actions": [
+          202000,
+          6
+        ],
+        "next_observations": [
+          202000,
+          17
+        ],
+        "rewards": [
+          202000
+        ],
+        "terminals": [
+          202000
+        ],
+        "timeouts": [
+          202000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0,
+        "timeouts": 202
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": null,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "hopper_medium-v2.hdf5",
+      "bytes": 152756557,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/hopper_medium-v2.hdf5",
+      "status": "verified",
+      "sha256": "5bdf1bc4a713c82941de44633df669b36c89850b652a25985166796d25cf71a0",
+      "rows": 1000000,
+      "downloaded_at": "2026-06-12T17:09:44.722481+00:00",
+      "reused": true,
+      "server_path": "~/d4rl_source_20261121/hopper_medium-v2.hdf5",
+      "shapes": {
+        "observations": [
+          1000000,
+          11
+        ],
+        "actions": [
+          1000000,
+          3
+        ],
+        "next_observations": [
+          1000000,
+          11
+        ],
+        "rewards": [
+          1000000
+        ],
+        "terminals": [
+          1000000
+        ],
+        "timeouts": [
+          1000000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2185,
+        "timeouts": 1
+      },
+      "dimensions": [
+        11,
+        3
+      ],
+      "expected_dimensions": [
+        11,
+        3
+      ],
+      "dimension_match": true,
+      "expected_rows": 1000000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "hopper_medium_expert-v2.hdf5",
+      "bytes": 304537315,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/hopper_medium_expert-v2.hdf5",
+      "status": "verified",
+      "sha256": "9d51ad87f8c905be3880d84c6140bcdb7fbf39a19e046a237f238ba34fec9e26",
+      "rows": 1999906,
+      "downloaded_at": "2026-11-21T22:41:52.964194+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/hopper_medium_expert-v2.hdf5",
+      "shapes": {
+        "observations": [
+          1999906,
+          11
+        ],
+        "actions": [
+          1999906,
+          3
+        ],
+        "next_observations": [
+          1999906,
+          11
+        ],
+        "rewards": [
+          1999906
+        ],
+        "terminals": [
+          1999906
+        ],
+        "timeouts": [
+          1999906
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2274,
+        "timeouts": 939
+      },
+      "dimensions": [
+        11,
+        3
+      ],
+      "expected_dimensions": [
+        11,
+        3
+      ],
+      "dimension_match": true,
+      "expected_rows": 2000000,
+      "rows_off_reference": true,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "hopper_medium_replay-v2.hdf5",
+      "bytes": 75854457,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/hopper_medium_replay-v2.hdf5",
+      "status": "verified",
+      "sha256": "e121c5f7c9857a307baa9edc6a2c3b48e85fedb9ac316ecddd0f48ca7ef4e39b",
+      "rows": 402000,
+      "downloaded_at": "2026-11-21T22:56:46.475928+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/hopper_medium_replay-v2.hdf5",
+      "shapes": {
+        "observations": [
+          402000,
+          11
+        ],
+        "actions": [
+          402000,
+          3
+        ],
+        "next_observations": [
+          402000,
+          11
+        ],
+        "rewards": [
+          402000
+        ],
+        "terminals": [
+          402000
+        ],
+        "timeouts": [
+          402000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1639,
+        "timeouts": 402
+      },
+      "dimensions": [
+        11,
+        3
+      ],
+      "expected_dimensions": [
+        11,
+        3
+      ],
+      "dimension_match": true,
+      "expected_rows": null,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "walker2d_medium-v2.hdf5",
+      "bytes": 232254996,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/walker2d_medium-v2.hdf5",
+      "status": "verified",
+      "sha256": "cf00f43add04c17fdfc2958dd581dea0851b2e5bedbe6fda073758a8f841aeda",
+      "rows": 1000000,
+      "downloaded_at": "2026-06-09T09:10:55.127231+00:00",
+      "reused": true,
+      "server_path": "~/d4rl_source_20261121/walker2d_medium-v2.hdf5",
+      "shapes": {
+        "observations": [
+          1000000,
+          17
+        ],
+        "actions": [
+          1000000,
+          6
+        ],
+        "next_observations": [
+          1000000,
+          17
+        ],
+        "rewards": [
+          1000000
+        ],
+        "terminals": [
+          1000000
+        ],
+        "timeouts": [
+          1000000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 513,
+        "timeouts": 677
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 1000000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "walker2d_medium_expert-v2.hdf5",
+      "bytes": 462197079,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/walker2d_medium_expert-v2.hdf5",
+      "status": "verified",
+      "sha256": "6b8d7f868c45bbaedf460be797fb7271b46dee6ebe45fe7a64319f2005b59a04",
+      "rows": 1999995,
+      "downloaded_at": "2026-11-21T23:10:11.944049+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/walker2d_medium_expert-v2.hdf5",
+      "shapes": {
+        "observations": [
+          1999995,
+          17
+        ],
+        "actions": [
+          1999995,
+          6
+        ],
+        "next_observations": [
+          1999995,
+          17
+        ],
+        "rewards": [
+          1999995
+        ],
+        "terminals": [
+          1999995
+        ],
+        "timeouts": [
+          1999995
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 514,
+        "timeouts": 1676
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 2000000,
+      "rows_off_reference": true,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "walker2d_medium_replay-v2.hdf5",
+      "bytes": 86323963,
+      "source_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/walker2d_medium_replay-v2.hdf5",
+      "status": "verified",
+      "sha256": "e75de96a4f77acf7d4e0d6fdf0d7ccb177c26c44bb4388e4fd99f543ccfa18db",
+      "rows": 302000,
+      "downloaded_at": "2026-11-21T22:46:07.382495+08:00",
+      "reused": false,
+      "server_path": "~/d4rl_source_20261121/walker2d_medium_replay-v2.hdf5",
+      "shapes": {
+        "observations": [
+          302000,
+          17
+        ],
+        "actions": [
+          302000,
+          6
+        ],
+        "next_observations": [
+          302000,
+          17
+        ],
+        "rewards": [
+          302000
+        ],
+        "terminals": [
+          302000
+        ],
+        "timeouts": [
+          302000
+        ]
+      },
+      "terminal_timeout_sums": {
+        "terminals": 791,
+        "timeouts": 302
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": null,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    }
+  ],
+  "comparison": {
+    "hopper": {
+      "status": "verified",
+      "project_source": "~/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104/data/source/hopper_medium-v2.hdf5",
+      "project_sha256": "5bdf1bc4a713c82941de44633df669b36c89850b652a25985166796d25cf71a0",
+      "official_sha256": "5bdf1bc4a713c82941de44633df669b36c89850b652a25985166796d25cf71a0",
+      "same_sha256": true
+    },
+    "walker2d": {
+      "status": "verified",
+      "project_source": "~/cluster_zip_reupload_20261104/off-dynamics-transfer-20261104/data/source/walker2d_medium-v2.hdf5",
+      "project_sha256": "cf00f43add04c17fdfc2958dd581dea0851b2e5bedbe6fda073758a8f841aeda",
+      "official_sha256": "cf00f43add04c17fdfc2958dd581dea0851b2e5bedbe6fda073758a8f841aeda",
+      "same_sha256": true
+    }
+  }
+}

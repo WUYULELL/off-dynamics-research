@@ -1,0 +1,6187 @@
+{
+  "source": "https://drive.google.com/drive/folders/1fwkjtXCbMxVP7RM7NSN3mF40Gakwkqei",
+  "server_dir": "~/odrl_target_hc_ant_20261121",
+  "files": [
+    {
+      "name": "ant_friction_0.1_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1229997,
+      "status": "verified",
+      "sha256": "a1d09f20cdc87650fca009b0603ede24a60c0152d16198073443f8099e204152",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:28:45.879367+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_0.1_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_0.1_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_0.1_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1227342,
+      "status": "verified",
+      "sha256": "aea6d1285626414f18d26207dc6a91be07bf1cda243bf86f2b5fa481881778cb",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:28:52.935757+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_0.1_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_0.1_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_0.1_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1237544,
+      "status": "verified",
+      "sha256": "03ea828f14e300a5bc83d0a73b200ed6acd63834c309a4be7889f3b21efa6c45",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:28:47.151637+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_0.1_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_0.1_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_0.5_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1235239,
+      "status": "verified",
+      "sha256": "b95b132c1d3024feaba6bbece95348dcb29a025c2471fc3b24c7b1d18896115d",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:28:57.667191+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_0.5_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_0.5_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_0.5_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1234990,
+      "status": "verified",
+      "sha256": "00305f9144d03d4e97dcbb045e5f71a5137c77e05d5fa899962efd795ecad9f9",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:35.076460+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_0.5_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_0.5_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_0.5_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1237176,
+      "status": "verified",
+      "sha256": "d75a124cd8e68d79beb5ada7ae17768bb4ac10e90a9913b13225d0781542cfa5",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:04.114613+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_0.5_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_0.5_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 22.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_2.0_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1224345,
+      "status": "verified",
+      "sha256": "c1d1ff626d2f5cd453865c288cddbd801be114c921ea319719b5a8a6d985a380",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:28:58.982167+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_2.0_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_2.0_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_2.0_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1227274,
+      "status": "verified",
+      "sha256": "387d94aeb58a20bb423cecd1b4478c8e70340765a6ba0ff160f23e5a931fdeaf",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:45.274824+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_2.0_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_2.0_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_2.0_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1237753,
+      "status": "verified",
+      "sha256": "7b3a4392487d988a2df54a706b3333de49655f58a92d5bf424cfd8ea60ff11b8",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:06.592086+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_2.0_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_2.0_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 21.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_5.0_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1231417,
+      "status": "verified",
+      "sha256": "ebab7e1156b3782b15b6f2621e93e2ea57a6273d63b9e77b4a9c4c2b877c7b39",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:08.987778+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_5.0_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_5.0_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_5.0_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1233628,
+      "status": "verified",
+      "sha256": "d25410cf84469863fd2412a1aa9f87d63fbab95e4c201b5810b247b5008a59bb",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:18.969083+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_5.0_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_5.0_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_friction_5.0_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1235220,
+      "status": "verified",
+      "sha256": "b8cd26b96dfaa2082743973b1ba15954e888373b3f097dc38a8a775233373f5c",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:17.751470+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_friction_5.0_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_friction_5.0_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 79.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_0.1_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 531167,
+      "status": "verified",
+      "sha256": "722ff40564d3b942eb138ed7010b48bf70502dc8038575b75ca2c893b738894f",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:21.009355+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_0.1_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_0.1_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_0.1_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 494057,
+      "status": "verified",
+      "sha256": "24050e9afa5ba2610539eb1fdeb36cdd376a7bf64d68ed2654a5a35eefd40311",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:25.480959+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_0.1_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_0.1_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_0.1_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1238707,
+      "status": "verified",
+      "sha256": "0a3ef1714102ad765b16ec8de11f7f67cd644f47c862ec8c9db9cc67d2736050",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:35.572368+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_0.1_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_0.1_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 164.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_0.5_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1236249,
+      "status": "verified",
+      "sha256": "6edcb14395e03334038232454e7f89067e5d85d9f665f2cd907e790b3e0c0cda",
+      "rows": 5000,
+      "downloaded_at": "2026-09-19T08:06:13.424714+00:00",
+      "reused": true,
+      "official_drive_path": "mujoco/ant_gravity_0.5_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_0.5_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_0.5_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1164857,
+      "status": "verified",
+      "sha256": "4bf33524bfd0771589475bf6fba09f68a79d6a3ce572599f3f31ac9b58692dbd",
+      "rows": 5000,
+      "downloaded_at": "2026-09-19T08:06:13.428715+00:00",
+      "reused": true,
+      "official_drive_path": "mujoco/ant_gravity_0.5_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_0.5_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_0.5_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1236986,
+      "status": "verified",
+      "sha256": "ce558d6dc5797712aaf5f0ad95ecfefaddf05395713e8372acc216b5f849a446",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:52.300082+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_0.5_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_0.5_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 58.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_2.0_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1230776,
+      "status": "verified",
+      "sha256": "a44bdd0353a38b0ad98f89b96c3c054b303232685e5224c57ec52d29e6ee0d46",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:38.286621+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_2.0_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_2.0_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_2.0_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1232547,
+      "status": "verified",
+      "sha256": "ae2ac807090b04fd702724a09efafa966a7698d193ef0f4544ce038f67e5c697",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:53.882747+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_2.0_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_2.0_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_2.0_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1236141,
+      "status": "verified",
+      "sha256": "9fc023e261f7c9823e4580d108ea284812d2157fbb34ac8d890308272c5d519a",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:45.769999+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_2.0_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_2.0_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 6.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_5.0_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1230820,
+      "status": "verified",
+      "sha256": "61637b42dac326333d2d3527f8fbb23b2b0a459f4cf94db7fc8f18f650e182dc",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:49.083900+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_5.0_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_5.0_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_5.0_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1233433,
+      "status": "verified",
+      "sha256": "f84880f77ba6e678989e727f43167ed8a37257bfcbb6e5f1d6d3f06445e17f4d",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:55.669614+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_5.0_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_5.0_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_gravity_5.0_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1236251,
+      "status": "verified",
+      "sha256": "9b24511689250016e472b78ce2c83551c6bceba3886e422e2f5bf06b92872b48",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:57.220827+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_gravity_5.0_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_gravity_5.0_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_easy_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1226157,
+      "status": "verified",
+      "sha256": "b49e6e9bc6d317dd50ed92bb8363b0a745cd514dc90d95a19edb9e14ca86817b",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:29:58.802850+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_easy_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_easy_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_easy_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1228682,
+      "status": "verified",
+      "sha256": "bc255ca58e9813bada78fe9356bb8cefee09eb767696b9d96cc0fcd3a7faad10",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:00.463622+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_easy_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_easy_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_easy_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1236323,
+      "status": "verified",
+      "sha256": "77ee518c253e7c0c54cc94a81d69236dced4baae77ce646e31e911446801c601",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:07.421951+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_easy_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_easy_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 20.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_hard_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1234576,
+      "status": "verified",
+      "sha256": "fa7769887a054440fc131c263c20b626ff4e41f2bff1b1fd65fb51e624dec52b",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:08.593414+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_hard_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_hard_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_hard_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1235484,
+      "status": "verified",
+      "sha256": "b1a0073eb634000e2574715b8e32f8625dd9826f5dc3a455ec463837a2cdf74d",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:08.793517+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_hard_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_hard_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_hard_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1237626,
+      "status": "verified",
+      "sha256": "984117cc7b8efc2ef7272be06c10f39028ed9f8cbff3113bb4e34b4802a263fa",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:09.428102+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_hard_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_hard_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_medium_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1232237,
+      "status": "verified",
+      "sha256": "324cc175f81a4d3859f4a22fd43aa30889eae75ebfd1cf1f299d064c18ed7d16",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:11.693286+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_medium_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_medium_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1100346,
+      "status": "verified",
+      "sha256": "8404c0044489210b475a85cb15a5832d049647c3338d506bfcf885eed380d1dd",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:21.782795+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_anklejnt_medium_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1236665,
+      "status": "verified",
+      "sha256": "ea83f695f7a2cec3335fd650cde5533fbb583a3b2b859f09ad44f81153b0f58c",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:17.148779+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_anklejnt_medium_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_anklejnt_medium_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 18.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_easy_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1225477,
+      "status": "verified",
+      "sha256": "eb1f8af89d997ad5c375929b181e7aa9866e42f08b16d186b6246fb05749c384",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:18.244361+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_easy_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_easy_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_easy_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1227779,
+      "status": "verified",
+      "sha256": "9387bcf031c1e9f59306dc4538879d2a7aa53d964a100c7a4db7ec358b9b6cd3",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:22.462556+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_easy_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_easy_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_easy_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1238713,
+      "status": "verified",
+      "sha256": "e81e4a84ce6f5fe64e08c4c2d30a76e5cb9e3efcddbf015b86b950b82a4b96ed",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:55.922190+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_easy_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_easy_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 38.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_hard_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1239959,
+      "status": "verified",
+      "sha256": "b45d407ff0bfea81c70529272802ccc973f88a144441871f573606e4bd1ee3ca",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:28.097680+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_hard_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_hard_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_hard_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1240000,
+      "status": "verified",
+      "sha256": "94a783746e6d686ac93c81801f66541c67971fd2febe84befea53415e1d3baf0",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:27.837390+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_hard_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_hard_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_hard_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1240896,
+      "status": "verified",
+      "sha256": "889d8cce75faa675af003bc81a07bc81fedc283ba950da7c6a9c2a05f7b136a4",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:32.122726+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_hard_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_hard_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 31.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_medium_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1233020,
+      "status": "verified",
+      "sha256": "2ebb2e5edfc281f621fb5c5ac4ff6d569e28a6ec27105195bb7f8f5021936cb9",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:40.672047+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_medium_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_medium_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1234972,
+      "status": "verified",
+      "sha256": "282ea0f5f8396bd7e4376abdd7bd792f57294d5cfbf64302e5d067f2d89763e8",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:37.888991+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_kinematic_hipjnt_medium_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1238095,
+      "status": "verified",
+      "sha256": "aa9c44777478837145dbedb885b74353515b4ed0dc062f23f150d68843e382a9",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:38.237745+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_kinematic_hipjnt_medium_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_kinematic_hipjnt_medium_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 23.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_easy_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1224896,
+      "status": "verified",
+      "sha256": "47148953db7679e0c39c05cea36b04426ea976f2fb3b687d26d0db4c6d015c65",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:41.741241+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_easy_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_easy_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_easy_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1227574,
+      "status": "verified",
+      "sha256": "8acd8986e4d70eabcf64c7b9833abd50791ddd49dc5b6c84f95badec71d86d6b",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:47.477064+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_easy_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_easy_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_easy_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1237397,
+      "status": "verified",
+      "sha256": "026864caa670977d9479f018ebec301420ed2250c09e11f09f756865b78a3e40",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:53.150796+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_easy_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_easy_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 12.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_hard_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 640869,
+      "status": "verified",
+      "sha256": "b800a2d688224fa79e9a2d08e82e61cf207ad69d1b8c64cb42796f44b1a664e8",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:48.162033+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_hard_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_hard_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_hard_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 410173,
+      "status": "verified",
+      "sha256": "2a6496493f29f1143f350196c988061c3ece929a78ba07621d57d2ec466a7435",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:49.536710+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_hard_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_hard_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_hard_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1239989,
+      "status": "verified",
+      "sha256": "afd6a0006db07931de7fb80f7ebbcf9e0e54a3aba48a3b2a40652ea50bb2daa7",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:56.360197+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_hard_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_hard_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_medium_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1235007,
+      "status": "verified",
+      "sha256": "282411d3e53596ee40300389f026cb92ed004a2f6a738766e3247cc74ef810ea",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:05.787026+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_medium_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_medium_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1228943,
+      "status": "verified",
+      "sha256": "21f71f6b9cc98eef49282a691653489e5246c0af7c125dd7ad6fb37230aceb7d",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:30:58.358079+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_alllegs_medium_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1238436,
+      "status": "verified",
+      "sha256": "23ad791e5e9838b3cb9b0b64f43de062e4a5fd55ffc206a73112bd5cc95c8845",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:02.908362+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_alllegs_medium_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_alllegs_medium_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_easy_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1231871,
+      "status": "verified",
+      "sha256": "3424046d8ad8672d0f8eeb99fadd2b16f20a1be0ca8cb19a9bd78a690267cb53",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:06.486970+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_easy_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_easy_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_easy_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1230378,
+      "status": "verified",
+      "sha256": "0962043384cea5f657250430244ca2430261727978890aa711f249e4b4a08343",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:11.520523+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_easy_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_easy_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 1.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_easy_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1237409,
+      "status": "verified",
+      "sha256": "124af1312a92d4feb73ad061b1d50361701bef73a4de5b4fcb10d3c055ed0c2a",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:22.896490+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_easy_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_easy_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 6.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_hard_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1235127,
+      "status": "verified",
+      "sha256": "fc57c0062a6ea823162a2837e04e8c4e3278b4135d5b703c7580cd604dc374fe",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:27.068636+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_hard_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_hard_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_hard_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1233022,
+      "status": "verified",
+      "sha256": "c434c94f8c1c8b3b74aae34aa2402ff6fa68c7de47057e0eaf09b3f5901aebc6",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:21.063262+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_hard_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_hard_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_hard_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1237268,
+      "status": "verified",
+      "sha256": "a4eb8226c34289a6f1593147ed86cf55d6eed01c74fe94ff785b5165218de626",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:22.577487+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_hard_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_hard_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 2.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_medium_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 1229774,
+      "status": "verified",
+      "sha256": "fd19d46da9a8afe1eb17211e3b2c910f2ead3564e87e90a67c8cf47f13c9f565",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:38.471059+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_medium_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_medium_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 1226692,
+      "status": "verified",
+      "sha256": "ee65d7af68397e60316c9bd729062bb3963ca12ba4ecf3a39e29229631f8eb85",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:30.579183+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "ant_morph_halflegs_medium_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 1237209,
+      "status": "verified",
+      "sha256": "d55c2f40db805f2cc316b097d97cb2bad678ade0825047df97339d1152567f23",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:41.059311+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/ant_morph_halflegs_medium_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/ant_morph_halflegs_medium_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          111
+        ],
+        "actions": [
+          5000,
+          8
+        ],
+        "next_observations": [
+          5000,
+          111
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 4.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        111,
+        8
+      ],
+      "expected_dimensions": [
+        111,
+        8
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_0.1_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 787109,
+      "status": "verified",
+      "sha256": "a282d6f37fc7b5a7f9a4042c4f913115c81dca286ed79c13066f911bbed73b5b",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:41.541957+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_0.1_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_0.1_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_0.1_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 788623,
+      "status": "verified",
+      "sha256": "30f2ac479f98d466dedf3c27b045eca5af4ee245a7ff9d8d8795cfd7663934fc",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:40.513772+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_0.1_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_0.1_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_0.1_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 796095,
+      "status": "verified",
+      "sha256": "40dd87c92e10177f674f2a9ab0a1e2ae3cfaa6dce53c258b967fc89a0ba2c95e",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:50.318204+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_0.1_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_0.1_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_0.5_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 792843,
+      "status": "verified",
+      "sha256": "96ab45123c081065a141a7ff1f4c2612b4bc495ee643afec5fd17bd47217f062",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:51.724636+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_0.5_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_0.5_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_0.5_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 793597,
+      "status": "verified",
+      "sha256": "1871590ee118b3ad9086d2122c7fac72dc33fc2bd393c6b778348fff7aee99ed",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:49.113115+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_0.5_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_0.5_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_0.5_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 795927,
+      "status": "verified",
+      "sha256": "1c3e5a484a01b214880e3e4467ff44d09223a48daac3ccfd654fa875ddde1ecb",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:52.605095+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_0.5_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_0.5_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_2.0_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 791057,
+      "status": "verified",
+      "sha256": "d7f6835d53c08e04e218fbd3dd2b98f8ed13e25dc0767dafc5056bcc4178f8ae",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:56.676345+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_2.0_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_2.0_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_2.0_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 792293,
+      "status": "verified",
+      "sha256": "7ff85b14f148c1e1561b143727d2730cd0f54d33c559ace01d961a79c2041736",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:31:58.875835+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_2.0_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_2.0_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_2.0_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 795706,
+      "status": "verified",
+      "sha256": "d806c7d8b02742bc3b71d236ca1d03171b4f20f72c7c20102f2d0558575a9411",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:01.879627+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_2.0_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_2.0_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_5.0_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 532122,
+      "status": "verified",
+      "sha256": "71ca3420db2c5813bdec2ea5153ad0b85313599ef9bc8caaff0f1cbee7d22a5a",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:00.534084+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_5.0_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_5.0_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_5.0_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 789710,
+      "status": "verified",
+      "sha256": "263682ba5a532b041d7668fb26b1b061ccf4beb1c584a339bbab1cbb41c6ff22",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:11.980419+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_5.0_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_5.0_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_friction_5.0_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 795204,
+      "status": "verified",
+      "sha256": "42c40103d729964c39eed70c21b2dafa6aa1e77c784387d6338e4c6cdcc7ab3a",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:17.251398+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_friction_5.0_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_friction_5.0_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_0.1_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 796859,
+      "status": "verified",
+      "sha256": "5f88b8ff1091f2747191f3c52de93990b2ad1be90df3f29c1ebdbb16f927e56c",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:04.633246+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_0.1_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_0.1_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_0.1_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 799791,
+      "status": "verified",
+      "sha256": "43219454feeee58cc2d93ed99422b90de02c3640018f2de269dbe5d78b88848c",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:07.838223+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_0.1_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_0.1_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_0.1_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 796387,
+      "status": "verified",
+      "sha256": "a67e5164a0f6edf325b01e91e1587c53a84c93530a53c8694008e432825382f0",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:12.470123+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_0.1_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_0.1_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_0.5_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 792805,
+      "status": "verified",
+      "sha256": "f75125ed80852a6855a4316b3ba4b1762c4bac2575fb8f058c02138f65649bde",
+      "rows": 5000,
+      "downloaded_at": "2026-09-19T08:06:13.467483+00:00",
+      "reused": true,
+      "official_drive_path": "mujoco/halfcheetah_gravity_0.5_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_0.5_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_0.5_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 795044,
+      "status": "verified",
+      "sha256": "e78575924145cd27532a1add69dcd6da3861a5fb958182fc46fd8884097b464d",
+      "rows": 5000,
+      "downloaded_at": "2026-09-19T08:06:13.470483+00:00",
+      "reused": true,
+      "official_drive_path": "mujoco/halfcheetah_gravity_0.5_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_0.5_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_0.5_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 795757,
+      "status": "verified",
+      "sha256": "647a0bb7b954cb5d3e8c14bd3ae1470f23a717bccc2a14dea9a271ae9ba0ff39",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:15.653108+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_0.5_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_0.5_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_2.0_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 614726,
+      "status": "verified",
+      "sha256": "cf03a3ac0c50814b6dfa5653fe66d866b216e6a8c26db79684cd5ca50d16bde4",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:15.150099+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_2.0_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_2.0_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_2.0_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 788051,
+      "status": "verified",
+      "sha256": "02dc7e7dbba77b48ac547d2b5a61e521d4215d255ffd1621dfa7554341cf1676",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:18.552778+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_2.0_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_2.0_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_2.0_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 793517,
+      "status": "verified",
+      "sha256": "7b0e3228cf1939e73e8afe10060974df6363533e5410e70d4e2bb3856c44c625",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:20.297726+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_2.0_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_2.0_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_5.0_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 778653,
+      "status": "verified",
+      "sha256": "96622ce0c6b48a206cf58facb102255d4453c238b998d12a66609ab951b6aba0",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:24.038421+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_5.0_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_5.0_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_5.0_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 784263,
+      "status": "verified",
+      "sha256": "5e3e42f8b822b048b63d09daab40edd44c7f42e34348183120cfa584ff4bfa40",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:24.810328+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_5.0_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_5.0_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_gravity_5.0_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 792474,
+      "status": "verified",
+      "sha256": "fa02a87d33cde56aa8975876b7071fb219d4481d755d9f341eb458f00d834d90",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:25.276475+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_gravity_5.0_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_gravity_5.0_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_easy_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 792077,
+      "status": "verified",
+      "sha256": "f78d4f80e6e1dc9f99c355e488d4506823cee2771476774c72ab860876d65386",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:27.910890+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_easy_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_easy_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_easy_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 791188,
+      "status": "verified",
+      "sha256": "8069654384a99666a16e46af6fefff9642b1a6e2c05dc131e57d2d5de03def59",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:28.251851+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_easy_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_easy_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_easy_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 795381,
+      "status": "verified",
+      "sha256": "a6ac34ad9c3fccea8618c18d0cf46fcb57eb55bbdd4cd42138759ff88f495af3",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:31.688767+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_easy_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_easy_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_hard_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 797409,
+      "status": "verified",
+      "sha256": "e836b2f9fa7a0c4f0e0e00235ea68fdca6ef6e9a3e93ff77cda7020be39e063b",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:35.375007+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_hard_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_hard_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_hard_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 796691,
+      "status": "verified",
+      "sha256": "48a562dd4c51599b245e094afc534523e3698ace225fa85a6cd476f2a8881267",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:34.147230+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_hard_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_hard_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_hard_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 797852,
+      "status": "verified",
+      "sha256": "67761f79e420042b54ad03589bef1e6c31973197f2ede0e72c079d15ee760c00",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:37.919243+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_hard_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_hard_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_medium_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 792310,
+      "status": "verified",
+      "sha256": "792edec423b743ad9e30e65bfaf1f328fdd52ddf4aa9cf3f460da22132ce7839",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:37.024031+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_medium_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_medium_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 794946,
+      "status": "verified",
+      "sha256": "c889ee1e78514f849dce405059f1a6f648118e0846fc2f6b28d576f2ba468615",
+      "rows": 5000,
+      "downloaded_at": "2026-06-12T16:48:03.186663+00:00",
+      "reused": true,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_footjnt_medium_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 796067,
+      "status": "verified",
+      "sha256": "6dbd9141b294cb94812310afc1c071c01cc700c40408ea3386605804751ac5b6",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:38.943364+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_footjnt_medium_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_footjnt_medium_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_easy_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 491435,
+      "status": "verified",
+      "sha256": "c24bb04bffdccc0c70acde0c4118541a84ccd6bf29142f1bc6ad48c250fbedbf",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:41.990326+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_easy_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_easy_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_easy_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 790709,
+      "status": "verified",
+      "sha256": "35515ad1fb53902f2a68f5d2e3644c99f52793abd7d567e6718d78bdbac886f2",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:42.906055+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_easy_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_easy_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_easy_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 795601,
+      "status": "verified",
+      "sha256": "235c0f3eba548d915752e8f9c5e4d4d3fe7ff05798555422bfc39b5fccf43814",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:47.384500+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_easy_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_easy_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_hard_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 567742,
+      "status": "verified",
+      "sha256": "feae56022dc7ad5fac9645f0d292bf68371f386de9de4b5b8d07d823f36c5dce",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:52.433052+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_hard_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_hard_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_hard_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 792162,
+      "status": "verified",
+      "sha256": "f75c6d14a16407ce6ba9c439abd6ecddfce70b12b9edfac85d712c3ae780dbbe",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:48.894007+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_hard_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_hard_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_hard_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 795309,
+      "status": "verified",
+      "sha256": "a104f1d57c8bf930d0a8c6f2fb3c4c8911eaf1f7f815a9ad80a3b31638652551",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:53.328073+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_hard_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_hard_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_medium_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 672270,
+      "status": "verified",
+      "sha256": "b48d2f5b031a5c98156e172619a90e4698d2b7ab8b7f7432d5966f79ede75002",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:49.038864+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_medium_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_medium_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 791698,
+      "status": "verified",
+      "sha256": "cc8302c13845979b257f415b9d961cba3e5ac123481334dd2466e93b797a25cf",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:35.349900+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_kinematic_thighjnt_medium_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 794874,
+      "status": "verified",
+      "sha256": "2ab776a79d7b824acd97e937061ac44432639ba876a337479ad6c33fa7724837",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:58.293013+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_kinematic_thighjnt_medium_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_kinematic_thighjnt_medium_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_easy_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 785779,
+      "status": "verified",
+      "sha256": "b9e71d541ffd1a5fb1b72a55d09ee15442c532d8cbb07c43082d300e76eafebc",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:32:59.057977+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_easy_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_easy_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_easy_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 792700,
+      "status": "verified",
+      "sha256": "b888ec69d0df2456feec6e3af72bf13bd43a0d8b56f7beeb518778797f367790",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:00.522785+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_easy_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_easy_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_easy_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 793929,
+      "status": "verified",
+      "sha256": "d0434c9a822f618d5f711d48cbc4782c526c4fca083ef392e57669c15f2dfe3a",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:02.055054+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_easy_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_easy_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_hard_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 790590,
+      "status": "verified",
+      "sha256": "3f0d1dbd027526d65b80d5ca4bfa54b118c5b82579e41e4818aa631fff7241a7",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:04.923416+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_hard_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_hard_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_hard_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 792654,
+      "status": "verified",
+      "sha256": "eacbbe2d8edcfccced6370a91b337aea0db8677e3f818cccadfaa9e041fc3e4c",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:09.230339+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_hard_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_hard_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_hard_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 794031,
+      "status": "verified",
+      "sha256": "2cef392eb91be99d15dada93ae2f359fee8e2ecb1fb46637cbd414021d696359",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:13.158986+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_hard_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_hard_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_medium_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 788844,
+      "status": "verified",
+      "sha256": "bebfc30681f9a18712d3c9b4c32d98c438f687aa4600c66a701010c5fcf17526",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:10.901803+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_medium_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_medium_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 792421,
+      "status": "verified",
+      "sha256": "9834b41d25f11210caf270623d5e013d8f7f99c1550a3826c658e5dc8b61d0ef",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:14.693810+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_thigh_medium_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 793904,
+      "status": "verified",
+      "sha256": "643b3bffbf634841bb44fb34b085eea3cbef0a565208f67515f712647b7dc7b8",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:17.603992+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_thigh_medium_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_thigh_medium_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_easy_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 565292,
+      "status": "verified",
+      "sha256": "d5a730cbe5bfcb7f6c0b0f5e4f1e4b3aeb9c6a0b21309b703f93687daa1ff389",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:20.186139+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_easy_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_easy_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_easy_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 792480,
+      "status": "verified",
+      "sha256": "ec650e5cac9efb9f77214621c3e38b8c90590931678c2a68c7a7e75c40e15905",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:26.318624+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_easy_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_easy_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_easy_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 796302,
+      "status": "verified",
+      "sha256": "8f9e92162607c7429d3868e6da8b0d0b3cad144a3c1496a9ac866dff955c6b01",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:23.629641+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_easy_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_easy_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_hard_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 789515,
+      "status": "verified",
+      "sha256": "872472d58b254de0f1c8be9e41509135e2317d36ab4315b11cd5bf47c266a245",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:27.351410+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_hard_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_hard_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_hard_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 789535,
+      "status": "verified",
+      "sha256": "813a9f2880a559e5c76d6a9b0f8a52c93ba6a63fb8bf38c5d8d453b9dd03c93d",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:31.447205+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_hard_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_hard_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_hard_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 793147,
+      "status": "verified",
+      "sha256": "c4f8b06e80b146bdf1c548244f8589dca7dfd6ed5e77cc7c7746b12d6ff9b923",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:33.046404+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_hard_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_hard_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_medium_expert.hdf5",
+      "folder": "mujoco",
+      "bytes": 621333,
+      "status": "verified",
+      "sha256": "81f1e2c82fd9756096fb71989ea0b1ee9c4632e61e8976f85d1d2be7bc9124ad",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:33.462692+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_medium_expert.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_medium_expert.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 793161,
+      "status": "verified",
+      "sha256": "915f907562511c34f4d821772d1b94db237720d4cfe2ae885d339c224659ea4c",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:40.667926+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "halfcheetah_morph_torso_medium_random.hdf5",
+      "folder": "mujoco",
+      "bytes": 795018,
+      "status": "verified",
+      "sha256": "291f276bfae48ca33990c589d6d0e3b1a737fda571a0179c106250f1ca8fac06",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T22:33:38.588688+08:00",
+      "reused": false,
+      "official_drive_path": "mujoco/halfcheetah_morph_torso_medium_random.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/raw/halfcheetah_morph_torso_medium_random.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          17
+        ],
+        "actions": [
+          5000,
+          6
+        ],
+        "next_observations": [
+          5000,
+          17
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 0.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        17,
+        6
+      ],
+      "expected_dimensions": [
+        17,
+        6
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    },
+    {
+      "name": "hopper_kinematic_legjnt_medium_medium.hdf5",
+      "folder": "mujoco",
+      "bytes": 510159,
+      "status": "verified",
+      "sha256": "82f4414e6acb88523ed809b60b56838b6b68da603d75ee72eb79362515cf00d0",
+      "rows": 5000,
+      "downloaded_at": "2026-11-21T07:35:43.484000+00:00",
+      "reused": true,
+      "official_drive_path": "mujoco/hopper_kinematic_legjnt_medium_medium.hdf5",
+      "server_path": "~/odrl_target_hc_ant_20261121/legjnt_check/hopper_kinematic_legjnt_medium_medium.hdf5",
+      "shapes": {
+        "observations": [
+          5000,
+          11
+        ],
+        "actions": [
+          5000,
+          3
+        ],
+        "next_observations": [
+          5000,
+          11
+        ],
+        "rewards": [
+          5000,
+          1
+        ],
+        "terminals": [
+          5000,
+          1
+        ],
+        "timeouts": null
+      },
+      "terminal_timeout_sums": {
+        "terminals": 12.0,
+        "timeouts": null
+      },
+      "dimensions": [
+        11,
+        3
+      ],
+      "expected_dimensions": [
+        11,
+        3
+      ],
+      "dimension_match": true,
+      "expected_rows": 5000,
+      "rows_off_reference": false,
+      "fields_with_different_rows": {}
+    }
+  ],
+  "comparison": {
+    "status": "verified",
+    "old_archive": "~/odrl_target_20261115.zip",
+    "old_sha256": "82f4414e6acb88523ed809b60b56838b6b68da603d75ee72eb79362515cf00d0",
+    "official_sha256": "82f4414e6acb88523ed809b60b56838b6b68da603d75ee72eb79362515cf00d0",
+    "same_sha256": true,
+    "old_rows": 5000,
+    "official_rows": 5000,
+    "first_five_observations_exactly_equal": true
+  }
+}
