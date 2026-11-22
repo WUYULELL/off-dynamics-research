@@ -1,0 +1,11 @@
+{
+  "source": "~/odrl_target_extra_20261121/raw",
+  "kept": [
+    {
+      "task": "hopper-kinematic-footjnt-medium",
+      "file": "hopper_kinematic_footjnt_medium_medium.hdf5",
+      "sha256": "c6a64c6ddcc5f113a185076e6049c6baa75fb2304c12862a17e86369514e5134",
+      "rows": 5000
+    }
+  ]
+}

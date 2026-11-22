@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-22T03:56:09Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 19,
+  "failed": 0,
+  "progress": {
+    "W50N_hopper-kinematic-footjnt-medium_s3133": "197000/200000"
+  }
+}

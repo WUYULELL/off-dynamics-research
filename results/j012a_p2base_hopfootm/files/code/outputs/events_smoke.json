@@ -1,0 +1,66 @@
+[
+  {
+    "time": "2026-11-22T01:11:39Z",
+    "event": "start",
+    "job": "smoke_T_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T01:11:59Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T01:12:19Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T01:12:39Z",
+    "event": "start",
+    "job": "smoke_W50N_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T01:13:10Z",
+    "event": "exit",
+    "job": "smoke_T_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T01:13:10Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T01:13:10Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T01:13:40Z",
+    "event": "exit",
+    "job": "smoke_W50N_hopper-kinematic-footjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

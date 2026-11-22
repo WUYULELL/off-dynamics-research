@@ -1,0 +1,142 @@
+[
+  {
+    "id": "T_hopper-kinematic-footjnt-medium_s3129",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "T",
+    "seed": 3129,
+    "steps": 500000
+  },
+  {
+    "id": "T_hopper-kinematic-footjnt-medium_s3130",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "T",
+    "seed": 3130,
+    "steps": 500000
+  },
+  {
+    "id": "T_hopper-kinematic-footjnt-medium_s3131",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "T",
+    "seed": 3131,
+    "steps": 500000
+  },
+  {
+    "id": "T_hopper-kinematic-footjnt-medium_s3132",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "T",
+    "seed": 3132,
+    "steps": 500000
+  },
+  {
+    "id": "T_hopper-kinematic-footjnt-medium_s3133",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "T",
+    "seed": 3133,
+    "steps": 500000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-medium_s3129",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BC",
+    "seed": 3129,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-medium_s3130",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BC",
+    "seed": 3130,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-medium_s3131",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BC",
+    "seed": 3131,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-medium_s3132",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BC",
+    "seed": 3132,
+    "steps": 200000
+  },
+  {
+    "id": "BC_hopper-kinematic-footjnt-medium_s3133",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BC",
+    "seed": 3133,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-medium_s3129",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BCMIX",
+    "seed": 3129,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-medium_s3130",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BCMIX",
+    "seed": 3130,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-medium_s3131",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BCMIX",
+    "seed": 3131,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-medium_s3132",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BCMIX",
+    "seed": 3132,
+    "steps": 200000
+  },
+  {
+    "id": "BCMIX_hopper-kinematic-footjnt-medium_s3133",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "BCMIX",
+    "seed": 3133,
+    "steps": 200000
+  },
+  {
+    "id": "W50N_hopper-kinematic-footjnt-medium_s3129",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "W50N",
+    "seed": 3129,
+    "steps": 200000
+  },
+  {
+    "id": "W50N_hopper-kinematic-footjnt-medium_s3130",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "W50N",
+    "seed": 3130,
+    "steps": 200000
+  },
+  {
+    "id": "W50N_hopper-kinematic-footjnt-medium_s3131",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "W50N",
+    "seed": 3131,
+    "steps": 200000
+  },
+  {
+    "id": "W50N_hopper-kinematic-footjnt-medium_s3132",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "W50N",
+    "seed": 3132,
+    "steps": 200000
+  },
+  {
+    "id": "W50N_hopper-kinematic-footjnt-medium_s3133",
+    "task": "hopper-kinematic-footjnt-medium",
+    "group": "W50N",
+    "seed": 3133,
+    "steps": 200000
+  }
+]
