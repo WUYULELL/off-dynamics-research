@@ -1,0 +1,66 @@
+[
+  {
+    "time": "2026-11-22T03:38:55Z",
+    "event": "start",
+    "job": "smoke_T_walker2d-morph-leg-hard_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T03:39:15Z",
+    "event": "start",
+    "job": "smoke_BC_walker2d-morph-leg-hard_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T03:39:35Z",
+    "event": "start",
+    "job": "smoke_BCMIX_walker2d-morph-leg-hard_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T03:39:55Z",
+    "event": "start",
+    "job": "smoke_W50N_walker2d-morph-leg-hard_s2999",
+    "gpu": "2",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T03:40:25Z",
+    "event": "exit",
+    "job": "smoke_T_walker2d-morph-leg-hard_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T03:40:25Z",
+    "event": "exit",
+    "job": "smoke_BC_walker2d-morph-leg-hard_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T03:40:25Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_walker2d-morph-leg-hard_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T03:40:55Z",
+    "event": "exit",
+    "job": "smoke_W50N_walker2d-morph-leg-hard_s2999",
+    "gpu": "2",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]

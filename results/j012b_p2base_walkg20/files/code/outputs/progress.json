@@ -1,0 +1,13 @@
+{
+  "time": "2026-11-22T04:17:24Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 3,
+  "done": 17,
+  "failed": 0,
+  "progress": {
+    "W50N_walker2d-gravity-2.0_s3130": "199000/200000",
+    "W50N_walker2d-gravity-2.0_s3131": "198000/200000",
+    "W50N_walker2d-gravity-2.0_s3133": "198000/200000"
+  }
+}

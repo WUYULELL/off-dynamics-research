@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-22T06:24:55Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 19,
+  "failed": 0,
+  "progress": {
+    "W50N_walker2d-morph-leg-hard_s3133": "195000/200000"
+  }
+}

@@ -1,10 +1,7 @@
 {
-  "time": "2026-11-22T12:11:16+08:00",
-  "time_epoch": 1795320676,
-  "running": [
-    "j012b_p2base_walkg20",
-    "j012c_p2base_walklegh"
-  ],
+  "time": "2026-11-22T15:11:33+08:00",
+  "time_epoch": 1795331493,
+  "running": [],
   "pending": [
     "j010b_survey_walker"
   ]

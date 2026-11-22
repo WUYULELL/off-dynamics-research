@@ -1,0 +1,158 @@
+{
+  "job": "j012b_p2base_walkg20",
+  "seeds": [
+    3129,
+    3130,
+    3131,
+    3132,
+    3133
+  ],
+  "rule": {
+    "type": "descriptive phase-2 baseline; no candidate verdict, not counted by the loop (PLAN section 1 phase 2, j012)",
+    "metric": "Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j011 metric)",
+    "reported": "per group mean / SD / worst seed / episode length / fraction under 200 steps; strongest control among T, BC, BCMIX; W50N minus strongest control / BCMIX / BC / T with paired SE (descriptive); BCMIX minus BC",
+    "use": "these runs plus j011 (two original tasks) form the T / BC / BCMIX columns of the phase-2 baseline; OTDF is added later with seeds 3129-3133; candidates are then judged by the phase-2 rules in PLAN section 1",
+    "note": "Rules fixed before results. Any failed run -> no summary (failure handling). All seeds kept."
+  },
+  "tasks": {
+    "walker2d-gravity-2.0": {
+      "groups": {
+        "T": {
+          "per_seed": {
+            "3129": 42.956617585082896,
+            "3130": 44.353785031339804,
+            "3131": 40.155707831756864,
+            "3132": 38.90415911863339,
+            "3133": 41.61169242967868
+          },
+          "mean": 41.596392399298324,
+          "sd": 2.166642150591611,
+          "se": 0.9689518263278357,
+          "worst": 38.90415911863339,
+          "length_mean": 614.292,
+          "fraction_under_200": 0.0
+        },
+        "BC": {
+          "per_seed": {
+            "3129": 41.51189395057584,
+            "3130": 47.763070244231514,
+            "3131": 44.164858981724606,
+            "3132": 40.44979262946124,
+            "3133": 40.258143425586994
+          },
+          "mean": 42.82955184631603,
+          "sd": 3.1675805615268726,
+          "se": 1.4165850919562084,
+          "worst": 40.258143425586994,
+          "length_mean": 638.7,
+          "fraction_under_200": 0.0
+        },
+        "BCMIX": {
+          "per_seed": {
+            "3129": 19.399581082769764,
+            "3130": 9.683349853573002,
+            "3131": 27.550652632978434,
+            "3132": 14.884276965158529,
+            "3133": 8.277518330885197
+          },
+          "mean": 15.959075773072987,
+          "sd": 7.838175551698176,
+          "se": 3.5053386706348073,
+          "worst": 8.277518330885197,
+          "length_mean": 280.22799999999995,
+          "fraction_under_200": 0.624
+        },
+        "W50N": {
+          "per_seed": {
+            "3129": 7.540133161460948,
+            "3130": 13.956243151614675,
+            "3131": 11.364118125696775,
+            "3132": 7.7278831203151865,
+            "3133": 6.984720508837411
+          },
+          "mean": 9.514619613585,
+          "sd": 3.0265524085206716,
+          "se": 1.353515384583587,
+          "worst": 6.984720508837411,
+          "length_mean": 172.88400000000001,
+          "fraction_under_200": 0.916
+        }
+      },
+      "strong_control": "BC",
+      "candidates": {
+        "W50N": {
+          "minus_strong": {
+            "mean": -33.31493223273104,
+            "sd": 0.5681496395186538,
+            "se": 0.25408424307114214,
+            "positive": 0,
+            "diffs": [
+              -33.97176078911489,
+              -33.80682709261684,
+              -32.80074085602783,
+              -32.72190950914606,
+              -33.27342291674958
+            ]
+          },
+          "above_strong_mean": false,
+          "one_se_descriptive": false,
+          "two_se_descriptive": false,
+          "minus_BCMIX": {
+            "mean": -6.444456159487986,
+            "sd": 8.156872020013175,
+            "se": 3.647864064103097,
+            "positive": 1,
+            "diffs": [
+              -11.859447921308817,
+              4.272893298041673,
+              -16.186534507281657,
+              -7.156393844843342,
+              -1.2927978220477865
+            ]
+          },
+          "minus_BC": {
+            "mean": -33.31493223273104,
+            "sd": 0.5681496395186538,
+            "se": 0.25408424307114214,
+            "positive": 0,
+            "diffs": [
+              -33.97176078911489,
+              -33.80682709261684,
+              -32.80074085602783,
+              -32.72190950914606,
+              -33.27342291674958
+            ]
+          },
+          "minus_T": {
+            "mean": -32.081772785713326,
+            "sd": 2.8319694216112405,
+            "se": 1.2664952273846992,
+            "positive": 0,
+            "diffs": [
+              -35.416484423621945,
+              -30.39754187972513,
+              -28.791589706060087,
+              -31.1762759983182,
+              -34.62697192084127
+            ]
+          }
+        }
+      },
+      "BCMIX_minus_BC": {
+        "mean": -26.870476073243054,
+        "sd": 8.38592404880246,
+        "se": 3.7502992454545128,
+        "positive": 0,
+        "diffs": [
+          -22.112312867806075,
+          -38.07972039065851,
+          -16.614206348746173,
+          -25.565515664302715,
+          -31.980625094701796
+        ]
+      }
+    }
+  },
+  "verdicts": null,
+  "elapsed_hours": 3.1005343764358098
+}

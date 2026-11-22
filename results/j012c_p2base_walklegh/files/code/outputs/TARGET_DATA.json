@@ -1,0 +1,11 @@
+{
+  "source": "~/odrl_target_extra_20261121/raw",
+  "kept": [
+    {
+      "task": "walker2d-morph-leg-hard",
+      "file": "walker2d_morph_leg_hard_medium.hdf5",
+      "sha256": "edf18ced80b3dbd137108f1ce7297a2e46aae81315349aaf1c949fac3d8ecd09",
+      "rows": 5000
+    }
+  ]
+}

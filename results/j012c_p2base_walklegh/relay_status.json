@@ -11,13 +11,20 @@
       "time": "2026-11-22T11:38:52+08:00",
       "state": "running",
       "note": "第 1 次运行，GPU=2，上限 8 小时"
+    },
+    {
+      "time": "2026-11-22T15:11:33+08:00",
+      "state": "completed",
+      "note": "取回 11 个文件，0.0 MB，跳过 1 个（大小上限、路径或脱敏检查）"
     }
   ],
-  "state": "running",
-  "note": "第 1 次运行，GPU=2，上限 8 小时",
-  "updated_at": "2026-11-22T11:38:52+08:00",
+  "state": "completed",
+  "note": "取回 11 个文件，0.0 MB，跳过 1 个（大小上限、路径或脱敏检查）",
+  "updated_at": "2026-11-22T15:11:33+08:00",
   "gpus": "2",
   "started_at": "2026-11-22T11:38:52+08:00",
   "max_hours": 8.0,
-  "remote_dir": "~/auto_jobs/j012c_p2base_walklegh"
+  "remote_dir": "~/auto_jobs/j012c_p2base_walklegh",
+  "exit_code": 0,
+  "finished_at": "2026-11-22T15:11:33+08:00"
 }

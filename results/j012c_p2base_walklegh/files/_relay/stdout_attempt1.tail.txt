@@ -1,0 +1,204 @@
+[auto_runner] start 2026-11-22T11:38:53+08:00 host=<HOSTNAME> attempt=1 CUDA_VISIBLE_DEVICES=2 maxsec=28800
+[auto_runner] python=~/conda-envs/offdynamics38/bin/python
+[j012c_p2base_walklegh] CUDA_VISIBLE_DEVICES=2 host=<HOSTNAME>
+[j012c_p2base_walklegh 2026-11-22T03:38:54Z] GPUs ['2']
+[j012c_p2base_walklegh 2026-11-22T03:40:15Z] smoke pending 0 running 4 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:41:05Z] smoke passed 4
+[j012c_p2base_walklegh 2026-11-22T03:43:05Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:44:05Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:45:05Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:46:05Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:47:05Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:48:05Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:49:05Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:50:05Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:51:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:52:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:53:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:54:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:55:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:56:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:57:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:58:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T03:59:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:00:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:01:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:02:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:03:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:04:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:05:06Z] main pending 14 running 6 done 0 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:06:26Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:07:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:08:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:09:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:10:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:11:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:12:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:13:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:14:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:15:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:16:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:17:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:18:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:19:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:20:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:21:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:22:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:23:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:24:27Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:25:28Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:26:28Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:27:28Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:28:28Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:29:28Z] main pending 13 running 6 done 1 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:30:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:31:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:32:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:33:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:34:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:35:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:36:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:37:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:38:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:39:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:40:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:41:28Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:42:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:43:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:44:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:45:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:46:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:47:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:48:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:49:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:50:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:51:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:52:29Z] main pending 12 running 6 done 2 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:53:29Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:54:29Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:55:29Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:56:29Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:57:29Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:58:29Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T04:59:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:00:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:01:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:02:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:03:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:04:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:05:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:06:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:07:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:08:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:09:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:10:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:11:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:12:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:13:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:14:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:15:30Z] main pending 11 running 6 done 3 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:16:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:17:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:18:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:19:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:20:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:21:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:22:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:23:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:24:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:25:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:26:41Z] main pending 10 running 6 done 4 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:27:41Z] main pending 9 running 6 done 5 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:28:41Z] main pending 8 running 6 done 6 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:29:41Z] main pending 7 running 6 done 7 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:30:51Z] main pending 5 running 6 done 9 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:31:52Z] main pending 5 running 6 done 9 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:32:52Z] main pending 5 running 6 done 9 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:33:52Z] main pending 5 running 6 done 9 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:34:52Z] main pending 5 running 6 done 9 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:35:52Z] main pending 5 running 6 done 9 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:36:52Z] main pending 5 running 6 done 9 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:38:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:39:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:40:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:41:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:42:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:43:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:44:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:45:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:46:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:47:12Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:48:13Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:49:13Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:50:13Z] main pending 4 running 6 done 10 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:51:23Z] main pending 3 running 6 done 11 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:52:33Z] main pending 2 running 6 done 12 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:53:53Z] main pending 0 running 6 done 14 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:54:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:55:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:56:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:57:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:58:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T05:59:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:00:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:01:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:02:53Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:03:54Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:04:54Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:05:54Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:06:54Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:07:54Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:08:54Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:09:54Z] main pending 0 running 5 done 15 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:10:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:11:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:12:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:13:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:14:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:15:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:16:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:17:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:18:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:19:54Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:20:55Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:21:55Z] main pending 0 running 4 done 16 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:22:55Z] main pending 0 running 3 done 17 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:23:55Z] main pending 0 running 2 done 18 failed 0
+[j012c_p2base_walklegh 2026-11-22T06:24:55Z] main pending 0 running 1 done 19 failed 0
+# j012c_p2base_walklegh：第二阶段基线（不含 OTDF；描述性，不判定）
+
+种子 [3129, 3130, 3131, 3132, 3133]（与 j011 相同，使第二阶段 6 个任务用同一组种子）；T、BC、BC-混合、W50N 同机同种子。主指标 Last5（最后五个评估点平均，每点 10 回合），分数按 ODRL 参考回报归一化。本实验是第二阶段基线的一部分，不判定、不计入自动循环计数；W50N 只作描述。OTDF 在服务器恢复后用同一组种子补跑。
+
+## 预设说明（提交前写进 research/PLAN.md）
+
+- type：descriptive phase-2 baseline; no candidate verdict, not counted by the loop (PLAN section 1 phase 2, j012)
+- metric：Last5 = mean of the last five evaluation points, 10 episodes each (V21/j004-j011 metric)
+- reported：per group mean / SD / worst seed / episode length / fraction under 200 steps; strongest control among T, BC, BCMIX; W50N minus strongest control / BCMIX / BC / T with paired SE (descriptive); BCMIX minus BC
+- use：these runs plus j011 (two original tasks) form the T / BC / BCMIX columns of the phase-2 baseline; OTDF is added later with seeds 3129-3133; candidates are then judged by the phase-2 rules in PLAN section 1
+- note：Rules fixed before results. Any failed run -> no summary (failure handling). All seeds kept.
+
+## 近邻集的统计（描述性，各种子相同）
+
+- walker2d-morph-leg-hard：阈值 tau=1.534；近邻集 3631 / 999323 行（0.36%），近邻项每批单独抽 32 行（权重 0.5）；目标留一轨迹最近距离分位数 {"0.1": 0.20733560655941727, "0.5": 0.5367710291138088, "0.9": 1.5341873915305604, "0.99": 4.355743662285993}；源数据到目标最近距离分位数 {"0.01": 2.508656324683796, "0.1": 5.485429407299861, "0.5": 31.7431798473256, "0.9": 70.95473893564561}
+
+## walker2d-morph-leg-hard（强对照：BC，60.57）
+
+|组|Last5均值|SD|最差种子|回合长度|<200步比例|各种子|
+|---|---|---|---|---|---|---|
+|T（只用目标数据的 IQL）|60.00|1.12|58.33|970.5|0.00|61.0 / 59.4 / 58.3 / 60.5 / 60.8|
+|BC（只用目标数据）|60.57|0.89|59.27|975.7|0.00|61.5 / 60.4 / 60.4 / 59.3 / 61.3|
+|BC-混合（远源权重 1，无近邻项）|18.99|7.71|9.93|371.5|0.19|29.8 / 9.9 / 14.3 / 22.9 / 18.0|
+|W50N（描述性：远源权重 0.5 + 近邻项 0.5）|15.92|3.52|10.51|311.6|0.38|18.0 / 15.8 / 10.5 / 15.5 / 19.8|
+
+|组（描述）|相对强对照|配对SE|正号种子|均值高于强对照|>1SE|>2SE|相对BC-混合|相对BC|相对T|
+|---|---|---|---|---|---|---|---|---|---|
+|W50N|-44.64|1.42|0|否|否|否|-3.07（SE 3.16）|-44.64（SE 1.42）|-44.08（SE 1.15）|
+
+描述性：BC-混合 − BC -41.57（SE 3.36，0/5 正）。
+
+## 运行情况
+
+总耗时 2.8 小时。冒烟运行的回报不读取、不报告。所有种子都保留。
+
+[j012c_p2base_walklegh] exit code 0
+[auto_runner] end 2026-11-22T14:25:45+08:00 rc=0

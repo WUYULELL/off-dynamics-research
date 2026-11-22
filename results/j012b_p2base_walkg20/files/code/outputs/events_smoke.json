@@ -1,0 +1,66 @@
+[
+  {
+    "time": "2026-11-22T01:11:53Z",
+    "event": "start",
+    "job": "smoke_T_walker2d-gravity-2.0_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T01:12:13Z",
+    "event": "start",
+    "job": "smoke_BC_walker2d-gravity-2.0_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T01:12:34Z",
+    "event": "start",
+    "job": "smoke_BCMIX_walker2d-gravity-2.0_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T01:12:54Z",
+    "event": "start",
+    "job": "smoke_W50N_walker2d-gravity-2.0_s2999",
+    "gpu": "0",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-22T01:13:24Z",
+    "event": "exit",
+    "job": "smoke_T_walker2d-gravity-2.0_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T01:13:24Z",
+    "event": "exit",
+    "job": "smoke_BC_walker2d-gravity-2.0_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T01:13:24Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_walker2d-gravity-2.0_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-22T01:13:54Z",
+    "event": "exit",
+    "job": "smoke_W50N_walker2d-gravity-2.0_s2999",
+    "gpu": "0",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]
