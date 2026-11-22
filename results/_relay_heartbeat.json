@@ -1,8 +1,9 @@
 {
-  "time": "2026-11-22T03:11:29+08:00",
-  "time_epoch": 1795288289,
+  "time": "2026-11-22T08:38:10+08:00",
+  "time_epoch": 1795307890,
   "running": [
-    "j011_w50n_confirm"
+    "j011_w50n_confirm",
+    "j012d_p2base_walkg05"
   ],
   "pending": [
     "j010b_survey_walker"
