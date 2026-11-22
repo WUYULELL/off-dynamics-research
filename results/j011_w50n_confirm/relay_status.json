@@ -6,13 +6,20 @@
       "time": "2026-11-22T01:11:26+08:00",
       "state": "running",
       "note": "第 1 次运行，GPU=1，上限 16 小时"
+    },
+    {
+      "time": "2026-11-22T09:11:24+08:00",
+      "state": "completed",
+      "note": "取回 9 个文件，0.1 MB，跳过 2 个（大小上限、路径或脱敏检查）"
     }
   ],
-  "state": "running",
-  "note": "第 1 次运行，GPU=1，上限 16 小时",
+  "state": "completed",
+  "note": "取回 9 个文件，0.1 MB，跳过 2 个（大小上限、路径或脱敏检查）",
   "gpus": "1",
   "started_at": "2026-11-22T01:11:26+08:00",
   "max_hours": 16.0,
   "remote_dir": "~/auto_jobs/j011_w50n_confirm",
-  "updated_at": "2026-11-22T01:11:26+08:00"
+  "updated_at": "2026-11-22T09:11:24+08:00",
+  "exit_code": 0,
+  "finished_at": "2026-11-22T09:11:24+08:00"
 }

@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-22T01:10:17Z",
+  "phase": "main",
+  "pending": 0,
+  "running": 1,
+  "done": 59,
+  "failed": 0,
+  "progress": {
+    "W50N_walker2d-kinematic-thighjnt-hard_s3133": "200000/200000"
+  }
+}

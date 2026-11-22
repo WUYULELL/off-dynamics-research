@@ -1,0 +1,18 @@
+{
+  "job_id": "j012a_p2base_hopfootm",
+  "attempts": 1,
+  "history": [
+    {
+      "time": "2026-11-22T09:11:36+08:00",
+      "state": "running",
+      "note": "第 1 次运行，GPU=1，上限 8 小时"
+    }
+  ],
+  "state": "running",
+  "note": "第 1 次运行，GPU=1，上限 8 小时",
+  "gpus": "1",
+  "started_at": "2026-11-22T09:11:36+08:00",
+  "max_hours": 8.0,
+  "remote_dir": "~/auto_jobs/j012a_p2base_hopfootm",
+  "updated_at": "2026-11-22T09:11:36+08:00"
+}

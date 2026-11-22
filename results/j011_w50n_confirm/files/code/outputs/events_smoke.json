@@ -1,0 +1,194 @@
+[
+  {
+    "time": "2026-11-21T17:11:29Z",
+    "event": "start",
+    "job": "smoke_T_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:11:49Z",
+    "event": "start",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:12:09Z",
+    "event": "start",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:12:29Z",
+    "event": "start",
+    "job": "smoke_BC_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:12:49Z",
+    "event": "start",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:13:09Z",
+    "event": "start",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:13:39Z",
+    "event": "exit",
+    "job": "smoke_T_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:13:39Z",
+    "event": "exit",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:13:39Z",
+    "event": "exit",
+    "job": "smoke_T_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:13:39Z",
+    "event": "exit",
+    "job": "smoke_BC_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:13:39Z",
+    "event": "exit",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:13:39Z",
+    "event": "exit",
+    "job": "smoke_BC_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:13:39Z",
+    "event": "start",
+    "job": "smoke_BCMIX_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:13:59Z",
+    "event": "start",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:14:19Z",
+    "event": "start",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:14:39Z",
+    "event": "start",
+    "job": "smoke_W50N_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:14:59Z",
+    "event": "start",
+    "job": "smoke_W50N_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:15:19Z",
+    "event": "start",
+    "job": "smoke_W50N_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "1",
+    "attempt": 0
+  },
+  {
+    "time": "2026-11-21T17:15:49Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:15:49Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:15:49Z",
+    "event": "exit",
+    "job": "smoke_BCMIX_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:15:49Z",
+    "event": "exit",
+    "job": "smoke_W50N_hopper-kinematic-legjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:15:59Z",
+    "event": "exit",
+    "job": "smoke_W50N_walker2d-kinematic-thighjnt-medium_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  },
+  {
+    "time": "2026-11-21T17:16:19Z",
+    "event": "exit",
+    "job": "smoke_W50N_walker2d-kinematic-thighjnt-hard_s2999",
+    "gpu": "1",
+    "attempt": 0,
+    "returncode": 0,
+    "completed": true
+  }
+]
