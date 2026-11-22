@@ -1,0 +1,11 @@
+{
+  "source": "~/odrl_target_extra_20261121/raw",
+  "kept": [
+    {
+      "task": "walker2d-gravity-0.5",
+      "file": "walker2d_gravity_0.5_medium.hdf5",
+      "sha256": "46be0e8f4fac6c4634da2b32c2dcdb57afb57f0d488104ce3bf4610980948dd0",
+      "rows": 5000
+    }
+  ]
+}
