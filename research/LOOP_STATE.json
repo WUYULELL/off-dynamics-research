@@ -1,5 +1,5 @@
 {
-  "loop_enabled": true,
+  "loop_enabled": false,
   "last_seen_results_commit": "2cd5396fa6cd449d616afaffccdf4b779365c2cf",
   "heartbeat_alert_sent": false,
   "experiments_started": 7,
@@ -82,5 +82,10 @@
     "note": "学院 GPU 集群停机维护（按 LOOP_LOG 2026-11-21 08:25 用户更正时区后的时间：北京时间约 11-22 23:00 最后收一次结果，11-23 00:00 起停机，约 11-28 恢复），relay 暂停；此期间心跳超过 12 小时是预期的，不发心跳告警、不登记新实验。恢复后若心跳仍长期不更新，再按第 0 步告警。"
   },
   "phase": "2（2026-11-22 用户决定：对照 OTDF，6 任务筛查集，见 PLAN 第一节第二阶段目标）",
-  "phase2_note": "j011 成功不再结束循环；第二阶段第一个实验（OTDF 基线）由主研究对话准备，停机期间不登记；experiments_since_last_positive 从第二阶段第一个筛查实验起重新计数"
+  "phase2_note": "j011 成功不再结束循环；第二阶段第一个实验（OTDF 基线）由主研究对话准备，停机期间不登记；experiments_since_last_positive 从第二阶段第一个筛查实验起重新计数",
+  "paused": {
+    "at": "2026-11-23T04:00:00-05:00",
+    "by": "user",
+    "note": "用户要求暂停循环：Claude 定时任务已在 claude.ai 中禁用。恢复时需同时把 loop_enabled 改回 true，并重新启用定时任务“离线跨域RL自主实验循环”。暂停时没有正在运行的自己的任务；j010b_survey_walker（25 小时，等授权）已被 r2 取代，不需要授权。"
+  }
 }
