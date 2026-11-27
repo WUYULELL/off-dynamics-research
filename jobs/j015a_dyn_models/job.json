@@ -1,0 +1,15 @@
+{
+  "job_id": "j015a_dyn_models",
+  "description": "7 个任务×种子 3129–3133，每个（任务、种子）5 个概率动力学模型（(s,a)→(Δs,r) 高斯，NLL，4×200 SiLU）：源数据 20 万步预训练（同机器人共用）+ 目标数据微调；按轨迹 min(轨迹数,5) 折交叉校准开环误差，输出 H*(ε0)（ε0 ∈ {0.05,0.1,0.2,0.5}）与误差曲线；最终模型在全部目标数据上微调并保存（含哈希）。",
+  "hypothesis": "模型准备，不检验假设、不读回报；见 research/PLAN.md j015a 登记。",
+  "gpus": 1,
+  "max_hours": 16,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j013_adapt_preflight"
+}

@@ -1,0 +1,15 @@
+{
+  "job_id": "j014c_iqlcal",
+  "description": "计分口径核对（research/PLAN.md j014c 登记）：OTDF proportion 0 + --noreg（官方代码中的纯 IQL），hopper-kinematic-footjnt-medium 与 hopper-kinematic-legjnt-medium × 种子 3129–3133，100 万步。",
+  "hypothesis": "描述性，不判定。",
+  "gpus": 1,
+  "max_hours": 24,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j013_adapt_preflight"
+}

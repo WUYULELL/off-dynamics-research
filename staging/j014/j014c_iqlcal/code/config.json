@@ -1,0 +1,49 @@
+{
+  "job": "j014c_iqlcal",
+  "kind": "train",
+  "tasks": [
+    "hopper-kinematic-footjnt-medium",
+    "hopper-kinematic-legjnt-medium"
+  ],
+  "seeds": [
+    3129,
+    3130,
+    3131,
+    3132,
+    3133
+  ],
+  "seed_origin": 3129,
+  "groups": [
+    {
+      "name": "IQLCAL",
+      "learner": "OTDF",
+      "proportion": 0.0,
+      "noreg": true
+    }
+  ],
+  "otdf": {
+    "steps": 1000000,
+    "eval_every": 10000,
+    "save_last": 5
+  },
+  "bc": {
+    "steps": 200000,
+    "eval_every": 5000,
+    "save_last": 5
+  },
+  "preflight_candidates": [
+    "j013_adapt_preflight",
+    "j013b_adapt_preflight",
+    "j013c_adapt_preflight"
+  ],
+  "max_per_gpu": 6,
+  "mem_limit": 0.75,
+  "external_retry_max": 3,
+  "launch_gap_seconds": 20,
+  "layer_weights": {
+    "target": 1.0,
+    "far": 0.5,
+    "near": 0.5
+  },
+  "near_batch": 64
+}

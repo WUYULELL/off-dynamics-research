@@ -1,0 +1,391 @@
+{
+  "job": "j015b_offline_select",
+  "kind": "select",
+  "tasks": [
+    "hopper-kinematic-footjnt-medium",
+    "walker2d-gravity-2.0",
+    "walker2d-morph-leg-hard",
+    "hopper-kinematic-legjnt-medium",
+    "walker2d-kinematic-thighjnt-hard",
+    "walker2d-gravity-0.5",
+    "hopper-morph"
+  ],
+  "seeds": [
+    3129,
+    3130,
+    3131,
+    3132,
+    3133
+  ],
+  "candidates": [
+    "rho0",
+    "rho20T",
+    "rho80",
+    "rho100T",
+    "BC"
+  ],
+  "default": "rho80",
+  "kappas": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    3
+  ],
+  "fixed_horizons": [
+    50,
+    100,
+    200,
+    1000
+  ],
+  "starts": {
+    "trajectory": 50,
+    "uniform": 50
+  },
+  "j014_layout": {
+    "hopfootm": {
+      "3129": {
+        "rho0": "j014_s3129_hopfootm",
+        "rho20T": "j014_s3129_hopfootm",
+        "rho80": "j014_s3129_hopfootm",
+        "rho100T": "j014_s3129_hopfootm",
+        "BC": "j014_s3129_hopfootm",
+        "rho80T": "j014_s3129_hopfootm",
+        "rho80R": "j014_s3129_hopfootm"
+      },
+      "3130": {
+        "rho0": "j014_s3130_hopfootm",
+        "rho20T": "j014_s3130_hopfootm",
+        "rho80": "j014_s3130_hopfootm",
+        "rho100T": "j014_s3130_hopfootm",
+        "BC": "j014_s3130_hopfootm",
+        "rho80T": "j014_s3130_hopfootm",
+        "rho80R": "j014_s3130_hopfootm"
+      },
+      "3131": {
+        "rho0": "j014_s3131_hopfootm",
+        "rho20T": "j014_s3131_hopfootm",
+        "rho80": "j014_s3131_hopfootm",
+        "rho100T": "j014_s3131_hopfootm",
+        "BC": "j014_s3131_hopfootm",
+        "rho80T": "j014_s3131_hopfootm",
+        "rho80R": "j014_s3131_hopfootm"
+      },
+      "3132": {
+        "rho0": "j014_s3132_hopfootm",
+        "rho20T": "j014_s3132_hopfootm",
+        "rho80": "j014_s3132_hopfootm",
+        "rho100T": "j014_s3132_hopfootm",
+        "BC": "j014_s3132_hopfootm",
+        "rho80T": "j014_s3132_hopfootm",
+        "rho80R": "j014_s3132_hopfootm"
+      },
+      "3133": {
+        "rho0": "j014_s3133_hopfootm",
+        "rho20T": "j014_s3133_hopfootm",
+        "rho80": "j014_s3133_hopfootm",
+        "rho100T": "j014_s3133_hopfootm",
+        "BC": "j014_s3133_hopfootm",
+        "rho80T": "j014_s3133_hopfootm",
+        "rho80R": "j014_s3133_hopfootm"
+      }
+    },
+    "walkg20": {
+      "3129": {
+        "rho0": "j014_s3129_walkg20",
+        "rho20T": "j014_s3129_walkg20",
+        "rho80": "j014_s3129_walkg20",
+        "rho100T": "j014_s3129_walkg20",
+        "BC": "j014_s3129_walkg20",
+        "rho80T": "j014_s3129_walkg20",
+        "rho80R": "j014_s3129_walkg20"
+      },
+      "3130": {
+        "rho0": "j014_s3130_walkg20",
+        "rho20T": "j014_s3130_walkg20",
+        "rho80": "j014_s3130_walkg20",
+        "rho100T": "j014_s3130_walkg20",
+        "BC": "j014_s3130_walkg20",
+        "rho80T": "j014_s3130_walkg20",
+        "rho80R": "j014_s3130_walkg20"
+      },
+      "3131": {
+        "rho0": "j014_s3131_walkg20",
+        "rho20T": "j014_s3131_walkg20",
+        "rho80": "j014_s3131_walkg20",
+        "rho100T": "j014_s3131_walkg20",
+        "BC": "j014_s3131_walkg20",
+        "rho80T": "j014_s3131_walkg20",
+        "rho80R": "j014_s3131_walkg20"
+      },
+      "3132": {
+        "rho0": "j014_s3132_walkg20",
+        "rho20T": "j014_s3132_walkg20",
+        "rho80": "j014_s3132_walkg20",
+        "rho100T": "j014_s3132_walkg20",
+        "BC": "j014_s3132_walkg20",
+        "rho80T": "j014_s3132_walkg20",
+        "rho80R": "j014_s3132_walkg20"
+      },
+      "3133": {
+        "rho0": "j014_s3133_walkg20",
+        "rho20T": "j014_s3133_walkg20",
+        "rho80": "j014_s3133_walkg20",
+        "rho100T": "j014_s3133_walkg20",
+        "BC": "j014_s3133_walkg20",
+        "rho80T": "j014_s3133_walkg20",
+        "rho80R": "j014_s3133_walkg20"
+      }
+    },
+    "walklegh": {
+      "3129": {
+        "rho0": "j014_s3129_walklegh",
+        "rho20T": "j014_s3129_walklegh",
+        "rho80": "j014_s3129_walklegh",
+        "rho100T": "j014_s3129_walklegh",
+        "BC": "j014_s3129_walklegh",
+        "rho80T": "j014_s3129_walklegh",
+        "rho80R": "j014_s3129_walklegh"
+      },
+      "3130": {
+        "rho0": "j014_s3130_walklegh",
+        "rho20T": "j014_s3130_walklegh",
+        "rho80": "j014_s3130_walklegh",
+        "rho100T": "j014_s3130_walklegh",
+        "BC": "j014_s3130_walklegh",
+        "rho80T": "j014_s3130_walklegh",
+        "rho80R": "j014_s3130_walklegh"
+      },
+      "3131": {
+        "rho0": "j014_s3131_walklegh",
+        "rho20T": "j014_s3131_walklegh",
+        "rho80": "j014_s3131_walklegh",
+        "rho100T": "j014_s3131_walklegh",
+        "BC": "j014_s3131_walklegh",
+        "rho80T": "j014_s3131_walklegh",
+        "rho80R": "j014_s3131_walklegh"
+      },
+      "3132": {
+        "rho0": "j014_s3132_walklegh",
+        "rho20T": "j014_s3132_walklegh",
+        "rho80": "j014_s3132_walklegh",
+        "rho100T": "j014_s3132_walklegh",
+        "BC": "j014_s3132_walklegh",
+        "rho80T": "j014_s3132_walklegh",
+        "rho80R": "j014_s3132_walklegh"
+      },
+      "3133": {
+        "rho0": "j014_s3133_walklegh",
+        "rho20T": "j014_s3133_walklegh",
+        "rho80": "j014_s3133_walklegh",
+        "rho100T": "j014_s3133_walklegh",
+        "BC": "j014_s3133_walklegh",
+        "rho80T": "j014_s3133_walklegh",
+        "rho80R": "j014_s3133_walklegh"
+      }
+    },
+    "hoplegm": {
+      "3129": {
+        "rho0": "j014_s3129_hoplegm",
+        "rho20T": "j014_s3129_hoplegm",
+        "rho80": "j014_s3129_hoplegm",
+        "rho100T": "j014_s3129_hoplegm",
+        "BC": "j014_s3129_hoplegm",
+        "rho80T": "j014_s3129_hoplegm",
+        "rho80R": "j014_s3129_hoplegm"
+      },
+      "3130": {
+        "rho0": "j014_s3130_hoplegm",
+        "rho20T": "j014_s3130_hoplegm",
+        "rho80": "j014_s3130_hoplegm",
+        "rho100T": "j014_s3130_hoplegm",
+        "BC": "j014_s3130_hoplegm",
+        "rho80T": "j014_s3130_hoplegm",
+        "rho80R": "j014_s3130_hoplegm"
+      },
+      "3131": {
+        "rho0": "j014_s3131_hoplegm",
+        "rho20T": "j014_s3131_hoplegm",
+        "rho80": "j014_s3131_hoplegm",
+        "rho100T": "j014_s3131_hoplegm",
+        "BC": "j014_s3131_hoplegm",
+        "rho80T": "j014_s3131_hoplegm",
+        "rho80R": "j014_s3131_hoplegm"
+      },
+      "3132": {
+        "rho0": "j014_s3132_hoplegm",
+        "rho20T": "j014_s3132_hoplegm",
+        "rho80": "j014_s3132_hoplegm",
+        "rho100T": "j014_s3132_hoplegm",
+        "BC": "j014_s3132_hoplegm",
+        "rho80T": "j014_s3132_hoplegm",
+        "rho80R": "j014_s3132_hoplegm"
+      },
+      "3133": {
+        "rho0": "j014_s3133_hoplegm",
+        "rho20T": "j014_s3133_hoplegm",
+        "rho80": "j014_s3133_hoplegm",
+        "rho100T": "j014_s3133_hoplegm",
+        "BC": "j014_s3133_hoplegm",
+        "rho80T": "j014_s3133_hoplegm",
+        "rho80R": "j014_s3133_hoplegm"
+      }
+    },
+    "walkthih": {
+      "3129": {
+        "rho0": "j014_s3129_walkthih",
+        "rho20T": "j014_s3129_walkthih",
+        "rho80": "j014_s3129_walkthih",
+        "rho100T": "j014_s3129_walkthih",
+        "BC": "j014_s3129_walkthih",
+        "rho80T": "j014_s3129_walkthih",
+        "rho80R": "j014_s3129_walkthih"
+      },
+      "3130": {
+        "rho0": "j014_s3130_walkthih",
+        "rho20T": "j014_s3130_walkthih",
+        "rho80": "j014_s3130_walkthih",
+        "rho100T": "j014_s3130_walkthih",
+        "BC": "j014_s3130_walkthih",
+        "rho80T": "j014_s3130_walkthih",
+        "rho80R": "j014_s3130_walkthih"
+      },
+      "3131": {
+        "rho0": "j014_s3131_walkthih",
+        "rho20T": "j014_s3131_walkthih",
+        "rho80": "j014_s3131_walkthih",
+        "rho100T": "j014_s3131_walkthih",
+        "BC": "j014_s3131_walkthih",
+        "rho80T": "j014_s3131_walkthih",
+        "rho80R": "j014_s3131_walkthih"
+      },
+      "3132": {
+        "rho0": "j014_s3132_walkthih",
+        "rho20T": "j014_s3132_walkthih",
+        "rho80": "j014_s3132_walkthih",
+        "rho100T": "j014_s3132_walkthih",
+        "BC": "j014_s3132_walkthih",
+        "rho80T": "j014_s3132_walkthih",
+        "rho80R": "j014_s3132_walkthih"
+      },
+      "3133": {
+        "rho0": "j014_s3133_walkthih",
+        "rho20T": "j014_s3133_walkthih",
+        "rho80": "j014_s3133_walkthih",
+        "rho100T": "j014_s3133_walkthih",
+        "BC": "j014_s3133_walkthih",
+        "rho80T": "j014_s3133_walkthih",
+        "rho80R": "j014_s3133_walkthih"
+      }
+    },
+    "walkg05": {
+      "3129": {
+        "rho0": "j014_s3129_walkg05",
+        "rho20T": "j014_s3129_walkg05",
+        "rho80": "j014_s3129_walkg05",
+        "rho100T": "j014_s3129_walkg05",
+        "BC": "j014_s3129_walkg05",
+        "rho80T": "j014_s3129_walkg05",
+        "rho80R": "j014_s3129_walkg05"
+      },
+      "3130": {
+        "rho0": "j014_s3130_walkg05",
+        "rho20T": "j014_s3130_walkg05",
+        "rho80": "j014_s3130_walkg05",
+        "rho100T": "j014_s3130_walkg05",
+        "BC": "j014_s3130_walkg05",
+        "rho80T": "j014_s3130_walkg05",
+        "rho80R": "j014_s3130_walkg05"
+      },
+      "3131": {
+        "rho0": "j014_s3131_walkg05",
+        "rho20T": "j014_s3131_walkg05",
+        "rho80": "j014_s3131_walkg05",
+        "rho100T": "j014_s3131_walkg05",
+        "BC": "j014_s3131_walkg05",
+        "rho80T": "j014_s3131_walkg05",
+        "rho80R": "j014_s3131_walkg05"
+      },
+      "3132": {
+        "rho0": "j014_s3132_walkg05",
+        "rho20T": "j014_s3132_walkg05",
+        "rho80": "j014_s3132_walkg05",
+        "rho100T": "j014_s3132_walkg05",
+        "BC": "j014_s3132_walkg05",
+        "rho80T": "j014_s3132_walkg05",
+        "rho80R": "j014_s3132_walkg05"
+      },
+      "3133": {
+        "rho0": "j014_s3133_walkg05",
+        "rho20T": "j014_s3133_walkg05",
+        "rho80": "j014_s3133_walkg05",
+        "rho100T": "j014_s3133_walkg05",
+        "BC": "j014_s3133_walkg05",
+        "rho80T": "j014_s3133_walkg05",
+        "rho80R": "j014_s3133_walkg05"
+      }
+    },
+    "hopmorph": {
+      "3129": {
+        "rho0": "j014_s3129_hopmorph",
+        "rho20T": "j014_s3129_hopmorph",
+        "rho80": "j014_s3129_hopmorph",
+        "rho100T": "j014_s3129_hopmorph",
+        "BC": "j014_s3129_hopmorph",
+        "rho80T": "j014_s3129_hopmorph",
+        "rho80R": "j014_s3129_hopmorph"
+      },
+      "3130": {
+        "rho0": "j014_s3130_hopmorph",
+        "rho20T": "j014_s3130_hopmorph",
+        "rho80": "j014_s3130_hopmorph",
+        "rho100T": "j014_s3130_hopmorph",
+        "BC": "j014_s3130_hopmorph",
+        "rho80T": "j014_s3130_hopmorph",
+        "rho80R": "j014_s3130_hopmorph"
+      },
+      "3131": {
+        "rho0": "j014_s3131_hopmorph",
+        "rho20T": "j014_s3131_hopmorph",
+        "rho80": "j014_s3131_hopmorph",
+        "rho100T": "j014_s3131_hopmorph",
+        "BC": "j014_s3131_hopmorph",
+        "rho80T": "j014_s3131_hopmorph",
+        "rho80R": "j014_s3131_hopmorph"
+      },
+      "3132": {
+        "rho0": "j014_s3132_hopmorph",
+        "rho20T": "j014_s3132_hopmorph",
+        "rho80": "j014_s3132_hopmorph",
+        "rho100T": "j014_s3132_hopmorph",
+        "BC": "j014_s3132_hopmorph",
+        "rho80T": "j014_s3132_hopmorph",
+        "rho80R": "j014_s3132_hopmorph"
+      },
+      "3133": {
+        "rho0": "j014_s3133_hopmorph",
+        "rho20T": "j014_s3133_hopmorph",
+        "rho80": "j014_s3133_hopmorph",
+        "rho100T": "j014_s3133_hopmorph",
+        "BC": "j014_s3133_hopmorph",
+        "rho80T": "j014_s3133_hopmorph",
+        "rho80R": "j014_s3133_hopmorph"
+      }
+    }
+  },
+  "dyn_candidates": [
+    "j015a_dyn_models",
+    "j015a2_dyn_models",
+    "j015a3_dyn_models"
+  ],
+  "preflight_candidates": [
+    "j013_adapt_preflight",
+    "j013b_adapt_preflight",
+    "j013c_adapt_preflight"
+  ],
+  "max_per_gpu": 6,
+  "mem_limit": 0.75,
+  "external_retry_max": 3,
+  "launch_gap_seconds": 20
+}

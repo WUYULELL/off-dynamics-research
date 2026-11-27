@@ -1,0 +1,72 @@
+{
+  "job": "j014_s3130_hopfootm",
+  "kind": "train",
+  "tasks": [
+    "hopper-kinematic-footjnt-medium"
+  ],
+  "seeds": [
+    3130
+  ],
+  "seed_origin": 3129,
+  "groups": [
+    {
+      "name": "rho0",
+      "learner": "OTDF",
+      "proportion": 0.0
+    },
+    {
+      "name": "rho80",
+      "learner": "OTDF",
+      "proportion": 0.8
+    },
+    {
+      "name": "rho20T",
+      "learner": "OTDF",
+      "proportion": 0.2
+    },
+    {
+      "name": "rho100T",
+      "learner": "OTDF",
+      "proportion": 1.0
+    },
+    {
+      "name": "rho80T",
+      "learner": "OTDF",
+      "proportion": 0.8
+    },
+    {
+      "name": "rho80R",
+      "learner": "OTDF",
+      "proportion": 0.8
+    },
+    {
+      "name": "BC",
+      "learner": "BC"
+    }
+  ],
+  "otdf": {
+    "steps": 1000000,
+    "eval_every": 10000,
+    "save_last": 5
+  },
+  "bc": {
+    "steps": 200000,
+    "eval_every": 5000,
+    "save_last": 5
+  },
+  "preflight_candidates": [
+    "j013_adapt_preflight",
+    "j013b_adapt_preflight",
+    "j013c_adapt_preflight"
+  ],
+  "max_per_gpu": 6,
+  "mem_limit": 0.75,
+  "external_retry_max": 3,
+  "launch_gap_seconds": 20,
+  "layer_weights": {
+    "target": 1.0,
+    "far": 0.5,
+    "near": 0.5
+  },
+  "near_batch": 64
+}

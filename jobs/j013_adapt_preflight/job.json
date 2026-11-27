@@ -1,0 +1,15 @@
+{
+  "job_id": "j013_adapt_preflight",
+  "description": "自适应源数据批次预检（research/PLAN.md j013 登记）：校验全部数据、XML 与 OTDF 官方文件哈希；服务器端用官方 solve_ot 计算 7 个任务的 OT 代价并核对数组哈希；支撑统计（tau、tau_state、近邻层比例）；单元测试 a–d；7 任务×全部组别冒烟（种子 2999，不读回报）；6 进程吞吐与 j014 拆分建议；归一化对照。",
+  "hypothesis": "预检，不检验假设、不读回报；全部检查通过（PREFLIGHT.json all_passed）才能把 staging/j014 移入 jobs/。",
+  "gpus": 1,
+  "max_hours": 8,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j012d_p2base_walkg05"
+}

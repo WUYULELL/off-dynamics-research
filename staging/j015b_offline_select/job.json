@@ -1,0 +1,15 @@
+{
+  "job_id": "j015b_offline_select",
+  "description": "离线选择（research/PLAN.md j015b 登记）：在 j015a 的动力学模型中推演 j014 候选（ρ0、ρ20T、ρ80、ρ100T、BC）的 Last5 策略，主截断 H*+摔倒+(s,a) 距离>tau，及两种消融与固定步长；LCB 选择（κ ∈ {0,0.5,1,1.5,2,3}，默认 ρ80）；不读任何真实回报；输出 SELECTION.json 及哈希。",
+  "hypothesis": "选择结果的判定见 research/PLAN.md j014/j015b 登记，由 analysis_tools/j014_matrix.py 计算。",
+  "gpus": 1,
+  "max_hours": 8,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j015a_dyn_models"
+}

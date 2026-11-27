@@ -1,0 +1,15 @@
+{
+  "job_id": "j014_s3129_walkg05",
+  "description": "自适应源数据候选矩阵（research/PLAN.md j014 登记）：walker2d-gravity-0.5 × 种子 3129 × {rho0, rho80, rho20T, rho100T, rho80T, rho80R, BC}；OTDF 官方超参数（每域 128 条、权重开启、CVAE 1 万步、100 万步、每 1 万步评估 10 回合，约束系数 0.1），BC 20 万步；保存 Last5 五个点的策略。",
+  "hypothesis": "候选回报矩阵，判定见 research/PLAN.md j014 登记（全部 35 个任务结束后由 analysis_tools/j014_matrix.py 统一判定）。",
+  "gpus": 1,
+  "max_hours": 24.0,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j013_adapt_preflight"
+}

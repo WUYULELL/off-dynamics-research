@@ -1,0 +1,74 @@
+{
+  "job": "j013_adapt_preflight",
+  "kind": "preflight",
+  "tasks": [
+    "hopper-kinematic-footjnt-medium",
+    "walker2d-gravity-2.0",
+    "walker2d-morph-leg-hard",
+    "hopper-kinematic-legjnt-medium",
+    "walker2d-kinematic-thighjnt-hard",
+    "walker2d-gravity-0.5",
+    "hopper-morph"
+  ],
+  "max_per_gpu": 6,
+  "mem_limit": 0.75,
+  "external_retry_max": 3,
+  "launch_gap_seconds": 20,
+  "layer_weights": {
+    "target": 1.0,
+    "far": 0.5,
+    "near": 0.5
+  },
+  "near_batch": 64,
+  "purpose": "Preflight of the adaptive-source batch: hashes, server-side OT costs, support statistics, unit tests a-d, smoke of every group on the 7 tasks, throughput of 6 OTDF processes per GPU, normalization table.",
+  "ot": {
+    "conda_env_candidates": [
+      "otdf_ot",
+      "ot",
+      "jax"
+    ],
+    "cores_per_process": 8,
+    "max_hours": 6.0
+  },
+  "unit_tests": {
+    "steps": 300,
+    "a_tasks": [
+      "hopper-kinematic-legjnt-medium",
+      "walker2d-kinematic-thighjnt-hard"
+    ],
+    "layer_tasks": [
+      "hopper-kinematic-legjnt-medium",
+      "walker2d-kinematic-thighjnt-hard"
+    ]
+  },
+  "smoke": {
+    "seed": 2999,
+    "steps": 2000,
+    "iqlcal_tasks": [
+      "hopper-kinematic-footjnt-medium",
+      "hopper-kinematic-legjnt-medium"
+    ]
+  },
+  "throughput": {
+    "tasks": [
+      "walker2d-kinematic-thighjnt-hard",
+      "hopper-kinematic-legjnt-medium"
+    ],
+    "steps": 20000,
+    "eval_every": 10000
+  },
+  "normalization_grid": [
+    -100,
+    0,
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500,
+    4000,
+    5000
+  ],
+  "support_definition": "Distances are Euclidean in the space standardised by the per-dimension mean and standard deviation (floor 1e-3) of the target training arrays (official call_tar_dataset rows). tau = 0.9 quantile of the target (s, a) leave-one-trajectory-out nearest-neighbour distances (all points of the own trajectory excluded); tau_state: the same with states only. D_ret(rho) = first floor(rho * N) source rows sorted by the stored OT value, largest first (stable); D_near(rho) = rows of D_ret(rho) with (s, a) distance <= tau; rho80R = |D_near(0.8)| rows drawn without replacement from D_ret(0.8) with a fixed per-task seed."
+}

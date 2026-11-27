@@ -1,0 +1,15 @@
+{
+  "job_id": "j016_sim_check",
+  "description": "仿真器核对（仅分析，research/PLAN.md j016 登记）：从 j015b 的起点恢复仿真器状态，真实运行各候选策略 H*/50/100/200/1000 步，比较模型估计误差、短时真实回报与 Last5 的 Spearman 相关、H*/偏离程度/误差的关系。选择过程不使用本任务结果。",
+  "hypothesis": "描述性分析，不判定。",
+  "gpus": 1,
+  "max_hours": 12,
+  "retries": 1,
+  "conda_env": "offdynamics38",
+  "result_dirs": [
+    "outputs"
+  ],
+  "approved_by_user": false,
+  "created_by": "claude",
+  "parent_job": "j015b_offline_select"
+}

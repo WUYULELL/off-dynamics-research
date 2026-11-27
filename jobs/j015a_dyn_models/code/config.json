@@ -1,0 +1,56 @@
+{
+  "job": "j015a_dyn_models",
+  "kind": "dyn",
+  "tasks": [
+    "hopper-kinematic-footjnt-medium",
+    "walker2d-gravity-2.0",
+    "walker2d-morph-leg-hard",
+    "hopper-kinematic-legjnt-medium",
+    "walker2d-kinematic-thighjnt-hard",
+    "walker2d-gravity-0.5",
+    "hopper-morph"
+  ],
+  "seeds": [
+    3129,
+    3130,
+    3131,
+    3132,
+    3133
+  ],
+  "max_per_gpu": 6,
+  "mem_limit": 0.75,
+  "external_retry_max": 3,
+  "launch_gap_seconds": 20,
+  "model": {
+    "members": 5,
+    "hidden": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "source": {
+      "steps": 200000,
+      "batch": 512,
+      "lr": 0.001,
+      "validation_fraction": 0.02,
+      "eval_every": 5000
+    },
+    "target": {
+      "max_steps": 30000,
+      "batch": 256,
+      "lr": 0.0003,
+      "eval_every": 500,
+      "patience_evals": 20
+    },
+    "folds_max": 5,
+    "es_fraction": 0.1,
+    "eps0": [
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "quantile": 0.9
+  }
+}
